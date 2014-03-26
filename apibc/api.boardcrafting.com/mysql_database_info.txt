@@ -1,0 +1,7 @@
+db name: boardcrafting_oembed
+hostname: mysql.api.boardcrafting.com
+username: boardcrafting
+password: Usual easy one starts with 'q'
+
+connect with this command:
+mysql -u boardcrafting -p -h mysql.api.boardcrafting.com boardcrafting_oembed
