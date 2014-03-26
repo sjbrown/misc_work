@@ -5,8 +5,8 @@ from django.conf.urls.defaults import patterns
 #admin.autodiscover()
 
 urlpatterns = patterns('',
-    (r'^oembed/', 'oembed.query'),
-    (r'', 'landing_page.home'),
+    (r'^oembed/', 'oembed.oembed.query'),
+    (r'', 'oembed.landing_page.home'),
 
     # Uncomment the admin/doc line below to enable admin documentation:
     #(r'^admin/doc/', include('django.contrib.admindocs.urls')),

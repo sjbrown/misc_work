@@ -1,4 +1,5 @@
 import os
+import sys
 from settings import *
 # Django settings for oembed project.
 
@@ -6,7 +7,11 @@ DEBUG = True
 TEMPLATE_DEBUG = DEBUG
 print 'LAPTOP'
 
-BASE_DIR = os.path.dirname(os.path.dirname(__file__))
+dir_of = os.path.dirname
+BASE_DIR = dir_of(os.path.dirname(__file__))
+API_BC_COM_DIR = dir_of(BASE_DIR)
+sys.path.insert(0, API_BC_COM_DIR)
+
 
 DATABASES = {
     'default': {
