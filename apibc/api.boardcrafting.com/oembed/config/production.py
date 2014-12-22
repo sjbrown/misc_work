@@ -1,5 +1,10 @@
 # Django settings for oembed project.
+import os
+import sys
 from settings import *
+
+OEMBED_PATH = os.path.join(os.path.dirname(__file__), '..')
+sys.path.insert(0, OEMBED_PATH)
 
 DEBUG = True
 TEMPLATE_DEBUG = DEBUG
