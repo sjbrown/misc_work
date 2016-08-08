@@ -50,6 +50,9 @@ Javascript
  * For the same reasons, there's fewer instrumentation points
  * Chained promises makes success/fail/catch cases difficult to see
  * Anon functions are hard to mock & test
+ * Arrow functions! "this" is set to the this value of the enclosing
+   execution context.  Just by the 2 characters ->.  Really fails the
+   explicit-versus-implicit zen.
 
 Python
  * "def" should be "func" or "function"
