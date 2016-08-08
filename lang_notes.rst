@@ -22,10 +22,14 @@ In General
   * Debugging code:
    * Instrumenting
    * Reading stack traces
+  * Talking about code
+   * eg, being able to say "foo calls bar" rather than
+     "the third anon fn calls bar"
   * Documenting code with prose
  * Per-variable scopes seem really dumb / special-casey.  Couldn't per-block
    scopes suffice (eg let/var in JS, global/nonlocal in Python)
    - research needed here
+   - can I find an example where it's necessary or looks better?
 
 Javascript
  * long lines
@@ -35,6 +39,7 @@ Javascript
  * var / let / global
  * typing "console.log();" versus "print ..." is tiresome [1]
  * no negative array indexes
+ * slicing in general is annoying compared to Python
  * all the legacy stuff from being embedded in HTML
   * document and window and location as keywords
   * support for <!--, -->
@@ -51,11 +56,21 @@ Python
  * Corallory to the one in Javascript, you have to put quotes around all
  your key names when you're making a struct-like dict
  * "is" and == is confusing. Novices often want to use "is" everywhere
+ * implicitly returning None can get you into trouble
+  * Maybe when generating Python code, return an object whose magic methods
+    ALL raise errors, and each one has a unique id (to foil "is" comparisons)
+   * If the errors could lead back to the line of code where the guilty
+     function returned, that'd be awesome
  * instrumentation got harder in Python 3 with print()
  * "self" or "cls" must be the first-by-order argument in a function signature
+ * "elif" is silly.  but "else if" would be two tokens - confusing to novice,
+   so "elseif" is probably best.
+
 
 Coffeescript
- * allowing no-paren functions causes ambiguity
+ * allowing no-paren functions causes ambiguity / precedence hell
+  * foo a, bar c, d
+  * foo (a,b) (c,d)
 
 ==========
 Ideas
@@ -63,21 +78,24 @@ Ideas
 
 * [1] make log a keyword that exposes hooks
  * maybe paralleLOGram or math log ▱  ㏒ or "information" 🛈
- * Maybe reserve ㏒ to be a "rich instrumentation" keyword, not merely a
+  * I like 🛈 because it looks like a debugger symbol.  It's hella wide in
+    this font though.
+ * Maybe reserve 🛈  to be a "rich instrumentation" keyword, not merely a
    synonym for "print:
-  * '㏒ "some string", some_name' should act like "print"
+  * '🛈  "some string", some_name' should act like "print"
   * but it should also be something you're able to put at the beginning of any
     line and it gives useful output when the line is run, maybe caching the
     evaluation of one level deep
-  * '㏒ if a < 55:' should print "Line 63: if a < 55: | 44 < 55"
-  * '㏒ foo = 88' should print "Line 64: foo = 88"
-  * '㏒ foo = bar()' should print "Line 65: foo = bar() | 88"
+  * '🛈  if a < 55:' should print "Line 63: if a < 55: | 44 < 55"
+  * '🛈  foo = 88' should print "Line 64: foo = 88"
+  * '🛈  foo = bar()' should print "Line 65: foo = bar() | 88"
 * give most keywords a utf8 symbol
  * this might throw off alignment when we need fixed width - a test is needed
 * grammatical INDENT, like python
 * could be literal indent or symbols for "lambdas"
  * Candidate symbols:
   * ⇥ ⇤
+   * I like this one.
   * ⦗ ⦘
   * ⭲ ⭰
   * various lambdas: 𝚲𝛌  𝛬𝜆  𝝠𝝺  𝞚𝞴 Λᴧ
@@ -85,7 +103,11 @@ Ideas
  * null, None, ␀
 * No floats.  Math is rare in programming, and half the time people use
   floats, they actually want decimal.
- * Where to draw the line? strings, ints, lists, dicts, functions, classes?
+ * Also, bitwise operations are SUPER-rare, why do we have all these symbols
+   reserved for that hairy stuff?
+ * Where to draw the "it's too rare" line?
+  * I think: strings, ints, lists, dicts, functions, classes?
+   * Can these be interesting? expressions, operators, modules, ...
 * Annotations.  People seem to love them. (static typing) - maybe a way to
   make decorators more pretty.  Colon might be a good symbol here.
  * But colon is used by dicts {'a':33}.  Maybe "as".  See below.
@@ -116,15 +138,62 @@ But: this breaks static analysis!
 
 ----
 
+Classes?
+
+    Z = class(inherit=A)
+        a = 1
+
+    Z = ⟬inherit=A⟭ ⇥ a = 1 ⇤ 
+
+Instances?
+
+    z = object(class=A)
+    z = A()
+    z = ⦃⦄  # empty instance all it has is an id
+
+But *everything* is an instance so this seems a little weird.
+
+Modules?
+
+* Mostly, they should just be implied from files / file structure, but
+  interesting mocking could be done if you made them available for manipulation
+* How are modules different?  Isolated scope.  More stuff?
+* How does writing a module in a scope and then doing `import module_name` get
+  understood? Is it understood statically or dynamically?
+
+    M = module(__name__="__main__")
+        main = function()
+            pass
+        if __name__ == "__main__":
+            main()
+
+    M.__load__()
+    assertCalled(M.__namespace__.main)
+
+    M = ⎰ __name__ = "__main__"⎱  # looks too much like an L, I think
+        pass # namespace goes here
+
+    M = ⎴ __name__ = "__main__" ⎵
+        pass # namespace goes here
+
+    M = ⏞ __name__ = "__main__" ⏟ # feels like a pretty good semantic map
+        pass # namespace goes here
+
+Packages?
+
+I feel I'm too far into the woods now.
+
+----
+
 Per-block scopes
 
     baz = []
 
     a = function(a, b=3) ⊩ @scope('inherit')
-        baz.append(a + b) # baz comes from above scope
+        baz.append(a + b) # baz comes from above scope ("lexical" / "static")
 
     b = function(a, b=3) ⊩ @scope('isolate')
-        baz = [1, 2] # does not affect outer baz
+        baz = [1, 2] # does not affect outer baz (like "let" in JS)
 
     a(1) # baz is [4]
 
@@ -163,6 +232,41 @@ Maybe simulate that with a special-case of one-argument functions that only
 take strings and return strings and have no side-effects.
 
 But maybe special cases aren't special enough to justify this.
+
+This would also allow mixing in code from other languages if the goal was
+to actually intersperse and call foreign functions:
+
+    b = "asdf"
+    @JS"""
+    var c = b.substr(1);
+    """
+    # Ideally now c is in the local namespace
+    🛈  c  #Prints "sdf"
+
+Doesn't seem so hard if we make some assumptions - like it's going to be
+compiled to Javascript anyway.  This would be completely broken for compiling
+to Python
+
+Breaks our ability to statically analyze for bugs, but it's fine to give that
+power to users who know what they're doing
+
+Much like Python raw strings, it gives us a sane point to answer:
+What will be the result of the following?
+
+    @PY"""
+       a = 'Foo\n'
+    """
+
+Does this generate the python code
+
+    a = 'Foo
+    '
+
+Or the code
+
+    a = 'Foo\n'
+
+(It should be the latter)
 
 ----
 
