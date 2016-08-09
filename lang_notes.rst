@@ -37,6 +37,7 @@ Javascript
  * curly braces
  * requiring var - common should be default
  * var / let / global
+ * strict mode is very different than non-strict mode
  * typing "console.log();" versus "print ..." is tiresome [1]
  * no negative array indexes
  * slicing in general is annoying compared to Python
@@ -124,7 +125,8 @@ Ideas
 
 Annotate methods so that you don't have to type "self" or "cls" all the time.
 
-But: this breaks static analysis!
+But: this breaks static analysis! (Maybe?  If the rule was that @blah names
+affect compilation, then we might still be able to do it in limited cases)
 
     z = function(a, b=3, c="foo") \
         ⊩ @method
@@ -139,6 +141,8 @@ But: this breaks static analysis!
         cls.zap = c + self.baz
         return cls.baz
 
+    result = z(1)
+
 ----
 
 Classes?
@@ -147,6 +151,8 @@ Classes?
         a = 1
 
     Z = ⟬inherit=A⟭ ⇥ a = 1 ⇤ 
+
+    z = Z()
 
 Instances?
 
