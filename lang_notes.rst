@@ -316,9 +316,10 @@ Args and kwargs
 
 versus
 
-    z = foo(a *args) # Actually does multiplication. Easy-to-make hard-to-spot error
+    z = foo(a *args) # Actually does multiplication.
+    # Easy-to-make hard-to-spot* error
 
-So maybe instead of *, use ^.
+So maybe instead of * , use ^.
 
     def foo(a, ^args, ^^kwargs):
         pass
@@ -326,4 +327,20 @@ So maybe instead of *, use ^.
     z = foo(a, ^args, ^^kwargs)
 
     z = foo(a ^ args) # Syntax error
+
+----
+
+"Forces"
+
+Use forces on dicts to make them attr-dicts:
+
+    d = dict(a=3, b=4) ⊩ @dictattrs
+    assert d.a == d['a']
+
+Since forces can change compilation, we can make this convenient:
+
+    d = dict() ⊩ @dictnamespace
+        a = 3
+        b = 4
+    assert d['a'] == 3
 
