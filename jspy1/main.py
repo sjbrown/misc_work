@@ -25,6 +25,25 @@ from pyparsing import (
     traceParseAction,
 )
 
+keywords = '''\
+False      class      finally               return
+None       continue   for        lambda     try
+True                  from                  while
+and        del                   not        with
+as         elif       if         or         yield
+assert     else       import     pass
+break      except     in         raise
+'''
+
+# These are Python keywords, so I want to make big bold warnings for them
+reserved_words = '''\
+def
+global
+elseif
+is
+nonlocal
+'''
+
 @traceParseAction
 def debugParseAction(toks):
     pass
@@ -52,6 +71,11 @@ m_logical_operator = m_and ^ m_or
 print m_logical_operator.parseString('and')
 print m_logical_operator.parseString('or')
 
+
+m_class_private = '__' + W(alphas + alphas8bit + '_' + nums)
+
+print m_class_private('__foo')
+print m_class_private('__f_oo')
 
 m_identifier = W(initChars = alphas + alphas8bit + '_',
                  bodyChars = alphas + alphas8bit + '_' + nums)
