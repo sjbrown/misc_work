@@ -80,6 +80,12 @@ Coffeescript
 Ideas
 ==========
 
+* Motivation: I want to use Flask / Django to develop the backend API stuff
+  because of lots of library support.  I want to use React / Redux to
+  develop the frontend stuff because of library support & it HAS to be
+  Javascript.  But validation code is going to look almost IDENTICAL.
+  Wouldn't it be nice to just write the validation code once?
+
 * [1] make log a keyword that exposes hooks
  * maybe paralleLOGram or math log ▱  ㏒ or "information" 🛈
   * I like 🛈 because it looks like a debugger symbol.  It's hella wide in
