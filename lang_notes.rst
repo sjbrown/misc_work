@@ -37,6 +37,9 @@ Javascript
  * curly braces
  * requiring var - common should be default
  * var / let / global
+ * Boolean({}) is true, Boolean([]) is true, Boolean('') is false
+ * {}.length is undefined
+ * [1,2] + [3,4] is a string, "1,23,4"
  * strict mode is very different than non-strict mode
  * typing "console.log();" versus "print ..." is tiresome [1]
  * no negative array indexes
@@ -54,9 +57,25 @@ Javascript
  * Arrow functions! "this" is set to the this value of the enclosing
    execution context.  Just by the 2 characters ->.  Really fails the
    explicit-versus-implicit zen.
+ * Creating a new Error class is a minefield: https://stackoverflow.com/questions/783818/how-do-i-create-a-custom-error-in-javascript
 
 Python
  * "def" should be "func" or "function"
+ * colons are: function signature enders, for/while loop enders,
+   slice mini-lang delimiters, dict-constructing mini-lang delimiters
+  * for slicing into an array: myarray⟦:-2:4⟧, myarray⟦:⟧ (or also myarray⟦⟧)
+   * how does this work for assignment? myarray[3] = 33
+   * maybe use the @ for that instead:
+    * myarray@3 = 33
+    * myarray@i+1 = 33  # ambiguous!!
+    * mydict@'some key' = 33
+    * mydict@('key a', 'key b') = 33, 88
+   * best alternative may be different behaviour depending on which side of
+     the equals sign the symbol is on.  But that seems not great.
+  * dict-constructing mini-lang can still work d = {'a': 3}
+  * maybe reserve colons for encloser mini-langs?
+  * it's just really, really different, though.
+  * different symbols: myarray⟦2~9⟧, myarray⟦~-2|4⟧, myarray⟦⟧, myarray⟦|4⟧
  * Corallory to the one in Javascript, you have to put quotes around all
  your key names when you're making a struct-like dict
  * "is" and == is confusing. Novices often want to use "is" everywhere
@@ -99,6 +118,8 @@ Ideas
   * '🛈  if a < 55:' should print "Line 63: if a < 55: | 44 < 55"
   * '🛈  foo = 88' should print "Line 64: foo = 88"
   * '🛈  foo = bar()' should print "Line 65: foo = bar() | 88"
+  * should '🛈  some_generator_fn()' print "<generator at 0x3poin>" or turn it into a list?
+  * should '🛈  some_generator_fn()' print "<generator at 0x3poin 2, 4, 6, ...>"?
 * give most keywords a utf8 symbol
  * this might throw off alignment when we need fixed width - a test is needed
 * grammatical INDENT, like python
@@ -111,6 +132,17 @@ Ideas
   * various lambdas: 𝚲𝛌  𝛬𝜆  𝝠𝝺  𝞚𝞴 Λᴧ
 * Other use of utf8:
  * null, None, ␀
+ * ⸨⸩〖〗【】⸦⸧  ⫍⫎⦅⦆⦇⦈⦋⦌⟪⟫❨❩◜◝◟◞⎿⏌⎡⎤⌁⌁⊏⊐⁅⁆
+* No formatting mini-languages.  Python has too many:
+ * "%s" % foo, "{}".format(foo), b"%x" % val
+ * use the infix operator: "{} {}" ⧽fmt⧼ (a,b)
+ * use the infix operator: "%s %2s" ⧽%⧼ (a,b)
+  * kinda looks like a butterfly ("from butterflies import %")
+  * hard to google for the definition
+ * use the infix operator: "$foo $bar" ⧽$⧼ locals()
+ * crazy idea:  "$foo $bar" ⧽⧽$ # implies arg2 is locals()
+  * it's not very explicit, though. and I can't see other good uses
+  * hard to google for the definition
 * No floats.  Math is rare in programming, and half the time people use
   floats, they actually want decimal.
  * Also, bitwise operations are SUPER-rare, why do we have all these symbols
@@ -126,6 +158,74 @@ Ideas
   already written code using that keyword - that sucks.  So maybe reserve @
   for interpretation/compilation affecting keywords.  This also makes
   @classmethod and @property look like Python
+
+----
+
+Dynamic infix operators, maybe one of these pairs:
+ * ⨴mod⨵ ⸡mod⸠ ⭪mod⭬  ⧼mod⧽ ⥆mod⥅ ⟞mod⟝ ⚞mod⚟  ╡mod╞  ⍇mod⍈
+ * ⍅mod⍆ ⊣mod⊢  ⇐mod⇒  ↫mod↬  ↤mod↦  ↲mod↳
+ * this one is a bit confusing with "forces": ╡mod╞
+ * looks best:    asd ⧼mod⧽ fub    asd ╡mod╞ fub
+ * I like ⥆mod⥅ semantically, but the font doesn't look great
+ * improve with parens or spaces?  asd ⥆(mod)⥅ fub    asd ⥆ mod ⥅ fub
+ * reverse direction?  asd ⥅(mod)⥆ fub    asd ⥅ mod⥆ fub
+ * asd ⧽mod⧼ fub -- I like this better.  parens open to arguments.
+
+ * multi-arg? (asd, foo)⧽zip⧼(baz, fub)
+ * multi-arg? ⧼asd, foo⧽zip⧼baz, fub⧽  # I don't really like that
+
+ * I think the language should enforce a no-spaces policy on the
+   infix enclosure, otherwise it could cause bugs from being less
+   obviously infix.
+
+But: a + b invokes a.__radd__(b), should a ⧽zip⧼ b
+ * invoke a.__rzip(b)
+ * find a local name called zip and apply zip(a, b)
+ * ?
+
+Maybe in order it looks for the local name, then falls back to a.__magic?
+But then we can create ambiguous code.
+
+Maybe we have one encloser style for each behaviour?  Seems inelegant.
+ * foo ⧽zip⧼ baz executes zip(foo, baz)
+ * foo ⧼zip⧽ baz executes foo.__rzip(baz)
+
+ * foo ⧽zip⧽ baz executes foo.__rzip(baz)
+ * foo ⧼zip⧼ baz executes baz.__lzip(foo)
+
+ * Inelegant, and no predicted use.
+
+If I'm gonna do infix, what about going down this rabbit hole:
+
+    x += 5
+    x ⧼mod⧽= 5
+    x ⧽mod⧼= 5
+
+    # d = {k:v*10 for (k,v) in d}
+    d ⧼valmult⧽= 10  # what's the point though?
+
+"Apply infix function, then attach the old name to the new value"
+
+How will this deal with the infix function having side-effects?  Especially
+if it invokes a.__rmod(5)
+
+----
+
+"Enclosers".  There is a module-level attribute, "enclosers" that let special
+brackets represent function / class calls.
+
+__module__.enclosers = {
+    ⦃⦄ : numpy.array,
+}
+
+----
+
+What if you interpret __call__ as "the most common thing done with this object"?
+
+ * functions - execute code block with arguments
+ * classes - return a new instance with arguments
+ * lists - slice (args are indexes)
+ * dicts - return value at key (args are keys)
 
 ----
 
@@ -349,4 +449,53 @@ Since forces can change compilation, we can make this convenient:
         a = 3
         b = 4
     assert d['a'] == 3
+
+----
+
+Promises to async / await
+
+Example JS Code:
+
+    api.post('customers', validation.acceptableFields)
+    .then(function(response) {
+      return exports.serverResponseToValidation(response, 201);
+    })
+    .then(function(validation) {
+
+      if (!exports.isValid(validation)) {
+        dispatch({ type: exports.NEW_SAVE_ERROR, validation: validation });
+        return;
+      }
+
+      var id = api.getIdFromLocationHeader(response);
+      customer['id'] = id;
+
+      dispatch({ type: exports.NEW_SAVE_SUCCESS, validation: validation });
+      var destinationUrl = window.config.dashboardRoot + '/customers/' + id;
+      browserHistory.push(destinationUrl);
+
+    })
+    .catch(function(err) {
+      console.error(err); // eslint-disable-line no-console
+      dispatch({ type: exports.NEW_SAVE_ERROR, customer: customer });
+    });
+
+Replace that with:
+
+    try:
+      response = await api.post('customers', validation.acceptableFields)
+      validation = await serverResponseToValidation(response, 201)
+      if not validation.isValid
+          dispatch(type=NEW_SAVE_ERROR, validation=validation)
+          return
+      id = api.getIdFromLocationHeader(response)
+      customer['id'] = id
+      dispatch(type=NEW_SAVE_SUCCESS, validation=validation)
+      destinationUrl = window.config.dashboardRoot + '/customers/' + id
+      browserHistory.push(destinationUrl)
+    catch Exception as err: 🛈
+      log(err)
+      dispatch(type=NEW_SAVE_ERROR, customer=customer)
+    });
+
 
