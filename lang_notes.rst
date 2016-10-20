@@ -58,6 +58,8 @@ Javascript
    execution context.  Just by the 2 characters ->.  Really fails the
    explicit-versus-implicit zen.
  * Creating a new Error class is a minefield: https://stackoverflow.com/questions/783818/how-do-i-create-a-custom-error-in-javascript
+ * It's easy (easy => encouraged) can be written s.t. optional args can go
+   *first* in the arg list.
 
 Python
  * "def" should be "func" or "function"
@@ -158,6 +160,8 @@ Ideas
   already written code using that keyword - that sucks.  So maybe reserve @
   for interpretation/compilation affecting keywords.  This also makes
   @classmethod and @property look like Python
+* Get rid of `is` and check identity with some infix operator
+ * ≡ seems perfect.
 
 ----
 
@@ -456,6 +460,7 @@ Promises to async / await
 
 Example JS Code:
 
+```
     api.post('customers', validation.acceptableFields)
     .then(function(response) {
       return exports.serverResponseToValidation(response, 201);
@@ -479,23 +484,48 @@ Example JS Code:
       console.error(err); // eslint-disable-line no-console
       dispatch({ type: exports.NEW_SAVE_ERROR, customer: customer });
     });
+```
 
 Replace that with:
 
+```
     try:
       response = await api.post('customers', validation.acceptableFields)
       validation = await serverResponseToValidation(response, 201)
+
       if not validation.isValid
           dispatch(type=NEW_SAVE_ERROR, validation=validation)
           return
+
       id = api.getIdFromLocationHeader(response)
       customer['id'] = id
+
       dispatch(type=NEW_SAVE_SUCCESS, validation=validation)
       destinationUrl = window.config.dashboardRoot + '/customers/' + id
       browserHistory.push(destinationUrl)
+
     catch Exception as err: 🛈
       log(err)
       dispatch(type=NEW_SAVE_ERROR, customer=customer)
-    });
+```
 
+
+----
+
+Testing is critical to finishing your code.
+
+Code is not done being written until there are tests.
+
+How can the language itself make test writing easier / faster / friendlier?
+
+ * reserve `_test_*` as a special prefix on names.  Testing apparati should
+   scan for those and treat them as callables that return / throw in
+   predictable ways
+ * Have some kind of syntactic way to associate functions / methods with 
+   their corresponding unit test
+
+----
+
+Addressing: `a = [1,2]; a[0]` - it's weird to use the same symbol, `[` for
+both creation and addressing.
 
