@@ -1,0 +1,12 @@
+Base set:
+
+ - Crow
+ - Cat
+ - Horse
+ - Mouse
+
+Other themes:
+
+ - Elements
+ - Mythical creatures
+ - Exotic animals
