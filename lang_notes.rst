@@ -238,6 +238,7 @@ Annotate methods so that you don't have to type "self" or "cls" all the time.
 But: this breaks static analysis! (Maybe?  If the rule was that @blah names
 affect compilation, then we might still be able to do it in limited cases)
 
+```
     z = function(a, b=3, c="foo") \
         ⊩ @method
         self.baz = a + b
@@ -252,25 +253,42 @@ affect compilation, then we might still be able to do it in limited cases)
         return cls.baz
 
     result = z(1)
+```
 
 ----
 
 Classes?
 
+```
     Z = class(inherit=A)
         a = 1
 
     Z = ⟬inherit=A⟭ ⇥ a = 1 ⇤ 
 
     z = Z()
+```
+
+----
 
 Instances?
 
-    z = object(class=A)
+```
     z = A()
+    z = object(class=A)  # I don't like this.  It doesn't match with Python
+    z = instance(A)
+    z = instance(A, B)   # This might be really confusing
+    z = ⦃A⦄
     z = ⦃⦄  # empty instance all it has is an id
+            # I don't like that.
+            # I think ⦃⦄  should *require* an argument
+    z = ⦃object⦄  # empty instance all it has is an id
+```
+
+The argument inside ⦃...⦄ should be mandatory.
 
 But *everything* is an instance so this seems a little weird.
+
+----
 
 Modules?
 
@@ -431,7 +449,7 @@ versus
 
 So maybe instead of * , use ^.
 
-    def foo(a, ^args, ^^kwargs):
+    foo = function(a, ^args, ^^kwargs)
         pass
 
     z = foo(a, ^args, ^^kwargs)
@@ -472,7 +490,7 @@ Example JS Code:
         return;
       }
 
-      var id = api.getIdFromLocationHeader(response);
+      var id = api.getIdFromHeader(response);
       customer['id'] = id;
 
       dispatch({ type: exports.NEW_SAVE_SUCCESS, validation: validation });
@@ -497,7 +515,7 @@ Replace that with:
           dispatch(type=NEW_SAVE_ERROR, validation=validation)
           return
 
-      id = api.getIdFromLocationHeader(response)
+      id = api.getIdFromHeader(response)
       customer['id'] = id
 
       dispatch(type=NEW_SAVE_SUCCESS, validation=validation)
@@ -516,6 +534,8 @@ Testing is critical to finishing your code.
 
 Code is not done being written until there are tests.
 
+Code without tests is broken.
+
 How can the language itself make test writing easier / faster / friendlier?
 
  * reserve `_test_*` as a special prefix on names.  Testing apparati should
@@ -523,9 +543,63 @@ How can the language itself make test writing easier / faster / friendlier?
    predictable ways
  * Have some kind of syntactic way to associate functions / methods with 
    their corresponding unit test
+ * Doctests are nice for simple, stateless functions
 
 ----
 
 Addressing: `a = [1,2]; a[0]` - it's weird to use the same symbol, `[` for
 both creation and addressing.
 
+Also, it's weird to get 2 different kinds of exception, KeyError
+and IndexError from the same-looking operation, `foo[x]`.
+(You could also get TypeError, eg: `[1,2]['foo']`)
+(You could also get AttributeError, eg: `None[3]`)
+
+What about do addressing similar to how attributes are addressed?
+
+```
+    my_list = [1]
+    my_dict = {'a':1}
+    my_func = ⦗⦘ ⇥ a = 1 ⇤
+    my_clss = ⟬⟭ ⇥ a = 1 ⇤
+    my_inst = my_clss()
+
+    my_list.[0]
+    my_dict.{'a'}
+    my_clss.a
+    my_clss.⟬a⟭
+    my_inst.a    # access the instance attr, falling back to class attr
+    my_inst.⟬a⟭  # access the class attribute
+    my_clss.⦃a⦄  # access the instance attribute
+
+    my_func.⦗a⦘  # should throw some kind of error
+                 # or maybe some kind of inspection if the function body
+                 # stack hasn't been garbage collected - handy for testing
+
+```
+
+Hmm... This would be possible:
+
+```
+    my_dict.'a'  # this one might encourage typos, and
+                 # doesn't work for other types of key
+```
+
+What about:
+
+```
+    A = 'a'
+    my_clss.⟬A⟭
+    my_inst.⦃A⦄
+    my_clss.⟬'a'⟭
+    my_inst.⦃'a'⦄
+
+```
+
+Actually, I like that better than the above.  Maybe this rule should apply:
+
+<name>.<name> :
+    access instance attr, falling back to class attr
+<name>.<symbol> <expression> </symbol> :
+    1. evaluate the expression
+    2. use the value for a symbol-specific lookup
