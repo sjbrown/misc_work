@@ -79,3 +79,43 @@ Combat:
     - something becomes impossible, eg: broken arm - no sword swinging
     - bleeding - every time you get a red X, and every n minutes, you bruise
     - another wound and you're subdued
+
+
+----
+
+Ok, better idea for Combat:
+
+YY v YY - tie / clash
+YY v Y   - deal a tiredness
+YY v X   - deal a bruise
+YY v XX - deal a wound
+
+Y v Y - tie / clash - both parties take a tiredness
+Y v X - deal a tiredness
+Y v XX - deal a bruise
+
+X v X - tie /clash - both parties take a bruise
+X v XX - deal a tiredness
+
+Must re-shuffle at 5 cards or lower
+
+If you make a hit after opponent is fully tired (down to 10 cards),
+If already wounded:
+- they're subdued
+If not:
+- they flip a check for wounded or subdued
+
+Wounds
+bleeding - any time you make an action, flip one card and if it's marked for tiredness, discard it to the tired pile
+
+----
+
+Bluffing or deciding on gear could work like liar's dice
+ - draw 5 of your cards, so does the opponent(s)
+ - go around and say how many ✔s the whole group can make
+ - eventually someone calls out the previous person
+ - all cards are shown
+ - if the callee has an attribute advantage, they can add that many extra cards (from the top of their deck)
+ - but I have to make sure the distribution of ✗'s and ✔'s is even for that game.
+
+      BTW Unicode chars are 2714 and 2717
