@@ -27,3 +27,44 @@ cards = [
  {'Pro': False, 'Tmark': True, 'a': 4, 'b': 3, 'c': 4, 'd': 2},
  {'Pro': False, 'Tmark': True, 'a': 3, 'b': 3, 'c': 1, 'd': 3},
 ]
+
+def flip(deck):
+    new_deck = deck[:]
+    random.shuffle(new_deck)
+    res = new_deck.pop()
+    return res, new_deck
+
+def one_flip(deck):
+    return flip(deck)[0]
+
+def two_flip(deck):
+    a, deck = flip(deck)
+    b, deck = flip(deck)
+    return a, b
+
+def three_flip(deck):
+    a, deck = flip(deck)
+    b, deck = flip(deck)
+    c, deck = flip(deck)
+    return a, b, c
+
+def contest_results(deck_a, deck_b, flip_fn_a, flip_fn_b):
+    return flip_fn_a(deck_a), flip_fn_b(deck_b)
+
+def resolve_contest(deck_a, deck_b, mod_a=0, mod_b=0):
+    fns = {
+        -2: lambda deck: min(three_flip(deck)),
+        -1: lambda deck: min(two_flip(deck)),
+         0: lambda deck: one_flip(deck),
+         1: lambda deck: max(two_flip(deck)),
+         2: lambda deck: max(three_flip(deck)),
+    }
+    a = fns[mod_a](deck_a)
+    b = fns[mod_b](deck_b)
+    return cmp(a, b)
+
+def resolve_contest_notie(deck_a, deck_b, mod_a=0, mod_b=0):
+    result = resolve_contest(deck_a, deck_b, mod_a, mod_b)
+    while result == 0:
+        result = resolve_contest(deck_a, deck_b, mod_a, mod_b)
+    return result
