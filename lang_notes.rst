@@ -544,6 +544,8 @@ How can the language itself make test writing easier / faster / friendlier?
  * Have some kind of syntactic way to associate functions / methods with 
    their corresponding unit test
  * Doctests are nice for simple, stateless functions
+ * A symbol that marks objects that will fail compile without tests
+ * One of these? ⦹ ⮿ ⸆ 〶 🜖 🞋 🝨 🛆  ⚖
 
 ----
 
