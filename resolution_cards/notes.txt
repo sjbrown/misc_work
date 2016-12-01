@@ -1,0 +1,81 @@
+Character:
+Trainable Attributes: (scores: red, yellow, green, blue)
+ * Strength (muscles, endurance, constitution)
+  * Dexterity (aim, catching, evasion)
+   * Intelligence (charm, figuring, creation)
+   Movement: Strength + Encumberance + Tiredness
+   Personality: ??? Maybe the DM decides to throw in red or green cards based on personality
+   Jason Bourne (4s in all categories) is possible, but throw in some other weakness / vulnerability to make the story good.
+
+Common skills:
+   Something that you have a clear idea how it works - climbing, ducking, lying, arguing, swimming
+   To attempt:
+    * Grab a blank card, write the skill on a card, put two red cards on top.  Decide which attribute governs it.  Flip 1 + (# of red cards).  Take lowest score.
+     * If card has a proficiency symbol on it, discard one of the red cards.
+      * etc
+       * If you get a proficiency symbol when there are no red cards remaining, add a green card on top of the skill card.
+        * From now on, flip 1 + (# of green cards) and take the highest score
+         * Proficiency maxes out at 2 green cards
+
+New skills:
+ Something you've never seen anyone do before - new spell, duck call, snatch an arrow, swimming
+ If you spend time watching carefully (no distractions) when someone succeeds in a skill, you can start it out with 4 red cards on top
+ If someone spends time teaching you the basics, you can start it out with 3 red cards on top
+ DM can choose to put a personality-block-card on a skill in critical or repeated failures
+
+ New equipment they haven't used works the same way
+  - except if they've used that "class" of equipment before, then they start with one red card (or one fewer green cards)
+  - *except* if it's a clone.  One AK-47 is the same as any other.
+
+Note: this can mean that without a blessing, it is IMPOSSIBLE to get 2 green
+
+Skills can be copied from D&D & Pathfinder
+http://paizo.com/pathfinderRPG/prd/coreRulebook/feats.html
+
+Thematic flips:
+  eg, a Chase / Running away
+   * both characters can choose color direction up to their dexterity
+   * runner gets a 1-card head start - looks at top card, decides which color to flip
+   * runner flips up 2 green - chaser must exactly match the sum, so 3 green
+   * chaser flips 1 green.  sum: 2 green
+   * runner flips 1 green.  sum: 3 green
+   * chaser flips 2 green. sum: 1 green
+     some possibilities from here:
+       - runner flips 1 red.  sum 0.  Runner is caught (runner hits dead end or trips)
+       - runner flips 2 red. sum -1 (runner zigs the other way, still running.  chaser now needs 1 red)
+   * if decks run out, runner has escaped
+   * if runner gets a 5 point delta, runner has escaped
+
+   - Chase doesn't have to be just for footraces.  Imagine if they're making a case to the town mayor, against the counter-arguments of an adversary.
+
+Silent Communication:
+ * both characters silently pick up & look at the top card of their flip decks
+ * they can then say exactly one word - the color they're going to flip (they can say it in any turn order, or DM can decide)
+ * they then flip that color - if the points match, they succeed.
+
+
+Blessing cards:
+ * 2 green on all sides
+ * color cards that go in the flip deck
+ * awarded by the DM - maybe for roleplaying or for other epicness
+ * they have 1 or 2 proficiency markers
+ * once they come up & take their effect, they go back to the DM
+   - similarly, lucky rings / amulets do the same thing, but when they come up they go under the character's ring/amulet card until appropriate to shuffle them back in
+
+ Curse cards:
+  * work similarly, awarded for similar reasons
+
+Combat:
+      A series of X vs Y flips
+      Landing blows can bruise, tire, wound, subdue, kill.
+
+    Tire: (bruising can be the same but only for physical and you can't shake it off)
+    - lvl 1: can't go to blue
+    - lvl 2-4: get a red card
+    - lvl 5: can't go to green
+    - lvl 6: subdued
+
+    Wound:
+    - something becomes impossible, eg: broken arm - no sword swinging
+    - bleeding - every time you get a red X, and every n minutes, you bruise
+    - another wound and you're subdued
