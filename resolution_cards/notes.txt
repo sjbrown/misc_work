@@ -1,3 +1,44 @@
+# Premise / Guiding thoughts
+
+It's fun to have decks of cards
+ * It's fun to build a deck
+ * It's fun to collect certain cards
+
+Having rules on cards in front of you is better than having rules in a book
+ * It takes more time to find the page with a particular rule
+
+Cards open up richer game play (unpredictable might be substituted for "random")
+ * Dice:
+  - carrying more than 10 is cumbersome
+  - roll one to get a linear, bounded random value
+  - roll multiple to get different distributions of random values
+  - use a die as a marker
+  - use a die & it's shown pip value as an enumerated marker
+  - roll a die and hide its value for other players to guess
+  - collect special dice
+ * Cards:
+  - carrying more than 200 is cumbersome
+  - flip a card to get a bounded random value in whatever distribution the deck has
+  - flip one to get multi-dimensional random values (eg, suit & number & face)
+  - flip, without replacement, a series of cards from a deck with a ~known distribution
+   - (deckbuilding mechanic)
+  - flip a card and hide its value for other players to guess
+  - collect special cards
+   - collect cards that are normal in one dimension, but special in another
+  - build a deck of cards (with dice this is possible, but cumbersome)
+  - cards can be written on
+  - cards can be drafted
+  - player choice about when to shuffle can be interesting
+  - the shuffle itself can be interesting
+   - cut the deck
+   - put a single card in the middle / at the bottom / on the top
+   - look at top x cards, and put them back in any order
+  - the backs can be
+   - identical - to mask what the result will be
+   - marked - to hint or make obvious what the result will be
+
+----
+
 Character:
 Trainable Attributes: (scores: red, yellow, green, blue)
  * Strength (muscles, endurance, constitution)
@@ -119,3 +160,22 @@ Bluffing or deciding on gear could work like liar's dice
  - but I have to make sure the distribution of ✗'s and ✔'s is even for that game.
 
       BTW Unicode chars are 2714 and 2717
+
+----
+
+# Magic
+
+Doing magic could work by actually performing a magic trick:
+ * Declare what the next card is going to be:
+ * flip purple side, "it's going to be double-check" - 8/20 chance
+ * flip green side, "it's going to be single-check" - 6/20 chance
+ * could motivate player to hold off on shuffling
+ * therefore, it's advantageous for a caster to memorize stuff & understand the cards
+ * BUT - does it make sense thematically in the *tired* deck?
+  - sort of if you stipulate that they must guess number of checks
+
+
+Doing magic could be:
+ * Dominion-style deckbuilding
+  - Maybe put bond & personality cards into the deck that affect performance
+ * Set collection
