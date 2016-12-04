@@ -7,6 +7,9 @@ It's fun to have decks of cards
 Having rules on cards in front of you is better than having rules in a book
  * It takes more time to find the page with a particular rule
 
+Arithmetic sucks.  Stop doing it.
+ * "Flip 3, take the best" is way easier than roll 2d6, add your Strength bonus
+
 Cards open up richer game play (unpredictable might be substituted for "random")
  * Dice:
   - carrying more than 10 is cumbersome

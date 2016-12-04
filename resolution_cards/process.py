@@ -4,12 +4,6 @@ import os
 from lxml import etree
 from cards import cards
 
-fp = file('face_ready_to_split.svg')
-
-c = fp.read()
-
-fp.close()
-
 
 '''
  title_to_element
@@ -62,6 +56,10 @@ cards
 '''
 
 def make_deck(deck_number):
+    fp = file('face_ready_to_split.svg')
+    c = fp.read()
+    fp.close()
+
     for i, card in enumerate(cards):
         svg_filename = '/tmp/cards/deck_%s_card_face%s.svg' % (deck_number, (i+1))
         png_filename = '/tmp/cards/deck_%s_card_face%s.png' % (deck_number, (i+1))
@@ -95,7 +93,7 @@ def make_deck(deck_number):
             e.getparent().remove(e)
 
         if not card.get('crit_win'):
-            e = title_to_element['crit_fail']
+            e = title_to_element['crit_win']
             e.getparent().remove(e)
 
         if not card.get('crit_fail'):
