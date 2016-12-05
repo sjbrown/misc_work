@@ -547,6 +547,29 @@ How can the language itself make test writing easier / faster / friendlier?
  * A symbol that marks objects that will fail compile without tests
  * One of these? ⦹ ⮿ ⸆ 〶 🜖 🞋 🝨 🛆  ⚖
 
+```
+
+    zany = function(a, b=3, c="foo") 🜖
+        baz = a + b
+        zap = c + baz
+        return zap + baz
+
+    # Make doctests explicit:
+
+    wacky = function(a, b=3, c="foo")
+        🜖"""
+        wacky(1)
+        > "foo4"
+
+        wacky(1,1,'bar')
+        > "bar2"
+        """
+        return c + str(a+b)
+
+```
+
+ * Maybe it could optionally specify the test path? 🜖(all_tests.test_zany)
+
 ----
 
 Addressing: `a = [1,2]; a[0]` - it's weird to use the same symbol, `[` for
@@ -571,6 +594,7 @@ What about do addressing similar to how attributes are addressed?
     my_clss.a
     my_clss.⟬a⟭
     my_inst.a    # access the instance attr, falling back to class attr
+                 # (falling back to the dict key?)
     my_inst.⟬a⟭  # access the class attribute
     my_clss.⦃a⦄  # access the instance attribute
 
@@ -601,7 +625,28 @@ What about:
 Actually, I like that better than the above.  Maybe this rule should apply:
 
 <name>.<name> :
+    This one is the ultimate convenience, gun aimed at foot, hammer cocked
     access instance attr, falling back to class attr
-<name>.<symbol> <expression> </symbol> :
+    (and then falling back to dict key??? - it'd be more like JS that way)
+<name>.<encloser> <expression> </encloser> :
     1. evaluate the expression
     2. use the value for a symbol-specific lookup
+    3. maybe the expression is called a "Selector"?
+
+Ok, now that we've gone this far, let's look at the quotes again...
+
+```
+
+    foo = 'asdf zab123zoob baz'
+
+    foo."'bar'" # ??? SelectorError?
+    foo."5"     # get the character at index 5
+    foo."5:10"  # get the string at slice(5,10)
+    foo."'zab(.*)zoob'"  # Regex?
+
+    # If we consider this an overridable pattern, we could create a
+    # DOM class whose instances could do stuff like this:
+    dom."'#bar'"
+    dom."'.bar'"
+
+```
