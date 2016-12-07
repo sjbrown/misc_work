@@ -1,5 +1,7 @@
 #! /usr/bin/env python
 
+import random
+
 x=[8,4,6,2]; a = [1]*x[0] + [2]*x[1] + [3]*x[2] + [4]*x[3]
 x=[5,6,5,4]; b = [1]*x[0] + [2]*x[1] + [3]*x[2] + [4]*x[3]
 x=[4,5,6,5]; c = [1]*x[0] + [2]*x[1] + [3]*x[2] + [4]*x[3]
@@ -68,3 +70,23 @@ def resolve_contest_notie(deck_a, deck_b, mod_a=0, mod_b=0):
     while result == 0:
         result = resolve_contest(deck_a, deck_b, mod_a, mod_b)
     return result
+
+def resolve_check(deck, mod=0):
+    fns = {
+        -2: lambda deck: min(three_flip(deck)),
+        -1: lambda deck: min(two_flip(deck)),
+         0: lambda deck: one_flip(deck),
+         1: lambda deck: max(two_flip(deck)),
+         2: lambda deck: max(three_flip(deck)),
+    }
+    result = fns[mod](deck)
+    return result > 2
+
+def stats_check(deck, mod):
+    tries = 10000
+    results = {True:0, False:0}
+    for i in range(tries):
+        results[resolve_check(deck, mod)] += 1
+
+    percent = '%2.1f' % (100*float(results[True])/(results[True] + results[False]))
+    return (results, percent)

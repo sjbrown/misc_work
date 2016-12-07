@@ -182,3 +182,18 @@ Doing magic could be:
  * Dominion-style deckbuilding
   - Maybe put bond & personality cards into the deck that affect performance
  * Set collection
+
+----
+
+# Armor
+
+Maybe they have an armor card that where you can put "bruises" instead of
+going to your body.  A couple examples:
+
+ * A "standard armor" card: when taking a bruise, put it in one of 3 slots
+   on this card, and take an "exhaustion" instead.
+ * A "ethereal carapace" card: when taking a bruise, put it in one of 5 slots
+   on this card.  Don't take an exhaustion.
+ * A "shield" card: when taking a bruise, succeed a Dex check to put the bruise
+   on this card, and take an "exhaustion" instead.
+
