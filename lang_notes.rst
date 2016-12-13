@@ -650,3 +650,23 @@ Ok, now that we've gone this far, let's look at the quotes again...
     dom."'.bar'"
 
 ```
+
+----
+
+How about default values for arguments?
+
+Using equals sign is not great
+ * How about one of these: ⊦ ⊧ ⤙ ⩦ ⩴ ⩷ ⫢ ⫨ ⫩
+ * I like these: ⊦ ⊧ ⫨ ⫩
+
+```
+    z = function(a, b ⊧3, c⊧"foo") ⊩ @method
+        self.baz = a + b
+        self.zap = c + self.baz
+
+    z = ⦗a ⊩ @int, b ⊧ 3, c ⊧ "foo"⦘ ⊩ (@classmethod, @returns_int)
+        cls.baz = a + b
+        cls.zap = c + self.baz
+        return cls.baz
+
+```
