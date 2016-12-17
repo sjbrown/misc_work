@@ -31,6 +31,7 @@ cards = [
 ]
 
 def flip(deck):
+    # Takes a card off the deck and returns that new deck
     new_deck = deck[:]
     random.shuffle(new_deck)
     res = new_deck.pop()
@@ -65,11 +66,38 @@ def resolve_contest(deck_a, deck_b, mod_a=0, mod_b=0):
     b = fns[mod_b](deck_b)
     return cmp(a, b)
 
-def resolve_contest_notie(deck_a, deck_b, mod_a=0, mod_b=0):
-    result = resolve_contest(deck_a, deck_b, mod_a, mod_b)
-    while result == 0:
+
+class Notie(object):
+    """
+    No ties allowed
+    Just re-draw whenever there's a tie.
+
+    This can be really shitty, because (d,d,2,2) or (a,a,-2,-2) can
+    result in 1.7x the needed draws to get to a resolution.
+    (see analyze_contest_notie)
+    This should be reserved only for epic struggles where a prolonged
+    stalemate makes a lot of narrative sense.
+    """
+    ties = 0
+    tries = 0
+    @classmethod
+    def resolve_contest(cls, deck_a, deck_b, mod_a=0, mod_b=0):
+        cls.tries += 1
         result = resolve_contest(deck_a, deck_b, mod_a, mod_b)
-    return result
+        while result == 0:
+            cls.ties += 1
+            cls.tries += 1
+            result = resolve_contest(deck_a, deck_b, mod_a, mod_b)
+        return result
+
+    @classmethod
+    def clear(cls):
+        cls.ties = 0
+        cls.tries = 0
+
+    @classmethod
+    def multiple(cls):
+        return float(cls.tries + cls.ties)/cls.tries
 
 def resolve_check(deck, mod=0):
     fns = {
@@ -82,11 +110,27 @@ def resolve_check(deck, mod=0):
     result = fns[mod](deck)
     return result > 2
 
-def stats_check(deck, mod):
+def analyze(func, possible_results, *args):
     tries = 10000
-    results = {True:0, False:0}
+    results = { x:0 for x in possible_results }
     for i in range(tries):
-        results[resolve_check(deck, mod)] += 1
+        results[func(*args)] += 1
 
-    percent = '%2.1f' % (100*float(results[True])/(results[True] + results[False]))
-    return (results, percent)
+    percents = [ '%2.1f%%' % (100*float(results[x])/tries)
+                 for x in possible_results ]
+    return (results, ' / '.join(percents))
+
+def analyze_check(*args):
+    return analyze(resolve_check, [True, False], *args)
+
+def analyze_contest(*args):
+    return analyze(resolve_contest, [-1, 0, 1], *args)
+
+def analyze_contest_notie(*args):
+    Notie.clear()
+    analysis = analyze(Notie.resolve_contest, [-1, 1], *args)
+    tie_analysis = 'Ties %s (%2.1fx)' % (Notie.ties, Notie.multiple())
+    return analysis[0], analysis[1], tie_analysis
+
+
+
