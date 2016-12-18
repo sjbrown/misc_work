@@ -61,7 +61,8 @@ Jason Bourne (4s in all categories) is possible, but throw in some other weaknes
 
 ### Proficiency:
 
-Classes seem very synthetic.  Brains learn, muscles learn, the nervous system learns.  People can step out of
+"Classes" and "levels" of other RPGs seem very synthetic.
+Brains learn, muscles learn, the nervous system learns.  People can step out of
 their comfort zones.  People can try something new.  We know we're going to fail at first, and as adults,
 a fear of failure usually holds us back.  It's practice that makes us proficient.
 
@@ -133,6 +134,10 @@ Drawing in black & white comes before oils, so **skill trees** kind of make sens
 
 *Idea:* during camp-out phase, they can choose only one skill and make one attempt per camp to up a skill. (By flipping and getting a proficiency card).  during level-up phase (resting near resources where they can reasonably learn the skill), they get 3 attempts that they can devote to one skill, or split up among many skills.
 
+## Challenges
+
+ * Classes and levels are tools to manage the balance of the game.  Players might be able to unbalance the play experience
+ * Especially if the players & GM can just decide on a new skill name, write it on a card and say "Here ya go"
 
 ----
 # Thematic flips:
