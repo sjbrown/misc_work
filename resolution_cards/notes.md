@@ -230,29 +230,29 @@ Drawing in black & white comes before oils, so **skill trees** kind of make sens
 
 ----
 
-# Ok, better idea for Combat:
+# Ok, better idea for Melee Combat:
 
-YY v YY - tie / clash
-YY v Y   - deal a tiredness
-YY v X   - deal a bruise
-YY v XX - deal a wound
+✔✔ v ✔✔ - tie / clash
+✔✔ v ✔   - deal a tiredness
+✔✔ v ✗   - deal a bruise
+✔✔ v ✗✗ - deal a wound
 
-Y v Y - tie / clash - both parties take a tiredness
-Y v X - deal a tiredness
-Y v XX - deal a bruise
+✔ v ✔ - tie / clash - both parties take a tiredness
+✔ v ✗ - deal a tiredness
+✔ v ✗✗ - deal a bruise
 
-X v X - tie /clash - both parties take a bruise
-X v XX - deal a tiredness
+✗ v ✗ - tie /clash - both parties take a bruise
+✗ v ✗✗ - deal a tiredness
 
 Must re-shuffle at 5 cards or lower
 
-If you make a hit after opponent is fully tired (down to 10 cards),
+If you make a hit after opponent is **fully tired** (down to 10 cards),
 If already wounded:
 - they're subdued
 If not:
 - they flip a check for wounded or subdued
 
-Wounds
+### Wounds
 bleeding - any time you make an action, flip one card and if it's marked for tiredness, discard it to the tired pile
 
 ----
