@@ -46,27 +46,75 @@ Cards open up richer game play (unpredictable might be substituted for "random")
 
 Trainable Attributes: (scores: red, yellow, green, blue)
  * Strength (muscles, endurance, constitution)
-  * Dexterity (aim, catching, evasion)
-   * Intelligence (charm, figuring, creation)
-   Movement: Strength + Encumberance + Tiredness
-   Personality: ??? Maybe the DM decides to throw in red or green cards based on personality
-   Jason Bourne (4s in all categories) is possible, but throw in some other weakness / vulnerability to make the story good.
+ * Dexterity (aim, catching, evasion)
+ * Intelligence (charm, figuring, creation)
 
-Common skills:
-   Something that you have a clear idea how it works - climbing, ducking, lying, arguing, swimming
-   To attempt:
-    * Grab a blank card, write the skill on a card, put two red cards on top.  Decide which attribute governs it.  Flip 1 + (# of red cards).  Take lowest score.
-     * If card has a proficiency symbol on it, discard one of the red cards.
-      * etc
-       * If you get a proficiency symbol when there are no red cards remaining, add a green card on top of the skill card.
-        * From now on, flip 1 + (# of green cards) and take the highest score
-         * Proficiency maxes out at 2 green cards
+Other ideas...
+ * Movement: Strength + Encumberance + Tiredness
+ * Personality: ??? Maybe the DM decides to throw in red or green cards based on personality
+
+Jason Bourne (4s in all categories) is possible, but throw in some other weakness / vulnerability to make the story good.
+
+### Common skills:
+
+  Something that you have a clear idea how it works - climbing, ducking, lying, arguing, swimming
+
+### Proficiency:
+
+Classes seem very synthetic.  Brains learn, muscles learn, the nervous system learns.  People can step out of
+their comfort zones.  People can try something new.  We know we're going to fail at first, and as adults,
+a fear of failure usually holds us back.  It's practice that makes us proficient.
+
+The game should let characters try anything reasonable, fail a lot, and through practice, get better.
+
+Attempting skills and building up proficiency:
+
+ * Grab a blank card, write the skill on a card, put two red cards on top.  Decide which attribute governs it.  Flip 1 + (# of red cards).  Take lowest score.
+ * If card has a proficiency symbol on it, discard one of the red cards.
+ * etc
+ * If you get a proficiency symbol when there are no red cards remaining, add a green card on top of the skill card.
+ * From now on, flip 1 + (# of green cards) and take the highest score
+ * Proficiency maxes out at 2 green cards
 
 New skills:
- Something you've never seen anyone do before - new spell, duck call, snatch an arrow, swimming
- If you spend time watching carefully (no distractions) when someone succeeds in a skill, you can start it out with 4 red cards on top
- If someone spends time teaching you the basics, you can start it out with 3 red cards on top
- DM can choose to put a personality-block-card on a skill in critical or repeated failures
+ * Something you've never seen anyone do before - new spell, bird call, snatch an arrow, swimming, even some magic
+ * If you spend time merely watching carefully (and without distractions) when someone succeeds in a skill, you can start it out with 3 red cards on top
+ * If someone spends time teaching you the basics, you can start it out with 2 red cards on top
+ * *Idea:* DM can choose to put a **personality-block-card** on a skill in critical or repeated failures
+  * Your character fucks up so bad, that they think there's something wrong with them.  Anxiety / etc.
+
+### Analysis
+
+```
+# -3: Without any instruction or related skills, the character tries something new
+>>> analyze_check(a, -3)
+({False: 9840, True: 160}, '1.6% / 98.4%') # They're weak in that attribute so it's nearly impossible.
+
+>>> analyze_check(b, -3)
+({False: 9739, True: 261}, '2.6% / 97.4%')
+
+>>> analyze_check(c, -3)
+({False: 9334, True: 666}, '6.7% / 93.3%') # They're strong in that attribute so there's hope.
+
+>>> analyze_check(d, -3)
+({False: 9027, True: 973}, '9.7% / 90.3%')
+
+
+# -2: A character is introduced to a new skill with some instruction
+
+>>> analyze_check(a, -2)
+({False: 9514, True: 486}, '4.9% / 95.1%') # They're weak, so there's a 1/20 chance.
+
+>>> analyze_check(b, -2)
+({False: 9264, True: 736}, '7.4% / 92.6%')
+
+>>> analyze_check(c, -2)
+({False: 8537, True: 1463}, '14.6% / 85.4%') # They're strong, so there's a 3/20 chance.
+
+>>> analyze_check(d, -2)
+({False: 8033, True: 1967}, '19.7% / 80.3%')
+
+```
 
  New equipment they haven't used works the same way
   - except if they've used that "class" of equipment before, then they start with one red card (or one fewer green cards)
@@ -76,6 +124,15 @@ New skills:
 
 Skills can be copied from D&D & Pathfinder
 http://paizo.com/pathfinderRPG/prd/coreRulebook/feats.html
+
+It makes sense that some stuff should come before other stuff.  Jogging 5 blocks comes before running a marathon.
+Drawing in black & white comes before oils, so **skill trees** kind of make sense.
+
+ * Maybe if you have the drawing skill at +1, you can attempt the painting skill starting at -1, instead of -2.
+ * Maybe a "related skill symbol" on the cards, like the corner symbols in 7 Wonders
+
+*Idea:* during camp-out phase, they can choose only one skill and make one attempt per camp to up a skill. (By flipping and getting a proficiency card).  during level-up phase (resting near resources where they can reasonably learn the skill), they get 3 attempts that they can devote to one skill, or split up among many skills.
+
 
 ----
 # Thematic flips:

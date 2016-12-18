@@ -55,11 +55,19 @@ def three_flip(deck):
     c, deck = flip(deck)
     return a, b, c
 
+def four_flip(deck):
+    a, deck = flip(deck)
+    b, deck = flip(deck)
+    c, deck = flip(deck)
+    d, deck = flip(deck)
+    return a, b, c, d
+
 def contest_results(deck_a, deck_b, flip_fn_a, flip_fn_b):
     return flip_fn_a(deck_a), flip_fn_b(deck_b)
 
 def resolve_contest(deck_a, deck_b, mod_a=0, mod_b=0):
     fns = {
+        -3: lambda deck: min(four_flip(deck)),
         -2: lambda deck: min(three_flip(deck)),
         -1: lambda deck: min(two_flip(deck)),
          0: lambda deck: one_flip(deck),
@@ -117,6 +125,7 @@ class Notie(object):
 
 def resolve_check(deck, mod=0):
     fns = {
+        -3: lambda deck: min(four_flip(deck)),
         -2: lambda deck: min(three_flip(deck)),
         -1: lambda deck: min(two_flip(deck)),
          0: lambda deck: one_flip(deck),
