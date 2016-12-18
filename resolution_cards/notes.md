@@ -244,7 +244,7 @@ Drawing in black & white comes before oils, so **skill trees** kind of make sens
  * ✗ v ✗ - tie /clash - both parties take a bruise
  * ✗ v ✗✗ - deal a tiredness
 
- * ✗✗ v ✗✗ - deal a tiredness
+ * ✗✗ v ✗✗ - ???
 
 Must re-shuffle at 5 cards or lower
 
