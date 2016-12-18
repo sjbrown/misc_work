@@ -13,23 +13,23 @@ x=[2,6,4,8]; d = [1]*x[0] + [2]*x[1] + [3]*x[2] + [4]*x[3]
 
 cards = [
  {'Pro': False, 'Tmark': False, 'a': 1, 'b': 1, 'c': 1, 'd': 1, 'crit_fail': True},
- {'Pro': False, 'Tmark': False, 'a': 1, 'b': 2, 'c': 4, 'd': 1},
+ {'Pro': True,  'Tmark': False, 'a': 1, 'b': 2, 'c': 4, 'd': 1},
  {'Pro': False, 'Tmark': False, 'a': 1, 'b': 2, 'c': 3, 'd': 2},
  {'Pro': False, 'Tmark': False, 'a': 1, 'b': 4, 'c': 3, 'd': 4},
- {'Pro': True,  'Tmark': False, 'a': 2, 'b': 2, 'c': 3, 'd': 4},
- {'Pro': True,  'Tmark': False, 'a': 2, 'b': 3, 'c': 2, 'd': 3},
+ {'Pro': False, 'Tmark': False, 'a': 2, 'b': 2, 'c': 3, 'd': 4},
+ {'Pro': False, 'Tmark': False, 'a': 2, 'b': 3, 'c': 2, 'd': 3},
  {'Pro': False, 'Tmark': False, 'a': 1, 'b': 1, 'c': 2, 'd': 3},
  {'Pro': False, 'Tmark': False, 'a': 2, 'b': 1, 'c': 2, 'd': 3},
- {'Pro': False, 'Tmark': False, 'a': 2, 'b': 2, 'c': 1, 'd': 2},
+ {'Pro': True,  'Tmark': False, 'a': 2, 'b': 2, 'c': 1, 'd': 2},
  {'Pro': False, 'Tmark': False, 'a': 3, 'b': 1, 'c': 2, 'd': 2},
  {'Pro': False, 'Tmark': True, 'a': 4, 'b': 4, 'c': 4, 'd': 4, 'crit_win': True},
  {'Pro': False, 'Tmark': True, 'a': 1, 'b': 3, 'c': 3, 'd': 4},
  {'Pro': False, 'Tmark': True, 'a': 3, 'b': 3, 'c': 4, 'd': 2},
- {'Pro': False, 'Tmark': True, 'a': 3, 'b': 1, 'c': 3, 'd': 4},
+ {'Pro': True,  'Tmark': True, 'a': 3, 'b': 1, 'c': 3, 'd': 4},
  {'Pro': False, 'Tmark': True, 'a': 1, 'b': 2, 'c': 2, 'd': 4},
  {'Pro': True,  'Tmark': True, 'a': 3, 'b': 2, 'c': 1, 'd': 4},
  {'Pro': True,  'Tmark': True, 'a': 1, 'b': 4, 'c': 4, 'd': 2},
- {'Pro': True,  'Tmark': True, 'a': 3, 'b': 4, 'c': 3, 'd': 4},
+ {'Pro': False, 'Tmark': True, 'a': 3, 'b': 4, 'c': 3, 'd': 4},
  {'Pro': False, 'Tmark': True, 'a': 4, 'b': 3, 'c': 4, 'd': 2},
  {'Pro': False, 'Tmark': True, 'a': 3, 'b': 3, 'c': 1, 'd': 3},
 ]
@@ -156,4 +156,52 @@ def analyze_contest_notie(*args):
     return analysis[0], analysis[1], Notie.analysis()
 
 
+
+def proficiency_check(mod):
+    c = cards[:]
+    flips = abs(mod) + 1
+    result = 0
+    for i in range(flips):
+        random.shuffle(c)
+        card = c.pop()
+        if card['Pro']:
+            result += 1
+    return result
+
+def analyze_proficiency_check(mod):
+    results = { x:0 for x in range(5) }
+    for i in range(10000):
+        results[proficiency_check(mod)] += 1
+    return results
+
+def p2_check(suit, mod):
+    """
+    Only take the 'Pro' if it's on the card that got used
+    """
+    if mod > 0:
+        raise ValueError('die')
+
+    c = cards[:]
+    flips = abs(mod) + 1
+    results = []
+    for i in range(flips):
+        random.shuffle(c)
+        results.append(c.pop())
+
+    score = 100
+    used = None
+    for card in results:
+        if card[suit] < score:
+            score = card[suit]
+            used = card
+
+    if used['Pro']:
+        return 1
+    return 0
+
+def analyze_p2_check(*args):
+    results = { x:0 for x in range(2) }
+    for i in range(10000):
+        results[p2_check(*args)] += 1
+    return results
 

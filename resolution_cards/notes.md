@@ -88,12 +88,18 @@ To use the skill:
     * `-3: 24%, -2: 23%, -1: 25%, 0: 25%` for Crescent
     * `-3: 11%, -2: 14%, -1: 18%, 0: 25%` for Dart
     * This seems super wonky.  Maybe it can be adjusted if I want to pursue it.
+    * Ok, I've edited the cards, they would now give this learning curve:
+    * `-3: 24%, -2: 25%, -1: 26%, 0: 25%` for Anchor
+    * `-3: 27%, -2: 29%, -1: 28%, 0: 25%` for Bulb
+    * `-3: 33%, -2: 28%, -1: 25%, 0: 25%` for Crescent
+    * `-3: 36%, -2: 32%, -1: 29%, 0: 25%` for Dart
   * or work into each skill "family" some kind of learning curve.
  * etc
  * If you flip a proficiency symbol when there are no red cards remaining, add a green card on top of the skill card.
  * From now on, flip 1 + (# of green cards) and take the highest score
  * If you flip *2* proficiency symbols when there's one green card, add *another* green card.
   * this means the learning curve ends with a `1: 5%`. ie, a 1/20 probability of graduating to +2
+   * `(5.0/20) * (4.0/19) = 0.526`
  * Proficiency maxes out at 2 green cards
 
 New skills:
