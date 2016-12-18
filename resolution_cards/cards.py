@@ -1,6 +1,10 @@
 #! /usr/bin/env python
 
 import random
+from collections import defaultdict
+
+def pct(x, total):
+    return '%2.1f%%' % (100*float(x)/total)
 
 x=[8,4,6,2]; a = [1]*x[0] + [2]*x[1] + [3]*x[2] + [4]*x[3]
 x=[5,6,5,4]; b = [1]*x[0] + [2]*x[1] + [3]*x[2] + [4]*x[3]
@@ -79,25 +83,37 @@ class Notie(object):
     stalemate makes a lot of narrative sense.
     """
     ties = 0
-    tries = 0
+    num_contests = 0
+    tie_distribution = defaultdict(int)
     @classmethod
     def resolve_contest(cls, deck_a, deck_b, mod_a=0, mod_b=0):
-        cls.tries += 1
+        contest_ties = 0
+        cls.num_contests += 1
         result = resolve_contest(deck_a, deck_b, mod_a, mod_b)
         while result == 0:
-            cls.ties += 1
-            cls.tries += 1
+            contest_ties += 1
             result = resolve_contest(deck_a, deck_b, mod_a, mod_b)
+        cls.tie_distribution[contest_ties] += 1
+        cls.ties += contest_ties
         return result
 
     @classmethod
     def clear(cls):
         cls.ties = 0
-        cls.tries = 0
+        cls.num_contests = 0
+        cls.tie_distribution = defaultdict(int)
+
+    @classmethod
+    def analysis(cls):
+        return 'Ties %s (%2.1fx), %s' % (
+            cls.ties,
+            cls.multiple(),
+            {k:pct(v, cls.num_contests) for (k,v) in cls.tie_distribution.items()}
+        )
 
     @classmethod
     def multiple(cls):
-        return float(cls.tries + cls.ties)/cls.tries
+        return float(cls.num_contests + cls.ties)/cls.num_contests
 
 def resolve_check(deck, mod=0):
     fns = {
@@ -116,8 +132,7 @@ def analyze(func, possible_results, *args):
     for i in range(tries):
         results[func(*args)] += 1
 
-    percents = [ '%2.1f%%' % (100*float(results[x])/tries)
-                 for x in possible_results ]
+    percents = [ pct(results[x], tries) for x in possible_results ]
     return (results, ' / '.join(percents))
 
 def analyze_check(*args):
@@ -129,8 +144,7 @@ def analyze_contest(*args):
 def analyze_contest_notie(*args):
     Notie.clear()
     analysis = analyze(Notie.resolve_contest, [-1, 1], *args)
-    tie_analysis = 'Ties %s (%2.1fx)' % (Notie.ties, Notie.multiple())
-    return analysis[0], analysis[1], tie_analysis
+    return analysis[0], analysis[1], Notie.analysis()
 
 
 
