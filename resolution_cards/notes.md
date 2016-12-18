@@ -70,11 +70,30 @@ The game should let characters try anything reasonable, fail a lot, and through 
 
 Attempting skills and building up proficiency:
 
- * Grab a blank card, write the skill on a card, put two red cards on top.  Decide which attribute governs it.  Flip 1 + (# of red cards).  Take lowest score.
- * If card has a proficiency symbol on it, discard one of the red cards.
+ * Grab a blank card, write the skill on a card, put 2 or 3 (see below) red cards on top.
+ * Decide which attribute governs it.
+
+To use the skill:
+
+ * Flip 1 + (# of red cards).  Take lowest score.
+ * If *x* card has a proficiency symbol on it, discard one of the red cards.
+  * any of the flipped cards?
+   * this might be best. makes digging out of the hole go faster
+   * that learning curve shape is `-3: 70%, -2: 60%, -1: 45%, 0: 25%`
+   * but only allow one proficiency gain even if there are multiple proficiency symbols, otherwise they could jump from -2 to +1 and that doesn't make much sense.
+  * only the card that got used?
+   * that learning curve shape is different depending on the suit:
+    * `-3: 16%, -2: 19%, -1: 22%, 0: 25%` for Anchor
+    * `-3: 9%, -2: 12%, -1: 17%, 0: 25%` for Bulb
+    * `-3: 24%, -2: 23%, -1: 25%, 0: 25%` for Crescent
+    * `-3: 11%, -2: 14%, -1: 18%, 0: 25%` for Dart
+    * This seems super wonky.  Maybe it can be adjusted if I want to pursue it.
+  * or work into each skill "family" some kind of learning curve.
  * etc
- * If you get a proficiency symbol when there are no red cards remaining, add a green card on top of the skill card.
+ * If you flip a proficiency symbol when there are no red cards remaining, add a green card on top of the skill card.
  * From now on, flip 1 + (# of green cards) and take the highest score
+ * If you flip *2* proficiency symbols when there's one green card, add *another* green card.
+  * this means the learning curve ends with a `1: 5%`. ie, a 1/20 probability of graduating to +2
  * Proficiency maxes out at 2 green cards
 
 New skills:
