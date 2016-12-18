@@ -76,6 +76,7 @@ Attempting skills and building up proficiency:
 To use the skill:
 
  * Flip 1 + (# of red cards).  Take lowest score.
+ * Note: taking lowest score can mean that without a blessing, it is IMPOSSIBLE to get 2 ✔✔
  * If *x* card has a proficiency symbol on it, discard one of the red cards.
   * any of the flipped cards?
    * this might be best. makes digging out of the hole go faster
@@ -146,7 +147,6 @@ New skills:
   - except if they've used that "class" of equipment before, then they start with one red card (or one fewer green cards)
   - *except* if it's a clone.  One AK-47 is the same as any other.
 
-> Note: this can mean that without a blessing, it is IMPOSSIBLE to get 2 green
 
 Skills can be copied from D&D & Pathfinder
 http://paizo.com/pathfinderRPG/prd/coreRulebook/feats.html
@@ -163,6 +163,10 @@ Drawing in black & white comes before oils, so **skill trees** kind of make sens
 
  * Classes and levels are tools to manage the balance of the game.  Players might be able to unbalance the play experience
  * Especially if the players & GM can just decide on a new skill name, write it on a card and say "Here ya go"
+ * The GM **must** understand that there are situations where a character doesn't have certain possibilities available to them.
+  * Rolling a d20 can *always* get you a critical success or critical failure
+  * Resolution cards can get you into situations where you never will
+   * eg, no crit successes while: -2 penalty in Anchor, tired in Anchor, -1 and tired in Bulb, etc.
 
 ----
 # Thematic flips:
