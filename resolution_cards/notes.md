@@ -326,16 +326,16 @@ Upon the successful start of a grapple:
  * Every turn the character in the superior position is in the grapple, they:
   * do a (str? dex?) check and if successful, exhaust their opponent.
 
- * Grapple Technique skill (a skill to learn):
-  * Every turn the character in the superior position is in the grapple, they:
-   * do a (str? dex?) check and if successful, they can choose:
-    * deal a blow (bruise instead of exhaust)
-    * increase their hold - add this card to the center stack if the symbols can match/beat the outer cards
+**Grapple Technique skill (a skill to learn):**
+ * Every turn the character in the superior position is in the grapple, they:
+ * do a (str? dex?) check and if successful, they can choose:
+   * deal a blow (bruise instead of exhaust)
+   * increase their hold - add this card to the center stack if the symbols can match/beat the outer cards
      * after that is in place, they no longer have to do a skill check to deal blows each turn.
 
- * Grapple Reversal skill (a skill to learn):
-  * if the inferior grappler in one turn gets all 3 flips to match/beat an open edge,
-  * they reverse the grapple, and their last laid card is the new grapple initiation card
+**Grapple Reversal skill (a skill to learn):**
+ * if the inferior grappler in one turn gets all 3 flips to match/beat an open edge,
+ * they reverse the grapple, and their last laid card is the new grapple initiation card
 
 ----
 
