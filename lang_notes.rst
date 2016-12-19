@@ -658,13 +658,17 @@ How about default values for arguments?
 Using equals sign is not great
  * How about one of these: ⊦ ⊧ ⤙ ⩦ ⩴ ⩷ ⫢ ⫨ ⫩
  * I like these: ⊦ ⊧ ⫨ ⫩
+ * Best one is "MODELS" (1 char width): ⊧
+ * &d shortcut for "defaults to"
+ * This is a really common thing to do though, so it's a lot of typing
 
 ```
-    z = function(a, b ⊧3, c⊧"foo") ⊩ @method
+
+    z = function(a, b⊧3, c⊧"foo") ⊩ @method
         self.baz = a + b
         self.zap = c + self.baz
 
-    z = ⦗a ⊩ @int, b ⊧ 3, c ⊧ "foo"⦘ ⊩ (@classmethod, @returns_int)
+    z = ⦗a ⊩ @int, b ⊧ 3, c ⊧ "foo"⦘ ⊩ (@classmethod, @returns(int))
         cls.baz = a + b
         cls.zap = c + self.baz
         return cls.baz
