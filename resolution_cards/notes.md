@@ -108,7 +108,7 @@ New skills:
  * If you spend time merely watching carefully (and without distractions) when someone succeeds in a skill, you can start it out with 3 red cards on top
  * If someone spends time teaching you the basics, you can start it out with 2 red cards on top
  * *Idea:* DM can choose to put a **personality-block-card** on a skill in critical or repeated failures
-  * Your character fucks up so bad, that they think there's something wrong with them.  Anxiety / etc.
+  * Your character fucks up so bad, that they think there's something wrong with them.  Anxiety, Frustration, etc.
 
 ### Analysis
 
@@ -168,10 +168,17 @@ Drawing in black & white comes before oils, so **skill trees** kind of make sens
   * Resolution cards can get you into situations where you never will
    * eg, no crit successes while: -2 penalty in Anchor, tired in Anchor, -1 and tired in Bulb, etc.
 
+ * Players that lose focus of the story and only grind their skills up to the highest levels
+  * GM can deal a red card or red token on that skill to mark that the character is "frustrated" and is now trying in vain
+  * Or the GM could add some narrative flavour about how that character has developed some other emotional relationship
+    with that skill and is thus blocked, and perhaps even penalized
+    * The GM could do this conditionally on the character getting ✗s.
+    * Anxiety / frustration / embarassment
+
 ----
 # Thematic flips:
 
-  eg, a Chase / Running away
+### A Chase / Running away
    * both characters can choose color direction up to their dexterity
    * runner gets a 1-card head start - looks at top card, decides which color to flip
    * runner flips up 2 green - chaser must exactly match the sum, so 3 green
@@ -199,6 +206,17 @@ Drawing in black & white comes before oils, so **skill trees** kind of make sens
  - all cards are shown
  - if the callee has an attribute advantage, they can add that many extra cards (from the top of their deck)
  - but I have to make sure the distribution of ✗'s and ✔'s is even for that game.
+
+
+### Dividing up treasure:
+
+This works if there are more treasure cards than the number of players
+ * shuffle the treasure cards
+ * deal equal decks to each player
+  * if decks are unequal, do a flip and the players with the highest get the decks with the extra cards
+ * player takes one card, then passes the deck to the player to the left.
+ * repeat until empty
+You could add in a stealth skill check part here, and they have to show cards face up unless they pass the stealth check.
 
 
 ### Blessing cards:
@@ -256,6 +274,68 @@ If you make a hit after opponent is **fully tired** (down to 10 cards),
 
 ### Wounds
 bleeding - any time you make an action, flip one card and if it's marked for tiredness, discard it to the tired pile
+
+### General Combat:
+ * ✔✔ v ✔✔ - tie / clash
+ * ✔✔ v ✔  - hit
+ * ✔✔ v ✗  - decisive hit
+ * ✔✔ v ✗✗ - critical hit
+
+ * ✔ v ✔  - tie / clash
+ * ✔ v ✗  - hit
+ * ✔ v ✗✗ - decisive hit
+
+ * ✗ v ✗  - tie /clash
+ * ✗ v ✗✗ - hit (this seems not quite right)
+
+ * ✗✗ v ✗✗ - tie / clash
+
+### Ranged Combat:
+The secondary effect of ranged combat is that, even when you don't hit an opponent, you can cause them
+to stay in the cover they've got, dive for the floor, or interrupt their current action.
+Here, we'll call this "pinned"
+
+ * ✔✔ v ✔✔ - exhaust / choose to move
+ * ✔✔ v ✔  - pinned (evade)
+ * ✔✔ v ✗  - hit & pinned
+ * ✔✔ v ✗✗ - critical hit
+
+ * ✔ v ✔✔ - exhaust / choose to move
+ * ✔ v ✔  - exhaust or pinned
+ * ✔ v ✗  - hit or pinned
+ * ✔ v ✗✗ - hit & pinned
+
+ * ✗ v ✔✔ - miss & lose ammo / choose to move
+ * ✗ v ✔  - miss & lose ammo
+ * ✗ v ✗  - miss
+ * ✗ v ✗✗ - miss / pinned
+
+ * ✗✗ v ✔✔ - miss & lose ammo & self-exhaust
+ * ✗✗ v ✔  - miss & lose ammo / choose to move
+ * ✗✗ v ✗  - miss & lose ammo
+ * ✗✗ v ✗✗ - miss & lose ammo / pinned
+
+### Grappling:
+Grappling is a kind of long, drawn-out fighting, so I want to make it feel that way.
+Upon the successful start of a grapple:
+ * The successfull grapple initiation card is placed between the two players.
+ * Every turn the character in the inferior position is in the grapple, they:
+  * take an exhaust.
+  * get 3 chances to flip a their (str? dex?) that matches or beats an open edge of the initiation card
+  * if all 4 edges are matched, they break free of the grapple
+ * Every turn the character in the superior position is in the grapple, they:
+  * do a (str? dex?) check and if successful, exhaust their opponent.
+
+ * Grapple Technique skill (a skill to learn):
+  * Every turn the character in the superior position is in the grapple, they:
+   * do a (str? dex?) check and if successful, they can choose:
+    * deal a blow (bruise instead of exhaust)
+    * increase their hold - add this card to the center stack if the symbols can match/beat the outer cards
+     * after that is in place, they no longer have to do a skill check to deal blows each turn.
+
+ * Grapple Reversal skill (a skill to learn):
+  * if the inferior grappler in one turn gets all 3 flips to match/beat an open edge,
+  * they reverse the grapple, and their last laid card is the new grapple initiation card
 
 ----
 
