@@ -1,0 +1,28 @@
+FROM ubuntu:16.04
+
+ENV DEBIAN_FRONTEND noninteractive
+
+RUN apt-get update && apt-get install -y \
+    curl \
+    git \
+    ipython \
+    vim \
+
+
+RUN apt-get clean
+RUN rm -rf /var/lib/apt/lists/*
+
+RUN echo '[ ! -z "$TERM" -a -r /etc/motd ] && cat /etc/issue && cat /etc/motd' \
+    >> /etc/bash.bashrc \
+        ; echo "\
+        ===================================================================\n\
+        = Hey, you're in bash! \n\
+        ===================================================================\n\
+        \n\
+        Here are some suggested commands: \n\
+        Run  /foo/bar/baz --setup \n\
+        \n"\
+        > /etc/motd
+
+CMD bash
+
