@@ -60,9 +60,15 @@ def make_deck(deck_number):
     c = fp.read()
     fp.close()
 
+    cmd_fmt = 'inkscape --export-png=%s --export-width=825 --export-height=825 %s'
+    cmd = cmd_fmt % ('/tmp/cards/back.png', 'back_ready_to_print.svg')
+    print cmd
+    os.system(cmd)
+
     for i, card in enumerate(cards):
         svg_filename = '/tmp/cards/deck_%s_card_face%s.svg' % (deck_number, (i+1))
         png_filename = '/tmp/cards/deck_%s_card_face%s.png' % (deck_number, (i+1))
+        cmd = cmd_fmt % (png_filename, svg_filename)
 
         dom = etree.fromstring(c)
         titles = [x for x in dom.getiterator()
@@ -122,8 +128,6 @@ def make_deck(deck_number):
         fp.write(etree.tostring(dom))
         fp.close()
 
-        cmd = 'inkscape --export-png=%s --export-width=825 --export-height=825 %s' % (
-              png_filename, svg_filename)
         print cmd
         os.system(cmd)
 
