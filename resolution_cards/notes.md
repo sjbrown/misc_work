@@ -174,6 +174,9 @@ Drawing in black & white comes before oils, so **skill trees** kind of make sens
     with that skill and is thus blocked, and perhaps even penalized
     * The GM could do this conditionally on the character getting ✗s.
     * Anxiety / frustration / embarassment
+  * Or, the player could start with 1 green card any time they're fully rested
+   * They can't normally exceed that 1 green card - resting extra doesn't earn them 2 cards
+   * When they flip a proficiency symbol, they can *choose* to take the card into the skill they just used
 
 ----
 # Thematic flips:
