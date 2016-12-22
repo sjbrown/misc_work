@@ -674,3 +674,18 @@ Using equals sign is not great
         return cls.baz
 
 ```
+
+----
+
+Bugs can happen when you check for falsy / truthy and the kind of falsy/truthy
+is different than what you expected.  It's a chance to catch a bug with
+explicitness.
+
+Maybe raw if/else should only check for booleans, but `@truthy()` is a
+built-in language macro that calls __bool__ on members and returns
+
+```
+    if latitude:
+        print 'Latitude was None'
+        # BUG!  maybe it was actually 0.0??!?!
+```
