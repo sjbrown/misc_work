@@ -364,6 +364,10 @@ How to mitigate this?
   * Counting is annoying though.
   * If that's still tied, then the ✔ marks on all suits
    * If that's still tied, then the least ✗ marks
+  * This works pretty well, see `TieCountChecks` in cards.py
+   * Suit *X* vs Suit *X* with no mods results in **6%** re-flip
+   * Suit *X* vs Suit *Y* with no mods results in **1-3%** re-flip
+   * Any time mods are added, even if they're equal, it's **< 1%** re-flip
  4. Calculate the *difference* between proficiencies and flip based on that
   * Counting is annoying though.
   * That'll work for d+2 vs d+2 (calculate as d+0 vs d+0) , but does it give good results across suits? eg, d+2 vs c+1?

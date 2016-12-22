@@ -1,4 +1,5 @@
 #! /usr/bin/env python
+# -*- coding: utf-8 -*-
 
 import random
 from collections import defaultdict
@@ -34,12 +35,31 @@ cards = [
  {'Pro': False, 'Tmark': True, 'a': 3, 'b': 3, 'c': 1, 'd': 3},
 ]
 
+def count_checks_in_suit(cards, suit):
+    return sum(card[suit]-2 for card in cards if card[suit] >= 3)
+
+def count_exes_in_suit(cards, suit):
+    return sum(3-card[suit] for card in cards if card[suit] < 3)
+
 def flip(deck):
     # Takes a card off the deck and returns that new deck
     new_deck = deck[:]
     random.shuffle(new_deck)
     res = new_deck.pop()
     return res, new_deck
+
+def flip_cards(cards, num=1):
+    """
+    Takes a card off the deck and returns that new deck
+
+    Throws IndexError if there weren't eneough cards to flip
+    """
+    remaining = cards[:]
+    random.shuffle(remaining)
+    flipped = []
+    for i in range(num):
+        flipped.append(remaining.pop())
+    return flipped, remaining
 
 def one_flip(deck):
     return flip(deck)[0]
@@ -79,14 +99,14 @@ def resolve_contest(deck_a, deck_b, mod_a=0, mod_b=0):
     return cmp(a, b)
 
 
-class Notie(object):
+class TieReflip(object):
     """
     No ties allowed
     Just re-draw whenever there's a tie.
 
     This can be really shitty, because (d,d,2,2) or (a,a,-2,-2) can
     result in 1.7x the needed draws to get to a resolution.
-    (see analyze_contest_notie)
+    (see analyze_contest_tiereflip)
     This should be reserved only for epic struggles where a prolonged
     stalemate makes a lot of narrative sense.
     """
@@ -123,6 +143,106 @@ class Notie(object):
     def multiple(cls):
         return float(cls.num_contests + cls.ties)/cls.num_contests
 
+class TieCountChecks(object):
+    """
+    No ties allowed
+
+    When a tie happens, try these:
+     * most # of ✔s on the flipped suit on all flipped cards
+     * most # of ✔s on all suits on all flipped cards
+     * least # of ✗s on the flipped suit on all flipped cards
+     * least # of ✗s on all suits on all flipped cards
+     * flip again if none of that worked
+    """
+    ties = 0
+    num_contests = 0
+    tie_distribution = defaultdict(int)
+    kind_distribution = defaultdict(int)
+
+    @classmethod
+    def resolve_contest_cards(cls,
+        cards_a, suit_a, cards_b, suit_b, mod_a=0, mod_b=0,
+        contest_ties=0
+    ):
+        if contest_ties == 0:
+            cls.num_contests += 1
+        howmany = {
+            -3: 4,
+            -2: 3,
+            -1: 2,
+             0: 1,
+             1: 2,
+             2: 3,
+        }
+
+        def tallys(flipped, mod, suit):
+            if mod < 0:
+                score_fn = min
+            else:
+                score_fn = max
+            raw_score = score_fn(card[suit] for card in flipped)
+            checks_in_suit = count_checks_in_suit(flipped, suit)
+            checks_total = sum(count_checks_in_suit(flipped, s)
+                               for s in ['a','b','c','d'])
+            exes_in_suit = count_exes_in_suit(flipped, suit)
+            exes_total = sum(count_exes_in_suit(flipped, s)
+                               for s in ['a','b','c','d'])
+            return [
+                raw_score,
+                checks_in_suit,
+                checks_total,
+                exes_in_suit,
+                exes_total
+            ]
+
+        flipped_a, remaining_a = flip_cards(cards_a, howmany[mod_a])
+        tally_a = tallys(flipped_a, mod_a, suit_a)
+        flipped_b, remaining_b = flip_cards(cards_b, howmany[mod_b])
+        tally_b = tallys(flipped_b, mod_b, suit_b)
+        for i in range(len(tally_a)):
+            result = cmp(tally_a[i], tally_b[i])
+            if result != 0:
+                if i > 0:
+                    #print tally_a, tally_b
+                    cls.kind_distribution[i] += 1
+                cls.tie_distribution[contest_ties] += 1
+                cls.ties += contest_ties
+                return result
+        return cls.resolve_contest_cards(
+            remaining_a, suit_a,
+            remaining_b, suit_b,
+            mod_a, mod_b,
+            contest_ties = contest_ties + 1
+        )
+
+    @classmethod
+    def clear(cls):
+        cls.ties = 0
+        cls.num_contests = 0
+        cls.tie_distribution = defaultdict(int)
+        cls.kind_distribution = defaultdict(int)
+
+    @classmethod
+    def analysis(cls):
+        mapp = {
+                0: 'raw_score',
+                1: 'chk in_suit',
+                2: 'chk total',
+                3: 'x in_suit',
+                4: 'x total',
+        }
+        return 'Ties %s (%2.1fx) \n %s \n %s' % (
+            cls.ties,
+            cls.multiple(),
+            {k:pct(v, cls.num_contests) for (k,v) in cls.tie_distribution.items()},
+            {mapp[k]:v for (k,v) in cls.kind_distribution.items()},
+        )
+
+    @classmethod
+    def multiple(cls):
+        return float(cls.num_contests + cls.ties)/cls.num_contests
+
+
 def resolve_check(deck, mod=0):
     fns = {
         -3: lambda deck: min(four_flip(deck)),
@@ -150,11 +270,15 @@ def analyze_check(*args):
 def analyze_contest(*args):
     return analyze(resolve_contest, [-1, 0, 1], *args)
 
-def analyze_contest_notie(*args):
-    Notie.clear()
-    analysis = analyze(Notie.resolve_contest, [-1, 1], *args)
-    return analysis[0], analysis[1], Notie.analysis()
+def analyze_contest_tiereflip(*args):
+    TieReflip.clear()
+    analysis = analyze(TieReflip.resolve_contest, [-1, 1], *args)
+    return analysis[0], analysis[1], TieReflip.analysis()
 
+def analyze_contest_tiecountchecks(*args):
+    TieCountChecks.clear()
+    analysis = analyze(TieCountChecks.resolve_contest_cards, [-1, 1], *args)
+    return analysis[0], analysis[1], TieCountChecks.analysis()
 
 
 def proficiency_check(mod):
