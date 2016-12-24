@@ -2,7 +2,7 @@
 
 import os
 from lxml import etree
-from cards import cards
+from cards import cards, blessing_cards
 
 
 '''
