@@ -41,6 +41,17 @@ def count_checks_in_suit(cards, suit):
 def count_exes_in_suit(cards, suit):
     return sum(3-card[suit] for card in cards if card[suit] < 3)
 
+blessing_cards = [
+ {'Pro': False, 'Tmark': False, 'a': 3, 'b': 3, 'c': 3, 'd': 3, 'blessing': 'copper'},
+ {'Pro': False, 'Tmark': False, 'a': 3, 'b': 3, 'c': 3, 'd': 3, 'blessing': 'copper'},
+ {'Pro': False, 'Tmark': False, 'a': 3, 'b': 3, 'c': 3, 'd': 4, 'blessing': 'copper'},
+ {'Pro': False, 'Tmark': False, 'a': 3, 'b': 3, 'c': 3, 'd': 4, 'blessing': 'copper'},
+ {'Pro': False, 'Tmark': False, 'a': 4, 'b': 4, 'c': 4, 'd': 4, 'blessing': 'gold'},
+ {'Pro': False, 'Tmark': False, 'a': 4, 'b': 4, 'c': 4, 'd': 4, 'blessing': 'gold'},
+ {'Pro': False, 'Tmark': False, 'a': 4, 'b': 4, 'c': 4, 'd': 4, 'blessing': 'gold'},
+ {'Pro': False, 'Tmark': False, 'a': 4, 'b': 4, 'c': 4, 'd': 4, 'blessing': 'gold'},
+]
+
 def flip(deck):
     # Takes a card off the deck and returns that new deck
     new_deck = deck[:]
