@@ -2,6 +2,7 @@
 # encoding: utf-8
 
 import string
+import logging
 
 from pyparsing import (
     Word as W,
@@ -13,6 +14,7 @@ from pyparsing import (
     Group,
     Optional,
     White,
+    Forward,
 
     nums,
     alphanums,
@@ -21,6 +23,7 @@ from pyparsing import (
     commaSeparatedList,
     pythonStyleComment,
     quotedString,
+    nestedExpr,
 
     traceParseAction,
 )
@@ -48,59 +51,98 @@ nonlocal
 def debugParseAction(toks):
     pass
 
-def debug(toker):
-    toker.setParseAction(debugParseAction)
+
+def test(toker_name, tests, fail_fast=True, debug=False):
+    toker = globals()[toker_name]
+    print '\n', toker_name, ':', toker
+
+    if debug:
+        toker.setParseAction(debugParseAction)
+    success_fail = [0,0]
+    l = [x.strip() for x in tests.split('\n') if x.strip() != '']
+    for test in l:
+        print test, ':',
+        try:
+            print toker.parseString(test)
+            success_fail[0] += 1
+        except Exception as e:
+            logging.exception(e)
+            success_fail[1] += 1
+        if fail_fast and success_fail[1] != 0:
+            return
 
 m_integer = W(nums)
 m_string  = quotedString
 m_literal = m_integer ^ m_string
 
-m_and = White() + K('and') + White()
 m_and = K('and')
-m_or = White() + K('or') + White()
 m_or = K('or')
 
-print m_and.parseString('and')
-print m_or.parseString('or')
-print m_and.parseString(' and ')
-print m_or.parseString(' or ')
+test('m_and', 'and')
+test('m_or', 'or')
 
 
 m_logical_operator = m_and ^ m_or
 
-print m_logical_operator.parseString('and')
-print m_logical_operator.parseString('or')
+test('m_logical_operator', '''
+and
+or
+''')
 
-
-m_class_private = '__' + W(alphas + alphas8bit + '_' + nums)
-
-print m_class_private('__foo')
-print m_class_private('__f_oo')
 
 m_identifier = W(initChars = alphas + alphas8bit + '_',
                  bodyChars = alphas + alphas8bit + '_' + nums)
 
-print m_identifier.parseString('a')
-print m_identifier.parseString('abc')
-print m_identifier.parseString('abc xxx')
+test('m_identifier', '''
+a
+abc
+abc xxx
+''')
+
 
 m_infix_operator = m_logical_operator
+m_prefix_operator = K('not')
 
-m_infix_expression = m_identifier + m_infix_operator + m_identifier
-m_prefix_expression = ('@PY' + m_identifier) ^ ('@PY' + m_literal)
+m_expression = Forward()
+#m_subexpression = nestedExpr(content=m_expression)
+m_subexpression = nestedExpr()
 
-m_expression = m_infix_expression ^ m_prefix_expression
-debug(m_expression)
+m_evaluant = m_literal ^ m_identifier ^ m_subexpression
+test('m_evaluant', '''
+9
+"abc"
+(9)
+''')
+
+#m_infix_expression = m_expression + m_infix_operator + m_expression
+m_infix_expression = m_evaluant + m_infix_operator + m_expression ^\
+                     m_expression + m_infix_operator + m_evaluant ^\
+                     m_evaluant + m_infix_operator + m_evaluant
+
+m_prefix_expression = m_prefix_operator + m_expression
+
+m_expression = m_evaluant ^ m_prefix_expression ^ m_infix_expression
+
+test('m_expression', '''
+9
+"abc"
+( 9 )
+foo
+(foo)
+a and b
+a or b
+_a or b0
+''')
+
 
 m_assignment = m_identifier + '=' + m_expression
-debug(m_expression)
-
-
-print m_expression.parseString('a and b')
-print m_expression.parseString('a or b')
-print m_expression.parseString(' a or b')
-print m_expression.parseString('a or b ')
-print m_expression.parseString('_a or b0')
-
 
 print m_assignment.parseString('ccc = _a or b0')
+
+test('m_assignment', '''
+a = 9
+b = "abc"
+c = ( 9 )
+d = ( False and 7) or 99
+foo = _a or b0
+''')
