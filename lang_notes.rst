@@ -30,6 +30,7 @@ In General
    scopes suffice (eg let/var in JS, global/nonlocal in Python)
    - research needed here
    - can I find an example where it's necessary or looks better?
+ * Dealing with secrets (passwords, keys, etc)
 
 Javascript
  * long lines
@@ -90,6 +91,11 @@ Python
  * "self" or "cls" must be the first-by-order argument in a function signature
  * "elif" is silly.  but "else if" would be two tokens - confusing to novice,
    so "elseif" is probably best.
+ * None, True, and False are *values* distinguished from identifiers based
+   solely on their first capitalized character
+   * User must memorize these 3 exceptions
+   * They look like Classes but behave nothing like them
+   * Maybe @None, @null, @undefined, @True, @False would be better
 
 
 Coffeescript
@@ -649,6 +655,13 @@ Ok, now that we've gone this far, let's look at the quotes again...
     dom."'#bar'"
     dom."'.bar'"
 
+    # Though really, this might be a great example of the use of
+    # the "enclosers" idea mentioned above.
+    __module__.enclosers = {
+        ❮❯ : getElementBy,
+    }
+    dom.❮#bar❯
+
 ```
 
 ----
@@ -668,7 +681,7 @@ Using equals sign is not great
         self.baz = a + b
         self.zap = c + self.baz
 
-    z = ⦗a ⊩ @int, b ⊧ 3, c ⊧ "foo"⦘ ⊩ (@classmethod, @returns(int))
+    z = ⦗a ⊩ @int, b ⊧ 3 ⊩ @int, c ⊧ "foo"⦘ ⊩ (@classmethod, @returns(int))
         cls.baz = a + b
         cls.zap = c + self.baz
         return cls.baz
