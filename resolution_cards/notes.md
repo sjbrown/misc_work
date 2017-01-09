@@ -393,6 +393,10 @@ Doing magic could be:
   - Maybe put bond & personality cards into the deck that affect performance
  * Set collection
 
+Doing magic could be:
+ * The cards have symbols distributed similarly to Spot-It - there's exactly 2
+   symbols that match if you flip 2 cards.
+
 ----
 
 # Armor
