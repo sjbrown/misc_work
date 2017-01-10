@@ -397,6 +397,33 @@ Doing magic could be:
  * The cards have symbols distributed similarly to Spot-It - there's exactly 2
    symbols that match if you flip 2 cards.
 
+```
+Satisfying Array of length 10:
+ (maybe in 2 different colors to make 20)
+ (requires 20 unique symbols)
+ (requires *5* spots to put symbols on the cards)
+[
+ (0, 1, 2, 3, 4),
+ (3, 8, 10, 16, 18),
+ (4, 9, 14, 16, 17),
+ (0, 7, 9, 11, 18),
+ (2, 5, 6, 8, 9),
+ (1, 5, 7, 10, 14),
+ (4, 7, 8, 15, 19),
+ (3, 6, 7, 12, 17),
+ (4, 6, 10, 11, 13),
+ (0, 8, 12, 13, 14)
+]
+
+Satisfying Array of length 10:
+ (maybe in 4 different colors to make 20)
+ (requires 10 unique symbols)
+[[0, 1, 2, 3], (1, 4, 6, 9), (3, 5, 6, 7), (0, 4, 5, 8), (2, 7, 8, 9)]
+
+```
+
+Latter is better because I've only got 4 spots
+
 ----
 
 # Armor
