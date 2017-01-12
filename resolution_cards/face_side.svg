@@ -756,12 +756,12 @@
      inkscape:cx="584.92165"
      inkscape:cy="356.69621"
      inkscape:document-units="px"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="layer4"
      showgrid="false"
      inkscape:snap-bbox="true"
-     inkscape:snap-bbox-midpoints="false"
+     inkscape:snap-bbox-midpoints="true"
      inkscape:object-nodes="true"
-     inkscape:bbox-nodes="true"
+     inkscape:bbox-nodes="false"
      showguides="true"
      inkscape:guide-bbox="true"
      inkscape:snap-nodes="true"
@@ -773,7 +773,9 @@
      inkscape:window-maximized="1"
      inkscape:snap-text-baseline="false"
      inkscape:snap-center="true"
-     inkscape:snap-object-midpoints="false">
+     inkscape:snap-object-midpoints="false"
+     inkscape:snap-bbox-edge-midpoints="false"
+     inkscape:snap-midpoints="true">
     <sodipodi:guide
        position="1551.5781,375.99606"
        orientation="0,1"
@@ -2927,8 +2929,7 @@
      inkscape:groupmode="layer"
      id="layer2"
      inkscape:label="flourish"
-     style="display:inline"
-     sodipodi:insensitive="true">
+     style="display:inline">
     <ellipse
        style="opacity:1;fill:#00ffff;fill-opacity:1;stroke:none;stroke-width:0.177;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="path4443"
@@ -4908,22 +4909,39 @@
          d="m 1161.6968,1065.5415 -15.502,15.5019 0.2989,1.1152 15.9101,-15.9101 z"
          id="path6203" />
     </g>
-    <ellipse
-       style="display:inline;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:3;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:4.5999999;stroke-opacity:1"
-       id="path5013-3"
-       cx="1174.0216"
-       cy="794.22571"
-       rx="5.4114695"
-       ry="4.3822188"
-       transform="matrix(0.96592583,0.25881905,-0.25881905,0.96592583,0,0)" />
-    <ellipse
-       style="display:inline;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:3;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:4.5999999;stroke-opacity:1"
-       id="path5013-3-3"
-       cx="-1283.949"
-       cy="603.2489"
-       rx="5.4114695"
-       ry="4.3822188"
-       transform="matrix(-0.25881905,-0.96592583,0.96592583,-0.25881905,0,0)" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer4"
+     inkscape:label="dice_pips"
+     style="display:inline">
+    <g
+       id="g5402">
+      <title
+         id="title5408">six_nw_2</title>
+      <ellipse
+         transform="matrix(0.96592583,0.25881905,-0.25881905,0.96592583,0,0)"
+         ry="4.3822188"
+         rx="5.4114695"
+         cy="794.22571"
+         cx="1174.0216"
+         id="path5013-3"
+         style="display:inline;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:3;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:4.5999999;stroke-opacity:1">
+        <title
+           id="title5363">six_nw_b</title>
+      </ellipse>
+      <ellipse
+         transform="matrix(-0.25881905,-0.96592583,0.96592583,-0.25881905,0,0)"
+         ry="4.3822188"
+         rx="5.4114695"
+         cy="603.2489"
+         cx="-1283.949"
+         id="path5013-3-3"
+         style="display:inline;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:3;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:4.5999999;stroke-opacity:1">
+        <title
+           id="title5361">six_nw_a</title>
+      </ellipse>
+    </g>
     <ellipse
        style="display:inline;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:3;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:4.5999999;stroke-opacity:1"
        id="path5013-3-56"
@@ -4931,14 +4949,289 @@
        cy="1429.4032"
        rx="5.4114695"
        ry="4.3822188"
-       transform="matrix(0.70710678,-0.70710678,0.70710678,0.70710678,0,0)" />
+       transform="matrix(0.70710678,-0.70710678,0.70710678,0.70710678,0,0)">
+      <title
+         id="title5359">six_nw_1</title>
+    </ellipse>
+    <ellipse
+       style="opacity:0;fill:#00ff00;fill-opacity:0.77294683;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="ellipse5040"
+       cx="-1109.2653"
+       cy="966.79352"
+       rx="45.798233"
+       ry="28.304863"
+       transform="matrix(0,-1,1,0,0,0)" />
+    <path
+       sodipodi:nodetypes="ccccccc"
+       inkscape:connector-curvature="0"
+       id="path5042"
+       d="m 916.3911,1107.0562 22.3398,-3.4492 16.7422,14.7422 9.6289,37.9375 -7.8359,-38.9727 -17.9375,-15.9375 z"
+       style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:0;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
+    <g
+       id="g5329"
+       inkscape:transform-center-x="61.755505"
+       inkscape:transform-center-y="-61.75541">
+      <title
+         id="title5333">four_nw_2</title>
+      <circle
+         r="4.577723"
+         cy="1126.0587"
+         cx="970.5976"
+         id="path5027"
+         style="opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:4.5999999;stroke-opacity:1" />
+      <circle
+         style="opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:4.5999999;stroke-opacity:1"
+         id="circle5284"
+         cx="978.37476"
+         cy="1133.8357"
+         r="4.577723" />
+    </g>
+    <circle
+       style="opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:4.5999999;stroke-opacity:1"
+       id="circle5286"
+       cx="1131.1294"
+       cy="-1096.8148"
+       r="4.577723"
+       inkscape:transform-center-y="-60.57322"
+       transform="matrix(0,1,-1,0,0,0)"
+       inkscape:transform-center-x="-60.573139">
+      <title
+         id="title5319">four_ne_1</title>
+    </circle>
+    <circle
+       inkscape:transform-center-x="-60.573261"
+       transform="scale(-1,-1)"
+       inkscape:transform-center-y="60.573142"
+       r="4.577723"
+       cy="-1252.2758"
+       cx="-1096.8149"
+       id="circle5294"
+       style="opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:4.5999999;stroke-opacity:1">
+      <title
+         id="title5321">four_se_1</title>
+    </circle>
+    <circle
+       inkscape:transform-center-x="60.573162"
+       transform="matrix(0,-1,1,0,0,0)"
+       inkscape:transform-center-y="60.573264"
+       r="4.577723"
+       cy="975.66852"
+       cx="-1252.2759"
+       id="circle5298"
+       style="opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:4.5999999;stroke-opacity:1">
+      <title
+         id="title5323">four_sw_1</title>
+    </circle>
+    <circle
+       style="opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:4.5999999;stroke-opacity:1"
+       id="circle5325"
+       cx="975.6684"
+       cy="1131.1295"
+       r="4.577723"
+       inkscape:transform-center-y="-60.573099"
+       inkscape:transform-center-x="60.573284">
+      <title
+         id="title5327">four_nw_1</title>
+    </circle>
+    <g
+       inkscape:transform-center-y="-61.755499"
+       inkscape:transform-center-x="-61.755414"
+       id="g5335"
+       transform="matrix(0,1,-1,0,2227.9443,155.46094)">
+      <title
+         id="title5337">four_ne_2</title>
+      <circle
+         style="opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:4.5999999;stroke-opacity:1"
+         id="circle5339"
+         cx="970.5976"
+         cy="1126.0587"
+         r="4.577723" />
+      <circle
+         r="4.577723"
+         cy="1133.8357"
+         cx="978.37476"
+         id="circle5341"
+         style="opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:4.5999999;stroke-opacity:1" />
+    </g>
+    <g
+       transform="matrix(0,-1,1,0,-155.46094,2227.9443)"
+       id="g5343"
+       inkscape:transform-center-x="61.755417"
+       inkscape:transform-center-y="61.75551">
+      <title
+         id="title5345">four_sw_2</title>
+      <circle
+         r="4.577723"
+         cy="1126.0587"
+         cx="970.5976"
+         id="circle5347"
+         style="opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:4.5999999;stroke-opacity:1" />
+      <circle
+         style="opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:4.5999999;stroke-opacity:1"
+         id="circle5349"
+         cx="978.37476"
+         cy="1133.8357"
+         r="4.577723" />
+    </g>
+    <g
+       inkscape:transform-center-y="61.755381"
+       inkscape:transform-center-x="-61.755544"
+       id="g5351"
+       transform="matrix(-1,0,0,-1,2072.4834,2383.4052)">
+      <title
+         id="title5353">four_se_2</title>
+      <circle
+         style="opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:4.5999999;stroke-opacity:1"
+         id="circle5355"
+         cx="970.5976"
+         cy="1126.0587"
+         r="4.577723" />
+      <circle
+         r="4.577723"
+         cy="1133.8357"
+         cx="978.37476"
+         id="circle5357"
+         style="opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:4.5999999;stroke-opacity:1" />
+    </g>
+    <g
+       id="g5418">
+      <title
+         id="title5424">six_se_2</title>
+      <ellipse
+         inkscape:transform-center-y="120.68035"
+         inkscape:transform-center-x="-107.78471"
+         style="display:inline;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:3;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:4.5999999;stroke-opacity:1"
+         id="ellipse5365"
+         cx="-1444.7144"
+         cy="-971.56879"
+         rx="5.4114695"
+         ry="4.3822188"
+         transform="matrix(-0.96592583,-0.25881905,0.25881905,-0.96592583,0,0)">
+        <title
+           id="title5367">six_se_a</title>
+      </ellipse>
+      <ellipse
+         inkscape:transform-center-y="107.63552"
+         inkscape:transform-center-x="-121.23759"
+         style="display:inline;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:3;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:4.5999999;stroke-opacity:1"
+         id="ellipse5369"
+         cx="1554.642"
+         cy="-781.74567"
+         rx="5.4114695"
+         ry="4.3822188"
+         transform="matrix(0.25881905,0.96592583,-0.96592583,0.25881905,0,0)">
+        <title
+           id="title5371">six_se_b</title>
+      </ellipse>
+    </g>
+    <ellipse
+       transform="matrix(-0.70710678,0.70710678,-0.70710678,-0.70710678,0,0)"
+       ry="4.3822188"
+       rx="5.4114695"
+       cy="-1721.3859"
+       cx="109.91676"
+       id="ellipse5373"
+       style="display:inline;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:3;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:4.5999999;stroke-opacity:1"
+       inkscape:transform-center-x="-103.23903"
+       inkscape:transform-center-y="103.22386">
+      <title
+         id="title5375">six_se_1</title>
+    </ellipse>
+    <g
+       id="g5410">
+      <title
+         id="title5416">six_ne_2</title>
+      <ellipse
+         inkscape:transform-center-y="-107.7845"
+         inkscape:transform-center-x="-120.68022"
+         style="display:inline;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:3;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:4.5999999;stroke-opacity:1"
+         id="ellipse5377"
+         cx="747.55109"
+         cy="-1398.0394"
+         rx="5.4114695"
+         ry="4.3822188"
+         transform="matrix(-0.25881905,0.96592583,-0.96592583,-0.25881905,0,0)">
+        <title
+           id="title5379">six_ne_b</title>
+      </ellipse>
+      <ellipse
+         inkscape:transform-center-y="-121.23738"
+         inkscape:transform-center-x="-107.63546"
+         style="display:inline;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:3;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:4.5999999;stroke-opacity:1"
+         id="ellipse5381"
+         cx="827.84369"
+         cy="1330.0472"
+         rx="5.4114695"
+         ry="4.3822188"
+         transform="matrix(0.96592583,-0.25881905,0.25881905,0.96592583,0,0)">
+        <title
+           id="title5383">six_ne_a</title>
+      </ellipse>
+    </g>
+    <ellipse
+       ry="4.3822188"
+       rx="5.4114695"
+       cy="-36.063843"
+       cx="1575.3838"
+       id="ellipse5385"
+       style="display:inline;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:3;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:4.5999999;stroke-opacity:1"
+       inkscape:transform-center-x="-103.22384"
+       inkscape:transform-center-y="-103.23907"
+       transform="matrix(0.70710678,0.70710678,-0.70710678,0.70710678,0,0)">
+      <title
+         id="title5387">six_ne_1</title>
+    </ellipse>
+    <g
+       id="g5426">
+      <title
+         id="title5432">six_sw_2</title>
+      <ellipse
+         transform="matrix(0.25881905,-0.96592583,0.96592583,0.25881905,0,0)"
+         ry="4.3822188"
+         rx="5.4114695"
+         cy="1220.6965"
+         cx="-1018.2433"
+         id="ellipse5389"
+         style="display:inline;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:3;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:4.5999999;stroke-opacity:1"
+         inkscape:transform-center-x="120.68017"
+         inkscape:transform-center-y="107.78437">
+        <title
+           id="title5391">six_sw_a</title>
+      </ellipse>
+      <ellipse
+         transform="matrix(-0.96592583,0.25881905,-0.25881905,-0.96592583,0,0)"
+         ry="4.3822188"
+         rx="5.4114695"
+         cy="-1508.5437"
+         cx="-557.15094"
+         id="ellipse5393"
+         style="display:inline;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:3;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:4.5999999;stroke-opacity:1"
+         inkscape:transform-center-x="107.63538"
+         inkscape:transform-center-y="121.23741">
+        <title
+           id="title5395">six_sw_b</title>
+      </ellipse>
+    </g>
+    <ellipse
+       transform="matrix(-0.70710678,-0.70710678,0.70710678,-0.70710678,0,0)"
+       inkscape:transform-center-y="103.23914"
+       inkscape:transform-center-x="103.22383"
+       style="display:inline;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:3;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:4.5999999;stroke-opacity:1"
+       id="ellipse5397"
+       cx="-1575.4054"
+       cy="-255.91884"
+       rx="5.4114695"
+       ry="4.3822188">
+      <title
+         id="title5399">six_sw_1</title>
+    </ellipse>
   </g>
   <g
      inkscape:groupmode="layer"
      id="layer3"
      inkscape:label="ringsandthings"
      sodipodi:insensitive="true"
-     style="display:none">
+     style="display:inline">
     <g
        id="g7061">
       <path
