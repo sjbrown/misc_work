@@ -1,0 +1,18 @@
+analysis:
+    build: .
+    dockerfile: Dockerfile
+    environment:
+        # When env vars are given without a value, they will be passed through
+        # from your host environment
+        - PGPASSWORD
+        - PGHOST=db
+        - PGUSER=dbadmin
+        - PGDATABASE=mydatabase
+
+    volumes:
+        - ./user:/home/jovyan/work/user
+
+    ports:
+        # HOST : CONTAINER
+        - "8888:8888"
+
