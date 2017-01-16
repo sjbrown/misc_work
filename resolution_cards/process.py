@@ -1,4 +1,6 @@
 #! /usr/bin/env python
+# -*- coding: utf-8 -*-
+
 
 import os
 from lxml import etree
@@ -56,29 +58,73 @@ cards
  {'Pro': False, 'Tmark': True, 'a': 3, 'b': 3, 'c': 1, 'd': 3}]
 '''
 
-
-def make_deck(deck_number):
-    fp = file('face_ready_to_split.svg')
-    c = fp.read()
-    fp.close()
-
+def export_png(svg, png):
     cmd_fmt = 'inkscape --export-png=%s --export-width=825 --export-height=825 %s'
-    cmd = cmd_fmt % ('/tmp/cards/back.png', 'back_ready_to_print.svg')
+    cmd = cmd_fmt % (png, svg)
     print cmd
     os.system(cmd)
 
-    for i, card in enumerate(cards):
-        svg_filename = '/tmp/cards/deck_%s_card_face%s.svg' % (deck_number, (i+1))
-        png_filename = '/tmp/cards/deck_%s_card_face%s.png' % (deck_number, (i+1))
-        cmd = cmd_fmt % (png_filename, svg_filename)
-
-        dom = etree.fromstring(c)
-        titles = [x for x in dom.getiterator()
-                  if x.tag == '{http://www.w3.org/2000/svg}title']
-        title_to_element = {
+class DOM(object):
+    def __init__(self, svg_file):
+        fp = file(svg_file)
+        c = fp.read()
+        fp.close()
+        self.dom = etree.fromstring(c)
+        self.titles = [x for x in self.dom.getiterator()
+                       if x.tag == '{http://www.w3.org/2000/svg}title']
+        self.title_to_element = {
             t.text: t.getparent()
-            for t in titles
+            for t in self.titles
         }
+
+    def cut_element(self, title):
+        e = self.title_to_element[title]
+        e.getparent().remove(e)
+
+    def write_file(self, svg_filename):
+        print svg_filename
+        fp = file(svg_filename, 'w')
+        fp.write(etree.tostring(self.dom))
+        fp.close()
+
+
+def filter_dom_elements(dom, card, deck_title, dice_rule):
+        for dt in ['deck_1', 'deck_2', 'deck_3', 'deck_4']:
+            if dt == deck_title:
+                continue
+            dom.cut_element(dt)
+
+        if not card.get('blessing'):
+            dom.cut_element('copper_halo')
+            dom.cut_element('gold_halo')
+        elif card.get('blessing') == 'copper':
+            dom.cut_element('gold_halo')
+        elif card.get('blessing') == 'gold':
+            dom.cut_element('copper_halo')
+
+        if not card.get('crit_win'):
+            dom.cut_element('crit_win')
+
+        if not card.get('crit_fail'):
+            dom.cut_element('crit_fail')
+
+        if not card.get('Pro'):
+            dom.cut_element('proficient')
+
+        if not card.get('Tmark'):
+            dom.cut_element('exhaustable')
+
+        # Choose the dice pips to print out
+        for titletuple in product(
+            ['four', 'six'],
+            ['nw', 'ne', 'sw', 'se'],
+            ['1', '2']
+        ):
+            title = '_'.join(titletuple)
+            if title not in dice_rule:
+                dom.cut_element(title)
+
+        # Choose how many ✔s and ✗s to show
         letter_to_prefix = {
           'a': 'anchor',
           'b': 'bulb',
@@ -92,63 +138,55 @@ def make_deck(deck_number):
           4: '_two_check',
         }
         suffixes = score_to_suffix.values()
-
-        def cut_element(title):
-            e = title_to_element[title]
-            e.getparent().remove(e)
-
-        deck_title = 'deck_%s' % deck_number
-        for dt in ['deck_1', 'deck_2', 'deck_3', 'deck_4']:
-            if dt == deck_title:
-                continue
-            cut_element(dt)
-
-        if not card.get('blessing'):
-            cut_element('copper_halo')
-            cut_element('gold_halo')
-
-        if not card.get('crit_win'):
-            cut_element('crit_win')
-
-        if not card.get('crit_fail'):
-            cut_element('crit_fail')
-
-        if not card.get('Pro'):
-            cut_element('proficient')
-
-        if not card.get('Tmark'):
-            cut_element('exhaustable')
-
-        dice_rule = dice_print_rules[i][1]
-        dice_rule = dice_rule.split()
-        print 'dice rule %s %s' % (i, dice_rule)
-        for titletuple in product(
-            ['four', 'six'],
-            ['nw', 'ne', 'sw', 'se'],
-            ['1', '2']
-        ):
-            title = '_'.join(titletuple)
-            if title not in dice_rule:
-                cut_element(title)
-
         for letter, prefix in letter_to_prefix.items():
             for suffix in suffixes:
                 title = prefix + suffix
                 if title != prefix + score_to_suffix[card[letter]]:
-                    e = title_to_element[title]
-                    e.getparent().remove(e)
+                    dom.cut_element(title)
 
-        print svg_filename
-        fp = file(svg_filename, 'w')
-        fp.write(etree.tostring(dom))
-        fp.close()
 
-        print cmd
-        os.system(cmd)
+def make_deck(deck_number):
+    export_png('back_ready_to_print.svg', '/tmp/cards/back.png')
+
+    for i, card in enumerate(cards):
+        dom = DOM('face_ready_to_split.svg')
+
+        deck_title = 'deck_%s' % deck_number
+        dice_rule = dice_print_rules[i][1]
+        dice_rule = dice_rule.split()
+        print 'dice rule %s %s' % (i, dice_rule)
+
+        filter_dom_elements(dom, card, deck_title, dice_rule)
+
+        # Create the svg file and export a PNG
+        svg_filename = '/tmp/cards/deck_%s_card_face%s.svg' % (deck_number, (i+1))
+        png_filename = '/tmp/cards/deck_%s_card_face%s.png' % (deck_number, (i+1))
+
+        dom.write_file(svg_filename)
+
+        export_png(svg_filename, png_filename)
+
+def make_blessing_deck():
+    export_png('back_blessing_gold_ready_to_print.svg', '/tmp/cards/blessing/back.png')
+
+    for i, card in enumerate(blessing_cards):
+        dom = DOM('face_ready_to_split.svg')
+
+        filter_dom_elements(dom, card, '', [])
+
+        # Create the svg file and export a PNG
+        svg_filename = '/tmp/cards/blessing/deck_blessing_card_face%s.svg' % ((i+1))
+        png_filename = '/tmp/cards/blessing/deck_blessing_card_face%s.png' % ((i+1))
+
+        dom.write_file(svg_filename)
+
+        export_png(svg_filename, png_filename)
 
 
 if not os.path.exists('/tmp/cards'):
     os.makedirs('/tmp/cards')
+if not os.path.exists('/tmp/cards/blessing'):
+    os.makedirs('/tmp/cards/blessing')
 make_deck(1)
 make_deck(2)
 make_deck(3)
