@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 import random
-from collections import defaultdict
+from collections import defaultdict, OrderedDict
 
 def pct(x, total):
     return '%2.1f%%' % (100*float(x)/total)
@@ -399,26 +399,57 @@ good_six_four_distributions = [
 
 selected_six_four_distribution = 7
 
-rule = {
- (0, 2): 'six_sw_1 six_ne_1',
- (1, 1): 'six_sw_1 four_ne_1',
- (1, 1): 'six_sw_1 four_ne_1',
- (0, 3): 'six_sw_2 six_ne_1',
- (0, 3): 'six_sw_2 six_ne_1',
- (3, 0): 'four_sw_2 four_ne_1',
- (4, 0): 'four_nw_1 four_ne_1 four_se_1 four_sw_1',
- (0, 4): 'six_nw_1 six_ne_1 six_se_1 six_sw_1',
- (3, 1): 'four_sw_2 four_ne_1 six_ne_1',
- (2, 3): 'four_nw_1 four_se_1 six_sw_2 six_ne_1',
- (3, 2): 'four_sw_2 four_ne_1 six_nw_1 six_se_1',
- (1, 4): 'four_sw_1 six_ne_2 six_nw_1 six_se_1',
- (2, 4): 'four_sw_2 six_ne_2 six_nw_1 six_se_1',
- (4, 2): 'four_nw_1 four_ne_1 four_se_1 four_sw_1 six_sw_1 six_ne_1',
- (1, 6): 'four_sw_1 six_ne_2 six_nw_2 six_se_2',
- (2, 5): 'four_sw_2 six_ne_1 six_nw_2 six_se_2',
- (2, 6): 'four_sw_2 six_ne_2 six_nw_2 six_se_2',
- (3, 5): 'four_sw_1 four_se_1 four_nw_1 six_ne_2 six_nw_1 six_sw_1 six_se_1',
- (4, 5): 'four_sw_2 four_se_1 four_nw_1 six_ne_2 six_nw_1 six_sw_1 six_se_1',
- (4, 6): 'four_nw_1 four_ne_1 four_se_1 four_sw_1 six_sw_2 six_sw_1 six_ne_1 six_ne_2',',
-}
+dice_print_rules = [
+ # 0
+ ( (0, 2), 'six_sw_1 six_ne_1'
+ ),
+ # 1
+ ( (1, 1), 'six_sw_1 four_ne_1'
+ ),
+ # 2
+ ( (1, 1), 'six_sw_1 four_ne_1'
+ ),
+ # 3
+ ( (0, 3), 'six_sw_2 six_ne_1'
+ ),
+ # 4
+ ( (0, 3), 'six_sw_2 six_ne_1'
+ ),
+ # 5
+ ( (3, 0), 'four_sw_2 four_ne_1'
+ ),
+ # 6
+ ( (4, 0), 'four_nw_1 four_ne_1 four_se_1 four_sw_1'
+ ),
+ # 7
+ ( (0, 4), 'six_nw_1 six_ne_1 six_se_1 six_sw_1'
+ ),
+ # 8
+ ( (3, 1), 'four_sw_2 four_ne_1 six_ne_1'
+ ),
+ # 9
+ ( (2, 3), 'four_nw_1 four_se_1 six_sw_2 six_ne_1'
+ ),
+ # 10
+ ( (4, 6), 'four_nw_1 four_ne_1 four_se_1 four_sw_1 six_sw_2 six_sw_1 six_ne_1 six_ne_2'
+ ),
+ ( (3, 2), 'four_sw_2 four_ne_1 six_nw_1 six_se_1'
+ ),
+ ( (1, 4), 'four_sw_1 six_ne_2 six_nw_1 six_se_1'
+ ),
+ ( (2, 4), 'four_sw_2 six_ne_2 six_nw_1 six_se_1'
+ ),
+ ( (4, 2), 'four_nw_1 four_ne_1 four_se_1 four_sw_1 six_sw_1 six_ne_1'
+ ),
+ ( (1, 6), 'four_sw_1 six_ne_2 six_nw_2 six_se_2'
+ ),
+ ( (2, 5), 'four_sw_2 six_ne_1 six_nw_2 six_se_2'
+ ),
+ ( (2, 6), 'four_sw_2 six_ne_2 six_nw_2 six_se_2'
+ ),
+ ( (3, 5), 'four_sw_1 four_se_1 four_nw_1 six_ne_2 six_nw_1 six_sw_1 six_se_1'
+ ),
+ ( (4, 5), 'four_sw_2 four_se_1 four_nw_1 six_ne_2 six_nw_1 six_sw_1 six_se_1'
+ ),
+]
 

@@ -2,7 +2,8 @@
 
 import os
 from lxml import etree
-from cards import cards, blessing_cards
+from itertools import product
+from cards import cards, blessing_cards, dice_print_rules
 
 
 '''
@@ -55,6 +56,7 @@ cards
  {'Pro': False, 'Tmark': True, 'a': 3, 'b': 3, 'c': 1, 'd': 3}]
 '''
 
+
 def make_deck(deck_number):
     fp = file('face_ready_to_split.svg')
     c = fp.read()
@@ -91,30 +93,43 @@ def make_deck(deck_number):
         }
         suffixes = score_to_suffix.values()
 
+        def cut_element(title):
+            e = title_to_element[title]
+            e.getparent().remove(e)
+
         deck_title = 'deck_%s' % deck_number
         for dt in ['deck_1', 'deck_2', 'deck_3', 'deck_4']:
             if dt == deck_title:
                 continue
-            e = title_to_element[dt]
-            e.getparent().remove(e)
+            cut_element(dt)
+
+        if not card.get('blessing'):
+            cut_element('copper_halo')
+            cut_element('gold_halo')
 
         if not card.get('crit_win'):
-            e = title_to_element['crit_win']
-            e.getparent().remove(e)
+            cut_element('crit_win')
 
         if not card.get('crit_fail'):
-            e = title_to_element['crit_fail']
-            print e
-            print e.getparent()
-            e.getparent().remove(e)
+            cut_element('crit_fail')
 
         if not card.get('Pro'):
-            e = title_to_element['proficient']
-            e.getparent().remove(e)
+            cut_element('proficient')
 
         if not card.get('Tmark'):
-            e = title_to_element['exhaustable']
-            e.getparent().remove(e)
+            cut_element('exhaustable')
+
+        dice_rule = dice_print_rules[i][1]
+        dice_rule = dice_rule.split()
+        print 'dice rule %s %s' % (i, dice_rule)
+        for titletuple in product(
+            ['four', 'six'],
+            ['nw', 'ne', 'sw', 'se'],
+            ['1', '2']
+        ):
+            title = '_'.join(titletuple)
+            if title not in dice_rule:
+                cut_element(title)
 
         for letter, prefix in letter_to_prefix.items():
             for suffix in suffixes:
@@ -138,3 +153,4 @@ make_deck(1)
 make_deck(2)
 make_deck(3)
 make_deck(4)
+make_blessing_deck()
