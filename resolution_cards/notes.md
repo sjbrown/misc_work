@@ -423,6 +423,8 @@ Satisfying Array of length 10:
 ```
 
 Latter is better because I've only got 4 spots
+I could use Chinese Zodiac symbols, but reserve the Dragon and the Goat
+Maybe those two could go on blessing / curse cards.
 
 ----
 
