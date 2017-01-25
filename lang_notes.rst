@@ -63,6 +63,7 @@ Javascript
    *first* in the arg list.
 
 Python
+ * https://attrs.readthedocs.io/en/stable/examples.html attrs helps
  * "def" should be "func" or "function"
  * colons are: function signature enders, for/while loop enders,
    slice mini-lang delimiters, dict-constructing mini-lang delimiters
