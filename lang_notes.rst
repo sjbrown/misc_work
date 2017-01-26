@@ -31,6 +31,9 @@ In General
    - research needed here
    - can I find an example where it's necessary or looks better?
  * Dealing with secrets (passwords, keys, etc)
+ * Enumerated types or "strings", which usually just boil down to
+  - This is a string that I don't want to typo
+  - Maybe use one of these?  № ™ ℵ ⅇ ♯
 
 Javascript
  * long lines
@@ -703,3 +706,22 @@ built-in language macro that calls __bool__ on members and returns
         print 'Latitude was None'
         # BUG!  maybe it was actually 0.0??!?!
 ```
+
+----
+
+Enumerated types:
+
+```
+™(
+    'salt',
+    'coriander',
+    'cinnamon',
+)
+
+...
+
+foo = 'corriandar'™  # throws an exception
+
+```
+
+I don't know how valuable this is though, and it's a bit of a hack
