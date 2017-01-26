@@ -579,6 +579,51 @@ How can the language itself make test writing easier / faster / friendlier?
 ```
 
  * Maybe it could optionally specify the test path? 🜖(all_tests.test_zany)
+ * Maybe the test could follow in-line:
+
+```
+
+    wacky = function(a, b=3, c="foo")
+        return c + str(a+b)
+        ⇤ 🜖
+        assert(wacky(1), 'foo4')
+
+```
+
+ * Testing with mocks is a bit of a hassle.  But what are mocks other than
+   declaring what values to use for the lexical scope of the function
+
+```
+
+    wacky = function(a, b=3, c="foo")
+        return c + str(a+b)
+        ⇤ 🜖 (arg values go here), (lexical scope values go here)
+        # "sut" is a reserved keyword for System Under Test
+        assert(sut(1), 'foo4')
+
+```
+
+ * Tests can be chained
+
+```
+
+    baz = 99
+    wacky = function(a, b=3, c="foo")
+        contents = file('/tmp/foo.txt').read()
+        return str(baz) + c + str(a+b) + contents
+        ⇤ 🜖 (
+            kwargs = {'a': 1},
+            builtin_scope = {'file': fake_file}
+        )
+        assert(sut(), '99foo4Hello World')
+        ⇤ 🜖 (
+            kwargs = {'a': 2},
+            builtin_scope = {'file': fake_file},
+            global_scope = {'baz': 88}
+        )
+        assert(sut(), '88foo5Hello World')
+
+```
 
 ----
 
