@@ -20,7 +20,7 @@
    enable-background="new 0 0 198 270"
    xml:space="preserve"
    inkscape:version="0.91 r13725"
-   sodipodi:docname="tall_card_front.svg"><metadata
+   sodipodi:docname="foo.svg"><metadata
      id="metadata730"><rdf:RDF><cc:Work
          rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title /></cc:Work></rdf:RDF></metadata><defs
@@ -559,51 +559,19 @@
        style="opacity:1;fill:#ffd5d5;fill-opacity:1;stroke:none;stroke-width:40;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:4.5999999;stroke-opacity:1"
        d="m -166.24219,45.476562 0,76.457028 85.24219,0 0,-76.457028 -85.24219,0 z"
        id="path4784"
-       inkscape:connector-curvature="0" /><text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;line-height:125%;font-family:FreeSerif;-inkscape-font-specification:FreeSerif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
-       x="56.494263"
-       y="72.312256"
-       id="text4763"
-       sodipodi:linespacing="125%"><title
-         id="title4993">desc_79</title><tspan
-         sodipodi:role="line"
-         id="tspan4765"
-         x="56.494263"
-         y="72.312256">Deal damage</tspan><tspan
-         sodipodi:role="line"
-         x="56.494263"
-         y="86.374756"
-         id="tspan4767">and</tspan><tspan
-         sodipodi:role="line"
-         x="56.494263"
-         y="100.43726"
-         id="tspan4769">enemy attacks you</tspan></text>
-<path
+       inkscape:connector-curvature="0" /><path
+       style="display:inline;opacity:1;fill:none;fill-opacity:1;stroke:none;stroke-width:40;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:4.5999999;stroke-opacity:1"
+       d="m 18.151504,56.717246 0,53.975664 76.454805,0 0,-53.975664 -76.454805,0 z"
+       id="path4838-5-6"
+       inkscape:connector-curvature="0" /><path
        style="opacity:1;fill:#ffd5d5;fill-opacity:1;stroke:none;stroke-width:40;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:4.5999999;stroke-opacity:1"
        d="m 239,45.476562 0,76.457028 84.83789,0 0,-76.457028 -84.83789,0 z"
        id="path4838"
+       inkscape:connector-curvature="0" /><path
+       style="display:inline;opacity:1;fill:none;fill-opacity:1;stroke:none;stroke-width:40;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:4.5999999;stroke-opacity:1"
+       d="m 103.19154,56.717243 0,53.975667 76.45481,0 0,-53.975667 -76.45481,0 z"
+       id="path4838-5"
        inkscape:connector-curvature="0" /><text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;line-height:125%;font-family:FreeSerif;-inkscape-font-specification:FreeSerif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="141.34512"
-       y="73.530075"
-       id="text4763-4"
-       sodipodi:linespacing="125%"><title
-         id="title4995">desc_10</title><tspan
-         sodipodi:role="line"
-         id="tspan4765-6"
-         x="141.34512"
-         y="73.530075">Deal damage</tspan><tspan
-         sodipodi:role="line"
-         x="141.34512"
-         y="86.030075"
-         id="tspan4767-1">and</tspan><tspan
-         sodipodi:role="line"
-         x="141.34512"
-         y="98.530075"
-         id="tspan4769-7">avoid enemy attack</tspan></text>
-<text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:22.5px;line-height:125%;font-family:OptimusPrinceps;-inkscape-font-specification:'OptimusPrinceps Medium';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="16.131445"
@@ -640,10 +608,12 @@
        style="display:inline;opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:40;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:4.5999999;stroke-opacity:1"
        d="m 21.964371,130.98833 0,122.29461 154.071259,0 0,-122.29461 -154.071259,0 z"
        id="path4784-6"
-       inkscape:connector-curvature="0" /><flowRoot
+       inkscape:connector-curvature="0" />
+       <flowRoot
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;line-height:125%;font-family:FreeSerif;-inkscape-font-specification:FreeSerif;text-align:justify;letter-spacing:0px;word-spacing:0px;text-anchor:start;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       id="flowRoot4970"><flowRegion
+       id="flowRoot4970"><title
+         id="title4556">desc_detail</title><flowRegion
          id="flowRegion4972"><use
            x="0"
            y="0"
@@ -651,7 +621,33 @@
            id="use4974"
            width="100%"
            height="100%" /></flowRegion><flowPara
-         id="flowPara4976">On a 10+, you can choose to expose yourself to the enemy's attack in order to deal extra damage</flowPara></flowRoot></g><g
+         id="flowPara4976">On a 10+, you can choose to expose yourself to the enemy's attack in order to deal extra damage</flowPara>
+       </flowRoot>
+       <flowRoot
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;line-height:125%;font-family:FreeSerif;-inkscape-font-specification:FreeSerif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="flowRoot5809">
+         <title id="title5831">desc_79</title>
+         <flowRegion
+         id="flowRegion5811"><use
+           x="0"
+           y="0"
+           xlink:href="#path4838-5-6"
+           id="use5813" />
+         </flowRegion>
+         <flowPara id="flowPara5815">Deal damage and enemy attacks you</flowPara>
+       </flowRoot>
+       <flowRoot
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;line-height:125%;font-family:FreeSerif;-inkscape-font-specification:FreeSerif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="flowRoot5821"><title
+         id="title5829">desc_10</title><flowRegion
+         id="flowRegion5823"><use
+           x="0"
+           y="0"
+           xlink:href="#path4838-5"
+           id="use5825" /></flowRegion><flowPara
+         id="flowPara5827">Deal damage and avoid enemy attack</flowPara></flowRoot></g><g
      inkscape:groupmode="layer"
      id="layer1"
      inkscape:label="template"

@@ -7,7 +7,9 @@ from collections import defaultdict, OrderedDict
 
 def make_card(h1, mod_str='', desc_79='', desc_10='', desc_detail=''):
     desc_detail = ' '.join(desc_detail.split('\n')).strip()
-    args = {
+    desc_79 = desc_79.strip()
+    desc_10 = desc_10.strip()
+    card = {
         'h1': h1,
         'mod_shield': bool(mod_str),
         'mod_str': mod_str,
@@ -17,8 +19,22 @@ def make_card(h1, mod_str='', desc_79='', desc_10='', desc_detail=''):
         'label_10': bool(desc_10),
         'desc_detail': desc_detail,
     }
+    return card
 
 cards = [
+
+# ['h1', 'mod',
+# '''
+# 79
+# ''',
+# '''
+# 10
+# ''',
+# '''
+# detail
+# ''',
+#  ],
+
  ['Hack and Slash', 'Str',
 '''
 Deal damage
@@ -156,17 +172,7 @@ Target takes +1 or -2
 Help or hinder someone you have a Bond with.
 ''',
  ],
- ['h1', 'mod',
-'''
-79
-''',
-'''
-10
-''',
-'''
-detail
-''',
- ],
 
 ]
 
+cards = [make_card(*x) for x in cards]
