@@ -4,15 +4,29 @@
 import random
 from collections import defaultdict, OrderedDict
 
+def parse(s):
+    retval = ''
+    for line in s.split('\n'):
+        l = line.strip()
+        if not l:
+            continue
+        if l.startswith('|'):
+            retval += '\n' + l[1:]
+        elif l.startswith('*'):
+            retval += '\n' + l
+        else:
+            retval += ' ' + l
 
-def make_card(h1, mod_str='', desc_79='', desc_10='', desc_detail=''):
-    desc_detail = ' '.join(desc_detail.split('\n')).strip()
-    desc_79 = desc_79.strip()
-    desc_10 = desc_10.strip()
+    return retval.strip()
+
+def make_card(h1, mod_type='', desc_79='', desc_10='', desc_detail=''):
+    desc_detail = parse(desc_detail)
+    desc_79 = parse(desc_79)
+    desc_10 = parse(desc_10)
     card = {
         'h1': h1,
-        'mod_shield': bool(mod_str),
-        'mod_str': mod_str,
+        'mod_shield': bool(mod_type),
+        'mod': mod_type,
         'desc_79': desc_79,
         'desc_10': desc_10,
         'label_79': bool(desc_79),
@@ -79,7 +93,7 @@ Success
 '''
 Using leverage, manipulate an NPC.
 Leverage is something they need or want.  On a 7+ they ask you for something and do
-it if you make them a promise first. On a 7–9, they need some concrete assurance of
+it if you make them a promise first. On a 7-9, they need some concrete assurance of
 your promise, right now
 ''',
  ],
@@ -97,7 +111,7 @@ If you do it...
 * by powering through or enduring, roll +Str
 * by getting out of the way or acting fast, roll +Dex
 * with quick thinking or through mental fortitude, roll +Int
-On a 7–9, you stumble, hesitate, or flinch: the GM will offer you a worse outcome, hard bargain, or ugly choice
+|On a 7-9, you stumble, hesitate, or flinch: the GM will offer you a worse outcome, hard bargain, or ugly choice
 ''',
  ],
  ['Defend', 'Str',
@@ -111,7 +125,7 @@ Gain 3 hold
 When you stand in defense of a person, item, or location, you can interfere with attacks against it.
 So long as you stand in defense, when you or the defended is attacked you may spend hold, 1 for 1, to choose an option:
 * Redirect an attack from the thing you defend to yourself
-* Halve the attack’s effect or damage
+* Halve the attack's effect or damage
 * Open up the attacker to an ally giving that ally +1 forward against the attacker
 * Deal damage to the attacker equal to your level
 
@@ -135,7 +149,7 @@ take +1 forward when acting on the answers.
 * What is about to happen?
 * What should I be on the lookout for?
 * What here is useful or valuable to me?
-* Who’s really in control here?
+* Who's really in control here?
 * What here is not what it appears to be
 ''',
  ],
@@ -153,20 +167,20 @@ and useful
 Consult your accumulated knowledge about something.
 On a 10+ the GM will tell you something interesting and useful about the subject
 relevant to your situation.
-On a 7–9 the GM will only tell you something interest- ing—it’s on you to make it useful.
+On a 7-9 the GM will only tell you something interesting - it's on you to make it useful.
 The GM might ask you "How do you know this?".
 ''',
  ],
  ['Aid or Interfere', 'Bond',
 '''
 Target takes +1 or -2
-(your choice)
-You are exposed to cost,
+|(your choice)
+|You are exposed to cost,
 retribution, or danger
 ''',
 '''
 Target takes +1 or -2
-(your choice)
+|(your choice)
 ''',
 '''
 Help or hinder someone you have a Bond with.

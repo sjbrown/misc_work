@@ -3,6 +3,7 @@
 
 
 import os
+import re
 from lxml import etree
 from itertools import product
 from tall_cards import cards
@@ -30,12 +31,20 @@ class DOM(object):
         e = self.title_to_element[title]
         e.getparent().remove(e)
 
-    def replace_text(self, title, newtext):
+    def replace_text(self, title, newtext, max_chars=None):
         flowroot = self.title_to_element[title]
-        print 'fr', flowroot
-        print 'fps', [x for x in flowroot.iterchildren() if 'flowPara' in x.tag]
         flowpara = [x for x in flowroot.iterchildren() if 'flowPara' in x.tag][0]
-        flowpara.text = newtext
+        flowroot.remove(flowpara)
+        for i, line in enumerate(newtext.split('\n')):
+            paraclone = etree.fromstring(etree.tostring(flowpara))
+            paraclone.text = line
+            flowroot.append(paraclone)
+        num_lines = i
+
+        if max_chars and len(newtext) > (max_chars - num_lines*20):
+            flowroot.attrib['style'] = re.sub(
+                'font-size:\d+px;', 'font-size:8px;', flowroot.attrib['style']
+            )
 
     def write_file(self, svg_filename):
         print svg_filename
@@ -44,61 +53,26 @@ class DOM(object):
         fp.close()
 
 
-def filter_dom_elements(dom, card, deck_title, dice_rule):
-        for dt in ['deck_1', 'deck_2', 'deck_3', 'deck_4']:
-            if dt == deck_title:
-                continue
-            dom.cut_element(dt)
+def filter_dom_elements(dom, card):
+        cut_these = ['mod_str', 'mod_int', 'mod_dex', 'mod_bond']
+        if card.get('mod'):
+            keep = 'mod_' + card['mod'].lower()
+            print 'ekp', keep
+            cut_these.remove(keep)
+        for x in cut_these:
+            dom.cut_element(x)
 
-        if not card.get('blessing'):
-            dom.cut_element('copper_halo')
-            dom.cut_element('gold_halo')
-        elif card.get('blessing') == 'copper':
-            dom.cut_element('gold_halo')
-        elif card.get('blessing') == 'gold':
-            dom.cut_element('copper_halo')
 
-        if not card.get('crit_win'):
-            dom.cut_element('crit_win')
-
-        if not card.get('crit_fail'):
-            dom.cut_element('crit_fail')
-
-        if not card.get('Pro'):
-            dom.cut_element('proficient')
-
-        if not card.get('Tmark'):
-            dom.cut_element('exhaustable')
-
-        # Choose the dice pips to print out
-        for titletuple in product(
-            ['four', 'six'],
-            ['nw', 'ne', 'sw', 'se'],
-            ['1', '2']
-        ):
-            title = '_'.join(titletuple)
-            if title not in dice_rule:
-                dom.cut_element(title)
-
-        # Choose how many ✔s and ✗s to show
-        letter_to_prefix = {
-          'a': 'anchor',
-          'b': 'bulb',
-          'c': 'crescent',
-          'd': 'dart',
-        }
-        score_to_suffix = {
-          1: '_two_x',
-          2: '_one_x',
-          3: '_one_check',
-          4: '_two_check',
-        }
-        suffixes = score_to_suffix.values()
-        for letter, prefix in letter_to_prefix.items():
-            for suffix in suffixes:
-                title = prefix + suffix
-                if title != prefix + score_to_suffix[card[letter]]:
-                    dom.cut_element(title)
+# Example Card:
+{'desc_10': 'Success',
+ 'desc_79': 'Stumble, hesitate\nor flinch',
+ 'desc_detail': 'When you act despite an imminent threat, say how you deal with it and roll. If you do it... * by powering through or enduring, roll +Str * by getting out of the way or acting fast, roll +Dex * with quick thinking or through mental fortitude, roll +Int On a 7-9, you stumble, hesitate, or flinch: the GM will offer you a worse outcome, hard bargain, or ugly choice',
+ 'h1': 'Defy Danger',
+ 'label_10': True,
+ 'label_79': True,
+ 'mod_shield': False,
+ 'mod_str': ''
+}
 
 
 def make_deck():
@@ -107,7 +81,14 @@ def make_deck():
     for i, card in enumerate(cards):
         dom = DOM('tall_card_front.svg')
 
-        dom.replace_text('desc_79', card['desc_79'])
+        print '\nWorking on ' + card['h1']
+        print '\n'
+
+        filter_dom_elements(dom, card)
+        dom.replace_text('desc_79', card['desc_79'], max_chars=40)
+        dom.replace_text('desc_10', card['desc_10'], max_chars=40)
+        dom.replace_text('desc_detail', card['desc_detail'], max_chars=300)
+        dom.replace_text('h1', card['h1'])
 
         # Create the svg file and export a PNG
         svg_filename = '/tmp/tall_cards/deck_card_face%02d.svg' % ((i+1))
