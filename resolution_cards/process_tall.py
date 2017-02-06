@@ -9,7 +9,7 @@ from itertools import product
 from tall_cards import cards
 
 def export_png(svg, png):
-    cmd_fmt = 'inkscape --export-png=%s --export-width=825 --export-height=825 %s'
+    cmd_fmt = 'inkscape --export-png=%s --export-width=825 --export-height=1125 %s'
     cmd = cmd_fmt % (png, svg)
     print cmd
     os.system(cmd)
@@ -74,9 +74,29 @@ def filter_dom_elements(dom, card):
  'mod_str': ''
 }
 
+def one_blank_front():
+    dom = DOM('tall_card_front.svg')
+
+    print '\nWorking on Blank Front card'
+    print '\n'
+
+    filter_dom_elements(dom, {})
+    dom.replace_text('desc_79', '', max_chars=40)
+    dom.replace_text('desc_10', '', max_chars=40)
+    dom.replace_text('desc_detail', '', max_chars=300)
+    dom.replace_text('h1', '')
+
+    # Create the svg file and export a PNG
+    svg_filename = '/tmp/tall_cards/deck_card_face_blank.svg'
+    png_filename = '/tmp/tall_cards/deck_card_face_blank.png'
+    dom.write_file(svg_filename)
+    export_png(svg_filename, png_filename)
+
 
 def make_deck():
     export_png('tall_card_back.svg', '/tmp/tall_cards/back.png')
+
+    one_blank_front()
 
     for i, card in enumerate(cards):
         dom = DOM('tall_card_front.svg')
