@@ -6,6 +6,7 @@ import os
 from lxml import etree
 from itertools import product
 from cards import cards, blessing_cards, dice_print_rules
+from cards import spot_it_map, spot_it_rules
 
 
 '''
@@ -87,6 +88,24 @@ class DOM(object):
         fp.write(etree.tostring(self.dom))
         fp.close()
 
+def calc_zodiac(i):
+    symbols = spot_it_rules[i%5]
+    symbols = [spot_it_map[x] for x in symbols]
+    # every 5, rotate them
+    offset = int(i/5)
+    symbols = symbols[offset:] + symbols[:offset]
+    return tuple(symbols)
+
+def set_zodiac(dom, nw, ne, se, sw):
+    directions = ['nw', 'ne', 'se', 'sw']
+    d_map = dict(nw=nw, ne=ne, se=se, sw=sw)
+    for d in directions:
+        keep = d_map[d]
+        d_titles = ['o_%s_%s' % (x,d) for x in spot_it_map.values()]
+        d_titles += ['o_goat_%s' % d, 'o_dragon_%s' % d]
+        for d_title in d_titles:
+            if keep not in d_title:
+                dom.cut_element(d_title)
 
 def filter_dom_elements(dom, card, deck_title, dice_rule):
         for dt in ['deck_1', 'deck_2', 'deck_3', 'deck_4']:
@@ -157,6 +176,8 @@ def make_deck(deck_number):
         print 'dice rule %s %s' % (i, dice_rule)
 
         filter_dom_elements(dom, card, deck_title, dice_rule)
+        zargs = calc_zodiac(i)
+        set_zodiac(dom, *zargs)
 
         # Create the svg file and export a PNG
         svg_filename = '/tmp/cards/deck_%s_card_face%s.svg' % (deck_number, (i+1))
@@ -173,6 +194,7 @@ def make_blessing_deck():
         dom = DOM('face_ready_to_split.svg')
 
         filter_dom_elements(dom, card, '', [])
+        set_zodiac(dom, 'dragon', 'dragon', 'dragon', 'dragon')
 
         # Create the svg file and export a PNG
         svg_filename = '/tmp/cards/blessing/deck_blessing_card_face%s.svg' % ((i+1))
@@ -183,12 +205,13 @@ def make_blessing_deck():
         export_png(svg_filename, png_filename)
 
 
-if not os.path.exists('/tmp/cards'):
-    os.makedirs('/tmp/cards')
-if not os.path.exists('/tmp/cards/blessing'):
-    os.makedirs('/tmp/cards/blessing')
-make_deck(1)
-make_deck(2)
-make_deck(3)
-make_deck(4)
-make_blessing_deck()
+if __name__ == '__main__':
+    if not os.path.exists('/tmp/cards'):
+        os.makedirs('/tmp/cards')
+    if not os.path.exists('/tmp/cards/blessing'):
+        os.makedirs('/tmp/cards/blessing')
+    make_deck(1)
+    make_deck(2)
+    make_deck(3)
+    make_deck(4)
+    make_blessing_deck()

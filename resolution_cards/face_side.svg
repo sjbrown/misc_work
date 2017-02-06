@@ -813,9 +813,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.85533"
-     inkscape:cx="809.34369"
-     inkscape:cy="-40.920738"
+     inkscape:zoom="0.43049187"
+     inkscape:cx="584.92165"
+     inkscape:cy="356.69621"
      inkscape:document-units="px"
      inkscape:current-layer="layer7"
      showgrid="false"
@@ -858,7 +858,8 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     style="display:inline">
+     style="display:inline"
+     sodipodi:insensitive="true">
     <rect
        y="50.593761"
        x="-653.19696"
@@ -3499,8 +3500,8 @@
        transform="matrix(0,-1,-1,0,0,0)"
        style="opacity:1;fill:#ff2a2a;fill-opacity:0.46859903;stroke:none;stroke-width:0.177;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="ellipse4584-0"
-       cx="-947.56128"
-       cy="-1361.0109"
+       cx="-1191.6833"
+       cy="-1354.7955"
        rx="78.971642"
        ry="57.144527"
        inkscape:transform-center-x="-160.29057"
@@ -5310,7 +5311,8 @@
      inkscape:groupmode="layer"
      id="layer5"
      inkscape:label="zodiac"
-     style="display:inline">
+     style="display:inline"
+     sodipodi:insensitive="true">
     <g
        id="g10159"
        transform="matrix(0.70710678,0.70710679,-0.70710679,0.70710678,1007.4408,-659.19843)"
@@ -6444,7 +6446,8 @@
      inkscape:groupmode="layer"
      id="layer6"
      inkscape:label="zodiac_dg"
-     style="display:inline">
+     style="display:inline"
+     sodipodi:insensitive="true">
     <g
        style="display:inline"
        id="g10258"

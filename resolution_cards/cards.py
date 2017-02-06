@@ -453,3 +453,22 @@ dice_print_rules = [
  ),
 ]
 
+spot_it_rules = [
+  (0, 1, 2, 3),
+  (1, 9, 6, 4),
+  (3, 5, 7, 6),
+  (4, 0, 5, 8),
+  (2, 7, 8, 9)
+]
+spot_it_map = {
+  0: 'cow',
+  1: 'horse',
+  2: 'rabbit',
+  3: 'rat',
+  5: 'monkey',
+  4: 'dog',
+  6: 'tiger',
+  7: 'snake',
+  8: 'cock',
+  9: 'pig',
+}
