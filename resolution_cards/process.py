@@ -5,7 +5,7 @@
 import os
 from lxml import etree
 from itertools import product
-from cards import cards, blessing_cards, dice_print_rules
+from cards import cards, blessing_cards, wound_cards, dice_print_rules
 from cards import spot_it_map, spot_it_rules
 
 
@@ -116,10 +116,16 @@ def filter_dom_elements(dom, card, deck_title, dice_rule):
         if not card.get('blessing'):
             dom.cut_element('copper_halo')
             dom.cut_element('gold_halo')
+            dom.cut_element('wound')
         elif card.get('blessing') == 'copper':
             dom.cut_element('gold_halo')
+            dom.cut_element('wound')
         elif card.get('blessing') == 'gold':
             dom.cut_element('copper_halo')
+            dom.cut_element('wound')
+        elif card.get('blessing') == 'wound':
+            dom.cut_element('copper_halo')
+            dom.cut_element('gold_halo')
 
         if not card.get('crit_win'):
             dom.cut_element('crit_win')
@@ -204,12 +210,28 @@ def make_blessing_deck():
 
         export_png(svg_filename, png_filename)
 
+def make_wound_deck():
+    for i, card in enumerate(wound_cards):
+        dom = DOM('face_ready_to_split.svg')
+
+        filter_dom_elements(dom, card, '', [])
+        set_zodiac(dom, 'goat', 'goat', 'goat', 'goat')
+
+        # Create the svg file and export a PNG
+        svg_filename = '/tmp/cards/blessing/deck_wound_card_face%s.svg' % ((i+1))
+        png_filename = '/tmp/cards/blessing/deck_wound_card_face%s.png' % ((i+1))
+
+        dom.write_file(svg_filename)
+
+        export_png(svg_filename, png_filename)
+
 
 if __name__ == '__main__':
     if not os.path.exists('/tmp/cards'):
         os.makedirs('/tmp/cards')
     if not os.path.exists('/tmp/cards/blessing'):
         os.makedirs('/tmp/cards/blessing')
+    make_wound_deck()
     make_deck(1)
     make_deck(2)
     make_deck(3)

@@ -52,6 +52,13 @@ blessing_cards = [
  {'Pro': False, 'Tmark': False, 'a': 4, 'b': 4, 'c': 4, 'd': 4, 'blessing': 'gold'},
 ]
 
+wound_cards = [
+ {'Pro': False, 'Tmark': False, 'a': 2, 'b': 2, 'c': 2, 'd': 1, 'blessing': 'wound'},
+ {'Pro': False, 'Tmark': False, 'a': 2, 'b': 2, 'c': 1, 'd': 2, 'blessing': 'wound'},
+ {'Pro': False, 'Tmark': False, 'a': 2, 'b': 1, 'c': 2, 'd': 2, 'blessing': 'wound'},
+ {'Pro': False, 'Tmark': False, 'a': 1, 'b': 2, 'c': 2, 'd': 2, 'blessing': 'wound'},
+]
+
 def flip(deck):
     # Takes a card off the deck and returns that new deck
     new_deck = deck[:]
