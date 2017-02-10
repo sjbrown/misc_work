@@ -100,6 +100,10 @@ Python
    * User must memorize these 3 exceptions
    * They look like Classes but behave nothing like them
    * Maybe @None, @null, @undefined, @True, @False would be better
+ * Immutable objects:
+  * strings have methods that look like they should mutate the string:
+   - capitalize center encode expandtabs format ljust lower lstrip partition
+   - replace rjust rpartition rstrip strip swapcase title translate upper zfill
 
 
 Coffeescript
