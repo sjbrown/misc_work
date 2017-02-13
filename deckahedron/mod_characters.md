@@ -67,25 +67,107 @@ mechanical or narrative effect on the game.
 
 ##### Initial skills:
 
-Your character will begin the game already having proficiency in a few
-skills.  See the [#how-to-create-a-character] section.
+Your character will begin the game already proficient in a few
+skills.  See the [How to create a character](#how-to-create-a-character)
+section.
 
 ##### Learning a new skill:
 
-##### Becoming proficient:
+ * Start brand new skills With 3 `penalty` cards
+
+---
+
+A character, just like a real-life human, can attempt any skill they've
+seen before. But, without practice, instruction or very careful observation,
+they are probably going to fail when they try a new skill.
+
+To attempt a brand new skill, just confirm with the GM that your character has
+seen the skill used before, then take the skill card, put 3 `penalty` cards on
+top of it. Flip **4** cards, and take the **worst** result.
+
+The character probably failed, but don't worry, they just need to keep
+practicing.
+
+> **Note:** Doing a skill check with 3 `penalty` cards by flipping `Darts`
+> (blue) only gives you a 9.7% chance to succeed.  If a player is slowing
+> the game down by repeatedly attempting many highly penalized Skills,
+> "house rules" are encouraged.  One such rule might be that a character
+> can only have a maximum of 6 `penalty` cards among all their skills.
+
+At any point, you can discard the skill and penalty cards back into the decks
+they came from. But if your character attempts that skill again, they will
+do so as if it were a brand new skill.
+
+##### Becoming "proficient":
+
+ * With 3 `penalty` cards, flip **4**, take the **worst**
+ * With 2 `penalty` cards, flip **3**, take the **worst**
+ * With 1 `penalty` card, flip **2**, take the **worst**
+ * With no cards on top of the skill, simply flip **1** card
+
+---
 
 A character lacks proficiency with a skill when there are `penalty` cards
+top of the skill card.
 
-When you declare you're using a skill and then flip a card to reveal your
-result, there may be a green `bonus` symbol in the middle of the card.
-(Note: if this was a flip that required you to flip multiple cards and
-take the worst result, [INSERT RULE HERE])
-When this symbol is present, that means, despite the success or failure,
-your practice paid off and you just got a little better at the skill.
+When you declare you're using a skill and then flip cards to reveal your
+result, there may be a green `proficiency` symbol in the middle of the 
+result card.
+(*Note:* if this was a flip that required you to flip multiple cards and
+take the worst result, only that "worst result" card's proficiency symbol
+counts)
+If the `proficiency` symbol is present, then, *despite the success or
+failure*, your practice paid off and you just got a little better at the
+skill.
+Therefore, you can now discard one of the `penalty` cards on top of the
+skill card.
 
+By this means, the character gets better and better at that skill until
+there are no more `penalty` cards on top of the skill card.  We can then
+say that the character is "**proficient**" at the skill.
+
+##### Becoming an "expert"
+
+ * With 1 `bonus` card, flip **2**, take the **best**
+
+---
+
+Even after proficiency is achieved, practice still makes perfection
+asymtotically closer.
+
+When you declare you're using a skill the character is proficient at,
+and then flip a card to reveal your result, if there's a `proficiency`
+symbol, *despite the success or failure*, add a `bonus` card on top
+of that skill.
+On subsequent skill flips, you may now flip **2** cards and take the
+**best** result.
+
+##### Becoming a "master"
+
+ * With 2 `bonus` cards, flip **3**, take the **best**
+
+---
+
+When you declare you're using a skill the character is an expert at,
+and then flip 2 cards to reveal your result, if there's a `proficiency`
+symbol on **both** of the cards (Not just the result card), and *despite
+the success or failure*, add a `bonus` card on top of that skill.
+
+On subsequent skill flips, you may now flip **3** cards and take the
+**best** result.
+
+
+##### Learning from a master
+
+See the `Leveling Up Module` for ways that characters can increase
+their skill proficiency outside of the action of an adventure.
 
 ## How to create a character
 
+For `n` players, the GM will distribute `n*3 + 1` Attribute and Skill
+cards to each player. Players will then draft cards until they hold 1
+card.  That last card is discarded.
+
 ## How to create a GM character
 
-
+`TODO`
