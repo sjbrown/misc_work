@@ -3,8 +3,9 @@
 
 ## How to represent a character
 
-A character will be represented by a simple character sheet and a collection
-of cards with represent a richer list of the character's attributes.
+A character will be represented by a simple **character sheet** and a
+collection of **cards** represent a richer list of the character's
+attributes.
 
 When playing, you should also have a sheet to keep notes for information
 about the character that doesn't fit in your character sheet and cards.
@@ -24,17 +25,36 @@ A sheet displaying
   * **Intelligence** (INT)
    - This represents the rank of the character's brain (and heart, if you feel so poetic)
 
-Each *stat* has a rank: 1. *Anchor* (red), 2. *Bulb* (yellow),
-3. Crescent (green), or 4. *Dart* (blue).
+Each *stat* has a rank: 1. `Anchor` (red), 2. `Bulb` (yellow),
+3. `Crescent` (green), or 4. `Dart` (blue).
 The rank of the stat will determine which side of the Deckahedron to flip.
 
-```
-If your character is attempting deduce their own position using a
-map written in a foreign language, they would do a flip using
-their *intelligence* rank.  Let's say they were a dumb Orc, and their
-*intelligence* was the lowest rank, *Anchor*. They would flip the *Anchor*
-side of the Deckahedron and reveal whether or not they succeeded.
-```
+> If your character is attempting deduce their own position using a
+> map written in a foreign language, they would do a flip using
+> their `intelligence` rank.  Let's say they were a dumb Orc, and their
+> `intelligence` was the lowest rank, `Anchor`. They would flip the `Anchor`
+> side of the Deckahedron and reveal whether or not they succeeded.
 
+### Character Attribute Cards
+
+A collection of cards describing the "built-in" attributes of your character.
+These may be things like "Charming Smile", "Stubborn", "Good Cardio",
+"Dwarf", "Elf", "Member of Engineering Guild".
+
+These are usually things that could be called "facts" about a character.
+
+Attribute cards can sometimes provide flip bonuses, or make it easier to
+level up in different skills.  They can also weave into the narrative. A
+good GM finds ways to make character attributes impact the story.
+
+Unlike `Skill Cards`, `Attribute Cards` don't get better with practice,
+and don't level up and down with `bonus` and `penalty` cards.
+
+### Character Skill Cards
+
+
+## How to create a character
+
+## How to create a non-player character (for the GM)
 
 
