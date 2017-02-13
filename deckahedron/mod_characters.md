@@ -15,8 +15,8 @@ It can also be fun to draw a picture of the character and keep that handy.
 
 A sheet displaying
 
- * The character's **name**
- * The character's **stats**:
+#### The character's **name**
+#### The character's **stats**:
   * **Strength** (STR)
    - This represents the rank of the character's musculoskeletal system
   * **Dexterity** (DEX)
