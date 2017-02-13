@@ -150,7 +150,7 @@ On subsequent skill flips, you may now flip **2** cards and take the
 
 When you declare you're using a skill the character is an expert at,
 and then flip 2 cards to reveal your result, if there's a `proficiency`
-symbol on **both** of the cards (Not just the result card), and *despite
+symbol on **both** of the cards (*Not* just the result card), and *despite
 the success or failure*, add a `bonus` card on top of that skill.
 
 On subsequent skill flips, you may now flip **3** cards and take the
