@@ -60,18 +60,17 @@ thought to interpret how they matter in the narrative world players create,
 like "Dirty Tricks" or "Infiltration". They could also be highly-specific
 and highly poetic concepts like "Eye of the Tiger" and "Leeroy Jenkins".
 
-Skill cards generally provide flip bonuses, but can have just about any
-mechanical or narrative effect on the game.
+Skill cards can have just about any mechanical or narrative effect on the game.
 
-#### Getting better with practice
+## Getting better with practice
 
-##### Initial skills:
+### Initial skills:
 
 Your character will begin the game already proficient in a few
 skills.  See the [How to create a character](#how-to-create-a-character)
 section.
 
-##### Learning a new skill:
+### Learning a new skill:
 
  * Start brand new skills With 3 `penalty` cards
 
@@ -98,7 +97,7 @@ At any point, you can discard the skill and penalty cards back into the decks
 they came from. But if your character attempts that skill again, they will
 do so as if it were a brand new skill.
 
-##### Becoming "proficient":
+### Becoming "proficient":
 
  * With 3 `penalty` cards, flip **4**, take the **worst**
  * With 2 `penalty` cards, flip **3**, take the **worst**
@@ -126,7 +125,7 @@ By this means, the character gets better and better at that skill until
 there are no more `penalty` cards on top of the skill card.  We can then
 say that the character is "**proficient**" at the skill.
 
-##### Becoming an "expert"
+### Becoming an "expert"
 
  * With 1 `bonus` card, flip **2**, take the **best**
 
@@ -142,7 +141,7 @@ of that skill.
 On subsequent skill flips, you may now flip **2** cards and take the
 **best** result.
 
-##### Becoming a "master"
+### Becoming a "master"
 
  * With 2 `bonus` cards, flip **3**, take the **best**
 
@@ -157,7 +156,7 @@ On subsequent skill flips, you may now flip **3** cards and take the
 **best** result.
 
 
-##### Learning from a master
+### Learning from a master
 
 See the `Leveling Up Module` for ways that characters can increase
 their skill proficiency outside of the action of an adventure.
@@ -167,6 +166,8 @@ their skill proficiency outside of the action of an adventure.
 For `n` players, the GM will distribute `n*3 + 1` Attribute and Skill
 cards to each player. Players will then draft cards until they hold 1
 card.  That last card is discarded.
+
+TODO
 
 ## How to create a GM character
 
