@@ -1,0 +1,12 @@
+
+alias term="gnome-terminal --profile=SJB"
+
+alias gr='grep -Irs --exclude "*.css" --exclude "*.json" --exclude "*.map" --exclude "ace.js"'
+
+alias glog='git log -10 --format=format:"%Cgreen%h%Creset %aN %Cblue%cD%Creset %n %s%+b%n"'
+
+# Handy Docker aliases
+alias d.images='docker images --format "{{printf \"%10.10s\" .CreatedSince}} {{printf \"%10s\" .Size}} {{printf \"%8s\" .Tag}} {{.ID}} {{printf .Repository}}"'
+alias d.ps='docker ps --format "{{printf \"%-15.15s\" .Image}} {{printf \"%30.30s\" .Names}}: {{printf \"%20.20s\" .Command}} || {{.Status}}"'
+alias d.ips='docker inspect --format "{{printf \"%30.30s\" .Name}} : {{printf \"%20.20s\" .NetworkSettings.IPAddress}}" $(docker ps -aq)'
+ 
