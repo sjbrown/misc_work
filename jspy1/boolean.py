@@ -15,6 +15,7 @@ from pyparsing import (
     Optional,
     White,
     Forward,
+    StringEnd,
 
     nums,
     alphanums,
@@ -28,57 +29,31 @@ from pyparsing import (
     traceParseAction,
 )
 
-keywords = '''\
-False      class      finally               return
-None       continue   for        lambda     try
-True                  from                  while
-and        del                   not        with
-as         elif       if         or         yield
-assert     else       import     pass
-break      except     in         raise
-'''
-
-# These are Python keywords, so I want to make big bold warnings for them
-reserved_words = '''\
-def
-global
-elseif
-is
-nonlocal
-'''
-
-@traceParseAction
-def debugParseAction(toks):
-    print 'in.', toks
-    pass
-
-
 def test(toker_name, tests, fail_fast=True, debug=False):
     toker = globals()[toker_name]
     print '\n', toker_name, ':', toker
 
     if debug:
         toker.setDebug()
-        #toker.setParseAction(debugParseAction)
 
-    success_fail = [0,0]
     l = [x.strip() for x in tests.split('\n') if x.strip() != '']
     for test in l:
         print test, ':',
         try:
             print toker.parseString(test)
-            success_fail[0] += 1
         except Exception as e:
             if fail_fast:
                 raise
             logging.exception(e)
-            success_fail[1] += 1
 
-m_integer = Optional('-') + W(nums)
-m_integer.setName('INT')
-m_string  = quotedString
-m_string.setName('STR')
-m_literal = m_integer ^ m_string
+m_true = K('True')
+m_false = K('False')
+m_literal = m_true ^ m_false
+
+test('m_literal', '''
+True
+False
+''')
 
 m_identifier = W(initChars = alphas + alphas8bit + '_',
                  bodyChars = alphas + alphas8bit + '_' + nums)
@@ -114,40 +89,43 @@ or
 m_expression = Forward()
 m_expression.setName('EXPR')
 m_infix_operator = m_logical_operator
-m_infix_operator.setName('⧽X⧼')
 m_prefix_operator = m_not
 m_subexpression = nestedExpr(content=m_expression)
 
-m_evaluant = m_literal ^ m_identifier ^ m_subexpression
+m_term = m_literal ^ m_identifier ^ m_subexpression
 
 m_infix_expression = (
-    (m_evaluant + m_infix_operator + m_expression)
+    (m_term + m_infix_operator + m_expression)
+    #^
+    #(m_expression + m_infix_operator + m_term)
     ^
-    (m_expression + m_infix_operator + m_evaluant)
-    ^
-    (m_evaluant + m_infix_operator + m_evaluant)
+    (m_term + m_infix_operator + m_term)
 )
 
 m_prefix_expression = m_prefix_operator + m_expression
 
-m_expression << m_evaluant ^ m_prefix_expression ^ m_infix_expression
+m_expression << (m_term ^ m_prefix_expression ^ m_infix_expression) + StringEnd()
 
-test('m_subexpression', '(9)')
-test('m_evaluant', '''
-9
-"abc"
-(9)
+test('m_subexpression', '(True)')
+test('m_term', '''
+True
+abc
+(True)
+(abc)
 ''')
+
 test('m_expression', '''
-9
+True
 not False
-"abc"
-( 9 )
+( False )
 foo
 (foo)
 a and b
 a or b
-_a or b0
+True or True
+False and False
+True and (a and b)
+(a or b) and False
 (a or b) and (c or d)
 ''')
 
@@ -155,9 +133,9 @@ _a or b0
 m_assignment = m_identifier + '=' + m_expression
 
 test('m_assignment', '''
-a = 9
-b = "abc"
-c = ( 9 )
-d = ( False and 7) or 99
+a = False
+b = True
+c = ( False )
+d = ( False and True ) or True
 foo = _a or b0
 ''')

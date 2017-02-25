@@ -1,0 +1,56 @@
+@@grammar::Jspyr1
+
+start
+  =
+  expression $
+  ;
+
+expression
+  =
+  | addition
+  | subtraction
+  | term
+  ;
+
+addition::Add
+  =
+  L:term op:'+' ~ R:expression
+  ;
+
+subtraction::Subtract
+  =
+  L:term op:'-' ~ R:expression
+  ;
+
+term
+  =
+  | multiplication
+  | division
+  | factor
+  ;
+
+multiplication::Multiply
+  =
+  L:factor op:'*' ~ R:term
+  ;
+
+division::Divide
+  =
+  L:factor op:'/' ~ R:term
+  ;
+
+factor
+  =
+  | subexpression
+  | number
+  ;
+
+subexpression
+  =
+  '(' ~ @:expression ')'
+  ;
+
+number::Number
+  =
+  /\d+/
+  ;
