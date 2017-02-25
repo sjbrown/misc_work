@@ -6,3 +6,6 @@ flaskapp:
         # HOST : CONTAINER
         - "80:80"
 
+    environment:
+        - PYTHONPATH=/app
+
