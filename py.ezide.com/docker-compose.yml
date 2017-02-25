@@ -1,0 +1,8 @@
+flaskapp:
+    build: .
+    dockerfile: Dockerfile.flask
+
+    ports:
+        # HOST : CONTAINER
+        - "80:80"
+
