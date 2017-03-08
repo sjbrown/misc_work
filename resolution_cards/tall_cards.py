@@ -19,7 +19,7 @@ def parse(s):
 
     return retval.strip()
 
-def make_card(h1, mod_type='', desc_79='', desc_10='', desc_detail=''):
+def make_card(h1, mod_type='', desc_79='', desc_10='', desc_detail='', class_pos=None):
     desc_detail = parse(desc_detail)
     desc_79 = parse(desc_79)
     desc_10 = parse(desc_10)
@@ -32,6 +32,7 @@ def make_card(h1, mod_type='', desc_79='', desc_10='', desc_detail=''):
         'label_79': bool(desc_79),
         'label_10': bool(desc_10),
         'desc_detail': desc_detail,
+        'class_pos': class_pos,
     }
     return card
 
@@ -47,6 +48,7 @@ cards = [
 # '''
 # detail
 # ''',
+# 'class_pos',
 #  ],
 
  ['Hack and Slash', 'Str',
@@ -185,6 +187,62 @@ Target takes +1 or -2
 '''
 Help or hinder someone you have a Bond with.
 ''',
+ ],
+
+ ['And this is for...', 'Dex',
+'''
+Deal 1 damage.
+''',
+'''
+Deal 1d4 damage.
+''',
+'''
+After successfully striking a foe in melee, add a punch,
+kick, or shove.
+''',
+['fighter_se'],
+ ],
+
+ ['Good Cardio', 'Str',
+'''
+Recover 1d4 exhaustion.
+|Your foe moves to a position of advantage.
+''',
+'''
+Recover 1d4 exhaustion.
+''',
+'''
+Just a momentary pause and you're back in the action.
+Spot for 1, 2 or 3 EX.
+''',
+['fighter_ne'],
+ ],
+
+ ['Tough Stuff', '',
+'''
+-
+''',
+'''
+-
+''',
+'''
+Spot for 1, 2 or 3 BR.
+''',
+('fighter_nw', 'fighter_e'),
+ ],
+
+ ['Where it hurts', '',
+'''
+-
+''',
+'''
+-
+''',
+'''
+Turn 1 EX into 1 BR when you deal damage with your weapon.
+Upgrade levels: 2 for 2, 3 for 3.
+''',
+('fighter_sw', 'fighter_e'),
  ],
 
 ]

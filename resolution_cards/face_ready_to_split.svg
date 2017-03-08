@@ -257,7 +257,7 @@
      inkscape:snap-bbox="true"
      inkscape:snap-bbox-midpoints="true"
      inkscape:zoom="3.4212962"
-     inkscape:cx="108.00001"
+     inkscape:cx="53.926937"
      inkscape:cy="108"
      inkscape:window-x="0"
      inkscape:window-y="24"
@@ -2218,7 +2218,7 @@
      inkscape:groupmode="layer"
      id="layer9"
      inkscape:label="zodiac"
-     style="display:none"><g
+     style="display:inline"><g
        style="display:inline"
        id="g10258"
        transform="matrix(0.31395541,0.31395541,-0.31395541,0.31395541,35.489991,-779.2436)"
@@ -3190,7 +3190,7 @@
      inkscape:groupmode="layer"
      id="layer1"
      inkscape:label="wound"
-     style="display:none"><g
+     style="display:inline"><g
        id="g8165"><title
          id="title8171">wound</title><g
          transform="matrix(0.444,0,0,0.444,-120.52456,-285.74434)"

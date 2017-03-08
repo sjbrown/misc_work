@@ -54,13 +54,19 @@ class DOM(object):
 
 
 def filter_dom_elements(dom, card):
-        cut_these = ['mod_str', 'mod_int', 'mod_dex', 'mod_bond']
-        if card.get('mod'):
-            keep = 'mod_' + card['mod'].lower()
-            print 'ekp', keep
-            cut_these.remove(keep)
-        for x in cut_these:
-            dom.cut_element(x)
+    cut_these = [
+      'mod_str', 'mod_int', 'mod_dex', 'mod_bond',
+      'wiz_ne', 'wiz_e', 'wiz_se', 'wiz_sw', 'wiz_w', 'wiz_nw',
+      'rogue_ne', 'rogue_e', 'rogue_se', 'rogue_sw', 'rogue_w', 'rogue_nw',
+      'fighter_ne', 'fighter_e', 'fighter_se', 'fighter_sw', 'fighter_w', 'fighter_nw',
+    ]
+    if card.get('class_pos'):
+        [cut_these.remove(x) for x in card['class_pos']]
+    if card.get('mod'):
+        keep = 'mod_' + card['mod'].lower()
+        cut_these.remove(keep)
+    for x in cut_these:
+        dom.cut_element(x)
 
 
 # Example Card:

@@ -225,12 +225,33 @@ def make_wound_deck():
 
         export_png(svg_filename, png_filename)
 
+def make_redgreen_deck():
+    # Create the svg file and export a PNG
+    svg_filename = 'greencard_back.svg'
+    png_filename = '/tmp/cards/redgreen/greencard_back.png'
+    export_png(svg_filename, png_filename)
+
+    svg_filename = 'greencard_front.svg'
+    png_filename = '/tmp/cards/redgreen/greencard_front.png'
+    export_png(svg_filename, png_filename)
+
+    svg_filename = 'redcard_front.svg'
+    png_filename = '/tmp/cards/redgreen/redcard_front.png'
+    export_png(svg_filename, png_filename)
+
+    svg_filename = 'redcard_back.svg'
+    png_filename = '/tmp/cards/redgreen/redcard_back.png'
+    export_png(svg_filename, png_filename)
+
 
 if __name__ == '__main__':
     if not os.path.exists('/tmp/cards'):
         os.makedirs('/tmp/cards')
     if not os.path.exists('/tmp/cards/blessing'):
         os.makedirs('/tmp/cards/blessing')
+    if not os.path.exists('/tmp/cards/redgreen'):
+        os.makedirs('/tmp/cards/redgreen')
+    make_redgreen_deck()
     make_wound_deck()
     make_deck(1)
     make_deck(2)
