@@ -70,10 +70,10 @@ Each edge of a card has a name, color, and number.
 ![Image of Back](images/back_200.png)
 ![Image of Front](images/front_19_200.png)
 
- * Anchor, red, 1
- * Bulb, yellow, 2
- * Crescent, green, 3
- * Dart, blue, 4
+ 1. Anchor, red
+ 2. Bulb, yellow
+ 3. Crescent, green
+ 4. Dart, blue
 
 Whenever a character in the game attempts an action, the player flips a
 number of cards (typically just one) and reads the result from the card,
