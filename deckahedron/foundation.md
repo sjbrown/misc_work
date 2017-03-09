@@ -100,3 +100,25 @@ character not only failed, but also injured themselves or alerted their
 foes and gave away their position. The Storyteller should describe the
 new scenario, perhaps touching on some potential paths forward or choices
 in front of the characters, and then as "What do you do?"
+
+## Cards versus Dice
+
+Many other Role Playing Games use dice instead of cards.
+
+Here are some of the reasons the Deckahedron system chooses cards for the
+core resolution mechanic:
+
+ * Arithmetic sucks
+  - "Flip 3, take the best" is easier than "roll 2d6, add your Strength bonus"
+ * One action (a "flip") can result in many values
+   (so the cards can be "multi-dimensional")
+ * Cards open up richer game play
+  - hiding values
+  - player choice about when to shuffle can be interesting
+  - look at top *n* cards, and put them back in any order
+  - drafting
+  - backs of cards can be marked
+  - collect special cards
+  - deckbuilding mechanic
+  - cards can be written on
+
