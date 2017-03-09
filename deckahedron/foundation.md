@@ -1,12 +1,13 @@
 # Deckahedron Foundation
 
-Deckahedron is a system for playing Role Playing Games.
+The **Deckahedron** is a deck of 20 cards to be used as a tool.
+**The Deckahedron System** is a system for playing Role Playing Games.
 
 If you've never played a Role Playing Game before, please read
 the introduction,
-[Deckahedron for the Absolute Beginner](absolute_beginner.md).
+[Deckahedron System for the Absolute Beginner](absolute_beginner.md).
 
-Deckahedron is split up into the *foundation* and the *modules*.
+The Deckahedron System is split up into the *foundation* and the *modules*.
 This document is the foundation.  The other documents describe the
 modules -- optional additions to the rules.  You can keep your
 game sessions simple by just using this foundation, or you can
@@ -32,9 +33,9 @@ by saying what their character thinks, feels and does.  Together, the
 players create improvisational back-and-forth as they lead their characters
 into dangerous situations and interpersonal conflicts.
 
-At key moments though, the players themselves won't be able to declare
-what their character does, and must look to the Storyteller (or GM) to
-find out "what happens next?".  This happens at any point that a
+At key moments though, the players themselves won't be able to simply declare
+the effects of their character's actions, and must look to the Storyteller
+(or GM) to find out "what happens next?". This happens at any point that a
 character is **attempting** to do something where there's a chance of
 failure.
 
@@ -65,7 +66,7 @@ rank to determine the action's success.
 
 The **resolution deck** (or simply "Deckahedron") is made of 20
 square cards.
-Each edge of a card has a name, color, and number.
+Each edge of a card has a number, suit, and color.
 
 ![Image of Back](images/back_200.png)
 ![Image of Front](images/front_19_200.png)
@@ -75,7 +76,7 @@ Each edge of a card has a name, color, and number.
  3. Crescent, green
  4. Dart, blue
 
-Whenever a character in the game attempts an action, the player flips a
+Whenever a character attempts an action, the player flips some
 number of cards (typically just one) and reads the result from the card,
 printed on it as either ✗ or ✔ symbols.
 
@@ -99,7 +100,7 @@ into narrative.  Maybe that means seeing a ✗✗ and declaring that the
 character not only failed, but also injured themselves or alerted their
 foes and gave away their position. The Storyteller should describe the
 new scenario, perhaps touching on some potential paths forward or choices
-in front of the characters, and then as "What do you do?"
+in front of the characters, and then ask "What do you do?"
 
 ## Cards versus Dice
 
@@ -112,6 +113,8 @@ core resolution mechanic:
   - "Flip 3, take the best" is easier than "roll 2d6, add your Strength bonus"
  * One action (a "flip") can result in many values
    (so the cards can be "multi-dimensional")
+ * [Thematic flips](mod_thematic_flips.md)
+ * Cheap and portable
  * Cards open up richer game play
   - hiding values
   - player choice about when to shuffle can be interesting
