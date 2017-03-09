@@ -102,6 +102,19 @@ foes and gave away their position. The Storyteller should describe the
 new scenario, perhaps touching on some potential paths forward or choices
 in front of the characters, and then ask "What do you do?"
 
+## Reshuffling
+
+Used cards do not necessarily have to get reshuffled into the Deckahedron
+after every action. A player can keep used cards face up in a "discard" pile
+next to the Deckahedron.
+
+But, players **must** observe this rule: if they end their turn with *5 or
+fewer* cards in their Deckahedron, they **must** reshuffle their discard pile
+back into the Deckahedron.
+
+This allows the players a small degree of control over their *luck*, and
+prevents unhappy players frustrated by repeated failures.
+
 ## Cards versus Dice
 
 Many other Role Playing Games use dice instead of cards.
