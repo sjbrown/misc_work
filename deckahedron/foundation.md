@@ -27,9 +27,9 @@ should begin before the first hour.
 
 # Modules List
 
-[Combat](mod_combat.md).
-[Characters](mod_character.md).
-[Character Classes and Levels](mod_levels.md).
+ * [Combat](mod_combat.md).
+ * [Characters](mod_character.md).
+ * [Character Classes and Levels](mod_levels.md).
 
 
 
