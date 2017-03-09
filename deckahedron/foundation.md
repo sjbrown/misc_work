@@ -91,4 +91,12 @@ Let's examine a simple example:
   * ✗: the attempt was a failure
   * ✔: the attempt was a success
   * ✔✔ : the attempt was an unconditional success
+ 6. The Storyteller then interprets the result.
 
+The interpretation by the Storyteller is the key final step.  It's the
+Storyteller's job to take the result from the Deckahedron and turn it
+into narrative.  Maybe that means seeing a ✗✗ and declaring that the
+character not only failed, but also injured themselves or alerted their
+foes and gave away their position. The Storyteller should describe the
+new scenario, perhaps touching on some potential paths forward or choices
+in front of the characters, and then as "What do you do?"
