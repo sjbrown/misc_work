@@ -10,7 +10,7 @@ Deckahedron is split up into the *foundation* and the *modules*.
 This document is the foundation.  The other documents describe the
 modules -- optional additions to the rules.  You can keep your
 game sessions simple by just using this foundation, or you can
-add depth and interesting choices by choosing some modules.
+add depth and interesting choices by including some modules.
 
 # Why modules?
 
@@ -43,6 +43,10 @@ failure.
 Characters will have *stats*, **Strength**, **Dexterity**,
 and **Intelligence**.  Each will have a rank from 1 to 4.
 
+(If you want a richer representation of characters, see the
+[Characters Module](mod_characters.md)
+)
+
 When a character attempts an action that is governed by physical strength,
 like lifting a heavy gate, they will use their Strength rank to
 determine the action's success.
@@ -62,7 +66,10 @@ rank to determine the action's success.
 The **resolution deck** (or simply "Deckahedron") is made of 20
 square cards.
 Each edge of a card has a name, color, and number.
- 
+
+![Image of Back](images/back_200.png)
+![Image of Front](images/front_19_200.png)
+
  * Anchor, red, 1
  * Bulb, yellow, 2
  * Crescent, green, 3
