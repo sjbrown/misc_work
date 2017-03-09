@@ -25,6 +25,13 @@ should have a 20-minute rules explanation,
 and character creation should take around 30 minutes.  The adventure
 should begin before the first hour.
 
+# Modules List
+
+[Combat](mod_combat.md).
+[Characters](mod_character.md).
+[Character Classes and Levels](mod_levels.md).
+
+
 
 # Core Storytelling Mechanism: Attempts and Resolution
 
