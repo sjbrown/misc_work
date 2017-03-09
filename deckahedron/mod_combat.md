@@ -1,4 +1,4 @@
-# Deckahedron System Combat
+# Deckahedron Module: Combat
 
 The Combat Module tells you when your character is able to endure
 exertion and injury to keep moving forward and tells you when your
@@ -39,9 +39,9 @@ before searching for Stamina points. Additionally, if insufficient Stamina
 points were found in the inital search, the player **must** reshuffle their
 discard pile into the Deckahedron and search again.
 
-If there were insufficient Stamina points found, even after the discard pile
-was included in the search, then that character is *incapacitated* and can
-take no further actions.  It is up to the Storyteller to decide what this
+If there are no Stamina points in your Deckahedron *or* your discard pile,
+then your character is *incapacitated* and can take no further actions.
+It is up to the Storyteller to decide what this
 incapacitation means - whether the character is dead, unconscious, or just
 unable to stand or move.
 
@@ -126,10 +126,12 @@ Whenever you flip and reveal a wound card (ie, when resolving an attempt):
 *Healing* is an action that a character can take when they are in a peaceful
 environment and have time and resources to spend on self-care.
 
-Eg, if they are in a camp posessing medicine men or a city with a doctor or
-an oasis infused with healing magic.
+Eg, if they are in a primitive camp posessing medicine men or a
+contemporary city with doctors and hospitals or a tranquil oasis infused
+with healing magic.
 
-Healing can also be effected by magical spells or items.
+Healing can also be effected by equipment and skills.
+See [Equipment](mod_equipment.md) and [Characters](mod_characters.md)
 
 When you spend a day healing:
 
@@ -141,9 +143,107 @@ When you spend a day healing:
    back in the pile
  * All the rest of the cards get shuffled back into your Deckahedron
 
-As with *Resting* time spent *Healing* cannot also be used in activities that
+As with *Resting*, time spent *Healing* cannot also be used in activities that
 take effort.
+
+## Attacking: Unopposed flips
+
+Any attack where the foe is caught unaware is done by an unopposed flip.
+The player taking the action:
+
+ * Flips Dex (ranged weapon) or Str (handheld weapon)
+ * On a ✔✔ or ✔, deal 1d4 Damage
+ * On a ✗✗ or ✗, miss
+
+In either case, the foe is now aware that the fight is on.
 
 ## Attacking: Opposed flips
 
+### Ranged attacks:
+This is modeled as a "volley" or "spray" attack.  The player should
+account for ammo "points" for their weapon.  One of the consequences
+can be to lose one of those ammo points.
+
+In ranged combat is that, even when you don't hit an opponent, you can
+cause them to stay in the cover they've got, dive for the floor, or
+interrupt their current action.  Here, we'll call this "pinned"
+
+ * Both the attacker and the defender flip Dex
+
+ * ✔✔ v ✔✔ - deal 1d4 damage / foe can choose to move
+ * ✔✔ v ✔  - deal 1 damage / foe pinned
+ * ✔✔ v ✗  - deal 1d4 damage / foe pinned
+ * ✔✔ v ✗✗ - critical hit: 1d4 damage includes a *Harm* token
+
+ * ✔ v ✔✔ - deal 1 damage / foe can choose to move
+ * ✔ v ✔  - you choose: 1 damage or foe pinned
+ * ✔ v ✗  - you choose: 1d4 damage or foe pinned
+ * ✔ v ✗✗ - deal 1d4 damage / foe pinned
+
+ * ✗ v ✔✔ - lose ammo / foe can choose to move
+ * ✗ v ✔  - lose ammo
+ * ✗ v ✗  - simple miss
+ * ✗ v ✗✗ - foe pinned
+
+ * ✗✗ v ✔✔ - lose ammo and lose 1 Stamina
+ * ✗✗ v ✔  - lose ammo / foe can choose to move
+ * ✗✗ v ✗  - lose ammo
+ * ✗✗ v ✗✗ - lose ammo / foe pinned
+
+### Melee attacks:
+
+ * Both the attacker and the defender flip Str
+
+ * ✔✔ v ✔✔ - deal 1d4 damage / foe deals 1d4 damage
+ * ✔✔ v ✔  - deal 1d4 damage / foe deals 1 damage
+ * ✔✔ v ✗  - deal 1d4 damage
+ * ✔✔ v ✗✗ - critical hit: choose: 1d4 + 1 damage or deal a *Wound*
+
+ * ✔ v ✔✔ - deal 1 damage / foe deals 1d4 damage
+ * ✔ v ✔  - deal 1 damage / foe deals 1 damage
+ * ✔ v ✗  - deal 1d4 damage
+ * ✔ v ✗✗ - you choose: deal 1d4 damage or deal a *Harm*
+
+ * ✗ v ✔✔ - you choose: take 1d4 damage or drop a piece of equipment
+ * ✗ v ✔  - take 1 damage
+ * ✗ v ✗  - clash - get up in their face and say something nasty
+ * ✗ v ✗✗ - foe cannot do damage next turn
+
+ * ✗✗ v ✔✔ - take 1d4 damage
+ * ✗✗ v ✔  - you choose: take 1d4 damage or drop a piece of equipment
+ * ✗✗ v ✗  - pushed to the ground - you cannot do damage next turn
+ * ✗✗ v ✗✗ - both are pushed to the ground
+
 ## Attacking: Damage
+
+Though it is called "dealing damage", it actually represents the exhaustion
+that comes with the physical exhaustion of jumping for cover or swinging
+weapons at each other.  The game is made more fun when these acrobatics are
+described.
+
+## Other kinds of attacks
+
+The "Ranged" and "Melee" actions described in this document are very simple
+and can make for some fun adventures, but after a couple adventures with these
+rules, your players might be craving more depth and more mechanical
+possibilities.  It's highly recommended that you take a look at additional
+modules which overwrite the Attack rules in this base Combat Module.
+
+See the [Equipment](mod_equipment.md),
+[Medieval Fantasy](mod_medieval_fantasy.md), and
+[Thematic flips](mod_thematic_flips.md)
+modules for other kinds of combat rules.
+
+## Rationale for Stamina / Harm / Wounds Mechanics
+
+### Stakes
+
+All actions have consequences, not just the action that takes a character from
+"alive" to "dead".
+
+### Visibility
+
+It's easy to see the players' *Exhaustion piles*, and their *Harm* and *Wound*
+tokens.
+Keeping these facts visible helps the Storyteller add new events with the
+right amount of difficulty.
