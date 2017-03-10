@@ -125,6 +125,7 @@ By this means, the character gets better and better at that skill until
 there are no more `penalty` cards on top of the skill card.  We can then
 say that the character is "**proficient**" at the skill.
 
+
 ### Becoming an "expert"
 
  * With 1 `bonus` card, flip **2**, take the **best**

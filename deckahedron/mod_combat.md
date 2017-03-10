@@ -29,7 +29,8 @@ When you are instructed to lose a Stamina point:
 
  * flip cards in your Deckahedron until you find a card with a Stamina symbol
  * Stop flipping and put that card aside, face up in your "Exhaustion pile"
- * (You can put an Exhaustion marker on top of this pile to help you remember)
+ * (You can put an Exhaustion token on top of this pile to distinguish
+    your *Exhaustion pile* from your *discard pile*)
 
 (So, if you were instructed to lose 3 Stamina points, you'd add 3 cards
 with Stamina symbols onto your Exhaustion pile)
@@ -44,6 +45,16 @@ then your character is *incapacitated* and can take no further actions.
 It is up to the Storyteller to decide what this
 incapacitation means - whether the character is dead, unconscious, or just
 unable to stand or move.
+
+### 10 Stamina Max?
+
+You may be wondering if characters can ever have more than 10 Stamina.
+Depending on the Skills, Attributes, Items, Classes and Races available in
+your setting, you will have the option to take an Exhaustion token instead
+of losing a Stamina point.
+
+See those relevant modules for more information.
+
 
 ## Taking a Breather
 
@@ -65,6 +76,11 @@ that offers some temporary safety. Then they flip a card.
  * On a ✗ they regain 1 Stamina, but their foe moves to a superior position
  * On a ✗✗ they regain nothing and their foe moves to a superior position
 
+Note: "regain Stamina" can be done either by taking cards from the
+*Exhaustion pile* and putting them into the *discard pile*, or by discarding
+Exhaustion tokens.
+
+
 ## Lasting Harm: Strains / Sprains / Bruises
 
 Strains, sprains, and bruises are meant to represent either bodily harm
@@ -84,11 +100,11 @@ When you are instructed to take a Strain, sprain, or bruise:
 *Resting* is an action that a character can take when they are out of combat,
 not travelling, and have several hours to devote to rest (sleeping qualifies).
 
- * Remove one *Harm token* from your *Exhaustion pile*
+ * Discard all *Exhaustion tokens*
+ * Discard one *Harm token*
  * Count the remaining *Harm* and *Wound* tokens on your *Exhaustion pile*
- * Choose that many cards from your *Exhaustion pile* at random and put them
-   back in the pile
- * All the rest of the cards get shuffled back into your Deckahedron
+ * Keep that many cards (chosen at random) in your *Exhaustion pile*, put
+   the rest into your *discard pile*
 
 Note: Time devoted to *Resting* cannot also be devoted to learning skills,
 studying with a teacher, or any other action that takes mental or physical
@@ -136,12 +152,12 @@ See [Equipment](mod_equipment.md) and [Characters](mod_characters.md)
 When you spend a day healing:
 
  * Describe your character's healing experience
- * Remove one *Wound token* from your *Exhaustion pile*
- * Remove all *Harm tokens* from your *Exhaustion pile*
+ * Discard all *Exhaustion tokens*
+ * Discard all *Harm tokens*
+ * Discard one *Wound token*
  * Count the remaining *Wound* tokens on your *Exhaustion pile*
- * Choose that many cards from your *Exhaustion pile* at random and put them
-   back in the pile
- * All the rest of the cards get shuffled back into your Deckahedron
+ * Keep that many cards (chosen at random) in your *Exhaustion pile*, put
+   the rest into your *discard pile*
 
 As with *Resting*, time spent *Healing* cannot also be used in activities that
 take effort.

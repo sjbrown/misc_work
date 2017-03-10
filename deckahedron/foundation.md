@@ -78,10 +78,10 @@ Each edge of a card has a number, suit, and color.
 ![Image of Back](images/back_200.png)
 ![Image of Front](images/front_19_200.png)
 
- 1. Anchor, red
- 2. Bulb, yellow
- 3. Crescent, green
- 4. Dart, blue
+ 1. Anchor, red (Shorthand symbol used in these documents: ⚓)
+ 2. Bulb, yellow (🝭)
+ 3. Crescent, green (☽)
+ 4. Dart, blue (⮙)
 
 Whenever a character attempts an action, the player flips some
 number of cards (typically just one) and reads the result from the card,
