@@ -129,6 +129,8 @@ Many other Role Playing Games use dice instead of cards.
 Here are some of the reasons the Deckahedron system chooses cards for the
 core resolution mechanic:
 
+ * Visibility: helps the GM see what opportunities to open up for the players
+  - Clearly if a player choose a skill, they want an opportunity to use it
  * Arithmetic sucks
   - "Flip 3, take the best" is easier than "roll 2d6, add your Strength bonus"
  * One action (a "flip") can result in many values
