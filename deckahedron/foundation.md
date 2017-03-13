@@ -20,10 +20,9 @@ it is very important that these new players have a great, exciting first
 experience.  Most exciting stuff happens *during play*, so by starting
 simply, the players can get into the adventure sooner.
 
-It is the aim of Deckahedron that a typical first game with 4 players
-should have a 20-minute rules explanation,
+A typical first game with 4 players should have a 20-minute rules explanation,
 and character creation should take around 30 minutes.  The adventure
-should begin before the first hour.
+should begin before the first hour is over.
 
 # Modules List
 
@@ -56,18 +55,18 @@ and **Intelligence**.  Each will have a rank from 1 to 4.
 )
 
 When a character attempts an action that is governed by physical strength,
-like lifting a heavy gate, they will use their Strength rank to
-determine the action's success.
+like lifting a heavy gate, the Strength rank will determine the action's
+success.
 
 When a character attempts an action that is governed by their reaction
 time, nervous system, and fast-twitch muscles,
-like leaping onto a running buffalo, they will use their Dexterity rank to
+like leaping onto a running buffalo, the Dexterity rank will
 determine the action's success.
 
 When a character attempts an action that is governed by the
 grey glob sloshing around in their skull,
-like finding clues in an ancient book, they will use their Intelligence
-rank to determine the action's success.
+like finding clues in an ancient book, the Intelligence
+rank will determine the action's success.
 
 # Core Resolution Mechanic: The Deckahedron
 
@@ -85,15 +84,16 @@ Each edge of a card has a number, suit, and color.
 
 Whenever a character attempts an action, the player flips some
 number of cards (typically just one) and reads the result from the card,
-printed on it as either ✗ or ✔ symbols.
+printed as either ✗ or ✔ symbols.
 
-Let's examine a simple example:
+A simple example:
 
  1. The character attempts an action governed by Strength
  2. The player flips over the top card in their Deckahedron
  3. The character has a strength rank of 3
- 4. So the player looks at the ✗ or ✔ symbols on the edge marked with 3 pips
+ 4. So the player looks to the edge marked with 3 pips,
     (the "green" or "Crescent" edge)
+    and reads the ✗ or ✔ symbols on that edge
  5. If those symbols are:
   * ✗✗: the attempt was a categorical failure
   * ✗: the attempt was a failure
@@ -111,13 +111,13 @@ in front of the characters, and then ask "What do you do?"
 
 ## Reshuffling
 
-Used cards do not necessarily have to get reshuffled into the Deckahedron
-after every action. A player can keep used cards face up in a "discard" pile
-next to the Deckahedron.
+If a player ends their turn *5 or fewer* cards in their Deckahedron,
+they **must** reshuffle their discard pile back into the Deckahedron.
 
-But, players **must** observe this rule: if they end their turn with *5 or
-fewer* cards in their Deckahedron, they **must** reshuffle their discard pile
-back into the Deckahedron.
+Otherwise, used cards do not necessarily have to get reshuffled into
+the Deckahedron. A player can keep used cards face up in a "discard" pile
+next to the Deckahedron.  Similarly, a Player can choose to reshuffle
+their Deckahedron after any action.
 
 This allows the players a small degree of control over their *luck*, and
 prevents unhappy players frustrated by repeated failures.
@@ -129,6 +129,7 @@ Many other Role Playing Games use dice instead of cards.
 Here are some of the reasons the Deckahedron system chooses cards for the
 core resolution mechanic:
 
+ * Visibility: helps the GM scale the challenges
  * Visibility: helps the GM see what opportunities to open up for the players
   - Clearly if a player choose a skill, they want an opportunity to use it
  * Arithmetic sucks
@@ -137,7 +138,7 @@ core resolution mechanic:
    (so the cards can be "multi-dimensional")
  * [Thematic flips](mod_thematic_flips.md)
  * Cheap and portable
- * Cards open up richer game play
+ * Cards open up richer game play mechanics
   - hiding values
   - player choice about when to shuffle can be interesting
   - look at top *n* cards, and put them back in any order
@@ -146,4 +147,5 @@ core resolution mechanic:
   - collect special cards
   - deckbuilding mechanic
   - cards can be written on
+  - Spot It / Dobble mechanic
 
