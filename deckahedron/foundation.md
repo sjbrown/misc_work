@@ -34,16 +34,26 @@ should begin before the first hour is over.
 
 # Core Storytelling Mechanism: Attempts and Resolution
 
-Each player controls a character, and contributes to the shared story
-by saying what their character thinks, feels and does.  Together, the
-players create improvisational back-and-forth as they lead their characters
-into dangerous situations and interpersonal conflicts.
+The game starts by introducing the setting and the characters.
+
+ * The Storyteller (or GM) gives a description of the setting
+ * Each player takes a minute or two to introduce the character they're
+   playing.  The character's name, background, motivations, and special skills
+ * The players and the Storyteller can also discuss how the characters
+   know each other, and what situation bonds them together for this adventure
+
+As the game is played, each player controls a character, and contributes
+to the shared story by saying what their character thinks, feels and does.
+Together with the Storyteller, the players create an improvisational
+back-and-forth as they lead their characters into dangerous situations
+and interpersonal conflicts.
 
 At key moments though, the players themselves won't be able to simply declare
-the effects of their character's actions, and must look to the Storyteller
-(or GM) to find out "what happens next?". This happens at any point that a
+the results of their character's actions, and must look to the Storyteller
+to find out "what happens next?". This happens at any point that a
 character is **attempting** to do something where there's a chance of
-failure.
+failure.  It can also happen spontaneously with the Storyteller springing a
+trap or adding a new twist to the story.
 
 # Core Resolution Mechanic: Character Stats
 
@@ -63,7 +73,7 @@ time, nervous system, and fast-twitch muscles,
 like leaping onto a running buffalo, the Dexterity rank will
 determine the action's success.
 
-When a character attempts an action that is governed by the
+When a character attempts an action that is governed by that
 grey glob sloshing around in their skull,
 like finding clues in an ancient book, the Intelligence
 rank will determine the action's success.
@@ -82,9 +92,9 @@ Each edge of a card has a number, suit, and color.
  3. Crescent, green (☽)
  4. Dart, blue (⮙)
 
-Whenever a character attempts an action, the player flips some
-number of cards (typically just one) and reads the result from the card,
-printed as either ✗ or ✔ symbols.
+Whenever a character attempts an action, the player flips one card
+[ * ](#multi-card-flips)
+and reads the result from the card, printed as either ✗ or ✔ symbols.
 
 A simple example:
 
@@ -101,13 +111,25 @@ A simple example:
   * ✔✔ : the attempt was an unconditional success
  6. The Storyteller then interprets the result.
 
-The interpretation by the Storyteller is the key final step.  It's the
+The interpretation by the Storyteller is the key final step.  It's a
 Storyteller's job to take the result from the Deckahedron and turn it
 into narrative.  Maybe that means seeing a ✗✗ and declaring that the
 character not only failed, but also injured themselves or alerted their
 foes and gave away their position. The Storyteller should describe the
 new scenario, perhaps touching on some potential paths forward or choices
 in front of the characters, and then ask "What do you do?"
+
+## Multi Card Flips
+
+The Storyteller may deem a challenge to be particularly difficult or
+particularly easy.  Instead of flipping one card, the player will flip
+multiple and take either the best or the worst result.
+
+ * Very easy challenge: flip 3 cards, take the best
+ * Easy challenge: flip 2 cards, take the best
+ * Standard challenge: flip 1 card
+ * Difficult challenge: flip 2 cards, take the worst
+ * Very difficult challenge: flip 3 cards, take the worst
 
 ## Reshuffling
 
