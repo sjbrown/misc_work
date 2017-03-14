@@ -37,6 +37,8 @@ should begin before the first hour is over.
 The game starts by introducing the setting and the characters.
 
  * The Storyteller (or GM) gives a description of the setting
+ * Each player distributes 6 points into the **Strength**, **Intelligence**,
+   and **Dexterity** ranks of their character (see below)
  * Each player takes a minute or two to introduce the character they're
    playing.  The character's name, background, motivations, and special skills
  * The players and the Storyteller can also discuss how the characters
