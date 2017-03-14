@@ -84,15 +84,21 @@ rank will determine the action's success.
 
 The **resolution deck** (or simply "Deckahedron") is made of 20
 square cards.
-Each edge of a card has a number, suit, and color.
+Each edge of a card has a number, so it can be connected to a
+rank of a character's *stat*.
 
 ![Image of Back](images/back_200.png)
 ![Image of Front](images/front_19_200.png)
 
- 1. Anchor, red (Shorthand symbol used in these documents: ⚓)
- 2. Bulb, yellow (🝭)
- 3. Crescent, green (☽)
- 4. Dart, blue (⮙)
+ 1. A stat with the rank of 1 is connected to the red edge of the
+    Deckahedron, which shows 1 pip
+    (and an "Anchor" symbol on the back of the card)
+ 2. Rank 2 stats are connected to the yellow edge, which shows 2
+    pips (and a "Bulb" symbol).
+ 3. Rank 3 stats are connected to the green edge, which shows 3
+    pips (and a "Crescent" symbol)
+ 4. Rank 4 stats are connected to the blue edge, which shows 4
+    pips (and a "Dart" symbol)
 
 Whenever a character attempts an action, the player flips one card
 [ * ](#multi-card-flips)
