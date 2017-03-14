@@ -173,3 +173,8 @@ TODO
 ## How to create a GM character
 
 `TODO`
+
+## Rationale: Cards for Skills and Attributes
+
+ * Visibility: helps the GM see what opportunities to open up for the players
+  - Clearly if a player choose a skill, they want an opportunity to use it

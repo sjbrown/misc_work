@@ -135,7 +135,7 @@ multiple and take either the best or the worst result.
 
 ## Reshuffling
 
-If a player ends their turn *5 or fewer* cards in their Deckahedron,
+If a player ends their turn with *5 or fewer* cards in their Deckahedron,
 they **must** reshuffle their discard pile back into the Deckahedron.
 
 Otherwise, used cards do not necessarily have to get reshuffled into
@@ -146,7 +146,7 @@ their Deckahedron after any action.
 This allows the players a small degree of control over their *luck*, and
 prevents unhappy players frustrated by repeated failures.
 
-## Cards versus Dice
+## Rationale: Cards versus Dice
 
 Many other Role Playing Games use dice instead of cards.
 
