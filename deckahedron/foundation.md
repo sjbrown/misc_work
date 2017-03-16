@@ -105,7 +105,7 @@ Whenever a character attempts an action, the player flips one card
 [ * ](#multi-card-flips)
 and reads the result from the card, printed as either ✗ or ✔ symbols.
 
-A simple example:
+### A simple example:
 
  1. The character attempts an action governed by Strength
  2. The player flips over the top card in their Deckahedron
