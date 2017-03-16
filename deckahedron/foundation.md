@@ -114,10 +114,10 @@ A simple example:
     (the "green" or "Crescent" edge)
     and reads the ✗ or ✔ symbols on that edge
  5. If those symbols are:
-  * ✗✗: the attempt was a categorical failure
-  * ✗: the attempt was a failure
-  * ✔: the attempt was a success
-  * ✔✔ : the attempt was an unconditional success
+   * ✗✗: the attempt was a categorical failure
+   * ✗: the attempt was a failure
+   * ✔: the attempt was a success
+   * ✔✔ : the attempt was an unconditional success
  6. The Storyteller then interprets the result.
 
 The interpretation by the Storyteller is the key final step.  It's a
