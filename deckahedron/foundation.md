@@ -165,21 +165,21 @@ core resolution mechanic:
 
  * Visibility: helps the GM scale the challenges
  * Visibility: helps the GM see what opportunities to open up for the players
-  - Clearly if a player choose a skill, they want an opportunity to use it
+   * Clearly if a player choose a skill, they want an opportunity to use it
  * Arithmetic sucks
-  - "Flip 3, take the best" is easier than "roll 2d6, add your Strength bonus"
+   * "Flip 3, take the best" is easier than "roll 2d6, add your Strength bonus"
  * One action (a "flip") can result in many values
    (so the cards can be "multi-dimensional")
  * [Thematic flips](mod_thematic_flips.md)
  * Cheap and portable
  * Cards open up richer game play mechanics
-  - hiding values
-  - player choice about when to shuffle can be interesting
-  - look at top *n* cards, and put them back in any order
-  - drafting
-  - backs of cards can be marked
-  - collect special cards
-  - deckbuilding mechanic
-  - cards can be written on
-  - Spot It / Dobble mechanic
+   * hiding values
+   * player choice about when to shuffle can be interesting
+   * look at top *n* cards, and put them back in any order
+   * drafting
+   * backs of cards can be marked
+   * collect special cards
+   * deckbuilding mechanic
+   * cards can be written on
+   * Spot It / Dobble mechanic
 
