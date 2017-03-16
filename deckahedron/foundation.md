@@ -60,7 +60,7 @@ trap or adding a new twist to the story.
 # Core Resolution Mechanic: Character Stats
 
 Characters will have *stats*, **Strength**, **Dexterity**,
-and **Intelligence**.  Each will have a rank from 1 to 4.
+and **Intelligence**.  Each will have a rank from 1 (worst) to 4 (best).
 
 (If you want a richer representation of characters, see the
 [Characters Module](mod_characters.md)
