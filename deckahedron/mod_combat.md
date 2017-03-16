@@ -9,11 +9,9 @@ character is completely spent and collapses in a heap.
 Characters have 10 Stamina points.  These points are represented by
 cards in your Deckahedron with a Stamina symbol
 
-![Image of card with Stamina](images/front_19_200.png)
-This card has a Stamina symbol in the center.
-
-![Image of card without Stamina](images/front_3_200.png)
-This card does not have a Stamina symbol.
+Card **with** a Stamina symbol in the center | Card **without** a Stamina symbol
+---------------------------------------------|----------------------------------
+![Card Front](images/front_19_200.png)       | ![Card Front](images/front_3_200.png)
 
 When a character is in a fight, they are running, dodging, striking, and
 being struck and assailed by their foe.  All of this stuff is scary and
@@ -71,10 +69,12 @@ and their wits. Then they flip a card.
 If they use Dexterity, they say how they maneuver into a safe position
 that offers some temporary safety. Then they flip a card.
 
- * On a ✔✔ they regain 1d4 Stamina
- * On a ✔ they regain 1d4 Stamina, but their foe moves to a superior position
- * On a ✗ they regain 1 Stamina, but their foe moves to a superior position
- * On a ✗✗ they regain nothing and their foe moves to a superior position
+Card shows | Consequences
+-----------|--------------
+ ✔✔        | character regains 1d4 Stamina
+ ✔         | character regains 1d4 Stamina, but their foe moves to a superior position
+ ✗         | character regains 1 Stamina, but their foe moves to a superior position
+ ✗✗        | character regains nothing and their foe moves to a superior position
 
 Note: "regain Stamina" can be done either by taking cards from the
 *Exhaustion pile* and putting them into the *discard pile*, or by discarding
@@ -119,7 +119,7 @@ When you are instructed to take a Wound:
 
  * **If you already have 2 wounds** the character is incapacitated
  * **Otherwise**:
-  * the Storyteller will describe how you were wounded
+  * the Storyteller will describe how the character was wounded
   * Lose a Stamina point
   * Place a *Wound token* on your *Exhaustion pile*
   * Place a *Wound card* in your *discard pile*. It will now start cycling
@@ -131,7 +131,7 @@ Having a *Wound card* in your Deckahedron causes some nasty effects.
 
 Whenever you flip and reveal a wound card (ie, when resolving an attempt):
 
- * Tell or act out the gutteral noise emitted by your character
+ * Say or act out the gutteral noise emitted by your character
  * You must immediately stop flipping (eg, if your skill or the
    action instructed you to "flip 3", you would stop short once you hit
    the wound card)
@@ -168,8 +168,12 @@ Any attack where the foe is caught unaware is done by an unopposed flip.
 The player taking the action:
 
  * Flips Dex (ranged weapon) or Str (handheld weapon)
- * On a ✔✔ or ✔, deal 1d4 Damage
- * On a ✗✗ or ✗, miss
+  Card shows | Consequences
+  -----------|--------------
+   ✔✔        | deal 1d4 damage
+   ✔         | deal 1d4 damage
+   ✗         | miss
+   ✗✗        | miss
 
 In either case, the foe is now aware that the fight is on.
 
