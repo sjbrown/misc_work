@@ -87,8 +87,9 @@ square cards.
 Each edge of a card has a number, so it can be connected to a
 rank of a character's *stat*.
 
-![Image of Back](images/back_200.png)
-![Image of Front](images/front_19_200.png)
+Back of card                      | Front of card
+----------------------------------|----------------------------------------
+![Card Back](images/back_200.png) | ![Card Front](images/front_19_200.png)
 
  1. A stat with the rank of 1 is connected to the red edge of the
     Deckahedron, which shows 1 pip
