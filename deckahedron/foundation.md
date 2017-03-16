@@ -134,11 +134,14 @@ The Storyteller may deem a challenge to be particularly difficult or
 particularly easy.  Instead of flipping one card, the player will flip
 multiple and take either the best or the worst result.
 
- * Very easy challenge: flip 3 cards, take the best
- * Easy challenge: flip 2 cards, take the best
- * Standard challenge: flip 1 card
- * Difficult challenge: flip 2 cards, take the worst
- * Very difficult challenge: flip 3 cards, take the worst
+Difficulty of challenge | Resolution method
+------------------------|------------------------------
+Very easy               | flip 3 cards, take the best
+Easy                    | flip 2 cards, take the best
+Standard                | flip 1 card
+Difficult               | flip 2 cards, take the worst
+Very difficult          | flip 3 cards, take the worst
+
 
 ## Reshuffling
 
