@@ -168,12 +168,13 @@ Any attack where the foe is caught unaware is done by an unopposed flip.
 The player taking the action:
 
  * Flips Dex (ranged weapon) or Str (handheld weapon)
-  Card shows | Consequences
-  -----------|--------------
-   ✔✔        | deal 1d4 damage
-   ✔         | deal 1d4 damage
-   ✗         | miss
-   ✗✗        | miss
+
+Card shows | Consequences
+-----------|--------------
+ ✔✔        | deal 1d4 damage
+ ✔         | deal 1d4 damage
+ ✗         | miss
+ ✗✗        | miss
 
 In either case, the foe is now aware that the fight is on.
 
