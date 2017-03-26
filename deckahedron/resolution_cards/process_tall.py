@@ -4,9 +4,14 @@
 
 import os
 import re
+import sys
 from lxml import etree
 from itertools import product
+from collections import defaultdict
 from tall_cards import cards
+
+sys.path.append('/usr/share/inkscape/extensions/')
+from simplestyle import parseStyle, parseColor
 
 def export_png(svg, png):
     cmd_fmt = 'inkscape --export-png=%s --export-width=825 --export-height=1125 %s'
@@ -22,29 +27,39 @@ class DOM(object):
         self.dom = etree.fromstring(c)
         self.titles = [x for x in self.dom.getiterator()
                        if x.tag == '{http://www.w3.org/2000/svg}title']
-        self.title_to_element = {
-            t.text: t.getparent()
-            for t in self.titles
+        self.title_to_elements = defaultdict(list)
+        for t in self.titles:
+            self.title_to_elements[t.text].append(t.getparent())
+        self.layers = {
+            x.attrib['{http://www.inkscape.org/namespaces/inkscape}label'] : x
+            for x in self.dom.getchildren()
+            if x.attrib.get('{http://www.inkscape.org/namespaces/inkscape}groupmode') == 'layer'
         }
 
+    def layer_hide(self, layer_label):
+        self.layers[layer_label].attrib['style'] = 'display:none'
+
+    def layer_show(self, layer_label):
+        self.layers[layer_label].attrib['style'] = 'display:inline'
+
     def cut_element(self, title):
-        e = self.title_to_element[title]
-        e.getparent().remove(e)
+        for e in self.title_to_elements[title]:
+            e.getparent().remove(e)
 
     def replace_text(self, title, newtext, max_chars=None):
-        flowroot = self.title_to_element[title]
-        flowpara = [x for x in flowroot.iterchildren() if 'flowPara' in x.tag][0]
-        flowroot.remove(flowpara)
-        for i, line in enumerate(newtext.split('\n')):
-            paraclone = etree.fromstring(etree.tostring(flowpara))
-            paraclone.text = line
-            flowroot.append(paraclone)
-        num_lines = i
+        for flowroot in self.title_to_elements[title]:
+            flowpara = [x for x in flowroot.iterchildren() if 'flowPara' in x.tag][0]
+            flowroot.remove(flowpara)
+            for i, line in enumerate(newtext.split('\n')):
+                paraclone = etree.fromstring(etree.tostring(flowpara))
+                paraclone.text = line
+                flowroot.append(paraclone)
+            num_lines = i
 
-        if max_chars and len(newtext) > (max_chars - num_lines*20):
-            flowroot.attrib['style'] = re.sub(
-                'font-size:\d+px;', 'font-size:8px;', flowroot.attrib['style']
-            )
+            if max_chars and len(newtext) > (max_chars - num_lines*20):
+                flowroot.attrib['style'] = re.sub(
+                    'font-size:\d+px;', 'font-size:8px;', flowroot.attrib['style']
+                )
 
     def write_file(self, svg_filename):
         print svg_filename
@@ -55,30 +70,36 @@ class DOM(object):
 
 def filter_dom_elements(dom, card):
     cut_these = [
-      'mod_str', 'mod_int', 'mod_dex', 'mod_bond',
+      'mod_str', 'mod_int', 'mod_dex', 'mod_bond', 'mod_str/dex/int',
       'wiz_ne', 'wiz_e', 'wiz_se', 'wiz_sw', 'wiz_w', 'wiz_nw',
       'rogue_ne', 'rogue_e', 'rogue_se', 'rogue_sw', 'rogue_w', 'rogue_nw',
       'fighter_ne', 'fighter_e', 'fighter_se', 'fighter_sw', 'fighter_w', 'fighter_nw',
+      'all_ne', 'all_e', 'all_se', 'all_sw', 'all_w', 'all_nw',
     ]
-    if card.get('class_pos'):
-        [cut_these.remove(x) for x in card['class_pos']]
+    if card.get('spots'):
+        for key in dom.layers:
+            if 'spot_' in key:
+                dom.layer_show(key)
+            elif 'std_' in key:
+                dom.layer_hide(key)
+    else:
+        for key in dom.layers:
+            if 'spot_' in key:
+                dom.layer_hide(key)
+            elif 'std_' in key:
+                dom.layer_show(key)
+
+    if card.get('circles'):
+        [cut_these.remove(x) for x in card['circles']]
     if card.get('mod'):
         keep = 'mod_' + card['mod'].lower()
         cut_these.remove(keep)
+    else:
+        cut_these.append('mod_shield')
     for x in cut_these:
         dom.cut_element(x)
 
 
-# Example Card:
-{'desc_10': 'Success',
- 'desc_79': 'Stumble, hesitate\nor flinch',
- 'desc_detail': 'When you act despite an imminent threat, say how you deal with it and roll. If you do it... * by powering through or enduring, roll +Str * by getting out of the way or acting fast, roll +Dex * with quick thinking or through mental fortitude, roll +Int On a 7-9, you stumble, hesitate, or flinch: the GM will offer you a worse outcome, hard bargain, or ugly choice',
- 'h1': 'Defy Danger',
- 'label_10': True,
- 'label_79': True,
- 'mod_shield': False,
- 'mod_str': ''
-}
 
 def one_blank_front():
     dom = DOM('tall_card_front.svg')
@@ -87,8 +108,8 @@ def one_blank_front():
     print '\n'
 
     filter_dom_elements(dom, {})
-    dom.replace_text('desc_79', '', max_chars=40)
-    dom.replace_text('desc_10', '', max_chars=40)
+    dom.replace_text('one_check', '', max_chars=40)
+    dom.replace_text('two_check', '', max_chars=40)
     dom.replace_text('desc_detail', '', max_chars=300)
     dom.replace_text('h1', '')
 
@@ -111,8 +132,8 @@ def make_deck():
         print '\n'
 
         filter_dom_elements(dom, card)
-        dom.replace_text('desc_79', card['desc_79'], max_chars=40)
-        dom.replace_text('desc_10', card['desc_10'], max_chars=40)
+        dom.replace_text('one_check', card['one_check'], max_chars=40)
+        dom.replace_text('two_check', card['two_check'], max_chars=40)
         dom.replace_text('desc_detail', card['desc_detail'], max_chars=300)
         dom.replace_text('h1', card['h1'])
 
