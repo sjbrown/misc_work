@@ -16,7 +16,7 @@ def parse(s):
         if l.startswith('|'):
             retval += '\n' + l[1:]
         elif l.startswith('*'):
-            retval += '\n' + l
+            retval += '\n' + u'✷' + l[1:]
         else:
             retval += ' ' + l
 
@@ -27,6 +27,7 @@ def make_card(C):
                  # If no 'title', use the class name
                  C.__name__.replace('_', ' '))
     mod = getattr(C, 'mod', '')
+    x_check = parse(getattr(C, 'x_check', ''))
     one_check = parse(getattr(C, 'one_check', ''))
     two_check = parse(getattr(C, 'two_check', ''))
     desc_detail = parse(C.desc)
@@ -34,6 +35,7 @@ def make_card(C):
         'h1': h1,
         'mod_shield': bool(mod),
         'mod': mod,
+        'x_check': x_check,
         'one_check': one_check,
         'two_check': two_check,
         'desc_detail': desc_detail,
@@ -62,7 +64,7 @@ class Hack_and_Slash(Card):
 
 class Volley(Card):
   mod = 'Dex'
-  one_check = '''
+  x_check = '''
     Choose an option
     and
     deal your damage
@@ -80,7 +82,7 @@ class Volley(Card):
 
 class Parley(Card):
   mod = 'Int'
-  one_check = '''
+  x_check = '''
     Provide immediate and
     concrete assurance
     of your promise
@@ -98,7 +100,7 @@ class Parley(Card):
 
 class Defy_Danger(Card):
   mod = 'Str/Dex/Int'
-  one_check = '''
+  x_check = '''
     Stumble, hesitate
     or flinch
     '''
@@ -158,7 +160,7 @@ class Discern_Realities(Card):
 
 class Spout_Lore(Card):
   mod = 'Int'
-  one_check = '''
+  x_check = '''
     GM tells you
     something interesting
     '''
@@ -188,7 +190,9 @@ class Aid_or_Interfere(Card):
     |(your choice)
     '''
   desc = '''
-    Help or hinder someone you have a Bond with.
+    Help (place 1 green marker on their deckahedron to remember)
+    or hinder (place 2 red markers on their deckahedron to remember)
+    someone you have a Bond with.
     '''
 
 class And_this_is_for(Card):

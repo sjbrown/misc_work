@@ -82,12 +82,21 @@ def filter_dom_elements(dom, card):
                 dom.layer_show(key)
             elif 'std_' in key:
                 dom.layer_hide(key)
+        if card.get('x_check'):
+            dom.layer_hide('spot_one_check')
+        elif card.get('one_check'):
+            dom.layer_hide('spot_x_check')
+
     else:
         for key in dom.layers:
             if 'spot_' in key:
                 dom.layer_hide(key)
             elif 'std_' in key:
                 dom.layer_show(key)
+        if card.get('x_check'):
+            dom.layer_hide('std_one_check')
+        elif card.get('one_check'):
+            dom.layer_hide('std_x_check')
 
     if card.get('circles'):
         [cut_these.remove(x) for x in card['circles']]
@@ -108,10 +117,13 @@ def one_blank_front():
     print '\n'
 
     filter_dom_elements(dom, {})
-    dom.replace_text('one_check', '', max_chars=40)
-    dom.replace_text('two_check', '', max_chars=40)
+    dom.replace_text('words_left', '', max_chars=40)
+    dom.replace_text('words_right', '', max_chars=40)
     dom.replace_text('desc_detail', '', max_chars=300)
     dom.replace_text('h1', '')
+    dom.layer_hide('std_x_check')
+    dom.layer_hide('std_one_check')
+    dom.layer_hide('std_two_check')
 
     # Create the svg file and export a PNG
     svg_filename = '/tmp/tall_cards/deck_card_face_blank.svg'
@@ -132,8 +144,11 @@ def make_deck():
         print '\n'
 
         filter_dom_elements(dom, card)
-        dom.replace_text('one_check', card['one_check'], max_chars=40)
-        dom.replace_text('two_check', card['two_check'], max_chars=40)
+        if card.get('x_check'):
+            dom.replace_text('words_left', card['x_check'], max_chars=40)
+        else:
+            dom.replace_text('words_left', card['one_check'], max_chars=40)
+        dom.replace_text('words_right', card['two_check'], max_chars=40)
         dom.replace_text('desc_detail', card['desc_detail'], max_chars=300)
         dom.replace_text('h1', card['h1'])
 
