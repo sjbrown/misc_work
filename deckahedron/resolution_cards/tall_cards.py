@@ -50,18 +50,18 @@ def make_card(C):
 class Hack_and_Slash(Card):
   mod = 'Str'
   one_check = '''
-    Deal damage
+    Deal fatigue
     and
     enemy attacks you
     '''
   two_check = '''
-    Deal damage
+    Deal fatigue
     and
     avoid enemy attack
     '''
   desc = u'''
     On a ✔✔, you can choose to expose yourself to the enemy's attack in
-    order to deal extra damage
+    order to deal extra fatigue
     '''
 
 class Volley(Card):
@@ -69,17 +69,17 @@ class Volley(Card):
   x_check = '''
     Choose an option
     and
-    deal your damage
+    deal your fatigue
   '''
   two_check = '''
-    Deal your damage
+    Deal your fatigue
   '''
   desc = u'''
     Send a volley flying with your ranged weapon.
     |On a ✗, the GM chooses one:
     |On a ✔, you choose one:
     * You have to move to get the shot, placing you in danger of the GM's choice
-    * You have to take what you can get - reduce your damage
+    * You have to take what you can get - reduce your fatigue dealt
     * You have to take several shots - reduce your ammo
   '''
 
@@ -138,7 +138,7 @@ class Defend(Card):
     * Redirect an attack from the thing you defend to yourself
     * Halve the attack's effect or damage
     * Open up the attacker to an ally giving that ally +1 forward against the attacker
-    * Deal damage to the attacker equal to 1 + (number of green cards)
+    * Deal fatigue to the attacker equal to 1 + (number of green cards)
   '''
 
 class Discern_Realities(Card):
@@ -210,10 +210,10 @@ class And_this_is_for(Card):
   title = 'And this is for...'
   mod = 'Dex'
   one_check = '''
-    Deal 1 damage.
+    Deal 1 fatigue.
     '''
   two_check = '''
-    Deal 1d4 damage.
+    Deal 1d4 fatigue.
     '''
   desc = '''
     After successfully striking a foe in melee, add a punch,
@@ -257,7 +257,7 @@ class Tough_Stuff(Card):
 class Where_It_Hurts(Card):
   mod = ''
   desc = '''
-    Turn 1 EX into 1 BR when you deal damage with your weapon.
+    Turn 1 EX into 1 BR when you deal fatigue with your weapon.
     | One green card: 2 EX turns into 2 BR
     | Two green cards: 3 EX turns into 3 BR
     '''
