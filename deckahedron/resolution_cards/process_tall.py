@@ -82,10 +82,19 @@ def filter_dom_elements(dom, card):
                 dom.layer_show(key)
             elif 'std_' in key:
                 dom.layer_hide(key)
-        if card.get('x_check'):
-            dom.layer_hide('spot_one_check')
-        elif card.get('one_check'):
+        if not card.get('x_check'):
             dom.layer_hide('spot_x_check')
+        if not card.get('one_check'):
+            dom.layer_hide('spot_one_check')
+        if not card.get('two_check'):
+            dom.layer_hide('spot_two_check')
+
+        if card.get('spots')[0][0].upper() == 'EX':
+            dom.layer_hide('spot_br')
+        elif card.get('spots')[0][0].upper() == 'BR':
+            dom.layer_hide('spot_ex')
+        else:
+            raise ValueError('Spots? %s' % card.get('spots'))
 
     else:
         for key in dom.layers:
@@ -93,10 +102,12 @@ def filter_dom_elements(dom, card):
                 dom.layer_hide(key)
             elif 'std_' in key:
                 dom.layer_show(key)
-        if card.get('x_check'):
-            dom.layer_hide('std_one_check')
-        elif card.get('one_check'):
+        if not card.get('x_check'):
             dom.layer_hide('std_x_check')
+        if not card.get('one_check'):
+            dom.layer_hide('std_one_check')
+        if not card.get('two_check'):
+            dom.layer_hide('std_two_check')
 
     if card.get('circles'):
         [cut_these.remove(x) for x in card['circles']]

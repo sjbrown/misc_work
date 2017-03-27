@@ -27,6 +27,7 @@ def make_card(C):
                  # If no 'title', use the class name
                  C.__name__.replace('_', ' '))
     mod = getattr(C, 'mod', '')
+    one_x = parse(getattr(C, 'one_x', ''))
     x_check = parse(getattr(C, 'x_check', ''))
     one_check = parse(getattr(C, 'one_check', ''))
     two_check = parse(getattr(C, 'two_check', ''))
@@ -35,6 +36,7 @@ def make_card(C):
         'h1': h1,
         'mod_shield': bool(mod),
         'mod': mod,
+        'one_x': one_x,
         'x_check': x_check,
         'one_check': one_check,
         'two_check': two_check,
@@ -73,7 +75,8 @@ class Volley(Card):
     Deal your damage
   '''
   desc = u'''
-    On a ✗, the GM chooses one:
+    Send a volley flying with your ranged weapon.
+    |On a ✗, the GM chooses one:
     |On a ✔, you choose one:
     * You have to move to get the shot, placing you in danger of the GM's choice
     * You have to take what you can get - reduce your damage
@@ -119,8 +122,11 @@ class Defy_Danger(Card):
 
 class Defend(Card):
   mod = 'Str'
-  one_check = '''
+  one_x = '''
     Place 1 green marker on this tile
+  '''
+  one_check = '''
+    Place 2 green markers on this tile
   '''
   two_check = '''
     Place 3 green markers on this tile
@@ -137,8 +143,13 @@ class Defend(Card):
 
 class Discern_Realities(Card):
   mod = 'Int'
-  one_check = '''
+  one_x = '''
     Ask the GM 1
+    question from
+    the list
+    '''
+  one_check = '''
+    Ask the GM 2
     question from
     the list
     '''
@@ -236,12 +247,6 @@ class Good_Cardio(Card):
 
 class Tough_Stuff(Card):
   mod = ''
-  one_check = '''
-    -
-  '''
-  two_check = '''
-    -
-  '''
   desc = '''
     When you would normally take physical harm, you can choose to put a
     harm token on this card instead.
@@ -251,15 +256,10 @@ class Tough_Stuff(Card):
 
 class Where_It_Hurts(Card):
   mod = ''
-  one_check = '''
-    -
-  '''
-  two_check = '''
-    -
-  '''
   desc = '''
     Turn 1 EX into 1 BR when you deal damage with your weapon.
-    Upgrade levels: 2 for 2, 3 for 3.
+    | One green card: 2 EX turns into 2 BR
+    | Two green cards: 3 EX turns into 3 BR
     '''
   circles = ('all_sw', 'fighter_e')
 
