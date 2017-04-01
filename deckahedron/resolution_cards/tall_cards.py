@@ -32,6 +32,14 @@ def make_card(C):
     one_check = parse(getattr(C, 'one_check', ''))
     two_check = parse(getattr(C, 'two_check', ''))
     desc_detail = parse(C.desc)
+    if getattr(C, 'levels', []):
+        levels = C.levels
+    else:
+        if getattr(C, 'level_start', None):
+            levels = ['r3', 'r2', 'r1', '0', 'g1', 'g2']
+        else:
+            levels = []
+
     card = {
         'h1': h1,
         'mod_shield': bool(mod),
@@ -43,41 +51,44 @@ def make_card(C):
         'desc_detail': desc_detail,
         'circles': getattr(C, 'circles', []),
         'spots': getattr(C, 'spots', []),
+        'levels': levels,
+        'level_start': getattr(C, 'level_start', None),
     }
     return card
 
 
 class Hack_and_Slash(Card):
   mod = 'Str'
+  one_x = '''
+    Deal 1 fatigue and the foe attacks you
+  '''
   one_check = '''
-    Deal fatigue
-    and
-    enemy attacks you
+    Deal your fatigue and the foe attacks you
     '''
   two_check = '''
-    Deal fatigue
-    and
-    avoid enemy attack
+    Deal fatigue and choose
     '''
   desc = u'''
-    On a ✔✔, you can choose to expose yourself to the enemy's attack in
-    order to deal extra fatigue
+    On a ✔✔, you can choose:
+    * Avoid the foe's attack
+    * Expose yourself to the foe's attack in order to deal extra fatigue
     '''
 
 class Volley(Card):
   mod = 'Dex'
-  x_check = '''
-    Choose an option
-    and
-    deal your fatigue
+  one_x = '''
+    GM chooses an option.
+    Deal your fatigue.
+  '''
+  one_check = '''
+    Choose an option and deal your fatigue.
   '''
   two_check = '''
-    Deal your fatigue
+    Deal your fatigue.
   '''
   desc = u'''
     Send a volley flying with your ranged weapon.
-    |On a ✗, the GM chooses one:
-    |On a ✔, you choose one:
+    |
     * You have to move to get the shot, placing you in danger of the GM's choice
     * You have to take what you can get - reduce your fatigue dealt
     * You have to take several shots - reduce your ammo
@@ -123,13 +134,13 @@ class Defy_Danger(Card):
 class Defend(Card):
   mod = 'Str'
   one_x = '''
-    Place 1 green marker on this tile
+    Place 1 green marker on this card
   '''
   one_check = '''
-    Place 2 green markers on this tile
+    Place 2 green markers on this card
   '''
   two_check = '''
-    Place 3 green markers on this tile
+    Place 3 green markers on this card
   '''
   desc = '''
     When you stand in defense of a person, item, or location, you can interfere with attacks against it.
@@ -150,7 +161,7 @@ class Discern_Realities(Card):
     '''
   one_check = '''
     Ask the GM 2
-    question from
+    questions from
     the list
     '''
   two_check = '''
@@ -220,6 +231,7 @@ class And_this_is_for(Card):
     kick, or shove.
     '''
   circles = ['all_se']
+  level_start = 'r3'
 
 class Good_Cardio(Card):
   mod = 'Str'
@@ -262,6 +274,8 @@ class Where_It_Hurts(Card):
     | Two green cards: 3 EX turns into 3 BR
     '''
   circles = ('all_sw', 'fighter_e')
+  level_start = '0'
+  levels = ['0', 'g1', 'g2']
 
 
 locs = locals()

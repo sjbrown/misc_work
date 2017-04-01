@@ -75,6 +75,10 @@ def filter_dom_elements(dom, card):
       'rogue_ne', 'rogue_e', 'rogue_se', 'rogue_sw', 'rogue_w', 'rogue_nw',
       'fighter_ne', 'fighter_e', 'fighter_se', 'fighter_sw', 'fighter_w', 'fighter_nw',
       'all_ne', 'all_e', 'all_se', 'all_sw', 'all_w', 'all_nw',
+      'level_r3', 'level_r2', 'level_r1',
+      'level_0', 'level_g1', 'level_g2',
+      'level_start_r3', 'level_start_r2', 'level_start_r1',
+      'level_start_0', 'level_start_g1', 'level_start_g2',
     ]
     if card.get('spots'):
         for key in dom.layers:
@@ -102,12 +106,28 @@ def filter_dom_elements(dom, card):
                 dom.layer_hide(key)
             elif 'std_' in key:
                 dom.layer_show(key)
-        if not card.get('x_check'):
-            dom.layer_hide('std_x_check')
-        if not card.get('one_check'):
-            dom.layer_hide('std_one_check')
-        if not card.get('two_check'):
-            dom.layer_hide('std_two_check')
+            if not card.get('x_check') and 'x_check' in key:
+                dom.layer_hide(key)
+            if not card.get('one_check') and 'one_check' in key:
+                dom.layer_hide(key)
+            if not card.get('two_check') and 'two_check' in key:
+                dom.layer_hide(key)
+
+    for key in dom.layers:
+        if card.get('one_x'):
+            if '_2lines' in key:
+                dom.layer_hide(key)
+        else:
+            if '_3lines' in key:
+                dom.layer_hide(key)
+
+        if not card.get('level_start') and 'levels' in key:
+            dom.layer_hide(key)
+
+    if card.get('level_start'):
+        cut_these.remove('level_start_' + card['level_start'])
+    if card.get('levels'):
+        [cut_these.remove('level_' + lvl) for lvl in card['levels']]
 
     if card.get('circles'):
         [cut_these.remove(x) for x in card['circles']]
@@ -128,13 +148,21 @@ def one_blank_front():
     print '\n'
 
     filter_dom_elements(dom, {})
-    dom.replace_text('words_left', '', max_chars=40)
-    dom.replace_text('words_right', '', max_chars=40)
-    dom.replace_text('desc_detail', '', max_chars=300)
+    dom.replace_text('words_left', '')
+    dom.replace_text('words_right', '')
+    dom.replace_text('desc_detail', '')
     dom.replace_text('h1', '')
-    dom.layer_hide('std_x_check')
-    dom.layer_hide('std_one_check')
-    dom.layer_hide('std_two_check')
+    for key in dom.layers:
+        if (
+          'x_check' in key
+          or
+          'one_check' in key
+          or
+          'two_check' in key
+          or
+          'std_3lines' in key
+        ):
+            dom.layer_hide(key)
 
     # Create the svg file and export a PNG
     svg_filename = '/tmp/tall_cards/deck_card_face_blank.svg'
@@ -143,7 +171,7 @@ def one_blank_front():
     export_png(svg_filename, png_filename)
 
 
-def make_deck():
+def make_deck(cards):
     export_png('tall_card_back.svg', '/tmp/tall_cards/back.png')
 
     one_blank_front()
@@ -155,11 +183,15 @@ def make_deck():
         print '\n'
 
         filter_dom_elements(dom, card)
+        if card.get('one_x'):
+            dom.replace_text('words_one_x', card['one_x'], max_chars=60)
         if card.get('x_check'):
             dom.replace_text('words_left', card['x_check'], max_chars=40)
         else:
             dom.replace_text('words_left', card['one_check'], max_chars=40)
+            dom.replace_text('words_one_check', card['one_check'], max_chars=60)
         dom.replace_text('words_right', card['two_check'], max_chars=40)
+        dom.replace_text('words_two_check', card['two_check'], max_chars=60)
         dom.replace_text('desc_detail', card['desc_detail'], max_chars=300)
         dom.replace_text('h1', card['h1'])
 
@@ -175,4 +207,13 @@ def make_deck():
 if __name__ == '__main__':
     if not os.path.exists('/tmp/tall_cards'):
         os.makedirs('/tmp/tall_cards')
-    make_deck()
+
+    filtered = cards
+    if len(sys.argv) > 1:
+        card_grep = sys.argv[1]
+        filtered = []
+        print 'filtering for', card_grep
+        filtered = [c for c in cards
+          if card_grep.lower() in c['h1'].lower()]
+
+    make_deck(filtered)
