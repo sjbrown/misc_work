@@ -116,10 +116,12 @@ result card.
 take the worst result, only that "worst result" card's proficiency symbol
 counts)
 If the `proficiency` symbol is present, then, *despite the success or
-failure*, your practice paid off and you just got a little better at the
-skill.
-Therefore, you can now discard one of the `penalty` cards on top of the
-skill card.
+failure*, you get a reward!  Choose either:
+
+ * You can take a green token and place it on top of your character sheet.
+ * Your practice paid off and you just got a little better at the skill.
+   Therefore, you can now spend a green token on your character sheet to
+   discard one of the `penalty` cards on top of the skill card.
 
 By this means, the character gets better and better at that skill until
 there are no more `penalty` cards on top of the skill card.  We can then
@@ -137,9 +139,13 @@ asymtotically closer.
 
 When you declare you're using a skill the character is proficient at,
 and then flip a card to reveal your result, if there's a `proficiency`
-symbol, *despite the success or failure*, add a `bonus` card on top
-of that skill.
-On subsequent skill flips, you may now flip **2** cards and take the
+symbol, *despite the success or failure*, you can choose:
+
+ * Take a green token and place it on top of your character sheet.
+ * Spend a green token from your character sheet to take a `bonus`
+   card and put it on top of that skill.
+
+With a `bonus` card on a skill, you may now flip **2** cards and take the
 **best** result.
 
 ### Becoming a "master"
@@ -151,16 +157,21 @@ On subsequent skill flips, you may now flip **2** cards and take the
 When you declare you're using a skill the character is an expert at,
 and then flip 2 cards to reveal your result, if there's a `proficiency`
 symbol on **both** of the cards (*Not* just the result card), and *despite
-the success or failure*, add a `bonus` card on top of that skill.
+the success or failure*, you can choose:
 
-On subsequent skill flips, you may now flip **3** cards and take the
+ * Take a green token and place it on top of your character sheet.
+ * Spend a green token from your character sheet to take a `bonus`
+   card and put it on top of that skill.
+
+With two `bonus` cards on a skill, you may now flip **3** cards and take the
 **best** result.
 
 
 ### Learning from a master
 
-See the `Leveling Up Module` for ways that characters can increase
-their skill proficiency outside of the action of an adventure.
+See the [Leveling Up Module](mod_levels.md)
+for ways that characters can increase their skill proficiency outside
+of the action of an adventure.
 
 ## How to create a character
 
