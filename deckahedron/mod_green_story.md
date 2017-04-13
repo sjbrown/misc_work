@@ -31,11 +31,14 @@ to the adjacent card.
 
 The GM has a deck of "story" cards:
 
-Borrowing from Blake Snyder's Beat Sheets, but could also use
-* Harmon's Story Circle
+### Blake Snyder's Beat Sheet
+
+```
+but could also use
 * Screenwriter's Bible
 * Hero's Journey
 * etc.
+```
 
 1. Opening Image – A visual that represents the struggle & tone of the story.
    A snapshot of the main character’s problem, before the adventure begins.
@@ -93,3 +96,23 @@ Borrowing from Blake Snyder's Beat Sheets, but could also use
    Story. Act Three is about Synthesis!
 15. Final Image – opposite of Opening Image, proving, visually, that a change
    has occurred within the character.
+
+### Harmon's Story Circle
+
+1. You (a character is in a zone of comfort)
+   ESTABLISH A PROTAGONIST
+2. Need (but they want something)
+   SOMETHING AIN'T QUITE RIGHT
+3. Go (they enter an unfamiliar situation)
+   CROSSING THE THRESHOLD
+4. Search (adapt to it)
+   THE ROAD OF TRIALS
+5. Find (find what they wanted)
+   MEETING WITH THE GODDESS
+6. Take (pay its price)
+   MEET YOUR MAKER
+7. Return (and go back to where they started)
+   BRINGING IT HOME
+8. Change (now capable of change)
+   MASTER OF BOTH WORLDS
+
