@@ -216,8 +216,8 @@ The player taking the action:
 
 Card shows | Consequences
 -----------|--------------
- ✔✔        | deal 1d4 damage
- ✔         | deal 1d4 damage
+ ✔✔        | deal 1d4 fatigue
+ ✔         | deal 1d4 fatigue
  ✗         | miss
  ✗✗        | miss
 
