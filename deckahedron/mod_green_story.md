@@ -99,20 +99,20 @@ but could also use
 
 ### Harmon's Story Circle
 
-1. You (a character is in a zone of comfort)
+1. (Act 1) You (a character is in a zone of comfort)
    ESTABLISH A PROTAGONIST
-2. Need (but they want something)
+2. (Act 1) Need (but they want something)
    SOMETHING AIN'T QUITE RIGHT
-3. Go (they enter an unfamiliar situation)
+3. (Act 1 to Act 2) Go (they enter an unfamiliar situation)
    CROSSING THE THRESHOLD
-4. Search (adapt to it)
+4. (Act 2) Search (adapt to it)
    THE ROAD OF TRIALS
-5. Find (find what they wanted)
+5. (Act 2) Find (find what they wanted)
    MEETING WITH THE GODDESS
-6. Take (pay its price)
+6. (Act 2) Take (pay its price)
    MEET YOUR MAKER
-7. Return (and go back to where they started)
+7. (Act 3) Return (and go back to where they started)
    BRINGING IT HOME
-8. Change (now capable of change)
+8. (Act 3) Change (now capable of change)
    MASTER OF BOTH WORLDS
 

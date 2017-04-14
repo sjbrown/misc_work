@@ -299,7 +299,7 @@ possibilities.  It's highly recommended that you take a look at additional
 modules which overwrite the Attack rules in this base Combat Module.
 
 See the [Equipment](mod_equipment.md),
-[Medieval Fantasy](mod_medieval_fantasy.md), and
+[Deckahedron World](mod_deckahedron_world.md), and
 [Thematic flips](mod_thematic_flips.md)
 modules for other kinds of combat rules.
 
