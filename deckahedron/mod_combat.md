@@ -47,7 +47,6 @@ unconscious, or just unable to stand or move.
 
 > Realism Mode tries to simulate the negative consequences of exhaustion.
 > Players will lose only their "good" cards to the *Exhaustion pile*
-> cards to the *Exhaustion pile*.
 
 Characters have 10 Stamina points.  These points are represented by
 cards in your Deckahedron with a Stamina symbol
