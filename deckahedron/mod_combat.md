@@ -129,11 +129,11 @@ for a while.
 When you are instructed to take a Strain, sprain, or bruise:
 
  * **If you already have 2 Harm tokens on your Exhaustion pile**:
-  * Take a *Wound* instead
+   - Take a *Wound* instead
  * **Otherwise**:
-  * the Storyteller will describe what kind of harm this represents
-  * Lose a Stamina point
-  * Place a *Harm token* on your *Exhaustion pile*
+   - the Storyteller will describe what kind of harm this represents
+   - Lose a Stamina point
+   - Place a *Harm token* on your *Exhaustion pile*
 
 
 ## Resting
@@ -160,13 +160,13 @@ to cure their condition as a very high priority.
 When you are instructed to take a Wound:
 
  * **If you already have 2 wounds**:
-  * the character is incapacitated
+   - the character is incapacitated
  * **Otherwise**:
-  * the Storyteller will describe how the character was wounded
-  * Lose a Stamina point
-  * Place a *Wound token* on your *Exhaustion pile*
-  * Place a *Wound card* in your *discard pile*. It will now start cycling
-    between your Deckahedron and your *discard pile*.
+   - the Storyteller will describe how the character was wounded
+   - Lose a Stamina point
+   - Place a *Wound token* on your *Exhaustion pile*
+   - Place a *Wound card* in your *discard pile*. It will now start cycling
+     between your Deckahedron and your *discard pile*.
 
 ![Image of Wound card](images/wound_200.png)
 
