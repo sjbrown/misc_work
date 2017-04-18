@@ -21,9 +21,9 @@ Columns can go down to 0.
 # During an adventure
 
 * One token from the Equipment column can be discarded to add one
-  token to the speed column
+  token to the Speed column
 * One token from the Wealth column can be discarded to add one token
-  to the speed column
+  to the Speed column
 * If the character takes some new Wealth, they add one token to the
   Wealth column and remove one from the Speed column
 * If the character takes some new Equipment, they add one token to the
@@ -47,6 +47,24 @@ Speed is for calculating travel times and outrunning enemies.
 
 If you're using the Item Card module, some cards may indicate that you
 must spend a Speed token to carry the item.
+
+
+### Bravely Run Away!
+
+Here's an example from
+[Deckahedron World](mod_deckahedron_world.md)
+of how Speed can work in a game.
+
+There is a move called "Bravely Run Away!". You can use this move to escape
+foes in the middle of combat unless the Storyteller has declared you are
+surrounded or cornered, or unless the foe(s) you face have some special
+power that makes them unescapable.
+
+When you use this move, it costs stamina to run away.  The formula to
+calculate the stamina lost is `4 - Speed`.  So if your character has 4
+points in Speed, no stamina will be lost. But with 0 points in Speed,
+this will cost your character 4 stamina.
+
 
 # Visiting a merchant
 

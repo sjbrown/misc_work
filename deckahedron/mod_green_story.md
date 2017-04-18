@@ -116,3 +116,35 @@ but could also use
 8. (Act 3) Change (now capable of change)
    MASTER OF BOTH WORLDS
 
+
+# Deckahedron Module: Green Motivators
+
+Sort of like Alignment in Dungeon World
+
+A player has a couple *Motivator* cards in front of them:
+
+ * Preserve / Increase
+ * Oppose / Decrease
+
+On the *Preserve / Increase* card should be written one thing that character
+holds as a core value.  It can be noble or vain, physical or conceptual, the
+important thing is it makes them who they are
+
+Ditto, but opposite for the *Oppose / Decrease* card.
+
+When the character acts in a way that embodies this characteristic, the
+Storyteller can instruct them to move a green token from the *Motivator*
+card to their character sheet.
+
+
+# Deckahedron Module: Red Turns
+
+If a player takes an inordinate amount of time with their turn, or if they
+talk over another player that was trying to take a turn, they are given
+a red token.  The Storyteller can put the red token on any of the player's
+cards.  Any green tokens on a card may not be used until all the red tokens
+on that card have been used first.
+
+## Using a red token
+
+`TODO`
