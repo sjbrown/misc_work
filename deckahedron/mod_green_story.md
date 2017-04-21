@@ -8,6 +8,10 @@ The GM has a deck of "scene" cards:
  * Emotional Depth
  * Callback
  * Action that effects change (+/- system from Save the Cat??)
+ * Character that audience identifies as having a potential successful plan
+   at the start of a scene ends up with that plan stymied
+ * Irony: character's actions are properly motivated for success but the
+   actions themselves cause a failure
 
 ## Steps:
 
@@ -118,6 +122,8 @@ but could also use
 
 
 # Deckahedron Module: Green Motivators
+
+`Note to self: this could go into meta-cards`
 
 Sort of like Alignment in Dungeon World
 
