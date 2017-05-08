@@ -492,7 +492,7 @@ spot_it_map = {
   9: 'pig',
 }
 
-def analyze_exes_and_checkmarks(svg=True):
+def analyze_exes_and_checkmarks(svg=False):
     a_deck = [x['a'] for x in cards]
     b_deck = [x['b'] for x in cards]
     c_deck = [x['c'] for x in cards]
@@ -548,9 +548,21 @@ def analyze_exes_and_checkmarks(svg=True):
                     x="{x}"
                     y="{y}" />
                 '''
+                t = '''<text xml:space="preserve"
+                   id="{text_id}"
+                   x="{x}" y="{y}"
+                   style="font-size:2px;
+                       font-family:'Bebas Neue';
+                       -inkscape-font-specification:'Bebas Neue';
+                       fill:#000000
+                       "
+                   >
+                   <tspan sodipodi:role="line" x="{x}" y="{y}" >{value}</tspan>
+                </text>
+                '''
                 x = 0
                 for j in [1,2,3,4]:
-                    y = { 'A': 0, 'B': 10, 'C': 20, 'D': 30 }[symbol]
+                    y = { 'A': 21, 'B': 14, 'C': 7, 'D': 0 }[symbol]
                     color = {
                         1: 'd40000',
                         2: 'ff0000',
@@ -565,6 +577,13 @@ def analyze_exes_and_checkmarks(svg=True):
                         y=y,
                         color=color,
                     )
+                    if int_val > 0:
+                        print t.format(
+                            text_id=('text' + group_id + '-' + str(j)),
+                            x=x*0.4,
+                            y=y+5,
+                            value=int_val
+                        )
                     x += int_val
                 print '</g>'
 
