@@ -288,6 +288,7 @@ def analyze_check(*args):
 def analyze_contest(*args):
     return analyze(resolve_contest, [-1, 0, 1], *args)
 
+
 def analyze_contest_tiereflip(*args):
     TieReflip.clear()
     analysis = analyze(TieReflip.resolve_contest, [-1, 1], *args)
@@ -490,3 +491,91 @@ spot_it_map = {
   8: 'cock',
   9: 'pig',
 }
+
+def analyze_exes_and_checkmarks(svg=True):
+    a_deck = [x['a'] for x in cards]
+    b_deck = [x['b'] for x in cards]
+    c_deck = [x['c'] for x in cards]
+    d_deck = [x['d'] for x in cards]
+    all_decks = {
+        'A': a_deck,
+        'B': b_deck,
+        'C': c_deck,
+        'D': d_deck,
+    }
+
+    fns = {
+        -3: lambda deck: min(four_flip(deck)),
+        -2: lambda deck: min(three_flip(deck)),
+        -1: lambda deck: min(two_flip(deck)),
+         0: lambda deck: one_flip(deck),
+         1: lambda deck: max(two_flip(deck)),
+         2: lambda deck: max(three_flip(deck)),
+    }
+    results = {
+        1: 0,
+        2: 0,
+        3: 0,
+        4: 0,
+    }
+    possible_results = {
+        1: u'✗✗',
+        2: u'✗',
+        3: u'✔',
+        4: u'✔✔',
+    }
+    tries = 20000
+
+    all_percents = []
+    for symbol, deck in all_decks.items():
+        print ''
+        print 'DECK ', symbol
+        print ''
+        for mod in [-3, -2, -1, 0, 1, 2]:
+            mod_results = results.copy()
+            for i in range(tries):
+                fn = fns[mod]
+                number = fn(deck)
+                mod_results[number] += 1
+
+            if svg:
+                group_id = '%s-mod%s' % (symbol, mod)
+                print '<g id="%s">' % group_id
+                r = '''<rect style="fill:#{color};stroke:none;"
+                    id="{rect_id}"
+                    width="{width}"
+                    height="4"
+                    x="{x}"
+                    y="{y}" />
+                '''
+                x = 0
+                for j in [1,2,3,4]:
+                    y = { 'A': 0, 'B': 10, 'C': 20, 'D': 30 }[symbol]
+                    color = {
+                        1: 'd40000',
+                        2: 'ff0000',
+                        3: '55d400',
+                        4: '44aa00',
+                    }[j]
+                    int_val = int(round((100*mod_results[j])/float(tries)))
+                    print r.format(
+                        rect_id=(group_id + '-' + str(j)),
+                        width=int_val,
+                        x=x,
+                        y=y,
+                        color=color,
+                    )
+                    x += int_val
+                print '</g>'
+
+            else:
+                print 'mod: ', mod
+                print '✗✗', pct(mod_results[1], tries)
+                print '✗ ',  pct(mod_results[2], tries)
+                print '✔ ',  pct(mod_results[3], tries)
+                print '✔✔', pct(mod_results[4], tries)
+
+            percents = { x:pct(mod_results[x], tries) for x in mod_results.keys() }
+            all_percents.append(percents)
+    return all_percents
+
