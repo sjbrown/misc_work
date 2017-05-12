@@ -34,7 +34,7 @@
      id="namedview726"
      showgrid="false"
      inkscape:zoom="2.1994048"
-     inkscape:cx="201.41587"
+     inkscape:cx="117.3022"
      inkscape:cy="168"
      inkscape:window-x="0"
      inkscape:window-y="24"
@@ -442,7 +442,7 @@
      inkscape:label="class_fighter"
      id="layer6"
      inkscape:groupmode="layer"
-     style="display:none"
+     style="display:inline"
      transform="translate(0,66)"
      sodipodi:insensitive="true"><flowRoot
        transform="translate(-149.82314,332.12975)"
@@ -546,7 +546,7 @@
      inkscape:groupmode="layer"
      id="layer8"
      inkscape:label="class_wiz"
-     style="display:none"
+     style="display:inline"
      transform="translate(0,66)"
      sodipodi:insensitive="true"><g
        id="flowRoot4561-4-9"
@@ -639,7 +639,7 @@
      inkscape:groupmode="layer"
      id="layer7"
      inkscape:label="class_rogue"
-     style="display:none"
+     style="display:inline"
      transform="translate(0,66)"
      sodipodi:insensitive="true"><path
        inkscape:connector-curvature="0"
@@ -726,7 +726,7 @@
      inkscape:groupmode="layer"
      id="layer23"
      inkscape:label="class_all"
-     style="display:none"
+     style="display:inline"
      sodipodi:insensitive="true"><path
        style="display:inline;opacity:1;fill:none;fill-opacity:1;stroke:#008000;stroke-width:13.23425198;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:4.5999999;stroke-opacity:1"
        d="m 289.8656,325.37098 a 54.28491,54.28491 0 0 1 -54.28491,54.28491 54.28491,54.28491 0 0 1 -54.2849,-54.28491 54.28491,54.28491 0 0 1 54.2849,-54.28491 54.28491,54.28491 0 0 1 54.28491,54.28491 z"

@@ -201,15 +201,15 @@ class Spout_Lore(Card):
 
 class Aid_or_Interfere(Card):
   mod = 'Bond'
+  two_check = '''
+    Target takes +1 or -2
+    |(your choice)
+    '''
   one_check = '''
     Target takes +1 or -2
     |(your choice)
     |You are exposed to cost,
     retribution, or danger
-    '''
-  two_check = '''
-    Target takes +1 or -2
-    |(your choice)
     '''
   desc = '''
     Help (place 1 green marker on their deckahedron to remember)
@@ -220,11 +220,11 @@ class Aid_or_Interfere(Card):
 class And_this_is_for(Card):
   title = 'And this is for...'
   mod = 'Dex'
-  one_check = '''
-    Deal 1 fatigue.
-    '''
   two_check = '''
     Deal 1d4 fatigue.
+    '''
+  one_check = '''
+    Deal 1 fatigue.
     '''
   desc = '''
     After successfully striking a foe in melee, add a punch,
@@ -236,14 +236,14 @@ class And_this_is_for(Card):
 class Good_Cardio(Card):
   mod = 'Str'
   two_check = '''
-    Recover 1d4 exhaustion.
+    Recover 1d4 Stamina.
   '''
   one_check = '''
-    Recover 1d4 exhaustion.
+    Recover 1d4 Stamina.
     |Your foe moves to a position of advantage.
   '''
   one_x = '''
-    Recover 1 exhaustion.
+    Recover 1 Stamina.
     |Your foe moves to a position of advantage.
   '''
   two_x = '''
