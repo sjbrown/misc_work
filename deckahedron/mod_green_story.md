@@ -142,6 +142,58 @@ When the character acts in a way that embodies this characteristic, the
 Storyteller can instruct them to move a green token from the *Motivator*
 card to their character sheet.
 
+See also Dungeon World Flags
+http://rpg.divnull.com/wiki/index.php/Dungeon_World_Flags
+And Hero Points
+http://www.darkshire.net/jhkim/rpg/systemdesign/heropoints.html
+
+Perhaps a system where acting according to fundamental motivators keeps the
+cards (and the conscience) clean, but acting against can get some temporary
+boon (a green token in the character sheet) at a price (a red token on the
+Motivator card).  While there is a red token on the Motivator card, green
+tokens cannot move from it to the character sheet.  Also, if there is a red
+token on the Motivator card at End of Session, the card won't produce 2 green
+tokens as it normally would.
+
+Another player can offer an opportunity to act out your Motivator, in which
+case, if your character acts in alignment, they can choose to put one of
+their green tokens from their character sheet onto your Motivator, or take
+the red token off your Motivator and put it on one of theirs.
+
+```
+This should not clobber the *intrinsically fun* kind of roleplaying - but
+it should push players to roleplay into zones of discomfort
+https://rottenpulp.blogspot.com.br/2014/07/dont-reward-your-players-for-role.html
+```
+
+### Let's take a look at Flags
+
+`Compassionate: offer me an easier solution that requires I exploit those weaker than me`
+
+What if the GM offered a green token *now* for them to exploit, and the
+price was a red token goes on the Motivator card as well.
+
+Conversely another player can offer a similar opportunity:
+
+```
+Mage: Bah! My familiar is injured.  Well, maybe it's blood will be of some
+use in a potion... [Motions to sacrifice it]
+Ranger: No, it's just a cute little doggo!
+Mage: I can't keep caring for it if it is useless to me.
+Ranger: I'll take care of it for you, until it's leg mends.
+```
+
+Then the Mage, invoking the Ranger's Flag, could take the red token on their
+flag, or could put a green token from their (the Mage's) character sheet
+onto the Ranger's character sheet
+
+# Maybe? 3rd Act Threshold
+
+If your character takes the Gift of The Goddess and crosses the threshold
+into the third act, they can **Change**.  Choose one of your Motivator cards
+(probably the one with the most red tokens) and discard it and all tokens on
+it.  The GM will present you with 4 other Motivator cards.  Choose one and
+keep it.
 
 # Deckahedron Module: Red Turns
 
