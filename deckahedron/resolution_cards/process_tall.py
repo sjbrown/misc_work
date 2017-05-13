@@ -131,8 +131,8 @@ def filter_dom_elements(dom, card):
 
     if card.get('circles'):
         [cut_these.remove(x) for x in card['circles']]
-    if card.get('mod'):
-        keep = 'mod_' + card['mod'].lower()
+    if card.get('attr'):
+        keep = 'mod_' + card['attr'].lower()
         cut_these.remove(keep)
     else:
         cut_these.append('mod_shield')

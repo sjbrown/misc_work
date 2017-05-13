@@ -1,4 +1,4 @@
-circle,name,attr,desc,m-2,m-1,m0,m1,m2,note,r2,r1,r-1,r-2
+circles,name,attr,desc,m-2,m-1,m0,m1,m2,note,r2,r1,r-1,r-2
 ,Take a Breather,INT/DEX,Spend an uninterrupted moment to get your breath. Can't repeat,,,,,,"If using INT: find a strategic safe spot FAIL: there's something wrong with the spot, if using DEX: avoid attention. FAIL: foe moves to a spot where you're disadvantaged",,,,
 ,Bravely Run Away,,"As long as you’re not cornered or surrounded, escape your foes. Lose (4-SPEED) Stamina",,,,,,,,,,
 ,,,,,,,,,,,,,

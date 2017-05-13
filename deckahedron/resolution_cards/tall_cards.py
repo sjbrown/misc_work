@@ -26,7 +26,7 @@ def make_card(C):
     h1 = getattr(C, 'title',
                  # If no 'title', use the class name
                  C.__name__.replace('_', ' '))
-    mod = getattr(C, 'mod', '')
+    attr = getattr(C, 'attr', '')
     one_x = parse(getattr(C, 'one_x', ''))
     x_check = parse(getattr(C, 'x_check', ''))
     one_check = parse(getattr(C, 'one_check', ''))
@@ -42,8 +42,8 @@ def make_card(C):
 
     card = {
         'h1': h1,
-        'mod_shield': bool(mod),
-        'mod': mod,
+        'attr_shield': bool(attr),
+        'attr': attr,
         'one_x': one_x,
         'x_check': x_check,
         'one_check': one_check,
@@ -58,7 +58,7 @@ def make_card(C):
 
 
 class Hack_and_Slash(Card):
-  mod = 'Str'
+  attr = 'Str'
   one_x = '''
     Deal 1 fatigue and the foe attacks you
   '''
@@ -75,7 +75,7 @@ class Hack_and_Slash(Card):
     '''
 
 class Volley(Card):
-  mod = 'Dex'
+  attr = 'Dex'
   one_x = '''
     GM chooses an option.
     Deal your fatigue.
@@ -95,7 +95,7 @@ class Volley(Card):
   '''
 
 class Parley(Card):
-  mod = 'Int'
+  attr = 'Int'
   x_check = '''
     Provide immediate and
     concrete assurance
@@ -113,7 +113,7 @@ class Parley(Card):
   '''
 
 class Defy_Danger(Card):
-  mod = 'Str/Dex/Int'
+  attr = 'Str/Dex/Int'
   x_check = '''
     Stumble, hesitate
     or flinch
@@ -132,7 +132,7 @@ class Defy_Danger(Card):
   '''
 
 class Defend(Card):
-  mod = 'Str'
+  attr = 'Str'
   one_x = '''
     Place 1 green marker on this card
   '''
@@ -153,7 +153,7 @@ class Defend(Card):
   '''
 
 class Discern_Realities(Card):
-  mod = 'Int'
+  attr = 'Int'
   one_x = '''
     Ask the GM 1
     question from
@@ -181,7 +181,7 @@ class Discern_Realities(Card):
     '''
 
 class Spout_Lore(Card):
-  mod = 'Int'
+  attr = 'Int'
   x_check = '''
     GM tells you
     something interesting
@@ -200,7 +200,7 @@ class Spout_Lore(Card):
     '''
 
 class Aid_or_Interfere(Card):
-  mod = 'Bond'
+  attr = 'Bond'
   two_check = '''
     Target takes +1 or -2
     |(your choice)
@@ -219,7 +219,7 @@ class Aid_or_Interfere(Card):
 
 class And_this_is_for(Card):
   title = 'And this is for...'
-  mod = 'Dex'
+  attr = 'Dex'
   two_check = '''
     Deal 1d4 fatigue.
     '''
@@ -234,7 +234,7 @@ class And_this_is_for(Card):
   level_start = 'r3'
 
 class Good_Cardio(Card):
-  mod = 'Str'
+  attr = 'Str'
   two_check = '''
     Recover 1d4 Stamina.
   '''
@@ -258,7 +258,7 @@ class Good_Cardio(Card):
   circles = ['all_ne']
 
 class Tough_Stuff(Card):
-  mod = ''
+  attr = ''
   desc = '''
     When you would normally take physical harm, you can choose to put a
     harm token on this card instead.
@@ -267,7 +267,7 @@ class Tough_Stuff(Card):
   circles = ('all_nw', 'fighter_e')
 
 class Where_It_Hurts(Card):
-  mod = ''
+  attr = ''
   desc = '''
     Turn 1 EX into 1 BR when you deal fatigue with your weapon.
     | One green card: 2 EX turns into 2 BR
