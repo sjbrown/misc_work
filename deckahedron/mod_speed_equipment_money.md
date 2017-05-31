@@ -40,6 +40,10 @@ check for success.
 
 eg: "Good thing I remembered to bring 50ft of rope!"
 
+### Volley Ammo
+
+When using a weapon that has finite ammo, like in **Volley**, the ammo
+can be subtracted from the Equipment
 
 ## Speed
 
