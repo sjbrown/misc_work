@@ -13,13 +13,13 @@ This weakening is represented by cards from your Deckahedron being lost
 into your *Exhaustion pile*.
 
 This module provides 2 modes.  You can choose which mode you want depending
-on what kind of game you want to play: the **Simple Mode** and the
-**Realism Mode**.
+on what kind of game you want to play: the **Heroic Mode** and the
+**Gritty Mode**.
 
 
-## Stamina / Exhaustion - Simple Mode
+## Stamina / Exhaustion - Heroic Mode
 
-> Simple Mode moves faster and takes less explanation.  It can also be "easier"
+> Heroic Mode moves faster and takes less explanation.  It can also be "easier"
 > because players might get lucky and lose only their "bad" Deckahedron
 > cards to the *Exhaustion pile*.
 
@@ -43,9 +43,9 @@ to decide what this incapacitation means - whether the character is dead,
 unconscious, or just unable to stand or move.
 
 
-## Stamina / Exhaustion - Realism Mode
+## Stamina / Exhaustion - Gritty Mode
 
-> Realism Mode tries to simulate the negative consequences of exhaustion.
+> Gritty Mode tries to simulate the negative consequences of exhaustion.
 > Players will lose only their "good" cards to the *Exhaustion pile*
 
 Characters have 10 Stamina points.  These points are represented by
