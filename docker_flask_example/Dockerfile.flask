@@ -56,12 +56,17 @@ RUN mkdir /etc/uwsgi
 
 # Set the base uWSGI ini file to enable default dynamic uwsgi process number
 # NGINX runs as the www-data user, so it needs to be able to write to uwsgi's socket
+# Set the PYTHONPATH so that the hello.py module can be found.
 RUN echo "\
 [uwsgi]\n\
 socket = /tmp/uwsgi.sock\n\
 chown-socket = www-data:www-data\n\
 cheaper = 2\n\
 processes = 16\n\
+\n\
+pythonpath = /app\n\
+module = hello\n\
+callable = hello_app\n\
 \n" > /etc/uwsgi/uwsgi.ini
 
 
@@ -74,7 +79,7 @@ RUN echo "\
 nodaemon=true\n\
 \n\
 [program:uwsgi]\n\
-command=/usr/local/bin/uwsgi --ini /etc/uwsgi/uwsgi.ini --ini /app/uwsgi.ini\n\
+command=/usr/local/bin/uwsgi --ini /etc/uwsgi/uwsgi.ini\n\
 stdout_logfile=/dev/stdout\n\
 stdout_logfile_maxbytes=0\n\
 stderr_logfile=/dev/stderr\n\
