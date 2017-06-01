@@ -960,17 +960,17 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="5.001133"
-     inkscape:cx="78.277511"
-     inkscape:cy="100.64973"
+     inkscape:cx="16.533271"
+     inkscape:cy="106.51949"
      inkscape:document-units="px"
-     inkscape:current-layer="layer8"
+     inkscape:current-layer="layer9"
      showgrid="true"
      inkscape:snap-bbox="true"
      inkscape:bbox-nodes="false"
      inkscape:snap-bbox-midpoints="true"
      inkscape:snap-grids="false"
-     inkscape:window-width="1920"
-     inkscape:window-height="1056"
+     inkscape:window-width="1600"
+     inkscape:window-height="876"
      inkscape:window-x="0"
      inkscape:window-y="24"
      inkscape:window-maximized="1">
@@ -991,6 +991,50 @@
       </cc:Work>
     </rdf:RDF>
   </metadata>
+  <g
+     inkscape:groupmode="layer"
+     id="layer9"
+     inkscape:label="bg">
+    <rect
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#cccccc;stroke-width:0.52365351;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:4.5999999;stroke-opacity:1"
+       id="rect5155"
+       width="56.420826"
+       height="89.475784"
+       x="6.4855909"
+       y="895.29053" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:2.94842911px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#008000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="-921.23517"
+       y="10.111275"
+       id="text5157"
+       sodipodi:linespacing="125%"
+       transform="matrix(0,-1,1,0,0,0)"><tspan
+         sodipodi:role="line"
+         id="tspan5159"
+         x="-921.23517"
+         y="10.111275">flip 2, take best</tspan><tspan
+         sodipodi:role="line"
+         x="-921.23517"
+         y="13.796811"
+         id="tspan5161" /></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:2.94842911px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#800000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="-982.11932"
+       y="10.111275"
+       id="text5163"
+       sodipodi:linespacing="125%"
+       transform="matrix(0,-1,1,0,0,0)"><tspan
+         sodipodi:role="line"
+         id="tspan5165"
+         x="-982.11932"
+         y="10.111275">flip 2, take worst</tspan><tspan
+         sodipodi:role="line"
+         x="-982.11932"
+         y="13.796811"
+         id="tspan5167" /></text>
+  </g>
   <g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
