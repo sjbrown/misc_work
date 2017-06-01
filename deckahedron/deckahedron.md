@@ -10,7 +10,7 @@ where typically dice are used.
 ## Problem : Arithmetic Is Annoying
 
 In **Dungeons and Dragons**, to see if your character succeeds or
-fails at an action, typically you would role a 20-sided die (d20), then take
+fails at an action, typically you would roll a 20-sided die (d20), then take
 the resulting value and add or subtract bonuses or penalties for a new value,
 and then check that new value against a *difficulty value*.
 
@@ -33,6 +33,8 @@ Typically, the new process is:
 
 This works because the statistical curve is "baked-in" to the deck of 20
 cards.
+
+![Image of deck in play](images/deck_in_play.jpg)
 
 ## How much is possible
 
