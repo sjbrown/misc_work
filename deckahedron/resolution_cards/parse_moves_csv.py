@@ -37,6 +37,22 @@ def parse_levels(d2):
         if d2[k] != '':
             d2['levels'].append(v)
 
+def parse_spots(d2):
+    spot_map = {
+        'm-2': -2
+        'm-1': -1
+        'm0': 0,
+        'm1': 1,
+        'm2': 2,
+    }
+    d2['spots'] = {}
+    for k,new_key in spot_map.items():
+        new_val = d2[k].strip()
+        if 'EX' in new_val:
+            d2['spots'][new_key] = append('EX')
+        elif 'BR' in new_val:
+            d2['spots'][new_key] = append('BR')
+
 def parse_desc(d2):
     body = d2['desc']
     note = d2['note'].strip()

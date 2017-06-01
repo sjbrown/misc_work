@@ -50,7 +50,7 @@ def make_card(C):
         'two_check': two_check,
         'desc_detail': desc_detail,
         'circles': getattr(C, 'circles', []),
-        'spots': getattr(C, 'spots', []),
+        'spots': getattr(C, 'spots', {}),
         'levels': levels,
         'level_start': getattr(C, 'level_start', None),
     }
@@ -254,7 +254,7 @@ class Good_Cardio(Card):
     |When you would normally lose a Stamina Point from physical exhaustion, you
     can choose to put an exhaustion token on this card instead.
   '''
-  spots = {0: ['EX'], 1: ['EX'], 3: ['EX']}
+  spots = {0: ['EX'], 1: ['EX'], 2: ['EX']}
   circles = ['all_ne']
 
 class Tough_Stuff(Card):
@@ -263,7 +263,7 @@ class Tough_Stuff(Card):
     When you would normally take physical harm, you can choose to put a
     harm token on this card instead.
   '''
-  spots = {0: ['BR'], 1: ['BR'], 3: ['BR']}
+  spots = {0: ['BR'], 1: ['BR'], 2: ['BR']}
   circles = ('all_nw', 'fighter_e')
 
 class Where_It_Hurts(Card):
