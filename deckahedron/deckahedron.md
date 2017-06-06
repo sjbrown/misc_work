@@ -19,17 +19,19 @@ compare to the difficulty of the action.
 
 In this way, the odds of success fall along a statistical "curve".
 
-The downside is all the arithmetic. Though the process can be learned and
-mastered to the point where it seems like an afterthought to practiced players,
-it can be annoying for new players.  Even players familiar with the mechanic
-sometimes complain that the mental math breaks the "flow" of the game.
+The downside is all the arithmetic. The process *can* be learned and
+mastered. Some well-practiced players may not even see the problem because
+the arithmetic has become an afterthought. But it is often cumbersome for new
+players. Even players familiar with the mechanic sometimes complain that
+the mental math breaks the "flow" of the game.
 
 The Deckahedron is designed to replace this process with a simpler one.
 Typically, the new process is:
 
  * Flip a card
- * The result of the action is successful if ✔ are shown
- * The result of the action is failure if ✗ are shown
+ * Look at the side of the card that corresponds to the attribute being used
+ * The result of the action is successful if ✔ symbols are shown
+ * The result of the action is failure if ✗ symbols are shown
 
 This works because the statistical curve is "baked-in" to the deck of 20
 cards.
@@ -39,6 +41,44 @@ cards.
 ## How much is possible
 
 [TODO]
+
+### Critical Success and Critical Failure
+
+
+### Multidimensionality
+
+#### Substitute d4
+
+#### Substitute d6
+
+#### Substitute d2
+
+#### The 2-to-10 curve
+
+     02       ###
+     03       ###
+     04       ###
+     05       ###
+     06        ##
+     07        ##
+     08        ##
+     09         #
+     10         #
+
+#### The Chinese Zodiac
+
+### Losing cards
+
+### Gaining cards
+
+#### Blessing cards
+
+#### Curse cards
+
+### Replacing cards
+
+### Thematic Flips
+
 
 ## Critical Successes and Critical Failures
 
