@@ -40,6 +40,24 @@ Cards open up richer game play (unpredictable might be substituted for "random")
    - identical - to mask what the result will be
    - marked - to hint or make obvious what the result will be
 
+## Example conversations I want to prevent:
+
+>>> DM: Ok, so roll to see if you hit
+>>> P1: I got a 14.
+>>> DM: Is that before modifiers?
+>>> P1: Oh right, I've got a dex bonus, so that's 14 plus 1
+>>> DM: Ok, so you got a 15...
+>>> P2: Dude, your bow is magic too!
+>>> P1: Oh right!  So yeah, that's a plus 2
+>>> DM: You mean your total modifier is plus 2, or just your bow?
+>>> P1: No, bow is plus 1
+>>> DM: So what'd you get?
+>>> P1: I got a... 16!
+
+So what is this getting at?  I guess the main thing is the player
+knows what to do *before* they flip and everyont can immediately interpret
+their result when seeing the flip.
+
 ----
 
 # Character:
