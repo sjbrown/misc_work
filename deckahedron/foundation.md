@@ -1,6 +1,7 @@
 # Deckahedron Foundation
 
-The **Deckahedron** is a deck of 20 cards to be used as a tool.
+The **Deckahedron** is
+[a deck of 20 cards](deckahedron.md) to be used as a tool.
 **The Deckahedron System** is a system for playing Role Playing Games.
 
 If you've never played a Role Playing Game before, please read
