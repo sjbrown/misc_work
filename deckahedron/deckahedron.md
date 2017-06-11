@@ -4,8 +4,8 @@ The **Deckahedron** is a deck of 20 square cards.
 
 ![Image of deck](images/deck.jpg)
 
-These cards are designed to be used with role-playing games, for actions
-where typically dice are used.
+These cards are designed to be used with role-playing games (RPGs),
+for actions where typically dice are used.
 
 ## Problem : Arithmetic Is Annoying
 
@@ -36,60 +36,128 @@ Typically, the new process is:
 This works because the statistical curve is "baked-in" to the deck of 20
 cards.
 
-![Image of deck in play](images/deck_in_play.jpg)
+![Image of deck and discard pile](images/deck_in_play.jpg)
 
-## How much is possible
+Generally, each player should have their own Deckahedron from which they
+flip cards and that they are responsible for shuffling.
 
-[TODO]
+Typically, an action that resolves the question of "Did the
+character succeed or fail?" is called a *Resolution Mechanism*.
+**Dungeons and Dragons** uses the d20, **Dungeon World** uses 2 six-sided
+dice (2d6), and there are many others. There is even a game called
+**Dread** that uses the pulling of a block from a stack of wooden blocks.
 
-### Critical Success and Critical Failure
+The Deckahedron was designed to provide at least as much statistical
+granularity as **Dungeons and Dragons'** d20 while also giving
+easier-to-understand results by "baking in" the statistical curve, and
+additionally providing further avenues for play by taking advantage
+of the playing card feature of *multidimensionality*.
 
 
 ### Multidimensionality
 
+Besides the ✔ / ✗ resolution mechanism, Deckahedron cards have more
+information on their faces.  So a single flip of a card can be used to
+play in other ways and to reveal information with other kinds of
+statistical curves.
+
+### Critical Success and Critical Failure
+
+![Image of crit cards](images/crit_cards.jpg)
+
+In **Dungeons and Dragons**, getting a "20" result from a d20 is called a
+"Critical Success" (or "Critical Hit") and similarly rolling a "1" is
+called a "Critical Failure".
+
+The Deckahedron has one "Critical Success" (with a green ring) and one
+"Critical Failure" (with a red ring) card. Flipping a critical
+success or failure card from the Deckahedron has the same odds as rolling
+a 20 or 1 with a d20.
+
 #### Substitute d4
+
+![Image of card with d4 symbols highlighted](images/card_as_d4.jpg)
+
+If you don't have a 4-sided die (d4) handy, you can use the Deckahedron
+as a substitute. Flip over a card from a well-shuffled deck. Count up
+the pips showing inside the triangle symbols. That is the equivalent of
+rolling a d4.
+
+If there are no pips showing, ignore that card and re-flip.
 
 #### Substitute d6
 
-#### Substitute d2
+![Image of card with d6 symbols highlighted](images/card_as_d6.jpg)
 
-#### The 2-to-10 curve
+If you don't have a 6-sided die (d6) handy, you can use the Deckahedron
+as a substitute. Flip over a card from a well-shuffled deck. Count up
+the pips showing inside the d6 symbols. That is the equivalent of
+rolling a d4.
 
-     02       ###
-     03       ###
-     04       ###
-     05       ###
-     06        ##
-     07        ##
-     08        ##
-     09         #
-     10         #
+If there are no pips showing, ignore that card and re-flip.
 
 #### The Chinese Zodiac
 
+Near the corners of each card are Chinese characters for animals
+in the Chinese Zodiac.  The distribution of these symbols is designed
+to make available a mechanic inspired by the game "Spot It" (also
+called Dobble).
+
+When you look at the face side of any 2 Deckahedron cards, either:
+
+ * only one of the Zodiac symbols match
+ * or all of the Zodiac symbols match
+
+[How to play Spot It](https://www.youtube.com/watch?v=Bc1f-aulfgg)
+
+#### The 2-to-10 curve
+
+     result   probability
+     02       ###   (15%)
+     03       ###   (15%)
+     04       ###   (15%)
+     05       ###   (15%)
+     06        ##   (10%)
+     07        ##   (10%)
+     08        ##   (10%)
+     09         #   ( 5%)
+     10         #   ( 5%)
+
+If you add up the pips shown in the d4 and the d6 symbols, the
+possible results and probability distribution is shown above.
+
 ### Losing cards
+
+Some Deckahedron games might have consequences where players remove cards
+from their Deckahedron. This changes the statistical curve. It can be
+done selectively to improve or worsen the player's odds.
 
 ### Gaining cards
 
+Some Deckahedron games might have consequences where players add cards
+to their Deckahedron, changing the statistical curve.
+
 #### Blessing cards
 
-#### Curse cards
+![Image of blessing card](images/card_blessing.jpg)
 
-### Replacing cards
+Blessing cards improve a player's odds of success.
+
+#### Wound cards
+
+![Image of wound card](images/card_wound.jpg)
+
+Wound cards increase a player's odds of failure.
 
 ### Thematic Flips
 
+    [TODO]
 
-## Critical Successes and Critical Failures
-
-[TODO]
-
-## Using the Deckahedron as a d6 or d4
-
-[TODO]
 
 ## Statistics
 
+Provided as a reference, here are the statistics for success and failure.
+
 ![Stats](images/stats.png)
 
-[TODO]
+    [TODO - more details]
