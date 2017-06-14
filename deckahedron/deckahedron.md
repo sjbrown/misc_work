@@ -65,14 +65,14 @@ statistical curves.
 
 ![Image of crit cards](images/crit_cards.jpg)
 
-In **Dungeons and Dragons**, getting a "20" result from a d20 is called a
+In **Dungeons and Dragons**, rolling a "20" is called a
 "Critical Success" (or "Critical Hit") and similarly rolling a "1" is
 called a "Critical Failure".
 
-The Deckahedron has one "Critical Success" (with a green ring) and one
-"Critical Failure" (with a red ring) card. Flipping a critical
+The Deckahedron has one "Critical Success" card (with a green ring) and one
+"Critical Failure" card (with a red ring). Flipping a critical
 success or failure card from the Deckahedron has the same odds as rolling
-a 20 or 1 with a d20.
+a "20" or "1" with a d20.
 
 #### Substitute d4
 
@@ -80,8 +80,8 @@ a 20 or 1 with a d20.
 
 If you don't have a 4-sided die (d4) handy, you can use the Deckahedron
 as a substitute. Flip over a card from a well-shuffled deck. Count up
-the pips showing inside the triangle symbols. That is the equivalent of
-rolling a d4.
+the pips showing inside the d4 (triangle) symbols. That is the equivalent
+of rolling a d4.
 
 If there are no pips showing, ignore that card and re-flip.
 
@@ -92,7 +92,7 @@ If there are no pips showing, ignore that card and re-flip.
 If you don't have a 6-sided die (d6) handy, you can use the Deckahedron
 as a substitute. Flip over a card from a well-shuffled deck. Count up
 the pips showing inside the d6 symbols. That is the equivalent of
-rolling a d4.
+rolling a d6.
 
 If there are no pips showing, ignore that card and re-flip.
 
@@ -100,7 +100,7 @@ If there are no pips showing, ignore that card and re-flip.
 
 Near the corners of each card are Chinese characters for animals
 in the Chinese Zodiac.  The distribution of these symbols is designed
-to make available a mechanic inspired by the game "Spot It" (also
+to provide a mechanic inspired by the game "Spot It" (also
 called Dobble).
 
 When you look at the face side of any 2 Deckahedron cards, either:
