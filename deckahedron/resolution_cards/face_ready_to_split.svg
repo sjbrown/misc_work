@@ -256,13 +256,13 @@
      showgrid="false"
      inkscape:snap-bbox="true"
      inkscape:snap-bbox-midpoints="true"
-     inkscape:zoom="2.8284271"
-     inkscape:cx="2.5445644"
-     inkscape:cy="68.671304"
+     inkscape:zoom="7.9999999"
+     inkscape:cx="35.943686"
+     inkscape:cy="132.05173"
      inkscape:window-x="0"
      inkscape:window-y="24"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer2"
+     inkscape:current-layer="layer11"
      inkscape:object-nodes="true"
      inkscape:snap-nodes="false"
      inkscape:snap-object-midpoints="true"
@@ -2377,7 +2377,7 @@
      inkscape:groupmode="layer"
      id="layer1"
      inkscape:label="wound"
-     style="display:none"><g
+     style="display:inline"><g
        id="g8165"><title
          id="title8171">wound</title><g
          transform="matrix(0.444,0,0,0.444,-120.52456,-285.74434)"
@@ -2398,7 +2398,7 @@
      inkscape:groupmode="layer"
      id="layer9"
      inkscape:label="zodiac"
-     style="display:none"><g
+     style="display:inline"><g
        style="display:inline"
        id="g10258"
        transform="matrix(0.31395541,0.31395541,-0.31395541,0.31395541,35.489991,-779.2436)"
@@ -3369,7 +3369,8 @@
            id="path13372" /></g></g></g><g
      inkscape:groupmode="layer"
      id="layer11"
-     inkscape:label="chalkboard"><circle
+     inkscape:label="chalkboard"
+     style="display:none"><circle
        style="opacity:1;fill:#00ffff;fill-opacity:1;stroke:#000000;stroke-width:0.09254957;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:4.5999999;stroke-opacity:1"
        id="path10738"
        cx="110.77686"
