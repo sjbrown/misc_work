@@ -63,7 +63,7 @@ statistical curves.
 
 ### Critical Success and Critical Failure
 
-![Image of crit cards](images/crit_cards.jpg)
+![Image of crit cards](images/crit_cards.png)
 
 In **Dungeons and Dragons**, rolling a "20" is called a
 "Critical Success" (or "Critical Hit") and similarly rolling a "1" is
@@ -76,7 +76,7 @@ a "20" or "1" with a d20.
 
 #### Substitute d4
 
-![Image of card with d4 symbols highlighted](images/card_as_d4.jpg)
+![Image of card with d4 symbols highlighted](images/card_as_d4.png)
 
 If you don't have a 4-sided die (d4) handy, you can use the Deckahedron
 as a substitute. Flip over a card from a well-shuffled deck. Count up
@@ -87,7 +87,7 @@ If there are no pips showing, ignore that card and re-flip.
 
 #### Substitute d6
 
-![Image of card with d6 symbols highlighted](images/card_as_d6.jpg)
+![Image of card with d6 symbols highlighted](images/card_as_d6.png)
 
 If you don't have a 6-sided die (d6) handy, you can use the Deckahedron
 as a substitute. Flip over a card from a well-shuffled deck. Count up
@@ -139,13 +139,13 @@ to their Deckahedron, changing the statistical curve.
 
 #### Blessing cards
 
-![Image of blessing card](images/card_blessing.jpg)
+![Image of blessing card](images/card_blessing.png)
 
 Blessing cards improve a player's odds of success.
 
 #### Wound cards
 
-![Image of wound card](images/card_wound.jpg)
+![Image of wound card](images/card_wound.png)
 
 Wound cards increase a player's odds of failure.
 
