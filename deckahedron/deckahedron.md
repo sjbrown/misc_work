@@ -160,4 +160,6 @@ Provided as a reference, here are the statistics for success and failure.
 
 ![Stats](images/stats.png)
 
+![Image of all the card faces in standard deck](images/all_cards.png)
+
     [TODO - more details]
