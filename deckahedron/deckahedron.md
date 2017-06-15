@@ -160,6 +160,9 @@ Provided as a reference, here are the statistics for success and failure.
 
 ![Stats](images/stats.png)
 
+Provided as a reference, here are the face sides of a standard 20-card
+Deckahedron.
+
 ![Image of all the card faces in standard deck](images/all_cards.png)
 
     [TODO - more details]
