@@ -166,3 +166,14 @@ Deckahedron.
 ![Image of all the card faces in standard deck](images/all_cards.png)
 
     [TODO - more details]
+
+## Acknowledgements
+
+Ideas have been inspired by:
+
+ * Dungeons and Dragons
+ * The Simple System
+ * Spot It / Dobble
+ * Dungeon World
+ * [r/RPGdesign](https://reddit.com/r/RPGdesign)
+
