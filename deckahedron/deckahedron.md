@@ -45,7 +45,8 @@ Typically, an action that resolves the question of "Did the
 character succeed or fail?" is called a *Resolution Mechanism*.
 **Dungeons and Dragons** uses the d20, **Dungeon World** uses 2 six-sided
 dice (2d6), and there are many others. There is even a game called
-**Dread** that uses the pulling of a block from a stack of wooden blocks.
+**Dread** that uses the pulling of a block from a stack of wooden blocks
+(think Jenga).
 
 The Deckahedron was designed to provide at least as much statistical
 granularity as **Dungeons and Dragons'** d20 while also giving
