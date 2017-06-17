@@ -9,13 +9,15 @@ for actions where typically dice are used.
 
 ## Problem : Arithmetic Is Annoying
 
-In **Dungeons and Dragons**, to see if your character succeeds or
-fails at an action, typically you would roll a 20-sided die (d20), then take
-the resulting value and add or subtract bonuses or penalties for a new value,
-and then check that new value against a *difficulty value*.
+### An example
 
-Many other role-playing games follow the same formula.  Roll, add/subtract,
-compare to the difficulty of the action.
+> In **Dungeons and Dragons**, to see if your character succeeds or
+> fails at an action, typically you would roll a 20-sided die (d20), then take
+> the resulting value and add or subtract bonuses or penalties for a new value,
+> and then check that new value against a *difficulty value*.
+
+Many other role-playing games follow the same formula.  Roll dice,
+add/subtract, compare to the difficulty of the action.
 
 In this way, the odds of success fall along a statistical "curve".
 
@@ -41,7 +43,7 @@ cards.
 Generally, each player should have their own Deckahedron from which they
 flip cards and that they are responsible for shuffling.
 
-Typically, an action that resolves the question of "Did the
+An action that resolves the question of "Did the
 character succeed or fail?" is called a *Resolution Mechanism*.
 **Dungeons and Dragons** uses the d20, **Dungeon World** uses 2 six-sided
 dice (2d6), and there are many others. There is even a game called
