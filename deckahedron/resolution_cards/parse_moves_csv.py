@@ -39,8 +39,8 @@ def parse_levels(d2):
 
 def parse_spots(d2):
     spot_map = {
-        'm-2': -2
-        'm-1': -1
+        'm-2': -2,
+        'm-1': -1,
         'm0': 0,
         'm1': 1,
         'm2': 2,
