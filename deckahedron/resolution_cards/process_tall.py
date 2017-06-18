@@ -5,6 +5,7 @@
 import os
 import re
 import sys
+from pprint import pprint
 from lxml import etree
 from itertools import product
 from collections import defaultdict
@@ -173,29 +174,41 @@ def one_blank_front():
     export_png(svg_filename, png_filename)
 
 
+def make_card_dom(card):
+    dom = DOM('tall_card_front.svg')
+
+    print '\nWorking on ' + card['title']
+    print '\n'
+
+    filter_dom_elements(dom, card)
+    if card.get('one_x'):
+        dom.replace_text('words_one_x', card['one_x'], max_chars=60)
+    if card.get('x_check'):
+        dom.replace_text('words_left', card['x_check'], max_chars=40)
+    elif card.get('one_check'):
+        dom.replace_text('words_left', card['one_check'], max_chars=40)
+        dom.replace_text('words_one_check', card['one_check'], max_chars=60)
+    dom.replace_text('words_right', card['two_check'], max_chars=40)
+    dom.replace_text('words_two_check', card['two_check'], max_chars=60)
+    dom.replace_text('desc_detail', card['desc_detail'], max_chars=300)
+    dom.replace_text('h1', card['title'])
+
+    return dom
+
+
 def make_deck(cards):
     export_png('tall_card_back.svg', '/tmp/tall_cards/back.png')
 
     one_blank_front()
 
     for i, card in enumerate(cards):
-        dom = DOM('tall_card_front.svg')
-
-        print '\nWorking on ' + card['title']
-        print '\n'
-
-        filter_dom_elements(dom, card)
-        if card.get('one_x'):
-            dom.replace_text('words_one_x', card['one_x'], max_chars=60)
-        if card.get('x_check'):
-            dom.replace_text('words_left', card['x_check'], max_chars=40)
-        else:
-            dom.replace_text('words_left', card['one_check'], max_chars=40)
-            dom.replace_text('words_one_check', card['one_check'], max_chars=60)
-        dom.replace_text('words_right', card['two_check'], max_chars=40)
-        dom.replace_text('words_two_check', card['two_check'], max_chars=60)
-        dom.replace_text('desc_detail', card['desc_detail'], max_chars=300)
-        dom.replace_text('h1', card['title'])
+        try:
+            dom = make_card_dom(card)
+        except:
+            print 'FAIL'
+            print 'card:'
+            pprint(card)
+            raise
 
         # Create the svg file and export a PNG
         svg_filename = '/tmp/tall_cards/deck_card_face%02d.svg' % ((i+1))

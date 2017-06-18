@@ -1,12 +1,21 @@
+#! /usr/bin/env python
+# -*- coding: utf-8 -*-
+
 import csv
+
 
 
 class UTF8File(object):
     def __init__(self, fpath):
         self._data = file(fpath)
+        self._firstLine = True
 
     def next(self):
         s = self._data.next()
+        if self._firstLine:
+            s = s.lower()
+            self._firstLine = False
+        print 'data line', s
         # Google Sheets puts those annoying UTF-8 apostrophes and dashes in the file
         s = s.replace('\xe2\x80\x93', '-')
         s = s.replace('\xe2\x80\x99', "'")
@@ -54,21 +63,22 @@ def parse_spots(d2):
             d2['spots'][new_key] = append('BR')
 
 def parse_desc(d2):
-    body = d2['desc']
-    note = d2['note'].strip()
+    body = d2.get('desc') or d2.get('effect')
+    note = d2.get('note') or d2.get('notes')
+    note = note.strip()
     bulleted = body.split('*')
     preamble = bulleted.pop(0).strip()
     if bulleted:
         bulleted = ['\n* ' + x.strip() for x in bulleted]
-    d2['desc'] = preamble + ''.join(bulleted)
+    d2['desc_detail'] = preamble + ''.join(bulleted)
     if note:
-        d2['desc'] += '\n| ' + note
+        d2['desc_detail'] += '\n| ' + note
 
 def parse_checks(d2):
-    two_x = d2['r-2'].strip()
-    one_x = d2['r-1'].strip()
-    one_check = d2['r1'].strip()
-    two_check = d2['r2'].strip()
+    two_x = (d2.get('r-2') or d2.get('✗✗')).strip()
+    one_x = (d2.get('r-1') or d2.get('✗')).strip()
+    one_check = (d2.get('r1') or d2.get('✔')).strip()
+    two_check = (d2.get('r2') or d2.get('✔✔')).strip()
     if one_check == one_x:
         d2['x_check'] = one_check
     else:
@@ -79,14 +89,15 @@ def parse_checks(d2):
 
 def get_dicts():
     f = UTF8File('character_move_sheet.csv')
-    r = csv.DictReader(f)
+    spreadsheet = csv.DictReader(f)
 
     l = []
-    for d1 in r:
-        if not d1['name']:
+    for row in spreadsheet:
+        name = row.get('name') or row.get('deckahedron move')
+        if not name:
             continue
-        d2 = {k:v.decode('utf-8') for (k,v) in d1.items()}
-        d2['title'] = d2['name']
+        d2 = {k:v.decode('utf-8') for (k,v) in row.items()}
+        d2['title'] = name.decode('utf-8')
         parse_circles(d2)
         parse_levels(d2)
         parse_desc(d2)
