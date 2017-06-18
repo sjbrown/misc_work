@@ -23,7 +23,7 @@ def parse(s):
     return retval.strip()
 
 def make_card(C):
-    h1 = getattr(C, 'title',
+    title = getattr(C, 'title',
                  # If no 'title', use the class name
                  C.__name__.replace('_', ' '))
     attr = getattr(C, 'attr', '')
@@ -41,7 +41,7 @@ def make_card(C):
             levels = []
 
     card = {
-        'h1': h1,
+        'title': title,
         'attr_shield': bool(attr),
         'attr': attr,
         'one_x': one_x,
@@ -93,6 +93,8 @@ class Volley(Card):
     * You have to take what you can get - reduce your fatigue dealt
     * You have to take several shots - reduce your ammo
   '''
+  level_start = '0'
+  levels = ['0', 'g1']
 
 class Parley(Card):
   attr = 'Int'
@@ -111,6 +113,8 @@ class Parley(Card):
     |On a ✗ / ✔, they need some concrete assurance of
     your promise, right now
   '''
+  level_start = '0'
+  levels = ['0', 'g1']
 
 class Defy_Danger(Card):
   attr = 'Str/Dex/Int'
@@ -231,7 +235,7 @@ class And_this_is_for(Card):
     kick, or shove.
     '''
   circles = ['all_se']
-  level_start = 'r3'
+  level_start = 'r1'
 
 class Good_Cardio(Card):
   attr = 'Str'

@@ -70,7 +70,8 @@ class DOM(object):
 
 def filter_dom_elements(dom, card):
     cut_these = [
-      'mod_str', 'mod_int', 'mod_dex', 'mod_bond', 'mod_str/dex/int',
+      'mod_str', 'mod_int', 'mod_dex', 'mod_bond',
+      'mod_str/dex/int', 'mod_int/dex',
       'wiz_ne', 'wiz_e', 'wiz_se', 'wiz_sw', 'wiz_w', 'wiz_nw',
       'rogue_ne', 'rogue_e', 'rogue_se', 'rogue_sw', 'rogue_w', 'rogue_nw',
       'fighter_ne', 'fighter_e', 'fighter_se', 'fighter_sw', 'fighter_w', 'fighter_nw',
@@ -133,6 +134,7 @@ def filter_dom_elements(dom, card):
         [cut_these.remove(x) for x in card['circles']]
     if card.get('attr'):
         keep = 'mod_' + card['attr'].lower()
+        print keep
         cut_these.remove(keep)
     else:
         cut_these.append('mod_shield')
@@ -179,7 +181,7 @@ def make_deck(cards):
     for i, card in enumerate(cards):
         dom = DOM('tall_card_front.svg')
 
-        print '\nWorking on ' + card['h1']
+        print '\nWorking on ' + card['title']
         print '\n'
 
         filter_dom_elements(dom, card)
@@ -193,7 +195,7 @@ def make_deck(cards):
         dom.replace_text('words_right', card['two_check'], max_chars=40)
         dom.replace_text('words_two_check', card['two_check'], max_chars=60)
         dom.replace_text('desc_detail', card['desc_detail'], max_chars=300)
-        dom.replace_text('h1', card['h1'])
+        dom.replace_text('h1', card['title'])
 
         # Create the svg file and export a PNG
         svg_filename = '/tmp/tall_cards/deck_card_face%02d.svg' % ((i+1))
@@ -214,6 +216,6 @@ if __name__ == '__main__':
         filtered = []
         print 'filtering for', card_grep
         filtered = [c for c in cards
-          if card_grep.lower() in c['h1'].lower()]
+          if card_grep.lower() in c['title'].lower()]
 
     make_deck(filtered)
