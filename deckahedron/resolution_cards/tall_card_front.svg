@@ -34,12 +34,12 @@
      id="namedview726"
      showgrid="false"
      inkscape:zoom="2.1994048"
-     inkscape:cx="117.3022"
+     inkscape:cx="33.188534"
      inkscape:cy="168"
      inkscape:window-x="0"
      inkscape:window-y="24"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer34"
+     inkscape:current-layer="layer36"
      inkscape:snap-bbox="true"
      inkscape:snap-bbox-midpoints="true"
      inkscape:object-nodes="true"
@@ -779,7 +779,7 @@
        d="m 28.480659,-46.464137 188.352451,0 c 6.48113,0 11.69862,5.23126 11.69862,11.727803 l 0,273.228874 c 0,6.49654 -5.21749,11.7278 -11.69862,11.7278 l -188.352451,0 c -6.481128,0 -11.698622,-5.23126 -11.698624,-11.7278 l 0,-273.228874 c 0,-6.496543 5.217496,-11.727803 11.698624,-11.727803 z"
        id="path30489"
        inkscape:connector-curvature="0" /></g><g
-     style="display:none"
+     style="display:inline"
      inkscape:label="positions"
      id="layer5"
      inkscape:groupmode="layer"
@@ -940,7 +940,8 @@
      id="layer16"
      inkscape:label="std_2lines"
      style="display:inline"
-     transform="translate(0,66)"><rect
+     transform="translate(0,66)"
+     sodipodi:insensitive="true"><rect
        style="display:inline;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:40;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:4.5999999;stroke-opacity:1"
        id="rect7117"
        width="247"
@@ -1822,6 +1823,23 @@
          sodipodi:role="line">Int</tspan></text>
 </g><g
      inkscape:groupmode="layer"
+     id="layer36"
+     inkscape:label="std_int/dex"
+     style="display:none"><text
+       transform="scale(1.0791103,0.92668933)"
+       sodipodi:linespacing="125%"
+       id="text4952-3"
+       y="72.278076"
+       x="91.033546"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.9794426px;line-height:125%;font-family:OptimusPrinceps;-inkscape-font-specification:'OptimusPrinceps Medium';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><title
+         id="title4954-6">mod_int/dex</title><tspan
+         y="72.278076"
+         x="91.033546"
+         id="tspan4956-7"
+         sodipodi:role="line">Int/Dex</tspan></text>
+</g><g
+     inkscape:groupmode="layer"
      id="layer20"
      inkscape:label="spot_int"
      style="display:none"><text
@@ -1837,6 +1855,23 @@
          id="tspan4770"
          x="105.16108"
          y="172.67062">Int</tspan></text>
+</g><g
+     inkscape:groupmode="layer"
+     id="layer35"
+     inkscape:label="spot_int /dex"
+     style="display:none"><text
+       transform="scale(1.0791103,0.92668933)"
+       sodipodi:linespacing="125%"
+       id="text4952"
+       y="172.6747"
+       x="91.033546"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:12.9794426px;line-height:125%;font-family:OptimusPrinceps;-inkscape-font-specification:'OptimusPrinceps Medium';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><title
+         id="title4954">mod_int/dex</title><tspan
+         y="172.6747"
+         x="91.033546"
+         id="tspan4956"
+         sodipodi:role="line">Int/Dex</tspan></text>
 </g><g
      inkscape:groupmode="layer"
      id="layer25"
