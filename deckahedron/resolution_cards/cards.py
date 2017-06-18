@@ -42,10 +42,8 @@ def count_exes_in_suit(cards, suit):
     return sum(3-card[suit] for card in cards if card[suit] < 3)
 
 blessing_cards = [
- {'Pro': False, 'Tmark': False, 'a': 3, 'b': 3, 'c': 3, 'd': 3, 'blessing': 'copper'},
- {'Pro': False, 'Tmark': False, 'a': 3, 'b': 3, 'c': 3, 'd': 3, 'blessing': 'copper'},
- {'Pro': False, 'Tmark': False, 'a': 3, 'b': 3, 'c': 3, 'd': 4, 'blessing': 'copper'},
- {'Pro': False, 'Tmark': False, 'a': 3, 'b': 3, 'c': 3, 'd': 4, 'blessing': 'copper'},
+ {'Pro': False, 'Tmark': False, 'a': 4, 'b': 3, 'c': 4, 'd': 4, 'blessing': 'copper'},
+ {'Pro': False, 'Tmark': False, 'a': 3, 'b': 4, 'c': 4, 'd': 4, 'blessing': 'copper'},
  {'Pro': False, 'Tmark': False, 'a': 4, 'b': 4, 'c': 4, 'd': 4, 'blessing': 'gold'},
  {'Pro': False, 'Tmark': False, 'a': 4, 'b': 4, 'c': 4, 'd': 4, 'blessing': 'gold'},
  {'Pro': False, 'Tmark': False, 'a': 4, 'b': 4, 'c': 4, 'd': 4, 'blessing': 'gold'},
@@ -53,10 +51,8 @@ blessing_cards = [
 ]
 
 wound_cards = [
- {'Pro': False, 'Tmark': False, 'a': 2, 'b': 2, 'c': 2, 'd': 1, 'blessing': 'wound'},
- {'Pro': False, 'Tmark': False, 'a': 2, 'b': 2, 'c': 1, 'd': 2, 'blessing': 'wound'},
- {'Pro': False, 'Tmark': False, 'a': 2, 'b': 1, 'c': 2, 'd': 2, 'blessing': 'wound'},
- {'Pro': False, 'Tmark': False, 'a': 1, 'b': 2, 'c': 2, 'd': 2, 'blessing': 'wound'},
+ {'Pro': False, 'Tmark': False, 'a': 1, 'b': 1, 'c': 1, 'd': 2, 'blessing': 'wound'},
+ {'Pro': False, 'Tmark': False, 'a': 1, 'b': 1, 'c': 2, 'd': 1, 'blessing': 'wound'},
 ]
 
 def flip(deck):
