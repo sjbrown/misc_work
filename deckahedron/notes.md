@@ -458,3 +458,11 @@ going to your body.  A couple examples:
  * A "shield" card: when taking a bruise, succeed a Dex check to put the bruise
    on this card, and take an "exhaustion" instead.
 
+
+----
+
+# Stuff to add to the face side:
+ * Writer's Dice stuff
+ * Element symbols
+ * Alchemy symbols
+ * FUDGE dice
