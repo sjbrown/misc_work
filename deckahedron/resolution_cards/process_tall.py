@@ -132,6 +132,7 @@ def filter_dom_elements(dom, card):
         [cut_these.remove('level_' + lvl) for lvl in card['levels']]
 
     if card.get('circles'):
+        print card['circles']
         [cut_these.remove(x) for x in card['circles']]
     if card.get('attr'):
         keep = 'mod_' + card['attr'].lower()
@@ -223,7 +224,9 @@ if __name__ == '__main__':
     if not os.path.exists('/tmp/tall_cards'):
         os.makedirs('/tmp/tall_cards')
 
-    filtered = cards
+    import parse_moves_csv
+
+    filtered = cards + parse_moves_csv.get_objs()
     if len(sys.argv) > 1:
         card_grep = sys.argv[1]
         filtered = []
