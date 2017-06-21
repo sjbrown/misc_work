@@ -41,6 +41,7 @@ Javascript
  * curly braces
  * requiring var - common should be default
  * var / let / global
+ * ['a'] === ['a'] is false
  * Boolean({}) is true, Boolean([]) is true, Boolean('') is false
  * {}.length is undefined
  * [1,2] + [3,4] is a string, "1,23,4"
@@ -754,6 +755,23 @@ built-in language macro that calls __bool__ on members and returns
     if latitude:
         print 'Latitude was None'
         # BUG!  maybe it was actually 0.0??!?!
+```
+
+This is a bug because the writer had knowledge that `latitude` could be one of
+two types, either a float or a None.  But they weren't considering that 0.0
+would also be falsy.
+
+What about adding shortcuts for the common truthy/falsy checks,
+to be more careful and explicit?
+
+```
+
+    if myCollection.is_not_empty
+        # do something with items from myCollection
+
+    if myNumber.is_zero
+        # do something with 0.0 or 0
+
 ```
 
 ----
