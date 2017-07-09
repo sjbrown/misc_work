@@ -38,6 +38,7 @@ class DOM(object):
         }
 
     def layer_hide(self, layer_label):
+        print 'HIDING LAYER', layer_label
         self.layers[layer_label].attrib['style'] = 'display:none'
 
     def layer_show(self, layer_label):
@@ -49,7 +50,8 @@ class DOM(object):
 
     def replace_text(self, title, newtext, max_chars=None):
         for flowroot in self.title_to_elements[title]:
-            flowpara = [x for x in flowroot.iterchildren() if 'flowPara' in x.tag][0]
+            flowpara = [x for x in flowroot.iterchildren()
+                        if 'flowPara' in x.tag][0]
             flowroot.remove(flowpara)
             for i, line in enumerate(newtext.split('\n')):
                 paraclone = etree.fromstring(etree.tostring(flowpara))
@@ -59,7 +61,9 @@ class DOM(object):
 
             if max_chars and len(newtext) > (max_chars - num_lines*20):
                 flowroot.attrib['style'] = re.sub(
-                    'font-size:\d+px;', 'font-size:8px;', flowroot.attrib['style']
+                    'font-size:\d+px;',
+                    'font-size:8px;',
+                    flowroot.attrib['style']
                 )
 
     def write_file(self, svg_filename):
@@ -72,7 +76,7 @@ class DOM(object):
 def filter_dom_elements(dom, card):
     cut_these = [
       'mod_str', 'mod_int', 'mod_dex', 'mod_bond',
-      'mod_str/dex/int', 'mod_int/dex',
+      'mod_str/dex/int', 'mod_int/dex', 'mod_dex/str',
       'wiz_ne', 'wiz_e', 'wiz_se', 'wiz_sw', 'wiz_w', 'wiz_nw',
       'rogue_ne', 'rogue_e', 'rogue_se', 'rogue_sw', 'rogue_w', 'rogue_nw',
       'fighter_ne', 'fighter_e', 'fighter_se', 'fighter_sw', 'fighter_w', 'fighter_nw',
@@ -153,7 +157,9 @@ def one_blank_front():
 
     filter_dom_elements(dom, {})
     dom.replace_text('words_left', '')
+    dom.replace_text('spot_words_left', '')
     dom.replace_text('words_right', '')
+    dom.replace_text('spot_words_right', '')
     dom.replace_text('desc_detail', '')
     dom.replace_text('h1', '')
     for key in dom.layers:
@@ -186,10 +192,17 @@ def make_card_dom(card):
         dom.replace_text('words_one_x', card['one_x'], max_chars=60)
     if card.get('x_check'):
         dom.replace_text('words_left', card['x_check'], max_chars=40)
+        dom.replace_text('spot_words_left', card['x_check'], max_chars=40)
     elif card.get('one_check'):
         dom.replace_text('words_left', card['one_check'], max_chars=40)
+        dom.replace_text('spot_words_left', card['one_check'], max_chars=40)
         dom.replace_text('words_one_check', card['one_check'], max_chars=60)
+    else:
+        # Card has nothing to do with flips
+        dom.replace_text('spot_words_left', '')
+        dom.replace_text('words_left', '')
     dom.replace_text('words_right', card['two_check'], max_chars=40)
+    dom.replace_text('spot_words_right', card['two_check'], max_chars=40)
     dom.replace_text('words_two_check', card['two_check'], max_chars=60)
     dom.replace_text('desc_detail', card['desc_detail'], max_chars=300)
     dom.replace_text('h1', card['title'])
@@ -200,7 +213,7 @@ def make_card_dom(card):
 def make_deck(cards):
     export_png('tall_card_back.svg', '/tmp/tall_cards/back.png')
 
-    one_blank_front()
+    #one_blank_front()
 
     for i, card in enumerate(cards):
         try:
@@ -229,9 +242,8 @@ if __name__ == '__main__':
     filtered = cards + parse_moves_csv.get_objs()
     if len(sys.argv) > 1:
         card_grep = sys.argv[1]
-        filtered = []
         print 'filtering for', card_grep
-        filtered = [c for c in cards
+        filtered = [c for c in filtered
           if card_grep.lower() in c['title'].lower()]
 
     make_deck(filtered)

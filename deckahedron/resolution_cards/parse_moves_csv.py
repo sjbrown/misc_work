@@ -15,7 +15,7 @@ class UTF8File(object):
         if self._firstLine:
             s = s.lower()
             self._firstLine = False
-        print 'data line', s
+        #print 'data line', s
         # Google Sheets puts those annoying UTF-8 apostrophes and dashes in the file
         s = s.replace('\xe2\x80\x93', '-')
         s = s.replace('\xe2\x80\x99', "'")
@@ -87,6 +87,9 @@ def parse_checks(d2):
     d2['two_x'] = two_x
     d2['two_check'] = two_check
 
+def parse_attr(d2):
+    d2['attr'] = d2['mod']
+
 def get_dicts():
     f = UTF8File('character_move_sheet.csv')
     spreadsheet = csv.DictReader(f)
@@ -102,6 +105,7 @@ def get_dicts():
         parse_levels(d2)
         parse_desc(d2)
         parse_checks(d2)
+        parse_attr(d2)
 
         l.append(d2)
 

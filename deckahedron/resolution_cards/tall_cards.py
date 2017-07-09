@@ -153,7 +153,7 @@ class Defend(Card):
     * Redirect an attack from the thing you defend to yourself
     * Halve the attack's effect or damage
     * Open up the attacker to an ally giving that ally +1 forward against the attacker
-    * Deal fatigue to the attacker equal to 1 + (number of green cards)
+    * Deal 1 fatigue to the attacker
   '''
 
 class Discern_Realities(Card):
@@ -260,6 +260,7 @@ class Good_Cardio(Card):
   '''
   spots = {0: ['EX'], 1: ['EX'], 2: ['EX']}
   circles = ['all_ne']
+  level_start = '0'
 
 class Tough_Stuff(Card):
   attr = ''
@@ -273,9 +274,9 @@ class Tough_Stuff(Card):
 class Where_It_Hurts(Card):
   attr = ''
   desc = '''
-    Turn 1 EX into 1 BR when you deal fatigue with your weapon.
-    | One green card: 2 EX turns into 2 BR
-    | Two green cards: 3 EX turns into 3 BR
+    Turn 1 FATIGUE into 1 HARM when you deal fatigue with your weapon.
+    | One green card: 2 FATIGUE turns into 2 HARM
+    | Two green cards: 3 FATIGUE turns into 3 HARM
     '''
   circles = ('all_sw', 'fighter_e')
   level_start = '0'
