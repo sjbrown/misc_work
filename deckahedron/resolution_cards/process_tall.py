@@ -14,6 +14,8 @@ from tall_cards import cards
 sys.path.append('/usr/share/inkscape/extensions/')
 from simplestyle import parseStyle, parseColor
 
+DEBUG = 1
+
 def export_png(svg, png):
     cmd_fmt = 'inkscape --export-png=%s --export-width=825 --export-height=1125 %s'
     cmd = cmd_fmt % (png, svg)
@@ -38,7 +40,8 @@ class DOM(object):
         }
 
     def layer_hide(self, layer_label):
-        print 'HIDING LAYER', layer_label
+        if DEBUG:
+            print 'HIDING LAYER', layer_label
         self.layers[layer_label].attrib['style'] = 'display:none'
 
     def layer_show(self, layer_label):
@@ -184,8 +187,13 @@ def one_blank_front():
 def make_card_dom(card):
     dom = DOM('tall_card_front.svg')
 
-    print '\nWorking on ' + card['title']
-    print '\n'
+    if DEBUG:
+        print '\nWorking on ' + card['title']
+        print '\n'
+        pprint(card)
+
+    if card.get('levels') and not card.get('level_start'):
+        raise Exception("Levels only works with level_start")
 
     filter_dom_elements(dom, card)
     if card.get('one_x'):
@@ -242,7 +250,8 @@ if __name__ == '__main__':
     filtered = cards + parse_moves_csv.get_objs()
     if len(sys.argv) > 1:
         card_grep = sys.argv[1]
-        print 'filtering for', card_grep
+        if DEBUG:
+            print 'filtering for', card_grep
         filtered = [c for c in filtered
           if card_grep.lower() in c['title'].lower()]
 
