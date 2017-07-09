@@ -44,6 +44,8 @@ def parse_levels(d2):
     }
     for k,v in level_map.items():
         if d2[k] != '':
+            if '*' in d2[k]:
+                d2['level_start'] = v
             d2['levels'].append(v)
 
 def parse_spots(d2):
