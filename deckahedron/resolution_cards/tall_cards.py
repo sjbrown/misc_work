@@ -222,7 +222,7 @@ class Aid_or_Interfere(Card):
     '''
 
 class And_this_is_for(Card):
-  title = 'And this is for...'
+  title = 'And This Is For...'
   attr = 'Dex'
   two_check = '''
     Deal 1d4 fatigue.
@@ -270,6 +270,7 @@ class Tough_Stuff(Card):
   '''
   spots = {0: ['BR'], 1: ['BR'], 2: ['BR']}
   circles = ('all_nw', 'fighter_e')
+  level_start = '0'
 
 class Where_It_Hurts(Card):
   attr = ''
