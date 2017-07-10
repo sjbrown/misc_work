@@ -166,6 +166,23 @@ it should push players to roleplay into zones of discomfort
 https://rottenpulp.blogspot.com.br/2014/07/dont-reward-your-players-for-role.html
 ```
 
+----
+
+Maybe another way to look at this is as *Values*.  Values are the foundational
+narratives.  Believing in these narratives creates identity.  Identity is as
+precious as life itself.  Sort of like "morals".
+
+eg:
+
+ * I am unfailingly honest
+ * Families should be close
+ * Some were born to serve, some to rule
+ * Everything is a negotiation
+ * Someone will clean up after me
+ * If you make mistakes, you don't deserve love
+ * Caveat Emptor
+
+
 ### Let's take a look at Flags
 
 `Compassionate: offer me an easier solution that requires I exploit those weaker than me`
