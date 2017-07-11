@@ -84,6 +84,10 @@ is *incapacitated* and can take no further actions.
 It is up to the GM to decide what this incapacitation means - whether
 the character is dead, unconscious, or just unable to stand or move.
 
+### The Math
+
+GMs should note that a good rule of thumb is that for each Stamina lost, the
+player has about 1% worse odds when flipping.
 
 ## 10 Stamina Max?
 

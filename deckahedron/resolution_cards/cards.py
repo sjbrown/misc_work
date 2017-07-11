@@ -5,7 +5,7 @@ import random
 from collections import defaultdict, OrderedDict
 
 def pct(x, total):
-    return '%2.1f%%' % (100*float(x)/total)
+    return '%04.1f%%' % (100*float(x)/total)
 
 x=[8,4,6,2]; a = [1]*x[0] + [2]*x[1] + [3]*x[2] + [4]*x[3]
 x=[5,6,5,4]; b = [1]*x[0] + [2]*x[1] + [3]*x[2] + [4]*x[3]
@@ -488,7 +488,7 @@ spot_it_map = {
   9: 'pig',
 }
 
-def analyze_exes_and_checkmarks(svg=False):
+def analyze_exes_and_checkmarks(svg=False, lost_stamina=0):
     a_deck = [x['a'] for x in cards]
     b_deck = [x['b'] for x in cards]
     c_deck = [x['c'] for x in cards]
@@ -523,19 +523,23 @@ def analyze_exes_and_checkmarks(svg=False):
     tries = 20000
 
     all_percents = []
-    for symbol, deck in all_decks.items():
+    for rank, deck in all_decks.items():
         print ''
-        print 'DECK ', symbol
+        print 'DECK ', rank
         print ''
-        for mod in [-3, -2, -1, 0, 1, 2]:
+        for mod in [-2, -1, 0, 1, 2]:
             mod_results = results.copy()
             for i in range(tries):
+                deck_copy = deck[:]
+                for x in range(lost_stamina):
+                    # Remove one Stamina
+                    deck_copy.pop( random.randint(10,len(deck_copy)-1) )
                 fn = fns[mod]
-                number = fn(deck)
+                number = fn(deck_copy)
                 mod_results[number] += 1
 
             if svg:
-                group_id = '%s-mod%s' % (symbol, mod)
+                group_id = '%s-mod%s' % (rank, mod)
                 print '<g id="%s">' % group_id
                 r = '''<rect style="fill:#{color};stroke:none;"
                     id="{rect_id}"
@@ -558,7 +562,7 @@ def analyze_exes_and_checkmarks(svg=False):
                 '''
                 x = 0
                 for j in [1,2,3,4]:
-                    y = { 'A': 21, 'B': 14, 'C': 7, 'D': 0 }[symbol]
+                    y = { 'A': 21, 'B': 14, 'C': 7, 'D': 0 }[rank]
                     color = {
                         1: 'd40000',
                         2: 'ff0000',
