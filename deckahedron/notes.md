@@ -466,3 +466,20 @@ going to your body.  A couple examples:
  * Element symbols
  * Alchemy symbols
  * FUDGE dice
+
+----
+
+# On numbers
+
+ * 0 - Zero is the best number
+ * 1 - One is a useful number, as it's the complete opposite of zero,
+   without being too big
+ * 2 - Two is a fair number, it doesn't take a genuis to do arithmetic
+   with it.  Use sparingly.
+ * 3 - Allright, three might have some uses, but let's rein in this horse
+   before we have a full-blown stampede.
+ * 4 - Four is too many. Are you sure you want to use something so
+   unweildy? Wouldn't three have sufficed?
+ * > 4 - only use these numbers if they promise they will count themselves
+   and leave us humans out of it entirely.
+

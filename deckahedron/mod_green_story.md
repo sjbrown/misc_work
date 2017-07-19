@@ -223,3 +223,21 @@ on that card have been used first.
 ## Using a red token
 
 `TODO`
+
+# Examples
+
+
+ * I will not be like my parent
+ * I must be like my parent
+
+ * I must redeem a mistake I made
+  * Provide an opportunity but make the same style of mistake
+  * Sacrifice to one of the victims of the mistake
+  * Accept that the consequences of the mistake were more dire than assumed
+  * Miss a chance at absolute redemption
+
+ * I am not worthy of my gift
+
+ * I will be tested and found wanting / I'm not ready yet
+
+
