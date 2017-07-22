@@ -242,12 +242,12 @@ class Good_Cardio(Card):
   two_check = '''
     Recover 1d4 Stamina.
   '''
-  one_check = '''
-    Recover 1d4 Stamina.
-    |Your foe moves to a position of advantage.
-  '''
   one_x = '''
     Recover 1 Stamina.
+    |Your foe moves to a position of advantage.
+  '''
+  one_check = '''
+    Recover 1d4 Stamina.
     |Your foe moves to a position of advantage.
   '''
   two_x = '''
@@ -273,7 +273,7 @@ class Tough_Stuff(Card):
   level_start = '0'
 
 class Where_It_Hurts(Card):
-  attr = ''
+  attr = 'Dex/Str'
   desc = '''
     Turn 1 FATIGUE into 1 HARM when you deal fatigue with your weapon.
     | One green card: 2 FATIGUE turns into 2 HARM

@@ -5,7 +5,7 @@
 import os
 import re
 import sys
-from pprint import pprint
+from pprint import pprint, pformat
 from lxml import etree
 from itertools import product
 from collections import defaultdict
@@ -84,6 +84,7 @@ def filter_dom_elements(dom, card):
       'rogue_ne', 'rogue_e', 'rogue_se', 'rogue_sw', 'rogue_w', 'rogue_nw',
       'fighter_ne', 'fighter_e', 'fighter_se', 'fighter_sw', 'fighter_w', 'fighter_nw',
       'all_ne', 'all_e', 'all_se', 'all_sw', 'all_w', 'all_nw',
+      'spot_level_0', 'spot_level_g1', 'spot_level_g2',
       'level_r3', 'level_r2', 'level_r1',
       'level_0', 'level_g1', 'level_g2',
       'level_start_r3', 'level_start_r2', 'level_start_r1',
@@ -95,12 +96,37 @@ def filter_dom_elements(dom, card):
                 dom.layer_show(key)
             elif 'std_' in key:
                 dom.layer_hide(key)
-        if not card.get('x_check'):
+
+        cut_these.remove('spot_level_0')
+        cut_these.remove('spot_level_g1')
+        cut_these.remove('spot_level_g2')
+
+        checks = [
+            x for x in [card.get('x_check'), card.get('one_x'),
+                        card.get('one_check'), card.get('two_check')]
+            if x not in (None, '')
+        ]
+        if len(checks) == 0:
+            dom.layer_hide('spot_3lines')
+            dom.layer_hide('spot_2lines')
             dom.layer_hide('spot_x_check')
-        if not card.get('one_check'):
             dom.layer_hide('spot_one_check')
-        if not card.get('two_check'):
             dom.layer_hide('spot_two_check')
+        elif len(checks) == 2:
+            dom.layer_hide('spot_3lines')
+            if not card.get('x_check'):
+                dom.layer_hide('spot_x_check')
+            if not card.get('one_check'):
+                dom.layer_hide('spot_one_check')
+            if not card.get('two_check'):
+                dom.layer_hide('spot_two_check')
+        elif len(checks) == 3:
+            dom.layer_hide('spot_2lines')
+            dom.layer_hide('spot_x_check')
+            dom.layer_hide('spot_one_check')
+            dom.layer_hide('spot_two_check')
+        else:
+            raise ValueError('Spots! %s' % pformat(card))
 
         if card.get('spots')[0][0].upper() == 'EX':
             dom.layer_hide('spot_br')

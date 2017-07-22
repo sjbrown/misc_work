@@ -46,7 +46,8 @@ def parse_levels(d2):
         if d2[k] != '':
             if '*' in d2[k]:
                 d2['level_start'] = v
-            d2['levels'].append(v)
+            if 'spot' not in d2[k].lower():
+                d2['levels'].append(v)
 
 def parse_spots(d2):
     spot_map = {
@@ -57,30 +58,45 @@ def parse_spots(d2):
         'm2': 2,
     }
     d2['spots'] = {}
+    i = 0
     for k,new_key in spot_map.items():
         new_val = d2[k].strip()
-        if 'EX' in new_val:
-            d2['spots'][new_key] = append('EX')
-        elif 'BR' in new_val:
-            d2['spots'][new_key] = append('BR')
+        if 'SPOT' in new_val.upper() and 'EX' in new_val:
+            d2['spots'][i] = ['EX']
+        elif 'SPOT' in new_val.upper() and 'BR' in new_val:
+            d2['spots'][i] = ['BR']
+        i += 1
 
 def parse_desc(d2):
+    desc_detail = ''
     body = d2.get('desc') or d2.get('effect')
     note = d2.get('note') or d2.get('notes')
     note = note.strip()
     bulleted = body.split('*')
     preamble = bulleted.pop(0).strip()
     if bulleted:
-        bulleted = ['\n* ' + x.strip() for x in bulleted]
-    d2['desc_detail'] = preamble + ''.join(bulleted)
+        bulleted = ['\n' + u'✷' + x.strip() for x in bulleted]
+    desc_detail = preamble + ''.join(bulleted)
     if note:
-        d2['desc_detail'] += '\n| ' + note
+        desc_detail += '\n ' + note
+
+    desc_detail = parse_text(desc_detail)
+    d2['desc_detail'] = desc_detail
+
+
+def parse_text(text):
+    if not text:
+        return text
+    text = text.strip()
+    parts = text.split('|')
+    text = '\n'.join([x.strip() for x in parts])
+    return text
 
 def parse_checks(d2):
-    two_x = (d2.get('r-2') or d2.get('✗✗')).strip()
-    one_x = (d2.get('r-1') or d2.get('✗')).strip()
-    one_check = (d2.get('r1') or d2.get('✔')).strip()
-    two_check = (d2.get('r2') or d2.get('✔✔')).strip()
+    two_x = parse_text(d2.get('r-2') or d2.get('✗✗'))
+    one_x = parse_text(d2.get('r-1') or d2.get('✗'))
+    one_check = parse_text(d2.get('r1') or d2.get('✔'))
+    two_check = parse_text(d2.get('r2') or d2.get('✔✔'))
     if one_check == one_x:
         d2['x_check'] = one_check
     else:
@@ -101,6 +117,7 @@ def get_dicts():
         name = row.get('name') or row.get('deckahedron move')
         if not name:
             continue
+        print 'Processing', name
         d2 = {k:v.decode('utf-8') for (k,v) in row.items()}
         d2['title'] = name.decode('utf-8')
         parse_circles(d2)
@@ -108,6 +125,7 @@ def get_dicts():
         parse_desc(d2)
         parse_checks(d2)
         parse_attr(d2)
+        parse_spots(d2)
 
         l.append(d2)
 
