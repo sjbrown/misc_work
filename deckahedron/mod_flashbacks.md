@@ -27,6 +27,11 @@ resources when the action was available, the GM may allow the player to
 spend those resources and effect that action now, as a "Mercy Flashback",
 for the additional cost of a green token.
 
+Forgetting happens to the best of us, and there are lots of variables to keep
+track of, so the cost is kept "cheap" at only one green token.  But a
+cost is nessecary to keep the flow of the game going.  This is a game of
+improv storytelling, and improv means rolling with the punches sometimes.
+
 ## Preparedness
 
 If you are using the Speed / Equimpent / Money module, you can also play
