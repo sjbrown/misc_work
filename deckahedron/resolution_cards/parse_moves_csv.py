@@ -106,7 +106,7 @@ def parse_checks(d2):
     d2['two_check'] = two_check
 
 def parse_attr(d2):
-    d2['attr'] = d2['mod']
+    d2['attr'] = d2['mod'].strip()
 
 def get_dicts():
     f = UTF8File('character_move_sheet.csv')

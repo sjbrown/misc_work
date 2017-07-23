@@ -238,6 +238,18 @@ weapons at each other.  The game is made more fun when these acrobatics are
 described.  The GM is the final decider, but both the GM and the player can
 improvisationally describe what the fatigue or damage is.
 
+### Tough enemies
+
+Some enemies are as tough as the player characters themselves, and also absorb
+wounds and physical harm. The GM will inform the players if they are facing
+these kinds of foes.  There are a couple tweaks to the rules when dealing
+damage to tough enemies.
+
+ * When a character deals 3 fatigue, the player can choose to replace that with
+one physical harm instead.
+ * When a character deals 6 fatigue, the player can choose to replace that with
+one wound instead.
+
 
 ## Rationale for Stamina / Harm / Wounds Mechanics
 

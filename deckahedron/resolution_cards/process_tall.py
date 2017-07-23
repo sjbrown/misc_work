@@ -181,10 +181,8 @@ def filter_dom_elements(dom, card):
 
     if card.get('level_start'):
         if card.get('spots'):
-            print 'SAVING', ('spot_level_start_' + card['level_start'])
             cut_these.remove('spot_level_start_' + card['level_start'])
         else:
-            print 'SAVING', ('level_start_' + card['level_start'])
             cut_these.remove('level_start_' + card['level_start'])
     if card.get('levels'):
         [cut_these.remove('level_' + lvl) for lvl in card['levels']]
@@ -268,6 +266,14 @@ def make_card_dom(card):
 
     return dom
 
+def custom_card_dom(card):
+    words = card['title'].split()
+    tail = '_'.join([x.lower() for x in words])
+    fpath = 'tall_card__' + tail + '.svg'
+    if os.path.isfile(fpath):
+        print 'Found custom card', fpath
+        return DOM(fpath)
+    return None
 
 def make_deck(cards):
     export_png('tall_card_back.svg', '/tmp/tall_cards/back.png')
@@ -276,7 +282,9 @@ def make_deck(cards):
 
     for i, card in enumerate(cards):
         try:
-            dom = make_card_dom(card)
+            dom = custom_card_dom(card)
+            if not dom:
+                dom = make_card_dom(card)
         except:
             print 'FAIL'
             print 'card:'
