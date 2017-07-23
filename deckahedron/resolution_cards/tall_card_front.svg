@@ -33,9 +33,9 @@
      inkscape:window-height="876"
      id="namedview726"
      showgrid="false"
-     inkscape:zoom="1.9753646"
-     inkscape:cx="123.5"
-     inkscape:cy="187.05407"
+     inkscape:zoom="2.7935874"
+     inkscape:cx="69.206588"
+     inkscape:cy="205.13386"
      inkscape:window-x="0"
      inkscape:window-y="24"
      inkscape:window-maximized="1"
@@ -1479,13 +1479,13 @@
        cx="52.524521"
        cy="98.566299"
        r="3.3775268"><title
-         id="title4998-2">level_start_0</title></circle><circle
+         id="title4998-2">spot_level_start_0</title></circle><circle
        style="display:inline;opacity:1;fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:0.62746471;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:4.5999999;stroke-opacity:1"
        id="path4938-5-7"
        cx="123.15"
        cy="98.566299"
        r="3.3775268"><title
-         id="title5000-0">level_start_g1</title></circle><rect
+         id="title5000-0">spot_level_start_g1</title></circle><rect
        style="display:inline;opacity:1;fill:#64aa64;fill-opacity:1;stroke:none;stroke-width:40;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:4.5999999;stroke-opacity:1"
        id="rect6429-91-7-6"
        width="4"
@@ -1502,7 +1502,7 @@
          cx="169.1756"
          id="path4938-35-9"
          style="display:inline;opacity:1;fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:0.62746471;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:4.5999999;stroke-opacity:1"><title
-           id="title5002-3">level_start_g2</title></circle><rect
+           id="title5002-3">spot_level_start_g2</title></circle><rect
          style="display:inline;opacity:1;fill:#64aa64;fill-opacity:1;stroke:none;stroke-width:40;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:4.5999999;stroke-opacity:1"
          id="rect5061-6"
          width="4"

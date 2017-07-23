@@ -51,7 +51,10 @@ class DOM(object):
         for e in self.title_to_elements[title]:
             e.getparent().remove(e)
 
-    def replace_text(self, title, newtext, max_chars=None):
+    def replace_text(self, title, newtext, max_chars=None, style=None):
+        if style is None:
+            style = {}
+
         for flowroot in self.title_to_elements[title]:
             flowpara = [x for x in flowroot.iterchildren()
                         if 'flowPara' in x.tag][0]
@@ -63,11 +66,27 @@ class DOM(object):
             num_lines = i
 
             if max_chars and len(newtext) > (max_chars - num_lines*20):
-                flowroot.attrib['style'] = re.sub(
-                    'font-size:\d+px;',
-                    'font-size:8px;',
-                    flowroot.attrib['style']
-                )
+                style.update({'font-size': '8px'})
+
+            if style:
+                for k,v in style.items():
+                    flowroot.attrib['style'] = re.sub(
+                      k+':[^;]+;',
+                      k+':'+v+';',
+                      flowroot.attrib['style']
+                    )
+
+    def replace_h1(self, newtext):
+        style = {}
+        if len(newtext) >= 20:
+            words = newtext.split()
+            midpoint = len(words)/2
+            line1 = ' '.join(words[:midpoint])
+            line2 = ' '.join(words[midpoint:])
+            newtext = line1 + '\n' + line2
+            style = { 'font-size': '16px', 'line-height': '80%' }
+        print 'newtext', newtext
+        return self.replace_text('h1', newtext, style=style)
 
     def write_file(self, svg_filename):
         print svg_filename
@@ -89,6 +108,7 @@ def filter_dom_elements(dom, card):
       'level_0', 'level_g1', 'level_g2',
       'level_start_r3', 'level_start_r2', 'level_start_r1',
       'level_start_0', 'level_start_g1', 'level_start_g2',
+      'spot_level_start_0', 'spot_level_start_g1', 'spot_level_start_g2',
     ]
     if card.get('spots'):
         for key in dom.layers:
@@ -160,7 +180,12 @@ def filter_dom_elements(dom, card):
             dom.layer_hide(key)
 
     if card.get('level_start'):
-        cut_these.remove('level_start_' + card['level_start'])
+        if card.get('spots'):
+            print 'SAVING', ('spot_level_start_' + card['level_start'])
+            cut_these.remove('spot_level_start_' + card['level_start'])
+        else:
+            print 'SAVING', ('level_start_' + card['level_start'])
+            cut_these.remove('level_start_' + card['level_start'])
     if card.get('levels'):
         [cut_these.remove('level_' + lvl) for lvl in card['levels']]
 
@@ -190,7 +215,7 @@ def one_blank_front():
     dom.replace_text('words_right', '')
     dom.replace_text('spot_words_right', '')
     dom.replace_text('desc_detail', '')
-    dom.replace_text('h1', '')
+    dom.replace_h1('')
     for key in dom.layers:
         if (
           'x_check' in key
@@ -239,7 +264,7 @@ def make_card_dom(card):
     dom.replace_text('spot_words_right', card['two_check'], max_chars=40)
     dom.replace_text('words_two_check', card['two_check'], max_chars=60)
     dom.replace_text('desc_detail', card['desc_detail'], max_chars=300)
-    dom.replace_text('h1', card['title'])
+    dom.replace_h1(card['title'])
 
     return dom
 
