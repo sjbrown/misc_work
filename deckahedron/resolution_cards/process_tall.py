@@ -6,93 +6,11 @@ import os
 import re
 import sys
 from pprint import pprint, pformat
-from lxml import etree
-from itertools import product
-from collections import defaultdict
 from tall_cards import cards
 
-sys.path.append('/usr/share/inkscape/extensions/')
-from simplestyle import parseStyle, parseColor
+from svg_dom import DOM, export_tall_png
 
 DEBUG = 1
-
-def export_png(svg, png):
-    cmd_fmt = 'inkscape --export-png=%s --export-width=825 --export-height=1125 %s'
-    cmd = cmd_fmt % (png, svg)
-    print cmd
-    os.system(cmd)
-
-class DOM(object):
-    def __init__(self, svg_file):
-        fp = file(svg_file)
-        c = fp.read()
-        fp.close()
-        self.dom = etree.fromstring(c)
-        self.titles = [x for x in self.dom.getiterator()
-                       if x.tag == '{http://www.w3.org/2000/svg}title']
-        self.title_to_elements = defaultdict(list)
-        for t in self.titles:
-            self.title_to_elements[t.text].append(t.getparent())
-        self.layers = {
-            x.attrib['{http://www.inkscape.org/namespaces/inkscape}label'] : x
-            for x in self.dom.getchildren()
-            if x.attrib.get('{http://www.inkscape.org/namespaces/inkscape}groupmode') == 'layer'
-        }
-
-    def layer_hide(self, layer_label):
-        if DEBUG:
-            print 'HIDING LAYER', layer_label
-        self.layers[layer_label].attrib['style'] = 'display:none'
-
-    def layer_show(self, layer_label):
-        self.layers[layer_label].attrib['style'] = 'display:inline'
-
-    def cut_element(self, title):
-        for e in self.title_to_elements[title]:
-            e.getparent().remove(e)
-
-    def replace_text(self, title, newtext, max_chars=None, style=None):
-        if style is None:
-            style = {}
-
-        for flowroot in self.title_to_elements[title]:
-            flowpara = [x for x in flowroot.iterchildren()
-                        if 'flowPara' in x.tag][0]
-            flowroot.remove(flowpara)
-            for i, line in enumerate(newtext.split('\n')):
-                paraclone = etree.fromstring(etree.tostring(flowpara))
-                paraclone.text = line
-                flowroot.append(paraclone)
-            num_lines = i
-
-            if max_chars and len(newtext) > (max_chars - num_lines*20):
-                style.update({'font-size': '8px'})
-
-            if style:
-                for k,v in style.items():
-                    flowroot.attrib['style'] = re.sub(
-                      k+':[^;]+;',
-                      k+':'+v+';',
-                      flowroot.attrib['style']
-                    )
-
-    def replace_h1(self, newtext):
-        style = {}
-        if len(newtext) >= 20:
-            words = newtext.split()
-            midpoint = len(words)/2
-            line1 = ' '.join(words[:midpoint])
-            line2 = ' '.join(words[midpoint:])
-            newtext = line1 + '\n' + line2
-            style = { 'font-size': '16px', 'line-height': '80%' }
-        print 'newtext', newtext
-        return self.replace_text('h1', newtext, style=style)
-
-    def write_file(self, svg_filename):
-        print svg_filename
-        fp = file(svg_filename, 'w')
-        fp.write(etree.tostring(self.dom))
-        fp.close()
 
 
 def filter_dom_elements(dom, card):
@@ -230,7 +148,7 @@ def one_blank_front():
     svg_filename = '/tmp/tall_cards/deck_card_face_blank.svg'
     png_filename = '/tmp/tall_cards/deck_card_face_blank.png'
     dom.write_file(svg_filename)
-    export_png(svg_filename, png_filename)
+    export_tall_png(svg_filename, png_filename)
 
 
 def make_card_dom(card):
@@ -276,7 +194,7 @@ def custom_card_dom(card):
     return None
 
 def make_deck(cards):
-    export_png('tall_card_back.svg', '/tmp/tall_cards/back.png')
+    export_tall_png('tall_card_back.svg', '/tmp/tall_cards/back.png')
 
     #one_blank_front()
 
@@ -297,7 +215,7 @@ def make_deck(cards):
 
         dom.write_file(svg_filename)
 
-        export_png(svg_filename, png_filename)
+        export_tall_png(svg_filename, png_filename)
 
 
 if __name__ == '__main__':

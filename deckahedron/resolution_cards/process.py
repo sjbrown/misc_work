@@ -3,10 +3,11 @@
 
 
 import os
-from lxml import etree
 from itertools import product
 from cards import cards, blessing_cards, wound_cards, dice_print_rules
 from cards import spot_it_map, spot_it_rules
+
+from svg_dom import DOM, export_square_png
 
 
 '''
@@ -59,34 +60,6 @@ cards
  {'Pro': False, 'Tmark': True, 'a': 3, 'b': 3, 'c': 1, 'd': 3}]
 '''
 
-def export_png(svg, png):
-    cmd_fmt = 'inkscape --export-png=%s --export-width=825 --export-height=825 %s'
-    cmd = cmd_fmt % (png, svg)
-    print cmd
-    os.system(cmd)
-
-class DOM(object):
-    def __init__(self, svg_file):
-        fp = file(svg_file)
-        c = fp.read()
-        fp.close()
-        self.dom = etree.fromstring(c)
-        self.titles = [x for x in self.dom.getiterator()
-                       if x.tag == '{http://www.w3.org/2000/svg}title']
-        self.title_to_element = {
-            t.text: t.getparent()
-            for t in self.titles
-        }
-
-    def cut_element(self, title):
-        e = self.title_to_element[title]
-        e.getparent().remove(e)
-
-    def write_file(self, svg_filename):
-        print svg_filename
-        fp = file(svg_filename, 'w')
-        fp.write(etree.tostring(self.dom))
-        fp.close()
 
 def calc_zodiac(i):
     symbols = spot_it_rules[i%5]
@@ -171,7 +144,7 @@ def filter_dom_elements(dom, card, deck_title, dice_rule):
 
 
 def make_deck(deck_number):
-    export_png('back_ready_to_print.svg', '/tmp/cards/back.png')
+    export_square_png('back_ready_to_print.svg', '/tmp/cards/back.png')
 
     for i, card in enumerate(cards):
         dom = DOM('face_ready_to_split.svg')
@@ -191,10 +164,10 @@ def make_deck(deck_number):
 
         dom.write_file(svg_filename)
 
-        export_png(svg_filename, png_filename)
+        export_square_png(svg_filename, png_filename)
 
 def make_blessing_deck():
-    export_png('back_blessing_gold_ready_to_print.svg', '/tmp/cards/blessing/back.png')
+    export_square_png('back_blessing_gold_ready_to_print.svg', '/tmp/cards/blessing/back.png')
 
     for i, card in enumerate(blessing_cards):
         dom = DOM('face_ready_to_split.svg')
@@ -208,7 +181,7 @@ def make_blessing_deck():
 
         dom.write_file(svg_filename)
 
-        export_png(svg_filename, png_filename)
+        export_square_png(svg_filename, png_filename)
 
 def make_wound_deck():
     for i, card in enumerate(wound_cards):
@@ -223,25 +196,25 @@ def make_wound_deck():
 
         dom.write_file(svg_filename)
 
-        export_png(svg_filename, png_filename)
+        export_square_png(svg_filename, png_filename)
 
 def make_redgreen_deck():
     # Create the svg file and export a PNG
     svg_filename = 'greencard_back.svg'
     png_filename = '/tmp/cards/redgreen/greencard_back.png'
-    export_png(svg_filename, png_filename)
+    export_square_png(svg_filename, png_filename)
 
     svg_filename = 'greencard_front.svg'
     png_filename = '/tmp/cards/redgreen/greencard_front.png'
-    export_png(svg_filename, png_filename)
+    export_square_png(svg_filename, png_filename)
 
     svg_filename = 'redcard_front.svg'
     png_filename = '/tmp/cards/redgreen/redcard_front.png'
-    export_png(svg_filename, png_filename)
+    export_square_png(svg_filename, png_filename)
 
     svg_filename = 'redcard_back.svg'
     png_filename = '/tmp/cards/redgreen/redcard_back.png'
-    export_png(svg_filename, png_filename)
+    export_square_png(svg_filename, png_filename)
 
 
 if __name__ == '__main__':
