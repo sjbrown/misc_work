@@ -5,10 +5,16 @@ Here's how to create the cards:
 you'll probably have to port all the paths, especially the `/tmp` paths)
 
 This creates all the square cards:
-`python process.py`
+```bash
+python process.py
+```
 
 This creates the moves, the equipment, and the magic item cards:
-`python process_tall.py`
+```bash
+python process_tall.py
+```
 
 This creates the character cards:
-`python process_char.py`
+```bash
+python process_char.py
+```
