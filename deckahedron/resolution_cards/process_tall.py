@@ -196,7 +196,7 @@ def custom_card_dom(card):
 def make_deck(cards):
     export_tall_png('tall_card_back.svg', '/tmp/tall_cards/back.png')
 
-    #one_blank_front()
+    one_blank_front()
 
     for i, card in enumerate(cards):
         try:
