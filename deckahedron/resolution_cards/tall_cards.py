@@ -221,67 +221,6 @@ class Aid_or_Interfere(Card):
     someone you have a Bond with.
     '''
 
-class And_this_is_for(Card):
-  title = 'And This Is For...'
-  attr = 'Dex'
-  two_check = '''
-    Deal 1d4 fatigue.
-    '''
-  one_check = '''
-    Deal 1 fatigue.
-    '''
-  desc = '''
-    After successfully striking a foe in melee, add a punch,
-    kick, or shove.
-    '''
-  circles = ['all_se']
-  level_start = 'r1'
-
-class Good_Cardio(Card):
-  attr = 'Str'
-  two_check = '''
-    Recover 1d4 Stamina.
-  '''
-  one_x = '''
-    Recover 1 Stamina.
-    |Your foe moves to a position of advantage.
-  '''
-  one_check = '''
-    Recover 1d4 Stamina.
-    |Your foe moves to a position of advantage.
-  '''
-  two_x = '''
-    Your foe moves to a position of advantage.
-  '''
-  desc = '''
-    Just a momentary pause and you're back in the action.
-    |When you would normally lose a Stamina Point from physical exhaustion, you
-    can choose to put an exhaustion token on this card instead.
-  '''
-  spots = {0: ['EX'], 1: ['EX'], 2: ['EX']}
-  circles = ['all_ne']
-  level_start = '0'
-
-class Tough_Stuff(Card):
-  attr = ''
-  desc = '''
-    When you would normally take physical harm, you can choose to put a
-    harm token on this card instead.
-  '''
-  spots = {0: ['BR'], 1: ['BR'], 2: ['BR']}
-  circles = ('all_nw', 'fighter_e')
-  level_start = '0'
-
-class Where_It_Hurts(Card):
-  attr = 'Dex/Str'
-  desc = '''
-    Turn 1 FATIGUE into 1 HARM when you deal fatigue with your weapon.
-    | One green card: 2 FATIGUE turns into 2 HARM
-    | Two green cards: 3 FATIGUE turns into 3 HARM
-    '''
-  circles = ('all_sw', 'fighter_e')
-  level_start = '0'
-  levels = ['0', 'g1', 'g2']
 
 
 locs = locals()

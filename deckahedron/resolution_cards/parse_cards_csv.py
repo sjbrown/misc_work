@@ -28,7 +28,9 @@ class UTF8File(object):
         return self
 
 def parse_circles(d2):
-    if d2['circles'] == '':
+    if 'circles' not in d2:
+        d2['circles'] = []
+    elif d2['circles'] == '':
         d2['circles'] = []
     else:
         d2['circles'] = [x.strip() for x in d2['circles'].split(',')]
@@ -70,7 +72,7 @@ def parse_spots(d2):
 def parse_desc(d2):
     desc_detail = ''
     body = d2.get('desc') or d2.get('effect')
-    note = d2.get('note') or d2.get('notes')
+    note = d2.get('note') or d2.get('notes') or ''
     note = note.strip()
     bulleted = body.split('*')
     preamble = bulleted.pop(0).strip()
@@ -108,8 +110,8 @@ def parse_checks(d2):
 def parse_attr(d2):
     d2['attr'] = d2['mod'].strip()
 
-def get_dicts():
-    f = UTF8File('character_move_sheet.csv')
+def get_dicts_from_spreadsheet(fname):
+    f = UTF8File(fname)
     spreadsheet = csv.DictReader(f)
 
     l = []
@@ -132,6 +134,13 @@ def get_dicts():
     f.close()
 
     return l
+
+def get_dicts():
+    return (
+      get_dicts_from_spreadsheet('character_move_sheet.csv')
+      +
+      get_dicts_from_spreadsheet('equipment_sheet.csv')
+    )
 
 class DictObj(dict):
     __name__ = 'DICTOBJ'

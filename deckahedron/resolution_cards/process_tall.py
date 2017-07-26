@@ -222,9 +222,9 @@ if __name__ == '__main__':
     if not os.path.exists('/tmp/tall_cards'):
         os.makedirs('/tmp/tall_cards')
 
-    import parse_moves_csv
+    import parse_cards_csv
 
-    filtered = cards + parse_moves_csv.get_objs()
+    filtered = cards + parse_cards_csv.get_objs()
     if len(sys.argv) > 1:
         card_grep = sys.argv[1]
         if DEBUG:
