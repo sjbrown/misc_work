@@ -106,7 +106,6 @@ def filter_dom_elements(dom, card):
         [cut_these.remove('level_' + lvl) for lvl in card['levels']]
 
     if card.get('circles'):
-        print card['circles']
         [cut_these.remove(x) for x in card['circles']]
     if card.get('attr'):
         keep = 'mod_' + card['attr'].lower()
