@@ -6,7 +6,23 @@ for the
 [Deckahedron System](foundation.md)
 
 
-`TODO`
+# Purpose
+
+Deckahedron World is a system for telling a story.  The authors of the story
+are you and your friends, sitting around a table.  The audience for the
+story is your inner children.
+
+This story is improvisiational, interactive, and collaborative.
+
+
+## Notes on audience
+
+Just because the audience is inner child doesn't mean you're going for a "G"
+rating.  Sometimes inner children get a big kick out of blood and guts.
+Your inner child might be the one who giggled watching the Messandei / Grey
+Worm scenes in the Game of Thrones TV series.
+
+
 
 ## GM: Examples for what to do on single ✗ results
 
@@ -22,3 +38,6 @@ for the
  * Make a "soft" move
  * Make a "hard" move
 
+# TODO
+
+`TODO`
