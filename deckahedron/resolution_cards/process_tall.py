@@ -113,22 +113,18 @@ def filter_dom_elements(dom, card):
         cut_these.remove(keep)
     else:
         cut_these.append('mod_shield')
+
     for x in cut_these:
         dom.cut_element(x)
 
 
 
-def one_blank_front():
+def one_blank_2lines_front():
     dom = DOM('tall_card_front.svg')
-
-    print '\nWorking on Blank Front card'
-    print '\n'
 
     filter_dom_elements(dom, {})
     dom.replace_text('words_left', '')
-    dom.replace_text('spot_words_left', '')
     dom.replace_text('words_right', '')
-    dom.replace_text('spot_words_right', '')
     dom.replace_text('desc_detail', '')
     dom.replace_h1('')
     for key in dom.layers:
@@ -139,13 +135,48 @@ def one_blank_front():
           or
           'two_check' in key
           or
-          'std_3lines' in key
+          '3lines' in key
+          or
+          'spot' in key
         ):
             dom.layer_hide(key)
+        elif '2lines' in key:
+            dom.layer_show(key)
 
     # Create the svg file and export a PNG
-    svg_filename = '/tmp/tall_cards/deck_card_face_blank.svg'
-    png_filename = '/tmp/tall_cards/deck_card_face_blank.png'
+    svg_filename = '/tmp/tall_cards/deck_card_face_2lines.svg'
+    png_filename = '/tmp/tall_cards/deck_card_face_2lines.png'
+    dom.write_file(svg_filename)
+    export_tall_png(svg_filename, png_filename)
+
+def one_blank_3lines_front():
+    dom = DOM('tall_card_front.svg')
+
+    filter_dom_elements(dom, {})
+    dom.replace_text('words_one_x', '')
+    dom.replace_text('words_one_check', '')
+    dom.replace_text('words_two_check', '')
+    dom.replace_text('desc_detail', '')
+    dom.replace_h1('')
+    for key in dom.layers:
+        if (
+          'x_check' in key
+          or
+          'one_check' in key
+          or
+          'two_check' in key
+          or
+          '2lines' in key
+          or
+          'spot' in key
+        ):
+            dom.layer_hide(key)
+        elif '3lines' in key:
+            dom.layer_show(key)
+
+    # Create the svg file and export a PNG
+    svg_filename = '/tmp/tall_cards/deck_card_face_3lines.svg'
+    png_filename = '/tmp/tall_cards/deck_card_face_3lines.png'
     dom.write_file(svg_filename)
     export_tall_png(svg_filename, png_filename)
 
@@ -195,7 +226,8 @@ def custom_card_dom(card):
 def make_deck(cards):
     export_tall_png('tall_card_back.svg', '/tmp/tall_cards/back.png')
 
-    one_blank_front()
+    one_blank_2lines_front()
+    one_blank_3lines_front()
 
     for i, card in enumerate(cards):
         try:

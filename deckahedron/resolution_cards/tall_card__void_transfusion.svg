@@ -32,8 +32,8 @@
      id="namedview726"
      showgrid="false"
      inkscape:zoom="1.467716"
-     inkscape:cx="-85.682405"
-     inkscape:cy="101.92063"
+     inkscape:cx="235.56503"
+     inkscape:cy="134.6245"
      inkscape:window-x="0"
      inkscape:window-y="24"
      inkscape:window-maximized="1"
@@ -517,7 +517,12 @@
        d="m 289.86594,10.384944 a 54.28491,54.28491 0 0 1 -54.28491,54.28493 54.28491,54.28491 0 0 1 -54.2849,-54.28493 54.28491,54.28491 0 0 1 54.2849,-54.284906 54.28491,54.28491 0 0 1 54.28491,54.284906 z"
        id="path18366-7"
        inkscape:connector-curvature="0"><title
-         id="title4817">all_ne</title></path></g><g
+         id="title4817">all_ne</title></path><path
+       style="display:inline;opacity:1;fill:none;fill-opacity:1;stroke:#008000;stroke-width:13.23425198;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:4.5999999;stroke-opacity:1"
+       d="m 289.95595,325.37096 a 54.28491,54.28491 0 0 1 -54.28492,54.28491 54.28491,54.28491 0 0 1 -54.2849,-54.28491 54.28491,54.28491 0 0 1 54.2849,-54.28491 54.28491,54.28491 0 0 1 54.28492,54.28491 z"
+       id="path18366-3"
+       inkscape:connector-curvature="0"><title
+         id="title4821">all_se</title></path></g><g
      style="display:inline"
      inkscape:label="blackbg"
      id="layer4"
