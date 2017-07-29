@@ -19,3 +19,13 @@ could be new actions, skills, or attributes.
 The circle at level 6 gives the ability to move a stat up a level
 
 ![Level Progression](images/lvl_progression.png)
+
+
+# TODO: ideas for level progression
+
+## Thief
+
+ * Hide your green tokens from the GM
+ * Reveal that an NPC is actually on a different side than assumed
+ * What was thought to be a critical resource is actually a decoy,
+   bluff, or an illusion
