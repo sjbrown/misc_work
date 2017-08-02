@@ -50,7 +50,9 @@ Worm scenes in the Game of Thrones TV series.
     it collapses must have at least 2 speed and get ✔✔ on a Dex flip"
     (The GM is allowed to consider other aspects than just Int / Str / Dex)
   - eg, "You're all in the moat. Spend a green token and describe how
-    your character learned to swim, or else begin thrashing and drowning"
+    your character learned to swim, or else begin thrashing and drowning.
+    If you spend the green token, write 'swimming' on your character
+    sheet."
 
 
 # TODO
