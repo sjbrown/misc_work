@@ -38,6 +38,22 @@ Worm scenes in the Game of Thrones TV series.
  * Make a "soft" move
  * Make a "hard" move
 
+## GM Moves
+
+ * The Dungeon World moves
+ * Increment the difficulty on ✗
+ * "Call for an Ad-Hoc Challenge"
+  - eg, "Something feels weird about this bridge. Flip Int to notice
+    what the problem is"
+    (It's implied that either ✔ or ✔✔ are needed to succeed)
+  - eg, "Anyone who wants to race to the edge of the bridge before
+    it collapses must have at least 2 speed and get ✔✔ on a Dex flip"
+    (The GM is allowed to consider other aspects than just Int / Str / Dex)
+  - eg, "You're all in the moat. Spend a green token and describe how
+    your character learned to swim, or else begin thrashing and drowning"
+
+
 # TODO
 
 `TODO`
+
