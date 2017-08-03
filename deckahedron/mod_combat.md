@@ -141,6 +141,11 @@ When you are instructed to take a Strain, sprain, or bruise:
    - Lose a Stamina point
    - Place a *Harm token* on your *Exhaustion pile*
 
+### Sacrificing the body
+
+A player might have strategic reasons to receive Harm tokens, so, when the
+player is instructed to lose *at least* 3 Stamina points, they can
+choose to convert *exactly 3* of those points into a Harm token.
 
 ## Resting
 
@@ -186,6 +191,11 @@ Whenever you flip and reveal a wound card (ie, when resolving an attempt):
    the wound card - resolve the attempt with only the card(s) you flipped)
  * Lose a stamina point
 
+### Sacrificing the body
+
+A player might have strategic reasons to receive Wound tokens, so, when the
+player is instructed to lose *at least* 6 Stamina points, they can
+choose to convert *exactly 6* of those points into a Wound token.
 
 ## Healing
 
