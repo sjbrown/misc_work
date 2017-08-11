@@ -32,6 +32,7 @@ Worm scenes in the Game of Thrones TV series.
  * Make a cost a bit more expensive
  * Make a treasure a bit less valuable
  * One of the character's resources gets cosmetically changed
+ * **Bank** a point
 
 ## GM: Examples for what to do on ✗✗ results
 
@@ -53,6 +54,9 @@ Worm scenes in the Game of Thrones TV series.
     your character learned to swim, or else begin thrashing and drowning.
     If you spend the green token, write 'swimming' on your character
     sheet."
+
+ * On a *critical failure* flip, the GM can use 3 banked points to make
+   an additional move
 
 
 # TODO
