@@ -12,10 +12,10 @@
 
  * Manage your resources
     * Your Deckahedron
-     * Stamina / Harm / Wounds
-      * Take a Breather / Bravely Run Away
-      * Decide how to absorb attacks
-     * Choose when to reshuffle
+       - Stamina / Harm / Wounds
+          * Take a Breather / Bravely Run Away
+          * Decide how to absorb attacks
+       - Choose when to reshuffle
     * Item cards
     * Green tokens
     * Speed / Equipment / Wealth
