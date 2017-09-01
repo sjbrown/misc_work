@@ -145,7 +145,7 @@ When you are instructed to take a Strain, sprain, or bruise:
 
 A player might have strategic reasons to receive Harm tokens, so, when the
 player is instructed to lose *at least* 3 Stamina points, they can
-choose to convert *exactly 3* of those points into a Harm token.
+choose to convert *exactly 3* of those points to take Harm instead.
 
 ## Resting
 
@@ -179,7 +179,10 @@ When you are instructed to take a Wound:
    - Place a *Wound card* in your *discard pile*. It will now start cycling
      between your Deckahedron and your *discard pile*.
 
-![Image of Wound card](images/wound_200.png)
+A Wound Card                                 |
+---------------------------------------------|
+![Image of Wound card](images/wound_200.png) |
+
 
 Having a *Wound card* in your Deckahedron causes some nasty effects.
 
@@ -195,7 +198,7 @@ Whenever you flip and reveal a wound card (ie, when resolving an attempt):
 
 A player might have strategic reasons to receive Wound tokens, so, when the
 player is instructed to lose *at least* 6 Stamina points, they can
-choose to convert *exactly 6* of those points into a Wound token.
+choose to convert *exactly 6* of those points into a Wound.
 
 ## Healing
 
