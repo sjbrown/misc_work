@@ -91,7 +91,7 @@ class Volley(Card):
     |
     * You have to move to get the shot, placing you in danger of the GM's choice
     * You have to take what you can get - reduce your fatigue dealt
-    * You have to take several shots - reduce your ammo
+    * You have to take several shots - lose 1 Equipment point
   '''
   level_start = '0'
   levels = ['0', 'g1']
@@ -118,9 +118,11 @@ class Parley(Card):
 
 class Defy_Danger(Card):
   attr = 'Str/Dex/Int'
+  one_check = '''
+    You do it, but there's a new complication
+    '''
   x_check = '''
-    Stumble, hesitate
-    or flinch
+    Make progress, but stumble, hesitate, or flinch.
     '''
   two_check = '''
     Success
