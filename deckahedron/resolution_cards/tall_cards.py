@@ -121,7 +121,7 @@ class Defy_Danger(Card):
   one_check = '''
     You do it, but there's a new complication
     '''
-  x_check = '''
+  one_x = '''
     Make progress, but stumble, hesitate, or flinch.
     '''
   two_check = '''
