@@ -27,13 +27,14 @@ A sheet displaying
 
 Each *stat* has a rank: 1. `Anchor` (red), 2. `Bulb` (yellow),
 3. `Crescent` (green), or 4. `Dart` (blue).
-The rank of the stat will determine which side of the Deckahedron to flip.
+The rank of the stat will determine which side of the card to look at
+when they flip a card from their Deckahedron.
 
 > If your character is attempting deduce their own position using a
 > map written in a foreign language, they would do a flip using
 > their `intelligence` rank.  Let's say they were a dumb Orc, and their
-> `intelligence` was the lowest rank, `Anchor`. They would flip the `Anchor`
-> side of the Deckahedron and reveal whether or not they succeeded.
+> `intelligence` was the lowest rank, `Anchor`. They would flip a card,
+> then look to the `Anchor` side to see whether or not they succeeded.
 
 ### Character Attribute Cards
 
