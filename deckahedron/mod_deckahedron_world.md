@@ -9,19 +9,40 @@ for the
 # Purpose
 
 Deckahedron World is a system for telling a story.  The authors of the story
-are you and your friends, sitting around a table.  The audience for the
-story is your inner children.
+are you and your friends, sitting around a table.
 
 This story is improvisiational, interactive, and collaborative.
 
+The rewards for playing are laughter and excitement while you play, and
+warm conversations for years afterwards that start with "Remember that time
+we were playing Deckahedron World and..."
 
-## Notes on audience
 
-Just because the audience is inner child doesn't mean you're going for a "G"
-rating.  Sometimes inner children get a big kick out of blood and guts.
+## How to make a great story
+
+Imagine the audience for this story is the inner children of all the players.
+What evokes the feelings we had when we were children playing pretend? Can
+you remember being 11 years old and watching a great Steven Spielberg movie?
+Or maybe a crappy Sam Raimi movie?
+
+You are going to collaborate with all the other players to make this story,
+so when you add your parts, think of what will give your friends
+sitting around the table a thrill, put them in suspense, ratchet up their
+feelings of tension, or make their jaws drop with awe.
+
+Sometimes inner children get a big kick out of blood and guts.
 Your inner child might be the one who giggled watching the Messandei / Grey
-Worm scenes in the Game of Thrones TV series.
+Worm scenes in the Game of Thrones TV series. If you don't know what topics
+your friends consider "off-limits", it is a good idea to ask and tell before
+you start playing.
 
+The story that emerges from Deckahedron World is not a precisely crafted
+thing. That's ok. It doesn't have to be high art or even a cartoon on Adult
+Swim. It will get shaped by each player, and when your turn comes, you will
+adapt, do your best improvisational "Yes, and", and see where it goes from
+there. It might sound like chaos, but with some faith in your friends, you
+will delight at how a the plot solidifies, and how real the characters
+become.
 
 
 ## GM: Examples for what to do on single ✗ results
