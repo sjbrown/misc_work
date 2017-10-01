@@ -110,7 +110,7 @@ def filter_dom_elements(dom, card, deck_title, dice_rule):
             dom.cut_element('proficient')
 
         if not card.get('Tmark'):
-            dom.cut_element('exhaustable')
+            dom.layer_hide('exhaustion')
 
         # Choose the dice pips to print out
         for titletuple in product(
