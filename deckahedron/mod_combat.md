@@ -56,7 +56,7 @@ Card **with** a Stamina symbol in the center | Card **without** a Stamina symbol
 ![Card Front](images/front_19_200.png)       | ![Card Front](images/front_3_200.png)
 
 
-To win a combat, a character's foes must be subdued or pacified before the
+To win at combat, a character's foes must be subdued or pacified before the
 player's Deckahedron has been emptied of Stamina points.
 
 When you are instructed to lose a Stamina point:
@@ -186,12 +186,12 @@ A Wound Card                                 |
 
 Having a *Wound card* in your Deckahedron causes some nasty effects.
 
-Whenever you flip and reveal a wound card (ie, when resolving an attempt):
+Whenever you **flip** and reveal a wound card:
 
  * Say or act out the gutteral noise emitted by your character
- * You must immediately stop flipping (eg, if your skill or the
-   action instructed you to "flip 3", you would stop short once you hit
-   the wound card - resolve the attempt with only the card(s) you flipped)
+ * You must immediately stop flipping (eg, if your the move
+   instructed you to "flip 3", you would stop short once you hit
+   the wound card - resolve the move with only the card(s) you flipped)
  * Lose a stamina point
 
 ### Sacrificing the body
