@@ -133,8 +133,7 @@ class Defy_Danger(Card):
     * by powering through or enduring, flip Str
     * by getting out of the way or acting fast, flip Dex
     * with quick thinking or through mental fortitude, flip Int
-    |On a ✗ / ✔, you stumble, hesitate, or flinch: the GM will offer you a worse outcome,
-    hard bargain, or ugly choice
+    |On a ✗ / ✔, the GM will offer you a worse outcome, hard bargain, or ugly choice
   '''
 
 class Defend(Card):
