@@ -5,8 +5,22 @@ This is an adaptation of
 for the
 [Deckahedron System](foundation.md)
 
+# Outline
 
-# Purpose
+```
+p1      - RPG intro.  What to do. Say/Flip/Move/Roll. GM/Player
+p2-p3   - Deckahedron - Basic Moves - when to flip, how to flip - lots of pics
+p4-p6   - Combat - Stamina/Harm/Wounds - GM: moving the spotlight
+p7      - More Moves - Do a Flashback, Critical Flip
+p8      - More Moves - Take a Breather, Rest, Heal
+p9      - More Moves - Speed/Equip/Wealth - Run, Shop, GTIB, S+S
+p10     - Mundane Items - Armor, weapons
+p11     - More Moves - Use a Magic Item, EtBB, CtLL
+p12-p14 - Starting a game, Sarukkan's Chamber
+p15     - Levelling Up - Study / Craft, Level circles
+```
+
+# Welcome to Role-Playing
 
 Deckahedron World is a system for telling a story.  The authors of the story
 are you and your friends, sitting around a table.
@@ -26,13 +40,13 @@ you remember being 11 years old and watching a great Steven Spielberg movie?
 Or maybe a crappy Sam Raimi movie?
 
 You are going to collaborate with all the other players to make this story,
-so when you add your parts, think of what will give your friends
-sitting around the table a thrill, put them in suspense, ratchet up their
-feelings of tension, or make their jaws drop with awe.
+so when you add your parts, think of what will give your friends around the
+table a thrill, put them in suspense, ratchet up their feelings of tension,
+or make their jaws drop with awe.
 
 Sometimes inner children get a big kick out of blood and guts.
 Your inner child might be the one who giggled watching the Messandei / Grey
-Worm scenes in the Game of Thrones TV series. If you don't know what topics
+Worm scenes in HBO's Game of Thrones. If you don't know what topics
 your friends consider "off-limits", it is a good idea to ask and tell before
 you start playing.
 
@@ -44,6 +58,17 @@ there. It might sound like chaos, but with some faith in your friends, you
 will delight at how a the plot solidifies, and how real the characters
 become.
 
+
+## Specifically, What to do
+
+Roles - GM, Player
+
+GM: Know all the rules, say stuff.  Your domain is the world.
+Players: 50% Say stuff, 25% Flip your Deckahedron, 12% Move tokens around,
+12% Roll dice.  Your domain is your character.
+
+
+# The Deckahedron
 
 ## GM: Examples for what to do on single ✗ results
 
@@ -80,7 +105,34 @@ become.
    an additional move
 
 
-# TODO
+# Combat
 
-`TODO`
+# Flipping Green - get a green token
+
+# More Moves - Do a Flashback, Critical Flip
+
+# More Moves - Take a Breather, Rest, Heal
+
+# Speed/Equipment/Wealth 
+
+## More Moves - Run, Shop, GTIB, S+S
+
+# Mundane Items
+
+## Armor, weapons
+
+# More Moves - Use a Magic Item, EtBB, CtLL
+
+# Starting a game
+
+## Sarukkan's Chamber
+
+# Leveling Up
+
+## Flipping green
+
+## Study / Craft
+
+## Level circles
+
 
