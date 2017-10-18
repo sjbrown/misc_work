@@ -413,7 +413,7 @@ dice_print_rules = [
  ( (1, 1), 'four_ne_1 six_sw_1'
  ),
  # 2 - d4:2
- ( (2, 6), 'four_sw_2 six_ne_2 six_nw_2 six_se_2'
+ ( (2, 6), 'four_sw_1 four_ne_1 six_ne_2 six_nw_2 six_se_2'
  ),
  # 3 - d4:3
  ( (3, 5), 'four_sw_1 four_se_1 four_nw_1 six_ne_2 six_nw_1 six_sw_1 six_se_1'
@@ -431,19 +431,19 @@ dice_print_rules = [
  ( (2, 4), 'four_sw_1 four_ne_1 six_nw_2 six_se_2'
  ),
  # 8 - d4:3
- ( (3, 2), 'four_sw_2 four_ne_1 six_nw_1 six_se_1'
+ ( (3, 2), 'four_sw_1 four_nw_1 four_ne_1 six_nw_1 six_se_1'
  ),
  # 9 - d4:4
- ( (4, 5), 'four_sw_2 four_se_1 four_nw_1 six_ne_2 six_nw_1 six_sw_1 six_se_1'
+ ( (4, 5), 'four_sw_1 four_se_1 four_nw_1 four_ne_1 six_ne_2 six_nw_1 six_sw_1 six_se_1'
  ),
  # 10
  ( (4, 6), 'four_nw_1 four_ne_1 four_se_1 four_sw_1 six_sw_2 six_sw_1 six_ne_1 six_ne_2'
  ),
  # 11
- ( (3, 1), 'four_sw_2 four_ne_1 six_ne_1'
+ ( (3, 1), 'four_sw_1 four_nw_1 four_ne_1 six_ne_1'
  ),
  # 12
- ( (2, 5), 'four_sw_2 six_ne_1 six_nw_2 six_se_2'
+ ( (2, 5), 'four_sw_1 four_ne_1 six_ne_1 six_nw_2 six_se_2'
  ),
  # 13
  ( (1, 4), 'four_sw_1 six_ne_2 six_nw_1 six_se_1'
@@ -455,7 +455,7 @@ dice_print_rules = [
  ( (4, 2), 'four_nw_1 four_ne_1 four_se_1 four_sw_1 six_sw_1 six_ne_1'
  ),
  # 16
- ( (3, 0), 'four_sw_2 four_ne_1'
+ ( (3, 0), 'four_sw_1 four_nw_1 four_ne_1'
  ),
  # 17
  ( (2, 3), 'four_nw_1 four_se_1 six_sw_2 six_ne_1'
