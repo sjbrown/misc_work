@@ -37,25 +37,25 @@ should begin before the first hour is over.
 
 The game starts by introducing the setting and the characters.
 
- * The Storyteller (or GM) gives a description of the setting
+ * The GM gives a description of the setting
  * Each player distributes 6 points into the **Strength**, **Intelligence**,
    and **Dexterity** ranks of their character (see below)
  * Each player takes a minute or two to introduce the character they're
    playing.  The character's name, background, motivations, and special skills
- * The players and the Storyteller can also discuss how the characters
+ * The players and the GM can also discuss how the characters
    know each other, and what situation bonds them together for this adventure
 
 As the game is played, each player controls a character, and contributes
 to the shared story by saying what their character thinks, feels and does.
-Together with the Storyteller, the players create an improvisational
+Together with the GM, the players create an improvisational
 back-and-forth as they lead their characters into dangerous situations
 and interpersonal conflicts.
 
 At key moments though, the players themselves won't be able to simply declare
-the results of their character's actions, and must look to the Storyteller
+the results of their character's actions, and must look to the GM
 to find out "what happens next?". This happens at any point that a
 character is **attempting** to do something where there's a chance of
-failure.  It can also happen spontaneously with the Storyteller springing a
+failure.  It can also happen spontaneously with the GM springing a
 trap or adding a new twist to the story.
 
 # Core Resolution Mechanic: Character Stats
@@ -119,19 +119,19 @@ and reads the result from the card, printed as either ✗ or ✔ symbols.
    * ✗: the attempt was a failure
    * ✔: the attempt was a success
    * ✔✔ : the attempt was an unconditional success
- 6. The Storyteller then interprets the result.
+ 6. The GM then interprets the result.
 
-The interpretation by the Storyteller is the key final step.  It's a
-Storyteller's job to take the result from the Deckahedron and turn it
+The interpretation by the GM is the key final step.  It's a
+GM's job to take the result from the Deckahedron and turn it
 into narrative.  Maybe that means seeing a ✗✗ and declaring that the
 character not only failed, but also injured themselves or alerted their
-foes and gave away their position. The Storyteller should describe the
+foes and gave away their position. The GM should describe the
 new scenario, perhaps touching on some potential paths forward or choices
 in front of the characters, and then ask "What do you do?"
 
 ## Multi Card Flips
 
-The Storyteller may deem a challenge to be particularly difficult or
+The GM may deem a challenge to be particularly difficult or
 particularly easy.  Instead of flipping one card, the player will flip
 multiple and take either the best or the worst result.
 
