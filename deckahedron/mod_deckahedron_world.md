@@ -5,6 +5,10 @@ This is an adaptation of
 for the
 [Deckahedron System](foundation.md)
 
+# Tagline
+
+Like boardgames?  Think you can improv?  Welcome to Deckahedron World!
+
 # Outline
 
 ```
