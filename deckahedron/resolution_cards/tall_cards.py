@@ -133,7 +133,7 @@ class Defy_Danger(Card):
     * by powering through or enduring, flip Str
     * by getting out of the way or acting fast, flip Dex
     * with quick thinking or through mental fortitude, flip Int
-    |On a ✗ / ✔, the GM will offer you a worse outcome, hard bargain, or ugly choice
+    |On a ✗ / ✔, the GM may ask you a question, offer you a worse outcome, hard bargain, or ugly choice
   '''
 
 class Defend(Card):
@@ -153,7 +153,7 @@ class Defend(Card):
     green markers, 1 for 1, to choose an option:
     * Redirect an attack from the thing you defend to yourself
     * Halve the attack's effect or damage
-    * Open up the attacker to an ally giving that ally +1 forward against the attacker
+    * Open up the attacker to an ally giving that ally a +1 advantage against the attacker
     * Deal 1 fatigue to the attacker
   '''
 
@@ -176,7 +176,7 @@ class Discern_Realities(Card):
     '''
   desc = '''
     Closely study a situation or person, ask the GM your question(s), and
-    take +1 forward when acting on the answers.
+    gain a +1 advantage when acting on the answers.
     * What happened here recently?
     * What is about to happen?
     * What should I be on the lookout for?

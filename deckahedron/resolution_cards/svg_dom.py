@@ -10,7 +10,7 @@ from collections import defaultdict
 sys.path.append('/usr/share/inkscape/extensions/')
 from simplestyle import parseStyle, parseColor
 
-DEBUG = 1
+DEBUG = 0
 
 def export_png(svg, png, width, height):
     cmd_fmt = 'inkscape --export-png=%s --export-width=%s --export-height=%s %s'

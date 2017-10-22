@@ -5,6 +5,7 @@
 import os
 import re
 import sys
+import string
 from pprint import pprint, pformat
 from tall_cards import cards
 
@@ -12,9 +13,17 @@ from svg_dom import DOM, export_tall_png
 
 DEBUG = 1
 
+def filenamify(s):
+    x = s.lower()
+    l = [c for c in x if c in (' ' + string.ascii_lowercase)]
+    x = ''.join(l)
+    x = x.replace(' ', '_')
+    return x
+
 
 def filter_dom_elements(dom, card):
     cut_these = [
+      'spacer',
       'mod_str', 'mod_int', 'mod_dex', 'mod_bond',
       'mod_str/dex/int', 'mod_int/dex', 'mod_dex/str',
       'wiz_ne', 'wiz_e', 'wiz_se', 'wiz_sw', 'wiz_w', 'wiz_nw',
@@ -27,6 +36,7 @@ def filter_dom_elements(dom, card):
       'level_start_r3', 'level_start_r2', 'level_start_r1',
       'level_start_0', 'level_start_g1', 'level_start_g2',
       'spot_level_start_0', 'spot_level_start_g1', 'spot_level_start_g2',
+      'C', 'CC/F', 'CC/W', 'CC/R',
     ]
     if card.get('spots'):
         for key in dom.layers:
@@ -87,6 +97,29 @@ def filter_dom_elements(dom, card):
                 dom.layer_hide(key)
 
     for key in dom.layers:
+        if card.get('equipment') and 'equipment' in key:
+            dom.layer_show(key)
+        elif 'equipment' in key:
+            dom.layer_hide(key)
+
+        if card.get('reqs') and 'reqs' in key:
+            dom.layer_show(key)
+        elif 'reqs' in key:
+            dom.layer_hide(key)
+
+        if card.get('tags') and 'tags' in key:
+            dom.layer_show(key)
+        elif 'tags' in key:
+            dom.layer_hide(key)
+
+        if card.get('flags') and 'flags' in key:
+            dom.layer_show(key)
+        elif 'flags' in key:
+            dom.layer_hide(key)
+
+        if card.get('circles') and 'class_' in key:
+            dom.layer_show(key)
+
         if card.get('one_x'):
             if '_2lines' in key:
                 dom.layer_hide(key)
@@ -102,6 +135,10 @@ def filter_dom_elements(dom, card):
             cut_these.remove('spot_level_start_' + card['level_start'])
         else:
             cut_these.remove('level_start_' + card['level_start'])
+
+    if card.get('reqs'):
+        cut_these.remove(card['reqs'])
+
     if card.get('levels'):
         [cut_these.remove('level_' + lvl) for lvl in card['levels']]
 
@@ -193,6 +230,15 @@ def make_card_dom(card):
         raise Exception("Levels only works with level_start")
 
     filter_dom_elements(dom, card)
+
+    if card.get('flags'):
+        flags_text = ','.join(card['flags'])
+        dom.replace_text('flags_text', flags_text)
+
+    if card.get('tags'):
+        tag_text = ','.join(card['tags'])
+        dom.replace_text('card_tags_text', tag_text)
+
     if card.get('one_x'):
         dom.replace_text('words_one_x', card['one_x'], max_chars=60)
     if card.get('x_check'):
@@ -242,7 +288,11 @@ def make_deck(cards):
 
         # Create the svg file and export a PNG
         svg_filename = '/tmp/tall_cards/deck_card_face%02d.svg' % ((i+1))
-        png_filename = '/tmp/tall_cards/deck_card_face%02d.png' % ((i+1))
+        #png_filename = '/tmp/tall_cards/deck_card_face%02d.png' % ((i+1))
+        png_filename = '/tmp/tall_cards/face%02d_%s.png' % (
+            (i+1),
+            filenamify(card['title'])
+        )
 
         dom.write_file(svg_filename)
 

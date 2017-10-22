@@ -69,6 +69,25 @@ def parse_spots(d2):
             d2['spots'][i] = ['BR']
         i += 1
 
+def parse_tags(d2):
+    tags = d2.get('tags')
+    if not tags:
+        d2['tags'] = []
+    else:
+        d2['tags'] = tags.split(',')
+
+def parse_reqs(d2):
+    d2['reqs'] = d2.get('reqs')
+
+def parse_flags(d2):
+    d2['flags'] = []
+    if 'ONGOING' in d2['desc_detail']:
+        d2['flags'].append('ONGOING')
+    if 'UNENCUMBERED' in d2['desc_detail']:
+        d2['flags'].append('UNENCUMBERED')
+    if 'IMMEDIATE' in d2['desc_detail']:
+        d2['flags'].append('IMMEDIATE')
+
 def parse_desc(d2):
     desc_detail = ''
     body = d2.get('desc') or d2.get('effect')
@@ -110,7 +129,10 @@ def parse_checks(d2):
 def parse_attr(d2):
     d2['attr'] = d2['mod'].strip()
 
-def get_dicts_from_spreadsheet(fname):
+def get_dicts_from_spreadsheet(fname, extra_fields=None):
+    if extra_fields is None:
+        extra_fields = {}
+
     f = UTF8File(fname)
     spreadsheet = csv.DictReader(f)
 
@@ -120,7 +142,8 @@ def get_dicts_from_spreadsheet(fname):
         if not name:
             continue
         print 'Processing', name
-        d2 = {k:v.decode('utf-8') for (k,v) in row.items()}
+        d2 = extra_fields.copy()
+        d2.update( {k:v.decode('utf-8') for (k,v) in row.items()} )
         d2['title'] = name.decode('utf-8')
         parse_circles(d2)
         parse_levels(d2)
@@ -128,6 +151,9 @@ def get_dicts_from_spreadsheet(fname):
         parse_checks(d2)
         parse_attr(d2)
         parse_spots(d2)
+        parse_tags(d2)
+        parse_flags(d2)
+        parse_reqs(d2)
 
         l.append(d2)
 
@@ -139,7 +165,7 @@ def get_dicts():
     return (
       get_dicts_from_spreadsheet('character_move_sheet.csv')
       +
-      get_dicts_from_spreadsheet('equipment_sheet.csv')
+      get_dicts_from_spreadsheet('equipment_sheet.csv', {'equipment': True})
     )
 
 class DictObj(dict):
