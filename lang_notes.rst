@@ -107,7 +107,7 @@ Python
    - replace rjust rpartition rstrip strip swapcase title translate upper zfill
 
 
-Coffeescript
+Coffeescript / ES6
  * allowing no-paren functions causes ambiguity / precedence hell
   * foo a, bar c, d
   * foo (a,b) (c,d)
@@ -227,6 +227,11 @@ If I'm gonna do infix, what about going down this rabbit hole:
 
 How will this deal with the infix function having side-effects?  Especially
 if it invokes a.__rmod(5)
+
+```
+for x in 1 ⧽through⧼ 12
+    console.info(x)
+```
 
 ----
 
@@ -792,3 +797,10 @@ foo = 'corriandar'™  # throws an exception
 ```
 
 I don't know how valuable this is though, and it's a bit of a hack
+
+How about this: the ™ is just a hint to the compiler and the version
+control system.  For the compiler, there's a leventshien-distance
+threshold that, if exceeded, causes an error and for the version
+control system, if one ™ string changes but not all of them do, then
+there's an error.
+
