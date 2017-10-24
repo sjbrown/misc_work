@@ -287,8 +287,10 @@ def make_deck(cards):
             raise
 
         # Create the svg file and export a PNG
-        svg_filename = '/tmp/tall_cards/deck_card_face%02d.svg' % ((i+1))
-        #png_filename = '/tmp/tall_cards/deck_card_face%02d.png' % ((i+1))
+        svg_filename = '/tmp/tall_cards/face%02d_%s.svg' % (
+            (i+1),
+            filenamify(card['title'])
+        )
         png_filename = '/tmp/tall_cards/face%02d_%s.png' % (
             (i+1),
             filenamify(card['title'])
