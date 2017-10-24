@@ -161,7 +161,11 @@ Wound cards increase a player's odds of failure.
 
 Provided as a reference, here are the statistics for success and failure.
 
-![Stats](images/stats.png)
+![Stats](images/stats_vert.png)
+
+Another layout of these same stats:
+
+![Stats](images/stats_horiz.png)
 
 Provided as a reference, here are the face sides of a standard 20-card
 Deckahedron.
