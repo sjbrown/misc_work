@@ -7,7 +7,8 @@ for the
 
 # Tagline
 
-Like boardgames?  Think you can improv?  Welcome to Deckahedron World!
+Like board games?  Remember Dungeons & Dragons? Think you can improv?
+Welcome to Deckahedron World!
 
 # Outline
 
