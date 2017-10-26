@@ -21,7 +21,7 @@ p8      - More Moves - Take a Breather, Rest, Heal
 p9      - More Moves - Speed/Equip/Wealth - Run, Shop, GTIB, S+S
 p10     - Mundane Items - Armor, weapons
 p11     - More Moves - Use a Magic Item, EtBB, CtLL
-p12-p14 - Starting a game, Sarukkan's Chamber
+p12-p14 - Starting a game, Sarukkan's Chamber, Character Creation
 p15     - Levelling Up - Study / Craft, Level circles
 ```
 
@@ -118,25 +118,48 @@ Players: 50% Say stuff, 25% Flip your Deckahedron, 12% Move tokens around,
 
 # More Moves - Take a Breather, Rest, Heal
 
-# Speed/Equipment/Wealth 
+When resting, magic items regain all charges, up to their maximum capacity.
+Remove all white-side red cards on your magic items.
 
-## More Moves - Run, Shop, GTIB, S+S
+# Speed/Equipment/Wealth
+
+## More Moves - Run, Shop, Good Thing I Brought..., Sharpen and Stitch
 
 # Mundane Items
 
 ## Armor, weapons
 
-# More Moves - Use a Magic Item, EtBB, CtLL
+# More Moves - Use a Magic Item, Entreat the Blood-Bound, Channel the Living Light
+
+Ask that player "Who is the Blood-Bound"?
 
 # Starting a game
 
 ## Sarukkan's Chamber
+
+## Making your own character
+
+Spread out A, B, C cards, take turns picking
+
+Items - 2 mundane items or 1 magic item
+
+"Use a Magic Item" move gives you 2 magic items
+
+A player will inevitably ask why the magic amulet or ring they've created,
+a trinket that would normally be light, reduces their speed.  At that point
+the GM should ask them a question, "Yes, why does it weigh you down? What
+about magic in this world, or what about your character makes them
+especially burdened by magical items?"
 
 # Leveling Up
 
 ## Flipping green
 
 ## Study / Craft
+
+When crafting a weapon, ask how many red tokens it takes (ie, how much it
+reduces a character's speed). The GM should weigh that cost against the
+weapon's other features
 
 ## Level circles
 

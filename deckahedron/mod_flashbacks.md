@@ -22,7 +22,7 @@ when they had the chance, like use healing magic while they were resting,
 or leveling up a skill when they were in the steading, or getting some key
 information from an NPC before that NPC died.
 
-As long as the player and the GM both agree that they had the necessary
+As long as the player and the GM both agree that the player had the necessary
 resources when the action was available, the GM may allow the player to
 spend those resources and effect that action now, as a "Mercy Flashback",
 for the additional cost of a green token.
