@@ -107,11 +107,11 @@ class Parley(Card):
     Success
   '''
   desc = u'''
-    Using leverage, manipulate an NPC.
+    Using leverage, manipulate an NPC. If you don't have leverage, flip with
+    1 level of disadvantage.
     |Leverage is something they need or want.
     |On a ✔✔, they ask you for something and cooperate if you make them a promise first.
-    |On a ✗ / ✔, they need some concrete assurance of
-    your promise, right now
+    |On a ✗ / ✔, they need some concrete assurance of your promise, right now
   '''
   level_start = '0'
   levels = ['0', 'g1']
