@@ -146,8 +146,9 @@ The GM might say to you:
 > Please flip Defy Danger with your Strength.
 
 Looking over at the character sheet, we see that Chresk has rank 3
-(Crescent) Strength. So you would rotate your Deckahedron so that the
-Crescent symbol is forward, then you would flip over the top card.
+(Crescent) Strength. This means you would rotate your Deckahedron
+so that the Crescent symbol is forward, then you would flip over
+the top card.
 
 Maybe you got a single ✔. The GM now uses the instructions on the
 Defy Danger card ("You do it, but there's a new complication") to
