@@ -134,18 +134,18 @@ It will tell you how you and the GM should interpret the ✗s and ✔s.
 
 ### For example,
 
-You're playing a character named Chresk.  You say:
+You're playing a character named Kresk.  You say:
 
-> Chresk sees the pit of spikes in front of him, but isn't scared.
+> Kresk sees the pit of spikes in front of him, but isn't scared.
 > He just takes a running start and mightily bounds over the pit,
 > landing safely on the other side.
 
 The GM might say to you:
 
-> Ok, sounds good, but let's see if Chresk's legs are strong enough.
+> Ok, sounds good, but let's see if Kresk's legs are strong enough.
 > Please flip Defy Danger with your Strength.
 
-Looking over at the character sheet, we see that Chresk has rank 3
+Looking over at the character sheet, we see that Kresk has rank 3
 (Crescent) Strength. This means you would rotate your Deckahedron
 so that the Crescent symbol is forward, then you would flip over
 the top card.
