@@ -102,10 +102,14 @@ p2-p3
 Inspect your Deckahedron.  You should have 20 cards.  There will be 4
 symbols on the fronts and backs of the cards:
 
- * Anchor - it is red and inndicates the weakest odds. Rank 1
- * Bulb - it is yellow and indicates below average odds. Rank 2
- * Crescent - it is green and indicates above average odds. Rank 3
- * Dart - it is blue and indicates the best odds. Rank 4
+ * Anchor - it is red and inndicates the weakest odds.
+   Sometimes called Rank 1
+ * Bulb - it is yellow and indicates below average odds.
+   Sometimes called Rank 2
+ * Crescent - it is green and indicates above average odds.
+   Sometimes called Rank 3
+ * Dart - it is blue and indicates the best odds.
+   Sometimes called Rank 4
 
 Shuffle your Deckahedron and place it face-down in front of you.
 
