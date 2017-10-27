@@ -3,7 +3,7 @@
 
 ## Move: Craft a Weapon
 
-At a steading, spend 2 META to create a weapon with *More Damage* than your
+At a steading, spend 2 META to create a weapon with *More Power* than your
 current weapon.  Write the weapon's name and details on a blank card, and
 give this card to the GM.
 
@@ -12,7 +12,7 @@ or make it available as loot in your next adventure.
 
 
 
-## More Damage
+## More Power
 
 You should decide at the beginning of your game if your group is going
 to play using polyhedral dice, or play diceless.  The weapon damage will
