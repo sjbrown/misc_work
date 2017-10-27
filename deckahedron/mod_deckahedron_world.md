@@ -145,12 +145,12 @@ The GM might say to you:
 > Ok, sounds good, but let's see if Kresk's legs are strong enough.
 > Please flip Defy Danger with your Strength.
 
-Looking over at the character sheet, we see that Kresk has rank 3
+Look over at the character sheet and see that Kresk has rank 3
 (Crescent) Strength. This means you would rotate your Deckahedron
 so that the Crescent symbol is forward, then you would flip over
 the top card.
 
-Maybe you got a single ✔. The GM now uses the instructions on the
+Maybe you get a single ✔. The GM would use the instructions on the
 Defy Danger card ("You do it, but there's a new complication") to
 say what happens next:
 
