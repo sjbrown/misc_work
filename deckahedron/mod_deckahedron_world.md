@@ -25,6 +25,9 @@ p12-p14 - Starting a game, Sarukkan's Chamber, Character Creation
 p15     - Levelling Up - Study / Craft, Level circles
 ```
 
+```
+p1
+```
 # Welcome to Role-Playing
 
 Deckahedron World is a system for telling a story.  The authors of the story
@@ -72,8 +75,99 @@ GM: Know all the rules, say stuff.  Your domain is the world.
 Players: 50% Say stuff, 25% Flip your Deckahedron, 12% Move tokens around,
 12% Roll dice.  Your domain is your character.
 
+Player:
 
+ * Describe your character and their actions
+    * Refer to your moves to get ideas for your character
+    * Act out their dialogue
+    * Tell *how* they act
+       - flourishes and stunts
+       - their facial expressions, voice, and body language
+    * Tell what they say / hear / see / smell / taste / feel
+    * Describe their thoughts & memories
+    * Chime in when they interact with / support the other characters
+
+ * Tell parts of the story
+    * Refer to your moves to see what boundaries you can push
+    * Tell your character's backstory
+    * Control hirelings and animal companions
+
+
+
+```
+p2-p3
+```
 # The Deckahedron
+
+Inspect your Deckahedron.  You should have 20 cards.  There will be 4
+symbols on the fronts and backs of the cards:
+
+ * Anchor - it is red and inndicates the weakest odds. Rank 1
+ * Bulb - it is yellow and indicates below average odds. Rank 2
+ * Crescent - it is green and indicates above average odds. Rank 3
+ * Dart - it is blue and indicates the best odds. Rank 4
+
+Shuffle your Deckahedron and place it face-down in front of you.
+
+Whenever your character attempts something risky, where the outcome is
+not certain, the GM will call on you to use your Deckahedron and "flip".
+
+First, the GM will name the move you're attempting and which of your
+character's attributes -- Strength, Dexterity, or Intelligence -- you
+will use to resolve the flip.
+
+![Illustration of rotating your Deckahedron](images/component_rotate.png)
+
+Look at the attribute on your character sheet -- what symbol is it, Anchor,
+Bulb, Crescent, or Dart? Rotate your Deckahedron so that that symbol is
+facing forward (away from you). Then flip the top card forward (so that
+when it's face-up, the symbol is facing forward)
+
+![Illustration of flipping a card forward](images/component_flip.png)
+
+The top of the flipped card will show ✗s or ✔s.
+
+![Illustration of reading a card](images/component_read.png)
+
+Finally, find the move card named by the GM and read its instructions.
+It will tell you how you and the GM should interpret the ✗s and ✔s.
+
+### For example,
+
+You're playing a character named Chresk.  You say:
+
+> Chresk sees the pit of spikes in front of him, but isn't scared.
+> He just takes a running start and mightily bounds over the pit,
+> landing safely on the other side.
+
+The GM might say to you:
+
+> Ok, sounds good, but let's see if Chresk's legs are strong enough.
+> Please flip Defy Danger with your Strength.
+
+Looking over at the character sheet, we see that Chresk has rank 3
+(Crescent) Strength. So you would rotate your Deckahedron so that the
+Crescent symbol is forward, then you would flip over the top card.
+
+Maybe you got a single ✔. The GM now uses the instructions on the
+Defy Danger card ("You do it, but there's a new complication") to
+say what happens next:
+
+> You leap through the air, landing with a thud on the other
+> side of the pit, kicking up a cloud of dust on this forgotten
+> jungle trail. As you rise to your feet, you notice it's more than
+> dust that stirs, as you hear movement and a threatening rattle
+> approaching from the pit. What do you do?
+
+### Other ways to flip
+
+    * Take your +1 advantage
+    * Use flashbacks: re-flip with green tokens
+    * Use the critical flip
+    * When you flip a green symbol: take or distribute green tokens
+    * When you flip a fatigue symbol: lose stamina
+
+
 
 ## GM: Examples for what to do on single ✗ results
 
@@ -89,6 +183,7 @@ Players: 50% Say stuff, 25% Flip your Deckahedron, 12% Move tokens around,
 
  * Make a "soft" move
  * Make a "hard" move
+ * Player loses confidence in the skill they just tried.  Put a white-side red card on it until they use it and flip a ✔ or ✔✔
 
 ## GM Moves
 
@@ -110,7 +205,24 @@ Players: 50% Say stuff, 25% Flip your Deckahedron, 12% Move tokens around,
    an additional move
 
 
-# Combat
+## GM responsibility: moving the spotlight
+
+Never let a player's turn to be inconsequential. A player can't wait
+10 minutes for their friends' moves and then their whole turn ends
+with "nothing happens". Give them an opportunity for something. This
+doesn't mean they have to slay a demon on every turn, merely getting
+a big laugh can be "something".
+
+```
+p4-p6
+```
+# Combat - Stamina/Harm/Wounds - GM: moving the spotlight
+
+## Stamina
+
+## Harm
+
+## Wounds
 
 # Flipping Green - get a green token
 
