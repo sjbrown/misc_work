@@ -126,7 +126,7 @@ will use to resolve the flip.
 ![Illustration of rotating your Deckahedron](images/component_rotate.png)
 
 Look at the attribute on your character sheet -- what symbol is it, Anchor,
-Bulb, Crescent, or Dart? Rotate your Deckahedron so that that symbol is
+Bulb, Crescent, or Dart? Rotate your Deckahedron so that the symbol is
 facing forward (away from you). Then flip the top card forward (so that
 when it's face-up, the symbol is facing forward)
 
