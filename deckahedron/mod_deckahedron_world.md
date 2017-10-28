@@ -105,11 +105,8 @@ symbols on the fronts and backs of the cards:
 Name      | symbol                                  | odds                              | color  | rank
 ----------|-----------------------------------------|-----------------------------------|--------|-------
 Anchor    | ![anchor symbol](images/anchor.png)     | indicates the weakest odds        | red    | rank 1
-----------|-----------------------------------------|-----------------------------------|--------|-------
 Bulb      | ![bulb symbol](images/bulb.png)         | indicates below average odds      | yellow | rank 2
-----------|-----------------------------------------|-----------------------------------|--------|-------
 Crescent  | ![crescent symbol](images/crescent.png) | indicates above average odds      | green  | rank 3
-----------|-----------------------------------------|-----------------------------------|--------|-------
 Dart      | ![dart symbol](images/dart.png)         | indicates the best odds           | blue   | rank 4
 
 Shuffle your Deckahedron and place it face-down in front of you.
