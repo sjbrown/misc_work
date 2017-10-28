@@ -118,6 +118,11 @@ First, the GM will name the move you're attempting and which of your
 character's attributes -- Strength, Dexterity, or Intelligence -- you
 will use to resolve the flip.
 
+    GM Note: The attributes used to resolve a move are listed at the top
+    of each card.  Sometimes a card will give the option of several
+    attributes, like "Str / Dex".  You may need to ask the player for more
+    detail about what they are attempting before calling for a flip.
+
 ![Illustration of rotating your Deckahedron](images/component_rotate.png)
 
 Look at the attribute on your character sheet -- what symbol is it, Anchor,
@@ -134,7 +139,9 @@ The top of the flipped card will show ✗s or ✔s.
 Finally, find the move card named by the GM and read its instructions.
 It will tell you how you and the GM should interpret the ✗s and ✔s.
 
-### For example,
+Put the face-up Deckahedron card in your *discard pile*.
+
+## For example,
 
 You're playing a character named Kresk.  You say:
 
@@ -162,36 +169,105 @@ say what happens next:
 > dust that stirs, as you hear movement and a threatening rattle
 > approaching from the pit. What do you do?
 
-### Other ways to flip
+## Other ways to flip: Advantage / Disadvantage
 
-    * Take your +1 advantage
-    * Use flashbacks: re-flip with green tokens
-    * Use the critical flip
-    * When you flip a green symbol: take or distribute green tokens
-    * When you flip a fatigue symbol: lose stamina
+Some flips are a little more complicated. Some moves in Deckahedron
+World instruct you to "add an advantage card" or "flip with advantage".
+Sometimes you will be given the opposite instruction, "add a
+disadvantage card or "flip with disadvantage".
+
+### Advantage
+
+With an advantage, you flip over your top card as usual, and then you
+flip over the next card on the top of the Deckahedron.
+Compare the results (the number of ✗s or ✔s)
+and resolve the flip with the card that has the **best** result.
+
+If it's a tie, you may choose whichever card to be the card that resolves
+the flip.
+
+You must flip over all the cards you were instructed to, even if the first
+card shows ✔✔.
+
+All cards that got flipped face-up go in your *discard pile*.
+
+### Disadvantage
+
+With a disadvantage, do the same thing, but use the **worst** result.
+
+### Multiple Advantages / Disadvantages
+
+For a given flip, you may be instructed to add two advantage cards or two
+disadvantage cards.  This means you would flip **3 cards in total** and take
+the **best** or **worst**, respectively.
+
+No flip may use more than 3 cards in total, so adding advantage cards past 2
+is just ignored.
+
+Sometimes you're in a situation where you are instructed to both
+"flip with advantage" and "flip with disadvantage". To resolve any move,
+simply add up all the advantages, and then subtract all the disadvantages
+to arrive at your sum of advantage or disadvantage.
+The maximum is two extra cards, so if the sum is -3, you only
+flip with two disadvantage cards.
 
 
+## Other flip complications: Green token cards
 
-## GM: Examples for what to do on single ✗ results
+Some of your Deckahedron cards have a green token symbol in the middle.
+When you resolve a flip with a card that has this symbol, you have a choice:
+
+ * Take a green token (these can be spent to perform certain moves)
+ * Go up one level in the move you just performed (see Move Levels)
+
+You may only do this when the card *resolves* a flip.
+
+## Other flip complications: Wound cards
+
+Sometimes you will flip over a Wound card.  See the Combat chapter.
+
+
+## Reshuffling
+
+At any time before a flip, or after a flip is resolved, you can take your
+*discard pile* and shuffle it back into your Deckahedron.
+
+Whenever your Deckahedron is down to 5 or fewer cards, you **must** take
+your *discard pile* and shuffle it back into your Deckahedron.
+
+
+## GM Notes: What to do on flips
+
+When a player is performing a move, you should read the move card so that
+you can interpret the result of the flip. Usually ✔✔ means an unfettered
+success, and single ✔ means success, but with complication. 
+
+When the result is a single ✗, it is sometimes the same as a single ✔, but
+often it is slightly worse. When a flip results in a single ✗, even when
+the move card says it has the same narrative effect as a single ✔, you
+should add a point to your *Bad Bank*.  See the GM Guide.
+
+When the result is ✗✗, it is your turn to make a move.  You narrate the
+consequences of the move the player just attempted and you have license to
+take the narrative where you'd like.  See the GM Guide.
+
+There is an exception to the GM moves on ✗ and ✗✗.  When the move card
+has the tag *IMMEDIATE*, then the GM does not add points to their *Bad
+Bank* on a ✗ and they don't make a move on a ✗✗.
+
+### GM: Examples for spending points from the *Bad Bank*
 
  * Make a "soft" move
- * Give an opponent an extra Stamina point
- * Give an opponent +1 to the next time they do damage
+ * Give a foe an extra Stamina point
+ * Give a foe +1 to the next time they do damage
  * Make a cost a bit more expensive
  * Make a treasure a bit less valuable
  * One of the character's resources gets cosmetically changed
- * **Bank** a point
-
-## GM: Examples for what to do on ✗✗ results
-
- * Make a "soft" move
- * Make a "hard" move
- * Player loses confidence in the skill they just tried.  Put a white-side red card on it until they use it and flip a ✔ or ✔✔
 
 ## GM Moves
 
  * The Dungeon World moves
- * Increment the difficulty on ✗
+ * Player loses confidence in the skill they just tried.  Put a white-side red card on it until they use it and flip a ✔ or ✔✔
  * "Call for an Ad-Hoc Challenge"
   - eg, "Something feels weird about this bridge. Flip Int to notice
     what the problem is"
@@ -210,11 +286,15 @@ say what happens next:
 
 ## GM responsibility: moving the spotlight
 
-Never let a player's turn to be inconsequential. A player can't wait
-10 minutes for their friends' moves and then their whole turn ends
-with "nothing happens". Give them an opportunity for something. This
-doesn't mean they have to slay a demon on every turn, merely getting
-a big laugh can be "something".
+Never let a player's turn to be inconsequential. A player might wait
+10 minutes for their friends' moves, so if their whole turn in the
+spotlight ends with "nothing happens" this game will be very unfun.
+Give them an opportunity for something. This doesn't mean they have
+to slay a demon on every turn, merely getting a big laugh can
+be "something".
+
+Remember, this is a collaborative story.  Laughter and excitement
+are the rewards for everyone.
 
 ```
 p4-p6
@@ -247,6 +327,10 @@ Remove all white-side red cards on your magic items.
 # More Moves - Use a Magic Item, Entreat the Blood-Bound, Channel the Living Light
 
 Ask that player "Who is the Blood-Bound"?
+
+    GM Note: this is a great way to stretch your improv muscles. Say "Yes,
+    and..." no matter if they identify the Blood-Bound as tiny, parasitic
+    insects or as monstrous, extradimensional dark gods.
 
 # Starting a game
 
