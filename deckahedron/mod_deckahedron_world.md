@@ -137,7 +137,7 @@ The top of the flipped card will show ✗s or ✔s.
 ![Illustration of reading a card](images/component_read.png)
 
 Finally, find the move card named by the GM and read its instructions.
-It will tell you how you and the GM should interpret the ✗s and ✔s.
+It will tell you how the GM should interpret the ✗s and ✔s.
 
 Put the face-up Deckahedron card in your *discard pile*.
 
@@ -161,7 +161,7 @@ the top card.
 
 Maybe you get a single ✔. The GM would use the instructions on the
 Defy Danger card ("You do it, but there's a new complication") to
-say what happens next:
+improvise what happens next:
 
 > You leap through the air, landing with a thud on the other
 > side of the pit, kicking up a cloud of dust on this forgotten
@@ -186,10 +186,13 @@ and resolve the flip with the card that has the **best** result.
 If it's a tie, you may choose whichever card to be the card that resolves
 the flip.
 
+All cards that got flipped face-up go in your *discard pile*.
+
+#### Complete Flip Rule
+
 You must flip over all the cards you were instructed to, even if the first
 card shows ✔✔.
 
-All cards that got flipped face-up go in your *discard pile*.
 
 ### Disadvantage
 
@@ -215,7 +218,8 @@ flip with two disadvantage cards.
 ## Other flip complications: Green token cards
 
 Some of your Deckahedron cards have a green token symbol in the middle.
-When you resolve a flip with a card that has this symbol, you have a choice:
+After a flip is resolved by a card showing a green token symbol,
+you have a choice:
 
  * Take a green token (these can be spent to perform certain moves)
  * Go up one level in the move you just performed (see Move Levels)
@@ -252,7 +256,7 @@ consequences of the move the player just attempted and you have license to
 take the narrative where you'd like.  See the GM Guide.
 
 There is an exception to the GM moves on ✗ and ✗✗.  When the move card
-has the tag *IMMEDIATE*, then the GM does not add points to their *Bad
+has the tag *IMMEDIATE*, the GM does not add points to their *Bad
 Bank* on a ✗ and they don't make a move on a ✗✗.
 
 ### GM: Examples for spending points from the *Bad Bank*
