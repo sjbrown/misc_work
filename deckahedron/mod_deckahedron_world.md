@@ -305,20 +305,252 @@ p4-p6
 ```
 # Combat - Stamina/Harm/Wounds - GM: moving the spotlight
 
-## Stamina
+Here are rules that tell you when your character is able to endure
+exertion and injury to keep moving forward or tell you when your
+character is completely spent and collapses in a heap.
+
+When a character is in a fight, they are running, dodging, striking, and
+being struck and assailed by their foe.  All of this stuff is scary and
+exhausting. So a character will get weaker the longer they're in this
+exchange, even if they're dodging every blow.
+
+This weakening is represented by cards from your Deckahedron being lost
+into your *Exhaustion pile*.
+
+Think of a boxing match or a mixed martial arts match. During the later
+rounds, the athletes are worn down, don't jump around the ring with as
+much vigor, and drop their guard more frequently. The contest is not
+always decided with a knockout punch, it often comes down to who can
+better endure the exertion.
+
+## Phases
+
+When your character gets attacked or falls victim to some other danger,
+you will have choices about exactly how they are affected. They may dodge,
+and just lose Stamina, they may take Harm to absorb the blow with their
+armour (or with their face), or they may be wounded by the damage.
+
+The **first phase** is rolling dice to arrive at a number.
+
+The **second phase** is deciding how to split that number among 3
+categories, Stamina, Harm, or Wounds.
+
+The **third phase** is optional: absorbing some points using any relevant
+move cards and item cards.
+
+Finally, the **fourth phase**: you interpret those results into the 
+narrative.  Did your character dive into the dirt?  Did they take a punch
+to the jaw and respond with a bloodied grin?  Did the spear bounce right
+off their steel breastplate?
+
+### Second Phase
+
+When you are hit in combat, you roll dice to get a number. If you choose
+not to split that dice result number, by default, you will lose that amount
+of Stamina points.
+
+Let's say your character was hit by a sword and the dice were rolled and
+summed up to 7.  The simplest thing would be to lose 7 Stamina points.
+
+But maybe you only have 7 Stamina points left in your deck, and you don't
+want your character to be incapacitated. You have a couple options:
+
+Taking Harm tokens reduce the dice result by 3 and taking Wound tokens
+reduce the dice result by 6.
+
+You could subtract the dice result by **3** and take **1 Harm token**.
+Thus you would split the 7 into:
+ * 4 Stamina points
+ * 1 Harm token
+
+You could even do that twice, subtracting a total of 6 from the dice result
+to take 2 Harm tokens.
+Thus you would split the 7 into:
+ * 1 Stamina point
+ * 2 Harm tokens
+
+Another option would be to take a Wound. You could subtract **6** from the dice
+result to take **1 Wound token**.
+Thus you would split the 7 into:
+ * 1 Stamina point
+ * 1 Wound token
+
+
+## Stamina / Exhaustion
+
+Characters have 10 Stamina points.  These points are represented by
+cards in your Deckahedron with a Stamina symbol
+
+![Cards with and without Stamina symbol](images/with_without_stamina.png)
+
+To win at combat, a character's foes must be subdued or pacified before the
+player's Deckahedron has been emptied of Stamina points.
+
+When you are instructed to lose a Stamina point, you may absorb it
+using any relevant move cards and item cards, otherwise:
+
+ 1. reveal cards in your Deckahedron until you find a card with a Stamina symbol
+ 2. put that card aside, face-up in your *Exhaustion pile*
+ 3. the other revealed cards go into your *discard pile*
+
+![Component layout](images/component_layout.png)
+
+You should put an Exhaustion token on top of the *Exhaustion pile* to
+distinguish it from your *discard pile*.
+
+![Exhaustion token](images/component_exhaustion.png)
+
+(So, if you were instructed to lose 3 Stamina points, you would add 3 cards
+with Stamina symbols onto your Exhaustion pile)
+
+If searching through their Deckahedron does not yield a card with a Stamina
+symbol, the player **must** reshuffle their *discard pile* into the
+Deckahedron and continue searching.
+
+Note: Players *may* choose to reshuffle their *discard pile* back into the
+Deckahedron *before* searching for Stamina points.
+
+If there are no Stamina points in the Deckahedron *or* the *discard pile*,
+then all 10 must be in the *Exhaustion pile*. In this case, the character
+is *incapacitated* and can take no further actions.
+It is up to the GM to decide what this incapacitation means - whether
+the character is dead, unconscious, or just unable to stand or move. The
+GM has rules for this, see the GM Guide.
+
 
 ## Harm
 
+Think of that boxing match again.  If Stamina represents dancing, ducking,
+and dodging, then Harm represents landing a blow.
+These rules are also for representing mental strain that is so significant
+that the negative effects will last for a while.
+
+When you are instructed to take a Harm token, you may absorb it
+using any relevant move cards and item cards, otherwise:
+
+ * **If you already have 2 Harm tokens on your Exhaustion pile**:
+   - Take a *Wound* instead
+ * **Otherwise**:
+   1. the GM will describe what kind of harm this represents
+   2. Lose a Stamina point
+   3. Place a *Harm token* on your *Exhaustion pile*
+
+
 ## Wounds
+
+Getting wounded sucks, and when wounded, all intelligent creatures seek
+to cure their condition as a very high priority.
+
+When you are instructed to take a Wound token, you may absorb it
+using any relevant move cards and item cards, otherwise:
+
+ * **If you already have 2 wounds**:
+   - the character is incapacitated
+ * **Otherwise**:
+   - the GM will describe how the character was wounded
+   - Lose a Stamina point
+   - Place a *Wound token* on your *Exhaustion pile*
+   - Place a *Wound card* in your *discard pile*. It will now start cycling
+     between your Deckahedron and your *discard pile*.
+
+A Wound Card                                 |
+---------------------------------------------|
+![Image of Wound card](images/wound_200.png) |
+
+
+Having a *Wound card* in your Deckahedron causes some nasty effects.
+
+Whenever you **flip** and reveal a wound card:
+
+ * Say or act out the gutteral noise emitted by your character
+ * You must immediately stop flipping (eg, if your the move
+   instructed you to "flip 3", you would stop short once you hit
+   the wound card - resolve the move with only the card(s) you flipped.
+   This overrides the **Complete Flip Rule**)
+ * Lose a stamina point
+
 
 # Flipping Green - get a green token
 
+
 # More Moves - Do a Flashback, Critical Flip
+
 
 # More Moves - Take a Breather, Rest, Heal
 
+## Taking a Breather
+
+**Taking a Breather** is a move that a character can take during combat.
+This action allows a character to regain Stamina points.
+
+The player can use either Intelligence or Dexterity to perform the **Take a
+Breather** action.
+
+If they use Intelligence, they say how they execute a tactic or
+recognize a favourable position that lets them gather their breath
+and their wits. Then they flip a card.
+
+If they use Dexterity, they say how they maneuver into a safe position
+that offers some temporary safety. Then they flip a card and follow the
+instructions on the card to see how many Stamina they regain.
+
+Note: "regain Stamina" can be done either by taking cards from the
+*Exhaustion pile* and putting them into the *discard pile*, or by discarding
+Exhaustion tokens.
+
+When taking cards from the *Exhaustion pile*, the player may choose any cards
+they want.
+
+    GM Note:
+    When appropriate for the narrative (e.g. when there's a scene transition
+    and the characters are just walking down a hallway), the GM may prompt the
+    players to **Take a Breather** as an IMMEDIATE move.
+
+
+## Resting
+
+*Resting* is an action that a character can take when they are out of combat,
+not travelling, and have several hours to devote to rest (sleeping qualifies).
+
+ * Discard all *Exhaustion tokens*
+ * Discard one *Harm token*
+ * Count the remaining *Harm* and *Wound* tokens on your *Exhaustion pile*
+ * Keep that many cards (chosen at random) in your *Exhaustion pile*, put
+   the rest into your *discard pile*
+
+Note: Time devoted to *Resting* cannot also be devoted to learning skills,
+studying with a teacher, or any other action that takes mental or physical
+effort.
+
 When resting, magic items regain all charges, up to their maximum capacity.
 Remove all white-side red cards on your magic items.
+
+
+## Healing
+
+*Healing* is an action that a character can take when they are in a peaceful
+environment and have time and resources to spend on self-care.
+
+Eg, if they are in a primitive camp posessing medicine men or a
+contemporary city with doctors and hospitals or a tranquil oasis infused
+with healing magic.
+
+Healing can also be effected by equipment and skills.
+See [Equipment](mod_speed_equipment_money.md) and [Characters](mod_characters.md)
+
+When you spend a day healing:
+
+ * Describe your character's healing experience
+ * Discard all *Exhaustion tokens*
+ * Discard all *Harm tokens*
+ * Discard one *Wound token*
+ * Count the remaining *Wound* tokens on your *Exhaustion pile*
+ * Keep that many cards (chosen at random) in your *Exhaustion pile*, put
+   the rest into your *discard pile*
+
+As with *Resting*, time spent *Healing* cannot also be used in activities that
+take effort.
+
 
 # Speed/Equipment/Wealth
 
