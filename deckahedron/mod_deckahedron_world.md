@@ -354,27 +354,29 @@ summed up to 7.  The simplest thing would be to lose 7 Stamina points.
 
 But maybe you only have 7 Stamina points left in your deck, and you don't
 want your character to be incapacitated. You have a couple options:
+ * Take a Harm token to reduce the dice result by 3
+ * Take a Wound token to reduce the dice result by 6
 
-Taking Harm tokens reduce the dice result by 3 and taking Wound tokens
-reduce the dice result by 6.
-
-You could subtract the dice result by **3** and take **1 Harm token**.
-Thus you would split the 7 into:
+For example, you could subtract the dice result by **3** and take 
+**1 Harm token**.
+Thus you would split the dice result of 7 into:
  * 4 Stamina points
  * 1 Harm token
 
 You could even do that twice, subtracting a total of 6 from the dice result
 to take 2 Harm tokens.
-Thus you would split the 7 into:
+Thus you would split the dice result of 7 into:
  * 1 Stamina point
  * 2 Harm tokens
 
 Another option would be to take a Wound. You could subtract **6** from the dice
 result to take **1 Wound token**.
-Thus you would split the 7 into:
+Thus you would split the dice result of 7 into:
  * 1 Stamina point
  * 1 Wound token
 
+Note: as described later, taking Wound and Harm tokens can sometimes also
+cause loss of Stamina points.
 
 ## Stamina / Exhaustion
 
@@ -431,10 +433,10 @@ using any relevant move cards and item cards, otherwise:
  * **If you already have 2 Harm tokens on your Exhaustion pile**:
    - Take a *Wound* instead
  * **Otherwise**:
-   1. the GM will describe what kind of harm this represents
-   2. Lose a Stamina point
-   3. Place a *Harm token* on your *Exhaustion pile*
+   1. Lose a Stamina point
+   2. Place a *Harm token* on your *Exhaustion pile*
 
+![Harm token](images/component_harm.png)
 
 ## Wounds
 
@@ -453,10 +455,11 @@ using any relevant move cards and item cards, otherwise:
    - Place a *Wound card* in your *discard pile*. It will now start cycling
      between your Deckahedron and your *discard pile*.
 
-A Wound Card                                 |
----------------------------------------------|
-![Image of Wound card](images/wound_200.png) |
+![Wound token](images/component_wound.png)
 
+### A Wound Card
+
+![Image of Wound card](images/wound_200.png) |
 
 Having a *Wound card* in your Deckahedron causes some nasty effects.
 
