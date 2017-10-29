@@ -174,7 +174,7 @@ improvise what happens next:
 Some flips are a little more complicated. Some moves in Deckahedron
 World instruct you to "add an advantage card" or "flip with advantage".
 Sometimes you will be given the opposite instruction, "add a
-disadvantage card or "flip with disadvantage".
+disadvantage card" or "flip with disadvantage".
 
 ### Advantage
 
