@@ -398,7 +398,9 @@ using any relevant move cards and item cards, otherwise:
 ![Component layout](images/component_layout.png)
 
 You should put an Exhaustion token on top of the *Exhaustion pile* to
-distinguish it from your *discard pile*.
+distinguish it from your *discard pile*. But, unlike Harm and Wound tokens,
+you don't have to put an Exhaustion token on the pile for each Stamina point
+lost, that's what the cards are for.
 
 ![Exhaustion token](images/component_exhaustion.png)
 
