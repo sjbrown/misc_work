@@ -86,6 +86,7 @@ Python
   * different symbols: myarray⟦2~9⟧, myarray⟦~-2|4⟧, myarray⟦⟧, myarray⟦|4⟧
  * Corallory to the one in Javascript, you have to put quotes around all
  your key names when you're making a struct-like dict
+ * single-item tuple: (1,) because (1) is algebra
  * "is" and == is confusing. Novices often want to use "is" everywhere
  * implicitly returning None can get you into trouble
   * Maybe when generating Python code, return an object whose magic methods
@@ -232,6 +233,14 @@ if it invokes a.__rmod(5)
 for x in 1 ⧽through⧼ 12
     console.info(x)
 ```
+
+Use american shorthand:
+
+```
+for x in 1 ⧽thru⧼ 12
+    console.info(x)
+```
+
 
 ----
 
@@ -708,6 +717,11 @@ Ok, now that we've gone this far, let's look at the quotes again...
     foo."5"     # get the character at index 5
     foo."5:10"  # get the string at slice(5,10)
     foo."'zab(.*)zoob'"  # Regex?
+
+    fob = [3, 4, 8, 16]
+
+    fob.[1]     # 4
+    fob.[1:3]   # [4,5]
 
     # If we consider this an overridable pattern, we could create a
     # DOM class whose instances could do stuff like this:
