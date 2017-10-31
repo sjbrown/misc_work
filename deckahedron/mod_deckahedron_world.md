@@ -217,6 +217,8 @@ flip with two disadvantage cards.
 
 ## Other flip complications: Green token cards
 
+![A green token card](images/component_card_green_token.png)
+
 Some of your Deckahedron cards have a green token symbol in the middle.
 After a flip is resolved by a card showing a green token symbol,
 you have a choice:
@@ -354,24 +356,28 @@ summed up to 7.  The simplest thing would be to lose 7 Stamina points.
 
 But maybe you only have 7 Stamina points left in your deck, and you don't
 want your character to be incapacitated. You have a couple options:
+
  * Take a Harm token to reduce the dice result by 3
  * Take a Wound token to reduce the dice result by 6
 
 For example, you could subtract the dice result by **3** and take 
 **1 Harm token**.
 Thus you would split the dice result of 7 into:
+
  * 4 Stamina points
  * 1 Harm token
 
 You could even do that twice, subtracting a total of 6 from the dice result
 to take 2 Harm tokens.
 Thus you would split the dice result of 7 into:
+
  * 1 Stamina point
  * 2 Harm tokens
 
 Another option would be to take a Wound. You could subtract **6** from the dice
 result to take **1 Wound token**.
 Thus you would split the dice result of 7 into:
+
  * 1 Stamina point
  * 1 Wound token
 
@@ -573,6 +579,9 @@ Ask that player "Who is the Blood-Bound"?
     and..." no matter if they identify the Blood-Bound as tiny, parasitic
     insects or as monstrous, extradimensional dark gods.
 
+```
+p12-p14
+```
 # Starting a game
 
 ## Sarukkan's Chamber
@@ -591,7 +600,14 @@ the GM should ask them a question, "Yes, why does it weigh you down? What
 about magic in this world, or what about your character makes them
 especially burdened by magical items?"
 
-# Leveling Up
+Ask this question to each player: What about your character's personality
+causes them to overreach?  What makes them take risks a normal person would
+avoid?  Are they brave, foolhardy, driven, greedy, curious, grieving?
+
+```
+p15
+```
+# Levelling Up
 
 ## Flipping green
 
