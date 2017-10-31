@@ -204,24 +204,6 @@ class Spout_Lore(Card):
     |On a ✗, the GM will ask you "How do you know this?".
     '''
 
-class Aid_or_Interfere(Card):
-  attr = 'Bond'
-  two_check = '''
-    Target takes +1 or -2
-    |(your choice)
-    '''
-  one_check = '''
-    Target takes +1 or -2
-    |(your choice)
-    |You are exposed to cost,
-    retribution, or danger
-    '''
-  desc = '''
-    Help (place 1 green marker on their deckahedron to remember)
-    or hinder (place 2 red markers on their deckahedron to remember)
-    someone you have a Bond with.
-    '''
-
 
 
 locs = locals()
