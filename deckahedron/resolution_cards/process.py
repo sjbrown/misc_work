@@ -38,26 +38,26 @@ from svg_dom import DOM, export_square_png
 
 cards
 
-[{'Pro': False, 'Tmark': False, 'a': 1, 'b': 1, 'c': 1, 'd': 1},
- {'Pro': False, 'Tmark': False, 'a': 1, 'b': 2, 'c': 4, 'd': 1},
- {'Pro': False, 'Tmark': False, 'a': 1, 'b': 2, 'c': 3, 'd': 2},
- {'Pro': False, 'Tmark': False, 'a': 1, 'b': 4, 'c': 3, 'd': 4},
- {'Pro': True, 'Tmark': False, 'a': 2, 'b': 2, 'c': 3, 'd': 4},
- {'Pro': True, 'Tmark': False, 'a': 2, 'b': 3, 'c': 2, 'd': 3},
- {'Pro': False, 'Tmark': False, 'a': 1, 'b': 1, 'c': 2, 'd': 3},
- {'Pro': False, 'Tmark': False, 'a': 2, 'b': 1, 'c': 2, 'd': 3},
- {'Pro': False, 'Tmark': False, 'a': 2, 'b': 2, 'c': 1, 'd': 2},
- {'Pro': False, 'Tmark': False, 'a': 3, 'b': 1, 'c': 2, 'd': 2},
- {'Pro': False, 'Tmark': True, 'a': 4, 'b': 4, 'c': 4, 'd': 4},
- {'Pro': False, 'Tmark': True, 'a': 1, 'b': 3, 'c': 3, 'd': 4},
- {'Pro': False, 'Tmark': True, 'a': 3, 'b': 3, 'c': 4, 'd': 2},
- {'Pro': False, 'Tmark': True, 'a': 3, 'b': 1, 'c': 3, 'd': 4},
- {'Pro': False, 'Tmark': True, 'a': 1, 'b': 2, 'c': 2, 'd': 4},
- {'Pro': True, 'Tmark': True, 'a': 3, 'b': 2, 'c': 1, 'd': 4},
- {'Pro': True, 'Tmark': True, 'a': 1, 'b': 4, 'c': 4, 'd': 2},
- {'Pro': True, 'Tmark': True, 'a': 3, 'b': 4, 'c': 3, 'd': 4},
- {'Pro': False, 'Tmark': True, 'a': 4, 'b': 3, 'c': 4, 'd': 2},
- {'Pro': False, 'Tmark': True, 'a': 3, 'b': 3, 'c': 1, 'd': 3}]
+[{'Pro': False, 'Stamina': False, 'a': 1, 'b': 1, 'c': 1, 'd': 1},
+ {'Pro': False, 'Stamina': False, 'a': 1, 'b': 2, 'c': 4, 'd': 1},
+ {'Pro': False, 'Stamina': False, 'a': 1, 'b': 2, 'c': 3, 'd': 2},
+ {'Pro': False, 'Stamina': False, 'a': 1, 'b': 4, 'c': 3, 'd': 4},
+ {'Pro': True, 'Stamina': False, 'a': 2, 'b': 2, 'c': 3, 'd': 4},
+ {'Pro': True, 'Stamina': False, 'a': 2, 'b': 3, 'c': 2, 'd': 3},
+ {'Pro': False, 'Stamina': False, 'a': 1, 'b': 1, 'c': 2, 'd': 3},
+ {'Pro': False, 'Stamina': False, 'a': 2, 'b': 1, 'c': 2, 'd': 3},
+ {'Pro': False, 'Stamina': False, 'a': 2, 'b': 2, 'c': 1, 'd': 2},
+ {'Pro': False, 'Stamina': False, 'a': 3, 'b': 1, 'c': 2, 'd': 2},
+ {'Pro': False, 'Stamina': True, 'a': 4, 'b': 4, 'c': 4, 'd': 4},
+ {'Pro': False, 'Stamina': True, 'a': 1, 'b': 3, 'c': 3, 'd': 4},
+ {'Pro': False, 'Stamina': True, 'a': 3, 'b': 3, 'c': 4, 'd': 2},
+ {'Pro': False, 'Stamina': True, 'a': 3, 'b': 1, 'c': 3, 'd': 4},
+ {'Pro': False, 'Stamina': True, 'a': 1, 'b': 2, 'c': 2, 'd': 4},
+ {'Pro': True, 'Stamina': True, 'a': 3, 'b': 2, 'c': 1, 'd': 4},
+ {'Pro': True, 'Stamina': True, 'a': 1, 'b': 4, 'c': 4, 'd': 2},
+ {'Pro': True, 'Stamina': True, 'a': 3, 'b': 4, 'c': 3, 'd': 4},
+ {'Pro': False, 'Stamina': True, 'a': 4, 'b': 3, 'c': 4, 'd': 2},
+ {'Pro': False, 'Stamina': True, 'a': 3, 'b': 3, 'c': 1, 'd': 3}]
 '''
 
 
@@ -109,7 +109,7 @@ def filter_dom_elements(dom, card, deck_title, dice_rule):
         if not card.get('Pro'):
             dom.cut_element('proficient')
 
-        if not card.get('Tmark'):
+        if not card.get('Stamina'):
             dom.layer_hide('exhaustion')
 
         # Choose the dice pips to print out

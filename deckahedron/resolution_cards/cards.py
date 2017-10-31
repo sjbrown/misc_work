@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*-
 
 import random
+import itertools
 from collections import defaultdict, OrderedDict
 
 def pct(x, total):
@@ -13,26 +14,26 @@ x=[4,5,6,5]; c = [1]*x[0] + [2]*x[1] + [3]*x[2] + [4]*x[3]
 x=[2,6,4,8]; d = [1]*x[0] + [2]*x[1] + [3]*x[2] + [4]*x[3]
 
 cards = [
- {'Pro': False, 'Tmark': False, 'a': 1, 'b': 1, 'c': 1, 'd': 1, 'crit_fail': True},
- {'Pro': True,  'Tmark': False, 'a': 1, 'b': 2, 'c': 4, 'd': 1},
- {'Pro': False, 'Tmark': False, 'a': 1, 'b': 2, 'c': 3, 'd': 2},
- {'Pro': False, 'Tmark': False, 'a': 1, 'b': 4, 'c': 3, 'd': 4},
- {'Pro': False, 'Tmark': False, 'a': 2, 'b': 2, 'c': 3, 'd': 4},
- {'Pro': False, 'Tmark': False, 'a': 2, 'b': 3, 'c': 2, 'd': 3},
- {'Pro': False, 'Tmark': False, 'a': 1, 'b': 1, 'c': 2, 'd': 3},
- {'Pro': False, 'Tmark': False, 'a': 2, 'b': 1, 'c': 2, 'd': 3},
- {'Pro': True,  'Tmark': False, 'a': 2, 'b': 2, 'c': 1, 'd': 2},
- {'Pro': False, 'Tmark': False, 'a': 3, 'b': 1, 'c': 2, 'd': 2},
- {'Pro': False, 'Tmark': True, 'a': 4, 'b': 4, 'c': 4, 'd': 4, 'crit_win': True},
- {'Pro': False, 'Tmark': True, 'a': 1, 'b': 3, 'c': 3, 'd': 4},
- {'Pro': False, 'Tmark': True, 'a': 3, 'b': 3, 'c': 4, 'd': 2},
- {'Pro': False, 'Tmark': True, 'a': 3, 'b': 1, 'c': 3, 'd': 4},
- {'Pro': True , 'Tmark': True, 'a': 1, 'b': 2, 'c': 2, 'd': 4},
- {'Pro': True,  'Tmark': True, 'a': 3, 'b': 2, 'c': 1, 'd': 4},
- {'Pro': True,  'Tmark': True, 'a': 1, 'b': 4, 'c': 4, 'd': 2},
- {'Pro': False, 'Tmark': True, 'a': 3, 'b': 4, 'c': 3, 'd': 4},
- {'Pro': False, 'Tmark': True, 'a': 4, 'b': 3, 'c': 4, 'd': 2},
- {'Pro': False, 'Tmark': True, 'a': 3, 'b': 3, 'c': 1, 'd': 3},
+ {'Pro': False, 'Stamina': False, 'a': 1, 'b': 1, 'c': 1, 'd': 1, 'crit_fail': True},
+ {'Pro': False, 'Stamina': False, 'a': 1, 'b': 2, 'c': 3, 'd': 2},
+ {'Pro': False, 'Stamina': False, 'a': 1, 'b': 4, 'c': 3, 'd': 4},
+ {'Pro': False, 'Stamina': False, 'a': 2, 'b': 2, 'c': 3, 'd': 4},
+ {'Pro': False, 'Stamina': False, 'a': 2, 'b': 3, 'c': 2, 'd': 3},
+ {'Pro': False, 'Stamina': False, 'a': 1, 'b': 2, 'c': 2, 'd': 3},
+ {'Pro': False, 'Stamina': False, 'a': 2, 'b': 1, 'c': 2, 'd': 3},
+ {'Pro': True,  'Stamina': False, 'a': 1, 'b': 1, 'c': 4, 'd': 1},
+ {'Pro': True,  'Stamina': False, 'a': 2, 'b': 2, 'c': 1, 'd': 2},
+ {'Pro': False, 'Stamina': False, 'a': 3, 'b': 1, 'c': 2, 'd': 2},
+ {'Pro': False, 'Stamina': True, 'a': 4, 'b': 4, 'c': 4, 'd': 4, 'crit_win': True},
+ {'Pro': False, 'Stamina': True, 'a': 1, 'b': 3, 'c': 3, 'd': 4},
+ {'Pro': False, 'Stamina': True, 'a': 3, 'b': 3, 'c': 4, 'd': 4},
+ {'Pro': False, 'Stamina': True, 'a': 3, 'b': 4, 'c': 3, 'd': 4},
+ {'Pro': True , 'Stamina': True, 'a': 1, 'b': 2, 'c': 2, 'd': 4},
+ {'Pro': True,  'Stamina': True, 'a': 3, 'b': 2, 'c': 1, 'd': 2},
+ {'Pro': True,  'Stamina': True, 'a': 4, 'b': 1, 'c': 1, 'd': 2},
+ {'Pro': False, 'Stamina': True, 'a': 3, 'b': 4, 'c': 3, 'd': 4},
+ {'Pro': False, 'Stamina': True, 'a': 1, 'b': 3, 'c': 4, 'd': 2},
+ {'Pro': False, 'Stamina': True, 'a': 3, 'b': 3, 'c': 4, 'd': 3},
 ]
 
 def count_checks_in_suit(cards, suit):
@@ -42,17 +43,17 @@ def count_exes_in_suit(cards, suit):
     return sum(3-card[suit] for card in cards if card[suit] < 3)
 
 blessing_cards = [
- {'Pro': False, 'Tmark': False, 'a': 4, 'b': 3, 'c': 4, 'd': 4, 'blessing': 'copper'},
- {'Pro': False, 'Tmark': False, 'a': 3, 'b': 4, 'c': 4, 'd': 4, 'blessing': 'copper'},
- {'Pro': False, 'Tmark': False, 'a': 4, 'b': 4, 'c': 4, 'd': 4, 'blessing': 'gold'},
- {'Pro': False, 'Tmark': False, 'a': 4, 'b': 4, 'c': 4, 'd': 4, 'blessing': 'gold'},
- {'Pro': False, 'Tmark': False, 'a': 4, 'b': 4, 'c': 4, 'd': 4, 'blessing': 'gold'},
- {'Pro': False, 'Tmark': False, 'a': 4, 'b': 4, 'c': 4, 'd': 4, 'blessing': 'gold'},
+ {'Pro': False, 'Stamina': False, 'a': 4, 'b': 3, 'c': 4, 'd': 4, 'blessing': 'copper'},
+ {'Pro': False, 'Stamina': False, 'a': 3, 'b': 4, 'c': 4, 'd': 4, 'blessing': 'copper'},
+ {'Pro': False, 'Stamina': False, 'a': 4, 'b': 4, 'c': 4, 'd': 4, 'blessing': 'gold'},
+ {'Pro': False, 'Stamina': False, 'a': 4, 'b': 4, 'c': 4, 'd': 4, 'blessing': 'gold'},
+ {'Pro': False, 'Stamina': False, 'a': 4, 'b': 4, 'c': 4, 'd': 4, 'blessing': 'gold'},
+ {'Pro': False, 'Stamina': False, 'a': 4, 'b': 4, 'c': 4, 'd': 4, 'blessing': 'gold'},
 ]
 
 wound_cards = [
- {'Pro': False, 'Tmark': False, 'a': 1, 'b': 1, 'c': 1, 'd': 2, 'blessing': 'wound'},
- {'Pro': False, 'Tmark': False, 'a': 1, 'b': 1, 'c': 2, 'd': 1, 'blessing': 'wound'},
+ {'Pro': False, 'Stamina': False, 'a': 1, 'b': 1, 'c': 1, 'd': 2, 'blessing': 'wound'},
+ {'Pro': False, 'Stamina': False, 'a': 1, 'b': 1, 'c': 2, 'd': 1, 'blessing': 'wound'},
 ]
 
 def flip(deck):
@@ -62,13 +63,13 @@ def flip(deck):
     res = new_deck.pop()
     return res, new_deck
 
-def flip_cards(cards, num=1):
+def flip_cards(deck, num=1):
     """
     Takes a card off the deck and returns that new deck
 
     Throws IndexError if there weren't eneough cards to flip
     """
-    remaining = cards[:]
+    remaining = deck[:]
     random.shuffle(remaining)
     flipped = []
     for i in range(num):
@@ -312,6 +313,73 @@ def analyze_proficiency_check(mod):
     for i in range(10000):
         results[proficiency_check(mod)] += 1
     return results
+
+def lose_stamina(deck, stamina_loss):
+    new_deck = []
+    discard_pile = []
+    lost_stamina = []
+    popped = 0
+    for card in deck:
+        if popped == stamina_loss:
+            new_deck.append(card)
+            continue
+        if card.get('Stamina'):
+            popped += 1
+        else:
+            new_deck.append(card)
+    return new_deck, discard_pile, lost_stamina
+
+def take_worst(rank, card_list):
+    taken = card_list[0]
+    for card in card_list[1:]:
+        if card.get(rank) == taken.get(rank):
+            if card.get('Pro'):
+                taken = card
+        elif card.get(rank) < taken.get(rank):
+            taken = card
+    return taken
+
+def take_best(rank, card_list):
+    taken = card_list[0]
+    for card in card_list[1:]:
+        if card.get(rank) == taken.get(rank):
+            if card.get('Pro'):
+                taken = card
+        elif card.get(rank) > taken.get(rank):
+            taken = card
+    return taken
+
+def green_token_check(mod, rank, stamina_loss):
+    deck = cards[:]
+    random.shuffle(deck)
+    new_deck, discard_pile, _ = lose_stamina(deck, stamina_loss)
+    deck = discard_pile + new_deck
+    random.shuffle(deck)
+    results, deck = flip_cards(deck, num=1+abs(mod))
+    if mod < 0:
+        resolving_card = take_worst(rank, results)
+    else:
+        resolving_card = take_best(rank, results)
+    return resolving_card.get('Pro')
+
+def analyze_green_token_check():
+    ranks = 'abcd'
+    mods = [-2, -1, 0, 1]
+    stamina_losses = [0, 8]
+    combos = itertools.product(ranks, mods, stamina_losses)
+    for rank, mod, stamina_loss in combos:
+        success = 0
+        sample_size = 200000
+        #sample_size = 2000
+        for i in range(sample_size):
+            success += int(green_token_check(mod, rank, stamina_loss))
+
+        print( '%s/%s (%s) Rank %s, Mod %s, Stamina loss: %s' % (
+            success, sample_size, pct(success,sample_size),
+            rank, mod, stamina_loss
+        ))
+
+
 
 def p2_check(suit, mod):
     """
