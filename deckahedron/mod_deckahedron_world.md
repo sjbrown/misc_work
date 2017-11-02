@@ -359,8 +359,8 @@ the *attack power*.
 If you don't split up the *attack power*, it translates directly into Stamina
 points. So by default, your character loses that amount of Stamina points.
 
-Let's say your character was hit by a sword and the dice were rolled and
-summed up to 7.  The simplest thing is to lose 7 Stamina points.
+Let's say your character was attacked with a sword and the dice were rolled
+and summed up to 7.  The simplest thing is to lose 7 Stamina points.
 
 But maybe you only have 7 Stamina points left in your deck, and you don't
 want your character to be incapacitated. You have a couple options:
