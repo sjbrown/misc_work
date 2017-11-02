@@ -60,7 +60,7 @@ you start playing.
 
 The story that emerges from Deckahedron World is not a precisely crafted
 thing. That's ok. It doesn't have to be high art or even a cartoon on Adult
-Swim. It will get shaped by each player, and when your turn comes, you will
+Swim. It gets shaped by each player, and when your turn comes, you
 adapt, do your best improvisational "Yes, and", and see where it goes from
 there. It might sound like chaos, but with some faith in your friends, you
 will delight at how a the plot solidifies, and how real the characters
@@ -99,8 +99,9 @@ p2-p3
 ```
 # The Deckahedron
 
-Inspect your Deckahedron.  You should have 20 cards.  There will be 4
-symbols on the fronts and backs of the cards:
+Every player except the GM gets a Deckahedron. Inspect your Deckahedron.
+You should have 20 cards.  There are 4 symbols on the fronts and
+backs of the cards:
 
 Name      | symbol                                  | odds                              | color  | rank
 ----------|-----------------------------------------|-----------------------------------|--------|-------
@@ -112,14 +113,14 @@ Dart      | ![dart symbol](images/dart.png)         | indicates the best odds   
 Shuffle your Deckahedron and place it face-down in front of you.
 
 Whenever your character attempts something risky, where the outcome is
-not certain, the GM will call on you to use your Deckahedron and "flip".
+not certain, the GM calls on you to use your Deckahedron and "flip".
 
-First, the GM will name the move you're attempting and which of your
+First, the GM names the move you're attempting and which of your
 character's attributes -- Strength, Dexterity, or Intelligence -- you
-will use to resolve the flip.
+use to resolve the flip.
 
     GM Note: The attributes used to resolve a move are listed at the top
-    of each card.  Sometimes a card will give the option of several
+    of each card.  Sometimes a card gives the option of several
     attributes, like "Str / Dex".  You may need to ask the player for more
     detail about what they are attempting before calling for a flip.
 
@@ -127,17 +128,19 @@ will use to resolve the flip.
 
 Look at the attribute on your character sheet -- what symbol is it, Anchor,
 Bulb, Crescent, or Dart? Rotate your Deckahedron so that the symbol is
-facing forward (away from you). Then flip the top card forward (so that
-when it's face-up, the symbol is facing forward)
+facing forward (away from you). Take the top card by the edge closest to
+you and flip it forward so the edge is now farthest from you.  Saying "Bam!"
+or making some other sound effect is recommended. Now the card is
+face-up and the symbol is facing forward.
 
 ![Illustration of flipping a card forward](images/component_flip.png)
 
-The top of the flipped card will show ✗s or ✔s.
+The top of the flipped card shows ✗s or ✔s.
 
 ![Illustration of reading a card](images/component_read.png)
 
 Finally, find the move card named by the GM and read its instructions.
-It will tell you how the GM should interpret the ✗s and ✔s.
+It tells you how the GM should interpret the ✗s and ✔s.
 
 Put the face-up Deckahedron card in your *discard pile*.
 
@@ -155,11 +158,10 @@ The GM might say to you:
 > Please flip Defy Danger with your Strength.
 
 Look over at the character sheet and see that Kresk has rank 3
-(Crescent) Strength. This means you would rotate your Deckahedron
-so that the Crescent symbol is forward, then you would flip over
-the top card.
+(Crescent) Strength. Rotate your Deckahedron so that the Crescent
+symbol is forward, then flip over the top card.
 
-Maybe you get a single ✔. The GM would use the instructions on the
+Maybe you get a single ✔. The GM uses the instructions on the
 Defy Danger card ("You do it, but there's a new complication") to
 improvise what happens next:
 
@@ -173,12 +175,12 @@ improvise what happens next:
 
 Some flips are a little more complicated. Some moves in Deckahedron
 World instruct you to "add an advantage card" or "flip with advantage".
-Sometimes you will be given the opposite instruction, "add a
-disadvantage card" or "flip with disadvantage".
+Sometimes you are given the opposite instruction, "add a disadvantage
+card" or "flip with disadvantage".
 
 ### Advantage
 
-With an advantage, you flip over your top card as usual, and then you
+With an advantage, flip over your top card as usual, and then
 flip over the next card on the top of the Deckahedron.
 Compare the results (the number of ✗s or ✔s)
 and resolve the flip with the card that has the **best** result.
@@ -201,13 +203,13 @@ With a disadvantage, do the same thing, but use the **worst** result.
 ### Multiple Advantages / Disadvantages
 
 For a given flip, you may be instructed to add two advantage cards or two
-disadvantage cards.  This means you would flip **3 cards in total** and take
+disadvantage cards.  This means you flip **3 cards in total** and take
 the **best** or **worst**, respectively.
 
 No flip may use more than 3 cards in total, so adding advantage cards past 2
 is just ignored.
 
-Sometimes you're in a situation where you are instructed to both
+Sometimes there's a situation where you are instructed to both
 "flip with advantage" and "flip with disadvantage". To resolve any move,
 simply add up all the advantages, and then subtract all the disadvantages
 to arrive at your sum of advantage or disadvantage.
@@ -219,23 +221,26 @@ flip with two disadvantage cards.
 
 ![A green token card](images/component_card_green_token.png)
 
-Some of your Deckahedron cards have a green token symbol in the middle.
+Some Deckahedron cards have a green token symbol in the middle.
 After a flip is resolved by a card showing a green token symbol,
 you have a choice:
 
- * Take a green token (these can be spent to perform certain moves)
- * Go up one level in the move you just performed (see Move Levels)
+ * Take a green token from the supply
+ (these may be spent later to perform certain moves)
+ * Go up one level in the move just performed (see Move Levels)
 
-You may only do this when the card *resolves* a flip.
+You may only do this when the card *resolves* a flip. (ie, when flipping
+multiple cards, *this* was the one from which the ✗ or ✔ symbols were
+used to interpret the result of the move)
 
 ## Other flip complications: Wound cards
 
-Sometimes you will flip over a Wound card.  See the Combat chapter.
+Sometimes you flip over a Wound card.  See the Combat chapter.
 
 
 ## Reshuffling
 
-At any time before a flip, or after a flip is resolved, you can take your
+At any time before a flip, or after a flip is resolved, you may take your
 *discard pile* and shuffle it back into your Deckahedron.
 
 Whenever your Deckahedron is down to 5 or fewer cards, you **must** take
@@ -286,7 +291,7 @@ Bank* on a ✗ and they don't make a move on a ✗✗.
     If you spend the green token, write 'swimming' on your character
     sheet."
 
- * On a *critical failure* flip, the GM can use 3 banked points to make
+ * On a *critical failure* flip, the GM may use 3 banked points to make
    an additional move
 
 
@@ -307,13 +312,13 @@ p4-p6
 ```
 # Combat - Stamina/Harm/Wounds - GM: moving the spotlight
 
-Here are rules that tell you when your character is able to endure
-exertion and injury to keep moving forward or tell you when your
-character is completely spent and collapses in a heap.
+Here are rules to determine when your character is able to endure
+exertion and injury to keep moving forward or when they're completely
+spent and collapsed in a heap.
 
 When a character is in a fight, they are running, dodging, striking, and
 being struck and assailed by their foe.  All of this stuff is scary and
-exhausting. So a character will get weaker the longer they're in this
+exhausting. So a character gets weaker the longer they're in this
 exchange, even if they're dodging every blow.
 
 This weakening is represented by cards from your Deckahedron being lost
@@ -328,11 +333,12 @@ better endure the exertion.
 ## Phases
 
 When your character gets attacked or falls victim to some other danger,
-you will have choices about exactly how they are affected. They may dodge,
+you have choices about exactly how they are affected. They may dodge,
 and just lose Stamina, they may take Harm to absorb the blow with their
 armour (or with their face), or they may be wounded by the damage.
 
-The **first phase** is rolling dice to arrive at a number.
+The **first phase** is rolling dice to arrive at a number, called the
+*attack power*.
 
 The **second phase** is deciding how to split that number among 3
 categories, Stamina, Harm, or Wounds.
@@ -347,42 +353,40 @@ off their steel breastplate?
 
 ### Second Phase
 
-When you are hit in combat, you roll dice to get a number. If you choose
-not to split that dice result number, by default, you will lose that amount
-of Stamina points.
+When you are hit in combat, you roll dice to get a number. Call this number
+the *attack power*.
+
+If you don't split up the *attack power*, it translates directly into Stamina
+points. So by default, your character loses that amount of Stamina points.
 
 Let's say your character was hit by a sword and the dice were rolled and
-summed up to 7.  The simplest thing would be to lose 7 Stamina points.
+summed up to 7.  The simplest thing is to lose 7 Stamina points.
 
 But maybe you only have 7 Stamina points left in your deck, and you don't
 want your character to be incapacitated. You have a couple options:
 
- * Take a Harm token to reduce the dice result by 3
- * Take a Wound token to reduce the dice result by 6
+ * Turn *attack power* into Harm tokens at a rate of 3-for-1
+ * Turn *attack power* into Wound tokens at a rate of 6-for-1
 
-For example, you could subtract the dice result by **3** and take 
-**1 Harm token**.
-Thus you would split the dice result of 7 into:
+For example, you may split the attack power of 7 into:
 
  * 4 Stamina points
  * 1 Harm token
 
-You could even do that twice, subtracting a total of 6 from the dice result
-to take 2 Harm tokens.
-Thus you would split the dice result of 7 into:
+You may even do that twice, splitting the attack power of 7 into:
 
  * 1 Stamina point
  * 2 Harm tokens
 
-Another option would be to take a Wound. You could subtract **6** from the dice
-result to take **1 Wound token**.
-Thus you would split the dice result of 7 into:
+Another option is to take a Wound.
+You may split the attack power of 7 into:
 
  * 1 Stamina point
  * 1 Wound token
 
 Note: as described later, taking Wound and Harm tokens can sometimes also
 cause loss of Stamina points.
+
 
 ## Stamina / Exhaustion
 
@@ -410,7 +414,7 @@ lost, that's what the cards are for.
 
 ![Exhaustion token](images/component_exhaustion.png)
 
-(So, if you were instructed to lose 3 Stamina points, you would add 3 cards
+(So, if you were instructed to lose 3 Stamina points, you add 3 cards
 with Stamina symbols onto your Exhaustion pile)
 
 If searching through their Deckahedron does not yield a card with a Stamina
@@ -433,7 +437,7 @@ GM has rules for this, see the GM Guide.
 Think of that boxing match again.  If Stamina represents dancing, ducking,
 and dodging, then Harm represents landing a blow.
 These rules are also for representing mental strain that is so significant
-that the negative effects will last for a while.
+that the negative effects last for a while.
 
 When you are instructed to take a Harm token, you may absorb it
 using any relevant move cards and item cards, otherwise:
@@ -457,7 +461,7 @@ using any relevant move cards and item cards, otherwise:
  * **If you already have 2 wounds**:
    - the character is incapacitated
  * **Otherwise**:
-   - the GM will describe how the character was wounded
+   - the GM describes how the character was wounded
    - Lose a Stamina point
    - Place a *Wound token* on your *Exhaustion pile*
    - Place a *Wound card* in your *discard pile*. It will now start cycling
@@ -475,7 +479,7 @@ Whenever you **flip** and reveal a wound card, follow these rules:
 
  * Say or act out the gutteral noise emitted by your character
  * You must immediately stop flipping (eg, if your the move
-   instructed you to "flip 3", you would stop short once you hit
+   instructed you to "flip 3", you stop short once you hit
    the wound card - resolve the move with only the card(s) you flipped.
    This overrides the **Complete Flip Rule**)
  * Lose a stamina point
@@ -494,7 +498,7 @@ Whenever you **flip** and reveal a wound card, follow these rules:
 **Taking a Breather** is a move that a character can take during combat.
 This action allows a character to regain Stamina points.
 
-The player can use either Intelligence or Dexterity to perform the **Take a
+The player may use either Intelligence or Dexterity to perform the **Take a
 Breather** action.
 
 If they use Intelligence, they say how they execute a tactic or
@@ -505,7 +509,7 @@ If they use Dexterity, they say how they maneuver into a safe position
 that offers some temporary safety. Then they flip a card and follow the
 instructions on the card to see how many Stamina they regain.
 
-Note: "regain Stamina" can be done either by taking cards from the
+Note: "regain Stamina" may be done either by taking cards from the
 *Exhaustion pile* and putting them into the *discard pile*, or by discarding
 Exhaustion tokens.
 
@@ -520,7 +524,7 @@ they want.
 
 ## Resting
 
-*Resting* is an action that a character can take when they are out of combat,
+*Resting* is an action that a character may take when they are out of combat,
 not travelling, and have several hours to devote to rest (sleeping qualifies).
 
  * Discard all *Exhaustion tokens*
@@ -539,14 +543,14 @@ Remove all white-side red cards on your magic items.
 
 ## Healing
 
-*Healing* is an action that a character can take when they are in a peaceful
+*Healing* is an action that a character may take when they are in a peaceful
 environment and have time and resources to spend on self-care.
 
 Eg, if they are in a primitive camp posessing medicine men or a
 contemporary city with doctors and hospitals or a tranquil oasis infused
 with healing magic.
 
-Healing can also be effected by equipment and skills.
+Healing may also be effected by equipment and skills.
 See [Equipment](mod_speed_equipment_money.md) and [Characters](mod_characters.md)
 
 When you spend a day healing:
@@ -594,15 +598,15 @@ Items - 2 mundane items or 1 magic item
 
 "Use a Magic Item" move gives you 2 magic items
 
-A player will inevitably ask why the magic amulet or ring they've created,
-a trinket that would normally be light, reduces their speed.  At that point
+A player inevitably asks why the magic amulet or ring they've created,
+a trinket that is normally a couple grams, reduces their speed.  At that point
 the GM should ask them a question, "Yes, why does it weigh you down? What
 about magic in this world, or what about your character makes them
 especially burdened by magical items?"
 
 Ask this question to each player: What about your character's personality
-causes them to overreach?  What makes them take risks a normal person would
-avoid?  Are they brave, foolhardy, driven, greedy, curious, grieving?
+causes them to overreach?  What makes them take risks a normal person avoids?
+Are they brave, foolhardy, driven, greedy, curious, grieving?
 
 ```
 p15
