@@ -13,15 +13,20 @@ Welcome to Deckahedron World!
 # Outline
 
 ```
+    - SESSION 0 (Sarukkan's Chamber) RULES
 p1      - RPG intro.  What to do. Say/Flip/Move/Roll. GM/Player
 p2-p3   - Deckahedron - Basic Moves - when to flip, how to flip - lots of pics
+    - SESSION 1 RULES
 p4-p6   - Combat - Stamina/Harm/Wounds - GM: moving the spotlight
-p7      - More Moves - Do a Flashback, Critical Flip
+p6      - Set up an advantage with Discern Realities, Defend
+p7      - Moves - Do a Flashback, Critical Flip
+    - SESSION 2 RULES
 p8      - More Moves - Take a Breather, Rest, Heal
 p9      - More Moves - Speed/Equip/Wealth - Run, Shop, GTIB, S+S
 p10     - Mundane Items - Armor, weapons
 p11     - More Moves - Use a Magic Item, EtBB, CtLL
 p12-p14 - Starting a game, Sarukkan's Chamber, Character Creation
+    - SESSION 3 RULES
 p15     - Levelling Up - Study / Craft, Level circles
 ```
 

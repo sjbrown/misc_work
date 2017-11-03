@@ -241,3 +241,55 @@ on that card have been used first.
  * I will be tested and found wanting / I'm not ready yet
 
 
+# Deckahedron Module: Good Bank / Bad Bank
+
+## Good Bank
+
+Add a point when:
+
+ * start out in a place of comfort
+  - this can be a fight
+ * meet a mentor
+ * cross a threshold
+ * fun & games
+ * encroaching death
+ * gift from goddess
+ * cross 2nd threshold
+ * victory over internal & external death
+ * return home
+
+Spend points for:
+ * Ressurect a character / prevent a death
+ * Deus Ex Machina: redo a flip with maximum advantage
+
+# Risk Drivers
+
+Give each player a Risk Driver card, write on it the aspect of the
+character's personality that makes them take risks
+
+ * curiosity
+ * vengance
+ * justice
+ * grief
+ * supporting a vice
+ * other
+
+Start the adventure with 2 green tokens on that card.
+
+When another player triggers the Risk Driver, and the character acts in
+accordance with it, a green token moves from the card to the character
+sheet.
+
+When the GM triggers the Risk Driver, and the character acts in
+accordance with it, a new green token goes on the card.
+
+The GM can make the narrative decision really tough.
+
+When the GM triggers the Risk Driver, and the character refuses to take
+a risk, the GM can put a red token on the card.  Now they can't get the
+green tokens until they first "burn off" the red tokens.
+
+When there are 3 red tokens on the card, the character can "cross a
+threshold" and their personality can change.  They take a new Risk Driver
+card and it starts with 0 red tokens and 2 green and they can also
+discard a Move card for a "fresh" (base level) Move card.
