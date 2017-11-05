@@ -93,13 +93,13 @@ def parse_desc(d2):
     body = d2.get('desc') or d2.get('effect')
     note = d2.get('note') or d2.get('notes') or ''
     note = note.strip()
+    if note and note not in ['IMMEDIATE', 'ONGOING', 'UNENCUMBERED']:
+        raise Exception('How to note ?? %s' % note)
     bulleted = body.split('*')
     preamble = bulleted.pop(0).strip()
     if bulleted:
         bulleted = ['\n' + u'✷' + x.strip() for x in bulleted]
     desc_detail = preamble + ''.join(bulleted)
-    if note:
-        desc_detail += '\n ' + note
 
     desc_detail = parse_text(desc_detail)
     d2['desc_detail'] = desc_detail

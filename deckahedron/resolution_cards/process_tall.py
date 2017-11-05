@@ -240,22 +240,22 @@ def make_card_dom(card):
         dom.replace_text('card_tags_text', tag_text)
 
     if card.get('one_x'):
-        dom.replace_text('words_one_x', card['one_x'], max_chars=60)
+        dom.replace_text('words_one_x', card['one_x'], ideal_num_chars=40)
     if card.get('x_check'):
-        dom.replace_text('words_left', card['x_check'], max_chars=40)
-        dom.replace_text('spot_words_left', card['x_check'], max_chars=40)
+        dom.replace_text('words_left', card['x_check'], ideal_num_chars=30)
+        dom.replace_text('spot_words_left', card['x_check'], ideal_num_chars=30)
     elif card.get('one_check'):
-        dom.replace_text('words_left', card['one_check'], max_chars=40)
-        dom.replace_text('spot_words_left', card['one_check'], max_chars=40)
-        dom.replace_text('words_one_check', card['one_check'], max_chars=60)
+        dom.replace_text('words_left', card['one_check'], ideal_num_chars=30)
+        dom.replace_text('spot_words_left', card['one_check'], ideal_num_chars=30)
+        dom.replace_text('words_one_check', card['one_check'], ideal_num_chars=40)
     else:
         # Card has nothing to do with flips
         dom.replace_text('spot_words_left', '')
         dom.replace_text('words_left', '')
-    dom.replace_text('words_right', card['two_check'], max_chars=40)
-    dom.replace_text('spot_words_right', card['two_check'], max_chars=40)
-    dom.replace_text('words_two_check', card['two_check'], max_chars=60)
-    dom.replace_text('desc_detail', card['desc_detail'], max_chars=300)
+    dom.replace_text('words_right', card['two_check'], ideal_num_chars=20)
+    dom.replace_text('spot_words_right', card['two_check'], ideal_num_chars=20)
+    dom.replace_text('words_two_check', card['two_check'], ideal_num_chars=40)
+    dom.replace_text('desc_detail', card['desc_detail'], ideal_num_chars=200)
     dom.replace_h1(card['title'])
 
     return dom
@@ -299,6 +299,15 @@ def make_deck(cards):
         dom.write_file(svg_filename)
 
         export_tall_png(svg_filename, png_filename)
+
+def make_deck_from_svg_dir(dirpath, fpart=None):
+    for fname in os.listdir(dirpath):
+        if fname.endswith('.svg'):
+            if fpart and fpart not in fname:
+                continue
+            base = os.path.splitext(fname)[0]
+            png_filename = '/tmp/tall_cards/%s.png' % base
+            export_tall_png(dirpath + '/' +fname, png_filename)
 
 
 if __name__ == '__main__':

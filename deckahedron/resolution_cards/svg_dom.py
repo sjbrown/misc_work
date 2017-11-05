@@ -55,7 +55,7 @@ class DOM(object):
         for e in self.title_to_elements[title]:
             e.getparent().remove(e)
 
-    def replace_text(self, title, newtext, max_chars=None, style=None):
+    def replace_text(self, title, newtext, ideal_num_chars=None, style=None):
         if style is None:
             style = {}
 
@@ -69,7 +69,9 @@ class DOM(object):
                 flowroot.append(paraclone)
             num_lines = i
 
-            if max_chars and len(newtext) > (max_chars - num_lines*20):
+            if ideal_num_chars and len(newtext) < (ideal_num_chars / 1.5):
+                style.update({'font-size': '12px'})
+            if ideal_num_chars and len(newtext) > (ideal_num_chars - num_lines*20):
                 style.update({'font-size': '8px'})
 
             if style:
