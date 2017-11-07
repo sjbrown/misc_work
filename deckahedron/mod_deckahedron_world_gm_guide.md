@@ -1,6 +1,6 @@
 # GM Guide
 
-# Character Creation
+## Character Creation
 
 Lay out the cards with an A, B or C in the corner
 
@@ -46,3 +46,14 @@ starting the story out in a place of normalcy, life, and comfort.  Remember,
 it doesn't have to be a Hobbit hole.  Characters might be most at home
 in the middle of a bloody battle.
 
+## Fictional Advantages / Disadvantages
+
+Advantage to Dispense Wrath when encountering those same guards who humiliated
+him 20 minutes earlier
+
+It's a dark cave at nighttime and no torches are lit - disadvantage against
+the multi-winged bat creature
+
+The SPEED score and Defy Danger
+ * >= 4: Advantage
+ * 0: Disadvantage
