@@ -31,6 +31,10 @@ they extreme in that preference?
 Player 6: Roughly how old is your character?  Have they ever killed
 a man before?
 
+Even if the players finish picking cards, finish asking all these questions.
+the goal is to get everyone thinking about how *each* of these questions
+applies to *their* character, so they don't all just make murder-hobos.
+
 
 # Home / Comfort
 
