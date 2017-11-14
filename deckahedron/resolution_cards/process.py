@@ -111,6 +111,7 @@ def filter_dom_elements(dom, card, deck_title, dice_rule):
 
         if not card.get('Stamina'):
             dom.layer_hide('exhaustion')
+            dom.layer_hide('exhaustion2')
 
         # Choose the dice pips to print out
         for titletuple in product(
