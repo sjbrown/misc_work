@@ -81,20 +81,20 @@ def parse_reqs(d2):
 
 def parse_flags(d2):
     d2['flags'] = []
-    if 'ONGOING' in d2['desc_detail']:
+    note = d2.get('flags') or d2.get('note') or d2.get('notes') or ''
+    note = note.strip()
+    if note and note not in ['IMMEDIATE', 'ONGOING', 'UNENCUMBERED']:
+        raise Exception('How to note ?? %s' % note)
+    if 'ONGOING' == note:
         d2['flags'].append('ONGOING')
-    if 'UNENCUMBERED' in d2['desc_detail']:
+    if 'UNENCUMBERED' == note:
         d2['flags'].append('UNENCUMBERED')
-    if 'IMMEDIATE' in d2['desc_detail']:
+    if 'IMMEDIATE' == note:
         d2['flags'].append('IMMEDIATE')
 
 def parse_desc(d2):
     desc_detail = ''
     body = d2.get('desc') or d2.get('effect')
-    note = d2.get('note') or d2.get('notes') or ''
-    note = note.strip()
-    if note and note not in ['IMMEDIATE', 'ONGOING', 'UNENCUMBERED']:
-        raise Exception('How to note ?? %s' % note)
     bulleted = body.split('*')
     preamble = bulleted.pop(0).strip()
     if bulleted:
