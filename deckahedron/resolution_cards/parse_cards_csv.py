@@ -80,17 +80,22 @@ def parse_reqs(d2):
     d2['reqs'] = d2.get('reqs')
 
 def parse_flags(d2):
+    possible_flags = [
+      'IMMEDIATE',
+      'ONGOING',
+      'UNENCUMBERED',
+      'RECEIVE CARDS',
+    ]
     d2['flags'] = []
     note = d2.get('flags') or d2.get('note') or d2.get('notes') or ''
-    note = note.strip()
-    if note and note not in ['IMMEDIATE', 'ONGOING', 'UNENCUMBERED']:
-        raise Exception('How to note ?? %s' % note)
-    if 'ONGOING' == note:
-        d2['flags'].append('ONGOING')
-    if 'UNENCUMBERED' == note:
-        d2['flags'].append('UNENCUMBERED')
-    if 'IMMEDIATE' == note:
-        d2['flags'].append('IMMEDIATE')
+    print 'note', note
+    if not note.strip():
+        return
+    flags = [x.strip() for x in note.split(',')]
+    if any(x not in possible_flags for x in flags):
+        raise Exception('How to flags ?? %s' % flags)
+    print 'set', set(flags)
+    d2['flags'] = ','.join(set(flags))
 
 def parse_desc(d2):
     desc_detail = ''

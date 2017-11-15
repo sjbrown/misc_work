@@ -31,9 +31,9 @@
      inkscape:window-height="876"
      id="namedview726"
      showgrid="false"
-     inkscape:zoom="1.5266214"
-     inkscape:cx="65.183464"
-     inkscape:cy="132.09174"
+     inkscape:zoom="0.7633107"
+     inkscape:cx="-141.57139"
+     inkscape:cy="180.6754"
      inkscape:window-x="0"
      inkscape:window-y="24"
      inkscape:window-maximized="1"
@@ -77,12 +77,12 @@
        position="17.1,99.434143"
        orientation="1,0"
        id="guide6993" /><sodipodi:guide
-       position="247,336"
+       position="247.6056,41.59512"
        orientation="1,0"
        id="guide5062" /></sodipodi:namedview><metadata
      id="metadata730"><rdf:RDF><cc:Work
          rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
-           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></metadata><defs
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title /></cc:Work></rdf:RDF></metadata><defs
      id="defs728"><linearGradient
        inkscape:collect="always"
        id="linearGradient30510"><stop
@@ -524,7 +524,7 @@
          sodipodi:role="line"
          id="tspan5766"
          x="216.41949"
-         y="256.04059">v0.7</tspan></text>
+         y="256.04059">v0.71</tspan></text>
 </g><g
      inkscape:groupmode="layer"
      id="layer9"
@@ -918,7 +918,7 @@
            id="use6234"
            width="100%"
            height="100%" /></flowRegion><flowPara
-         id="flowPara6236">Use it for free</flowPara></flowRoot><flowRoot
+         id="flowPara6236">Use it for no Stamina cost</flowPara></flowRoot><flowRoot
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;line-height:125%;font-family:FreeSerif;-inkscape-font-specification:FreeSerif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        id="flowRoot6308"><title
@@ -950,7 +950,7 @@
        id="rect6115-8-2-7"
        style="display:inline;opacity:1;fill:none;fill-opacity:1;stroke:none;stroke-width:1.94500005;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:4.5999999;stroke-opacity:1" /><flowRoot
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;line-height:125%;font-family:FreeSerif;-inkscape-font-specification:FreeSerif;text-align:justify;letter-spacing:0px;word-spacing:0px;text-anchor:start;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:FreeSerif;-inkscape-font-specification:FreeSerif;text-align:justify;letter-spacing:0px;word-spacing:0px;text-anchor:start;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
        id="flowRoot6374"><title
          id="title6402">desc_detail</title><flowRegion
          id="flowRegion6376"><use
@@ -960,11 +960,10 @@
            id="use6378"
            width="100%"
            height="100%" /></flowRegion><flowPara
-         id="flowPara6380">Use this before using a magical item. Instead of the item losing a charge, you might lose Stamina from mental exhaustion</flowPara><flowPara
-         id="flowPara334"> IMMEDIATE</flowPara></flowRoot><flowRoot
+         id="flowPara334">Use this before using a magical item. Instead of the item losing a charge, you might lose Stamina from mental exhaustion</flowPara></flowRoot><flowRoot
        transform="translate(-0.00343811,70.277444)"
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:16px;line-height:80%;font-family:OptimusPrinceps;-inkscape-font-specification:'OptimusPrinceps Medium';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:16px;line-height:80.00000119%;font-family:OptimusPrinceps;-inkscape-font-specification:'OptimusPrinceps Medium';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        id="flowRoot6382"><title
          id="title6384">h1</title><flowRegion
          id="flowRegion6386"><use
@@ -1097,8 +1096,7 @@
      inkscape:groupmode="layer"
      id="layer43"
      inkscape:label="card_flags"
-     style="display:inline"
-     sodipodi:insensitive="true"><rect
+     style="display:inline"><rect
        style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#4d4d4d;stroke-width:2.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect5207"
        width="187.8307"
@@ -1124,7 +1122,7 @@
            id="use5219"
            width="100%"
            height="100%" /></flowRegion><flowPara
-         id="flowPara5221">IMMEDIATE</flowPara></flowRoot></g><g
+         id="flowPara5221">IMMEDIATE, RECEIVE CARDS</flowPara></flowRoot></g><g
      inkscape:groupmode="layer"
      id="layer19"
      inkscape:label="spot_text"
