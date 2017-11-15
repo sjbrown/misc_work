@@ -188,10 +188,10 @@ card" or "flip with disadvantage".
 With an advantage, flip over your top card as usual, and then
 flip over the next card on the top of the Deckahedron.
 Compare the results (the number of ✗s or ✔s)
-and resolve the flip with the card that has the **best** result.
+and *resolve the flip* with the card that has the **best** result.
 
-If it's a tie, you may choose whichever card to be the card that resolves
-the flip.
+If it's a tie, you may choose whichever card to be the card that *resolves
+the flip*.
 
 All cards that got flipped face-up go in your *discard pile*.
 
@@ -215,7 +215,8 @@ No flip may use more than 3 cards in total, so adding advantage cards past 2
 is just ignored.
 
 Sometimes there's a situation where you are instructed to both
-"flip with advantage" and "flip with disadvantage". To resolve any move,
+"flip with advantage" and "flip with disadvantage".
+To resolve any of these combinations,
 simply add up all the advantages, and then subtract all the disadvantages
 to arrive at your sum of advantage or disadvantage.
 The maximum is two extra cards, so if the sum is -3, you only
@@ -232,7 +233,8 @@ you have a choice:
 
  * Take a green token from the supply
  (these may be spent later to perform certain moves)
- * Go up one level in the move just performed (see Move Levels)
+ * Go up one level in the move just performed
+ (see [Move Levels](#move_levels))
 
 You may only do this when the card *resolves* a flip. (ie, when flipping
 multiple cards, *this* was the one from which the ✗ or ✔ symbols were
@@ -240,7 +242,8 @@ used to interpret the result of the move)
 
 ## Other flip complications: Wound cards
 
-Sometimes you flip over a Wound card.  See the Combat chapter.
+Sometimes you flip over a Wound card.  See the
+[Combat chapter](#combat).
 
 
 ## Reshuffling
@@ -256,19 +259,19 @@ your *discard pile* and shuffle it back into your Deckahedron.
 
 When a player is performing a move, you should read the move card so that
 you can interpret the result of the flip. Usually ✔✔ means an unfettered
-success, and single ✔ means success, but with complication. 
+success, and single ✔ means success, but with complication.
 
 When the result is a single ✗, it is sometimes the same as a single ✔, but
 often it is slightly worse. When a flip results in a single ✗, even when
 the move card says it has the same narrative effect as a single ✔, you
 should add a point to your *Bad Bank*.  See the GM Guide.
 
-When the result is ✗✗, it is your turn to make a move.  You narrate the
+When the result is ✗✗, it is your turn to make a move. You narrate the
 consequences of the move the player just attempted and you have license to
 take the narrative where you'd like.  See the GM Guide.
 
 There is an exception to the GM moves on ✗ and ✗✗.  When the move card
-has the tag *IMMEDIATE*, the GM does not add points to their *Bad
+has the tag *IMMEDIATE*, the GM does not add points to the *Bad
 Bank* on a ✗ and they don't make a move on a ✗✗.
 
 ### GM: Examples for spending points from the *Bad Bank*
@@ -315,7 +318,7 @@ are the rewards for everyone.
 ```
 p4-p6
 ```
-# Combat - Stamina/Harm/Wounds - GM: moving the spotlight
+# Combat - Stamina/Harm/Wounds
 
 Here are rules to determine when your character is able to endure
 exertion and injury to keep moving forward or when they're completely
@@ -532,11 +535,11 @@ they want.
 *Resting* is an action that a character may take when they are out of combat,
 not travelling, and have several hours to devote to rest (sleeping qualifies).
 
- * Discard all *Exhaustion tokens*
- * Discard one *Harm token*
- * Count the remaining *Harm* and *Wound* tokens on your *Exhaustion pile*
- * Keep that many cards (chosen at random) in your *Exhaustion pile*, put
-   the rest into your *discard pile*
+ * Step 1: Discard all *Exhaustion* tokens
+ * Step 2: Count the *Harm* and *Wound* tokens on your *Exhaustion pile*
+ * Step 3: Keep that many cards (player choses which ones) in your *Exhaustion pile*,
+   put the rest into your *discard pile*
+ * Step 4: Discard one *Harm* token
 
 Note: Time devoted to *Resting* cannot also be devoted to learning skills,
 studying with a teacher, or any other action that takes mental or physical
@@ -560,13 +563,13 @@ See [Equipment](mod_speed_equipment_money.md) and [Characters](mod_characters.md
 
 When you spend a day healing:
 
- * Describe your character's healing experience
- * Discard all *Exhaustion tokens*
- * Discard all *Harm tokens*
- * Discard one *Wound token*
- * Count the remaining *Wound* tokens on your *Exhaustion pile*
- * Keep that many cards (chosen at random) in your *Exhaustion pile*, put
-   the rest into your *discard pile*
+ * Step 1: Describe your character's healing experience
+ * Step 2: Discard all *Exhaustion* tokens
+ * Step 3: Discard all *Harm* tokens
+ * Step 4: Count the *Wound* tokens on your *Exhaustion pile*
+ * Step 5: Keep that many cards (player choses which ones) in your
+   *Exhaustion pile*, put the rest into your *discard pile*
+ * Step 6: Discard one *Wound* token
 
 As with *Resting*, time spent *Healing* cannot also be used in activities that
 take effort.
