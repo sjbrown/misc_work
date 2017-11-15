@@ -95,7 +95,7 @@ def parse_flags(d2):
     if any(x not in possible_flags for x in flags):
         raise Exception('How to flags ?? %s' % flags)
     print 'set', set(flags)
-    d2['flags'] = ','.join(set(flags))
+    d2['flags'] = flags
 
 def parse_desc(d2):
     desc_detail = ''
