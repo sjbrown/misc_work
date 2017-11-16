@@ -45,10 +45,11 @@ def parse_levels(d2):
         'm2': 'g2',
     }
     for k,v in level_map.items():
+        print 'levels', d2[k]
         if d2[k] != '':
             if '*' in d2[k]:
                 d2['level_start'] = v
-            if 'spot' not in d2[k].lower():
+            if d2['attr']:# 'spot' not in d2[k].lower():
                 d2['levels'].append(v)
 
 def parse_spots(d2):
@@ -88,7 +89,6 @@ def parse_flags(d2):
     ]
     d2['flags'] = []
     note = d2.get('flags') or d2.get('note') or d2.get('notes') or ''
-    print 'note', note
     if not note.strip():
         return
     flags = [x.strip() for x in note.split(',')]
@@ -134,7 +134,10 @@ def parse_checks(d2):
 def parse_attr(d2):
     d2['attr'] = d2['mod'].strip()
 
-def get_dicts_from_spreadsheet(fname, extra_fields=None):
+def parse_title(d2, title):
+    d2['title'] = title.decode('utf-8').strip().replace('_', '____')
+
+def get_dicts_from_spreadsheet(fname, extra_fields=None, grep_filter=''):
     if extra_fields is None:
         extra_fields = {}
 
@@ -146,15 +149,18 @@ def get_dicts_from_spreadsheet(fname, extra_fields=None):
         name = row.get('name') or row.get('deckahedron move')
         if not name:
             continue
+        if grep_filter and grep_filter not in name.lower():
+            print 'filtering out', name
+            continue
         print 'Processing', name
         d2 = extra_fields.copy()
         d2.update( {k:v.decode('utf-8') for (k,v) in row.items()} )
-        d2['title'] = name.decode('utf-8')
+        parse_title(d2, name)
         parse_circles(d2)
+        parse_attr(d2)
         parse_levels(d2)
         parse_desc(d2)
         parse_checks(d2)
-        parse_attr(d2)
         parse_spots(d2)
         parse_tags(d2)
         parse_flags(d2)
@@ -166,11 +172,18 @@ def get_dicts_from_spreadsheet(fname, extra_fields=None):
 
     return l
 
-def get_dicts():
+def get_dicts(grep_filter=''):
     return (
-      get_dicts_from_spreadsheet('character_move_sheet.csv')
+      get_dicts_from_spreadsheet(
+          'character_move_sheet.csv',
+          grep_filter=grep_filter
+      )
       +
-      get_dicts_from_spreadsheet('equipment_sheet.csv', {'equipment': True})
+      get_dicts_from_spreadsheet(
+          'equipment_sheet.csv',
+          {'equipment': True},
+          grep_filter=grep_filter
+      )
     )
 
 class DictObj(dict):
@@ -180,5 +193,5 @@ class DictObj(dict):
             return self[attrname]
         raise AttributeError(attrname)
 
-def get_objs():
-    return [DictObj(x) for x in get_dicts()]
+def get_objs(grep_filter=''):
+    return [DictObj(x) for x in get_dicts(grep_filter)]

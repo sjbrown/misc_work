@@ -84,13 +84,13 @@ class DOM(object):
 
     def replace_h1(self, newtext):
         style = {}
-        if len(newtext) >= 20:
+        if len(newtext) >= 17:
             words = newtext.split()
             midpoint = len(words)/2
             line1 = ' '.join(words[:midpoint])
             line2 = ' '.join(words[midpoint:])
             newtext = line1 + '\n' + line2
-            style = { 'font-size': '16px', 'line-height': '80%' }
+            style = { 'font-size': '16px', 'line-height': '90%' }
         return self.replace_text('h1', newtext, style=style)
 
     def write_file(self, svg_filename):

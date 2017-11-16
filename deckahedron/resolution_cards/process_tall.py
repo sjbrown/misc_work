@@ -316,12 +316,14 @@ if __name__ == '__main__':
 
     import parse_cards_csv
 
-    filtered = cards + parse_cards_csv.get_objs()
     if len(sys.argv) > 1:
         card_grep = sys.argv[1]
+        filtered = cards + parse_cards_csv.get_objs(card_grep)
         if DEBUG:
             print 'filtering for', card_grep
         filtered = [c for c in filtered
           if card_grep.lower() in c['title'].lower()]
+    else:
+        filtered = cards + parse_cards_csv.get_objs()
 
     make_deck(filtered)
