@@ -25,6 +25,41 @@ def export_square_png(svg, png):
 def export_tall_png(svg, png):
     return export_png(svg, png, 825, 1125)
 
+def format_text_to_tspans(text, keywordFormats):
+    """
+    keywordFormats looks like this: {
+        'Stamina': {'style': "font-weight:bold", 'dx': '3.0' },
+        'Harm':    {'style': "font-weight:bold", 'dx': '4.0' },
+    }
+    """
+    allTspans = []
+    currentTspan = etree.fromstring('<tspan></tspan>')
+    for word in text.split():
+
+        head = ''
+        for key in keywordFormats:
+            if word[:len(key)] == key:
+                head = word[:len(key)]
+                tail = word[len(key):]
+                break
+
+        if not head:
+            orig_text = currentTspan.text or ''
+            currentTspan.text = orig_text + word + ' '
+            continue
+
+        allTspans.append(currentTspan)
+        formattedTspan = etree.fromstring('<tspan></tspan>')
+        formattedTspan.text = head
+        for attrName, attrVal in keywordFormats[head].items():
+            formattedTspan.attrib[attrName] = attrVal
+        allTspans.append(formattedTspan)
+        currentTspan = etree.fromstring('<tspan></tspan>')
+        currentTspan.text = tail + ' '
+
+    allTspans.append(currentTspan)
+    return allTspans
+
 
 class DOM(object):
     def __init__(self, svg_file):
@@ -55,9 +90,18 @@ class DOM(object):
         for e in self.title_to_elements[title]:
             e.getparent().remove(e)
 
-    def replace_text(self, title, newtext, ideal_num_chars=None, style=None):
+    def replace_text(
+        self,
+        title,
+        newtext,
+        ideal_num_chars=None,
+        style=None,
+        keywordFormats=None
+    ):
         if style is None:
             style = {}
+        if keywordFormats is None:
+            keywordFormats = {}
 
         for flowroot in self.title_to_elements[title]:
             flowpara = [x for x in flowroot.iterchildren()
@@ -65,7 +109,20 @@ class DOM(object):
             flowroot.remove(flowpara)
             for i, line in enumerate(newtext.split('\n')):
                 paraclone = etree.fromstring(etree.tostring(flowpara))
-                paraclone.text = line
+                paraclone.text = ''
+
+                #for tspan in format_text_to_tspans(line, keywordFormats):
+                for tspan in format_text_to_tspans(line, {
+                        'Stamina': {'style': "text-decoration:underline;text-decoration-color:#e0e0e0", 'dx': '13.0 0 5' },
+                        'Harm':    {'style': "text-decoration:underline;text-decoration-color:#c17cd5", 'dx': '4.0' },
+                        'Wound':   {'style': "text-decoration:underline;text-decoration-color:#0f0000", 'dx': '4.0' },
+                        'advantage':   {'style': "color:#003f00" },
+                        'Advantage':   {'style': "color:#003f00" },
+                        'disadvantage':   {'style': "color:#3f0000" },
+                        'Disadvantage':   {'style': "color:#3f0000" },
+                        }):
+                    paraclone.append(tspan)
+
                 flowroot.append(paraclone)
             num_lines = i
 
