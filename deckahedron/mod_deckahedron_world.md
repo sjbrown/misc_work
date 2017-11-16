@@ -632,3 +632,9 @@ weapon's other features
 ## Level circles
 
 
+# Addenda
+
+Damage to items is represented as black-side red cards
+
+If you add a 2nd magical effect to a weapon with Tool Twisting, it still only
+has 1 maximum charge, no matter which effect you use.

@@ -115,3 +115,6 @@ The SPEED score and Defy Danger with Dex
  * >= 4: Advantage
  * 0: Disadvantage
 
+# Loot
+
+Let the characters find whatever you think would be most fun.
