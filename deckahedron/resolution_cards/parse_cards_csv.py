@@ -64,6 +64,8 @@ def parse_spots(d2):
     i = 0
     for k,new_key in spot_map.items():
         new_val = d2[k].strip()
+        if re.search('\d', new_val) and re.search('\d', new_val).group() != '1':
+            raise Exception('not able to handle numbers, but it would be easy')
         if 'SPOT' in new_val.upper() and 'EX' in new_val:
             d2['spots'][i] = ['EX']
         elif 'SPOT' in new_val.upper() and 'BR' in new_val:
