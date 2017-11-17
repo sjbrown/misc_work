@@ -277,7 +277,8 @@ Bank* on a ✗ and they don't make a move on a ✗✗.
 ### GM: Examples for spending points from the *Bad Bank*
 
  * Make a "soft" move
- * Give a foe an extra Stamina point
+ * Give a foe an extra starting Stamina point
+ * Reduce a friendly NPC's starting Stamina points
  * Give a foe +1 to the next time they do damage
  * Make a cost a bit more expensive
  * Make a treasure a bit less valuable

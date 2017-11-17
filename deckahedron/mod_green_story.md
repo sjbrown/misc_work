@@ -261,6 +261,7 @@ Add a point when:
 Spend points for:
  * Ressurect a character / prevent a death
  * Deus Ex Machina: redo a flip with maximum advantage
+ * Deus Ex Machina: bring in a friendly (already seen) NPC at a moment of extreme peril
 
 # Risk Drivers
 

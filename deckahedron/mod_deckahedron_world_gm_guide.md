@@ -118,3 +118,27 @@ The SPEED score and Defy Danger with Dex
 # Loot
 
 Let the characters find whatever you think would be most fun.
+
+# Campaigns
+
+## 9-hour Campaign
+
+ * Home
+ * Mentor
+ * Threshold
+ * Fun & Games
+ * Take
+  * use half your Bad Bank Points before they Rest
+ * Pay
+  * use half your Bad Bank Points before they Rest
+ * Return Threshold
+ * Change
+
+## 30-hour Campaign
+
+## One Shot
+
+ * Start in a place of normalcy / comfort
+ * Cross a threshold with a true choice
+ * Take a thing and pay its (mortal?) price
+ * Return to the surface, changed.
