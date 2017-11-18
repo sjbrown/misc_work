@@ -60,37 +60,37 @@ def make_card(C):
 class Hack_and_Slash(Card):
   attr = 'Str'
   one_x = '''
-    Deal 1 fatigue and the foe attacks you
+    1 attack power and the foe attacks you
   '''
   one_check = '''
-    Deal your fatigue and the foe attacks you
+    Roll attack power and the foe attacks you
     '''
   two_check = '''
-    Deal fatigue and choose
+    Roll attack power and choose
     '''
   desc = u'''
     On a ✔✔, you can choose:
     * Avoid the foe's attack
-    * Expose yourself to the foe's attack in order to deal extra fatigue
+    * Expose yourself to the foe's attack in order to deal extra attack power
     '''
 
 class Volley(Card):
   attr = 'Dex'
   one_x = '''
     GM chooses an option.
-    Deal your fatigue.
+    Roll attack power.
   '''
   one_check = '''
-    Choose an option and deal your fatigue.
+    Choose an option and roll attack power.
   '''
   two_check = '''
-    Deal your fatigue.
+    Roll attack power.
   '''
   desc = u'''
     Send a volley flying with your ranged weapon.
     |
     * You have to move to get the shot, placing you in danger of the GM's choice
-    * You have to take what you can get - reduce your fatigue dealt
+    * You have to take what you can get - halve your attack power
     * You have to take several shots - lose 1 Equipment point
   '''
   level_start = '0'
@@ -154,7 +154,7 @@ class Defend(Card):
     * Redirect an attack from the thing you defend to yourself
     * Halve the attack's effect or damage
     * Open up the attacker to an ally giving that ally a +1 advantage against the attacker
-    * Deal 1 fatigue to the attacker
+    * Deal 1 attack power against the attacker
   '''
 
 class Discern_Realities(Card):

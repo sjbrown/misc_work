@@ -1,6 +1,6 @@
 Deckahedron Move,Circles,Mod,Effect,m-2,m-1,m0,m1,m2,Notes,✔✔,✔,✗,✗✗,Reqs,Tags
 ,,,,,,,,,,,,,,,
-Take a Breather,,INT/DEX,Spend an uninterrupted moment to catch your breath. Can't repeat | Success using INT: You find a strategic safe spot | Failure using INT: there's something wrong with the spot | Success using DEX: avoid attention | Failure using DEX: foe moves to a spot where you're disadvantaged,,,,,,,Find a strategic safe spot / avoid attention. | Recover 1d4 Stamina,Find a strategic safe spot / avoid attention. | Recover 1d4 Stamina,There's something wrong with the spot / Foe moves to a position of advantage. | Recover 1 Stamina,,,
+Take a Breather,,INT/DEX,Spend an uninterrupted moment to catch your breath. Can't repeat | Success using INT: You find a strategic safe spot | Failure using INT: there's something wrong with the spot | Success using DEX: avoid attention | Failure using DEX: foe moves to a spot where you're disadvantaged,,,,,,,Find a strategic safe spot / avoid attention. | Recover 1d4 Stamina,Find a strategic safe spot / avoid attention. | Recover 1d4 Stamina,New complication. See below | Recover 1 Stamina,,,
 Bravely Run Away,,,"As long as you’re not cornered or surrounded, escape your foes. | If you have less than 4 SPEED, lose (4 - SPEED) Stamina points. If you have 4 or more SPEED, regain 2 Stamina points. | The GM will tell you where you end up",,,,,,,,,,,,
 ,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,

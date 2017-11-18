@@ -31,6 +31,8 @@ def filter_dom_elements(dom, card):
       'fighter_ne', 'fighter_e', 'fighter_se', 'fighter_sw', 'fighter_w', 'fighter_nw',
       'all_ne', 'all_e', 'all_se', 'all_sw', 'all_w', 'all_nw',
       'spot_level_0', 'spot_level_g1', 'spot_level_g2',
+      'spot_1_1', 'spot_2_1', 'spot_3_1',
+      'spot_1_2', 'spot_2_2', 'spot_3_2',
       'level_r3', 'level_r2', 'level_r1',
       'level_0', 'level_g1', 'level_g2',
       'level_start_r3', 'level_start_r2', 'level_start_r1',
@@ -38,7 +40,9 @@ def filter_dom_elements(dom, card):
       'spot_level_start_0', 'spot_level_start_g1', 'spot_level_start_g2',
       'C', 'CC/F', 'CC/W', 'CC/R',
     ]
-    if card.get('spots'):
+    card_spots = card.get('spots') or {}
+    has_card_spots = any(card_spots[x] for x in card_spots)
+    if has_card_spots:
         for key in dom.layers:
             if 'spot_' in key:
                 dom.layer_show(key)
@@ -76,12 +80,15 @@ def filter_dom_elements(dom, card):
         else:
             raise ValueError('Spots! %s' % pformat(card))
 
-        if card.get('spots')[0][0].upper() == 'EX':
-            dom.layer_hide('spot_br')
-        elif card.get('spots')[0][0].upper() == 'BR':
-            dom.layer_hide('spot_ex')
-        else:
-            raise ValueError('Spots? %s' % card.get('spots'))
+        for i in range(3):
+            if '1' in card.get('spots')[i]:
+                cut_these.remove('spot_%s_1' % (i+1))
+            if '2' in card.get('spots')[i]:
+                cut_these.remove('spot_%s_2' % (i+1))
+            if 'EX' in card.get('spots')[i]:
+                dom.layer_hide('spot_br')
+            if 'BR' in card.get('spots')[i]:
+                dom.layer_hide('spot_ex')
 
     else:
         for key in dom.layers:
@@ -127,13 +134,16 @@ def filter_dom_elements(dom, card):
             if '_3lines' in key:
                 dom.layer_hide(key)
 
-        if not card.get('level_start') and 'levels' in key:
+        if 'levels' in key and not card.get('level_start'):
             dom.layer_hide(key)
 
+    print 'LS ---', card.get('level_start')
     if card.get('level_start'):
-        if card.get('spots'):
+        print 'inside'
+        if has_card_spots:
             cut_these.remove('spot_level_start_' + card['level_start'])
         else:
+            print 'here'
             cut_these.remove('level_start_' + card['level_start'])
 
     if card.get('reqs'):

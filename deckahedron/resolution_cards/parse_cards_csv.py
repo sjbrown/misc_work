@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*-
 
 import csv
+import re
 
 
 
@@ -61,16 +62,17 @@ def parse_spots(d2):
         'm2': 2,
     }
     d2['spots'] = {}
-    i = 0
     for k,new_key in spot_map.items():
         new_val = d2[k].strip()
-        if re.search('\d', new_val) and re.search('\d', new_val).group() != '1':
-            raise Exception('not able to handle numbers, but it would be easy')
+        d2['spots'][new_key] = []
+        if 'SPOT' in new_val.upper() and '1' in new_val:
+            d2['spots'][new_key].append('1')
+        if 'SPOT' in new_val.upper() and '2' in new_val:
+            d2['spots'][new_key].append('2')
         if 'SPOT' in new_val.upper() and 'EX' in new_val:
-            d2['spots'][i] = ['EX']
+            d2['spots'][new_key].append('EX')
         elif 'SPOT' in new_val.upper() and 'BR' in new_val:
-            d2['spots'][i] = ['BR']
-        i += 1
+            d2['spots'][new_key].append('BR')
 
 def parse_tags(d2):
     tags = d2.get('tags')
