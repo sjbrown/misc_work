@@ -42,6 +42,11 @@ def filter_dom_elements(dom, card):
     ]
     card_spots = card.get('spots') or {}
     has_card_spots = any(card_spots[x] for x in card_spots)
+    checks = [
+        x for x in [card.get('x_check'), card.get('one_x'),
+                    card.get('one_check'), card.get('two_check')]
+        if x not in (None, '')
+    ]
     if has_card_spots:
         for key in dom.layers:
             if 'spot_' in key:
@@ -53,11 +58,6 @@ def filter_dom_elements(dom, card):
         cut_these.remove('spot_level_g1')
         cut_these.remove('spot_level_g2')
 
-        checks = [
-            x for x in [card.get('x_check'), card.get('one_x'),
-                        card.get('one_check'), card.get('two_check')]
-            if x not in (None, '')
-        ]
         if len(checks) == 0:
             dom.layer_hide('spot_3lines')
             dom.layer_hide('spot_2lines')
@@ -137,13 +137,10 @@ def filter_dom_elements(dom, card):
         if 'levels' in key and not card.get('level_start'):
             dom.layer_hide(key)
 
-    print 'LS ---', card.get('level_start')
     if card.get('level_start'):
-        print 'inside'
-        if has_card_spots:
+        if has_card_spots and checks:
             cut_these.remove('spot_level_start_' + card['level_start'])
         else:
-            print 'here'
             cut_these.remove('level_start_' + card['level_start'])
 
     if card.get('reqs'):

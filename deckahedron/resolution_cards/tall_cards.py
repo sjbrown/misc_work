@@ -132,8 +132,8 @@ class Defy_Danger(Card):
     If you do it...
     * by powering through or enduring, flip Str
     * by getting out of the way or acting fast, flip Dex
-    * with quick thinking or through mental fortitude, flip Int
-    |On a ✗ / ✔, the GM may ask you a question, offer you a worse outcome, hard bargain, or ugly choice
+    * with quick wits or through mental fortitude, flip Int
+    ||On a ✗ / ✔, the GM may ask you a question, offer you a worse outcome, hard bargain, or ugly choice
   '''
 
 class Defend(Card):
@@ -188,20 +188,16 @@ class Discern_Realities(Card):
 class Spout_Lore(Card):
   attr = 'Int'
   x_check = '''
-    GM tells you
-    something interesting
+    The GM tells you something interesting
+    - it's on you to make it useful.
     '''
   two_check = '''
-    GM tells you
-    something interesting
-    and useful
+    The GM tells you something interesting
+    and useful about the subject relevant to your situation
     '''
   desc = u'''
     Consult your accumulated knowledge about something.
-    |On a ✔✔ the GM will tell you something interesting and useful about the subject
-    relevant to your situation.
-    |On a ✗ / ✔ the GM will only tell you something interesting - it's on you to make it useful.
-    |On a ✗, the GM will ask you "How do you know this?".
+    ||On a ✗, the GM may ask you "How do you know this?".
     '''
 
 

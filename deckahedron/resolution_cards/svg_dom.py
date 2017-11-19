@@ -116,10 +116,14 @@ class DOM(object):
                         'Stamina': {'style': "text-decoration:underline;text-decoration-color:#e0e0e0", 'dx': '13.0 0 5' },
                         'Harm':    {'style': "text-decoration:underline;text-decoration-color:#c17cd5", 'dx': '4.0' },
                         'Wound':   {'style': "text-decoration:underline;text-decoration-color:#0f0000", 'dx': '4.0' },
-                        'advantage':   {'style': "color:#003f00" },
-                        'Advantage':   {'style': "color:#003f00" },
-                        'disadvantage':   {'style': "color:#3f0000" },
-                        'Disadvantage':   {'style': "color:#3f0000" },
+                        'Str':   {'style': "font-family:OptimusPrinceps" },
+                        'Int':   {'style': "font-family:OptimusPrinceps" },
+                        'Dex':   {'style': "font-family:OptimusPrinceps" },
+                        'advantage':   {'fill': "#003a00" },
+                        'Advantage':   {'fill': "#003a00" },
+                        'disadvantage':   {'fill': "#3f0000" },
+                        'Disadvantage':   {'fill': "#3f0000" },
+                        '____':   {'fill': "#ffffff", 'style': "text-decoration:underline;text-decoration-color:#000000" },
                         }):
                     paraclone.append(tspan)
 
@@ -127,9 +131,9 @@ class DOM(object):
             num_lines = i
 
             if ideal_num_chars and len(newtext) < (ideal_num_chars / 1.5):
-                style.update({'font-size': '12px'})
+                style.update({'font-size': '11px'})
             if ideal_num_chars and len(newtext) > (ideal_num_chars - num_lines*20):
-                style.update({'font-size': '8px'})
+                style.update({'font-size': '9px'})
 
             if style:
                 for k,v in style.items():
