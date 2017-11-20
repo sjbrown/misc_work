@@ -56,6 +56,38 @@ wound_cards = [
  {'Pro': False, 'Stamina': False, 'a': 1, 'b': 1, 'c': 2, 'd': 1, 'blessing': 'wound'},
 ]
 
+class Card(object):
+    SIDE = 'a'
+    def __init__(self, data):
+        self._data = data
+
+    def __str__(self):
+        return '<{a} | {b} | {c} | {d} ||| P {Pro:d} | {Stamina:d}>'.format(**self._data)
+
+    def __repr__(self):
+        return '<{a} | {b} | {c} | {d} ||| P {Pro:d} | {Stamina:d}>'.format(**self._data)
+
+    def __lt__(self, other):
+        return (
+            self._data[self.SIDE] < other._data[self.SIDE]
+        ) or (
+            self._data[self.SIDE] == other._data[self.SIDE]
+            and
+            self._data['Pro'] < other._data['Pro']
+        )
+
+    def __eq__(self, other):
+        return (
+            self._data[self.SIDE] == other._data[self.SIDE]
+            and
+            self._data['Pro'] == other._data['Pro']
+        )
+
+    def result(self):
+        return self._data[self.SIDE]
+
+Deckahedron = [Card(x) for x in cards]
+
 def flip(deck):
     # Takes a card off the deck and returns that new deck
     new_deck = deck[:]
@@ -556,7 +588,7 @@ spot_it_map = {
   9: 'pig',
 }
 
-def analyze_exes_and_checkmarks(svg=False, lost_stamina=0):
+def analyze_exes_and_checkmarks(svg=False, lost_stamina=0, flashback_percent=0.0):
     a_deck = [x['a'] for x in cards]
     b_deck = [x['b'] for x in cards]
     c_deck = [x['c'] for x in cards]
@@ -588,26 +620,48 @@ def analyze_exes_and_checkmarks(svg=False, lost_stamina=0):
         3: u'✔',
         4: u'✔✔',
     }
-    tries = 20000
+    tries = 12000
+    green_tokens = 0
 
     all_percents = []
-    for rank, deck in all_decks.items():
+    #for side in ['a', 'b', 'c', 'd']:
+    for side in ['b']:
         print ''
-        print 'DECK ', rank
+        print 'Side ', side, ' FB %', flashback_percent
         print ''
-        for mod in [-2, -1, 0, 1, 2]:
+        #for mod in [-2, -1, 0, 1, 2]:
+        for mod in [ 0]:
             mod_results = results.copy()
             for i in range(tries):
-                deck_copy = deck[:]
+                deck_copy = Deckahedron[:]
                 for x in range(lost_stamina):
                     # Remove one Stamina
                     deck_copy.pop( random.randint(10,len(deck_copy)-1) )
                 fn = fns[mod]
-                number = fn(deck_copy)
-                mod_results[number] += 1
+                card = fn(deck_copy)
+                card.SIDE = side
+
+                # But maybe the player does a flashback...
+                if i%100 == 0:
+                    green_tokens = 0
+                if (
+                    flashback_percent
+                    and random.random() <= flashback_percent
+                    and card.result() in [1]
+                    and green_tokens >= 2
+                    ):
+                    green_tokens -= 2
+                    new_mod = min(2, mod + 2)
+                    new_fn = fns[mod]
+                    card = fn(deck_copy)
+                    card.SIDE = side
+
+                if card._data['Pro']:
+                    green_tokens += 1
+                mod_results[card.result()] += 1
 
             if svg:
-                group_id = '%s-mod%s' % (rank, mod)
+                group_id = '%s-mod%s' % (side, mod)
                 print '<g id="%s">' % group_id
                 r = '''<rect style="fill:#{color};stroke:none;"
                     id="{rect_id}"
@@ -630,7 +684,7 @@ def analyze_exes_and_checkmarks(svg=False, lost_stamina=0):
                 '''
                 x = 0
                 for j in [1,2,3,4]:
-                    y = { 'A': 21, 'B': 14, 'C': 7, 'D': 0 }[rank]
+                    y = { 'A': 21, 'B': 14, 'C': 7, 'D': 0 }[side]
                     color = {
                         1: 'd40000',
                         2: 'ff0000',
@@ -666,3 +720,4 @@ def analyze_exes_and_checkmarks(svg=False, lost_stamina=0):
             all_percents.append(percents)
     return all_percents
 
+analyze_exes_and_checkmarks(flashback_percent=1.0)
