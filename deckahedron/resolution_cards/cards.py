@@ -620,12 +620,11 @@ def analyze_exes_and_checkmarks(svg=False, lost_stamina=0, flashback_percent=0.0
         3: u'✔',
         4: u'✔✔',
     }
-    tries = 12000
+    tries = 20000
     green_tokens = 0
 
     all_percents = []
-    #for side in ['a', 'b', 'c', 'd']:
-    for side in ['b']:
+    for side in ['a', 'b', 'c', 'd']:
         print ''
         print 'Side ', side, ' FB %', flashback_percent
         print ''
@@ -684,7 +683,7 @@ def analyze_exes_and_checkmarks(svg=False, lost_stamina=0, flashback_percent=0.0
                 '''
                 x = 0
                 for j in [1,2,3,4]:
-                    y = { 'A': 21, 'B': 14, 'C': 7, 'D': 0 }[side]
+                    y = { 'a': 21, 'b': 14, 'c': 7, 'd': 0 }[side]
                     color = {
                         1: 'd40000',
                         2: 'ff0000',
@@ -720,4 +719,4 @@ def analyze_exes_and_checkmarks(svg=False, lost_stamina=0, flashback_percent=0.0
             all_percents.append(percents)
     return all_percents
 
-analyze_exes_and_checkmarks(flashback_percent=1.0)
+analyze_exes_and_checkmarks(svg=True, flashback_percent=0.0)
