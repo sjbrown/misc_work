@@ -248,6 +248,7 @@ def custom_card_dom(card):
 
 def make_deck(cards):
     export_tall_png('tall_card_back2.svg', '/tmp/tall_cards/back.png')
+    export_tall_png('tall_card_stats.svg', '/tmp/tall_cards/stats.png')
 
     one_blank_3lines_front()
 
