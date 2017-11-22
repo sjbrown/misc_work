@@ -163,36 +163,6 @@ def filter_dom_elements(dom, card):
 
 
 
-def one_blank_2lines_front():
-    dom = DOM('tall_card_front.svg')
-
-    filter_dom_elements(dom, {})
-    dom.replace_text('words_left', '')
-    dom.replace_text('words_right', '')
-    dom.replace_text('desc_detail', '')
-    dom.replace_h1('')
-    for key in dom.layers:
-        if (
-          'x_check' in key
-          or
-          'one_check' in key
-          or
-          'two_check' in key
-          or
-          '3lines' in key
-          or
-          'spot' in key
-        ):
-            dom.layer_hide(key)
-        elif '2lines' in key:
-            dom.layer_show(key)
-
-    # Create the svg file and export a PNG
-    svg_filename = '/tmp/tall_cards/deck_card_face_2lines.svg'
-    png_filename = '/tmp/tall_cards/deck_card_face_2lines.png'
-    dom.write_file(svg_filename)
-    export_tall_png(svg_filename, png_filename)
-
 def one_blank_3lines_front():
     dom = DOM('tall_card_front.svg')
 
@@ -277,9 +247,8 @@ def custom_card_dom(card):
     return None
 
 def make_deck(cards):
-    export_tall_png('tall_card_back.svg', '/tmp/tall_cards/back.png')
+    export_tall_png('tall_card_back2.svg', '/tmp/tall_cards/back.png')
 
-    one_blank_2lines_front()
     one_blank_3lines_front()
 
     for i, card in enumerate(cards):
