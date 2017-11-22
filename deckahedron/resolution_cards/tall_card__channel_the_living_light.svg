@@ -18,7 +18,7 @@
    enable-background="new 0 0 198 270"
    xml:space="preserve"
    inkscape:version="0.91 r13725"
-   sodipodi:docname="face40_channel_the_living_light.svg"><sodipodi:namedview
+   sodipodi:docname="tall_card__channel_the_living_light.svg"><sodipodi:namedview
      pagecolor="#ffffff"
      bordercolor="#666666"
      borderopacity="1"
@@ -32,8 +32,8 @@
      id="namedview726"
      showgrid="false"
      inkscape:zoom="1.3967937"
-     inkscape:cx="145.16273"
-     inkscape:cy="93.456172"
+     inkscape:cx="24.128227"
+     inkscape:cy="167.79966"
      inkscape:window-x="0"
      inkscape:window-y="24"
      inkscape:window-maximized="1"
@@ -536,7 +536,7 @@
          sodipodi:role="line"
          id="tspan5766"
          x="216.41949"
-         y="256.04059">v0.71</tspan></text>
+         y="256.04059">v0.8</tspan></text>
 </g><g
      inkscape:groupmode="layer"
      id="layer45"
@@ -881,12 +881,10 @@
            id="use6385"
            width="100%"
            height="100%" /></flowRegion><flowPara
-         id="flowPara6387"><tspan
-           id="tspan6102">Lose  </tspan><tspan
-           style="text-decoration:underline;text-decoration-color:#e0e0e0"
-           dx="13.0 0 5"
-           id="tspan6104"> Stamina</tspan><tspan
-           id="tspan6106" /></flowPara></flowRoot><flowRoot
+         id="flowPara6387">Lose 2<tspan
+   style="text-decoration:underline;text-decoration-color:#e0e0e0"
+   dx="13 0 5"
+   id="tspan6104"> Stamina</tspan></flowPara></flowRoot><flowRoot
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11px;line-height:125%;font-family:FreeSerif;-inkscape-font-specification:FreeSerif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        id="flowRoot6389"><title
@@ -903,20 +901,7 @@
            style="text-decoration:underline;text-decoration-color:#e0e0e0"
            dx="13.0 0 5"
            id="tspan6115">Stamina</tspan><tspan
-           id="tspan6117" /></flowPara></flowRoot><flowRoot
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11px;line-height:125%;font-family:FreeSerif;-inkscape-font-specification:FreeSerif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       id="flowRoot6397"><title
-         id="title6409">words_two_check</title><flowRegion
-         id="flowRegion6399"><use
-           x="0"
-           y="0"
-           xlink:href="#rect6332"
-           id="use6401"
-           width="100%"
-           height="100%" /></flowRegion><flowPara
-         id="flowPara6403"><tspan
-           id="tspan6124">Use it for  </tspan></flowPara></flowRoot><text
+           id="tspan6117" /></flowPara></flowRoot><text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:14.1312027px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="22.149353"
@@ -965,6 +950,21 @@
          id="tspan7263"
          x="119.2185"
          y="314.7381">n</tspan></text>
+<text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.25px;line-height:125%;font-family:FreeSerif;-inkscape-font-specification:FreeSerif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="136.56114"
+       y="154.99768"
+       id="text4928"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4930"
+         x="136.56114"
+         y="154.99768">Use it for no</tspan><tspan
+         sodipodi:role="line"
+         x="136.56114"
+         y="169.06018"
+         id="tspan4932">Stamina cost</tspan></text>
 </g><g
      inkscape:groupmode="layer"
      id="layer3"
@@ -1184,7 +1184,7 @@
            width="100%"
            height="100%" /></flowRegion><flowPara
          id="flowPara5221"><tspan
-           id="tspan6216">IMMEDIATE,RECEIVE CARDS </tspan></flowPara></flowRoot></g><g
+           id="tspan6216">IMMEDIATE, RECEIVE CARDS </tspan></flowPara></flowRoot></g><g
      inkscape:groupmode="layer"
      id="layer32"
      inkscape:label="spot_ex"

@@ -31,9 +31,9 @@
      inkscape:window-height="876"
      id="namedview726"
      showgrid="false"
-     inkscape:zoom="1.9753646"
-     inkscape:cx="135.38393"
-     inkscape:cy="151.70827"
+     inkscape:zoom="1.5266214"
+     inkscape:cx="-11.1074"
+     inkscape:cy="109.879"
      inkscape:window-x="0"
      inkscape:window-y="24"
      inkscape:window-maximized="1"
@@ -541,7 +541,7 @@
          sodipodi:role="line"
          id="tspan5766"
          x="216.41949"
-         y="256.04059">v0.71</tspan></text>
+         y="256.04059">v0.8</tspan></text>
 </g><g
      inkscape:groupmode="layer"
      id="layer45"
@@ -889,22 +889,19 @@
            height="100%" /></flowRegion><flowPara
          id="flowPara5195"><tspan
            id="tspan6094">Spend  4  /  3  /  2  /  1  </tspan><tspan
-           style="text-decoration:underline;text-decoration-color:#e0e0e0"
-           dx="13.0 0 5"
-           id="tspan6096">Stamina</tspan><tspan
-           id="tspan6098"> to rush an unsuspecting foe. </tspan></flowPara><flowPara
+           id="tspan6098"> Stamina to rush an unsuspecting foe. </tspan></flowPara><flowPara
          id="flowPara6100"><tspan
            id="tspan6102">Choices: </tspan></flowPara><flowPara
          id="flowPara6104"><tspan
-           id="tspan6106">✷move past them out of their reach </tspan></flowPara><flowPara
+           id="tspan6106">✷ move past them out of their reach </tspan></flowPara><flowPara
          id="flowPara6108"><tspan
-           id="tspan6110">✷be at their back </tspan></flowPara><flowPara
+           id="tspan6110">✷ be at their back </tspan></flowPara><flowPara
          id="flowPara6112"><tspan
-           id="tspan6114">✷roll attack power against the foe </tspan></flowPara><flowPara
+           id="tspan6114">✷ roll attack power against the foe </tspan></flowPara><flowPara
          id="flowPara6116"><tspan
            id="tspan6118">✷ the GM will give you a bonus to perform an </tspan></flowPara><flowPara
          id="flowPara7323"><tspan
-           id="tspan7325">UNENCUMBERED move right now </tspan></flowPara></flowRoot><flowRoot
+           id="tspan7325">    UNENCUMBERED move right now </tspan></flowPara></flowRoot><flowRoot
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9px;line-height:125%;font-family:FreeSerif;-inkscape-font-specification:FreeSerif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        id="flowRoot6381"
@@ -949,7 +946,7 @@
            id="tspan6139">Choose 2 </tspan></flowPara></flowRoot><g
        style="display:inline"
        id="g4919-3-3"
-       transform="matrix(0.81,0,0,0.81,-100.72612,5.2732873)"><title
+       transform="matrix(0.81,0,0,0.81,-111.48548,5.2732873)"><title
          id="title5404-67">level_g1</title><path
          inkscape:connector-curvature="0"
          id="rect4889-3-57-5"
@@ -963,7 +960,7 @@
          width="8"
          id="rect4911-8-3"
          style="display:inline;opacity:1;fill:#64aa64;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:4.5999999;stroke-opacity:1" /></g><g
-       transform="matrix(0.81,0,0,0.81,-95.75526,110.7723)"
+       transform="matrix(0.81,0,0,0.81,-111.14742,110.7723)"
        style="display:inline"
        id="g4989-9-5"><title
          id="title5406-6">level_g2</title><g
@@ -997,7 +994,7 @@
            width="8"
            id="rect4985-0-09"
            style="display:inline;opacity:1;fill:#64aa64;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:4.5999999;stroke-opacity:1" /></g></g><g
-       transform="matrix(0.81,0,0,0.81,-141.68701,5.2732873)"
+       transform="matrix(0.81,0,0,0.81,-143.68701,5.2732873)"
        id="g5372-3"
        style="display:inline"><title
          id="title5408-6">level_r1</title><path
@@ -1015,7 +1012,7 @@
          ry="0.64149302" /></g><path
        inkscape:connector-curvature="0"
        style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:4.5999999;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
-       d="m 73.439796,185.63289 0.46679,0.80859 1.10742,0 0,-0.80859 -1.57421,0 z m 2.28125,0 0,0.80859 1.10937,0 0.4668,-0.80859 -1.57617,0 z m -3.09961,0.002 c -0.70309,0.0141 -1.28771,0.59939 -1.30079,1.30273 l 0.8086,0.4668 0,-0.44336 c 0,-0.28786 0.23166,-0.51953 0.51953,-0.51953 l 0.43945,0 -0.46679,-0.80664 z m 5.49218,0 -0.46484,0.80664 0.44141,0 c 0.28787,0 0.51953,0.23167 0.51953,0.51953 l 0,0.43945 0.80664,-0.46484 c -0.0141,-0.70309 -0.59944,-1.28772 -1.30274,-1.30078 z m 1.30469,2.11719 -0.80859,0.46679 0,1.10938 0.80859,0 0,-1.57617 z m -8.09961,0.002 0,1.57422 0.81055,0 0,-1.10547 -0.81055,-0.46875 z m 0,2.2832 0,1.57422 0.81055,-0.46875 0,-1.10547 -0.81055,0 z m 7.29102,0 0,1.10938 0.80859,0.46679 0,-1.57617 -0.80859,0 z m -6.48047,1.92383 -0.8086,0.4668 c 0.0141,0.70254 0.59828,1.28867 1.30079,1.30273 l 0.46679,-0.80859 -0.43945,0 c -0.28787,0 -0.51953,-0.23167 -0.51953,-0.51954 l 0,-0.4414 z m 6.48047,0.002 0,0.43945 c 0,0.28787 -0.23166,0.51953 -0.51953,0.51953 l -0.44141,0 0.46484,0.8086 c 0.70266,-0.013 1.28754,-0.59848 1.30274,-1.30078 l -0.80664,-0.4668 z m -4.70117,0.95898 -0.46875,0.81055 1.57421,0 0,-0.81055 -1.10546,0 z m 1.8125,0 0,0.81055 1.57421,0 -0.46679,-0.81055 -1.10742,0 z"
+       d="m 67.060119,185.63289 0.46679,0.80859 1.10742,0 0,-0.80859 -1.57421,0 z m 2.28125,0 0,0.80859 1.10937,0 0.4668,-0.80859 -1.57617,0 z m -3.09961,0.002 c -0.70309,0.0141 -1.28771,0.59939 -1.30079,1.30273 l 0.8086,0.4668 0,-0.44336 c 0,-0.28786 0.23166,-0.51953 0.51953,-0.51953 l 0.43945,0 -0.46679,-0.80664 z m 5.49218,0 -0.46484,0.80664 0.44141,0 c 0.28787,0 0.51953,0.23167 0.51953,0.51953 l 0,0.43945 0.80664,-0.46484 c -0.0141,-0.70309 -0.59944,-1.28772 -1.30274,-1.30078 z m 1.30469,2.11719 -0.80859,0.46679 0,1.10938 0.80859,0 0,-1.57617 z m -8.09961,0.002 0,1.57422 0.81055,0 0,-1.10547 -0.81055,-0.46875 z m 0,2.2832 0,1.57422 0.81055,-0.46875 0,-1.10547 -0.81055,0 z m 7.29102,0 0,1.10938 0.80859,0.46679 0,-1.57617 -0.80859,0 z m -6.48047,1.92383 -0.8086,0.4668 c 0.0141,0.70254 0.59828,1.28867 1.30079,1.30273 l 0.46679,-0.80859 -0.43945,0 c -0.28787,0 -0.51953,-0.23167 -0.51953,-0.51954 l 0,-0.4414 z m 6.48047,0.002 0,0.43945 c 0,0.28787 -0.23166,0.51953 -0.51953,0.51953 l -0.44141,0 0.46484,0.8086 c 0.70266,-0.013 1.28754,-0.59848 1.30274,-1.30078 l -0.80664,-0.4668 z m -4.70117,0.95898 -0.46875,0.81055 1.57421,0 0,-0.81055 -1.10546,0 z m 1.8125,0 0,0.81055 1.57421,0 -0.46679,-0.81055 -1.10742,0 z"
        id="rect4889-3-57-7-3-2" /></g><g
      inkscape:groupmode="layer"
      id="layer3"

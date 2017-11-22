@@ -18,7 +18,7 @@
    enable-background="new 0 0 198 270"
    xml:space="preserve"
    inkscape:version="0.91 r13725"
-   sodipodi:docname="face15_dispense_wrath.svg"><sodipodi:namedview
+   sodipodi:docname="tall_card__dispense_wrath.svg"><sodipodi:namedview
      pagecolor="#ffffff"
      bordercolor="#666666"
      borderopacity="1"
@@ -31,13 +31,13 @@
      inkscape:window-height="876"
      id="namedview726"
      showgrid="false"
-     inkscape:zoom="2.0103979"
-     inkscape:cx="81.700246"
-     inkscape:cy="158.1696"
+     inkscape:zoom="1.421566"
+     inkscape:cx="255.86675"
+     inkscape:cy="142.01597"
      inkscape:window-x="0"
      inkscape:window-y="24"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer33"
+     inkscape:current-layer="layer4"
      inkscape:snap-bbox="true"
      inkscape:snap-bbox-midpoints="true"
      inkscape:object-nodes="false"
@@ -507,8 +507,7 @@
      inkscape:label="blackbg"
      id="layer4"
      inkscape:groupmode="layer"
-     transform="translate(0,66)"
-     sodipodi:insensitive="true"><path
+     transform="translate(0,66)"><path
        style="display:inline;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:40;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:4.5999999;stroke-opacity:1"
        d="m 0,-66 0,336 247,0 0,-336 z m 28.884401,19.723958 188.726849,0 c 6.49401,0 11.78875,5.228925 11.78875,11.722569 l 0,273.106953 c 0,6.49364 -5.29474,11.72257 -11.78875,11.72257 l -188.726849,0 C 22.39039,250.27605 17.1,245.04712 17.1,238.55348 l 0,-273.106953 c 0,-6.493644 5.29039,-11.722569 11.784401,-11.722569 z"
        id="rect7112"
@@ -523,7 +522,7 @@
          sodipodi:role="line"
          id="tspan5766"
          x="216.41949"
-         y="256.04059">v0.71</tspan></text>
+         y="256.04059">v0.8</tspan></text>
 </g><g
      inkscape:groupmode="layer"
      id="layer45"
@@ -829,7 +828,7 @@
            height="100%" /></flowRegion><flowPara
          id="flowPara6387"><tspan
            id="tspan6801"
-           style="font-size:11.25px;">While enraged, add (1 + 1×  ) extra attack power </tspan></flowPara></flowRoot><flowRoot
+           style="font-size:11.25px;">While enraged, add (1 + 1×   ) extra attack power </tspan></flowPara></flowRoot><flowRoot
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.25px;line-height:125%;font-family:FreeSerif;-inkscape-font-specification:FreeSerif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        id="flowRoot6389"
@@ -842,7 +841,7 @@
            id="use6393"
            width="100%"
            height="100%" /></flowRegion><flowPara
-         id="flowPara6395">While enraged, add (1 + 2×     ) extra attack power </flowPara></flowRoot><flowRoot
+         id="flowPara6395">While enraged, add (1 + 2×    ) extra attack power </flowPara></flowRoot><flowRoot
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11px;line-height:125%;font-family:FreeSerif;-inkscape-font-specification:FreeSerif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        id="flowRoot6397"><title
@@ -894,13 +893,17 @@
            height="100%" /></flowRegion><flowPara
          id="flowPara8026"
          style="font-size:7.5px">(Only when you've taken harm since your last Breather or Rest)</flowPara><flowPara
-         id="flowPara8028"></flowPara><flowPara
-         id="flowPara8048">Flip Int. On a ✗ or ✗✗, enter an enraged state and start dealing extra damage in melee combat.</flowPara><flowPara
+         id="flowPara8028" /><flowPara
+         id="flowPara8048">Flip <flowSpan
+   style="-inkscape-font-specification:'OptimusPrinceps Medium';font-family:OptimusPrinceps;font-weight:500;font-style:normal;font-stretch:normal;font-variant:normal"
+   id="flowSpan4949">Int</flowSpan>. On a ✗ or ✗✗, enter an enraged state and start dealing extra damage in melee combat.</flowPara><flowPara
          id="flowPara8030">When flipping, green and red cards affect this move in reverse.</flowPara><flowPara
          id="flowPara8032">1 green card: flip 2, take the card with most ✗ symbols.</flowPara><flowPara
          id="flowPara8034">2 green cards: flip 3, take the card with most ✗ symbols.  </flowPara><flowPara
          id="flowPara8042" /><flowPara
-         id="flowPara8046">While enraged, you are nearly non-verbal. You cannot make plans with your allies. Make a normal Int flip to calm down or wait 60 seconds when combat is over.</flowPara></flowRoot></g><g
+         id="flowPara8046">While enraged, you are nearly non-verbal. You cannot make plans with your allies. Make a normal <flowSpan
+   style="-inkscape-font-specification:'OptimusPrinceps Medium';font-family:OptimusPrinceps;font-weight:500;font-style:normal;font-stretch:normal;font-variant:normal"
+   id="flowSpan4947">Int</flowSpan> flip to calm down or wait 60 seconds when combat is over.</flowPara></flowRoot></g><g
      inkscape:groupmode="layer"
      id="layer3"
      inkscape:label="std_2linesx"
@@ -1877,7 +1880,7 @@
 <g
        style="display:inline"
        id="g4919-3-3"
-       transform="matrix(0.81,0,0,0.81,-13.527808,-99.47514)"><title
+       transform="matrix(0.81,0,0,0.81,-13.080392,-99.47514)"><title
          id="title5404-67">level_g1</title><path
          inkscape:connector-curvature="0"
          id="rect4889-3-57-5"
@@ -1893,7 +1896,7 @@
          style="display:inline;opacity:1;fill:#64aa64;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:4.5999999;stroke-opacity:1" /></g><g
        style="display:inline"
        id="g4919-3-3-2"
-       transform="matrix(0.81,0,0,0.81,-13.607978,-51.085716)"><title
+       transform="matrix(0.81,0,0,0.81,-13.080392,-51.085716)"><title
          id="title5404-67-9">level_g1</title><path
          inkscape:connector-curvature="0"
          id="rect4889-3-57-5-1"

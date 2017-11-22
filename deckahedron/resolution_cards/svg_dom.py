@@ -124,6 +124,7 @@ class DOM(object):
                         'disadvantage':   {'fill': "#3f0000" },
                         'Disadvantage':   {'fill': "#3f0000" },
                         '____':   {'fill': "#ffffff", 'style': "text-decoration:underline;text-decoration-color:#000000" },
+                        'More Power':   {'style': "text-decoration:underline;text-decoration-color:#00a000" },
                         }):
                     paraclone.append(tspan)
 

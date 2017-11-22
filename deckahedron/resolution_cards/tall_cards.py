@@ -77,11 +77,12 @@ class Hack_and_Slash(Card):
 class Volley(Card):
   attr = 'Dex'
   one_x = '''
-    GM chooses an option.
     Roll attack power.
+    GM chooses an option.
   '''
   one_check = '''
-    Choose an option and roll attack power.
+    Roll attack power.
+    Choose an option
   '''
   two_check = '''
     Roll attack power.
@@ -89,6 +90,7 @@ class Volley(Card):
   desc = u'''
     Send a volley flying with your ranged weapon.
     |
+    Choices:
     * You have to move to get the shot, placing you in danger of the GM's choice
     * You have to take what you can get - halve your attack power
     * You have to take several shots - lose 1 Equipment point
@@ -104,14 +106,17 @@ class Parley(Card):
     of your promise
   '''
   two_check = '''
-    Success
+    Make a promise and get what you want.
   '''
   desc = u'''
-    Using leverage, manipulate an NPC. If you don't have leverage, flip with
-    1 level of disadvantage.
-    |Leverage is something they need or want.
-    |On a ✔✔, they ask you for something and cooperate if you make them a promise first.
-    |On a ✗ / ✔, they need some concrete assurance of your promise, right now
+    Using leverage, manipulate an NPC. "Leverage" is something they need or want.
+    |
+    On a ✔✔, they ask you for something and cooperate if you make them a promise first.
+    |
+    On a ✗ / ✔, they need some concrete assurance of your promise, right now
+    |
+    |
+    If you don't have leverage, flip with 1 level of disadvantage.
   '''
   level_start = '0'
   levels = ['0', 'g1']
@@ -129,11 +134,14 @@ class Defy_Danger(Card):
     '''
   desc = u'''
     When you act despite an imminent threat, say how you deal with it and flip.
+    |
     If you do it...
     * by powering through or enduring, flip Str
     * by getting out of the way or acting fast, flip Dex
     * with quick wits or through mental fortitude, flip Int
-    ||On a ✗ / ✔, the GM may ask you a question, offer you a worse outcome, hard bargain, or ugly choice
+    |
+    |
+    On a ✗ / ✔, the GM may ask you a question, offer you a worse outcome, hard bargain, or ugly choice
   '''
 
 class Defend(Card):
@@ -149,7 +157,8 @@ class Defend(Card):
   '''
   desc = '''
     When you stand in defense of a person, item, or location, you can interfere with attacks against it.
-    |So long as you stand in defense, when you or the defended is attacked you may spend
+    |
+    So long as you stand in defense, when you or the defended is attacked you may spend
     green markers, 1 for 1, to choose an option:
     * Redirect an attack from the thing you defend to yourself
     * Halve the attack's effect or damage
@@ -197,7 +206,9 @@ class Spout_Lore(Card):
     '''
   desc = u'''
     Consult your accumulated knowledge about something.
-    ||On a ✗, the GM may ask you "How do you know this?".
+    |
+    |
+    On a ✗, the GM may ask you "How do you know this?".
     '''
 
 
