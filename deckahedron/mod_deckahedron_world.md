@@ -550,17 +550,17 @@ When resting, magic items regain all charges, up to their maximum capacity.
 Remove all white-side red cards on your magic items.
 
 
-## Healing
+## Seek Help
 
-*Healing* is an action that a character may take when they are in a peaceful
-environment and have time and resources to spend on self-care.
+*Seeking Help* is an action that a character may take when they are in a
+peaceful environment where external resources with healing powers are
+available.
 
 Eg, if they are in a primitive camp posessing medicine men or a
 contemporary city with doctors and hospitals or a tranquil oasis infused
 with healing magic.
 
-Healing may also be effected by equipment and skills.
-See [Equipment](mod_speed_equipment_money.md) and [Characters](mod_characters.md)
+Healing may also be effected by items and skills.
 
 When you spend a day healing:
 
@@ -572,8 +572,8 @@ When you spend a day healing:
    *Exhaustion pile*, put the rest into your *discard pile*
  * Step 6: Discard one *Wound* token
 
-As with *Resting*, time spent *Healing* cannot also be used in activities that
-take effort.
+As with *Resting*, time spent *Seeking Help* cannot also be used in
+activities that take effort.
 
 
 # Speed/Equipment/Wealth
