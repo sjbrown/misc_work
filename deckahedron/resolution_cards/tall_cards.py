@@ -211,6 +211,51 @@ class Spout_Lore(Card):
     On a ✗, the GM may ask you "How do you know this?".
     '''
 
+class Rest(Card):
+  desc = u'''
+    When you are out of combat, not travelling, and have several hours
+    to devote to rest, do the following:
+    |
+    * Step 1: Discard all Exhaustion tokens
+    * Step 2: Count the Harm and Wound tokens on your Exhaustion pile
+    * Step 3: Keep that many cards in your Exhaustion pile, put the rest into your discard pile
+    * Step 4: Discard one Harm token
+    |
+    |
+    Magic items regain their charges (remove all white-side red cards)
+    |
+    |
+    Gird all your armour (remove Harm and Wound tokens from your armour)
+    |
+    |
+    Time devoted to Resting cannot also be devoted to learning skills,
+    studying with a teacher, or any other action that takes mental or physical
+    effort.
+    '''
+
+class Seek_Help(Card):
+  desc = u'''
+    When you are in a peaceful environment where external resources with
+    healing powers are available, you may Seek Help. Do the following:
+    |
+    * Step 1: Describe your character's healing experience
+    * Step 2: Discard all Exhaustion tokens
+    * Step 3: Discard all Harm tokens
+    * Step 4: Count the Wound tokens on your Exhaustion pile
+    * Step 5: Keep that many cards in your Exhaustion pile, put the rest into your discard pile
+    * Step 6: Discard one Wound token
+    |
+    |
+    Magic items regain their charges (remove all white-side red cards)
+    |
+    |
+    Gird all your armour (remove Harm and Wound tokens from your armour)
+    |
+    |
+    As with Rest, time spent Seeking Help cannot also be used in
+    activities that take effort.
+    '''
+
 
 
 locs = locals()

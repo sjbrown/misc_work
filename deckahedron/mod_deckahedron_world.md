@@ -549,6 +549,8 @@ effort.
 When resting, magic items regain all charges, up to their maximum capacity.
 Remove all white-side red cards on your magic items.
 
+You may gird all your armour, where applicable.
+Remove all Harm and Wound tokens from your armour cards.
 
 ## Seek Help
 
@@ -559,8 +561,6 @@ available.
 Eg, if they are in a primitive camp posessing medicine men or a
 contemporary city with doctors and hospitals or a tranquil oasis infused
 with healing magic.
-
-Healing may also be effected by items and skills.
 
 When you spend a day healing:
 
@@ -574,6 +574,12 @@ When you spend a day healing:
 
 As with *Resting*, time spent *Seeking Help* cannot also be used in
 activities that take effort.
+
+Magic items regain all charges, up to their maximum capacity.
+Remove all white-side red cards on your magic items.
+
+You may gird all your armour, where applicable.
+Remove all Harm and Wound tokens from your armour cards.
 
 
 # Speed/Equipment/Wealth
