@@ -71,7 +71,8 @@ class Hack_and_Slash(Card):
   desc = u'''
     On a ✔✔, you can choose:
     * Avoid the foe's attack
-    * Expose yourself to the foe's attack in order to deal extra attack power
+    * Expose yourself to the foe's attack in order to
+    add one attack power roll.
     '''
 
 class Volley(Card):
@@ -147,22 +148,21 @@ class Defy_Danger(Card):
 class Defend(Card):
   attr = 'Str'
   one_x = '''
-    Place 1 green marker on this card
+    Place 1 green token on this card
   '''
   one_check = '''
-    Place 2 green markers on this card
+    Place 2 green tokens on this card
   '''
   two_check = '''
-    Place 3 green markers on this card
+    Place 3 green tokens on this card
   '''
   desc = '''
-    When you stand in defense of a person, item, or location, you can interfere with attacks against it.
-    |
-    So long as you stand in defense, when you or the defended is attacked you may spend
-    green markers, 1 for 1, to choose an option:
+    Stand in defense of a person, item, or location, and you can interfere
+    with attacks against it.  So long as you stand in defense, when you or
+    the defended is attacked, you may spend green tokens, 1 for 1, to choose:
     * Redirect an attack from the thing you defend to yourself
     * Halve the attack's effect or damage
-    * Open up the attacker to an ally giving that ally a +1 advantage against the attacker
+    * Open up the attacker to an ally giving +1 advantage against the attacker
     * Deal 1 attack power against the attacker
   '''
 
@@ -191,7 +191,7 @@ class Discern_Realities(Card):
     * What should I be on the lookout for?
     * What here is useful or valuable to me?
     * Who's really in control here?
-    * What here is not what it appears to be
+    * What here is not what it appears to be?
     '''
 
 class Spout_Lore(Card):
@@ -205,6 +205,8 @@ class Spout_Lore(Card):
     and useful about the subject relevant to your situation
     '''
   desc = u'''
+    State facts about the world or the other people in it.
+    |
     Consult your accumulated knowledge about something.
     |
     |

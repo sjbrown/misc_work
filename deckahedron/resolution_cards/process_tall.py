@@ -60,7 +60,6 @@ def filter_dom_elements(dom, card):
 
         if len(checks) == 0:
             dom.layer_hide('spot_3lines')
-            dom.layer_hide('spot_2lines')
             dom.layer_hide('spot_x_check')
             dom.layer_hide('spot_one_check')
             dom.layer_hide('spot_two_check')
@@ -73,7 +72,6 @@ def filter_dom_elements(dom, card):
             if not card.get('two_check'):
                 dom.layer_hide('spot_two_check')
         elif len(checks) == 3:
-            dom.layer_hide('spot_2lines')
             dom.layer_hide('spot_x_check')
             dom.layer_hide('spot_one_check')
             dom.layer_hide('spot_two_check')
@@ -127,12 +125,22 @@ def filter_dom_elements(dom, card):
         if card.get('circles') and 'class_' in key:
             dom.layer_show(key)
 
-        if card.get('one_x'):
-            if '_2lines' in key:
+        if len(checks) == 0:
+            if '_2lines' in key or '_3lines' in key:
                 dom.layer_hide(key)
-        else:
-            if '_3lines' in key:
+        elif len(checks) == 2:
+            if '_0lines' in key or '_3lines' in key:
                 dom.layer_hide(key)
+        elif len(checks) == 3:
+            if '_0lines' in key or '_2lines' in key:
+                dom.layer_hide(key)
+#
+#        if card.get('one_x'):
+#            if '_2lines' in key:
+#                dom.layer_hide(key)
+#        else:
+#            if '_3lines' in key:
+#                dom.layer_hide(key)
 
         if 'levels' in key and not card.get('level_start'):
             dom.layer_hide(key)
@@ -232,7 +240,13 @@ def make_card_dom(card):
     dom.replace_text('words_right', card['two_check'], ideal_num_chars=20)
     dom.replace_text('spot_words_right', card['two_check'], ideal_num_chars=20)
     dom.replace_text('words_two_check', card['two_check'], ideal_num_chars=40)
-    dom.replace_text('desc_detail', card['desc_detail'], ideal_num_chars=200)
+
+    if card.get('one_x') or card.get('x_check') or card.get('one_check'):
+        dom.replace_text('desc_detail', card['desc_detail'],
+                         ideal_num_chars=200)
+    else:
+        dom.replace_text('desc_detail', card['desc_detail'],
+                         ideal_num_chars=400)
     dom.replace_h1(card['title'])
 
     return dom
@@ -248,7 +262,8 @@ def custom_card_dom(card):
 
 def make_deck(cards):
     export_tall_png('tall_card_back2.svg', '/tmp/tall_cards/back.png')
-    export_tall_png('tall_card_stats.svg', '/tmp/tall_cards/stats.png')
+    export_tall_png('tall_card_stats.svg', '/tmp/tall_cards/page_stats.png')
+    export_tall_png('tall_card_hints.svg', '/tmp/tall_cards/page_hints.png')
 
     one_blank_3lines_front()
 
