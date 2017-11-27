@@ -483,3 +483,9 @@ going to your body.  A couple examples:
  * > 4 - only use these numbers if they promise they will count themselves
    and leave us humans out of it entirely.
 
+----
+
+# Marketing / Slogan
+
+ * The RPG that's ready when you are
+ * The RPG that's ready right now
