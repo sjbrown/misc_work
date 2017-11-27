@@ -179,9 +179,9 @@ GM can earn.
 ### Start in a place of normalcy / comfort
 
 The first point in your good bank is a "gimmie". If you can think of a
-way to start all of the player's characters in a place of normalcy /
+way to start all of the players' characters in a place of normalcy /
 comfort, mark a point in your *Good Bank*. You did remember to follow
-the rules in the Character Creation where you should ask the players
+the rules in the Character Creation and ask the players
 where their characters feel most at home, right?
 
 ### Cross a threshold with a true choice
@@ -189,9 +189,13 @@ where their characters feel most at home, right?
 As the game progresses, the conversation at the table will start
 establishing details about the world and about relationships between
 characters. Look for areas of tension and try to develop it.  Push characters
-into discomfort and higher stakes. Then look for a *threshold*. A line that
-once crossed, you can't simply turn around and go back. Find a way to
-put the characters up against that threshold.
+into discomfort and higher stakes. Then look for a *threshold*. Look for
+some line that once crossed, they can't simply turn around and go back.
+They might enthusiastically seek it out, they might even cross over before
+you've even figured out what it should be (if so, all that's left for you is
+to mark yourself a point in the *Good Bank*). But you might also
+need to increase the pressures in their "home" to gently nudge the characters
+up against that threshold.
 
 **But don't push them through.**
 
@@ -247,20 +251,48 @@ But they are changed. They have been on an adventure, they've seen things,
 done things. They are now masters of a new way of existing, unafraid of
 crossing into the previously alien world beyond their "home".
 
+By dialogue or action, each player character should exhibit their change.
+
 Mark your final *Good Bank* point if you can hit this note.
+
+### It's ok to skip it
+
+You don't need to get every point in your *Good Bank*. You should especially
+not try to force it if doing so would sacrifice fun for the players. Remember,
+you're not the only author of this story, and while earning points feels nice,
+you've got other jobs too, like paying attention to how the players are
+signalling the kinds of fun they want to have.
+
+### The lengths vary
+
+Act 3 might go very fast, or it might be a long journey home.  The first
+threshold might be crossed so fast that you only notice after the fact.
+Taking the prize might involve a twisting road of trials, or it might be
+one explosive boss battle.
+
+Let the story be what it must be, and *play to find out what happens*, but
+also take your opportunities to earn *Good Bank* points when they arise.
+
+
 
 ## 9-hour Campaign
 
  * Home
  * Mentor
- * Threshold
+ * Threshold & Threshold Guardian
  * Fun & Games
+   * level up
+   * everyone uses a new mechanic
  * Take
-  * use half your Bad Bank Points before they Rest
- * Pay
-  * use half your Bad Bank Points before they Rest
- * Return Threshold
- * Change
+   * use half your Bad Bank Points before they Rest
+   * opportunity to level up
+ * Pay (Return Threshold Guardian)
+   * use half your Bad Bank Points before they Rest
+ * Return Threshold - Grieve
+   * add Grief end-of-session questions - what will they miss most?
+ * Change - Master of both worlds
 
 ## 30-hour Campaign
+
+An "arc" of 3 9-hour campaigns
 
