@@ -60,7 +60,7 @@ def make_card(C):
 class Hack_and_Slash(Card):
   attr = 'Str'
   one_x = '''
-    1 attack power and the foe attacks you
+    Deal 1 attack power and the foe attacks you
   '''
   one_check = '''
     Roll attack power and the foe attacks you
@@ -94,7 +94,7 @@ class Volley(Card):
     Choices:
     * You have to move to get the shot, placing you in danger of the GM's choice
     * You have to take what you can get - halve your attack power
-    * You have to take several shots - lose 1 Equipment point
+    * You have to take several shots - lose 1 EQUIP
   '''
   level_start = '0'
   levels = ['0', 'g1']
@@ -148,18 +148,18 @@ class Defy_Danger(Card):
 class Defend(Card):
   attr = 'Str'
   one_x = '''
-    Place 1 green token on this card
+    Place 1 token on this card
   '''
   one_check = '''
-    Place 2 green tokens on this card
+    Place 2 tokens on this card
   '''
   two_check = '''
-    Place 3 green tokens on this card
+    Place 3 tokens on this card
   '''
   desc = '''
     Stand in defense of a person, item, or location, and you can interfere
     with attacks against it.  So long as you stand in defense, when you or
-    the defended is attacked, you may spend green tokens, 1 for 1, to choose:
+    the defended is attacked, you may spend card tokens, 1-for-1, to choose:
     * Redirect an attack from the thing you defend to yourself
     * Halve the attack's effect or damage
     * Open up the attacker to an ally giving +1 advantage against the attacker
