@@ -31,6 +31,9 @@ they extreme in that preference?
 Player 6: Roughly how old is your character?  Have they ever killed
 a man before?
 
+Player 7: What's your character's social standing? When they first
+walk into a room full of people, do they provoke any reaction?
+
 Even if the players finish picking cards, finish asking all these questions.
 the goal is to get everyone thinking about how *each* of these questions
 applies to *their* character, so they don't all just make murder-hobos.
@@ -38,13 +41,15 @@ applies to *their* character, so they don't all just make murder-hobos.
 
 # Home / Comfort
 
-Before the game begins, ask each player where their character feels most
+Before the game begins, ask *every* player where their character feels most
 at home, or what their favourite activity is.
 
+Write down the answers.
+
 Use this information to get your first point in your *Good Bank*, by
-starting the story out in a place of normalcy, life, and comfort.  Remember,
-it doesn't have to be a Hobbit hole.  Characters might be most at home
-in the middle of a bloody battle.
+starting the story out in a place of normalcy, vitality, and comfort.
+Remember, it doesn't have to be a Hobbit hole.  Characters might be most at
+home in the middle of a bloody battle.
 
 ## Fictional Advantages / Disadvantages
 
@@ -60,30 +65,42 @@ humiliated and bullied him. The player says they're going to use the
 Dispense Wrath move.  Because of the narrative set-up, it makes sense that
 it should be easier for the character to enter an enraged state.
 
- - You can hint to the player that this is sufficient narrative set-up to Do
-   a Flashback
- - You can use a point from the *Good Bank* to create the advantage - this gives
-   highest level advantage, and you've only got a few points in the *Good Bank*,
-   so make sure it's worth it.
+ - You can hint to the player they already have sufficient narrative set-up
+   to Do a Flashback
+ - You can use a point from the *Good Bank* to create the advantage - this
+   gives flip-3-take-best advantage, and you've only got a few points in
+   the *Good Bank*, so make sure it's worth it.
  - You can describe how this narrative situation reinvigorates the character,
    or how they swell with confidence, or how their mind becomes
    clear and focused, and tell the player to regain up to 4 lost Stamina.
    This is at your perogative, and falls under "GM Fiat"
+ - You can storytell the situation away.  Maybe the guards run away or
+   something happens in the world to avoid the conflict.
+   You should get the player's consent because they've already indicated that
+   they want to have fun by Dispensing Wrath.
 
 Here is what you can **not** do: you cannot tell them to flip with an
 advantage card just because you're the GM and you think it makes sense.
 
+If an advantage is to be had, the price must be paid, either by the
+GM or by the player.
+
 ### Disadvantages
 
-Let's say a character is in a dark cave at nighttime and no torches are lit.
-A multi-winged bat creature swoops down at them, claws slashing. The player
-declares they're going to Defy Danger with DEX and dive out of the way.
+Let's say the party of adventurers is in a dark cave at nighttime and
+no torches are lit.
+A multi-winged bat creature swoops down at them, claws slashing. The first
+player declares they're going to dive out of the way (Defy Danger with DEX).
 Because of the set-up, it makes sense that this will be more difficult than
 if the character could clearly see the creature and the ground they're diving
 to.
 
- - You can use one point from the Bad Bank to create one level of disadvantage
+ - You can use 2 points from the *Bad Bank* to create one level of disadvantage
 
+Its important to not get into a situation using this that makes the game seem
+unfair. For example, if a second creature swooped down at the next party
+member and the *Bad Bank* was now empty, ask yourself how to make it fair when
+the second character dives out of the way, free of disadvantage.
 
 # Session 2 rules
 
@@ -91,10 +108,10 @@ Your players at this point will be realizing that they fail often, maybe more
 than they'd like. This is a good time to talk about the odds with your players
 and particularly to discuss generating advantages.
 
-Some psycological studies have shown that players think odds are "fair" only
-when they get to 60% / 40% win versus lose. Now look at the Deckahedron
+Some psychological studies have shown that odds feel "fair" only
+when players get wins 60% of the time. Now look at the Deckahedron
 statistics reference.  You'll see that if your players are mostly doing
-standard flips (flips without advantage), they will begin to feel the game
+standard flips (flips without advantage), they are likely to feel the game
 is unfair.
 
 Explain to your players that getting good at playing Deckahedron World
@@ -196,6 +213,10 @@ should follow from the fiction. It should be something that is actually
 wanted or needed by the players' characters.  Pay attention to them, they
 are the protagonists in an epic. What would be miraculous for them to receive?
 
+Maybe you don't have to *create* the prize at all. What have the players
+been talking about, is there already a specific goal? What themes have already
+emerged through the action, dialogue and relationships?
+
 Take that prize and put it somewhere hard to get.
 
 It could be at the end of a road of trials, or inside the cave where they
@@ -210,7 +231,7 @@ yourself a point in your *Good Bank*
 
 This is usually the part of the game where characters lose all of their
 Stamina and "die". That's ok. You can choose to make a gritty story and let
-the deaths stand, or you can see the chapter on spending *Good Bank* points
+the deaths stand, or have a look at the chapter on spending *Good Bank* points
 to make death less than it seems.
 
 ### Return to the surface, changed.
@@ -223,8 +244,8 @@ feel like "home" for them. Guide them back into a place that has the same
 feeling at its core.
 
 But they are changed. They have been on an adventure, they've seen things,
-done things. They are masters of a new way of existing, unafraid of crossing
-into the previously uncomfortable world beyond their "home".
+done things. They are now masters of a new way of existing, unafraid of
+crossing into the previously alien world beyond their "home".
 
 Mark your final *Good Bank* point if you can hit this note.
 
