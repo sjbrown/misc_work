@@ -166,7 +166,7 @@ class Defend(Card):
     * Deal 1 attack power against the attacker
   '''
 
-class Discern_Realities(Card):
+class Discern(Card):
   attr = 'Int'
   one_x = '''
     Ask the GM 1
@@ -194,7 +194,7 @@ class Discern_Realities(Card):
     * What here is not what it appears to be?
     '''
 
-class Spout_Lore(Card):
+class I_Know_This(Card):
   attr = 'Int'
   x_check = '''
     The GM tells you something interesting
@@ -209,6 +209,10 @@ class Spout_Lore(Card):
     |
     Consult your accumulated knowledge about something.
     |
+    (You may always do this through the normal course of playing the game,
+    but when the GM doubts the fact or judges that the fact would provide
+    special benefit to the players, the GM may declare the I Know This
+    move is triggered)
     |
     On a ✗, the GM may ask you "How do you know this?".
     '''
