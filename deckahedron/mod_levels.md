@@ -84,3 +84,12 @@ over and write something new on it.
 ### You should meeet my friend
 
 Introduce an NPC
+
+## Misc
+
+ * "I'm good for it": When you spend Wealth in a Steading and make
+    a show of it, word gets around.  Flip Anchors.  On ✔ or ✔✔ you
+    can convince townsfolk to trade with you "on credit" for a few
+    days. There may be fictional consequences if you don't pay your
+    debts though. (IMMEDIATE)
+
