@@ -1,6 +1,79 @@
 # GM Guide
 
+## Start Script
+
+Hi everyone! We're going to play Deckahedron World.  This is going
+to be really fun, I'm glad you could join me for this!  I'm reading
+directly from a script that was designed to get us started fast, by
+going over just enough of the rules for our first session, so please
+pay attention now so we can get to the fun of the game quickly!
+
+Deckahedron World is a *narrative* game.
+
+It's a storytelling game where we all collaborate and tell the story
+together.
+
+I'm going to be the GM, so I'm going to be responsible for the
+events in the world and the side characters (they're called NPCs).
+
+Each one of you is going to play a role, kind of like an actor does.
+You're going to have a character and you're going to tell us
+everything they think and everything that they say and everything
+that they do.
+
+Imagine we're making an awesome adventure movie with swords and magic.
+You're the actors just making stuff up as you go, and I'm a combination
+of screenwriter and director, trying to make the story exciting
+and dramatic and deciding how the scenes go together.
+
+But let me get specific about what I mean when I said that you decide
+everything your character *does*. You can't just say "My character Tyrion
+runs up to the guy and punches him in the head and his head goes flying
+off". You *can* say "My character runs up to the guy and *tries* to punch
+his head so that his head goes flying off". See the difference? When you
+say something like that, It's my job as the GM to say you've *triggered
+a move*. The cards and dice will tell us if the guy's head goes flying
+off.
+
+When a *move is triggered*, it's time to use the rules of the game to see
+what happens next. Triggering moves is a lot of fun. It's fun to succeed
+and it's fun to fail. When you trigger moves you're definitely going to
+have an impact on the narrative and we're all going to get surprises when
+cards flip and dice roll.
+
+The game isn't all triggering moves though.
+
+Most of this game is talking. I'm going to be asking you questions, you'll
+probably have lots of questions for me, and we're going to put everything
+together to make a story that's exciting.  It's gonna have adventure,
+battles, chases, and discovery. It's a fantasy story, so think dangerous,
+and take risks. Try to be true to your character's personality.
+
+Each session will be about 3 hours.  We might spend a long time bouncing
+ideas off one another and dealing with each consequence in an
+improvisational way, or we might be in a long battle with lots of dice
+rolling and card flipping. There's no predetermined story, we're all in this
+together, and we're going to play to find out what happens.
+
+This first session will need about 30 minutes of prep, though.  Ten minutes
+has already gone by with this speech (it's almost over).  Next we're going to
+play Sarrukan's Chamber, a pre-made adventure for you to get the hang of the
+game. I'll set a timer for 10 minutes and then end Sarukkan's Chamber
+abruptly. Then we'll do 10 minutes of Character Creation.
+
+Let's start!
+
 ## Character Creation
+
+### Set Expectations
+
+Deckahedron World is a game about a group of scrappy adventurers who
+grow to be powers to become reckoned with. Let your players know that.
+Establish that their characters will start the game with skills
+and gifts beyond ordinary folk, but they'll still have to work to
+become really powerful.
+
+### Choose cards
 
 Lay out the cards with an A, B or C in the corner
 
@@ -10,32 +83,59 @@ They may only choose 1 A card each.
 
 They may only choose 2 B cards each.
 
-As they are thinking about which cards to choose, go around and ask these
-questions:
+#### Choose cards: Alternative rules for first-time players
+
+If this is your players' **first** experience with a role-playing game,
+Tell the players to choose only 2 of the A, B or C cards, and have them
+also choose a "Risk Driver" card.
+
+Place two green tokens on each player's Risk Driver card.
+When their character first *takes a big risk* by the method or
+for the reason written on their card, they receive the tokens.
+
+ * Expose an embarrassment
+ * Locate a prize
+ * Extract a secret
+ * Become enamored
+ * Sell your services
+ * Break down a barrier
+ * Choose a side
+ * Be an agent of justice
+ * Take pity on the desperate
+ * Start a grudge
+ * Consort with the unsavory
+ * Believe an impossible claim
+ * Get called out on your boasting
 
 
-Player 1: What species is your character, human, or something else?
+### Add flesh
 
-Player 2: Does your character steal things, or do they respect the
-concept of private property?
+As they are choosing cards, ask the questions on this list,
+one-at-a-time, and make notes from the players' answers.
+Don't ask each question to each player, address a question
+to just one player, then move onto the next question for
+the next player. This exercise gets the players
+thinking about their characters, and gets the table talking,
+so it's ok for players to blurt out responses out of turn.
+This conversation might also add details to the world, like
+what kinds of species and religions exist.
 
-Player 3: Before the adventure starts, is your character engaged in
-any kind of profession?
-
-Player 4: Does your character believe in gods? Is there some kind of
-religious practice or religious organization for them?
-
-Player 5: Does your character enjoy the outdoors, or city life? Are
-they extreme in that preference?
-
-Player 6: Roughly how old is your character?  Have they ever killed
-a man before?
-
-Player 7: What's your character's social standing? When they first
-walk into a room full of people, do they provoke any reaction?
+ * What species is your character, human, or something else?
+ * Does your character steal things, or do they respect the
+   concept of private property?
+ * Before the adventure starts, is your character engaged in
+   any kind of profession?
+ * Does your character believe in gods? Is there some kind of
+   religious practice or religious organization for them?
+ * Does your character enjoy the outdoors, or city life? Are
+   they extreme in that preference?
+ * Roughly how old is your character?  Have they ever killed
+   a man before?
+ * What's your character's social standing? When they first
+   walk into a room full of people, do they provoke any reaction?
 
 Even if the players finish picking cards, finish asking all these questions.
-the goal is to get everyone thinking about how *each* of these questions
+The goal is to get everyone thinking about how *each* of these questions
 applies to *their* character, so they don't all just make murder-hobos.
 
 
