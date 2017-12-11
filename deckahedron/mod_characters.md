@@ -73,7 +73,7 @@ section.
 
 ### Learning a new skill:
 
- * Start brand new skills With 3 `penalty` cards
+ * Start brand new skills With 2 `penalty` cards
 
 ---
 
@@ -82,13 +82,13 @@ seen before. But, without practice, instruction or very careful observation,
 they are probably going to fail when they try a new skill.
 
 To attempt a brand new skill, just confirm with the GM that your character has
-seen the skill used before, then take the skill card, put 3 `penalty` cards on
-top of it. Flip **4** cards, and take the **worst** result.
+seen the skill used before, then take the skill card, put 2 `penalty` cards on
+top of it. Flip **3** cards, and take the **worst** result.
 
 The character probably failed, but don't worry, they just need to keep
 practicing.
 
-> **Note:** Doing a skill check with 3 `penalty` cards by flipping `Darts`
+> **Note:** Doing a skill check with 2 `penalty` cards by flipping `Darts`
 > (blue) only gives you a very low chance to succeed.  If a player is slowing
 > the game down by repeatedly attempting many highly penalized Skills,
 > "house rules" are encouraged.  One such rule might be that a character
@@ -100,7 +100,6 @@ do so as if it were a brand new skill.
 
 ### Becoming "proficient":
 
- * With 3 `penalty` cards, flip **4**, take the **worst**
  * With 2 `penalty` cards, flip **3**, take the **worst**
  * With 1 `penalty` card, flip **2**, take the **worst**
  * With no cards on top of the skill, simply flip **1** card
