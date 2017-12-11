@@ -93,6 +93,9 @@ Python
     ALL raise errors, and each one has a unique id (to foil "is" comparisons)
    * If the errors could lead back to the line of code where the guilty
      function returned, that'd be awesome
+ * Do we want a symbol for return?
+    z = ⦗a ⊧ "foo"⦘
+      ⏎ a + "bar"
  * instrumentation got harder in Python 3 with print()
  * "self" or "cls" must be the first-by-order argument in a function signature
  * "elif" is silly.  but "else if" would be two tokens - confusing to novice,
