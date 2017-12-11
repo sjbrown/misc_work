@@ -623,6 +623,26 @@ Ask this question to each player: What about your character's personality
 causes them to overreach?  What makes them take risks a normal person avoids?
 Are they brave, foolhardy, driven, greedy, curious, grieving?
 
+### Fitting the fiction
+
+One of the joys of Deckahedron World is **building** your character up from
+a scrappy adventurer to a force to be reckoned with.
+
+Explain that the characters start out as "scrappy adventurers" that are not
+much more powerful than a common villager.  They've got an edge over
+regular folk, (their special abilities) but they're not mechanically that
+much stronger.  Encourage your players to choose backstories that fit
+where the characters are, mechanically.
+
+Avoid the situation of a hulking, 7 foot tall barbarian, with a
+rich history of warring and slaughtering enemies, who gets beat up by a farmer
+with a shovel and his pet goat.
+
+This doesn't mean don't let the player create the barbarian character.  It
+means, if they do, find some fictional justification (drunkard? battle-worn?
+magically cursed?) that they're currently at a "scrappy adventurer" level.
+
+
 ```
 p15
 ```
