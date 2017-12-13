@@ -114,7 +114,6 @@ of one of the titles in your touchstone list).
 The touchstone list is also an early way that the players can signal
 to the GM the kind of fun they want to have.
 
->>>>>>> Touchstone List
 
 ## Character Creation
 
@@ -166,7 +165,7 @@ for the reason written on their card, they receive the tokens.
 As they are choosing cards, ask the questions on this list,
 one-at-a-time, and make notes from the players' answers.
 Don't ask each question to each player, address a question
-to just one player, then move onto the next question for
+to just one player, then move on, asking the next question to
 the next player. This exercise gets the players
 thinking about their characters, and gets the table talking,
 so it's ok for players to blurt out responses out of turn.
@@ -187,12 +186,12 @@ what kinds of species and religions exist.
  * What's your character's social standing? When they first
    walk into a room full of people, do they provoke any reaction?
 
-Even if the players finish picking cards, finish asking all these questions.
+Even if the players are done picking cards, finish asking all these questions.
 The goal is to get everyone thinking about how *each* of these questions
 applies to *their* character, so they don't all just make murder-hobos.
 
 
-# Home / Comfort
+### Home / Comfort
 
 Before the game begins, ask *every* player where their character feels most
 at home, or what their favourite activity is.
@@ -203,6 +202,7 @@ Use this information to get your first point in your *Good Bank*, by
 starting the story out in a place of normalcy, vitality, and comfort.
 Remember, it doesn't have to be a Hobbit hole.  Characters might be most at
 home in the middle of a bloody battle.
+
 
 ## Fictional Advantages / Disadvantages
 
