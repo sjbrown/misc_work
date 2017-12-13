@@ -96,6 +96,12 @@ Python
  * Do we want a symbol for return?
     z = ⦗a ⊧ "foo"⦘
       ⏎ a + "bar"
+    z = ⦗a ⊧ "foo"⦘
+      ⮐ ⭩ ⇦  ⇚  ⇐  ↵  ↶  a + "bar"
+    z = ⦗a ⊧ "foo"⦘
+      ⮐ a + "bar"
+    z = ⦗a ⊧ "foo"⦘
+      ↶ a + "bar"
  * instrumentation got harder in Python 3 with print()
  * "self" or "cls" must be the first-by-order argument in a function signature
  * "elif" is silly.  but "else if" would be two tokens - confusing to novice,
