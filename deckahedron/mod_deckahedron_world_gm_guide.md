@@ -63,6 +63,59 @@ abruptly. Then we'll do 10 minutes of Character Creation.
 
 Let's start!
 
+
+## Establish Touchstones
+
+First, the table needs to get on the same page about the adventure's setting,
+themes, and tone.
+
+### Step 1
+
+Brainstorm some cultural "touchstones". Ask everyone to call out titles of
+books, movies, comics, TV shows that they get inspired by, and write them
+all down, no matter how silly.  Everyone at the table can add as many titles
+as they want.
+
+### Step 2
+
+Each player gets a chance to circle *one* of the titles on the list.
+
+Remind the players that Deckahedron World has rules for swords and limited
+magic, and no rules for machine guns or interstellar travel. So choosing
+sci-fi touchstones might help with themes and tone, but won't have much to
+offer for establishing setting.
+
+This list of circled titles becomes the "touchstone list".
+
+### Step 3
+
+The GM, using their knowledge of the rules, should read the list and
+call out any potential conflicts between circled titles and the rules of
+Deckahedron World. Everyone will have more fun if expectations are set at
+the beginning. It's important that players not expect certain events
+to be possible when the rules won't support them.
+
+### The Touchstone List
+
+Invite players to imagine what kind of world would be the one where all
+the circled titles are mashed together. What does this world look like?
+What are it's dominant features? What secrets are hidden away in the small
+places? Who are the folk that populate it, do their children happily play
+in the sun? What monsters lurk, what weakness do the ambitious and
+powerful exploit?
+
+It's not necessary to answer these questions, just to start thinking.
+
+The "touchstone list" may be consulted when the table needs to make a
+judgement about whether an action should be possible. You can ask the
+question "Would this kind of thing be possible in _ ?" (fill in the name
+of one of the titles in your touchstone list).
+
+The touchstone list is also an early way that the players can signal
+to the GM the kind of fun they want to have.
+
+>>>>>>> Touchstone List
+
 ## Character Creation
 
 ### Set Expectations
