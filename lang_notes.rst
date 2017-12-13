@@ -779,6 +779,7 @@ explicitness.
 Maybe raw if/else should only check for booleans, but `@truthy()` is a
 built-in language macro that calls __bool__ on members and returns
 
+
 ```
     if latitude:
         print 'Latitude was None'
@@ -801,6 +802,22 @@ to be more careful and explicit?
         # do something with 0.0 or 0
 
 ```
+
+That gets pretty verbose.
+
+Use the symbol ⸮, maybe?
+Or just the question mark "?"
+
+```
+
+    if myCollection.?
+        # do something with items from myCollection
+
+    if myNumber.??
+        # do something with 0.0 or 0
+
+```
+
 
 ----
 
