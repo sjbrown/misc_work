@@ -586,6 +586,17 @@ Remove all Harm and Wound tokens from your armour cards.
 
 ## More Moves - Run, Shop, Good Thing I Brought..., Sharpen and Stitch
 
+### Bravely Run Away
+### Shop / Procure
+
+Make mundane items - here's the process... TODO
+
+Don't hand a player a card they can't use because they don't have the
+requirements.
+
+### Good Thing I Brought...
+### Sharpen and Stitch
+
 # Mundane Items
 
 ## Armor, weapons
