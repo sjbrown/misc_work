@@ -250,6 +250,32 @@ for x in 1 ⧽thru⧼ 12
     console.info(x)
 ```
 
+This could also be used to disambiguate between the two uses of "in":
+`for member in collection` versus `if value in collection`
+
+```
+
+for x in my_list
+    console.info(x)
+
+if x ⧽in⧼ some_list
+    console.info(x)
+
+if [1,3,5] ⧽contains⧼ x
+    console.info(x)
+
+if x ⧽inside⧼ [1,2,3,6]
+    console.info(x)
+
+# Of course if shorthand is really desired there's a natural mathematical
+# symbol to express this, but it might be too esoteric for a general audience
+
+if x ϵ [1,2,3,6]
+    console.info(x)
+
+```
+
+
 
 ----
 
@@ -810,10 +836,15 @@ Or just the question mark "?"
 
 ```
 
-    if myCollection.?
+    # Using enclosers is one idea, but it breaks down for numbers and None
+    if myCollection.[?]
         # do something with items from myCollection
 
-    if myNumber.??
+    if myCollection."?"
+        # do something with items from myCollection
+
+    # So just a simpler .? that implies a call to __bool__
+    if myNumber.?
         # do something with 0.0 or 0
 
 ```
