@@ -36,20 +36,33 @@ The circle at level 6 gives the ability to move a stat up a level
 
 Spot for Two Stamina
 
-### I Set 'em Up...
+### Rallying Cry
 
-When you Critical Flip, invite another player to use the advantage instead
+When you Critical Flip, act out the rallying cry that your character shouts.
+Then, invite another player to use the advantage instead
 of you. They must use the advantage right now, and their character must be in
 the same scene as yours, and they must spend 1 green token.
 
+If they do it, take a Blessing Card into your discard pile and flip this card
+over.
+
+**Over**: when you resolve a flip with a Blessing Card, discard the Blessing
+Card and flip *only* this card over.
+
 ### Taste for Adventure
 
-Side 1: When you take your first Exhaustion token, take a Blessing Card
-face-down and (shuffle it into your Deckahedron) OR (put it in your discard
-pile)
+Side 1: When you put the first card in your Exhaustion pile, take a
+Blessing Card and
+(shuffle it into your Deckahedron without looking at it)
+OR (put it in your discard pile)
+
+Then flip this card over.
+
 Side 2: When you resolve a flip with a Blessing Card, discard that Blessing
 Card, but use it like a Critical Flip - 1 Green Token for Advantage on a new
 move right now.
+
+When you do this, discard the Blessing Card and flip *only* this card over.
 
 ### Background (Anchor)
 
