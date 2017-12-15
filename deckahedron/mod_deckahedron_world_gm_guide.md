@@ -63,6 +63,10 @@ abruptly. Then we'll do 10 minutes of Character Creation.
 
 Let's start!
 
+## Sarukkan's Chamber
+
+Set a timer for 10 minutes.
+
 
 ## Establish Touchstones
 
@@ -113,6 +117,7 @@ of one of the titles in your touchstone list).
 
 The touchstone list is also an early way that the players can signal
 to the GM the kind of fun they want to have.
+
 
 
 ## Character Creation
