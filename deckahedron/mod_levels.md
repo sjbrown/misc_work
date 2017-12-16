@@ -26,8 +26,12 @@ The circle at level 6 gives the ability to move a stat up a level
 ## Thief
 
  * Hide your green tokens from the GM
- * Reveal that an NPC is actually on a different side than assumed
- * What was thought to be a critical resource is actually a decoy,
+
+ * Turncoat: Reveal that an NPC is actually on a different side than assumed
+   * You say specifically whose side the NPC is *not* on
+   * The GM will decide whose side they are on instead
+
+ * Red Herring: What was thought to be a critical resource is actually a decoy,
    bluff, or an illusion
 
 ## Level 1
@@ -36,38 +40,38 @@ The circle at level 6 gives the ability to move a stat up a level
 
 Spot for Two Stamina
 
+### Eager Learner
+
+When you increase a skill level by flipping a green symbol, take a
+Blessing Card and shuffle it into your Deckahedron.
+
+### It's in here somewhere
+
+When you use Good Thing I Brought..., take out the top 4 cards of your
+Deckahedron and match their corners into a square shape or a triangle shape.
+If you can do this, you only need to spend 1 EQUIP.
+
+While trying to match corners, the narrative progresses and other players can make moves.
+
+You can give up at any time.
+
 ### Rallying Cry
 
-When you Critical Flip, act out the rallying cry that your character shouts.
-Then, invite another player to use the advantage instead
-of you. They must use the advantage right now, and their character must be in
-the same scene as yours, and they must spend 1 green token.
+When you Critical Flip, act out the rallying cry shouted by your character.
+Then, invite another player to use the advantage instead of you.
+They must use the advantage right now, and their character must be in
+the same scene, and they must spend the usual 1 green token.
 
-If they do it, take a Blessing Card into your discard pile and flip this card
-over.
+If they do it, take a Blessing Card, shuffle it into your Deckahedron,
+and flip this card over.
 
-**Over**: when you resolve a flip with a Blessing Card, discard the Blessing
-Card and flip *only* this card over.
-
-### Taste for Adventure
-
-Side 1: When you put the first card in your Exhaustion pile, take a
-Blessing Card and
-(shuffle it into your Deckahedron without looking at it)
-OR (put it in your discard pile)
-
-Then flip this card over.
-
-Side 2: When you resolve a flip with a Blessing Card, discard that Blessing
-Card, but use it like a Critical Flip - 1 Green Token for Advantage on a new
-move right now.
-
-When you do this, discard the Blessing Card and flip *only* this card over.
+**Over**: when you resolve a flip with a Blessing Card, you may
+discard the Blessing Card and flip *only* this card over.
 
 ### Background (Anchor)
 
 Write a word or phrase that indicates part of your character's background.
-When in a situation where this background would come in handy and you flip
+When you're in a situation where this background would be useful, and you flip
 to resolve a move, flip an Anchor as well. If your Anchor card is better than
 the card you resolved your move with, resolve with that card instead.
 
@@ -80,10 +84,27 @@ over and write something new on it.
 
 ## Later levels
 
+### Taste for Adventure TODO: this is too complicated
 
-### You should meeet my friend
+Side 1: When you put the first card in your Exhaustion pile, take a
+Blessing Card and shuffle it into your Deckahedron.
+
+Then flip this card over.
+
+Side 2: When you resolve a flip with a Blessing Card, discard that Blessing
+Card, but use it like a Critical Flip - 1 Green Token for Advantage on a new
+move right now.
+
+When you do this, discard the Blessing Card and flip *only* this card over.
+
+
+### You should meet my friend
 
 Introduce an NPC
+
+ * What is your relationship
+ * How you think they can help
+ * The GM says where you can find them
 
 ## Misc
 
