@@ -5,7 +5,7 @@
 import os
 from itertools import product
 from cards import cards, blessing_cards, wound_cards, dice_print_rules
-from cards import spot_it_map, spot_it_rules
+from cards import spot_it_map, spot_it_rules, calc_zodiac
 
 from svg_dom import DOM, export_square_png
 
@@ -61,13 +61,6 @@ cards
 '''
 
 
-def calc_zodiac(i):
-    symbols = spot_it_rules[i%5]
-    symbols = [spot_it_map[x] for x in symbols]
-    # every 5, rotate them
-    offset = int(i/5)
-    symbols = symbols[offset:] + symbols[:offset]
-    return tuple(symbols)
 
 def set_zodiac(dom, nw, ne, se, sw):
     directions = ['nw', 'ne', 'se', 'sw']

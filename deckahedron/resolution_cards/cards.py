@@ -588,6 +588,119 @@ spot_it_map = {
   9: 'pig',
 }
 
+def calc_zodiac(i):
+    symbols = spot_it_rules[i%5]
+
+    # mix it up a bit
+    symbols = [x for x in itertools.permutations(symbols)][i%4]
+
+    # get the english name
+    #symbols = [spot_it_map[x] for x in symbols]
+
+    # every 5, rotate them
+    offset = int(i/5)
+
+    symbols = symbols[offset:] + symbols[:offset]
+    return tuple(symbols)
+
+
+def zjoin_2(card_a, card_b):
+    match_a_index = None
+    match_b_index = None
+    for a_index, a_val in enumerate(card_a):
+        for b_index, b_val in enumerate(card_b):
+            if a_val == b_val:
+                match_a_index = a_index
+                match_b_index = b_index
+
+    print '   ' * (4 - match_a_index), card_a
+    print '   ' * (4 - match_b_index), card_b
+
+    return match_a_index, match_b_index
+
+
+def join_3_in_a_line(card_a, card_b, card_c):
+    print '---'
+
+    def line_2(card_a, card_b):
+        match_a_index, match_b_index = zjoin_2(card_a, card_b)
+
+        line_a_index = (match_a_index + 2)%len(card_a)
+        line_b_index = (match_b_index + 2)%len(card_b)
+        #print 'avail', card_a, 'index', line_a_index, 'value', card_a[line_a_index]
+        #print 'avail', card_b, 'index', line_b_index, 'value', card_b[line_b_index]
+
+        return card_a[line_a_index], card_b[line_b_index]
+
+    possible_a, possible_b = line_2(card_a, card_b)
+    win_a_b_c = possible_a in card_c or possible_b in card_c
+    print card_a, card_b, card_c, (win_a_b_c and 'WIN A B C')
+
+    possible_a, possible_c = line_2(card_a, card_c)
+    win_a_c_b = possible_a in card_b or possible_c in card_b
+    print card_a, card_c, card_b, (win_a_c_b and 'WIN A C B')
+
+    possible_b, possible_c = line_2(card_b, card_c)
+    win_b_c_a = possible_b in card_a or possible_c in card_a
+    print card_b, card_c, card_a, (win_b_c_a and 'WIN B C A')
+
+    return win_a_b_c, win_a_c_b, win_b_c_a
+
+
+def join_3_in_a_triangle(card_a, card_b, card_c):
+    print '---'
+
+    def tri_2(a, b):
+        match_a_index, match_b_index = zjoin_2(a, b)
+
+        tri_index_pair1 = (
+          a[(match_a_index + 1)%len(a)],
+          b[(match_b_index + 1)%len(b)],
+        )
+        tri_index_pair2 = (
+          a[(match_a_index - 1)%len(a)],
+          b[(match_b_index - 1)%len(b)],
+        )
+
+        return tri_index_pair1, tri_index_pair2
+
+    def edges(card):
+      return card[:2], card[1:3], card[2:4], (card[3], card[0])
+
+    pair1, pair2 = tri_2(card_a, card_b)
+    if pair1 in edges(card_c) or pair2 in edges(card_c):
+        print edges(card_c), 'needles', pair1, pair2
+        print card_a, card_b, card_c, 'WIN A B C'
+        return True
+
+    pair1, pair2 = tri_2(card_a, card_c)
+    if pair1 in edges(card_b) or pair2 in edges(card_b):
+        print edges(card_b), 'needles', pair1, pair2
+        print card_a, card_b, card_c, 'WIN A C B'
+        return True
+
+    pair1, pair2 = tri_2(card_b, card_c)
+    if pair1 in edges(card_a) or pair2 in edges(card_a):
+        print edges(card_a), 'needles', pair1, pair2
+        print card_a, card_b, card_c, 'WIN B C A'
+        return True
+
+
+def zjoin_all(fn = join_3_in_a_line):
+    zodiac_deck = [calc_zodiac(x) for x in range(20)]
+    win_results = []
+    for i in range(20):
+        for j in range(20):
+            if i == j:
+                continue
+            for k in range(20):
+                if k in [i,j]:
+                    continue
+                wins = fn(zodiac_deck[i], zodiac_deck[j], zodiac_deck[k])
+                win_results.append(wins)
+    return win_results
+
+
 def analyze_exes_and_checkmarks(svg=False, lost_stamina=0, flashback_percent=0.0):
     a_deck = [x['a'] for x in cards]
     b_deck = [x['b'] for x in cards]
