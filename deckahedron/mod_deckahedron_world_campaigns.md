@@ -11,15 +11,15 @@ beginning, middle, and end. These parts are also known as Act 1,
 Act 2, and Act 3.
 
 If you're accustomed to other RPGs, having a campaign that *ends* might
-feel a little weird. You're advised to try it out first and see the
-results you get after a 9-hour campaign, and don't worry, Deckahedron
-World allows you to stretch beyond 30 hours if you really want that.
+feel a little weird. Try out a 9-hour campaign and see how the results
+answer your doubts. And don't worry, Deckahedron World allows you to stretch
+beyond 30 hours if you really want that.
 
 Deckahedron World is designed to tell a particular kind of story.
 It's called *The Hero's Journey* by people who study story structure.
 
-*The Hero's Journey* structure is what gives many successful and popular
-movies and books their shape: Star Wars, The Hobbit, Lord of the Rings,
+*The Hero's Journey* is a skeleton upon which many successful and popular
+movies and books are hung: Star Wars, Lord of the Rings, The Breakfast Club,
 Die Hard, Beowulf, Forgetting Sarah Marshall, the list goes on.
 To help you execute a successful and popular *campaign*, Deckahedron
 World gives the GM a *Good Bank* and a *Bad Bank* and specific rules for
@@ -88,9 +88,11 @@ Take that prize and put it somewhere hard to get.
 
 It could be at the end of a road of trials, or inside the cave where they
 must conquer their greatest fear, or in the clutches of their most powerful
-adversary. Whatever the fictional set-up, draw a box around **all** of the
-points currently in your *Bad Bank* and use them all before the characters
-get a chance to Rest.
+adversary.
+
+Whatever the fictional set-up, when you're ready, set up a challenge in
+the narrative, then draw a box around **all** of the points currently in
+your *Bad Bank* and use them all before the characters get a chance to Rest.
 
 If you can do this, when they complete the challenge that used up the last of
 the set-aside *Bad Bank* points, give them the prize of Act 2 and give
@@ -105,7 +107,7 @@ to make death less than it seems.
 
 In Act 3, find a way to return the characters "home". It need not be their
 literal home, nor does it need to be where the adventure started,
-geographically.  Go back to that original statement the character made
+geographically.  Go back to that original statement the players made
 about their character's place of comfort, and tease apart what makes that
 feel like "home" for them. Guide them back into a place that has the same
 feeling at its core.
@@ -123,8 +125,8 @@ Mark your final *Good Bank* point if you can hit this note.
 You don't need to get every point in your *Good Bank*. You should especially
 not try to force it if doing so would sacrifice fun for the players. Remember,
 you're not the only author of this story, and while earning points feels nice,
-you've got other jobs too, like paying attention to how the players are
-signalling the kinds of fun they want to have.
+you've got other jobs too, like paying attention to the signals the players
+give you for the kind of fun they want to have.
 
 ### The lengths vary
 
