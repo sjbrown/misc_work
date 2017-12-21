@@ -1,0 +1,23 @@
+---
+🛈 "Hello World!"
+
+
+---
+name = console.input('What is your name?\n')
+
+🛈 'Hi, {}.'.format(name)
+
+---
+friends = ['john', 'pat', 'gary', 'michael']
+for i, name in enumerate(friends)
+    🛈 "iteration {iteration} is {name}".format(iteration=i, name=name)
+
+---
+greet = ⦗name⦘
+    🛈 'Hello', name
+
+greet('Jack')
+greet('Jill')
+
+---
+prices = {'apple': Decimal(0,40), 'banana': 0⋄50)}

@@ -177,6 +177,12 @@ Ideas
  * Where to draw the "it's too rare" line?
   * I think: strings, ints, lists, dicts, functions, classes?
    * Can these be interesting? expressions, operators, modules, ...
+* If no floats, then what?
+  * Decimal(0,40): can get cumbersome to type
+  * Special decimal-creating operator: 0⋄51
+  * Special float-creating operator: 0⋆51
+  * Default behaviour that creates a float: 0.51 (and spits out a warning?)
+    * But this reads as "take 0, apply the 51 query" - expensive at runtime
 * Annotations.  People seem to love them. (static typing) - maybe a way to
   make decorators more pretty.  Colon might be a good symbol here.
  * But colon is used by dicts {'a':33}.  Maybe "as".  See below.
@@ -527,14 +533,14 @@ So maybe instead of * , use ^.
 Use forces on dicts to make them attr-dicts:
 
     d = dict(a=3, b=4) ⊩ @dictattrs
-    assert d.a == d['a']
+    assert d.a == d.{'a'}
 
 Since forces can change compilation, we can make this convenient:
 
     d = dict() ⊩ @dictnamespace
         a = 3
         b = 4
-    assert d['a'] == 3
+    assert d.{'a'} == 3
 
 ----
 
@@ -741,6 +747,9 @@ Actually, I like that better than the above.  Maybe this rule should apply:
     1. evaluate the expression
     2. use the value for a symbol-specific lookup
     3. maybe the expression is called a "Selector"?
+<name>.<integer> :
+    The above mentioned float-default that is runtime-expensive and might
+    spit out a warning
 
 Ok, now that we've gone this far, let's look at the quotes again...
 
@@ -769,6 +778,19 @@ Ok, now that we've gone this far, let's look at the quotes again...
         ❮❯ : getElementBy,
     }
     dom.❮#bar❯
+
+```
+
+```
+    first_two = ⦗a ⊩ @interface('sequence')⦘
+        return a.[:2]
+    first_two('asdf')
+    first_two([1,2,3,4])
+
+    first_two = ⦗a ⊩ @loose⦘
+        return a.[:2]
+    first_two('asdf')
+    first_two([1,2,3,4])
 
 ```
 
