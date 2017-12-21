@@ -2,6 +2,7 @@
 
 ## Start Script
 
+```
 Hi everyone! We're going to play Deckahedron World.  This is going
 to be really fun, I'm glad you could join me for this!  I'm reading
 directly from a script that was designed to get us started fast, by
@@ -13,27 +14,29 @@ Deckahedron World is a *narrative* game.
 It's a storytelling game where we all collaborate and tell the story
 together.
 
-I'm going to be the GM, so I'm going to be responsible for the
-events in the world and the side characters (they're called NPCs).
+I'm going to be the GM (it's short for Game Master), so I'm going
+to be responsible for the events in the world and the side characters
+(they're called NPCs or Non-Player Characters).
 
 Each one of you is going to play a role, kind of like an actor does.
-You're going to have a character and you're going to tell us
-everything they think and everything that they say and everything
-that they do.
+You're going to control one character. You get to tell us everything
+they think and everything that they say and everything that they do.
 
 Imagine we're making an awesome adventure movie with swords and magic.
 You're the actors just making stuff up as you go, and I'm a combination
 of screenwriter and director, trying to make the story exciting
 and dramatic and deciding how the scenes go together.
 
-But let me get specific about what I mean when I said that you decide
-everything your character *does*. You can't just say "My character Tyrion
-runs up to the guy and punches him in the head and his head goes flying
-off". You *can* say "My character runs up to the guy and *tries* to punch
+But let me get specific about what I mean by "you decide everything
+your character *does*".
+
+You can't just say "My character Tyrion runs up to the bad guy and
+punches him in the head and his head goes flying off".
+You *can* say "My character runs up to the bad guy and *tries* to punch
 his head so that his head goes flying off". See the difference? When you
 say something like that, It's my job as the GM to say you've *triggered
-a move*. The cards and dice will tell us if the guy's head goes flying
-off.
+a move*. The cards and dice will tell us if the bad guy's head actually
+goes flying off.
 
 When a *move is triggered*, it's time to use the rules of the game to see
 what happens next. Triggering moves is a lot of fun. It's fun to succeed
@@ -45,27 +48,244 @@ The game isn't all triggering moves though.
 
 Most of this game is talking. I'm going to be asking you questions, you'll
 probably have lots of questions for me, and we're going to put everything
-together to make a story that's exciting.  It's gonna have adventure,
-battles, chases, and discovery. It's a fantasy story, so think dangerous,
-and take risks. Try to be true to your character's personality.
+together to make an epic story.  It's gonna have adventure, battles,
+chases, discoveries, and magic.
+
+It's a fantasy story, so think dangerous, and take risks.
+
+Be true to your character's personality.
 
 Each session will be about 3 hours.  We might spend a long time bouncing
 ideas off one another and dealing with each consequence in an
 improvisational way, or we might be in a long battle with lots of dice
-rolling and card flipping. There's no predetermined story, we're all in this
-together, and we're going to play to find out what happens.
+rolling and card flipping.
 
-This first session will need about 30 minutes of prep, though.  Ten minutes
-has already gone by with this speech (it's almost over).  Next we're going to
-play Sarrukan's Chamber, a pre-made adventure for you to get the hang of the
-game. I'll set a timer for 10 minutes and then end Sarukkan's Chamber
-abruptly. Then we'll do 10 minutes of Character Creation.
+There's no predetermined story, we're all in this together, and we're
+going to play to find out what happens.
+
+This first session will need about 40 minutes of preparation, though.
+Ten minutes has already gone by with this speech (it's almost over).
+Next, we're going to play Sarrukan's Chamber, a pre-made adventure for
+you to get the hang of the game. I'll set a timer for 10 minutes and
+then end Sarukkan's Chamber abruptly.
+
+Then we'll take 10 minutes to create a Touchstone List for our game.
+
+Then we'll do 10 minutes of Character Creation.
+
+And then, the adventure begins.
 
 Let's start!
+```
 
 ## Sarukkan's Chamber
 
 Set a timer for 10 minutes.
+
+Give each player a Deckahedron.
+
+```
+Here's a stack of 20 cards, it's called a Deckahedron.
+Notice the 4 different colored symbols on the edges.  They're named
+Anchor (red), Bulb (yellow), Crescent (green), and Dart (blue).
+When you *trigger a move*, I'm going to instruct you to flip the top
+card of your Deckahedron, and we'll see the result on the flipped-over
+side. There are 4 possible results:
+
+  * ✔✔ : this means you succeed at the thing you tried
+  * ✔ : this usually means something good happens, but maybe with a downside
+  * ✗ : this usually means something "ok", or not-so-good happens
+  * ✗✗ : this usually means that I get to say what happens and make my own move
+
+When I ask you to flip, I'm going to say something like "flip Anchors"
+or "flip red" or "flip green". That means you find the result
+on the edge that has that color or symbol.
+
+When you flip it over, please face that edge towards me, so it's easy for
+me to read.
+
+Let's try it: everybody flip yellow.
+```
+
+Give each player a Move Booklet
+
+```
+Here are the basic moves.  You don't have to read this booklet unless you
+want to. I'll point out moves when they're triggered and we can read them
+together or you can just let me apply them.
+
+It's hard for me to do everything though, so the more you can help me out,
+the smoother the game will run.
+
+The move you'll be triggering the most will probably be Defy Danger, that's
+why it's on the first page. The moves in the back of the booklet are
+"downtime" moves which we won't need until much later.
+```
+
+Next, ask the players these 3 questions. This is an improvisation exercise.
+Its purpose is to get the creative juices flowing and to signal to the
+players that they have input over the story.
+
+Whenever you need to choose names for things, try asking the players these
+kinds of questions.
+
+Ask the players for the name of a medieval fantasy city name.
+Write down the answer. That will be the name of the setting.
+
+Ask "What's a store where women buy clothing?". Use that to create the
+female protagonist's name. (eg, "Forever 21" can turn into "Forva",
+"La Senza" can turn into "Senza")
+
+Ask "What's a city in Europe?". Create the male protagonist's name with
+that. (eg, "Paris" can just be "Paris", London can be "Donalo")
+
+Distribute a player card to each player and ask them to write down the
+names you just came up with.
+
+Instruct the players to fill out the stat boxes like so:
+
+ * Both characters have 1 Int (Anchor)
+ * The female protagonist has 3 Dex (Crescent) and 2 Str (Bulb)
+ * The male protagonist has 2 Dex (Bulb) and 3 Str (Crescent)
+
+### 3rd PC variant
+
+If you've got a 3rd player at the table, add a guard character.
+
+Ask "What's a domestic brand of beer?". Use that to create the 3rd
+character's name. The guard can be any gender, has 3 Int, 2 Str, and 1 Dex.
+
+Let them know that they'll get introduced about 5 minutes into the story.
+
+### Introduce Sarrukan's Chamber
+
+Begin narrating the set-up.
+
+```
+[Addressing her]
+_ (female protagonist), you are an acrobat.
+Your troupe of performers set off on the road to perform in the big
+city _ (city name). You were really excited, because your big brother lives
+there, and you haven't seen him since you were 13, and that was 10 years
+ago.
+
+But your excitement soon turned to horror and despair. On the road, your
+troupe was overrun by masked horsemen. They attacked fiercely and without
+mercy. All the women of the caravan were captured, and by the cries and
+what you glimpsed through your stained blindfold, all the men were slain.
+
+You remember one phrase uttered by the marauders,
+"Deliver them to Sarrukan."
+
+After days of travel shackled in a box, you found yourself imprisoned in
+a small, dark, musty cellar room. Windowless, the only illumination is
+whatever lamplight filters through the cracks of the door.
+
+[Dramatic pause]
+
+[Addressing him]
+_ (male protagonist) you are a thief-catcher.
+You're not too bright, but your boss, Gandlin, has taken you under his
+wing and taught you street wisdom. Merchants employ him to recover stolen
+valuables or they pay for simple retribution against the pilfering
+scoundrels. You provie the muscle. Gandlin sniffs them out, you beat
+them up, and each shares in the reward.
+
+That's how it had been. Gandlin has now gone missing.
+
+He was investigating a series of thefts from
+private homes. There was some pattern to it -- artifacts or books taken,
+but no smashed windows or doors. The mystery of it had Gandlin
+obsessed, working sometimes until dawn.
+
+Then one dawn it was he that was taken, with a trail of blood to
+tell of it. Following the path, you came to the locked gate to the yard
+behind Sarrukan's estate. Sarrukan was a powerful player in _ 's (city name)
+noble circles, but not much was known of him.
+
+After jumping the wall, you didn't get much farther before you were
+surprised from behind and knocked out, waking up in a tiny, dirt-floored
+room in the cellar.
+
+[Addressing both]
+But tonight, something changed. It was noisy tonight. Footsteps and
+conversations could be heard upstairs. It was some kind of party.
+And there were no guard patrols of the cellars. In parallel, but
+without bumping into each other, you both used the lapse to escape.
+
+You freed yourself from your cell.
+
+In some dark corner you grabbed a reveler and took their elaborate
+costume and mask for a disguise. Tonight must be a masquerade ball.
+
+With no easy opportunity to exit, you kept evading attention by going
+upstairs, until you reached the third floor.
+
+From different doors, you simultaneously enter an empty bedchamber. You
+turn from the door you carefully and silently closed to see across the
+room, an apparent party guest in full wardrobe.
+
+[Dramatic pause]
+
+One last thing, with these masks on, you don't know this, but you're
+brother and sister.
+
+What do you do?
+```
+
+### 3rd PC variant - Introduce the reluctant guard
+
+After the first to PCs have had a chance to inspect their
+surroundings, and maybe have a dialogue with each other, introduce the
+3rd PC
+
+```
+[Addressing guard]
+_ (guard), you are a guard.
+You're the newest hire in Sarukkan's staff, but you're already thinking of
+changing careers. There's some sketchy stuff going on here. You're not too
+sure what exactly, since you mostly patrol the yard, but you're sure you
+heard the sounds of women crying when you patrolled near the cellar door
+a couple days ago.
+
+You got called into the house just now.  Apparently a guest of the ball
+had been assaulted and stripped of their clothing.  The culprit might still
+be inside, so Yogran, a fellow guard pulled you to help him investigate.
+
+One other thing, Sarukkan is rumoured to be a practicioner of dark magic
+and all staff are forbidden to enter his chamber. You think Yogran is going
+to use you as a guinea pig to do just that.
+```
+
+### Details - take them or leave them
+
+ * Luxurious canopy bed in the middle
+ * Chamber is full of esoterica - books, sculptures
+ * Maybe a window at the front of the room - an escape route?
+ * An alarm triggers when a guard enters the room?
+
+
+### Goals for Sarrukan's Chamber
+
+Ideally, Sarukkan's Chamber should demonstrate what kind of game
+Deckahedron World is.
+
+ * Get each player to have an opportunity to do a Deckahedron flip
+ * **Stack the decks** this scene is for instruction, so put the Critical
+   Success card at position 3 in all players' decks.
+ * Let the PCs have some dialogue, but when it feels like they're hesitating,
+   push quickly to the approaching danger of the guards.
+ * Get the guards into the room for a quick fight.
+ * Try to get the PCs to attempt *Hack & Slash* or *Volley*
+ * As the PCs gain the upper hand, show signs of another threat (maybe
+   the wizard himself approaches - it's ok to tell the story of what's
+   happening *off-camera*), and then cut it off with a cliffhanger.
+ * Go back into the rules instruction after no more than 10 minutes.
+ * Play Sarukkan's Chamber *honestly*. Set the stakes the same as you would
+   when you play a campaign
+
+The players should now understand how the Deckahedron works with character
+stats to produce results that affect the narrative.
 
 
 ## Establish Touchstones
@@ -95,9 +315,19 @@ This list of circled titles becomes the "touchstone list".
 
 The GM, using their knowledge of the rules, should read the list and
 call out any potential conflicts between circled titles and the rules of
-Deckahedron World. Everyone will have more fun if expectations are set at
-the beginning. It's important that players not expect certain events
-to be possible when the rules won't support them.
+Deckahedron World.
+
+Will the players expect their characters to pull off the same feats
+and use the same powers of the chosen touchstones?
+
+*Die Hard* is a great touchstone for tone, themes, and relationships, but
+Deckahedron World doesn't have rules for helicopters or machine guns.
+
+The GM should not *reject* any circled titles, they should just address
+what's going to be possible.
+
+Everyone will have more fun if expectations are set at the beginning.
+
 
 ### The Touchstone List
 
@@ -119,7 +349,6 @@ The touchstone list is also an early way that the players can signal
 to the GM the kind of fun they want to have.
 
 
-
 ## Character Creation
 
 ### Set Expectations
@@ -127,8 +356,8 @@ to the GM the kind of fun they want to have.
 Deckahedron World is a game about a group of scrappy adventurers who
 grow to be powers to become reckoned with. Let your players know that.
 Establish that their characters will start the game with skills
-and gifts beyond ordinary folk, but they'll still have to work to
-become really powerful.
+and gifts beyond ordinary folk, but they'll still have to work and
+struggle through adversity to become really powerful.
 
 ### Choose cards
 
