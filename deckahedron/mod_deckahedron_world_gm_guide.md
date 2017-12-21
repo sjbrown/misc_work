@@ -80,8 +80,6 @@ Let's start!
 
 ## Sarukkan's Chamber
 
-Set a timer for 10 minutes.
-
 Give each player a Deckahedron.
 
 ```
@@ -107,6 +105,9 @@ me to read.
 Let's try it: everybody flip yellow.
 ```
 
+Step the players through "flipping yellow" using the instructions in the
+[Player's Guide](mod_deckahedron_world.md)
+
 Give each player a Move Booklet
 
 ```
@@ -122,12 +123,11 @@ why it's on the first page. The moves in the back of the booklet are
 "downtime" moves which we won't need until much later.
 ```
 
+Start a timer for 10 minutes.
+
 Next, ask the players these 3 questions. This is an improvisation exercise.
 Its purpose is to get the creative juices flowing and to signal to the
 players that they have input over the story.
-
-Whenever you need to choose names for things, try asking the players these
-kinds of questions.
 
 Ask the players for the name of a medieval fantasy city name.
 Write down the answer. That will be the name of the setting.
@@ -142,7 +142,12 @@ that. (eg, "Paris" can just be "Paris", London can be "Donalo")
 Distribute a player card to each player and ask them to write down the
 names you just came up with.
 
-Instruct the players to fill out the stat boxes like so:
+Whenever you need to invent names, try asking the players these
+kinds of questions - start with an unrelated topic like "What's something
+you buy at a grocery store?", "What's my mother's favourite TV show?".
+
+
+Next, instruct the players to fill out the stat boxes like so:
 
  * Both characters have 1 Int (Anchor)
  * The female protagonist has 3 Dex (Crescent) and 2 Str (Bulb)
@@ -283,6 +288,7 @@ Deckahedron World is.
  * Go back into the rules instruction after no more than 10 minutes.
  * Play Sarukkan's Chamber *honestly*. Set the stakes the same as you would
    when you play a campaign
+ * If any PvP happens, remember to use the PvP rules
 
 The players should now understand how the Deckahedron works with character
 stats to produce results that affect the narrative.

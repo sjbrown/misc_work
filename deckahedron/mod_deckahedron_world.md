@@ -1,4 +1,4 @@
-# Deckahedron Module: Deckahedron World
+# Deckahedron World - Player's Guide
 
 This is an adaptation of
 [Dungeon World](http://www.dungeon-world.com/)
