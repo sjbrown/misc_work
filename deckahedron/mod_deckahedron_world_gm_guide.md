@@ -529,4 +529,14 @@ The SPEED score and Defy Danger with Dex
 
 Let the characters find whatever you think would be most fun.
 
+Sometimes you don't know what loot is appropriate.
+
+If the characters slay a pack of werewolves, and ask to search the bodies,
+and you don't immediately have a great idea about what kind of beneficial
+gear could be found on nearly naked bodies, you can write "What we found
+on the werewolves" on a blank card, and give it to one of the players.
+Tell them to put a SPEED/EQUIP/WEALTH token on it and that it can count
+as either WEALTH or EQUIP , as long as they can justify it.
+
+
 [Campaigns](mod_deckahedron_world_campaigns.md)
