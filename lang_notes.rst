@@ -181,7 +181,7 @@ Ideas
   * Decimal(0,40): can get cumbersome to type
   * Special decimal-creating operator: 0⋄51
   * Special float-creating operator: 0⋆51
-  * Default behaviour that creates a float: 0.51 (and spits out a warning?)
+  * Default behaviour that creates a Decimal and spits out a warning: 0.51
     * But this reads as "take 0, apply the 51 query" - expensive at runtime
 * Annotations.  People seem to love them. (static typing) - maybe a way to
   make decorators more pretty.  Colon might be a good symbol here.
