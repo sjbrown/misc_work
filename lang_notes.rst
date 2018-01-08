@@ -748,8 +748,8 @@ Actually, I like that better than the above.  Maybe this rule should apply:
     2. use the value for a symbol-specific lookup
     3. maybe the expression is called a "Selector"?
 <name>.<integer> :
-    The above mentioned float-default that is runtime-expensive and might
-    spit out a warning
+    The above mentioned Decimal-default that is runtime-expensive and
+    spits out a warning
 
 Ok, now that we've gone this far, let's look at the quotes again...
 
@@ -777,6 +777,10 @@ Ok, now that we've gone this far, let's look at the quotes again...
     __module__.enclosers = {
         ❮❯ : getElementBy,
     }
+    dom.❮'.foo'❯
+    dom.❮'#bar'❯
+    # It would be nice to make that more compact like:
+    dom.❮.foo❯
     dom.❮#bar❯
 
 ```
