@@ -1,5 +1,26 @@
 # GM Guide
 
+This guide is intended for a Deckahedron World Game Master (GM).
+
+Read this guide if you are the volunteer among your friends to run the
+game. Your responsibilities are:
+
+ * know, teach, and follow the rules
+ * tell the lion's share of the story
+ * give Non-Player Characters (NPCs) names, voices, motivations,
+   and behaviour
+ * confront the players with challenges and dangers
+ * take notes
+
+To make your job easier, this guide has **scripts**. The scripts are
+written to be read by you to the players at the table.
+
+
+# First Session
+
+If there is a player at the table who has never played Deckahedron
+World before, read the Start Script and play Sarukkan's Chamber.
+
 ## Start Script
 
 ```
@@ -24,40 +45,46 @@ they think and everything that they say and everything that they do.
 
 Imagine we're making an awesome adventure movie with swords and magic.
 You're the actors just making stuff up as you go, and I'm a combination
-of screenwriter and director, trying to make the story exciting
-and dramatic and deciding how the scenes go together.
+of screenwriter and director, trying to fill the story with excitement
+and drama and also deciding how the scenes go together and where the
+camera cuts to next.
 
-But let me get specific about what I mean by "you decide everything
-your character *does*".
+But let me pause for a minute and get specific about what I mean by
+"you decide everything your character *does*".
 
 You can't just say "My character Tyrion runs up to the bad guy and
 punches him in the head and his head goes flying off".
 You *can* say "My character runs up to the bad guy and *tries* to punch
-his head so that his head goes flying off". See the difference? When you
-say something like that, It's my job as the GM to say you've *triggered
-a move*. The cards and dice will tell us if the bad guy's head actually
-goes flying off.
+his head hard enough to send it flying off". See the difference? When you
+describe an action where there's some uncertainty like that, It's my job
+as the GM to say you've *triggered a move*. The rules will resolve the
+uncertainty and tell us if the bad guy's head actually goes flying off.
 
-When a *move is triggered*, it's time to use the rules of the game to see
+When a *move is triggered*, it's time to use the cards and dice to see
 what happens next. Triggering moves is a lot of fun. It's fun to succeed
-and it's fun to fail. When you trigger moves you're definitely going to
-have an impact on the narrative and we're all going to get surprises when
-cards flip and dice roll.
+and it's fun to fail, because even in failure, new exciting stuff starts
+happening. When you trigger moves, you impact the narrative, consequences
+happen, and we're all going to get surprises when cards flip and dice roll.
 
 The game isn't all triggering moves though.
 
-Most of this game is talking. I'm going to be asking you questions, you'll
+Most of this game is talking. That's why "Say Stuff" is written so boldly
+on the character sheets. I'm going to be asking you questions, you'll
 probably have lots of questions for me, and we're going to put everything
-together to make an epic story.  It's gonna have adventure, battles,
-chases, discoveries, and magic.
+together to make an epic story. It's gonna have adventure, battles, chases,
+discoveries, and magic.
 
 It's a fantasy story, so think dangerous, and take risks.
 
-Be true to your character's personality.
+Be true to your character's personality. Remember it's sort of like acting.
+
+Your character will start out as a scrappy adventurer, and rise in power
+to become a hero. Or villian. Or maybe they'll just die in the attempt.
+And maybe they'll be resurrected after that.
 
 Each session will be about 3 hours.  We might spend a long time bouncing
 ideas off one another and dealing with each consequence in an
-improvisational way, or we might be in a long battle with lots of dice
+improvisational way, or we might engage in a long battle with lots of dice
 rolling and card flipping.
 
 There's no predetermined story, we're all in this together, and we're
@@ -65,9 +92,10 @@ going to play to find out what happens.
 
 This first session will need about 40 minutes of preparation, though.
 Ten minutes has already gone by with this speech (it's almost over).
+
 Next, we're going to play Sarrukan's Chamber, a pre-made adventure for
-you to get the hang of the game. I'll set a timer for 10 minutes and
-then end Sarukkan's Chamber abruptly.
+you to get the hang of the rules. I'll set a timer for 10 minutes and
+then end Sarukkan's Chamber when it goes off.
 
 Then we'll take 10 minutes to create a Touchstone List for our game.
 
@@ -102,11 +130,13 @@ on the edge that has that color or symbol.
 When you flip it over, please face that edge towards me, so it's easy for
 me to read.
 
-Let's try it: everybody flip yellow.
+Let's try it: everybody put your Deckahedron on the table and flip yellow.
 ```
 
 Step the players through "flipping yellow" using the instructions in the
 [Player's Guide](mod_deckahedron_world.md)
+
+Make sure each player understands how to execute a flip before you proceed.
 
 Give each player a Move Booklet
 
@@ -265,7 +295,7 @@ to use you as a guinea pig to do just that.
 ### Details - take them or leave them
 
  * Luxurious canopy bed in the middle
- * Chamber is full of esoterica - books, sculptures
+ * Chamber is full of esoterica - books, sculptures, votives
  * Maybe a window at the front of the room - an escape route?
  * An alarm triggers when a guard enters the room?
 
@@ -293,6 +323,8 @@ Deckahedron World is.
 The players should now understand how the Deckahedron works with character
 stats to produce results that affect the narrative.
 
+
+# Begin a Campaign
 
 ## Establish Touchstones
 
@@ -444,6 +476,15 @@ Remember, it doesn't have to be a Hobbit hole.  Characters might be most at
 home in the middle of a bloody battle.
 
 
+# GM Rules
+
+These rules are split up into sessions. During the first 3-hour session,
+the players will probably just be getting the hang of the the flow of the
+game. In session 2, they will probably experience downtime, and be ready
+to understand how moves interact with each other.
+
+## Session 1 Rules
+
 ## Fictional Advantages / Disadvantages
 
 In real life, some actions are more difficult than others. The GM has some
@@ -485,19 +526,21 @@ no torches are lit.
 A multi-winged bat creature swoops down at them, claws slashing. The first
 player declares they're going to dive out of the way (Defy Danger with DEX).
 Because of the set-up, it makes sense that this will be more difficult than
-if the character could clearly see the creature and the ground they're diving
-to.
+if the character could clearly see the creature and the cave floor they're
+diving into.
 
  - You can use 2 points from the *Bad Bank* to create one level of disadvantage
 
-Its important to not get into a situation using this that makes the game seem
-unfair. For example, if a second creature swooped down at the next party
-member and the *Bad Bank* was now empty, ask yourself how to make it fair when
-the second character dives out of the way, free of disadvantage.
+This level of disadvantage should now be applied *consistently* whenever any
+character attempts to avoid a swooping attack in a dark environment from a bat
+creature without further expenditure from the Bad Bank.
+
+Consistency prevents players from feeling the game is unfair or that you are
+especially aiming negative consequences at them.
 
 # Session 2 rules
 
-Your players at this point will be realizing that they fail often, maybe more
+At this point, your players will be realizing that they fail often, maybe more
 than they'd like. This is a good time to talk about the odds with your players
 and particularly to discuss generating advantages.
 
@@ -511,19 +554,21 @@ Explain to your players that getting good at playing Deckahedron World
 means *creating advantages*. There are built-in moves like
 Discern Realities, Defend, Do a Flashback, and Good Thing I Brought that
 can be used to create advantages. In this session, explain each one of
-these moves.  Discern Realities should be particularly
-encouraged if you'd like more opportunities to describe the world,
-environment, and NPCs that you're creating.
-
-Critical Flip
-
-Study Under a Master
+these moves.  Discern Realities should be particularly encouraged if
+you'd like more opportunities to describe the world, environment, and
+NPCs that you're creating.
 
 
-# SPEED
-The SPEED score and Defy Danger with Dex
- * >= 4: Advantage
- * 0: Disadvantage
+## Good Bank and Bad Bank
+
+### Moves tagged IMMEDIATE
+
+### Deus Ex Machina
+
+#### Create Advantage
+#### Resurrect a Character
+#### An NPC to the rescue
+
 
 # Loot
 
@@ -535,8 +580,10 @@ If the characters slay a pack of werewolves, and ask to search the bodies,
 and you don't immediately have a great idea about what kind of beneficial
 gear could be found on nearly naked bodies, you can write "What we found
 on the werewolves" on a blank card, and give it to one of the players.
-Tell them to put a SPEED/EQUIP/WEALTH token on it and that it can count
-as either WEALTH or EQUIP , as long as they can justify it.
+Tell them to place a token from their SPEED pile on the card.
+Later in the game, when the rules demand either a WEALTH or EQUIP to be
+spent, the "What we found on the werewolves" card may be spent, if the
+players can justify it.
 
 
 [Campaigns](mod_deckahedron_world_campaigns.md)
