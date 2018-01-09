@@ -11,9 +11,17 @@ game. Your responsibilities are:
    and behaviour
  * confront the players with challenges and dangers
  * take notes
+ * and...
 
-To make your job easier, this guide has **scripts**. The scripts are
-written to be read by you to the players at the table.
+The last responsibility is so important it deserves its own paragraph:
+
+The players will signal the *kinds* of fun they want to have. It is
+your responsibility to notice these signals and insert that kind of
+fun into the game.
+
+To make your job of teaching the rules easier, this guide has
+**scripts**. The scripts are written to be read by you to the players
+at the table.
 
 
 # First Session
