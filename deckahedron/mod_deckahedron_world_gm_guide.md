@@ -577,6 +577,15 @@ NPCs that you're creating.
 #### Resurrect a Character
 #### An NPC to the rescue
 
+# Create A Combat Encounter
+
+## Balance
+
+Calculate party power, create set of enemies that challenge them to
+the desired degree
+
+ * 10 Stamina Points for each PC
+ * If a player has > 4 green tokens, add X
 
 # Loot
 
