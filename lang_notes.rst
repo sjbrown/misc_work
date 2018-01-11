@@ -785,6 +785,32 @@ Ok, now that we've gone this far, let's look at the quotes again...
 
 ```
 
+Could we get js-style filtering?
+
+```
+
+    foo = [1,2,3,4,5]
+
+    evens = foo.[⦗x⦘ ⇥  return x%2 == 0 ⇤]
+
+    evens = foo.[⦗x⦘
+        return x%2 == 0
+    ]
+
+    evens = foo.[
+        ⦗x⦘
+            return x%2 == 0
+    ]
+
+    # Which is better?
+    evens = [x for x in foo if x%2 == 0]
+    evens = foo.[⦗x⦘ ⇥  return x%2 == 0 ⇤]
+    # Explicitness, compactness, one is an actual function declaration & call
+
+```
+
+Hmm, what about polymorphism?
+
 ```
     first_two = ⦗a ⊩ @interface('sequence')⦘
         return a.[:2]
@@ -833,9 +859,14 @@ built-in language macro that calls __bool__ on members and returns
 
 
 ```
+
     if latitude:
         print 'Latitude was None'
         # BUG!  maybe it was actually 0.0??!?!
+        # This is an insidious example, because most of the time latitude
+        # would not be 0.0 (locations must be EXACTLY on the equator).
+        # This bug might live for years before it ever exhibits
+
 ```
 
 This is a bug because the writer had knowledge that `latitude` could be one of
@@ -874,6 +905,31 @@ Or just the question mark "?"
         # do something with 0.0 or 0
 
 ```
+
+Another bug introduced by implicit falsy-ness:
+
+```
+
+x = latitude or longitude not in [180, -180]
+...
+if x == True
+   print 'coordinate is not on a boundary'
+
+```
+
+In Python and Javascript, if the value of `latitude` is 1.0, then
+the value of x will be 1.0.  So, `x == True` will be False.
+
+This might be avoided by printing a warning whenever we see `== True`
+
+But maybe changing the logic of what `or` and `and` do would be better.
+
+But there's a lot of code that depends on the way `or` and `and` work...
+
+We could introduce alternate operators:
+
+ * `or` behaves the way it does in JS and Python
+ * `⧽OR⧼` always returns a boolean value
 
 
 ----
