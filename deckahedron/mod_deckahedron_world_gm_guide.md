@@ -621,11 +621,28 @@ Get consent.
 
 ## Balance
 
+This is just guidelines
+
+You have power - it's mostly in the narrative
+
+What kind of GM move do you do in response to failed flips?
+
 Calculate party power, create set of enemies that challenge them to
 the desired degree
 
  * 10 Stamina Points for each PC
  * If a player has > 4 green tokens, add X
+
+Always describe the encounter in a way that hints at the difficulty.
+
+ * The two guards *exchange an unsure look and step forward*
+ * The salty pirate flashes his blade, but *simultaneously takes a step
+   backwards towards his ship*
+
+ * The golem is *gargantuan and covered in scars from many battles*
+ * The *horde* of undead wolves stare at you with *unrelenting hunger*
+ * The old man with the walking stick is *unfazed by your threats* and,
+   *after looking you up and down, turns away with an air of dismissal*
 
 # Loot
 
