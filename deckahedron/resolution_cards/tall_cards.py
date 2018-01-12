@@ -102,22 +102,16 @@ class Volley(Card):
 class Parley(Card):
   attr = 'Int'
   x_check = '''
-    Provide immediate and
-    concrete assurance
-    of your promise
+    They demand concrete assurance or exchange, right now.
   '''
   two_check = '''
-    Make a promise and get what you want.
+    They make a deal. Make a promise and get what you want.
   '''
   desc = u'''
     Using leverage, manipulate an NPC. "Leverage" is something they need or want.
     |
-    On a ✔✔, they ask you for something and cooperate if you make them a promise first.
     |
-    On a ✗ / ✔, they need some concrete assurance of your promise, right now
-    |
-    |
-    If you don't have leverage, flip with 1 level of disadvantage.
+    If your leverage is promises or threats without clear evidence, flip with 1 level of disadvantage.
   '''
   level_start = '0'
   levels = ['0', 'g1']
