@@ -548,6 +548,33 @@ especially aiming negative consequences at them.
 
 # Session 2 rules
 
+## Prepare
+
+*Before* your next session starts, you should run through the events of the
+previous session in your head. Think especially about signals you got from the
+players. What kind of fun did each player seem to seek out or respond to? Was
+a player particularly keen to create backstory, to get into combat, to ask
+a lot of questions about how the world works? Can you think of things to go
+into the next session to provide that kind of fun?
+
+Think about the plot and how to get your next couple points in the Good Bank.
+Do you think the characters will make certain decisions? You might imagine 2
+or 3 key decisions the party will be confronted with. For every fork in the
+road, try to imagine how the world and NPCs will respond when the characters
+choose either branch.
+
+That's important. Prepare for *either* case.
+
+There is no *correct* answer for the characters. Never punish a player for
+making a choice you didn't expect.
+
+No game ever goes according to your imagination. The purpose of preparation
+is to use your imagination to assemble a cabinet of narrative spices. Wait
+until you play to find out what happens.
+
+
+## Give Hints
+
 At this point, your players will be realizing that they fail often, maybe more
 than they'd like. This is a good time to talk about the odds with your players
 and particularly to discuss generating advantages.
@@ -565,6 +592,19 @@ can be used to create advantages. In this session, explain each one of
 these moves.  Discern Realities should be particularly encouraged if
 you'd like more opportunities to describe the world, environment, and
 NPCs that you're creating.
+
+## Apologia
+
+After running through the events of last session in your mind, you may
+realize you're painted into a corner. When the characters are in a
+situation where you can't imagine a way to keep the game exciting,
+you need to have a conversation with your players.
+
+Retroactively edit.
+
+Collaborate.
+
+Get consent.
 
 
 ## Good Bank and Bad Bank
