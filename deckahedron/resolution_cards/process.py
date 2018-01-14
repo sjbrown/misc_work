@@ -62,15 +62,15 @@ cards
 
 
 
-def set_zodiac(dom, nw, ne, se, sw):
+def set_zodiac(dom, nw_animal, ne_animal, se_animal, sw_animal):
     directions = ['nw', 'ne', 'se', 'sw']
-    d_map = dict(nw=nw, ne=ne, se=se, sw=sw)
+    d_map = dict(nw=nw_animal, ne=ne_animal, se=se_animal, sw=sw_animal)
     for d in directions:
-        keep = d_map[d]
+        keep_animal = d_map[d]
         d_titles = ['o_%s_%s' % (x,d) for x in spot_it_map.values()]
         d_titles += ['o_goat_%s' % d, 'o_dragon_%s' % d]
         for d_title in d_titles:
-            if keep not in d_title:
+            if keep_animal not in d_title:
                 dom.cut_element(d_title)
 
 def filter_dom_elements(dom, card, deck_title, dice_rule):
@@ -149,7 +149,7 @@ def make_deck(deck_number):
         print 'dice rule %s %s' % (i, dice_rule)
 
         filter_dom_elements(dom, card, deck_title, dice_rule)
-        zargs = calc_zodiac(i)
+        zargs = [spot_it_map[x] for x in calc_zodiac(i)]
         set_zodiac(dom, *zargs)
 
         # Create the svg file and export a PNG
