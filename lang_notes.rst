@@ -179,10 +179,12 @@ Ideas
    * Can these be interesting? expressions, operators, modules, ...
 * If no floats, then what?
   * Decimal(0,40): can get cumbersome to type
-  * Special decimal-creating operator: 0⋄51
+  * Special decimal-creating operator: 0⋄51 (Python "decimal")
   * Special float-creating operator: 0⋆51
   * Default behaviour that creates a Decimal and spits out a warning: 0.51
     * But this reads as "take 0, apply the 51 query" - expensive at runtime
+  * What about Rational numbers? 2ℚ3 2⟌3  52⅟33  5÷3  2÷3
+  * Python ("fraction")
 * Annotations.  People seem to love them. (static typing) - maybe a way to
   make decorators more pretty.  Colon might be a good symbol here.
  * But colon is used by dicts {'a':33}.  Maybe "as".  See below.
@@ -541,6 +543,12 @@ Since forces can change compilation, we can make this convenient:
         a = 3
         b = 4
     assert d.{'a'} == 3
+    assert d.b == 4
+
+Maybe "forces" can be narrowed to be interpreted as "changing
+the behaviour of '=' (assignment) such that the value on the
+left-hand-sign goes through the Forces Function any time assignment
+happens for that name.
 
 ----
 
@@ -809,6 +817,47 @@ Could we get js-style filtering?
 
 ```
 
+If <name>.<name> is a convenient foot-gun, is there a way to *explicitly*
+say "give me the instance attribute named bar"?
+what about "give me the class attribute named bar"?
+
+    <name>..<name>
+    foo..bar
+    # This could be a set-up for typo bugs though
+
+    <name>.<encloser> <expression> </encloser>
+    foo.|bar|
+    foo.`bar`
+
+    foo.|bar|  # instance attr
+    foo.||bar||  # class attr
+    foo.__class__.|bar|  # class attr
+
+    <name>^<name>
+    foo^bar
+    foo~bar
+    foo|bar
+
+Or, I could switch it around and have
+foo.bar be explicitly an attribute (like Python)
+and foo~bar be liberally any query and a convenient foot-gun (like JS)
+
+```
+    foo = {'bar': 3, 'get': 5}
+
+    foo.bar           # AttributeError
+    foo.get           # <function>
+    foo.get('bar')    # 3
+    foo~bar           # 3
+    foo~"bar"         # 3
+    foo.__class__~bar # ???
+    foo~get           # <function>
+
+```
+
+I don't think I like that.  The period symbol is already a
+jack-of-all-trades due to it's use in numbers for floats / Decimals.
+
 Hmm, what about polymorphism?
 
 ```
@@ -847,6 +896,10 @@ Using equals sign is not great
         return cls.baz
 
 ```
+
+There's a big difference between JS and Python here though, because in
+JS the default values are evaluated at "call time", and in Python default
+values are evaluated at "compile time".
 
 ----
 
