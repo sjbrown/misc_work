@@ -331,6 +331,44 @@ Deckahedron World is.
 The players should now understand how the Deckahedron works with character
 stats to produce results that affect the narrative.
 
+### Get into a fight
+
+Playing Sarrukan's Chamber should include some combat, so here's the simple
+way to execute a fight scene.
+
+Grab a piece of paper and write down the names of each opponent.  Beside
+their name, draw ticks for their Stamina points.  Beside that, write their
+attack power die (d2, d4, d6, d10).
+
+Opponents' Stamina points should be realistically scaled to the "scrappy
+adventurer" level of the players. This table should help.
+
+|                   | Stamina points |
+|-------------------|----------------|
+| Dotards, Children | 2 |
+| Civilians         | 4 |
+| Bouncers, Guards  | 5-6 |
+| Trained Soldiers, Elite Guards  | 7-10 |
+
+Generally, human opponents will have d2 attack power when unarmed and d4
+attack power when armed. Save higher attack powers for monsters and special
+villians.
+
+Use your descriptions to give cues about how tough the enemies are.
+
+In combat, it's ok if play gets more formulaic.  Some players enjoy
+the "abnegation" of a tit-for-tat combat scene that lasts tens of minutes.
+Look for what kind of signals your players are giving you.
+
+Some simple combat structures:
+
+ * The players want something and the opponents must be dispatched to get it.
+   - Give each player a "turn" where they will probably trigger an agressive
+     combat move like Hack & Slash or Volley
+   - Execute the moves, make cool stuff happen as consequences
+   - Go around the table until all the opponents flee or are incapacitated
+
+
 
 # Begin a Campaign
 
