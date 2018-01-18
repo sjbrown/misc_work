@@ -23,6 +23,9 @@ To make your job of teaching the rules easier, this guide has
 **scripts**. The scripts are written to be read by you to the players
 at the table.
 
+Before sitting down with your group of players, you should read all
+the rules.
+
 
 # First Session
 
@@ -358,16 +361,61 @@ Use your descriptions to give cues about how tough the enemies are.
 
 In combat, it's ok if play gets more formulaic.  Some players enjoy
 the "abnegation" of a tit-for-tat combat scene that lasts tens of minutes.
-Look for what kind of signals your players are giving you.
+Some don't. Look for what kind of signals your players are giving you.
 
-Some simple combat structures:
+Combat can play out in whatever way feels natural and follows from the
+fiction.  That said, it can be taxing on a GM to come up with new, creative
+responses in combat because flips are happening frequently. So, to relieve
+some of that pressure on the GM, here are some formats available to follow
+to get you through a fight scene.
 
- * The players want something and the opponents must be dispatched to get it.
-   - Give each player a "turn" where they will probably trigger an agressive
-     combat move like Hack & Slash or Volley
-   - Execute the moves, make cool stuff happen as consequences
-   - Go around the table until all the opponents flee or are incapacitated
+#### Format 1
 
+This format is simple, and gives the players the most agency.
+
+  - Give each player a "turn" where they will probably trigger an agressive
+    combat move like Hack & Slash or Volley
+  - Execute the moves, make cool stuff happen as consequences
+  - Go around the table until all the opponents flee or are incapacitated
+  - Any ✗✗ results may usually be interpreted as "your enemies attack". Choose
+    some opponents that weren't *just* in a Hack & Slash, and declare they
+    attack one of the player's characters. Apply attack power against that
+    character. Use an attack power die from one attacker, and add 1 attack
+    power for each other attacker
+
+#### Format 2
+
+This format makes the opponents more of a threat.
+
+  - Give each player a "turn" where they will probably trigger an aggressive
+    combat move like Hack & Slash or Volley, call that a "player round"
+  - After player turns are complete, and the players look to you to see
+    what happens next, execute an "NPC round"
+  - Identify the opponents that didn't interact during the "player round"
+  - Describe how all of those opponents team up on one of the player's
+    characters, and call for a Defy Danger flip.
+    (move the "danger" spotlight fairly, but also try to put pressure on any
+    players with more than 3 green tokens)
+  - Failing the Defy Danger flip results in the player's character taking
+    attack power from the opponents:
+      * ✗✗ : an attack power die from one attacker,
+        and add 1 for each other attacker
+      * ✗ : avoid the attack power die,
+        but add up 1 attack power per attacker
+
+#### Format 3
+
+This format imagines the opponents as particularly quick and aggressive.
+
+  - Give each player a "turn" where they will trigger a move
+  - When describing the outcome of that move, also describe how the
+    opponents take agressive action.
+  - Keeping the spotlight on that player, have them respond to the actions
+    of their foes, usually by needing to follow their first flip with a
+    Defy Danger flip.
+  - Allow players to avoid the opponent's aggressive action if their first
+    flip specifically provided for it, and it makes sense in the narrative.
+    (See Backstab, Bum Rush, Volley)
 
 
 # Begin a Campaign
