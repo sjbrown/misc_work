@@ -107,6 +107,16 @@ def filter_dom_elements(dom, card):
         elif 'equipment' in key:
             dom.layer_hide(key)
 
+        if 'more_power' in key:
+            dom.layer_hide(key)
+            if card.get('title','').lower() in [
+                '____ of unerring dispatch',
+                '____ of vitality',
+                '____ bow',
+                '____ sword',
+            ]:
+                dom.layer_show(key)
+
         if card.get('reqs') and 'reqs' in key:
             dom.layer_show(key)
         elif 'reqs' in key:
@@ -252,8 +262,7 @@ def make_card_dom(card):
     return dom
 
 def custom_card_dom(card):
-    words = card['title'].split()
-    tail = '_'.join([x.lower() for x in words])
+    tail = filenamify(card['title'])
     fpath = 'tall_card__' + tail + '.svg'
     if os.path.isfile(fpath):
         print 'Found custom card', fpath
@@ -262,8 +271,18 @@ def custom_card_dom(card):
 
 def make_deck(cards):
     export_tall_png('tall_card_back2.svg', '/tmp/tall_cards/back.png')
+    export_tall_png('equipment_back1.svg', '/tmp/tall_cards/back_equip1.png')
+    export_tall_png('equipment_back2.svg', '/tmp/tall_cards/back_equip2.png')
     export_tall_png('tall_card_stats.svg', '/tmp/tall_cards/page_stats.png')
     export_tall_png('tall_card_hints.svg', '/tmp/tall_cards/page_hints.png')
+
+    export_tall_png('level_card_background_anchor.svg', '/tmp/tall_cards/level_background_anchor.png')
+    export_tall_png('level_card_eager_learner.svg', '/tmp/tall_cards/level_eager_learner.png')
+    export_tall_png('level_card_getting_the_hang.svg', '/tmp/tall_cards/level_getting_the_hang.png')
+    export_tall_png('level_card_its_in_here.svg', '/tmp/tall_cards/level_its_in_here.png')
+    export_tall_png('level_card_rallying_cry2.svg', '/tmp/tall_cards/level_rallying_cry2.png')
+    export_tall_png('level_card_rallying_cry.svg', '/tmp/tall_cards/level_rallying_cry.png')
+    export_tall_png('level_card_back.svg', '/tmp/tall_cards/back_level.png')
 
     one_blank_3lines_front()
 

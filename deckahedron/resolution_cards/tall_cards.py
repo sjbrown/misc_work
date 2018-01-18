@@ -199,14 +199,15 @@ class I_Know_This(Card):
     and useful about the subject relevant to your situation
     '''
   desc = u'''
-    State facts about the world or the other people in it.
+    State facts about the world or the people in it.
     |
     Consult your accumulated knowledge about something.
     |
+    |
     (You may always do this through the normal course of playing the game,
     but when the GM doubts the fact or judges that the fact would provide
-    special benefit to the players, the GM may declare the I Know This
-    move is triggered)
+    special benefit to the players, the I Know This move is triggered)
+    |
     |
     On a ✗, the GM may ask you "How do you know this?".
     '''
