@@ -49,8 +49,8 @@ we were playing Deckahedron World and..."
 
 Imagine the audience for this story is the inner children of all the players.
 What evokes the feelings we had when we were children playing pretend? Can
-you remember being 11 years old and watching a great Steven Spielberg movie?
-Or maybe a crappy Sam Raimi movie?
+you remember being 11 years old and watching a spectacular Steven Spielberg
+movie?  Or maybe a cheap-but-awesome Sam Raimi movie?
 
 You are going to collaborate with all the other players to make this story,
 so when you add your parts, think of what will give your friends around the
@@ -58,17 +58,16 @@ table a thrill, put them in suspense, ratchet up their feelings of tension,
 or make their jaws drop with awe.
 
 Sometimes inner children get a big kick out of blood and guts.
-Your inner child might be the one who giggled watching the Messandei / Grey
-Worm scenes in HBO's Game of Thrones. If you don't know what topics
-your friends consider "off-limits", it is a good idea to ask and tell before
-you start playing.
+Your inner child might giggle at the brothel scenes in HBO's Game of
+Thrones. If you don't know what topics your friends consider "off-limits",
+it is a good idea to ask and tell before you start playing.
 
 The story that emerges from Deckahedron World is not a precisely crafted
 thing. That's ok. It doesn't have to be high art or even a cartoon on Adult
 Swim. It gets shaped by each player, and when your turn comes, you
 adapt, do your best improvisational "Yes, and", and see where it goes from
 there. It might sound like chaos, but with some faith in your friends, you
-will delight at how a the plot solidifies, and how real the characters
+will delight at how the plot solidifies, and how real the characters
 become.
 
 
@@ -147,14 +146,16 @@ The top of the flipped card shows ✗s or ✔s.
 Finally, find the move card named by the GM and read its instructions.
 It tells you how the GM should interpret the ✗s and ✔s.
 
-Put the face-up Deckahedron card in your *discard pile*.
+Afterward, any card used during a flip goes face-up in a *discard pile*.
+Later, you will start another pile of face-up cards called an
+*Exhaustion pile*.  Keep them separate.
 
 ## For example,
 
 You're playing a character named Kresk.  You say:
 
 > Kresk sees the pit of spikes in front of him, but isn't scared.
-> He just takes a running start and mightily bounds over the pit,
+> He just takes a running start and mightily leaps over the pit,
 > landing safely on the other side.
 
 The GM might say to you:
@@ -172,21 +173,22 @@ improvise what happens next:
 
 > You leap through the air, landing with a thud on the other
 > side of the pit, kicking up a cloud of dust on this forgotten
-> jungle trail. As you rise to your feet, you notice it's more than
-> dust that stirs, as you hear movement and a threatening rattle
-> approaching from the pit. What do you do?
+> jungle trail. Rising to your feet, you notice that more than
+> dust has been stirred. The sounds of movement and a threatening
+> rattle alerts you to something approaching from inside the pit.
+> What do you do?
 
 ## Other ways to flip: Advantage / Disadvantage
 
 Some flips are a little more complicated. Some moves in Deckahedron
-World instruct you to "add an advantage card" or "flip with advantage".
-Sometimes you are given the opposite instruction, "add a disadvantage
-card" or "flip with disadvantage".
+World instruct you to "take +1 advantage", "add an advantage card"
+or "flip with advantage". Sometimes you are given the opposite
+instruction, "add a disadvantage card" or "flip with disadvantage".
 
 ### Advantage
 
 With an advantage, flip over your top card as usual, and then
-flip over the next card on the top of the Deckahedron.
+flip over the next card as well.
 Compare the results (the number of ✗s or ✔s)
 and *resolve the flip* with the card that has the **best** result.
 
@@ -270,6 +272,10 @@ When the result is ✗✗, it is your turn to make a move. You narrate the
 consequences of the move the player just attempted and you have license to
 take the narrative where you'd like.  See the GM Guide.
 
+Rarely, a card will have instructions for how to interpret a ✗✗ result.
+These instructions should be executed, but might only be *part* of the
+GM's move.
+
 There is an exception to the GM moves on ✗ and ✗✗.  When the move card
 has the tag *IMMEDIATE*, the GM does not add points to the *Bad
 Bank* on a ✗ and they don't make a move on a ✗✗.
@@ -343,11 +349,12 @@ better endure the exertion.
 
 When your character gets attacked or falls victim to some other danger,
 you have choices about exactly how they are affected. They may dodge,
-and just lose Stamina, they may take Harm to absorb the blow with their
-armour (or with their face), or they may be wounded by the damage.
+and just lose Stamina, they may stand stubbornly against a blow,
+taking Harm to perhaps absorb the blow with their armour (or with their
+face), or they may be wounded by the attack.
 
-The **first phase** is rolling dice to arrive at a number, called the
-*attack power*.
+The **first phase** is rolling dice to arrive at a number. This number
+is called the *attack power*.
 
 The **second phase** is deciding how to split that number among 3
 categories, Stamina, Harm, or Wounds.
@@ -355,15 +362,17 @@ categories, Stamina, Harm, or Wounds.
 The **third phase** is optional: absorbing some points using any relevant
 move cards and item cards.
 
-Finally, the **fourth phase**: you interpret those results into the 
+Finally, the **fourth phase**: you interpret those results into the
 narrative.  Did your character dive into the dirt?  Did they take a punch
 to the jaw and respond with a bloodied grin?  Did the spear bounce right
 off their steel breastplate?
 
-### Second Phase
+### First Phase
 
-When you are hit in combat, you roll dice to get a number. Call this number
-the *attack power*.
+When violence is applied to your character, you roll dice to get a number.
+Call this number the *attack power*.
+
+### Second Phase
 
 If you don't split up the *attack power*, it translates directly into Stamina
 points. So by default, your character loses that amount of Stamina points.
@@ -387,8 +396,8 @@ You may even do that twice, splitting the attack power of 7 into:
  * 1 Stamina point
  * 2 Harm tokens
 
-Another option is to take a Wound.
-You may split the attack power of 7 into:
+Another option is to take a Wound, using a rate of 6-for-1.
+In our example, you may split the attack power of 7 into:
 
  * 1 Stamina point
  * 1 Wound token
