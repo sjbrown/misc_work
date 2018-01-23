@@ -847,6 +847,7 @@ and foo~bar be liberally any query and a convenient foot-gun (like JS)
 
     foo.bar           # AttributeError
     foo.get           # <function>
+    foo.{get}         # 5
     foo.get('bar')    # 3
     foo~bar           # 3
     foo~"bar"         # 3
@@ -857,6 +858,18 @@ and foo~bar be liberally any query and a convenient foot-gun (like JS)
 
 I don't think I like that.  The period symbol is already a
 jack-of-all-trades due to it's use in numbers for floats / Decimals.
+
+Maybe it's not necessary to have a way to *explicitly* get an attribute.
+What bug is the threat?
+
+```
+    foo = {'bar': 3, 'get': 5}
+
+    foo.bar           # 3
+    foo.get           # <function>
+    foo.{get}         # 5
+
+```
 
 Hmm, what about polymorphism?
 
@@ -900,6 +913,36 @@ Using equals sign is not great
 There's a big difference between JS and Python here though, because in
 JS the default values are evaluated at "call time", and in Python default
 values are evaluated at "compile time".
+
+If both languages are compilation targets, it's going to be easier to
+evaluate at call time in Python (by putting the evaluation as the first
+line(s) of the function) than by evaluating at compilation time in JS
+(I don't know how to make that possible)
+
+But here's a fucked-up edge case: it's simple if these are
+@scope('isolate') functions, but tricky if they're @scope('inherit')
+functions.
+
+```
+
+    a = []
+
+    z = function(
+        foo = function()  ⊩ @scope('inherit')
+            a.append('foo')
+        ,
+        bar = function()  ⊩ @scope('inherit')
+            foo()
+            a.append('bar')
+        ,
+    )
+        a.append(1)
+        bar()
+        🛈 a
+
+    z() # prints [1, 'foo', 'bar']
+
+```
 
 ----
 
@@ -994,13 +1037,19 @@ Enumerated types:
     'salt',
     'coriander',
     'cinnamon',
+    'black peppercorns',
+    'green peppercorns',
 )
+
+# or maybe @TM( ... )
 
 ...
 
 foo = 'corriandar'™  # throws an exception
 
 ```
+
+Not a "trade" mark, but a "taxonomy" mark.
 
 I don't know how valuable this is though, and it's a bit of a hack
 
