@@ -759,3 +759,17 @@ players can justify it.
 
 
 [Campaigns](mod_deckahedron_world_campaigns.md)
+
+# Start of Session
+
+Ask each player for either a thing they learned about the world or a way
+they expressed their character's personality. If they can give a resonably
+correct answer, give them a green token.
+
+Tell each player about what content you added last session in response
+to a signal you got from them.  If they *all* agree that you correctly
+interpreted a signal, and added the kind of fun they enjoy, give yourself
+one point in the Good Bank.
+
+
+
