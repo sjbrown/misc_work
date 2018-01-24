@@ -184,7 +184,7 @@ Ideas
   * Default behaviour that creates a Decimal and spits out a warning: 0.51
     * But this reads as "take 0, apply the 51 query" - expensive at runtime
   * What about Rational numbers? 2ℚ3 2⟌3  52⅟33  5÷3  2÷3
-  * Python ("fraction")
+    * Python ("fraction")
 * Annotations.  People seem to love them. (static typing) - maybe a way to
   make decorators more pretty.  Colon might be a good symbol here.
  * But colon is used by dicts {'a':33}.  Maybe "as".  See below.
