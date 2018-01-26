@@ -506,7 +506,7 @@ Whenever you **flip** and reveal a wound card, follow these rules:
 # More Moves - Do a Flashback, Critical Flip
 
 
-# More Moves - Take a Breather, Rest, Heal
+# More Moves - Take a Breather, Rest, Seek Help
 
 ## Taking a Breather
 
@@ -590,9 +590,17 @@ Remove all Harm and Wound tokens from your armour cards.
 
 # Speed/Equipment/Wealth
 
+6 tokens that move between Speed , Equip, Wealth and Item cards
+
+Tokens represent weight or difficulty to carry, when they're not on speed
+
+Some Item cards require more than 1 token
+
 ## More Moves - Run, Shop, Good Thing I Brought..., Sharpen and Stitch
 
 ### Bravely Run Away
+
+
 ### Shop / Procure
 
 Make mundane items - here's the process... TODO
@@ -601,11 +609,17 @@ Don't hand a player a card they can't use because they don't have the
 requirements.
 
 ### Good Thing I Brought...
+
+
 ### Sharpen and Stitch
+
+Damage to items is represented as black-side red cards
 
 # Mundane Items
 
 ## Armor, weapons
+
+Damage to items is represented as black-side red cards
 
 # More Moves - Use a Magic Item, Entreat the Blood-Bound, Channel the Living Light
 
@@ -618,9 +632,6 @@ Ask that player "Who is the Blood-Bound"?
 ```
 p12-p14
 ```
-# Starting a game
-
-## Sarukkan's Chamber
 
 ## Making your own character
 
