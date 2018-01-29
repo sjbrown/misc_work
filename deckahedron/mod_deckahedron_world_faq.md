@@ -23,10 +23,12 @@ That said, here are some *guidelines* for moving the spotlight:
  - Make allowances for moves that have the IMMEDIATE tag.
  - The Critical Flip always lets the player spend a little bit longer
    in the spotlight if they choose to pay the cost.
+ - A move may indicate triggering sequence with other moves.
+   (eg, "And This Is For...", "Bum Rush", and "Reach Out With Your
+   Feelings")
 
 
-# Can I spend **1** green token for a flashback without any level of
-  advantage?
+# Can I spend **1** green token for a flashback without any level of advantage?
 
 No.
 
