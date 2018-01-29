@@ -19,6 +19,8 @@ The players will signal the *kinds* of fun they want to have. It is
 your responsibility to notice these signals and insert that kind of
 fun into the game.
 
+---
+
 To make your job of teaching the rules easier, this guide has
 **scripts**. The scripts are written to be read by you to the players
 at the table.
@@ -354,14 +356,21 @@ adventurer" level of the players. This table should help.
 | Trained Soldiers, Elite Guards  | 7-10 |
 
 Generally, human opponents will have d2 attack power when unarmed and d4
-attack power when armed. Save higher attack powers for monsters and special
+attack power when armed. Save greater attack powers for monsters and special
 villians.
 
 Use your descriptions to give cues about how tough the enemies are.
 
 In combat, it's ok if play gets more formulaic.  Some players enjoy
 the "abnegation" of a tit-for-tat combat scene that lasts tens of minutes.
-Some don't. Look for what kind of signals your players are giving you.
+This can be a combination of exciting and relaxing.  Give your players
+opportunities to press their favourite buttons.
+
+That said, some players don't seek abnegation. What kinds of signals are
+your players giving you? Maybe they want to get through combat faster. If
+so, when you make your moves, you can think cinematically. Continually raise
+the stakes for both sides during the scene. Think dangerous. No character
+or set piece needs to be safe or sacred.
 
 Combat can play out in whatever way feels natural and follows from the
 fiction.  That said, it can be taxing on a GM to come up with new, creative
@@ -375,6 +384,7 @@ This format is simple, and gives the players the most agency.
 
   - Give each player a "turn" where they will probably trigger an agressive
     combat move like Hack & Slash or Volley
+  - Pay attention to IMMEDIATE combat moves that may have triggered
   - Execute the moves, make cool stuff happen as consequences
   - Go around the table until all the opponents flee or are incapacitated
   - Any ✗✗ results may usually be interpreted as "your enemies attack". Choose
@@ -389,26 +399,28 @@ This format makes the opponents more of a threat.
 
   - Give each player a "turn" where they will probably trigger an aggressive
     combat move like Hack & Slash or Volley, call that a "player round"
+  - Pay attention to IMMEDIATE combat moves that may have triggered
   - After player turns are complete, and the players look to you to see
     what happens next, execute an "NPC round"
   - Identify the opponents that didn't interact during the "player round"
   - Describe how all of those opponents team up on one of the player's
-    characters, and call for a Defy Danger flip.
+    characters, and call for one Defy Danger flip.
     (move the "danger" spotlight fairly, but also try to put pressure on any
     players with more than 3 green tokens)
-  - Failing the Defy Danger flip results in the player's character taking
-    attack power from the opponents:
-      * ✗✗ : an attack power die from one attacker,
-        and add 1 for each other attacker
-      * ✗ : avoid the attack power die,
-        but add up 1 attack power per attacker
+  - Failing the Defy Danger flip results in the player's character suffering
+    the opponents' attack. You can calculate attack power thusly:
+      * ✗✗ : one attack power die from the lead attacker,
+        and add 1 attack power (not die) for each other attacker
+      * ✗ : no attack power die,
+        but 1 attack power per attacker (so 3 foes = 3 attack power)
 
 #### Format 3
 
 This format imagines the opponents as particularly quick and aggressive.
 
   - Give each player a "turn" where they will trigger a move
-  - When describing the outcome of that move, also describe how the
+  - Pay attention to IMMEDIATE combat moves that may have triggered
+  - When describing the outcome of a player's move, also describe how the
     opponents take agressive action.
   - Keeping the spotlight on that player, have them respond to the actions
     of their foes, usually by needing to follow their first flip with a
@@ -482,6 +494,14 @@ to the GM the kind of fun they want to have.
 
 
 ## Character Creation
+
+### Create a GM sheet
+
+The GM needs a sheet of paper to make notes and track information.
+
+At the top of the sheet write the headings "Good Bank" and "Bad Bank".
+Leave enough space to track the points under each of those headings.
+
 
 ### Set Expectations
 
@@ -673,7 +693,7 @@ until you play to find out what happens.
 
 ## Give Hints
 
-At this point, your players will be realizing that they fail often, maybe more
+After session 1, your players will be realizing that they fail often, maybe more
 than they'd like. This is a good time to talk about the odds with your players
 and particularly to discuss generating advantages.
 
@@ -685,9 +705,9 @@ is unfair.
 
 Explain to your players that getting good at playing Deckahedron World
 means *creating advantages*. There are built-in moves like
-Discern Realities, Defend, Do a Flashback, and Good Thing I Brought that
+Discern, Defend, Do a Flashback, and Good Thing I Brought that
 can be used to create advantages. In this session, explain each one of
-these moves.  Discern Realities should be particularly encouraged if
+these moves.  Discern should be particularly encouraged if
 you'd like more opportunities to describe the world, environment, and
 NPCs that you're creating.
 
