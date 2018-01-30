@@ -397,19 +397,23 @@ I feel I'm too far into the woods now.
 Per-block scopes
 
     baz = []
+    foo = function()
+        pass
 
     a = function(a, b=3) ⊩ @scope('inherit')
         baz.append(a + b) # baz comes from above scope ("lexical" / "static")
+        foo()
 
-    b = function(a, b=3) ⊩ @scope('isolate')
+    b = function(a, b=3) ⊩ @scope('detach')
         baz = [1, 2] # does not affect outer baz (like "let" in JS)
 
     a(1) # baz is [4]
 
     b(1) # baz is still [4]
 
-    c = function(a, b=3) ⊩ @scope_isolate
+    c = function(a, b=3) ⊩ @scope_detach
         baz.append(a + b) # Static analysis error - baz not defined
+        foo()             # Static analysis error - foo not defined in here
 
 ----
 
@@ -920,7 +924,7 @@ line(s) of the function) than by evaluating at compilation time in JS
 (I don't know how to make that possible)
 
 But here's a fucked-up edge case: it's simple if these are
-@scope('isolate') functions, but tricky if they're @scope('inherit')
+@scope('detach') functions, but tricky if they're @scope('inherit')
 functions.
 
 ```
