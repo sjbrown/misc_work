@@ -440,9 +440,9 @@ themes, and tone.
 ### Step 1
 
 Brainstorm some cultural "touchstones". Ask everyone to call out titles of
-books, movies, comics, TV shows that they get inspired by, and write them
-all down, no matter how silly.  Everyone at the table can add as many titles
-as they want.
+books, movies, games, comics, and TV shows that feel inspiring, and write
+them all down, no matter how silly.  Everyone at the table can add as many
+titles as they want.
 
 ### Step 2
 
@@ -558,7 +558,8 @@ so it's ok for players to blurt out responses out of turn.
 This conversation might also add details to the world, like
 what kinds of species and religions exist.
 
- * What species is your character, human, or something else?
+ * What species is your character, human, or something else
+   from our Touchstone List?
  * Does your character steal things, or do they respect the
    concept of private property?
  * Before the adventure starts, is your character engaged in
