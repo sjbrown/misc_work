@@ -612,39 +612,31 @@ to understand how moves interact with each other.
 
 ## Session 1 Rules
 
+### The Bad Bank
+
+When a player flips and *resolves a move* with a ✗, mark a point in
+the Bad Bank.
+
+#### Moves tagged IMMEDIATE
+
+The exception to this is if the move is tagged **IMMEDIATE**. Do not
+mark points in your Bad Bank when resolving a move with this tag.
+
+#### Calling for flips during a GM move
+
+Sometimes you will be making a GM move and want to use randomness to
+decide which direction to take the fiction, and call for a player to
+flip a card from their Deckahedron.  This is not considered *resolving
+a move* and thus if they get an ✗ as a result, you should *not* mark
+a point in your Bad Bank.
+
+
 ## Fictional Advantages / Disadvantages
 
 In real life, some actions are more difficult than others. The GM has some
 tools to reflect this in the game.
 
 There are strict rules.  Be realisitic *and* work within the boundaries.
-
-### Advantages
-
-Let's say a character encounters two guards who, in an earlier scene,
-humiliated and bullied him. The player says they're going to use the
-Dispense Wrath move.  Because of the narrative set-up, it makes sense that
-it should be easier for the character to enter an enraged state.
-
- - You can hint to the player they already have sufficient narrative set-up
-   to Do a Flashback
- - You can use a point from the *Good Bank* to create the advantage - this
-   gives flip-3-take-best advantage, and you've only got a few points in
-   the *Good Bank*, so make sure it's worth it.
- - You can describe how this narrative situation reinvigorates the character,
-   or how they swell with confidence, or how their mind becomes
-   clear and focused, and tell the player to regain up to 4 lost Stamina.
-   This is at your perogative, and falls under "GM Fiat"
- - You can storytell the situation away.  Maybe the guards run away or
-   something happens in the world to avoid the conflict.
-   You should get the player's consent because they've already indicated that
-   they want to have fun by Dispensing Wrath.
-
-Here is what you can **not** do: you cannot tell them to flip with an
-advantage card just because you're the GM and you think it makes sense.
-
-If an advantage is to be had, the price must be paid, either by the
-GM or by the player.
 
 ### Disadvantages
 
@@ -664,6 +656,7 @@ creature without further expenditure from the Bad Bank.
 
 Consistency prevents players from feeling the game is unfair or that you are
 especially aiming negative consequences at them.
+
 
 # Session 2 rules
 
@@ -694,9 +687,9 @@ until you play to find out what happens.
 
 ## Give Hints
 
-After session 1, your players will be realizing that they fail often, maybe more
-than they'd like. This is a good time to talk about the odds with your players
-and particularly to discuss generating advantages.
+After session 1, your players will be realizing that they fail often,
+maybe more than they'd like. This is a good time to talk about the odds
+with your players and particularly to discuss generating advantages.
 
 Some psychological studies have shown that odds feel "fair" only
 when players get wins 60% of the time. Now look at the Deckahedron
@@ -726,9 +719,31 @@ Collaborate.
 Get consent.
 
 
-## Good Bank and Bad Bank
+## Good Bank
 
-### Moves tagged IMMEDIATE
+### Fictional Advantages
+
+Let's say a character encounters two guards who, in an earlier scene,
+humiliated and bullied him. The player says they're going to use the
+Go Berserk! move.  Because of the narrative set-up, it makes sense that
+it should be easier for the character to enter an enraged state.
+
+ - You can hint to the player they already have sufficient narrative set-up
+   to Do a Flashback
+ - You can storytell to resolve the situation.  Maybe the guards run away or
+   an additional event makes the conflict irrelevant.
+   Make sure your storytelling is fun for the player. They've already
+   indicated that they want to have fun by Going Berserk.
+ - You can use a point from the *Good Bank* to create the advantage - this
+   gives flip-3-take-best advantage, and you've only got a few points in
+   the *Good Bank*, so make sure it's worth it.
+
+Here is what you can **not** do: you cannot tell them to flip with an
+advantage card just because you're the GM and you think it makes sense.
+
+If an advantage is to be had, the price must be paid, either by the
+GM or by the player.
+
 
 ### Deus Ex Machina
 
