@@ -65,37 +65,63 @@ it is a good idea to ask and tell before you start playing.
 The story that emerges from Deckahedron World is not a precisely crafted
 thing. That's ok. It doesn't have to be high art or even a cartoon on Adult
 Swim. It gets shaped by each player, and when your turn comes, you
-adapt, do your best improvisational "Yes, and", and see where it goes from
-there. It might sound like chaos, but with some faith in your friends, you
+adapt, do your best improvisational
+["Yes, and"](https://en.wikipedia.org/wiki/Yes%2C_and...)
+, and see where it goes from there.
+It might sound like chaos, but with some faith in your friends, you
 will delight at how the plot solidifies, and how real the characters
 become.
 
 
 ## Specifically, What to do
 
-Roles - GM, Player
+In a game of Deckahedron World, one person will take on the role of the
+Game Master, or "GM".  The other people will be called simply "Players".
 
-GM: Know all the rules, say stuff.  Your domain is the world.
-Players: 50% Say stuff, 25% Flip your Deckahedron, 12% Move tokens around,
-12% Roll dice.  Your domain is your character.
+### The GM
 
-Player:
+The GM's job is to know all the rules, and say stuff.  Occassionally
+they will write notes and scribble some quick numerical facts.
+
+The GM's domain is the world.
+
+
+### The Players
+
+Player, your domain is your character.
+
+![the player's job](images/player_job.png)
+
+Most of your time will be spent saying stuff. You are part of a conversation.
+Ask questions, use your imagination, chime in when someone inspires you.
+Think about your character like a hero of a movie, and try playing as
+the writer of the movie, or the director, or immerse yourself like a method
+actor standing in the character's shoes and seeing with their eyes.
+
+Deckahedron World invites you to:
 
  * Describe your character and their actions
-    * Refer to your moves to get ideas for your character
-    * Act out their dialogue
-    * Tell *how* they act
-       - flourishes and stunts
-       - their facial expressions, voice, and body language
-    * Tell what they say / hear / see / smell / taste / feel
-    * Describe their thoughts & memories
-    * Chime in when they interact with / support the other characters
-
+   * Refer to your moves to get ideas for your character
+   * Act out their dialogue
+   * Describe *how* they act
+      - flourishes and stunts
+      - their facial expressions, voice, and body language
+   * Tell what they say / hear / see / smell / taste / feel
+   * Describe their thoughts & memories
+   * Chime in when they interact with or support the other characters
  * Tell parts of the story
-    * Refer to your moves to see what boundaries you can push
-    * Tell your character's backstory
-    * Control hirelings and animal companions
+   * Refer to your moves to see what boundaries you can push
+   * Tell your character's backstory
+   * Control your character's hirelings and animal companions
 
+As the conversation unfolds, the rules will chime in as well.  When that
+happens you will be called do things beyond just "saying stuff":
+
+ * Flip your Deckahedron
+ * Move tokens around
+ * Roll dice
+
+This guide will teach you how to do those things.
 
 
 ```
@@ -131,15 +157,17 @@ use to resolve the flip.
 ![Illustration of rotating your Deckahedron](images/component_rotate.png)
 
 Look at the attribute on your character sheet -- what symbol is it, Anchor,
-Bulb, Crescent, or Dart? Rotate your Deckahedron so that the symbol is
-facing forward (away from you). Take the top card by the edge closest to
-you and flip it forward so the edge is now farthest from you.  Saying "Bam!"
-or making some other sound effect is recommended. Now the card is
-face-up and the symbol is facing forward.
+Bulb, Crescent, or Dart?
+Take the top card and flip it face up.
+Put it down so that the symbol faces the GM.
+(Saying "Bam!" or making some other sound effect is optional.)
 
 ![Illustration of flipping a card forward](images/component_flip.png)
 
 The top of the flipped card shows ✗s or ✔s.
+These tell you the result of the move.
+Consistently facing the result towards the GM helps simplify the GM's
+bookkeeping and helps the game stay fast-paced.
 
 ![Illustration of reading a card](images/component_read.png)
 
@@ -164,8 +192,8 @@ The GM might say to you:
 > Please flip Defy Danger with your Strength.
 
 Look over at the character sheet and see that Kresk has rank 3
-(Crescent) Strength. Rotate your Deckahedron so that the Crescent
-symbol is forward, then flip over the top card.
+(Crescent) Strength. Flip over the top card of your Deckahedron and
+look for that Crescent symbol.
 
 Maybe you get a single ✔. The GM uses the instructions on the
 Defy Danger card ("You do it, but there's a new complication") to
@@ -213,8 +241,8 @@ For a given flip, you may be instructed to add two advantage cards or two
 disadvantage cards.  This means you flip **3 cards in total** and take
 the **best** or **worst**, respectively.
 
-No flip may use more than 3 cards in total, so adding advantage cards past 2
-is just ignored.
+No flip may use more than 3 cards in total, so adding advantage cards
+beyond 2 is just ignored.
 
 Sometimes there's a situation where you are instructed to both
 "flip with advantage" and "flip with disadvantage".
@@ -239,8 +267,8 @@ you have a choice:
  (see [Move Levels](#move_levels))
 
 You may only do this when the card *resolves* a flip. (ie, when flipping
-multiple cards, *this* was the one from which the ✗ or ✔ symbols were
-used to interpret the result of the move)
+multiple cards, only if the green token card was the one from which
+the ✗ or ✔ symbols were used to interpret the result of the move)
 
 ## Other flip complications: Wound cards
 
@@ -282,6 +310,8 @@ Bank* on a ✗ and they don't make a move on a ✗✗.
 
 ### GM: Examples for spending points from the *Bad Bank*
 
+`TODO: move this to the GM Guide`
+
  * Make a "soft" move
  * Give a foe an extra starting Stamina point
  * Reduce a friendly NPC's starting Stamina points
@@ -291,6 +321,8 @@ Bank* on a ✗ and they don't make a move on a ✗✗.
  * One of the character's resources gets cosmetically changed
 
 ## GM Moves
+
+`TODO: move this to the GM Guide`
 
  * The Dungeon World moves
  * Player loses confidence in the skill they just tried.  Put a white-side red card on it until they use it and flip a ✔ or ✔✔
@@ -312,7 +344,9 @@ Bank* on a ✗ and they don't make a move on a ✗✗.
 
 ## GM responsibility: moving the spotlight
 
-Never let a player's turn to be inconsequential. A player might wait
+`TODO: move this to the GM Guide`
+
+Never let a player's turn be inconsequential. A player might wait
 10 minutes for their friends' moves, so if their whole turn in the
 spotlight ends with "nothing happens" this game will be very unfun.
 Give them an opportunity for something. This doesn't mean they have
@@ -345,6 +379,9 @@ much vigor, and drop their guard more frequently. The contest is not
 always decided with a knockout punch, it often comes down to who can
 better endure the exertion.
 
+By default, your character has 10 Stamina points. When your character
+loses all 10, they are incapacitated.
+
 ## Phases
 
 When your character gets attacked or falls victim to some other danger,
@@ -369,8 +406,8 @@ off their steel breastplate?
 
 ### First Phase
 
-When violence is applied to your character, you roll dice to get a number.
-Call this number the *attack power*.
+When your character suffers the consequences of violence, you roll dice to get
+a number. This number is called the *attack power*.
 
 ### Second Phase
 
@@ -542,11 +579,11 @@ they want.
 *Resting* is an action that a character may take when they are out of combat,
 not travelling, and have several hours to devote to rest (sleeping qualifies).
 
- * Step 1: Discard all *Exhaustion* tokens
+ * Step 1: Return all *Exhaustion* tokens to the supply
  * Step 2: Count the *Harm* and *Wound* tokens on your *Exhaustion pile*
- * Step 3: Keep that many cards (player choses which ones) in your *Exhaustion pile*,
-   put the rest into your *discard pile*
- * Step 4: Discard one *Harm* token
+ * Step 3: Keep that many cards (player choses which ones) in your
+   *Exhaustion pile*, put the rest into your *discard pile*
+ * Step 4: Return one *Harm* token to the supply
 
 Note: Time devoted to *Resting* cannot also be devoted to learning skills,
 studying with a teacher, or any other action that takes mental or physical
@@ -571,12 +608,12 @@ with healing magic.
 When you spend a day healing:
 
  * Step 1: Describe your character's healing experience
- * Step 2: Discard all *Exhaustion* tokens
- * Step 3: Discard all *Harm* tokens
+ * Step 2: Return all *Exhaustion* tokens to the supply
+ * Step 3: Return all *Harm* tokens to the supply
  * Step 4: Count the *Wound* tokens on your *Exhaustion pile*
  * Step 5: Keep that many cards (player choses which ones) in your
    *Exhaustion pile*, put the rest into your *discard pile*
- * Step 6: Discard one *Wound* token
+ * Step 6: Return one *Wound* token and one *Wound card* to the supply
 
 As with *Resting*, time spent *Seeking Help* cannot also be used in
 activities that take effort.
@@ -674,9 +711,48 @@ magically cursed?) that they're currently at a "scrappy adventurer" level.
 ```
 p15
 ```
-# Levelling Up
+# Move Levels
 
-## Flipping green
+Some Move cards have icons on them that indicate "levels". These levels
+represent how good your character is at that skill. For example, the move
+Pick Pockets has 5 icons.
+
+![Pick Pockets card](images/pick_pockets_card.png)
+
+These are the "move levels" for Pick Pockets.
+From left to right, these icons are called:
+
+ * ![2 red symbol](images/move_level_2_red.png) wild or "2 red"
+ * ![1 red symbol](images/move_level_1_red.png) novice or "1 red"
+ * ![base level](images/move_level_base_level.png) "base level"
+ * ![1 green symbol](images/move_level_1_green.png) expert or "1 green"
+ * ![2 green symbol](images/move_level_2_green.png) master or "2 green"
+
+If you chose Pick Pockets during character creation, you would receive
+the card and your character would be "studied" in the skill.
+The word "STUDY" is over "base level", the 3rd icon.
+
+Note: some moves, like Void Transfusion, don't start you off at the base
+level.
+
+Later, you can go up a level in Pick Pockets. Either by using the Study
+Under a Master move, or when you resolve a Pick Pockets flip and happen
+to get a green token card.
+See [Green token cards](#other-flip-complications-green-token-cards)
+
+![Green card](images/green_card.png)
+
+Take a green card, and put it on top of the move card. Put the green
+card black-side-up.
+
+With Pick Pockets leveled up, any time you perform that move in the future,
+you will add an advantage card when you flip.
+
+Because the Pick Pockets card shows the "2 green" icon, you can repeat this
+process again later, which would let you add 2 advantage cards when you flip.
+
+But what about the 2 "red" levels?
+
 
 ## Study / Craft
 
