@@ -267,7 +267,7 @@ you have a choice:
  (see [Move Levels](#move_levels))
 
 You may only do this when the card *resolves* a flip. (ie, when flipping
-multiple cards, only if the green token card was the one from which
+multiple cards, only if the *green token card* was the one from which
 the ✗ or ✔ symbols were used to interpret the result of the move)
 
 ## Other flip complications: Wound cards
@@ -730,14 +730,17 @@ From left to right, these icons are called:
 
 If you chose Pick Pockets during character creation, you would receive
 the card and your character would be "studied" in the skill.
-The word "STUDY" is over "base level", the 3rd icon.
+The word "STUDY" is over "base level", so that's the level you would
+start at.
 
 Note: some moves, like Void Transfusion, don't start you off at the base
 level.
 
+## Increased Move Levels
+
 Later, you can go up a level in Pick Pockets. Either by using the Study
 Under a Master move, or when you resolve a Pick Pockets flip and happen
-to get a green token card.
+to get a *green token card*.
 See [Green token cards](#other-flip-complications-green-token-cards)
 
 ![Green card](images/green_card_black.png)
@@ -751,7 +754,36 @@ you will add an advantage card when you flip.
 Because the Pick Pockets card shows the "2 green" icon, you can repeat this
 process again later, which would let you add 2 advantage cards when you flip.
 
+## Decreased Move Levels
+
 But what about the 2 "red" levels?
+
+In Deckahedron World, any character can attempt any move that is performed
+by flipping Str, Dex, or Int -- even if the player doesn't have that move
+card!
+
+For any such moves, all characters start at the lowest level shown on the
+card.  So every character is "wild" or "novice" at every skill that is
+tested by flipping Int, Str, or Dex.
+
+Every character, at any time, can attempt to hit two opponents in combat
+(via Goreography). Every character can attempt to cast a spell (via
+Fundamental Magic). But, their odds are very low.
+
+Just as the "expert" and "master" levels cause the flip to be done with
+advantage, the "wild" and "novice" levels cause the flip to be done with
+disadvantage.
+
+ * ![2 red symbol](images/move_level_2_red.png) flip with 2 levels of disadvantage
+ * ![1 red symbol](images/move_level_1_red.png) flip with 1 level of disadvantage
+
+If you perfrom a "wild" level move, and you resolve that flip with a
+*green token card*, you can use that card to graduate to "novice" level.
+
+![Red card](images/red_card_black.png)
+
+If you choose to do so, take the move card and a red card. Place the red card
+on top of the move card, black-side-up.
 
 
 ## Study / Craft
