@@ -740,7 +740,7 @@ Under a Master move, or when you resolve a Pick Pockets flip and happen
 to get a green token card.
 See [Green token cards](#other-flip-complications-green-token-cards)
 
-![Green card](images/green_card_back.png)
+![Green card](images/green_card_black.png)
 
 Take a green card, and put it on top of the move card. Put the green
 card black-side-up.
