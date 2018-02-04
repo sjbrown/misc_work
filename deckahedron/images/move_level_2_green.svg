@@ -10,8 +10,8 @@
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="20mm"
-   height="20mm"
-   viewBox="0 0 70.86614 70.866142"
+   height="10mm"
+   viewBox="0 0 70.86614 35.433071"
    id="svg40038"
    version="1.1"
    inkscape:version="0.91 r13725"
@@ -29,7 +29,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.8339125"
-     inkscape:cx="146.30666"
+     inkscape:cx="51.972825"
      inkscape:cy="78.693418"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
@@ -58,11 +58,11 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(0,-981.49603)">
+     transform="translate(0,-1016.9291)">
     <g
        id="g5172"
        style="display:inline"
-       transform="matrix(2.3952833,0,0,2.3952833,-592.85052,783.57875)">
+       transform="matrix(2.3952833,0,0,2.3952833,-592.85052,801.57875)">
       <title
          id="title5174">level_g2</title>
       <g
