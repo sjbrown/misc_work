@@ -603,6 +603,13 @@ Remember, it doesn't have to be a Hobbit hole.  Characters might be most at
 home in the middle of a bloody battle.
 
 
+### Risk Takers
+
+Ask this question to each player: What about your character's personality
+causes them to overreach?  What makes them take risks a normal person avoids?
+Are they brave, foolhardy, driven, greedy, curious, grieving?
+
+
 # GM Rules
 
 These rules are split up into sessions. During the first 3-hour session,
@@ -808,4 +815,53 @@ interpreted a signal, and added the kind of fun they enjoy, give yourself
 one point in the Good Bank.
 
 
+
+
+### GM: Examples for spending points from the *Bad Bank*
+
+`TODO`
+
+ * Make a "soft" move
+ * Give a foe an extra starting Stamina point
+ * Reduce a friendly NPC's starting Stamina points
+ * Give a foe +1 to the next time they do damage
+ * Make a cost a bit more expensive
+ * Make a treasure a bit less valuable
+ * One of the character's resources gets cosmetically changed
+
+## GM Moves
+
+`TODO`
+
+ * The Dungeon World moves
+ * Player loses confidence in the skill they just tried.  Put a white-side red card on it until they use it and flip a ✔ or ✔✔
+ * "Call for an Ad-Hoc Challenge"
+  - eg, "Something feels weird about this bridge. Flip Int to notice
+    what the problem is"
+    (It's implied that either ✔ or ✔✔ are needed to succeed)
+  - eg, "Anyone who wants to race to the edge of the bridge before
+    it collapses must have at least 2 speed and get ✔✔ on a Dex flip"
+    (The GM is allowed to consider other aspects than just Int / Str / Dex)
+  - eg, "You're all in the moat. Spend a green token and describe how
+    your character learned to swim, or else begin thrashing and drowning.
+    If you spend the green token, write 'swimming' on your character
+    sheet."
+
+ * On a *critical failure* flip, the GM may use 3 banked points to make
+   an additional move
+
+
+## GM responsibility: moving the spotlight
+
+`TODO`
+
+Never let a player's turn be inconsequential. A player might wait
+10 minutes for their friends' moves, so if their whole turn in the
+spotlight ends with "nothing happens" this game will be very unfun.
+Give them an opportunity for something. This doesn't mean they have
+to slay a demon on every turn, merely getting a big laugh can
+be "something".
+
+Remember, this is a collaborative story.  Laughter and excitement
+are the rewards for everyone.
 

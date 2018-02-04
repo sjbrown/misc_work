@@ -18,11 +18,13 @@ p1      - RPG intro.  What to do. Say/Flip/Move/Roll. GM/Player
 p2-p3   - Deckahedron - Basic Moves - when to flip, how to flip - lots of pics
     - SESSION 1 RULES
 p4-p6   - Combat - Stamina/Harm/Wounds - GM: moving the spotlight
-p6      - Set up an advantage with Discern Realities, Defend
+p6      - Set up an advantage with Discern, Defend
 p7      - Moves - Do a Flashback, Critical Flip
+p8      - Speed/Equip/Wealth
+p8      - Moves - Good Thing I Brought
     - SESSION 2 RULES
 p8      - More Moves - Take a Breather, Rest, Heal
-p9      - More Moves - Speed/Equip/Wealth - Run, Shop, GTIB, S+S
+p9      - More Moves - Run, Shop, GTIB, S+S
 p10     - Mundane Items - Armor, weapons
 p11     - More Moves - Use a Magic Item, EtBB, CtLL
 p12-p14 - Starting a game, Sarukkan's Chamber, Character Creation
@@ -249,7 +251,7 @@ Sometimes there's a situation where you are instructed to both
 To resolve any of these combinations,
 simply add up all the advantages, and then subtract all the disadvantages
 to arrive at your sum of advantage or disadvantage.
-The maximum is two extra cards, so if the sum is -3, you only
+The maximum is still two extra cards, so if the sum is -3, you only
 flip with two disadvantage cards.
 
 
@@ -308,57 +310,52 @@ There is an exception to the GM moves on ✗ and ✗✗.  When the move card
 has the tag *IMMEDIATE*, the GM does not add points to the *Bad
 Bank* on a ✗ and they don't make a move on a ✗✗.
 
-### GM: Examples for spending points from the *Bad Bank*
 
-`TODO: move this to the GM Guide`
+## Flips only happen when the situation is uncertain or risky
 
- * Make a "soft" move
- * Give a foe an extra starting Stamina point
- * Reduce a friendly NPC's starting Stamina points
- * Give a foe +1 to the next time they do damage
- * Make a cost a bit more expensive
- * Make a treasure a bit less valuable
- * One of the character's resources gets cosmetically changed
+A GM only calls for a flip when the situation is uncertain or risky for
+your character. If the outcome is certain, the GM may just narrate what
+happens. Or they may ask you some clarifying questions.
 
-## GM Moves
+Deckahedron World is a conversation. Different GMs will draw the line
+of certainty at different places.
 
-`TODO: move this to the GM Guide`
+Consider a situation where the GM has described your character, Kresk,
+waking up after making camp in a forest. Beside you is a squirrel nibbling
+an acorn.
 
- * The Dungeon World moves
- * Player loses confidence in the skill they just tried.  Put a white-side red card on it until they use it and flip a ✔ or ✔✔
- * "Call for an Ad-Hoc Challenge"
-  - eg, "Something feels weird about this bridge. Flip Int to notice
-    what the problem is"
-    (It's implied that either ✔ or ✔✔ are needed to succeed)
-  - eg, "Anyone who wants to race to the edge of the bridge before
-    it collapses must have at least 2 speed and get ✔✔ on a Dex flip"
-    (The GM is allowed to consider other aspects than just Int / Str / Dex)
-  - eg, "You're all in the moat. Spend a green token and describe how
-    your character learned to swim, or else begin thrashing and drowning.
-    If you spend the green token, write 'swimming' on your character
-    sheet."
+One response might be:
 
- * On a *critical failure* flip, the GM may use 3 banked points to make
-   an additional move
+"Kresk wants that acorn! I Hack and Slash the squirrel!"
+
+It would be bizzare, but completely within the rules for the GM to write
+up some stats for the squirrel (1 Stamina, 1 attack power), and begin a
+melee combat between Kresk and the squirrel, and ask you to flip Strength
+to resolve the Hack and Slash move.
+
+Perhaps better approaches from the GM might be:
+
+ * As you raise your fist to smash the squirrel, it darts off into the
+   forest, never to be seen again
+ * How is Kresk going to overcome the squirrel's natural speed and reflexes?
+ * You smash your fist down and flatten the rodent, strangely, it didn't
+   even flinch. This odd behaviour has you wondering about the rumors you've
+   heard about this forest being enchanted...
+
+The GM doesn't always have to invoke a move and call for a flip.  But in
+this example, the player literally names a move ("I Hack and Slash...").
+That's a strong signal to the GM, and the GM is likely to follow strong
+signals.
+
+If you enjoy playing in a style where things flow like a conversation or
+a story, from question to answer, from description to dialogue and back
+around again, rather than pushing a limited set of buttons laid out in
+front of you, try playing without naming the moves. Just describe what your
+character does in a natural way.
+
+"Kresk wants that acorn! I slam my fist down on the squirrel!"
 
 
-## GM responsibility: moving the spotlight
-
-`TODO: move this to the GM Guide`
-
-Never let a player's turn be inconsequential. A player might wait
-10 minutes for their friends' moves, so if their whole turn in the
-spotlight ends with "nothing happens" this game will be very unfun.
-Give them an opportunity for something. This doesn't mean they have
-to slay a demon on every turn, merely getting a big laugh can
-be "something".
-
-Remember, this is a collaborative story.  Laughter and excitement
-are the rewards for everyone.
-
-```
-p4-p6
-```
 # Combat - Stamina/Harm/Wounds
 
 Here are rules to determine when your character is able to endure
@@ -540,7 +537,39 @@ Whenever you **flip** and reveal a wound card, follow these rules:
  * Lose a stamina point
 
 
-# More Moves - Do a Flashback, Critical Flip
+# Speed/Equip/Wealth
+
+Your character has a movement speed, they carry a certain amount of
+equipment and items, and they carry a certain amount of wealth.
+The more equipment and wealth carried, the lower their speed.
+
+Daily-use amounts of money and food are not tracked. It is assumed
+your character will always be able to scrounge a meal somehow.
+
+Movement speed is not an exact measurement in meters-per-second.
+It will matter when attempting moves where being laden with loot and gear
+matters. Particularly moves with the tag "UNENCUMBERED".
+When your speed goes below 4, you cannot perform any "UNENCUMBERED" moves.
+
+You have 6 tokens that can be allocated between 3 spots on your
+character sheet (Speed, Equip, Wealth) and Item cards.
+
+If you don't want to carry any items, equipment or wealth, you can
+put all 6 tokens on Speed.
+
+Tokens represent weight or difficulty to carry, when they're not on speed.
+
+Some Item cards require more than 1 token.
+
+
+
+# SESSION 2 RULES
+
+# More Moves - Do a Flashback, Critical Flip, Good Thing I Brought
+
+## Critical Flip
+## Do a Flashback
+## Good Thing I Brought...
 
 
 # More Moves - Take a Breather, Rest, Seek Help
@@ -625,18 +654,9 @@ You may gird all your armour, where applicable.
 Remove all Harm and Wound tokens from your armour cards.
 
 
-# Speed/Equipment/Wealth
-
-6 tokens that move between Speed , Equip, Wealth and Item cards
-
-Tokens represent weight or difficulty to carry, when they're not on speed
-
-Some Item cards require more than 1 token
-
-## More Moves - Run, Shop, Good Thing I Brought..., Sharpen and Stitch
+## More Moves - Run, Shop, Sharpen and Stitch
 
 ### Bravely Run Away
-
 
 ### Shop / Procure
 
@@ -645,18 +665,23 @@ Make mundane items - here's the process... TODO
 Don't hand a player a card they can't use because they don't have the
 requirements.
 
-### Good Thing I Brought...
+## Armor, weapons
+
+Damage to items is represented as black-side red cards
+
+#### Armour Table
+
+Name             | token cost  | spots                | notes
+-----------------|-------------|----------------------|---------
+Leather Armour   | 1           | 2 Harm               |
+_ Armour         | 2           | 2 Harm, 1 Harm/Wound |
+Plate Armour     | 3           | 3 Harm/Wound         | requires help to don / doff
 
 
 ### Sharpen and Stitch
 
 Damage to items is represented as black-side red cards
 
-# Mundane Items
-
-## Armor, weapons
-
-Damage to items is represented as black-side red cards
 
 # More Moves - Use a Magic Item, Entreat the Blood-Bound, Channel the Living Light
 
@@ -678,15 +703,16 @@ Items - 2 mundane items or 1 magic item
 
 "Use a Magic Item" move gives you 2 magic items
 
+"Channel the Living Light" move gives you Sigil of the Living Light
+
+"Entreat the Blood-Bound" move gives you Blade of Echoes
+
 A player inevitably asks why the magic amulet or ring they've created,
 a trinket that is normally a couple grams, reduces their speed.  At that point
 the GM should ask them a question, "Yes, why does it weigh you down? What
 about magic in this world, or what about your character makes them
 especially burdened by magical items?"
 
-Ask this question to each player: What about your character's personality
-causes them to overreach?  What makes them take risks a normal person avoids?
-Are they brave, foolhardy, driven, greedy, curious, grieving?
 
 ### Fitting the fiction
 
@@ -796,8 +822,6 @@ weapon's other features
 
 
 # Addenda
-
-Damage to items is represented as black-side red cards
 
 If you add a 2nd magical effect to a weapon with Tool Twisting, it still only
 has 1 maximum charge, no matter which effect you use.
