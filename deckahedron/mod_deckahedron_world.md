@@ -857,9 +857,6 @@ be an *R* circle or an *F* circle, it would just be a regular green
 circle.
 
 You do not have to keep your cards in this arrangement while you play,
-but whenever you gain a new move card, you should check to see if you've
-added any circles. Because the moment you add a circle, you get to take
-a *Level card*.
 
 #### The RECEIVE CARDS tag
 
@@ -882,7 +879,23 @@ When crafting a weapon, ask how many red tokens it takes (ie, how much it
 reduces a character's speed). The GM should weigh that cost against the
 weapon's other features
 
+# SESSION 3 RULES
+
 ## Level circles
+
+At the beginning of a session, players should arrange their move cards
+to count how many green circles they have.
+
+![level cards](images/level_cards.png)
+
+If you have a new green circle this session, you get to take a *Level card*.
+
+Like move cards, level cards may also have requirements. Some require that you
+have a certain amount of circles to access them.
+
+![blessing cards](images/blessing_cards.png)
+
+Some level cards will instruct you to take blessing cards.
 
 
 # Addenda

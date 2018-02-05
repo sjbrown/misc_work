@@ -569,22 +569,25 @@ what kinds of species and religions exist.
  * Does your character enjoy the outdoors, or city life? Are
    they extreme in that preference?
  * Roughly how old is your character?  Have they ever killed
-   a man before?
+   a person before?
  * What's your character's social standing? When they first
    walk into a room full of people, do they provoke any reaction?
 
 Even if the players are done picking cards, finish asking all these questions.
 
-The goal of the Q&A is to get everyone thinking about how *each* of these
-questions applies to *their* character, so they don't all just make
-1-dimensional murder-hobos.
+Not everyone will get asked every question, but everyone will
+*start thinking* about how *each* of these questions applies to their
+character. With some depth and dimensionality in mind, a player will
+be better able to imagine creative outcomes to the situations their
+character is confronted with.
 
-As you're asking these questions, you should also be checking their
-expectations. Deckahedron World is a game where characters start off as
-scrappy adventures.  If a player is telling you their character is a fire
-demon or a ten year old shoe shine boy or a computer hacker, a
-conversation is needed to establish how that character can fit into
-the Deckahedron World rules.
+As you're asking the players these questions, listen for how the answers
+signal the kind of fun the players want to have and also measure the
+expectations they have for the game. Deckahedron World is a game where
+characters start off as scrappy adventures.  If a player is telling you
+their character is a fire demon or a ten year old shoe-shine boy or a
+computer hacker, a conversation is needed to establish how that character
+can fit into the Deckahedron World rules.
 
 If a player's character reads as too exotic, that might be the player
 signaling that the fun they want to have is playing a different game.
@@ -607,7 +610,8 @@ home in the middle of a bloody battle.
 
 Ask this question to each player: What about your character's personality
 causes them to overreach?  What makes them take risks a normal person avoids?
-Are they brave, foolhardy, driven, greedy, curious, grieving?
+Are they brave, foolhardy, driven, greedy, curious, grieving? Caught between
+two worlds? Unsure of who they are? Do they have a deathwish?
 
 
 # GM Rules
