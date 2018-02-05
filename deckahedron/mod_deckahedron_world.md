@@ -691,11 +691,8 @@ Ask that player "Who is the Blood-Bound"?
     and..." no matter if they identify the Blood-Bound as tiny, parasitic
     insects or as monstrous, extradimensional dark gods.
 
-```
-p12-p14
-```
 
-## Making your own character
+# Making your own character
 
 Spread out A, B, C cards, take turns picking
 
@@ -734,9 +731,6 @@ means, if they do, find some fictional justification (drunkard? battle-worn?
 magically cursed?) that they're currently at a "scrappy adventurer" level.
 
 
-```
-p15
-```
 # Move Levels
 
 Some Move cards have icons on them that indicate "levels". These levels
@@ -796,6 +790,8 @@ Every character, at any time, can attempt to hit two opponents in combat
 (via Goreography). Every character can attempt to cast a spell (via
 Fundamental Magic). But, their odds are very low.
 
+You can attempt moves even if you don't meet the requirements shown.
+
 Just as the "expert" and "master" levels cause the flip to be done with
 advantage, the "wild" and "novice" levels cause the flip to be done with
 disadvantage.
@@ -812,7 +808,75 @@ If you choose to do so, take the move card and a red card. Place the red card
 on top of the move card, black-side-up.
 
 
-## Study / Craft
+## More Moves - Study Under a Master, Craft a Weapon
+
+### Study Under a Master
+
+![SUaM card](images/move_study_under_a_master.png)
+
+This is the move by which your character becomes a powerful force in
+the world.
+
+When your character is in a steading (a villiage, city, etc. -- any safe
+place where resources and commerce present themselves), you can spend 2 green
+tokens to either:
+
+ * Increase the level of a move you already have
+   (See [Move Levels](#move_levels)
+ * Take a new move card from the supply
+
+If you want to take a move card that another player already has or one that
+was scribbled over in a previous campaign, or just has been ruined by spilled
+beer, you can copy the text onto a new card.
+
+![requirements](images/move_requirements.png)
+
+Some moves have requirements. These are illustrated as green circles,
+sometimes with a letter inside -- *R*, *F*, or *W*. Requirements are
+sometimes separated by a slash, **/**, which means "or".
+
+For example, using the Study Under a Master move can gain you the card
+Fundamental Magic only if you have two green circles or one *W* circle.
+
+What, then, are these circles?
+
+Take a look through the move cards and see that there are partial circles
+printed on them - either in the corners or on the sides.
+
+When you can arrange your own move cards together in such a way that a
+circle is completed, you "have" a circle. If you can find an arrangement
+that shows 2 circles, then you "have" 2 circles.
+
+![circle arrangements](images/circle_arrangements.png)
+
+If your card arrangement had the cards Pick Pockets and Not On My Turf
+next to each other, you could complete an *R* circle. If you had
+the Scent of Blood card instead of the Not On My Turf card, you could
+arrange it next to Pick Pockets to complete a circle, but it would not
+be an *R* circle or an *F* circle, it would just be a regular green
+circle.
+
+You do not have to keep your cards in this arrangement while you play,
+but whenever you gain a new move card, you should check to see if you've
+added any circles. Because the moment you add a circle, you get to take
+a *Level card*.
+
+#### The RECEIVE CARDS tag
+
+Sometimes when you Study Under a Master, you end up with study aids.
+
+When you gain the move card...    | You also take...
+----------------------------------|------------------------------
+Channel The Living Light          | Sigil of the Living Light
+Entreat The Blood-Bound           | Blade of Echoes
+Use a Magic Item                  | Any 2 magic item cards
+
+You use the RECEIVE CARDS tag only when you gain a move card via Study
+Under a Master. You do not use it when you gain competence with the
+skill by flipping green token cards.
+
+
+### Craft a Weapon
 
 When crafting a weapon, ask how many red tokens it takes (ie, how much it
 reduces a character's speed). The GM should weigh that cost against the
