@@ -223,7 +223,7 @@ class Rest(Card):
     * Step 4: Discard one Harm token
     |
     |
-    Magic items regain their charges (remove all white-side red cards)
+    Magic items left idle regain their charges (remove all white-side red cards)
     |
     |
     Gird all your armour (remove Harm and Wound tokens from your armour)
