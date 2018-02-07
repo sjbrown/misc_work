@@ -18,11 +18,11 @@ p1      - RPG intro.  What to do. Say/Flip/Move/Roll. GM/Player
 p2-p3   - Deckahedron - Basic Moves - when to flip, how to flip - lots of pics
     - SESSION 1 RULES
 p4-p6   - Combat - Stamina/Harm/Wounds - GM: moving the spotlight
-p6      - Set up an advantage with Discern, Defend
-p7      - Moves - Do a Flashback, Critical Flip
 p8      - Speed/Equip/Wealth
 p8      - Moves - Good Thing I Brought
+p7      - Moves - Do a Flashback, Critical Flip
     - SESSION 2 RULES
+p6      - Set up an advantage with Discern, Defend
 p8      - More Moves - Take a Breather, Rest, Heal
 p9      - More Moves - Run, Shop, GTIB, S+S
 p10     - Mundane Items - Armor, weapons
@@ -32,9 +32,7 @@ p12-p14 - Starting a game, Sarukkan's Chamber, Character Creation
 p15     - Levelling Up - Study / Craft, Level circles
 ```
 
-```
-p1
-```
+
 # Welcome to Role-Playing
 
 Deckahedron World is a system for telling a story.  The authors of the story
@@ -103,7 +101,6 @@ actor standing in the character's shoes and seeing with their eyes.
 Deckahedron World invites you to:
 
  * Describe your character and their actions
-   * Refer to your moves to get ideas for your character
    * Act out their dialogue
    * Describe *how* they act
       - flourishes and stunts
@@ -111,10 +108,11 @@ Deckahedron World invites you to:
    * Tell what they say / hear / see / smell / taste / feel
    * Describe their thoughts & memories
    * Chime in when they interact with or support the other characters
+   * Refer to your **moves** to get ideas for your character
  * Tell parts of the story
-   * Refer to your moves to see what boundaries you can push
    * Tell your character's backstory
    * Control your character's hirelings and animal companions
+   * Refer to your **moves** to see what boundaries you can push
 
 As the conversation unfolds, the rules will chime in as well.  When that
 happens you will be called do things beyond just "saying stuff":
@@ -126,9 +124,6 @@ happens you will be called do things beyond just "saying stuff":
 This guide will teach you how to do those things.
 
 
-```
-p2-p3
-```
 # The Deckahedron
 
 Every player except the GM gets a Deckahedron. Inspect your Deckahedron.
@@ -219,13 +214,13 @@ instruction, "add a disadvantage card" or "flip with disadvantage".
 
 With an advantage, flip over your top card as usual, and then
 flip over the next card as well.
-Compare the results (the number of ✗s or ✔s)
+Compare the results (the number of ✗s or ✔s next to the relevant symbol)
 and *resolve the flip* with the card that has the **best** result.
 
 If it's a tie, you may choose whichever card to be the card that *resolves
 the flip*.
 
-All cards that got flipped face-up go in your *discard pile*.
+All cards that got flipped go face-up in your *discard pile*.
 
 #### Complete Flip Rule
 
@@ -272,9 +267,14 @@ You may only do this when the card *resolves* a flip. (ie, when flipping
 multiple cards, only if the *green token card* was the one from which
 the ✗ or ✔ symbols were used to interpret the result of the move)
 
+Green tokens are a currency you spend to activate "meta" parts of the game.
+See below for moves that let you "break" or "bend" rules, or partially take
+control of the narrative.
+
+
 ## Other flip complications: Wound cards
 
-Sometimes you flip over a Wound card.  See the
+Sometimes you flip over a Wound card and must lose a Stamina point. See the
 [Combat chapter](#combat).
 
 
@@ -287,20 +287,27 @@ Whenever your Deckahedron is down to 5 or fewer cards, you **must** take
 your *discard pile* and shuffle it back into your Deckahedron.
 
 
-## GM Notes: What to do on flips
+## Interpreting the result of a flip
 
-When a player is performing a move, you should read the move card so that
-you can interpret the result of the flip. Usually ✔✔ means an unfettered
-success, and single ✔ means success, but with complication.
+When a player performs a move, the player executes a flip, and the GM
+interprets the narrative result, based on the text of the move card.
 
-When the result is a single ✗, it is sometimes the same as a single ✔, but
-often it is slightly worse. When a flip results in a single ✗, even when
-the move card says it has the same narrative effect as a single ✔, you
-should add a point to your *Bad Bank*.  See the GM Guide.
+Usually ✔✔ means an unfettered success, and single ✔ means success,
+but with complication.
 
-When the result is ✗✗, it is your turn to make a move. You narrate the
-consequences of the move the player just attempted and you have license to
-take the narrative where you'd like.  See the GM Guide.
+When the result is a single ✗, it sometimes means the same as a single ✔,
+but often it is slightly worse.
+
+When a flip results in a single ✗, even when the move card says it has the
+same narrative effect as a single ✔, the GM should add a point to the
+*Bad Bank*.
+
+Sometimes a card does not say how a ✗ should be interpreted.  In that case,
+the GM gets to make a move, just like ✗✗.
+
+When the result is ✗✗, it is the GM's turn to make a move. The GM narrates
+the consequences of the move the player just attempted and has license to
+take the narrative where they like.
 
 Rarely, a card will have instructions for how to interpret a ✗✗ result.
 These instructions should be executed, but might only be *part* of the
@@ -310,11 +317,14 @@ There is an exception to the GM moves on ✗ and ✗✗.  When the move card
 has the tag *IMMEDIATE*, the GM does not add points to the *Bad
 Bank* on a ✗ and they don't make a move on a ✗✗.
 
+See the GM Guide for explanations of the *Bad Bank* and for a list of moves
+the GM is allowed to make.
+
 
 ## Flips only happen when the situation is uncertain or risky
 
 A GM only calls for a flip when the situation is uncertain or risky for
-your character. If the outcome is certain, the GM may just narrate what
+the character. If the outcome is certain, the GM may just narrate what
 happens. Or they may ask you some clarifying questions.
 
 Deckahedron World is a conversation. Different GMs will draw the line
@@ -333,14 +343,14 @@ up some stats for the squirrel (1 Stamina, 1 attack power), and begin a
 melee combat between Kresk and the squirrel, and ask you to flip Strength
 to resolve the Hack and Slash move.
 
-Perhaps better approaches from the GM might be:
+Perhaps better responses from the GM might be:
 
- * As you raise your fist to smash the squirrel, it darts off into the
-   forest, never to be seen again
- * How is Kresk going to overcome the squirrel's natural speed and reflexes?
- * You smash your fist down and flatten the rodent, strangely, it didn't
+ * "As you raise your fist to smash the squirrel, it darts off into the
+   forest, never to be seen again"
+ * "How is Kresk going to overcome the squirrel's natural speed and reflexes?"
+ * "You smash your fist down and flatten the rodent, strangely, it didn't
    even flinch. This odd behaviour has you wondering about the rumors you've
-   heard about this forest being enchanted...
+   heard about this forest being enchanted..."
 
 The GM doesn't always have to invoke a move and call for a flip.  But in
 this example, the player literally names a move ("I Hack and Slash...").
@@ -534,13 +544,16 @@ Whenever you **flip** and reveal a wound card, follow these rules:
    instructed you to "flip 3", you stop short once you hit
    the wound card - resolve the move with only the card(s) you flipped.
    This overrides the **Complete Flip Rule**)
- * Lose a stamina point
+ * Lose a Stamina point
 
 
 # Speed/Equip/Wealth
 
-Your character has a movement speed, they carry a certain amount of
-equipment and items, and they carry a certain amount of wealth.
+Your character has a movement speed,
+a certain lightness-of-foot,
+they carry a certain amount of equipment and items,
+and they carry a certain amount of wealth.
+These attributes are tracked with the Speed/Equip/Wealth system.
 The more equipment and wealth carried, the lower their speed.
 
 Daily-use amounts of money and food are not tracked. It is assumed
@@ -549,7 +562,7 @@ your character will always be able to scrounge a meal somehow.
 Movement speed is not an exact measurement in meters-per-second.
 It will matter when attempting moves where being laden with loot and gear
 matters. Particularly moves with the tag "UNENCUMBERED".
-When your speed goes below 4, you cannot perform any "UNENCUMBERED" moves.
+When your speed goes below 4, you may not perform any "UNENCUMBERED" moves.
 
 You have 6 tokens that can be allocated between 3 spots on your
 character sheet (Speed, Equip, Wealth) and Item cards.
@@ -561,16 +574,19 @@ Tokens represent weight or difficulty to carry, when they're not on speed.
 
 Some Item cards require more than 1 token.
 
+The GM may interpret a Speed of 0 as limiting a character's gait to walking.
 
 
-# SESSION 2 RULES
+# Moves - Good Thing I Brought, Do a Flashback, Critical Flip
 
-# More Moves - Do a Flashback, Critical Flip, Good Thing I Brought
-
+## Good Thing I Brought...
 ## Critical Flip
 ## Do a Flashback
-## Good Thing I Brought...
 
+
+---
+# SESSION 2 RULES
+---
 
 # More Moves - Take a Breather, Rest, Seek Help
 
@@ -879,7 +895,9 @@ When crafting a weapon, ask how many red tokens it takes (ie, how much it
 reduces a character's speed). The GM should weigh that cost against the
 weapon's other features
 
+---
 # SESSION 3 RULES
+---
 
 ## Level circles
 
