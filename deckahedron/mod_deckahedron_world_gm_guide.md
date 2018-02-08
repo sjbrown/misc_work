@@ -5,12 +5,13 @@ This guide is intended for a Deckahedron World Game Master (GM).
 Read this guide if you are the volunteer among your friends to run the
 game. Your responsibilities are:
 
+ * pitch the idea of playing Deckahedron World to your friends
  * know, teach, and follow the rules
  * tell the lion's share of the story
  * give Non-Player Characters (NPCs) names, voices, motivations,
    and behaviour
  * confront the players with challenges and dangers
- * take notes
+ * take some notes
  * and...
 
 The last responsibility is so important it deserves its own paragraph:
@@ -26,7 +27,7 @@ To make your job of teaching the rules easier, this guide has
 at the table.
 
 Before sitting down with your group of players, you should read all
-the rules.
+the rules. Your players will have questions, you will need to answer them.
 
 
 # First Session
