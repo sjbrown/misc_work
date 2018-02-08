@@ -17,7 +17,7 @@
    version="1.1"
    inkscape:version="0.91 r13725"
    sodipodi:docname="move_requirements.svg"
-   inkscape:export-filename="/home/sjbrown/x.png"
+   inkscape:export-filename="/home/sjbrown/work/misc_work/deckahedron/images/move_requirements.png"
    inkscape:export-xdpi="96.760002"
    inkscape:export-ydpi="96.760002">
   <defs
@@ -63,7 +63,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.0428111"
-     inkscape:cx="216.84501"
+     inkscape:cx="50.947275"
      inkscape:cy="42.040492"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
@@ -83,7 +83,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
