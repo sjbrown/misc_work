@@ -292,6 +292,8 @@ your *discard pile* and shuffle it back into your Deckahedron.
 When a player performs a move, the player executes a flip, and the GM
 interprets the narrative result, based on the text of the move card.
 
+![flip results](images/flip_results.png)
+
 Usually ✔✔ means an unfettered success, and single ✔ means success,
 but with complication.
 
