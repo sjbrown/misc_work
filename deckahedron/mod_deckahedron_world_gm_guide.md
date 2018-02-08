@@ -668,8 +668,9 @@ creature without further expenditure from the Bad Bank.
 Consistency prevents players from feeling the game is unfair or that you are
 especially aiming negative consequences at them.
 
-
+---
 # Session 2 rules
+---
 
 ## Prepare
 
@@ -868,4 +869,48 @@ be "something".
 
 Remember, this is a collaborative story.  Laughter and excitement
 are the rewards for everyone.
+
+# Creating Challenges for Players
+
+## Combat
+
+### Stamina matching
+### Using the Bad Bank
+
+## Puzzles
+
+## Monsters
+
+Monsters are just puzzles that can be brute-forced.
+
+Monsters represent something about the theme
+
+## Villians (aka "Bosses", aka "The Big Bad")
+
+## Intrigue
+
+Intrigues are just puzzles that always have a cost - there's no perfect
+solution.  Sometimes it's about choosing an imperfect side.
+
+Powerful ways for players to say something about the themes of the story
+and the personality of their characters.
+
+The dwarves
+
+ * hold a 100-year-grudge against the elves
+ * see the humans as weak
+ * face elimination at the hands of the orcs
+
+The humans
+
+ * have a financially favourable armistice with the orcs
+ * desire the wood of the elves' forest
+ * will do anything for money
+ * could retreat to behind the elves and be safe
+
+The elves
+
+ * do everything by the book / rule of law / decision by committee
+ * hold a strong impermeable border in the forest - could hold off the orcs
+ * desire the elimination of the orcs, seen as morally abominable
 
