@@ -300,11 +300,11 @@ but with complication.
 When the result is a single ✗, it sometimes means the same as a single ✔,
 but often it is slightly worse.
 
-When a flip results in a single ✗, even when the move card says it has the
-same narrative effect as a single ✔, the GM should add a point to the
-*Bad Bank*.
+Any time a flip results in a single ✗ the GM should add a point to
+the *Bad Bank*.  -- even when the move card says it has the same narrative
+effect as a single ✔.
 
-Sometimes a card does not say how a ✗ should be interpreted.  In that case,
+Sometimes a card does not say how a ✗ should be interpreted. In that case,
 the GM gets to make a move, just like ✗✗.
 
 When the result is ✗✗, it is the GM's turn to make a move. The GM narrates
@@ -513,6 +513,9 @@ using any relevant move cards and item cards, otherwise:
    2. Place a *Harm token* on your *Exhaustion pile*
 
 ![Harm token](images/component_harm.png)
+
+> Note, this "one-hit, two-hit, over" pattern is repeated in many
+> of Deckahedron World's rules
 
 ## Wounds
 
@@ -916,6 +919,21 @@ have a certain amount of circles to access them.
 ![blessing cards](images/blessing_cards.png)
 
 Some level cards will instruct you to take blessing cards.
+
+
+## Item damage
+
+Non-magical items can be damaged in Deckahedron World. Usually this happens
+narratively as the result of a GM move, but it can also be caused by player
+moves, eg. Armour Mastery.
+
+The "one-hit, two-hit, over" mechanism is used to represent damage.
+
+The first two times an item is damaged, place a red card on the Item card,
+black-side-up.
+
+The third time an item is damaged, it is destroyed. Return it and the red
+cards to the supply.
 
 
 # Addenda
