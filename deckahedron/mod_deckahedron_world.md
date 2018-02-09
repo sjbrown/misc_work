@@ -151,7 +151,7 @@ use to resolve the flip.
     attributes, like "Str / Dex".  You may need to ask the player for more
     detail about what they are attempting before calling for a flip.
 
-![Illustration of rotating your Deckahedron](images/component_rotate.png)
+![Illustration of rotating your Deckahedron](images/component_layout.png)
 
 Look at the attribute on your character sheet -- what symbol is it, Anchor,
 Bulb, Crescent, or Dart?
