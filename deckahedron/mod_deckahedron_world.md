@@ -18,7 +18,7 @@ p1      - RPG intro.  What to do. Say/Flip/Move/Roll. GM/Player
 p2-p3   - Deckahedron - Basic Moves - when to flip, how to flip - lots of pics
     - SESSION 1 RULES
 p4-p6   - Combat - Stamina/Harm/Wounds - GM: moving the spotlight
-p8      - Speed/Equip/Wealth
+p8      - Speed/Wealth/Equip
 p8      - Moves - Good Thing I Brought
 p7      - Moves - Do a Flashback, Critical Flip
     - SESSION 2 RULES
@@ -424,10 +424,11 @@ If you don't split up the *attack power*, it translates directly into Stamina
 points. So by default, your character loses that amount of Stamina points.
 
 Let's say your character was attacked with a sword and the dice were rolled
-and summed up to 7.  The simplest thing is to lose 7 Stamina points.
+and summed up to 7.  The simplest choice is to lose 7 Stamina points.
 
-But maybe you only have 7 Stamina points left in your deck, and you don't
-want your character to be incapacitated. You have a couple options:
+But maybe you already lost 3 Stamina points earlier. You only have 7 Stamina
+points left, and you don't want your character to be incapacitated. You have
+a couple options:
 
  * Turn *attack power* into Harm tokens at a rate of 3-for-1
  * Turn *attack power* into Wound tokens at a rate of 6-for-1
@@ -450,6 +451,10 @@ In our example, you may split the attack power of 7 into:
 
 Note: as described later, taking Wound and Harm tokens can sometimes also
 cause loss of Stamina points.
+
+*Attack power* turns into Harm tokens at *exactly* a rate of 3-to-1, and
+Wound tokens at *exactly* a rate of 6-to-1. You cannot choose a Harm token
+if facing an attack power of 2.
 
 
 ## Stamina / Exhaustion
@@ -552,13 +557,13 @@ Whenever you **flip** and reveal a wound card, follow these rules:
  * Lose a Stamina point
 
 
-# Speed/Equip/Wealth
+# Speed/Wealth/Equip
 
 Your character has a movement speed,
 a certain lightness-of-foot,
 they carry a certain amount of equipment and items,
 and they carry a certain amount of wealth.
-These attributes are tracked with the Speed/Equip/Wealth system.
+These attributes are tracked with the Speed/Wealth/Equip system.
 The more equipment and wealth carried, the lower their speed.
 
 Daily-use amounts of money and food are not tracked. It is assumed
@@ -585,9 +590,52 @@ The GM may interpret a Speed of 0 as limiting a character's gait to walking.
 # Moves - Good Thing I Brought, Do a Flashback, Critical Flip
 
 ## Good Thing I Brought...
-## Critical Flip
+
+![Good Thing I Brought card](images/move_good_thing_i_brought.png)
+
+Adventurers are always finding themselves in tricky situations. Luckily,
+they come prepared with adventuring gear. They have been known to carry
+50 feet of rope, smelling salts, books of saucy poems, sometimes even a
+3-day-old pork chop to distract hounds or hungry goblins.
+
+It's a fact. You know this and Deckahedron World knows this, so it doesn't
+ask you to keep fine-grained notes of every candle and spare button in your
+character's inventory.
+
+Reasonable daily-use items are presumed to be in your character's pack. If
+you're unsure, remember Deckahedron World is a conversation, so just ask
+the table.
+
+But sometimes you will be in a situation where having that 50 feet of rope
+or old pork chop would really *solve a problem* for your character.
+
+When your character reaches into their pack and produces the item that
+solves their current problem or helps them overcome a challenge, just say
+what it is and spend the tokens.
+
 ## Do a Flashback
 
+![Do a Flashback card](images/move_do_a_flashback.png)
+
+Sometimes you plan out something really great, and then you resolve
+a flip, and don't get the results you need.
+
+A Flashback serves as sort of a "mulligan" in those situations, but it also
+provides a way to develop your character's backstory and personality.
+
+
+## Critical Flip
+
+![Critical Flip card](images/critical_flip_card.png)
+
+One of the 20 cards in your Deckahedron is the "Critical Success card". It
+has a ✔✔ symbol on every edge and a green circle in the middle.
+
+If you *resolve a flip* with the Critical Success card, you can use the
+Critical Flip move to get an advantage card on your next move.
+
+If you choose to Critical Flip, the spotlight stays on you for a little bit
+longer while you make your bonus move.
 
 ---
 # SESSION 2 RULES
