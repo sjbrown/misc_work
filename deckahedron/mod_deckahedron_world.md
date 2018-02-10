@@ -1053,7 +1053,7 @@ skill by flipping green token cards.
 At the beginning of a session, players should arrange their move cards
 to count how many green circles they have.
 
-![level cards](images/level_cards.png)
+![level cards](images/component_card_level.png)
 
 If you have a new green circle this session, you get to take a *Level card*.
 
