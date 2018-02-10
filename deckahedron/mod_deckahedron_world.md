@@ -574,7 +574,7 @@ It will matter when attempting moves where being laden with loot and gear
 matters. Particularly moves with the tag "UNENCUMBERED".
 When your speed goes below 4, you may not perform any "UNENCUMBERED" moves.
 
-You have 6 tokens that can be allocated between 3 spots on your
+You have 6 tokens that can be allocated between 3 slots on your
 character sheet (Speed, Equip, Wealth) and Item cards.
 
 If you don't want to carry any items, equipment or wealth, you can
@@ -623,6 +623,40 @@ a flip, and don't get the results you need.
 A Flashback serves as sort of a "mulligan" in those situations, but it also
 provides a way to develop your character's backstory and personality.
 
+After a player makes a flip, and before the GM describes the consequence of
+the flip, the player can declare they're going to `do a flashback`.
+
+The player spends 2 green tokens. Then they describe how something
+that happened in the past particularly prepared them for this situation.
+
+Then they can ignore the original flip, and flip again, with one level of
+advantage.  (eg, if they were doing a flip-three-take-worst flip, now they
+do a flip-two-take-worst)
+
+After they tell their flashback, the GM may allow them to spend additional
+green tokens for more advantage levels.  This is a subjective judgement left
+up to the GM.
+
+### Mercy Flashbacks
+
+Players may find themselves in a situation where they forgot to do something
+when they had the chance, like use healing magic while they were resting,
+or leveling up a move before they left a steading, or getting some key
+information from an NPC before that NPC died.
+
+As long as the player and the GM both agree that the player had the necessary
+resources when the action was available, the GM may allow the player to
+spend those resources and effect that action now, as a "Mercy Flashback".
+
+The player must spend a green token, in addition to whatever cost the action
+incurs.
+
+Forgetting happens to the best of us, and there are lots of variables to keep
+track of, so the cost is kept "cheap" at only one green token.  But there
+must be a cost. It is necessary to keep the flow of the game going.  This is
+a game of improv storytelling, and improv means rolling with the punches
+sometimes.
+
 
 ## Critical Flip
 
@@ -637,6 +671,65 @@ Critical Flip move to get an advantage card on your next move.
 If you choose to Critical Flip, the spotlight stays on you for a little bit
 longer while you make your bonus move.
 
+
+# Making your own character
+
+The GM has rules to guide you through creating your character in the
+GM Guide.
+
+Take turns picking your starting moves. During character creation, you
+can't pick a move another player has already picked, but you can study
+those moves later if you want, see the Study Under a Master description below.
+
+Moves with the *RECEIVE CARDS* tag allow you to get some item cards during
+character creation.
+
+ * "Use a Magic Item" move gives you 1 magic item of your choice
+ * "Channel the Living Light" move gives you Sigil of the Living Light
+ * "Entreat the Blood-Bound" move gives you Blade of Echoes
+
+After you choose your starting moves, Choose 2 items
+ * a weapon is a popular choice. Unarmed, your attack power will be 1d2
+ * You may choose 1 magical item
+ * Without studying the Use A Magic Item move, it's still possible to use
+   magic items.
+
+## Carrying Items Reduces Speed
+
+There are blanks on some cards, and some cards are entirely blank.
+You get to define what your items are. But you do not get to change the
+rule that each item you carry reduces your speed.
+
+A player inevitably asks why the magic amulet or ring they've created,
+a trinket that is normally a couple grams, reduces their speed.  At that point
+the GM may return the question, "Yes, why does it weigh you down? What
+about magic in this world, or what about your character makes them
+especially burdened by magical items?"
+
+The narrative of Deckahedron World is a collaboration.
+
+
+### Fitting the fiction
+
+One of the joys of Deckahedron World is **building** your character up from
+a scrappy adventurer to a force to be reckoned with.
+
+Characters start out as "scrappy adventurers" that are not much more
+powerful than a common villager.  They've got an edge over regular folk,
+(their special abilities) but they're not mechanically that much stronger.
+You can invent any backstory you like, but you may need to answer questions
+about how the backstory fits where the characters is, mechanically.
+
+Nothing stops you from creating a hulking, 7 foot tall barbarian, with a rich
+history of warring and slaughtering enemies, but at the very beginning of
+the game, with a couple unlucky flips, they may get beat up by a farmer with
+a shovel and a pet goat.
+
+This doesn't mean don't create the barbarian character.  It means, if you do,
+find some fictional justification (drunkard? battle-worn?  magically cursed?)
+that they're currently at a "scrappy adventurer" level.
+
+
 ---
 # SESSION 2 RULES
 ---
@@ -645,34 +738,37 @@ longer while you make your bonus move.
 
 ## Taking a Breather
 
+![Take a Breather card](images/move_take_a_breather.png)
+
 **Taking a Breather** is a move that a character can take during combat.
-This action allows a character to regain Stamina points.
+This action allows a character to regain up to 4 Stamina points.
 
 The player may use either Intelligence or Dexterity to perform the **Take a
 Breather** action.
 
 If they use Intelligence, they say how they execute a tactic or
 recognize a favourable position that lets them gather their breath
-and their wits. Then they flip a card.
+and their wits.
 
 If they use Dexterity, they say how they maneuver into a safe position
-that offers some temporary safety. Then they flip a card and follow the
-instructions on the card to see how many Stamina they regain.
+that offers some temporary safety.
 
-Note: "regain Stamina" may be done either by taking cards from the
-*Exhaustion pile* and putting them into the *discard pile*, or by discarding
-Exhaustion tokens.
+Regaining Stamina may be done either by taking cards from the
+*Exhaustion pile* and putting them into the *discard pile*,
+or by returning Exhaustion tokens to the supply.
 
-When taking cards from the *Exhaustion pile*, the player may choose any cards
-they want.
+When recovering cards from the *Exhaustion pile*, the player may choose any
+cards they want.
 
-    GM Note:
-    When appropriate for the narrative (e.g. when there's a scene transition
-    and the characters are just walking down a hallway), the GM may prompt the
-    players to **Take a Breather** as an IMMEDIATE move.
+When combat or a pursuit ends, and it is appropriate for the narrative
+(e.g. when there's a scene transition and the characters reasonably have
+a few minutes to catch their breath), the players may **Take a Breather**
+using Str as an IMMEDIATE move (ie, no negative consequences to ✗ or ✗✗).
 
 
 ## Resting
+
+![Rest card](images/move_rest.png)
 
 *Resting* is an action that a character may take when they are out of combat,
 not travelling, and have several hours to devote to rest (sleeping qualifies).
@@ -683,17 +779,25 @@ not travelling, and have several hours to devote to rest (sleeping qualifies).
    *Exhaustion pile*, put the rest into your *discard pile*
  * Step 4: Return one *Harm* token to the supply
 
-Note: Time devoted to *Resting* cannot also be devoted to learning skills,
+When resting, magic items that are not being used regain all charges, up
+to their maximum capacity. Remove all white-side red cards on your magic
+items.
+
+You may gird all your armour, where applicable.
+Remove all Harm and Wound tokens from your armour cards and from move cards
+that represent armour effectiveness (eg, Like A Second Skin).
+
+Time devoted to *Resting* cannot also be devoted to learning skills,
 studying with a teacher, or any other action that takes mental or physical
 effort.
 
-When resting, magic items regain all charges, up to their maximum capacity.
-Remove all white-side red cards on your magic items.
-
-You may gird all your armour, where applicable.
-Remove all Harm and Wound tokens from your armour cards.
+The Harm token returned to the supply in Step 4 may come from your
+*Exhaustion pile* or from a slot on a move card that represents bodily
+toughness (eg, Bloody But Unbowed).
 
 ## Seek Help
+
+![Seek Help card](images/move_seek_help.png)
 
 *Seeking Help* is an action that a character may take when they are in a
 peaceful environment where external resources with healing powers are
@@ -716,43 +820,79 @@ When you spend a day healing:
 As with *Resting*, time spent *Seeking Help* cannot also be used in
 activities that take effort.
 
-Magic items regain all charges, up to their maximum capacity.
-Remove all white-side red cards on your magic items.
+Magic items that are not being used regain all charges, up to
+their maximum capacity.  Remove all white-side red cards on your magic items.
 
 You may gird all your armour, where applicable.
 Remove all Harm and Wound tokens from your armour cards.
 
 
-## More Moves - Run, Shop, Sharpen and Stitch
+## More Moves - Run, Shop
 
 ### Bravely Run Away
 
+![Bravely Run Away card](images/move_bravely_run_away.png)
+
+`TODO`
+
+
 ### Shop / Procure
 
-Make mundane items - here's the process... TODO
+![Shop / Procure card](images/move_shop__procure.png)
 
-Don't hand a player a card they can't use because they don't have the
-requirements.
+Make mundane items - here's the process... `TODO`
+
+    GM Note: Don't hand a player a card they can't use because they
+    lack the requirements.
+
+## Magic Items
+
+`TODO`
+
+### Charges and Capacity
+
+By default magic items have capacity for 3 charges. When a charge is lost
+on a magic item, place a red card on it, white-side-up.
+
+Sometimes charges are lost *permanently*. When this happens, place a red
+card on it black-side-up.
+
+Magic items cannot be damaged.
+
+(Weapons granted magical effects via Tool Twisting can still be damaged)
+
+`TODO`
 
 ## Armor, weapons
 
 Damage to items is represented as black-side red cards
 
+`TODO`
+
 #### Armour Table
 
-Name             | token cost  | spots                | notes
+Name             | token cost  | slots                | notes
 -----------------|-------------|----------------------|---------
 Leather Armour   | 1           | 2 Harm               |
 _ Armour         | 2           | 2 Harm, 1 Harm/Wound |
 Plate Armour     | 3           | 3 Harm/Wound         | requires help to don / doff
 
+`TODO`
 
-### Sharpen and Stitch
+#### Weapon Table
 
-Damage to items is represented as black-side red cards
+Name             | token cost  | notes
+-----------------|-------------|--------------
+_ Sword          | 1           |
+Many Knives      | 1           | At close range, can be thrown
+_ Bow            | 1           |
+
+`TODO`
 
 
 # More Moves - Use a Magic Item, Entreat the Blood-Bound, Channel the Living Light
+
+`TODO`
 
 Ask that player "Who is the Blood-Bound"?
 
@@ -760,44 +900,6 @@ Ask that player "Who is the Blood-Bound"?
     and..." no matter if they identify the Blood-Bound as tiny, parasitic
     insects or as monstrous, extradimensional dark gods.
 
-
-# Making your own character
-
-Spread out A, B, C cards, take turns picking
-
-Items - 2 mundane items or 1 magic item
-
-"Use a Magic Item" move gives you 2 magic items
-
-"Channel the Living Light" move gives you Sigil of the Living Light
-
-"Entreat the Blood-Bound" move gives you Blade of Echoes
-
-A player inevitably asks why the magic amulet or ring they've created,
-a trinket that is normally a couple grams, reduces their speed.  At that point
-the GM should ask them a question, "Yes, why does it weigh you down? What
-about magic in this world, or what about your character makes them
-especially burdened by magical items?"
-
-
-### Fitting the fiction
-
-One of the joys of Deckahedron World is **building** your character up from
-a scrappy adventurer to a force to be reckoned with.
-
-Explain that the characters start out as "scrappy adventurers" that are not
-much more powerful than a common villager.  They've got an edge over
-regular folk, (their special abilities) but they're not mechanically that
-much stronger.  Encourage your players to choose backstories that fit
-where the characters are, mechanically.
-
-Avoid the situation of a hulking, 7 foot tall barbarian, with a
-rich history of warring and slaughtering enemies, who gets beat up by a farmer
-with a shovel and his pet goat.
-
-This doesn't mean don't let the player create the barbarian character.  It
-means, if they do, find some fictional justification (drunkard? battle-worn?
-magically cursed?) that they're currently at a "scrappy adventurer" level.
 
 
 # Move Levels
@@ -877,7 +979,7 @@ If you choose to do so, take the move card and a red card. Place the red card
 on top of the move card, black-side-up.
 
 
-## More Moves - Study Under a Master, Craft a Weapon
+## More Moves - Study Under a Master
 
 ### Study Under a Master
 
@@ -942,12 +1044,6 @@ Under a Master. You do not use it when you gain competence with the
 skill by flipping green token cards.
 
 
-### Craft a Weapon
-
-When crafting a weapon, ask how many red tokens it takes (ie, how much it
-reduces a character's speed). The GM should weigh that cost against the
-weapon's other features
-
 ---
 # SESSION 3 RULES
 ---
@@ -969,6 +1065,14 @@ have a certain amount of circles to access them.
 Some level cards will instruct you to take blessing cards.
 
 
+### Sharpen and Stitch
+
+![Sharpen and Stitch card](images/move_sharpen__stitch.png)
+
+Damage to items is represented as black-side red cards
+
+`TODO`
+
 ## Item damage
 
 Non-magical items can be damaged in Deckahedron World. Usually this happens
@@ -982,6 +1086,25 @@ black-side-up.
 
 The third time an item is damaged, it is destroyed. Return it and the red
 cards to the supply.
+
+## More Power
+
+### Craft a Weapon
+
+![Craft a Weapon card](images/move_craft_a_weapon.png)
+
+When crafting a weapon, ask how many red tokens it takes (ie, how much it
+reduces a character's speed). The GM should weigh that cost against the
+weapon's other features
+
+### Weapon Mastery
+
+![Weapon Mastery card](images/move__mastery.png)
+
+### Magic Items
+
+ * _ of Unerring Dispatch
+ * _ of Vitality
 
 
 # Addenda

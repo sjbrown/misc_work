@@ -9,7 +9,7 @@ import string
 from pprint import pprint, pformat
 from tall_cards import cards
 
-from svg_dom import DOM, export_tall_png
+from svg_dom import DOM, export_png, export_tall_png
 
 DEBUG = 1
 
@@ -311,6 +311,27 @@ def make_deck(cards):
 
         export_tall_png(svg_filename, png_filename)
 
+def make_documentation_images(cards):
+    tmp_template_filename = '/tmp/tall_cards/move_card_template.svg'
+    for i, card in enumerate(cards):
+        slug = filenamify(card['title'])
+        png_filename = '/tmp/tall_cards/face%02d_%s.png' % ((i+1), slug)
+        doc_img_filename = '../images/move_%s.png' % slug
+        template_filename = '../images/move_card_template.svg'
+        if os.path.isfile(doc_img_filename):
+            c = file(template_filename).read()
+            c = re.sub(
+              'xlink:href="file://.*.png"',
+              'xlink:href="file://%s"' % png_filename,
+              c
+            )
+            outfile = file(tmp_template_filename, 'w')
+            outfile.write(c)
+            outfile.close()
+
+            export_png(tmp_template_filename, doc_img_filename, 381, 381)
+
+
 def make_deck_from_svg_dir(dirpath, fpart=None):
     for fname in os.listdir(dirpath):
         if fname.endswith('.svg'):
@@ -338,3 +359,4 @@ if __name__ == '__main__':
         filtered = cards + parse_cards_csv.get_objs()
 
     make_deck(filtered)
+    make_documentation_images(filtered)
