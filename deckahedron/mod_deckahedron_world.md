@@ -1060,7 +1060,7 @@ If you have a new green circle this session, you get to take a *Level card*.
 Like move cards, level cards may also have requirements. Some require that you
 have a certain amount of circles to access them.
 
-![blessing cards](images/blessing_cards.png)
+![blessing cards](images/component_card_blessings.png)
 
 Some level cards will instruct you to take blessing cards.
 
