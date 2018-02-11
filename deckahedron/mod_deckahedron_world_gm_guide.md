@@ -183,13 +183,13 @@ female protagonist's name. (eg, "Forever 21" can turn into "Forva",
 Ask "What's a city in Europe?". Create the male protagonist's name with
 that. (eg, "Paris" can just be "Paris", London can be "Donalo")
 
+    This mini-game is a GM tool. Often, the players will look to you to
+    come up with names of characters or places on the fly. Instead of
+    sitting still and thinking for 30 seconds, you can can use this technique
+    to keep them engaged. See [Appendix 1](#appendix_1) for more
+
 Distribute a player card to each player and ask them to write down the
 names you just came up with.
-
-Whenever you need to invent names, try asking the players these
-kinds of questions - start with an unrelated topic like "What's something
-you buy at a grocery store?", "What's my mother's favourite TV show?".
-
 
 Next, instruct the players to fill out the stat boxes like so:
 
@@ -282,6 +282,29 @@ brother and sister.
 What do you do?
 ```
 
+This last question "What do you do?" is very important.
+
+When you describe a situation, always end with this kind of prompt. Portray
+a situation that demands a response. Always.
+
+As a GM, this is what you will be doing most of the time.
+
+"""
+**Describe the immediate situation around the players at all times.** This
+is how you start a session, how you get things rolling after a snack break,
+get back on track after a great joke: tell them what the situation is in
+concrete terms.
+
+Use detail and *senses* to draw them in. The situation isn't just an orc
+charging you, it's an orc painted in blood swinging a hammer and yelling
+bloody murder. You can leverage a lack of information, too. The sound of
+clattering armor and shuffling feet, for instance.
+
+The situation around the players is rarely "everything's great, nothing to
+worry about". They're adventurers going on adventures -- give them something
+to react to.
+"""
+
 ### 3rd PC variant - Introduce the reluctant guard
 
 After the first to PCs have had a chance to inspect their
@@ -306,6 +329,22 @@ and all staff are forbidden to enter his chamber. You think Yogran is going
 to use you as a guinea pig to do just that.
 ```
 
+## But what should I say?
+
+    Where's the *rest* of the script?
+
+If this is your first time being a GM, you might feel intimidated. That's
+ok. Remember, this is not high art, this is improv. You are *playing* to
+find out what happens.
+
+Here are 3 gems to come back to whenever you don't know what to say next.
+
+ * Portray a fantastic world
+ * Fill the characters' lives with adventure
+ * Ask the players
+
+
+
 ### Details - take them or leave them
 
  * Luxurious canopy bed in the middle
@@ -319,116 +358,61 @@ to use you as a guinea pig to do just that.
 Ideally, Sarukkan's Chamber should demonstrate what kind of game
 Deckahedron World is.
 
+Deckahedron World provides questions for players to answer:
+
+ * Will the brother & sister who haven't seen each other in a
+   decade discover each other's identities?
+ * Will the brother & sister escape Sarukkan's imprisonment?
+ * (3rd player variant) Will the reluctant guard choose to obey an
+   evil master, or rebel?
+
+Deckahedron World provides tension and action:
+
+ * Potential combat against guards or kitchen staff or Sarukkan himself
+ * Potential chases involving outsmarting or outmaneuvering pursuers
+ * Potential to hatch plans and use available resources to set traps or
+   defy traps that been set for them
+ * Potential to use stealth and social manipulation with guards and
+   party guests
+
+Your group's playing of Sarrukan's Chamber doesn't have to *all of this*,
+just give players a taste.
+
+It should also help teach the rules of Deckahedron World.
+
  * Get each player to have an opportunity to do a Deckahedron flip
- * **Stack the decks** this scene is for instruction, so put the Critical
-   Success card at position 3 in all players' decks.
- * Let the PCs have some dialogue, but when it feels like they're hesitating,
-   push quickly to the approaching danger of the guards.
+ * If a player flips the Critical Success card, that's an opportunity
+   to explain the Critical Flip move
+ * Ideally there will be a combat scene. Try to get the PCs to attempt
+   *Hack & Slash* or *Volley*
+ * The brother & sister may trigger *Discern* and *I Know This* moves
+   when they try to reveal each others' identities
+ * The *Discern* move often comes up when having a look around Sarukkan's
+   Chamber itself.
+ * If any player-versus-player combat happens, remember to use the PvP
+   combat rules
+
+It should also be a warm-up for your GM skills.
+
+ * Remember: "Yes, and..."
+ * Manage the pace. Let the PCs have some dialogue, but when it feels like
+   they're hesitating, push quickly to the approaching dangers.
  * Get the guards into the room for a quick fight.
- * Try to get the PCs to attempt *Hack & Slash* or *Volley*
  * As the PCs gain the upper hand, show signs of another threat (maybe
    the wizard himself approaches - it's ok to tell the story of what's
-   happening *off-camera*), and then cut it off with a cliffhanger.
+   happening *off-camera*)
+ * Try to end with a cliffhanger.
  * Go back into the rules instruction after no more than 10 minutes.
  * Play Sarukkan's Chamber *honestly*. Set the stakes the same as you would
    when you play a campaign
- * If any PvP happens, remember to use the PvP rules
 
 The players should now understand how the Deckahedron works with character
 stats to produce results that affect the narrative.
 
 ### Get into a fight
 
-Playing Sarrukan's Chamber should include some combat, so here's the simple
-way to execute a fight scene.
-
-Grab a piece of paper and write down the names of each opponent.  Beside
-their name, draw ticks for their Stamina points.  Beside that, write their
-attack power die (d2, d4, d6, d10).
-
-Opponents' Stamina points should be realistically scaled to the "scrappy
-adventurer" level of the players. This table should help.
-
-|                   | Stamina points |
-|-------------------|----------------|
-| Dotards, Children | 2 |
-| Civilians         | 4 |
-| Bouncers, Guards  | 5-6 |
-| Trained Soldiers, Elite Guards  | 7-10 |
-
-Generally, human opponents will have d2 attack power when unarmed and d4
-attack power when armed. Save greater attack powers for monsters and special
-villians.
-
-Use your descriptions to give cues about how tough the enemies are.
-
-In combat, it's ok if play gets more formulaic.  Some players enjoy
-the "abnegation" of a tit-for-tat combat scene that lasts tens of minutes.
-This can be a combination of exciting and relaxing.  Give your players
-opportunities to press their favourite buttons.
-
-That said, some players don't seek abnegation. What kinds of signals are
-your players giving you? Maybe they want to get through combat faster. If
-so, when you make your moves, you can think cinematically. Continually raise
-the stakes for both sides during the scene. Think dangerous. No character
-or set piece needs to be safe or sacred.
-
-Combat can play out in whatever way feels natural and follows from the
-fiction.  That said, it can be taxing on a GM to come up with new, creative
-responses in combat because flips are happening frequently. So, to relieve
-some of that pressure on the GM, here are some formats available to follow
-to get you through a fight scene.
-
-#### Format 1
-
-This format is simple, and gives the players the most agency.
-
-  - Give each player a "turn" where they will probably trigger an agressive
-    combat move like Hack & Slash or Volley
-  - Pay attention to IMMEDIATE combat moves that may have triggered
-  - Execute the moves, make cool stuff happen as consequences
-  - Go around the table until all the opponents flee or are incapacitated
-  - Any ✗✗ results may usually be interpreted as "your enemies attack". Choose
-    some opponents that weren't *just* in a Hack & Slash, and declare they
-    attack one of the player's characters. Apply attack power against that
-    character. Use an attack power die from one attacker, and add 1 attack
-    power for each other attacker
-
-#### Format 2
-
-This format makes the opponents more of a threat.
-
-  - Give each player a "turn" where they will probably trigger an aggressive
-    combat move like Hack & Slash or Volley, call that a "player round"
-  - Pay attention to IMMEDIATE combat moves that may have triggered
-  - After player turns are complete, and the players look to you to see
-    what happens next, execute an "NPC round"
-  - Identify the opponents that didn't interact during the "player round"
-  - Describe how all of those opponents team up on one of the player's
-    characters, and call for one Defy Danger flip.
-    (move the "danger" spotlight fairly, but also try to put pressure on any
-    players with more than 3 green tokens)
-  - Failing the Defy Danger flip results in the player's character suffering
-    the opponents' attack. You can calculate attack power thusly:
-      * ✗✗ : one attack power die from the lead attacker,
-        and add 1 attack power (not die) for each other attacker
-      * ✗ : no attack power die,
-        but 1 attack power per attacker (so 3 foes = 3 attack power)
-
-#### Format 3
-
-This format imagines the opponents as particularly quick and aggressive.
-
-  - Give each player a "turn" where they will trigger a move
-  - Pay attention to IMMEDIATE combat moves that may have triggered
-  - When describing the outcome of a player's move, also describe how the
-    opponents take agressive action.
-  - Keeping the spotlight on that player, have them respond to the actions
-    of their foes, usually by needing to follow their first flip with a
-    Defy Danger flip.
-  - Allow players to avoid the opponent's aggressive action if their first
-    flip specifically provided for it, and it makes sense in the narrative.
-    (See Backstab, Bum Rush, Volley)
+Playing Sarrukan's Chamber should include some combat, see the
+[Combat guidelines](#creating_a_combat_encounter) below.
 
 
 # Begin a Campaign
@@ -669,6 +653,154 @@ creature without further expenditure from the Bad Bank.
 Consistency prevents players from feeling the game is unfair or that you are
 especially aiming negative consequences at them.
 
+
+# Creating A Combat Encounter
+
+## Balance
+
+Grab a piece of paper and write down the names of each opponent.  Beside
+their name, draw ticks for their Stamina points.  Beside that, write their
+attack power die (d2, d4, d6, d10).
+
+Opponents' Stamina points should be realistically scaled to the "scrappy
+adventurer" level of the players. This table should help.
+
+|                   | Stamina points | Attack power
+|-------------------|----------------|-------------
+| Dotards, Children | 2              | 1d2
+| Civilians         | 4              | 1d2 - 1d4
+| Bouncers, Guards  | 5-6            | 1d2 - 1d4
+| Trained Soldiers, Elite Guards  | 7-10 | 1d4 - 1d6
+
+Generally, human opponents will have d2 attack power when unarmed and d4
+attack power when armed. Save greater attack powers for monsters and special
+villians.
+
+### Calculate party power
+
+Party Power is an easy number to calculate, based on each Player Character
+(PC) in the scene.
+
+` Party power = (10 ✕ (# of PCs)) + (# of green tokens the PCs have) `
+
+### Create your foes
+
+Create set of enemies that challenge them to the desired degree.
+
+A challenging fight for new players is made by creating foes with Stamina
+points equal to the Party Power.
+
+You can also use Party Power to give the foes:
+
+|                                                | Party Power cost
+|------------------------------------------------|------------------
+| One armor slot that can absorb Harm            | 3
+| One armor slot that can absorb Harm or Wound   | 6
+| A weapon that does 1d6 damage                  | 4
+| One Stamina point beyond the norm              | 1
+
+You can also augment foes by spending points from the *Bad Bank*. See below.
+
+Sometimes you just want to punctuate the plot with some action by throwing
+in a quick-and-easy fight. In that case, use half of the Party Power to create
+foes, but put something else in jeopardy (information, resources, social
+standing, risk of alarm)
+
+### Give hints
+
+Don't surprise the players *too* much. Always describe the encounter in a
+way that hints at the difficulty.
+
+ * The two guards *exchange an unsure look and step forward*
+ * The salty pirate flashes his blade, but *simultaneously takes a step
+   backwards towards his ship*
+
+ * The golem is *gargantuan and covered in scars from many battles*
+ * The *horde* of undead wolves stare at you with *unrelenting hunger*
+ * The old man with the walking stick is *unfazed by your threats* and,
+   *after looking you up and down, turns away with an air of dismissal*
+
+
+## The feel of combat
+
+In combat, it's ok if play gets more formulaic.  Some players enjoy
+the "abnegation" of a tit-for-tat combat scene that lasts tens of minutes.
+This can be a combination of exciting and relaxing.  Give your players
+opportunities to press their favourite buttons.
+
+That said, some players don't seek abnegation. What kinds of signals are
+your players giving you? Maybe they want to get through combat faster. If
+so, when you make your moves, you can think cinematically. Continually raise
+the stakes for both sides during the scene. Think dangerous. No character
+or set piece needs to be safe or sacred.
+
+
+## The Combat Spotlight
+
+Combat can play out in whatever way feels natural and follows from the
+fiction.  That said, it can be taxing on a GM to come up with new, creative
+responses in combat because flips are happening frequently. So, to relieve
+some of that pressure on the GM, here are some formats available to follow
+to get you through a fight scene.
+
+#### Format 1
+
+This format is simple, and gives the players the most agency.
+
+  - Give each player a "turn" where they will probably trigger an agressive
+    combat move like Hack & Slash or Volley
+  - Pay attention to IMMEDIATE combat moves that may have triggered
+  - Execute the moves, make cool stuff happen as consequences
+  - Go around the table until all the opponents flee or are incapacitated
+  - Any ✗✗ results may usually be interpreted as "your enemies attack". Choose
+    some opponents that weren't *just* in a Hack & Slash, and declare they
+    attack one of the player's characters. Apply attack power against that
+    character. Use an attack power die from one attacker, and add 1 attack
+    power for each other attacker
+
+#### Format 2
+
+This format makes the opponents more of a threat.
+
+  - Give each player a "turn" where they will probably trigger an aggressive
+    combat move like Hack & Slash or Volley, call that a "player round"
+  - Pay attention to IMMEDIATE combat moves that may have triggered
+  - After player turns are complete, and the players look to you to see
+    what happens next, execute an "NPC round"
+  - Identify the opponents that didn't interact during the "player round"
+  - Describe how all of those opponents team up on one of the player's
+    characters, and call for one Defy Danger flip.
+    (move the "danger" spotlight fairly, but also try to put pressure on any
+    players with more than 3 green tokens)
+  - Failing the Defy Danger flip results in the player's character suffering
+    the opponents' attack. You can calculate attack power thusly:
+      * ✗✗ : one attack power die from the lead attacker,
+        and add 1 attack power (not die) for each other attacker
+      * ✗ : no attack power die,
+        but 1 attack power per attacker (so 3 foes = 3 attack power)
+
+#### Format 3
+
+This format imagines the opponents as particularly quick and aggressive.
+
+  - Give each player a "turn" where they will trigger a move
+  - Pay attention to IMMEDIATE combat moves that may have triggered
+  - When describing the outcome of a player's move, also describe how the
+    opponents take agressive action.
+  - Keeping the spotlight on that player, have them respond to the actions
+    of their foes, usually by needing to follow their first flip with a
+    Defy Danger flip.
+  - Allow players to avoid the opponent's aggressive action if their first
+    flip specifically provided for it, and it makes sense in the narrative.
+    (See Backstab, Bum Rush, Volley)
+
+
+`TODO`
+This is just guidelines
+You have power - it's mostly in the narrative
+What kind of GM move do you do in response to failed flips?
+
+
 ---
 # Session 2 rules
 ---
@@ -764,32 +896,6 @@ GM or by the player.
 #### Resurrect a Character
 #### An NPC to the rescue
 
-# Create A Combat Encounter
-
-## Balance
-
-This is just guidelines
-
-You have power - it's mostly in the narrative
-
-What kind of GM move do you do in response to failed flips?
-
-Calculate party power, create set of enemies that challenge them to
-the desired degree
-
- * 10 Stamina Points for each PC
- * If a player has > 4 green tokens, add X
-
-Always describe the encounter in a way that hints at the difficulty.
-
- * The two guards *exchange an unsure look and step forward*
- * The salty pirate flashes his blade, but *simultaneously takes a step
-   backwards towards his ship*
-
- * The golem is *gargantuan and covered in scars from many battles*
- * The *horde* of undead wolves stare at you with *unrelenting hunger*
- * The old man with the walking stick is *unfazed by your threats* and,
-   *after looking you up and down, turns away with an air of dismissal*
 
 # Loot
 
@@ -873,11 +979,6 @@ are the rewards for everyone.
 
 # Creating Challenges for Players
 
-## Combat
-
-### Stamina matching
-### Using the Bad Bank
-
 ## Puzzles
 
 ## Monsters
@@ -888,30 +989,41 @@ Monsters represent something about the theme
 
 ## Villians (aka "Bosses", aka "The Big Bad")
 
-## Intrigue
+## 3-way NPC Conflicts
 
-Intrigues are just puzzles that always have a cost - there's no perfect
-solution.  Sometimes it's about choosing an imperfect side.
+Rock-Paper-Scissors, or 3-virtues-pick-2.
+
+Puzzles that have an unavoidable cost - there's no perfect solution.
+Sometimes it's about choosing an imperfect side.
 
 Powerful ways for players to say something about the themes of the story
 and the personality of their characters.
 
-The dwarves
 
- * hold a 100-year-grudge against the elves
- * see the humans as weak
- * face elimination at the hands of the orcs
+---
+# Signals From Players
+---
 
-The humans
+`TODO`
 
- * have a financially favourable armistice with the orcs
- * desire the wood of the elves' forest
- * will do anything for money
- * could retreat to behind the elves and be safe
+ * the resources they choose, particularly move cards
+ * body language - smiling, how animated they get
+ * when they take a long time to make one decision
+   - usually a good sign, but also gauge others' reactions to delay
+ * when they argue amongst each other - and the degree to which they argue
+   - this one is a tricky balance
+ * the tone they take when acting out player dialogue
+   - bored? excited?
 
-The elves
+---
+# Appendix 1
+---
 
- * do everything by the book / rule of law / decision by committee
- * hold a strong impermeable border in the forest - could hold off the orcs
- * desire the elimination of the orcs, seen as morally abominable
+ * What's a city in Europe?
+ * What's vegetable did you eat yesterday?
+ * Who is the worst Hollywood director?
+ * Name a one-hit wonder musical group.
+ * What's a shop where women buy clothing?
+ * What's something you buy at a hardware store?
+ * What's my mother's favourite TV show?
 
