@@ -740,10 +740,13 @@ or set piece needs to be safe or sacred.
 ## The Combat Spotlight
 
 Combat can play out in whatever way feels natural and follows from the
-fiction.  That said, it can be taxing on a GM to come up with new, creative
+fiction. That said, it can be taxing on a GM to come up with new, creative
 responses in combat because flips are happening frequently. So, to relieve
 some of that pressure on the GM, here are some formats available to follow
 to get you through a fight scene.
+
+Deckahedron World doesn't have turns, but it's ok if moving the spotlight
+during combat makes it feel that way.
 
 #### Format 1
 
