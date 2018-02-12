@@ -177,6 +177,68 @@ Drawing in black & white comes before oils, so **skill trees** kind of make sens
 
 *Idea:* during camp-out phase, they can choose only one skill and make one attempt per camp to up a skill. (By flipping and getting a proficiency card).  during level-up phase (resting near resources where they can reasonably learn the skill), they get 3 attempts that they can devote to one skill, or split up among many skills.
 
+### New Analysis
+
+```
+In [2]: cards.analyze_green_token_check()
+70144/200000 (35.1%) Rank a, Mod -2, Stamina loss: 0
+59076/200000 (29.5%) Rank a, Mod -1, Stamina loss: 0
+49771/200000 (24.9%) Rank a, Mod 0, Stamina loss: 0
+63295/200000 (31.6%) Rank a, Mod 1, Stamina loss: 0
+
+98564/200000 (49.3%) Rank b, Mod -2, Stamina loss: 0
+80165/200000 (40.1%) Rank b, Mod -1, Stamina loss: 0
+49959/200000 (25.0%) Rank b, Mod 0, Stamina loss: 0
+36041/200000 (18.0%) Rank b, Mod 1, Stamina loss: 0
+
+100295/200000 (50.1%) Rank c, Mod -2, Stamina loss: 0
+76970/200000 (38.5%) Rank c, Mod -1, Stamina loss: 0
+49832/200000 (24.9%) Rank c, Mod 0, Stamina loss: 0
+35042/200000 (17.5%) Rank c, Mod 1, Stamina loss: 0
+
+96896/200000 (48.4%) Rank d, Mod -2, Stamina loss: 0
+77988/200000 (39.0%) Rank d, Mod -1, Stamina loss: 0
+50143/200000 (25.1%) Rank d, Mod 0, Stamina loss: 0
+40191/200000 (20.1%) Rank d, Mod 1, Stamina loss: 0
+
+69312/200000 (34.7%) Rank a, Mod -2, Stamina loss: 8
+56541/200000 (28.3%) Rank a, Mod -1, Stamina loss: 8
+43576/200000 (21.8%) Rank a, Mod 0, Stamina loss: 8
+55472/200000 (27.7%) Rank a, Mod 1, Stamina loss: 8
+
+81539/200000 (40.8%) Rank b, Mod -2, Stamina loss: 8
+66938/200000 (33.5%) Rank b, Mod -1, Stamina loss: 8
+43158/200000 (21.6%) Rank b, Mod 0, Stamina loss: 8
+43086/200000 (21.5%) Rank b, Mod 1, Stamina loss: 8
+
+72629/200000 (36.3%) Rank c, Mod -2, Stamina loss: 8
+52983/200000 (26.5%) Rank c, Mod -1, Stamina loss: 8
+43406/200000 (21.7%) Rank c, Mod 0, Stamina loss: 8
+42499/200000 (21.2%) Rank c, Mod 1, Stamina loss: 8
+
+93714/200000 (46.9%) Rank d, Mod -2, Stamina loss: 8
+71802/200000 (35.9%) Rank d, Mod -1, Stamina loss: 8
+43600/200000 (21.8%) Rank d, Mod 0, Stamina loss: 8
+28788/200000 (14.4%) Rank d, Mod 1, Stamina loss: 8
+```
+
+         | -2  | -1  | 0   | 1   |
+---------|-----|-----|-----|-----|
+Anchor   | 35% | 30% | 25% | 32% |
+Bulb     | 49% | 40% | 25% | 18% |
+Crescent | 50% | 39% | 25% | 18% |
+Dart     | 48% | 39% | 25% | 20% |
+
+After losing 8 Stamina:
+
+         | -2  | -1  | 0   | 1   |
+---------|-----|-----|-----|-----|
+Anchor   | 35% | 28% | 22% | 28% |
+Bulb     | 41% | 34% | 22% | 22% |
+Crescent | 36% | 27% | 22% | 21% |
+Dart     | 47% | 36% | 22% | 14% |
+
+
 ## Challenges
 
  * Classes and levels are tools to manage the balance of the game.  Players might be able to unbalance the play experience
