@@ -343,6 +343,8 @@ Here are 3 gems to come back to whenever you don't know what to say next.
  * Fill the characters' lives with adventure
  * Ask the players
 
+`TODO`
+
 
 
 ### Details - take them or leave them
