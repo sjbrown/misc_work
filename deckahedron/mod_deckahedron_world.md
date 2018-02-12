@@ -725,8 +725,8 @@ history of warring and slaughtering enemies, but at the very beginning of
 the game, with a couple unlucky flips, they may get beat up by a farmer with
 a shovel and a pet goat.
 
-This doesn't mean don't create the barbarian character.  It means, if you do,
-find some fictional justification (drunkard? battle-worn?  magically cursed?)
+This doesn't mean don't create the barbarian character. It means, if you do,
+find some narrative justification (drunkard? battle-worn? magically cursed?)
 that they're currently at a "scrappy adventurer" level.
 
 

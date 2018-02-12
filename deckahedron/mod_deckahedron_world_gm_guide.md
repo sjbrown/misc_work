@@ -329,7 +329,7 @@ and all staff are forbidden to enter his chamber. You think Yogran is going
 to use you as a guinea pig to do just that.
 ```
 
-## But what should I say?
+## But now what should I say?
 
     Where's the *rest* of the script?
 
@@ -343,11 +343,44 @@ Here are 3 gems to come back to whenever you don't know what to say next.
  * Fill the characters' lives with adventure
  * Ask the players
 
+Firstly, **portray a fantastic world**. Deckahedron World is about
+characters who have decided to take up an adventure in the hopes of some
+glorious reward. It's your job to participate in that by showing the
+players a world in which their characters can find that adventure. Without
+the player characters in the world, calamity would ruin something precious.
+Maybe even the whole world would fall into chaos or destruction -- it might
+still even with them.  It's up to you to portray the fantastic elements of
+that world. Show the players the wonders of the world they're in and
+encourage them to react to it.
+
+**Filling the characters' lives with adventure** means working with the
+players to create a world that's engaging and dynamic. Adventurers are
+always caught up in some dangerous situation or another -- encourage and
+foster that kind of action in the game.
+
+Deckahedron World adventures **never** presume player actions. A Deckahedron
+World adventure portrays a setting in motion -- someplace significant with
+creatures big and small pursuing their own goals. As the players come into
+conflict with that setting and its denizens, action is inevitable. You’ll
+honestly portray the repercussions of that action.
+
+Deckahedron World is a conversation. The GM is the main storyteller, but not
+the only storyteller. **Ask the players questions** and use the answers.
+Embrace your curiosity.
+
+The easiest question to use is "What do you do?". Whenever you make a move,
+end with "What do you do?". You don't even have to ask the person you made
+the move against. Take that chance to shift focus elsewhere.
+
+The questions that gave the characters flesh during character creation are
+examples of asking questions and using the answers. You can always revisit
+that well. If a character is religious, ask them what their gods would have
+to say. If there's a halfling in the party, ask how hungry the current scene
+makes them.
+
 `TODO`
 
-
-
-### Details - take them or leave them
+### Sarukkan's Chamber Details - take them or leave them
 
  * Luxurious canopy bed in the middle
  * Chamber is full of esoterica - books, sculptures, votives
@@ -868,7 +901,6 @@ Collaborate.
 
 Get consent.
 
-
 ## Good Bank
 
 ### Fictional Advantages
@@ -950,8 +982,19 @@ one point in the Good Bank.
 
 `TODO`
 
+A GM has many tools to make a decision
+
+ * Ask players questions
+ * Ask players to reveal a card from their Deckahedron (this doesn't count
+   as a flip, this is just the GM using randomness to help make a decision)
+ * Put on some music
+ * Use an improv game
+
+GM Moves:
+
  * The Dungeon World moves
- * Player loses confidence in the skill they just tried.  Put a white-side red card on it until they use it and flip a ✔ or ✔✔
+ * Player loses confidence in the skill they just tried.  Put a white-side
+   red card on it until they use it and flip a ✔ or ✔✔
  * "Call for an Ad-Hoc Challenge"
   - eg, "Something feels weird about this bridge. Flip Int to notice
     what the problem is"
@@ -968,7 +1011,7 @@ one point in the Good Bank.
    an additional move
 
 
-## GM responsibility: moving the spotlight
+## What to do: moving the spotlight
 
 `TODO`
 
@@ -1032,3 +1075,11 @@ and the personality of their characters.
  * What's something you buy at a hardware store?
  * What's my mother's favourite TV show?
 
+---
+Attribution
+---
+
+Some of this text is from Dungeon World Copyright 2012,
+Sage Kobold Productions; Authors Sage LaTorra and Adam Koebel.
+
+See LICENSE.txt
