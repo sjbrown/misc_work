@@ -905,10 +905,15 @@ Get consent.
 
 ### Fictional Advantages
 
+One point from the *Good Bank* may be spent to let a player as though
+they had the highest amount of advantage (flip-3-take-best). You may do
+this preemptively or after a flip, like a flashback.
+
 Let's say a character encounters two guards who, in an earlier scene,
 humiliated and bullied him. The player says they're going to use the
 Go Berserk! move.  Because of the narrative set-up, it makes sense that
-it should be easier for the character to enter an enraged state.
+it should be easier for the character to enter an enraged state. It would
+make sense for them to have an advantage.
 
  - You can hint to the player they already have sufficient narrative set-up
    to Do a Flashback
@@ -921,7 +926,7 @@ it should be easier for the character to enter an enraged state.
    the *Good Bank*, so make sure it's worth it.
 
 Here is what you can **not** do: you cannot tell them to flip with an
-advantage card just because you're the GM and you think it makes sense.
+advantage just because you're the GM and you think it makes sense.
 
 If an advantage is to be had, the price must be paid, either by the
 GM or by the player.
