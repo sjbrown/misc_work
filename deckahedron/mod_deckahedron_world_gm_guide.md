@@ -1080,7 +1080,6 @@ and the personality of their characters.
  * What's something you buy at a hardware store?
  * What's my mother's favourite TV show?
 
----
 Attribution
 ---
 

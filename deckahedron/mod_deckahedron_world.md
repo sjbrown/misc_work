@@ -90,7 +90,7 @@ The GM's domain is the world.
 
 Player, your domain is your character.
 
-![the player's job](images/player_job.png)
+![The player's job](images/player_job.png){ width=2.5inch }
 
 Most of your time will be spent saying stuff. You are part of a conversation.
 Ask questions, use your imagination, chime in when someone inspires you.
@@ -132,10 +132,10 @@ backs of the cards:
 
 Name      | symbol                                  | odds                              | color  | rank
 ----------|-----------------------------------------|-----------------------------------|--------|-------
-Anchor    | ![anchor symbol](images/anchor.png)     | indicates the weakest odds        | red    | rank 1
-Bulb      | ![bulb symbol](images/bulb.png)         | indicates below average odds      | yellow | rank 2
-Crescent  | ![crescent symbol](images/crescent.png) | indicates above average odds      | green  | rank 3
-Dart      | ![dart symbol](images/dart.png)         | indicates the best odds           | blue   | rank 4
+Anchor    | ![anchor symbol](images/anchor.png){ width=0.5inch }     | indicates the weakest odds        | red    | rank 1
+Bulb      | ![bulb symbol](images/bulb.png){ width=0.5inch }         | indicates below average odds      | yellow | rank 2
+Crescent  | ![crescent symbol](images/crescent.png){ width=0.5inch } | indicates above average odds      | green  | rank 3
+Dart      | ![dart symbol](images/dart.png){ width=0.5inch }         | indicates the best odds           | blue   | rank 4
 
 Shuffle your Deckahedron and place it face-down in front of you.
 
@@ -151,7 +151,7 @@ use to resolve the flip.
     attributes, like "Str / Dex".  You may need to ask the player for more
     detail about what they are attempting before calling for a flip.
 
-![Illustration of rotating your Deckahedron](images/component_layout.png)
+![Illustration of your Deckahedron](images/component_layout.png){ width=2.5inch }
 
 Look at the attribute on your character sheet -- what symbol is it, Anchor,
 Bulb, Crescent, or Dart?
@@ -159,14 +159,14 @@ Take the top card and flip it face up.
 Put it down so that the symbol faces the GM.
 (Saying "Bam!" or making some other sound effect is optional.)
 
-![Illustration of flipping a card forward](images/component_flip.png)
+![Illustration of flipping a card forward](images/component_flip.png){ width=2.5inch }
 
 The top of the flipped card shows ✗s or ✔s.
 These tell you the result of the move.
 Consistently facing the result towards the GM helps simplify the GM's
 bookkeeping and helps the game stay fast-paced.
 
-![Illustration of reading a card](images/component_read.png)
+![Illustration of reading a card](images/component_read.png){ width=2.5inch }
 
 Finally, find the move card named by the GM and read its instructions.
 It tells you how the GM should interpret the ✗s and ✔s.
@@ -252,7 +252,7 @@ flip with two disadvantage cards.
 
 ## Other flip complications: Green token cards
 
-![A green token card](images/component_card_green_token.png)
+![A green token card](images/component_card_green_token.png){ width=2.5inch }
 
 Some Deckahedron cards have a green token symbol in the middle.
 After a flip is resolved by a card showing a green token symbol,
@@ -292,7 +292,7 @@ your *discard pile* and shuffle it back into your Deckahedron.
 When a player performs a move, the player executes a flip, and the GM
 interprets the narrative result, based on the text of the move card.
 
-![flip results](images/flip_results.png)
+![flip results](images/flip_results.png){ width=2.5inch }
 
 Usually ✔✔ means an unfettered success, and single ✔ means success,
 but with complication.
@@ -462,7 +462,7 @@ if facing an attack power of 2.
 Characters have 10 Stamina points.  These points are represented by
 cards in your Deckahedron with a Stamina symbol
 
-![Cards with and without Stamina symbol](images/with_without_stamina.png)
+![Cards with and without Stamina symbol](images/with_without_stamina.png){ width=2.5inch }
 
 To win at combat, a character's foes must be subdued or pacified before the
 player's Deckahedron has been emptied of Stamina points.
@@ -474,14 +474,14 @@ using any relevant move cards and item cards, otherwise:
  2. put that card aside, face-up in your *Exhaustion pile*
  3. the other revealed cards go into your *discard pile*
 
-![Component layout](images/component_layout.png)
+![Component layout](images/component_layout.png){ width=2.5inch }
 
 You should put an Exhaustion token on top of the *Exhaustion pile* to
 distinguish it from your *discard pile*. But, unlike Harm and Wound tokens,
 you don't have to put an Exhaustion token on the pile for each Stamina point
 lost, that's what the cards are for.
 
-![Exhaustion token](images/component_exhaustion.png)
+![Exhaustion token](images/component_exhaustion.png){ width=2.5inch }
 
 (So, if you were instructed to lose 3 Stamina points, you add 3 cards
 with Stamina symbols onto your Exhaustion pile)
@@ -517,7 +517,7 @@ using any relevant move cards and item cards, otherwise:
    1. Lose a Stamina point
    2. Place a *Harm token* on your *Exhaustion pile*
 
-![Harm token](images/component_harm.png)
+![Harm token](images/component_harm.png){ width=2.5inch }
 
 > Note, this "one-hit, two-hit, over" pattern is repeated in many
 > of Deckahedron World's rules
@@ -539,11 +539,11 @@ using any relevant move cards and item cards, otherwise:
    - Place a *Wound card* in your *discard pile*. It will now start cycling
      between your Deckahedron and your *discard pile*.
 
-![Wound token](images/component_wound.png)
+![Wound token](images/component_wound.png){ width=2.5inch }
 
 ### A Wound Card
 
-![Image of Wound card](images/wound_200.png) |
+![Image of Wound card](images/wound_200.png){ width=1.1inch }
 
 Having a *Wound card* in your Deckahedron causes some nasty effects.
 
@@ -591,7 +591,7 @@ The GM may interpret a Speed of 0 as limiting a character's gait to walking.
 
 ## Good Thing I Brought...
 
-![Good Thing I Brought card](images/move_good_thing_i_brought.png)
+![Good Thing I Brought card](images/move_good_thing_i_brought.png){ width=2.5inch }
 
 Adventurers are always finding themselves in tricky situations. Luckily,
 they come prepared with adventuring gear. They have been known to carry
@@ -615,7 +615,7 @@ what it is and spend the tokens.
 
 ## Do a Flashback
 
-![Do a Flashback card](images/move_do_a_flashback.png)
+![Do a Flashback card](images/move_do_a_flashback.png){ width=2.5inch }
 
 Sometimes you plan out something really great, and then you resolve
 a flip, and don't get the results you need.
@@ -660,7 +660,7 @@ sometimes.
 
 ## Critical Flip
 
-![Critical Flip card](images/critical_flip_card.png)
+![Critical Flip card](images/critical_flip_card.png){ width=2.5inch }
 
 One of the 20 cards in your Deckahedron is the "Critical Success card". It
 has a ✔✔ symbol on every edge and a green circle in the middle.
@@ -738,7 +738,7 @@ that they're currently at a "scrappy adventurer" level.
 
 ## Taking a Breather
 
-![Take a Breather card](images/move_take_a_breather.png)
+![Take a Breather card](images/move_take_a_breather.png){ width=2.5inch }
 
 **Taking a Breather** is a move that a character can take during combat.
 This action allows a character to regain up to 4 Stamina points.
@@ -768,7 +768,7 @@ using Str as an IMMEDIATE move (ie, no negative consequences to ✗ or ✗✗).
 
 ## Resting
 
-![Rest card](images/move_rest.png)
+![Rest card](images/move_rest.png){ width=2.5inch }
 
 *Resting* is an action that a character may take when they are out of combat,
 not travelling, and have several hours to devote to rest (sleeping qualifies).
@@ -797,7 +797,7 @@ toughness (eg, Bloody But Unbowed).
 
 ## Seek Help
 
-![Seek Help card](images/move_seek_help.png)
+![Seek Help card](images/move_seek_help.png){ width=2.5inch }
 
 *Seeking Help* is an action that a character may take when they are in a
 peaceful environment where external resources with healing powers are
@@ -831,14 +831,14 @@ Remove all Harm and Wound tokens from your armour cards.
 
 ### Bravely Run Away
 
-![Bravely Run Away card](images/move_bravely_run_away.png)
+![Bravely Run Away card](images/move_bravely_run_away.png){ width=2.5inch }
 
 `TODO`
 
 
 ### Shop / Procure
 
-![Shop / Procure card](images/move_shop__procure.png)
+![Shop / Procure card](images/move_shop__procure.png){ width=2.5inch }
 
 Make mundane items - here's the process... `TODO`
 
@@ -908,16 +908,16 @@ Some Move cards have icons on them that indicate "levels". These levels
 represent how good your character is at that skill. For example, the move
 Pick Pockets has 5 icons.
 
-![Pick Pockets card](images/pick_pockets_card.png)
+![Pick Pockets card](images/pick_pockets_card.png){ width=2.5inch }
 
 These are the "move levels" for Pick Pockets.
 From left to right, these icons are called:
 
- * ![2 red symbol](images/move_level_2_red.png) wild or "2 red"
- * ![1 red symbol](images/move_level_1_red.png) novice or "1 red"
- * ![base level](images/move_level_base_level.png) "base level"
- * ![1 green symbol](images/move_level_1_green.png) expert or "1 green"
- * ![2 green symbol](images/move_level_2_green.png) master or "2 green"
+ * ![2 red symbol](images/move_level_2_red.png){ width=0.5inch } wild or "2 red"
+ * ![1 red symbol](images/move_level_1_red.png){ width=0.5inch } novice or "1 red"
+ * ![base level](images/move_level_base_level.png){ width=0.5inch } "base level"
+ * ![1 green symbol](images/move_level_1_green.png){ width=0.5inch } expert or "1 green"
+ * ![2 green symbol](images/move_level_2_green.png){ width=0.5inch } master or "2 green"
 
 If you chose Pick Pockets during character creation, you would receive
 the card and your character would be "studied" in the skill.
@@ -934,7 +934,7 @@ Under a Master move, or when you resolve a Pick Pockets flip and happen
 to get a *green token card*.
 See [Green token cards](#other-flip-complications-green-token-cards)
 
-![Green card](images/green_card_black.png)
+![Green card](images/green_card_black.png){ width=2.5inch }
 
 Take a green card, and put it on top of the move card. Put the green
 card black-side-up.
@@ -967,13 +967,13 @@ Just as the "expert" and "master" levels cause the flip to be done with
 advantage, the "wild" and "novice" levels cause the flip to be done with
 disadvantage.
 
- * ![2 red symbol](images/move_level_2_red.png) flip with 2 levels of disadvantage
- * ![1 red symbol](images/move_level_1_red.png) flip with 1 level of disadvantage
+ * ![2 red symbol](images/move_level_2_red.png){ width=0.5inch } flip with 2 levels of disadvantage
+ * ![1 red symbol](images/move_level_1_red.png){ width=0.5inch } flip with 1 level of disadvantage
 
 If you perfrom a "wild" level move, and you resolve that flip with a
 *green token card*, you can use that card to graduate to "novice" level.
 
-![Red card](images/red_card_black.png)
+![Red card](images/red_card_black.png){ width=2.5inch }
 
 If you choose to do so, take the move card and a red card. Place the red card
 on top of the move card, black-side-up.
@@ -983,7 +983,7 @@ on top of the move card, black-side-up.
 
 ### Study Under a Master
 
-![SUaM card](images/move_study_under_a_master.png)
+![SUaM card](images/move_study_under_a_master.png){ width=2.5inch }
 
 This is the move by which your character becomes a powerful force in
 the world.
@@ -1000,7 +1000,7 @@ If you want to take a move card that another player already has or one that
 was scribbled over in a previous campaign, or just has been ruined by spilled
 beer, you can copy the text onto a new card.
 
-![requirements](images/move_requirements.png)
+![requirements](images/move_requirements.png){ width=2.5inch }
 
 Some moves have requirements. These are illustrated as green circles,
 sometimes with a letter inside -- *R*, *F*, or *W*. Requirements are
@@ -1015,10 +1015,10 @@ Take a look through the move cards and see that there are partial circles
 printed on them - either in the corners or on the sides.
 
 When you can arrange your own move cards together in such a way that a
-circle is completed, you "have" a circle. If you can find an arrangement
-that shows 2 circles, then you "have" 2 circles.
+circle is completed, you "have" a circle. If your cards can arrange to
+show 2 circles, then you "have" 2 circles.
 
-![circle arrangements](images/circle_arrangements.png)
+![circle arrangements](images/circle_arrangements.png){ width=2.5inch }
 
 If your card arrangement had the cards Pick Pockets and Not On My Turf
 next to each other, you could complete an *R* circle. If you had
@@ -1053,21 +1053,21 @@ skill by flipping green token cards.
 At the beginning of a session, players should arrange their move cards
 to count how many green circles they have.
 
-![level cards](images/component_card_level.png)
+![level cards](images/component_card_level.png){ width=2.5inch }
 
 If you have a new green circle this session, you get to take a *Level card*.
 
 Like move cards, level cards may also have requirements. Some require that you
 have a certain amount of circles to access them.
 
-![blessing cards](images/component_card_blessings.png)
+![blessing cards](images/component_card_blessings.png){ width=2.5inch }
 
 Some level cards will instruct you to take blessing cards.
 
 
 ### Sharpen and Stitch
 
-![Sharpen and Stitch card](images/move_sharpen__stitch.png)
+![Sharpen and Stitch card](images/move_sharpen__stitch.png){ width=2.5inch }
 
 Damage to items is represented as black-side red cards
 
@@ -1091,7 +1091,7 @@ cards to the supply.
 
 ### Craft a Weapon
 
-![Craft a Weapon card](images/move_craft_a_weapon.png)
+![Craft a Weapon card](images/move_craft_a_weapon.png){ width=2.5inch }
 
 When crafting a weapon, ask how many red tokens it takes (ie, how much it
 reduces a character's speed). The GM should weigh that cost against the
@@ -1099,7 +1099,7 @@ weapon's other features
 
 ### Weapon Mastery
 
-![Weapon Mastery card](images/move__mastery.png)
+![Weapon Mastery card](images/move__mastery.png){ width=2.5inch }
 
 ### Magic Items
 
