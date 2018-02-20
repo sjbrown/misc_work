@@ -83,8 +83,25 @@ class Card(object):
             self._data['Pro'] == other._data['Pro']
         )
 
-    def result(self):
+    def __getitem__(self, key):
+        return self._data[key]
+
+    def read_result(self):
         return self._data[self.SIDE]
+
+    def count_checks(self, suit):
+        if self._data[suit] == 4:
+            return 2
+        if self._data[suit] == 3:
+            return 1
+        return 0
+
+    def count_exes(self, suit):
+        if self._data[suit] == 1:
+            return 2
+        if self._data[suit] == 2:
+            return 1
+        return 0
 
 Deckahedron = [Card(x) for x in cards]
 
@@ -759,7 +776,7 @@ def analyze_exes_and_checkmarks(svg=False, lost_stamina=0, flashback_percent=0.0
                 if (
                     flashback_percent
                     and random.random() <= flashback_percent
-                    and card.result() in [1]
+                    and card.read_result() in [1]
                     and green_tokens >= 2
                     ):
                     green_tokens -= 2
@@ -770,7 +787,7 @@ def analyze_exes_and_checkmarks(svg=False, lost_stamina=0, flashback_percent=0.0
 
                 if card._data['Pro']:
                     green_tokens += 1
-                mod_results[card.result()] += 1
+                mod_results[card.read_result()] += 1
 
             if svg:
                 group_id = '%s-mod%s' % (side, mod)
@@ -832,4 +849,3 @@ def analyze_exes_and_checkmarks(svg=False, lost_stamina=0, flashback_percent=0.0
             all_percents.append(percents)
     return all_percents
 
-analyze_exes_and_checkmarks(svg=True, flashback_percent=0.0)
