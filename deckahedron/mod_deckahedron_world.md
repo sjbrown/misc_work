@@ -1035,15 +1035,15 @@ You do not have to keep your cards in this arrangement while you play,
 
 Sometimes when you Study Under a Master, you end up with study aids.
 
-When you gain the move card...    | You also take...
-----------------------------------|------------------------------
-Channel The Living Light          | Sigil of the Living Light
-Entreat The Blood-Bound           | Blade of Echoes
-Use a Magic Item                  | Any magic item card
+When you Study Under a Master to gain...  | You also take...
+------------------------------------------|------------------------------
+Channel The Living Light                  | Sigil of the Living Light
+Entreat The Blood-Bound                   | Blade of Echoes
+Use a Magic Item                          | Any magic item card
 
-You use the RECEIVE CARDS tag only when you gain a move card via Study
-Under a Master. You do not use it when you gain competence with the
-skill by flipping green token cards.
+You use the RECEIVE CARDS tag only during character creation and when you
+gain a move card via Study Under a Master. You do not use it when you gain
+competence with the skill by flipping green token cards.
 
 
 ---
