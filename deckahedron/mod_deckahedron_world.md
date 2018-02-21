@@ -939,6 +939,8 @@ See [Green token cards](#other-flip-complications-green-token-cards)
 Take a green card, and put it on top of the move card. Put the green
 card black-side-up.
 
+`TODO: diagram`
+
 With Pick Pockets leveled up, any time you perform that move in the future,
 you will add an advantage card when you flip.
 
