@@ -153,8 +153,8 @@ def make_deck(deck_number):
         set_zodiac(dom, *zargs)
 
         # Create the svg file and export a PNG
-        svg_filename = '/tmp/cards/deck_%s_card_face%s.svg' % (deck_number, (i+1))
-        png_filename = '/tmp/cards/deck_%s_card_face%s.png' % (deck_number, (i+1))
+        svg_filename = '/tmp/cards/deck_%s_card_face%02d.svg' % (deck_number, (i+1))
+        png_filename = '/tmp/cards/deck_%s_card_face%02d.png' % (deck_number, (i+1))
 
         dom.write_file(svg_filename)
 
