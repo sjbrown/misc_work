@@ -722,12 +722,12 @@ about how the backstory fits where the characters is, mechanically.
 
 Nothing stops you from creating a hulking, 7 foot tall barbarian, with a rich
 history of warring and slaughtering enemies, but at the very beginning of
-the game, with a couple unlucky flips, they may get beat up by a farmer with
-a shovel and a pet goat.
+the game, with a couple unlucky flips, that barbarian may suffer a sound
+drubbing at the hands of a farmer with a shovel and his overprotective goat.
 
 This doesn't mean don't create the barbarian character. It means, if you do,
-find some narrative justification (drunkard? battle-worn? magically cursed?)
-that they're currently at a "scrappy adventurer" level.
+be prepared to find some narrative justification (drunkard? battle-worn?
+magically cursed?) that they're currently at a "scrappy adventurer" level.
 
 
 ---
