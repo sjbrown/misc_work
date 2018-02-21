@@ -19,6 +19,13 @@ def export_png(svg, png, width, height):
         print cmd
     os.system(cmd)
 
+def export_pdf(svg, pdf):
+    cmd_fmt = 'inkscape --export-pdf=%s %s'
+    cmd = cmd_fmt % (pdf, svg)
+    if DEBUG:
+        print cmd
+    os.system(cmd)
+
 def export_square_png(svg, png):
     return export_png(svg, png, 825, 825)
 

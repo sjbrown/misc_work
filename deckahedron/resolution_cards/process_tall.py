@@ -8,6 +8,9 @@ import sys
 import string
 from pprint import pprint, pformat
 from tall_cards import cards
+from version import VERSION
+
+DIR = '/tmp/cards_v' + VERSION
 
 from svg_dom import DOM, export_png, export_tall_png
 
@@ -207,8 +210,8 @@ def one_blank_3lines_front():
             dom.layer_show(key)
 
     # Create the svg file and export a PNG
-    svg_filename = '/tmp/tall_cards/deck_card_face_3lines.svg'
-    png_filename = '/tmp/tall_cards/deck_card_face_3lines.png'
+    svg_filename = DIR + '/deck_card_face_3lines.svg'
+    png_filename = DIR + '/deck_card_face_3lines.png'
     dom.write_file(svg_filename)
     export_tall_png(svg_filename, png_filename)
 
@@ -270,19 +273,19 @@ def custom_card_dom(card):
     return None
 
 def make_deck(cards):
-    export_tall_png('tall_card_back2.svg', '/tmp/tall_cards/back.png')
-    export_tall_png('equipment_back1.svg', '/tmp/tall_cards/back_equip1.png')
-    export_tall_png('equipment_back2.svg', '/tmp/tall_cards/back_equip2.png')
-    export_tall_png('tall_card_stats.svg', '/tmp/tall_cards/page_stats.png')
-    export_tall_png('tall_card_hints.svg', '/tmp/tall_cards/page_hints.png')
+    export_tall_png('tall_card_back2.svg', DIR + '/back.png')
+    export_tall_png('equipment_back1.svg', DIR + '/back_equip1.png')
+    export_tall_png('equipment_back2.svg', DIR + '/back_equip2.png')
+    export_tall_png('tall_card_stats.svg', DIR + '/page_stats.png')
+    export_tall_png('tall_card_hints.svg', DIR + '/page_hints.png')
 
-    export_tall_png('level_card_background_anchor.svg', '/tmp/tall_cards/level_background_anchor.png')
-    export_tall_png('level_card_eager_learner.svg', '/tmp/tall_cards/level_eager_learner.png')
-    export_tall_png('level_card_getting_the_hang.svg', '/tmp/tall_cards/level_getting_the_hang.png')
-    export_tall_png('level_card_its_in_here.svg', '/tmp/tall_cards/level_its_in_here.png')
-    export_tall_png('level_card_rallying_cry2.svg', '/tmp/tall_cards/level_rallying_cry2.png')
-    export_tall_png('level_card_rallying_cry.svg', '/tmp/tall_cards/level_rallying_cry.png')
-    export_tall_png('level_card_back.svg', '/tmp/tall_cards/back_level.png')
+    export_tall_png('level_card_background_anchor.svg', DIR + '/level_background_anchor.png')
+    export_tall_png('level_card_eager_learner.svg', DIR + '/level_eager_learner.png')
+    export_tall_png('level_card_getting_the_hang.svg', DIR + '/level_getting_the_hang.png')
+    export_tall_png('level_card_its_in_here.svg', DIR + '/level_its_in_here.png')
+    export_tall_png('level_card_rallying_cry2.svg', DIR + '/level_rallying_cry2.png')
+    export_tall_png('level_card_rallying_cry.svg', DIR + '/level_rallying_cry.png')
+    export_tall_png('level_card_back.svg', DIR + '/back_level.png')
 
     one_blank_3lines_front()
 
@@ -298,11 +301,11 @@ def make_deck(cards):
             raise
 
         # Create the svg file and export a PNG
-        svg_filename = '/tmp/tall_cards/face%02d_%s.svg' % (
+        svg_filename = DIR + '/face%02d_%s.svg' % (
             (i+1),
             filenamify(card['title'])
         )
-        png_filename = '/tmp/tall_cards/face%02d_%s.png' % (
+        png_filename = DIR + '/face%02d_%s.png' % (
             (i+1),
             filenamify(card['title'])
         )
@@ -312,10 +315,10 @@ def make_deck(cards):
         export_tall_png(svg_filename, png_filename)
 
 def make_documentation_images(cards):
-    tmp_template_filename = '/tmp/tall_cards/move_card_template.svg'
+    tmp_template_filename = DIR + '/move_card_template.svg'
     for i, card in enumerate(cards):
         slug = filenamify(card['title'])
-        png_filename = '/tmp/tall_cards/face%02d_%s.png' % ((i+1), slug)
+        png_filename = DIR + '/face%02d_%s.png' % ((i+1), slug)
         doc_img_filename = '../images/move_%s.png' % slug
         template_filename = '../images/move_card_template.svg'
         if os.path.isfile(doc_img_filename):
@@ -338,13 +341,13 @@ def make_deck_from_svg_dir(dirpath, fpart=None):
             if fpart and fpart not in fname:
                 continue
             base = os.path.splitext(fname)[0]
-            png_filename = '/tmp/tall_cards/%s.png' % base
+            png_filename = DIR + '/%s.png' % base
             export_tall_png(dirpath + '/' +fname, png_filename)
 
 
 if __name__ == '__main__':
-    if not os.path.exists('/tmp/tall_cards'):
-        os.makedirs('/tmp/tall_cards')
+    if not os.path.exists(DIR):
+        os.makedirs(DIR)
 
     import parse_cards_csv
 
