@@ -549,7 +549,7 @@ Having a *Wound card* in your Deckahedron causes some nasty effects.
 
 Whenever you **flip** and reveal a wound card, follow these rules:
 
- * Say or act out the gutteral noise emitted by your character
+ * Say or act out the guttural noise emitted by your character
  * You must immediately stop flipping (eg, if you were
    instructed you to "flip 3", you stop short once you hit
    the wound card - resolve the move with only the card(s) you flipped.
