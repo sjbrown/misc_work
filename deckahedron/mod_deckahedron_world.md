@@ -340,7 +340,7 @@ One response might be:
 
 "Kresk wants that acorn! I Hack and Slash the squirrel!"
 
-It would be bizzare, but completely within the rules for the GM to write
+It would be bizarre, but completely within the rules for the GM to write
 up some stats for the squirrel (1 Stamina, 1 attack power), and begin a
 melee combat between Kresk and the squirrel, and ask you to flip Strength
 to resolve the Hack and Slash move.
