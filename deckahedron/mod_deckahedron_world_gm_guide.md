@@ -901,9 +901,12 @@ Collaborate.
 
 Get consent.
 
-## Good Bank
+## Using the Good Bank
 
-### Fictional Advantages
+The good bank is used to create certain kinds of "Deus Ex Machina"
+situations to benefit the players' characters.
+
+### Create Advantages
 
 One point from the *Good Bank* may be spent to let a player as though
 they had the highest amount of advantage (flip-3-take-best). You may do
@@ -922,8 +925,9 @@ make sense for them to have an advantage.
    Make sure your storytelling is fun for the player. They've already
    indicated that they want to have fun by Going Berserk.
  - You can use a point from the *Good Bank* to create the advantage - this
-   gives flip-3-take-best advantage, and you've only got a few points in
-   the *Good Bank*, so make sure it's worth it.
+   gives the maximum amount of advantage, causing a flip-3-take-best
+   flip. You've only got a few points in the *Good Bank*, so make sure
+   it's worth it.
 
 Here is what you can **not** do: you cannot tell them to flip with an
 advantage just because you're the GM and you think it makes sense.
@@ -931,13 +935,55 @@ advantage just because you're the GM and you think it makes sense.
 If an advantage is to be had, the price must be paid, either by the
 GM or by the player.
 
+Creating an advantage by spending a point from the *Good Bank* always
+results in a flip-3-take-best flip, even if the character is at the "wild"
+level in the move, even if the character is disadvantaged by some previous
+situation or effect.
 
-### Deus Ex Machina
+Flipping a wound card on these flips will still override the **Complete
+flip rule**.
 
-#### Create Advantage
+#### An NPC to the Rescue
+
+When the players find themselves in a situation that looks dire:
+
+ * There's no hope and no way out
+ * They're surrounded and outnumbered
+ * They've lost the majority of their Stamina points and the foes
+   in the scene are still healthy and looking to fight
+ * There's a puzzle they need to solve, but haven't got a clue
+
+In a dire situation, you can spend a point from the *Good Bank* to have
+an allied NPC enter into the scene.
+
+The NPC should be someone (or some thing) the players' characters have met
+before and should have an honest reason, based on the fiction, to assist
+the players' characters.
+
+As you move the combat spotlight around the scene, the NPC should get a turn
+to act as often as each player does.
+
+ * The NPC may use the Defend move
+ * The NPC may assist any player character's attack, adding an appropriate
+   die to the attack power
+ * The NPC may get into a scuffle with one foe, effectively preventing that
+   foe from acting as the combat spotlight moves around
+ * The NPC may convey or reveal information valuable to the players
+
 #### Resurrect a Character
-#### An NPC to the rescue
 
+If a player character dies, you may spend a point from the *Good Bank* to
+bring them back to life.
+
+You may not resurrect player characters without spending a point from the
+*Good Bank*.
+
+Take care to be honest to the fiction. Try not to degrade or insult any
+emotional journey that the death provoked.
+
+Resurrection can have many forms.
+
+Resurrection can come at a high cost.
 
 # Loot
 
