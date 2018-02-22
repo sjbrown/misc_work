@@ -191,7 +191,7 @@ that. (eg, "Paris" can just be "Paris", London can be "Donalo")
 Distribute a player card to each player and ask them to write down the
 names you just came up with.
 
-Next, instruct the players to fill out the stat boxes like so:
+Next, instruct the players to fill out the attribute boxes like so:
 
  * Both characters have 1 Int (Anchor)
  * The female protagonist has 3 Dex (Crescent) and 2 Str (Bulb)
@@ -442,7 +442,7 @@ It should also be a warm-up for your GM skills.
    when you play a campaign
 
 The players should now understand how the Deckahedron works with character
-stats to produce results that affect the narrative.
+attributes to produce results that affect the narrative.
 
 ### Get into a fight
 
@@ -613,6 +613,24 @@ If a player's character reads as too exotic, that might be the player
 signaling that the fun they want to have is playing a different game.
 
 
+### Choose a Name
+
+When players have finished picking cards, ask them what their character
+is called. Have them write the name on the top of their character sheet
+so that the name faces you. Using a felt-tipped marker is recommended.
+
+
+### Choose Int / Str / Dex
+
+`TODO: illustration`
+
+Tell the players to choose how to distribute 6 points among the attributes.
+No attribute may have a rank of zero. They must all be at least Anchors.
+
+Looking at which attributes get applied to their chosen move cards will
+help the players decide how to distribute these 6 points.
+
+
 ### Home / Comfort
 
 Before the game begins, ask *every* player where their character feels most
@@ -632,6 +650,41 @@ Ask this question to each player: What about your character's personality
 causes them to overreach?  What makes them take risks a normal person avoids?
 Are they brave, foolhardy, driven, greedy, curious, grieving? Caught between
 two worlds? Unsure of who they are? Do they have a deathwish?
+
+Write down the answers.
+
+
+### Choose Items and Weapons
+
+Each player may choose 2 items in addition to any items they got by
+choosing move cards with the RECEIVE CARDS tag.
+
+One of these 2 new items may be a magic item.
+
+Other popular choices are weapons or armor.
+
+If the player wants their character to have an unusual weapon, that's fine.
+Explain to them that at the beginning of the game the die they will roll
+will be a d4, even if they describe something epic.
+
+If there is not a card in the deck with the name of the item already, just
+write the item's name on the blank side of another card.
+
+`TODO: link to weapon and armor lists`
+
+
+### Choose Speed / Wealth / Equip
+
+`TODO: illustration`
+
+Give each player 6 Speed / Wealth / Equip tokens. For each item card they
+have, tell them to place one token on it. (Except any weapon that is a
+Signature Weapon)
+
+The players can choose to put any remaining tokens in either Speed, Wealth,
+or Equip. Explain to them that if they don't have 4 Speed, they will not
+be able to perform any move tagged UNENCUMBERED. Also explain that with
+less than 4 Speed, there will be a Stamina penalty to Bravely Run Away.
 
 
 # GM Rules
