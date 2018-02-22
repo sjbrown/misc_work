@@ -37,10 +37,15 @@ if __name__ == '__main__':
         if (i % 9) == 8:
             new_fname = '/tmp/print_and_play%02d.svg' % counter
             new_pdf_name = '/tmp/print_and_play%02d.pdf' % counter
+            print 'Writing', new_pdf_name
             fp = file(new_fname, 'w')
             fp.write(copy)
             fp.close()
             export_pdf(new_fname, new_pdf_name)
             counter += 1
 
+    fname = 'print_and_play_deckahedron_template.svg'
+    new_pdf_name = '/tmp/print_and_play_deckahedron.pdf'
+    print 'Writing', new_pdf_name
+    export_pdf(fname, new_pdf_name)
 
