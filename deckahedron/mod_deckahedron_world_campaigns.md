@@ -98,10 +98,29 @@ If you can do this, when they complete the challenge that used up the last of
 the set-aside *Bad Bank* points, give them the prize of Act 2 and give
 yourself a point in your *Good Bank*
 
-This is usually the part of the game where characters lose all of their
-Stamina and "die". That's ok. You can choose to make a gritty story and let
-the deaths stand, or have a look at the chapter on spending *Good Bank* points
-to make death less than it seems.
+This is the part of the game where characters are most at risk to lose all
+of their Stamina points. In other stages of the story, the GM may choose to
+narrate this as unconciousness, imprisonment, or something else that
+the character will naturally recover from.
+
+But not in this stage.
+
+If the character loses all their Stamina in this stage of the story, the GM
+should represent this as "death". Sell it as a permanent removal of the
+character, and by extension, the player from being able to impact the events
+of the story.
+
+Don't make this a downer for the player though. Make the death epic.
+Give the character a final stand that saves the day, or gives the other party
+members a chance to survive an enormous threat. A moment of tremendous,
+significant sacrifice. Look for what the character symbolized, or what niche
+they filled in the party's personality, and amplify that symbol or personality
+aspect to be everyone's salvation.
+
+Also realize you can give them a second chance at life. If you don't want a
+gritty, hardcore vibe in your campaign, you don't have to let the death stand.
+Have a look at the chapter on spending *Good Bank* points to resurrect a
+character.
 
 ### Return to the surface, changed.
 
@@ -117,6 +136,19 @@ done things. They are now masters of a new way of existing, unafraid of
 crossing into the previously alien world beyond their "home".
 
 By dialogue or action, each player character should exhibit their change.
+
+This can play out in many ways:
+
+ * by using their newfound power to deal with the bullies that previously
+   tormented them
+ * by exposing the high priest as the one who stole the soul gem, and taking
+   his place as the trusted spiritual leader
+ * by gaining respect and admiration from their family by returing with the
+   elves' ointment to cure their grandfather of the Medusa's curse
+ * by re-igniting the war, but finding that they've lost their taste for the
+   battle they once considered glorious
+ * by being cast out of yet another city, but this time they're on the road
+   with mirth in their step and a horse pulling sixteen barrels of mead
 
 Mark your final *Good Bank* point if you can hit this note.
 
