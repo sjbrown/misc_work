@@ -141,12 +141,14 @@ This can play out in many ways:
 
  * by using their newfound power to deal with the bullies that previously
    tormented them
- * by exposing the high priest as the one who stole the soul gem, and taking
-   his place as the trusted spiritual leader
- * by gaining respect and admiration from their family by returing with the
-   elves' ointment to cure their grandfather of the Medusa's curse
- * by re-igniting the war, but finding that they've lost their taste for the
-   battle they once considered glorious
+ * even though they were entrusted with this secret quest by their holy order,
+   when they travel back through the badlands, they share the seeds of the
+   foreverfruit with the impoverished village that showed them hospitality
+ * by not screwing up for once in the eyes of their family, and actually
+   gaining respect by applying the elves' ointment to cure their grandfather
+   of the Medusa's curse
+ * by re-igniting the war as they were bade, but also challenging their lord
+   for the position of clan leader
  * by being cast out of yet another city, but this time they're on the road
    with mirth in their step and a horse pulling sixteen barrels of mead
 
