@@ -380,12 +380,28 @@ makes them.
 
 `TODO`
 
+### Move the spotlight
+
+`TODO`
+
+Never let a player's turn be inconsequential. A player might wait
+10 minutes for their friends' moves, so if their whole turn in the
+spotlight ends with "nothing happens" this game will be very unfun.
+Give them an opportunity for something. This doesn't mean they have
+to slay a demon on every turn, merely getting a big laugh can
+be "something".
+
+Remember, this is a collaborative story.  Laughter and excitement
+are the rewards for everyone.
+
+
 ### Sarukkan's Chamber Details - take them or leave them
 
  * Luxurious canopy bed in the middle
  * Chamber is full of esoterica - books, sculptures, votives
  * Maybe a window at the front of the room - an escape route?
  * An alarm triggers when a guard enters the room?
+ * A creepy portrait of Sarukkan, whose eyes follow you as you move
 
 
 ### Goals for Sarrukan's Chamber
@@ -443,6 +459,8 @@ It should also be a warm-up for your GM skills.
 
 The players should now understand how the Deckahedron works with character
 attributes to produce results that affect the narrative.
+
+
 
 ### Get into a fight
 
@@ -687,26 +705,28 @@ be able to perform any move tagged UNENCUMBERED. Also explain that with
 less than 4 Speed, there will be a Stamina penalty to Bravely Run Away.
 
 
-# GM Rules
+
+---
+# Session 1 Rules
+---
 
 These rules are split up into sessions. During the first 3-hour session,
 the players will probably just be getting the hang of the the flow of the
 game. In session 2, they will probably experience downtime, and be ready
 to understand how moves interact with each other.
 
-## Session 1 Rules
 
-### The Bad Bank
+## Filling The *Bad Bank*
 
 When a player flips and *resolves a move* with a ✗, mark a point in
 the Bad Bank.
 
-#### Moves tagged IMMEDIATE
+### Moves tagged IMMEDIATE
 
 The exception to this is if the move is tagged **IMMEDIATE**. Do not
 mark points in your Bad Bank when resolving a move with this tag.
 
-#### Calling for flips during a GM move
+### Calling for flips during a GM move
 
 Sometimes you will be making a GM move and want to use randomness to
 decide which direction to take the fiction, and call for a player to
@@ -714,32 +734,6 @@ flip a card from their Deckahedron.  This is not considered *resolving
 a move* and thus if they get an ✗ as a result, you should *not* mark
 a point in your Bad Bank.
 
-
-## Fictional Advantages / Disadvantages
-
-In real life, some actions are more difficult than others. The GM has some
-tools to reflect this in the game.
-
-There are strict rules.  Be realisitic *and* work within the boundaries.
-
-### Disadvantages
-
-Let's say the party of adventurers is in a dark cave at nighttime and
-no torches are lit.
-A multi-winged bat creature swoops down at them, claws slashing. The first
-player declares they're going to dive out of the way (Defy Danger with DEX).
-Because of the set-up, it makes sense that this will be more difficult than
-if the character could clearly see the creature and the cave floor they're
-diving into.
-
- - You can use 2 points from the *Bad Bank* to create one level of disadvantage
-
-This level of disadvantage should now be applied *consistently* whenever any
-character attempts to avoid a swooping attack in a dark environment from a bat
-creature without further expenditure from the Bad Bank.
-
-Consistency prevents players from feeling the game is unfair or that you are
-especially aiming negative consequences at them.
 
 
 # Creating A Combat Encounter
@@ -892,6 +886,24 @@ You have power - it's mostly in the narrative
 What kind of GM move do you do in response to failed flips?
 
 
+## Loot
+
+After combat, the players may propose that their characters sift through
+the battlefield looking for valuables. Let the characters find whatever you
+think would be most fun.
+
+Sometimes you don't know what loot is appropriate.
+
+If the characters slay a pack of werewolves, and ask to search the bodies,
+and you don't immediately have a great idea about what kind of beneficial
+gear could be found on nearly naked bodies, you can write "What we found
+on the werewolves" on a blank card, and give it to one of the players.
+Tell them to place a token from their SPEED pile on the card.
+Later in the game, when the rules demand either a WEALTH or EQUIP to be
+spent, the "What we found on the werewolves" card may be spent, if the
+players can justify it.
+
+
 ---
 # Session 2 rules
 ---
@@ -916,12 +928,45 @@ That's important. Prepare for *either* case.
 There is no *correct* answer for the characters. Never punish a player for
 making a choice you didn't expect.
 
-No game ever goes according to your imagination. The purpose of preparation
-is to use your imagination to assemble a cabinet of narrative spices. Wait
-until you play to find out what happens.
+Being prepared is different than having a plan. No game ever goes according
+to a plan. The purpose of preparation is to use your imagination to assemble
+a cabinet of narrative spices. Wait until you play to find out what happens.
 
 
-## Give Hints
+# Start of Session
+
+## Special GM Move: The Session Opener
+
+At the beginning of all sessions but the first, ask this question and give
+out green tokens for correct answers.
+
+Ask each player for either a thing they learned about the world or a way
+they expressed their character's personality. If they can give a resonably
+correct answer, give them a green token.
+
+### Ask for Notes
+
+Tell each player about what content you added last session in response
+to a signal you got from them.  If they *all* agree that you correctly
+interpreted a signal, and added the kind of fun they enjoy, give yourself
+one point in the Good Bank.
+
+
+### Apologia
+
+After running through the events of last session in your mind, you may
+realize you're painted into a corner. When the characters are in a
+situation where you can't imagine a way to keep the game exciting,
+you need to have a conversation with your players.
+
+Retroactively edit.
+
+Collaborate.
+
+Get consent.
+
+
+### Give Notes
 
 After session 1, your players will be realizing that they fail often,
 maybe more than they'd like. This is a good time to talk about the odds
@@ -941,20 +986,8 @@ these moves.  Discern should be particularly encouraged if
 you'd like more opportunities to describe the world, environment, and
 NPCs that you're creating.
 
-## Apologia
 
-After running through the events of last session in your mind, you may
-realize you're painted into a corner. When the characters are in a
-situation where you can't imagine a way to keep the game exciting,
-you need to have a conversation with your players.
-
-Retroactively edit.
-
-Collaborate.
-
-Get consent.
-
-## Using the Good Bank
+# Using the Good Bank
 
 The good bank is used to create certain kinds of "Deus Ex Machina"
 situations to benefit the players' characters.
@@ -1038,39 +1071,39 @@ Resurrection can have many forms.
 
 Resurrection can come at a high cost.
 
-# Loot
-
-Let the characters find whatever you think would be most fun.
-
-Sometimes you don't know what loot is appropriate.
-
-If the characters slay a pack of werewolves, and ask to search the bodies,
-and you don't immediately have a great idea about what kind of beneficial
-gear could be found on nearly naked bodies, you can write "What we found
-on the werewolves" on a blank card, and give it to one of the players.
-Tell them to place a token from their SPEED pile on the card.
-Later in the game, when the rules demand either a WEALTH or EQUIP to be
-spent, the "What we found on the werewolves" card may be spent, if the
-players can justify it.
-
-
-[Campaigns](mod_deckahedron_world_campaigns.md)
-
-# Start of Session
-
-Ask each player for either a thing they learned about the world or a way
-they expressed their character's personality. If they can give a resonably
-correct answer, give them a green token.
-
-Tell each player about what content you added last session in response
-to a signal you got from them.  If they *all* agree that you correctly
-interpreted a signal, and added the kind of fun they enjoy, give yourself
-one point in the Good Bank.
 
 
 
 
-### GM: Examples for spending points from the *Bad Bank*
+# Using the *Bad Bank*
+
+## Fictional Disadvantages
+
+In real life, some actions are more difficult than others. The GM has some
+tools to reflect this in the game.
+
+There are strict rules.  Be realisitic *and* work within the boundaries.
+
+### Disadvantages
+
+Let's say the party of adventurers is in a dark cave at nighttime and
+no torches are lit.
+A multi-winged bat creature swoops down at them, claws slashing. The first
+player declares they're going to dive out of the way (Defy Danger with DEX).
+Because of the set-up, it makes sense that this will be more difficult than
+if the character could clearly see the creature and the cave floor they're
+diving into.
+
+ - You can use 2 points from the *Bad Bank* to create one level of disadvantage
+
+This level of disadvantage should now be applied *consistently* whenever any
+character attempts to avoid a swooping attack in a dark environment from a bat
+creature without further expenditure from the Bad Bank.
+
+Consistency prevents players from feeling the game is unfair or that you are
+especially aiming negative consequences at them.
+
+
 
 `TODO`
 
@@ -1115,19 +1148,6 @@ GM Moves:
    an additional move
 
 
-## What to do: moving the spotlight
-
-`TODO`
-
-Never let a player's turn be inconsequential. A player might wait
-10 minutes for their friends' moves, so if their whole turn in the
-spotlight ends with "nothing happens" this game will be very unfun.
-Give them an opportunity for something. This doesn't mean they have
-to slay a demon on every turn, merely getting a big laugh can
-be "something".
-
-Remember, this is a collaborative story.  Laughter and excitement
-are the rewards for everyone.
 
 # Creating Challenges for Players
 
@@ -1151,6 +1171,7 @@ Sometimes it's about choosing an imperfect side.
 Powerful ways for players to say something about the themes of the story
 and the personality of their characters.
 
+[Campaigns](mod_deckahedron_world_campaigns.md)
 
 ---
 # Signals From Players
