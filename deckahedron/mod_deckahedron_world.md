@@ -734,6 +734,33 @@ magically cursed?) that they're currently at a "scrappy adventurer" level.
 # SESSION 2 RULES
 ---
 
+# The Session Opener
+
+Every session after the first session, there is a special move to execute
+at the very beginning, **The Session Opener**. It is a player's opportunity
+to generate an extra green token.
+
+## Ask for notes
+
+Take turns and ask your friends sitting around you at the table if there's
+anything about your own play-style you should keep in mind to improve the
+fun had by everyone (this includes the GM's fun too!).
+
+## Give notes
+
+When your fellow players ask you the same, answer them honestly and gently.
+This is a suggestion for improvement, given in a take-it-or-leave-it manner.
+Never say "You are having fun wrong". Just say "There are more fun parts
+over here if you want to take a look".
+
+No response is ever required of the person asking for notes.
+
+This move's purpose is to practice an open dialogue and help everyone
+*improve* their play. If it feels like bargaining, argumentation,
+excuse-creation, litanizing of sins, the move has not been executed
+correctly. Just take a deep breath and move on.
+
+
 # More Moves - Take a Breather, Rest, Seek Help
 
 ## Taking a Breather

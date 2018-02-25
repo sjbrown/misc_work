@@ -197,15 +197,6 @@ Next, instruct the players to fill out the attribute boxes like so:
  * The female protagonist has 3 Dex (Crescent) and 2 Str (Bulb)
  * The male protagonist has 2 Dex (Bulb) and 3 Str (Crescent)
 
-### 3rd PC variant
-
-If you've got a 3rd player at the table, add a guard character.
-
-Ask "What's a domestic brand of beer?". Use that to create the 3rd
-character's name. The guard can be any gender, has 3 Int, 2 Str, and 1 Dex.
-
-Let them know that they'll get introduced about 5 minutes into the story.
-
 ### Introduce Sarrukan's Chamber
 
 Begin narrating the set-up.
@@ -270,9 +261,17 @@ costume and mask for a disguise. Tonight must be a masquerade ball.
 With no easy opportunity to exit, you kept evading attention by going
 upstairs, until you reached the third floor.
 
-From different doors, you simultaneously enter an empty bedchamber. You
-turn from the door you carefully and silently closed to see across the
-room, an apparent party guest in full wardrobe.
+From different doors, you simultaneously enter an empty bedchamber.
+
+[At this point, take out a blank sheet of paper and draw this
+incomplete map]
+```
+
+![Draw maps, leave blanks](images/chamber_map.png)
+
+```
+You turn from the door you carefully and silently closed to see across
+the room, an apparent party guest in full wardrobe.
 
 [Dramatic pause]
 
@@ -305,7 +304,18 @@ worry about". They're adventurers going on adventures -- give them something
 to react to.
 """
 
-### 3rd PC variant - Introduce the reluctant guard
+
+### 3rd PC variant - The reluctant guard
+
+If you've got a 3rd player at the table, add a guard character.
+
+Add another 5 minutes to the timer, so now Sarukkan's Chamber will end
+after 15 minutes, not 10.
+
+Ask "What's a domestic brand of beer?". Use that to create the 3rd
+character's name. The guard can be any gender, has 3 Int, 2 Str, and 1 Dex.
+
+Let them know that they'll get introduced about 5 minutes into the story.
 
 After the first to PCs have had a chance to inspect their
 surroundings, and maybe have a dialogue with each other, introduce the
@@ -368,15 +378,26 @@ Deckahedron World is a conversation. The GM is the main storyteller, but not
 the only storyteller. **Ask the players questions** and use the answers.
 Embrace your curiosity.
 
-The easiest question to use is "What do you do?". Whenever you make a move,
+The easiest question to use is "What do you do?". Whenever you make a GM move,
 end with "What do you do?". You don't even have to ask the person you made
 the move against. Take that chance to shift focus elsewhere.
 
 The questions that gave the characters flesh during character creation are
 examples of asking questions and using the answers. You can always revisit
-that well. If a character is religious, ask them what their gods would have
-to say. If there's a halfling in the party, ask how hungry the current scene
-makes them.
+and pull more buckets up from that well. If a character is religious, ask
+them what their gods would have to say. If there's a halfling in the party,
+ask how hungry the current scene makes them.
+
+Other questions to ask are improv game questions. These are questions that
+have nothing to do with the current scene, but prompt everyone, especially
+you, to *think laterally*. These can be great to inspire you:
+ * If you want to insert a danger into a scene
+ * If you want an NPC to respond, but don't have dialogue, voice, or
+   personality ready
+ * If you need an idea for a puzzle or a monster
+ * If you just need a name for an NPC or location
+
+`TODO example with improv question and Sarukkan's chamber`
 
 `TODO`
 
@@ -384,22 +405,91 @@ makes them.
 
 `TODO`
 
-Never let a player's turn be inconsequential. A player might wait
-10 minutes for their friends' moves, so if their whole turn in the
+The general attention of people sitting at the table is called "the
+spotlight". People tend to talk one-at-a-time, while all others wait in
+excited anticipation.
+
+The GM is tasked with managing the "when" of the spotlight. When does one
+player's contribution end, and the next player's begin? When has a player
+said something that triggers a move? When is it time for the players to all
+sit back and suffer or delight as the GM describes the consequences of
+their decisions?
+
+Never let a player's time in the spotlight be inconsequential. A player
+might wait 10 minutes for their friends' moves, so if their whole turn in the
 spotlight ends with "nothing happens" this game will be very unfun.
-Give them an opportunity for something. This doesn't mean they have
-to slay a demon on every turn, merely getting a big laugh can
-be "something".
+Give them an opportunity for something. This doesn't mean they have to slay
+a demon on every turn, merely getting a big laugh can be "something".
 
 Remember, this is a collaborative story.  Laughter and excitement
 are the rewards for everyone.
+
+Allow the players to naturally move the spotlight among themselves.
+
+As the GM, you may take a turn in the spotlight:
+
+ * when someone flips ✗✗ (or sometimes just ✗)
+ * as specifically instructed by a move a player is executing
+ * when everyone looks to you to see what happens
+ * when the players give you a golden opportunity
+
+Usually your turn in the spotlight will be spent making a **GM move**.
+But it may also just be general narration.
+
+## Make GM Moves
+
+Often the players will move the story forward by having their characters
+talk and do actions that are certain (you don't call for flips unless actions
+or consequences are uncertain), so there may be long stretches where a GM
+doesn't need to jump in.
+
+ * Use a monster, danger, or location move
+ * Reveal an unwelcome truth
+ * Show signs of an approaching threat
+ * Deal damage
+ * Use up their resources
+ * Turn their move back on them
+ * Separate
+
+`TODO`
+
+A GM has many tools to make a decision
+
+ * Ask players questions
+ * Ask players to reveal a card from their Deckahedron (this doesn't count
+   as a flip, this is just the GM using randomness to help make a decision)
+ * Put on some music
+ * Use an improv game
+
+GM Moves:
+
+ * The Dungeon World moves
+ * Player loses confidence in the skill they just tried.  Put a white-side
+   red card on it until they use it and flip a ✔ or ✔✔
+ * "Call for an Ad-Hoc Challenge"
+  - eg, "Something feels weird about this bridge. Flip Int to notice
+    what the problem is"
+    (It's implied that either ✔ or ✔✔ are needed to succeed)
+  - eg, "Anyone who wants to race to the edge of the bridge before
+    it collapses must have at least 2 speed and get ✔✔ on a Dex flip"
+    (The GM is allowed to consider other aspects than just Int / Str / Dex)
+  - eg, "You're all in the moat. Spend a green token and describe how
+    your character learned to swim, or else begin thrashing and drowning.
+    If you spend the green token, write 'swimming' on your character
+    sheet."
+
+ * On a *critical failure* flip, the GM may use 3 banked points to make
+   an additional move
 
 
 ### Sarukkan's Chamber Details - take them or leave them
 
  * Luxurious canopy bed in the middle
- * Chamber is full of esoterica - books, sculptures, votives
- * Maybe a window at the front of the room - an escape route?
+ * Chamber is full of esoterica - bookcases and desks overflowing with books,
+   sculptures, candlesticks, and votives
+ * Chamber is empty of any adornments, the only feature is a bed and
+   a precise circle of white powder in the center of the room
+ * A window at the front of the room - an escape route?
  * An alarm triggers when a guard enters the room?
  * A creepy portrait of Sarukkan, whose eyes follow you as you move
 
@@ -409,7 +499,7 @@ are the rewards for everyone.
 Ideally, Sarukkan's Chamber should demonstrate what kind of game
 Deckahedron World is.
 
-Deckahedron World provides questions for players to answer:
+Deckahedron World creates questions for players to answer:
 
  * Will the brother & sister who haven't seen each other in a
    decade discover each other's identities?
@@ -417,7 +507,7 @@ Deckahedron World provides questions for players to answer:
  * (3rd player variant) Will the reluctant guard choose to obey an
    evil master, or rebel?
 
-Deckahedron World provides tension and action:
+Deckahedron World creates tension and action:
 
  * Potential combat against guards or kitchen staff or Sarukkan himself
  * Potential chases involving outsmarting or outmaneuvering pursuers
@@ -434,8 +524,9 @@ It should also help teach the rules of Deckahedron World.
  * Get each player to have an opportunity to do a Deckahedron flip
  * If a player flips the Critical Success card, that's an opportunity
    to explain the Critical Flip move
- * Ideally there will be a combat scene. Try to get the PCs to attempt
-   *Hack & Slash* or *Volley*
+ * Ideally there will be a combat scene.
+   (see the [Combat guidelines](#creating_a_combat_encounter))
+   Try to get the PCs to attempt *Hack & Slash* or *Volley*
  * The brother & sister may trigger *Discern* and *I Know This* moves
    when they try to reveal each others' identities
  * The *Discern* move often comes up when having a look around Sarukkan's
@@ -446,26 +537,21 @@ It should also help teach the rules of Deckahedron World.
 It should also be a warm-up for your GM skills.
 
  * Remember: "Yes, and..."
+ * Move the spotlight - be fair, let all players impact the narrative
  * Manage the pace. Let the PCs have some dialogue, but when it feels like
    they're hesitating, push quickly to the approaching dangers.
  * Get the guards into the room for a quick fight.
  * As the PCs gain the upper hand, show signs of another threat (maybe
    the wizard himself approaches - it's ok to tell the story of what's
    happening *off-camera*)
- * Try to end with a cliffhanger.
- * Go back into the rules instruction after no more than 10 minutes.
  * Play Sarukkan's Chamber *honestly*. Set the stakes the same as you would
    when you play a campaign
+ * Go back into the rules instruction after no more than 10 minutes.
 
-The players should now understand how the Deckahedron works with character
-attributes to produce results that affect the narrative.
-
-
-
-### Get into a fight
-
-Playing Sarrukan's Chamber should include some combat, see the
-[Combat guidelines](#creating_a_combat_encounter) below.
+After Sarukkan's Chamber, the players should now understand how the
+Deckahedron works with character attributes to produce results that affect
+the narrative. Ask the players if they get it, and explain again if there's
+still any confusion.
 
 
 # Begin a Campaign
@@ -935,38 +1021,31 @@ a cabinet of narrative spices. Wait until you play to find out what happens.
 
 # Start of Session
 
-## Special GM Move: The Session Opener
+## Special Move: The Session Opener
 
 At the beginning of all sessions but the first, ask this question and give
 out green tokens for correct answers.
 
-Ask each player for either a thing they learned about the world or a way
-they expressed their character's personality. If they can give a resonably
-correct answer, give them a green token.
+Start of simple - Ask each player for either a thing they learned about the
+world or a way they expressed their character's personality. If they can give
+a resonably correct answer, give them a green token.
 
 ### Ask for Notes
 
-Tell each player about what content you added last session in response
-to a signal you got from them.  If they *all* agree that you correctly
-interpreted a signal, and added the kind of fun they enjoy, give yourself
-one point in the Good Bank.
+Lead each player through a quick check-in. Everyone, including the GM will
+ask if there's any way they could improve their style of play.
 
+GMs should particularly try to improve their ability to listen for signals.
+Tell players about the content you added last session in response
+to a signal you got from them.
 
-### Apologia
-
-After running through the events of last session in your mind, you may
-realize you're painted into a corner. When the characters are in a
-situation where you can't imagine a way to keep the game exciting,
-you need to have a conversation with your players.
-
-Retroactively edit.
-
-Collaborate.
-
-Get consent.
-
+Look at your touchstone list. Are you still playing the setting and the
+themes and tones you all wanted when you started?
 
 ### Give Notes
+
+Beyond what you may have in mind, here is a note to give to new players
+at the beginning of their second session.
 
 After session 1, your players will be realizing that they fail often,
 maybe more than they'd like. This is a good time to talk about the odds
@@ -985,6 +1064,21 @@ can be used to create advantages. In this session, explain each one of
 these moves.  Discern should be particularly encouraged if
 you'd like more opportunities to describe the world, environment, and
 NPCs that you're creating.
+
+
+### Apologia
+
+After running through the events of last session in your mind, you may
+realize you're painted into a corner. When the characters are in a
+situation where you can't imagine a way to keep the game exciting,
+you need to have a conversation with your players.
+
+Retroactively edit.
+
+Collaborate.
+
+Get consent.
+
 
 
 # Using the Good Bank
@@ -1072,9 +1166,6 @@ Resurrection can have many forms.
 Resurrection can come at a high cost.
 
 
-
-
-
 # Using the *Bad Bank*
 
 ## Fictional Disadvantages
@@ -1103,8 +1194,6 @@ creature without further expenditure from the Bad Bank.
 Consistency prevents players from feeling the game is unfair or that you are
 especially aiming negative consequences at them.
 
-
-
 `TODO`
 
  * Make a "soft" move
@@ -1114,38 +1203,6 @@ especially aiming negative consequences at them.
  * Make a cost a bit more expensive
  * Make a treasure a bit less valuable
  * One of the character's resources gets cosmetically changed
-
-## GM Moves
-
-`TODO`
-
-A GM has many tools to make a decision
-
- * Ask players questions
- * Ask players to reveal a card from their Deckahedron (this doesn't count
-   as a flip, this is just the GM using randomness to help make a decision)
- * Put on some music
- * Use an improv game
-
-GM Moves:
-
- * The Dungeon World moves
- * Player loses confidence in the skill they just tried.  Put a white-side
-   red card on it until they use it and flip a ✔ or ✔✔
- * "Call for an Ad-Hoc Challenge"
-  - eg, "Something feels weird about this bridge. Flip Int to notice
-    what the problem is"
-    (It's implied that either ✔ or ✔✔ are needed to succeed)
-  - eg, "Anyone who wants to race to the edge of the bridge before
-    it collapses must have at least 2 speed and get ✔✔ on a Dex flip"
-    (The GM is allowed to consider other aspects than just Int / Str / Dex)
-  - eg, "You're all in the moat. Spend a green token and describe how
-    your character learned to swim, or else begin thrashing and drowning.
-    If you spend the green token, write 'swimming' on your character
-    sheet."
-
- * On a *critical failure* flip, the GM may use 3 banked points to make
-   an additional move
 
 
 
@@ -1193,12 +1250,15 @@ and the personality of their characters.
 ---
 
  * What's a city in Europe?
- * What's vegetable did you eat yesterday?
+ * What vegetable did you eat yesterday?
  * Who is the worst Hollywood director?
+ * What was your worst childhood injury or illness?
  * Name a one-hit wonder musical group.
- * What's a shop where women buy clothing?
+ * Name a shop where women buy clothing.
  * What's something you buy at a hardware store?
  * What's my mother's favourite TV show?
+ * What do kids find when turning over stones in a garden?
+ * Name something people believe in that isn't real.
 
 Attribution
 ---
