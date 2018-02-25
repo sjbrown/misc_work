@@ -352,6 +352,7 @@ Here are 3 gems to come back to whenever you don't know what to say next.
  * Portray a fantastic world
  * Fill the characters' lives with adventure
  * Ask the players
+ * Refer to your moves for ideas
 
 Firstly, **portray a fantastic world**. Deckahedron World is about
 characters who have decided to take up an adventure in the hopes of some
@@ -388,14 +389,16 @@ and pull more buckets up from that well. If a character is religious, ask
 them what their gods would have to say. If there's a halfling in the party,
 ask how hungry the current scene makes them.
 
-Other questions to ask are improv game questions. These are questions that
-have nothing to do with the current scene, but prompt everyone, especially
-you, to *think laterally*. These can be great to inspire you:
+Other questions to ask are [improv game questions](#appendix_1).
+These are questions that have nothing to do with the current scene, but
+prompt everyone, especially you, to *think laterally*. These can be great
+to inspire you:
+
+ * If you just need a name for an NPC or location
  * If you want to insert a danger into a scene
  * If you want an NPC to respond, but don't have dialogue, voice, or
    personality ready
  * If you need an idea for a puzzle or a monster
- * If you just need a name for an NPC or location
 
 `TODO example with improv question and Sarukkan's chamber`
 
@@ -449,11 +452,18 @@ doesn't need to jump in.
  * Deal damage
  * Use up their resources
  * Turn their move back on them
- * Separate
+ * Separate them
+ * Give an opportunity that fits a character's move cards
+ * Show a downside to their appearance, reputation, or equipment
+ * Put someone in a spot
+ * Offer an opportunity, with or without cost
+ * Tell them the requirements or consequences and ask
 
-`TODO`
+If a player resolves a flip with the *critical failure* card, the GM may use
+1 point from the *Bad Bank* to make an additional move.
 
-A GM has many tools to make a decision
+During the execution of a GM move, tools may be employed to generate ideas
+and make decisions:
 
  * Ask players questions
  * Ask players to reveal a card from their Deckahedron (this doesn't count
@@ -461,25 +471,26 @@ A GM has many tools to make a decision
  * Put on some music
  * Use an improv game
 
-GM Moves:
+Try to keep up the excitement and pace of play with your GM moves, but also
+know that it's ok to invest a little in making them significant and to pause
+for a second to think through some repercussions.
 
- * The Dungeon World moves
+### Deal damage
+`TODO`
+ * Stamina/Harm/Wound damage
+ * Damage their weapons and armour
  * Player loses confidence in the skill they just tried.  Put a white-side
    red card on it until they use it and flip a ✔ or ✔✔
- * "Call for an Ad-Hoc Challenge"
-  - eg, "Something feels weird about this bridge. Flip Int to notice
-    what the problem is"
-    (It's implied that either ✔ or ✔✔ are needed to succeed)
-  - eg, "Anyone who wants to race to the edge of the bridge before
-    it collapses must have at least 2 speed and get ✔✔ on a Dex flip"
-    (The GM is allowed to consider other aspects than just Int / Str / Dex)
-  - eg, "You're all in the moat. Spend a green token and describe how
-    your character learned to swim, or else begin thrashing and drowning.
-    If you spend the green token, write 'swimming' on your character
-    sheet."
 
- * On a *critical failure* flip, the GM may use 3 banked points to make
-   an additional move
+### Tell the requirements or consequences and ask
+
+Ok, everyone flees from the hammer-camels into the water, but let me ask this
+first: Samwise, you're wearing plate armour. If you leave it behind on the
+bank of the river, you can swim where you like, but if you keep it on, I'm
+going to ask for a Defy Danger flip with your Strength.
+
+
+`TODO`
 
 
 ### Sarukkan's Chamber Details - take them or leave them
@@ -559,7 +570,8 @@ still any confusion.
 ## Establish Touchstones
 
 First, the table needs to get on the same page about the adventure's setting,
-themes, and tone.
+themes, and tone. Give the players an overview of the steps in creating a
+Touchstone List, and tell them its purpose. Then start executing the steps.
 
 ### Step 1
 
@@ -567,6 +579,10 @@ Brainstorm some cultural "touchstones". Ask everyone to call out titles of
 books, movies, games, comics, and TV shows that feel inspiring, and write
 them all down, no matter how silly.  Everyone at the table can add as many
 titles as they want.
+
+It's good to explicitly tell the players you're looking for *titles*.
+
+`TODO: touchstone list illustration`
 
 ### Step 2
 
@@ -609,9 +625,10 @@ powerful exploit?
 It's not necessary to answer these questions, just to start thinking.
 
 The "touchstone list" may be consulted when the table needs to make a
-judgement about whether an action should be possible. You can ask the
-question "Would this kind of thing be possible in _ ?" (fill in the name
-of one of the titles in your touchstone list).
+judgment about whether facts under proposal make sense in the shared universe
+you're creating or whether a character's action should be possible. You can
+ask the question "Would this kind of thing be possible in _ ?" (fill in the
+name of one of the titles in your touchstone list).
 
 The touchstone list is also an early way that the players can signal
 to the GM the kind of fun they want to have.
