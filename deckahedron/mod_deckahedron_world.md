@@ -29,7 +29,7 @@ p10     - Mundane Items - Armor, weapons
 p11     - More Moves - Use a Magic Item, EtBB, CtLL
 p12-p14 - Starting a game, Sarukkan's Chamber, Character Creation
     - SESSION 3 RULES
-p15     - Levelling Up - Study / Craft, Level circles
+p15     - Levelling Up - Study / Craft, Level rings
 ```
 
 
@@ -274,7 +274,7 @@ control of the narrative.
 
 ## Other flip complications: Wound cards
 
-Sometimes you flip over a Wound card and must lose a Stamina point. See the
+Sometimes you flip over a wound card and must lose a Stamina point. See the
 [Combat chapter](#combat).
 
 
@@ -536,16 +536,17 @@ using any relevant move cards and item cards, otherwise:
    - the GM describes how the character was wounded
    - Lose a Stamina point
    - Place a *Wound token* on your *Exhaustion pile*
-   - Place a *Wound card* in your *discard pile*. It will now start cycling
-     between your Deckahedron and your *discard pile*.
+   - Randomly draw a *wound card* from the supply and place it in your
+     *discard pile*. It will now start cycling between your Deckahedron
+     and your *discard pile*.
 
 ![Wound token](images/component_wound.png){ width=2.5inch }
 
 ### A Wound Card
 
-![Image of Wound card](images/wound_200.png){ width=1.1inch }
+![Image of wound card](images/wound_200.png){ width=1.1inch }
 
-Having a *Wound card* in your Deckahedron causes some nasty effects.
+Having a *wound card* in your Deckahedron causes some nasty effects.
 
 Whenever you **flip** and reveal a wound card, follow these rules:
 
@@ -845,7 +846,7 @@ When you spend a day healing:
  * Step 4: Count the *Wound* tokens on your *Exhaustion pile*
  * Step 5: Keep that many cards (player choses which ones) in your
    *Exhaustion pile*, put the rest into your *discard pile*
- * Step 6: Return one *Wound* token and one *Wound card* to the supply
+ * Step 6: Return one *Wound* token and one *wound card* to the supply
 
 As with *Resting*, time spent *Seeking Help* cannot also be used in
 activities that take effort.
@@ -863,39 +864,30 @@ Remove all Harm and Wound tokens from your armour cards.
 
 ![Bravely Run Away card](images/move_bravely_run_away.png){ width=2.5inch }
 
-`TODO`
+When players find themselves on the losing side of a battle, or want to
+avoid a daunting threat, they may choose to run away. If their characters
+are positioned in a way that their escape is possible, the GM will allow
+them to escape, but there is a cost. The players temporarily lose narrative
+control and the GM gets to say where the players' characters end up.
+
+There may also be a Stamina cost (or Stamina gain) depending on how weighed
+down the characters were by their equipment.
 
 
 ### Shop / Procure
 
 ![Shop / Procure card](images/move_shop__procure.png){ width=2.5inch }
 
-Make mundane items - here's the process... `TODO`
-
     GM Note: Don't hand a player a card they can't use because they
     lack the requirements.
 
-## Magic Items
+## Mundane Items: Armor, weapons, etc
 
-`TODO`
-
-### Charges and Capacity
-
-By default magic items have capacity for 3 charges. When a charge is lost
-on a magic item, place a red card on it, white-side-up.
-
-Sometimes charges are lost *permanently*. When this happens, place a red
-card on it black-side-up.
-
-Magic items cannot be damaged.
-
-(Weapons granted magical effects via Tool Twisting can still be damaged)
-
-`TODO`
-
-## Armor, weapons
+There are mundane items in Deckahedron World, as well as magical ones.
 
 Damage to items is represented as black-side red cards
+
+Make mundane items - here's the process... `TODO`
 
 `TODO`
 
@@ -918,6 +910,54 @@ Many Knives      | 1           | At close range, can be thrown
 _ Bow            | 1           |
 
 `TODO`
+
+
+## Magic Items
+
+Deckahedron World supports stories involving magic. To avoid presuming too
+much about the narrative, the rules do not dicate the nature of magic or
+the "how" of magic. That's for you to decide during play.
+
+Is magic woven from subtle threads that pervade the universe? Is it based
+on words of power? Is it high technology hidden in the planet's crust
+by alien benefactors? Is it copied exactly from a concept in your Touchstone
+List? You decide.
+
+The rules give you a way to have scrappy adventurers begin with magic items.
+These artifacts have 3 charges, and are rechargable during Rest.
+Your character can eventually build themselves up in power to a point where
+they can cast magic spells without needing the items.
+
+The rules also give names for two sources of magical power, "The Living
+Light" and "The Blood-Bound". It's up to you to give these names narrative
+meaning, if you want.
+
+### Charges and Capacity
+
+By default magic items have capacity for 3 charges. When a charge is used
+on a magic item, place a red card on it, white-side-up.
+
+Sometimes charges are lost *permanently*. When this happens, place a red
+card on the item, black-side-up.
+
+Magic items cannot be damaged.
+
+(Weapons granted magical effects via Tool Twisting can still be damaged)
+
+### The ONGOING tag
+
+When you Use a Magic Item, you are "flowing magical energy" into it. Then
+the magical effects happen.
+
+Some magic effects happen immediately.
+
+Some magic effects persist even after you have finished flowing magical
+energy into the item. (eg, `_` of Light, Reaching `_`)
+
+Some magical effects persist only if you continue to flow magical energy
+into the item. These items are identified by the ONGOING tag. While you
+are flowing energy into such an item, you may not regain Stamina points
+or recover from Harm while using the Rest or Seek Help moves.
 
 
 # More Moves - Use a Magic Item, Entreat the Blood-Bound, Channel the Living Light
@@ -1034,21 +1074,21 @@ beer, you can copy the text onto a new card.
 
 ![requirements](images/move_requirements.png){ width=2.5inch }
 
-Some moves have requirements. These are illustrated as green circles,
+Some moves have requirements. These are illustrated as green rings,
 sometimes with a letter inside -- *R*, *F*, or *W*. Requirements are
 sometimes separated by a slash, **/**, which means "or".
 
 For example, using the Study Under a Master move can gain you the card
-Fundamental Magic only if you have two green circles or one *W* circle.
+Fundamental Magic only if you have two green rings or one *W* circle.
 
-What, then, are these circles?
+What, then, are these rings?
 
-Take a look through the move cards and see that there are partial circles
+Take a look through the move cards and see that there are partial rings
 printed on them - either in the corners or on the sides.
 
 When you can arrange your own move cards together in such a way that a
 circle is completed, you "have" a circle. If your cards can arrange to
-show 2 circles, then you "have" 2 circles.
+show 2 rings, then you "have" 2 rings.
 
 ![circle arrangements](images/circle_arrangements.png){ width=2.5inch }
 
@@ -1080,24 +1120,31 @@ competence with the skill by flipping green token cards.
 # SESSION 3 RULES
 ---
 
-## Level circles
+## Level cards and green rings
 
 At the beginning of a session, players should arrange their move cards
-to count how many green circles they have.
+to count how many green rings they have. Usually, players will not have
+any green rings at the beginning of session 2 -- session 3 tends to be
+the first session where this rule matters.
 
 ![level cards](images/component_card_level.png){ width=2.5inch }
 
-If you have a new green circle this session, you get to take a *Level card*.
+Once per session, if you have more green rings than *level cards*, you
+can take one new level card.
 
 Like move cards, level cards may also have requirements. Some require that you
-have a certain amount of circles to access them.
+have a certain amount of green rings to access them.
 
 ![blessing cards](images/component_card_blessings.png){ width=2.5inch }
 
-Some level cards will instruct you to take blessing cards.
+Some level cards will instruct you to take blessing cards. When instructed
+to do so, draw one blessing card at random from the supply.
+
+Blessing cards improve your Deckahedron by giving you better chances to
+succeed at moves.
 
 Note: some moves instruct you to match Chinese Zodiac symbols on the corners
-of cards. Blessing cards' corners have the "dragon" symbol which matches
+of cards. The corners of blessing cards have a "dragon" symbol, which matches
 all other symbols except for the "goat" symbol on the wound cards.
 
 
