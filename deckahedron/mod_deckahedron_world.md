@@ -556,6 +556,9 @@ Whenever you **flip** and reveal a wound card, follow these rules:
    This overrides the **Complete Flip Rule**)
  * Lose a Stamina point
 
+Note: some moves instruct you to match Chinese Zodiac symbols on the corners
+of cards. Wound cards' corners have the "goat" symbol which does not match
+any symbol.
 
 # Speed/Wealth/Equip
 
@@ -1092,6 +1095,10 @@ have a certain amount of circles to access them.
 ![blessing cards](images/component_card_blessings.png){ width=2.5inch }
 
 Some level cards will instruct you to take blessing cards.
+
+Note: some moves instruct you to match Chinese Zodiac symbols on the corners
+of cards. Blessing cards' corners have the "dragon" symbol which matches
+all other symbols except for the "goat" symbol on the wound cards.
 
 
 ### Sharpen and Stitch
