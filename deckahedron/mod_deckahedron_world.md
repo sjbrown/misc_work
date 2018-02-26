@@ -24,7 +24,7 @@ p7      - Moves - Do a Flashback, Critical Flip
     - SESSION 2 RULES
 p6      - Set up an advantage with Discern, Defend
 p8      - More Moves - Take a Breather, Rest, Heal
-p9      - More Moves - Run, Shop, GTIB, S+S
+p9      - More Moves - Run, Shop, S+S
 p10     - Mundane Items - Armor, weapons
 p11     - More Moves - Use a Magic Item, EtBB, CtLL
 p12-p14 - Starting a game, Sarukkan's Chamber, Character Creation
@@ -174,6 +174,10 @@ It tells you how the GM should interpret the ✗s and ✔s.
 Afterward, any card used during a flip goes face-up in a *discard pile*.
 Later, you will start another pile of face-up cards called an
 *Exhaustion pile*.  Keep them separate.
+
+Note: some move cards give you or the GM a choice between several options.
+If one of the options is impossible (fictionally or mechanically), it may
+not be chosen. Choose one of the other options instead.
 
 ## For example,
 
