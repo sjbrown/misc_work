@@ -111,7 +111,7 @@ Deckahedron World invites you to:
    * Refer to your **moves** to get ideas for your character
  * Tell parts of the story
    * Tell your character's backstory
-   * Control your character's hirelings and animal companions
+   * Command your character's hirelings and animal companions
    * Refer to your **moves** to see what boundaries you can push
 
 As the conversation unfolds, the rules will chime in as well.  When that
@@ -127,7 +127,7 @@ This guide will teach you how to do those things.
 # The Deckahedron
 
 Every player except the GM gets a Deckahedron. Inspect your Deckahedron.
-You should have 20 cards.  There are 4 symbols on the fronts and
+You should have 20 cards.  There are 4 symbols, or "suits", on the fronts and
 backs of the cards:
 
 Name      | symbol                                  | odds                              | color  | rank

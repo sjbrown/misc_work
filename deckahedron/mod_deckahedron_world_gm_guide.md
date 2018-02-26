@@ -475,6 +475,56 @@ Try to keep up the excitement and pace of play with your GM moves, but also
 know that it's ok to invest a little in making them significant and to pause
 for a second to think through some repercussions.
 
+### Reveal an unwelcome truth, Show signs of an approaching threat, etc
+
+Understand that when a player resolves a flip with ✗✗, that doesn't always
+mean that the thing they were attempting fails.
+
+The GM is free to let the character accomplish the thing, but may use the
+flip result to bring new action and intrigue into the story.
+
+Let's say a player's character is a thief infiltrating a stronghold, hired
+to steal a fabled yellow amulet. Maybe the character attempts to climb over
+a wall to avoid being seen by guards. Consider the following consequences
+of an ✗✗:
+
+ * You fail to get over in time and the guards start yelling and pulling at
+   your boots
+   (Use a monster, danger, or location move)
+ * You climb over, but as you do so, you overhear the guards in friendly
+   conversation with someone that sounds a lot like the fence that hired you
+   for this caper
+   (Reveal an unwelcome truth)
+ * You climb over. You pause for a second to listen for the guards' passing.
+   You hear their footsteps slow, then stop. Have they found something?
+   Suddenly, one barks an order "Get to the tower and sound the alarm. Run!"
+   (Show signs of an approaching threat)
+ * You climb over. The camera pans up to the dark sky, we see grey feathered
+   beasts with the faces of birdlike wolves, the flaps of their wings loud and
+   ominous. Each of their tails ends in a glowing yellow shape extremely
+   similar to the description of the amulet.
+   (Show signs of an approaching threat)
+
+The first example is pretty straightforward, a thing was tried, it
+failed, the character suffers the direct consequences.
+
+In the remaining three examples, the character got to the other side of the
+wall safely. A fictional cue triggered the move, the mechanisms of the rules
+were engaged, and then the GM chose to create new, separate, fictional
+badness. The fiction produced by the engaging the rules does not have to be
+constrained by the fiction that engaged them.
+
+The last example does something even more strange. It talks about a
+disembodied "camera" and portrays a scene to the *players*, but not to the
+*characters*. This can be a fun style of play in Deckahedron World, but
+it may not please every group because it "breaks immersion". If you
+describe the world like a movie, you're asking players to be audience,
+not actors.
+
+Always be on the lookout for signals from the players for the kind of fun
+they want to have.
+
+
 ### Deal damage
 `TODO`
  * Stamina/Harm/Wound damage
