@@ -607,6 +607,31 @@ Traps, ambushes, and locked doors are great examples.
 Need some Derring-Do to avoid giant clock-tower gears?
 Maybe proof of religious or guild affiliation would confer a backstage pass?
 
+### Show a downside to their appearance, reputation, or equipment
+
+Just as every character shines, they all have their unique weaknesses too. Do
+orcs have a special thirst for elven blood? Is an ongoing flow of magic
+disturbing dangerous forces? The torch that lights the way also draws
+attention from eyes in the dark.
+
+### Offer an opportunity, with or without cost
+
+Show them something they want: riches, power, glory. If you want, you can
+associate some cost with it too, of course.
+
+Remember to lead with the fiction. You don't say, "This area isn't dangerous
+so you can make camp here, if you're willing to take the time." You make it
+a solid fictional thing and say, "Helferth's blessings still hang around the
+shattered altar. It's a nice safe spot, but the chanting from the ritual
+chamber is getting louder. What do you do?"
+
+### Put someone in a spot
+
+A spot is someplace where a character needs to make tough choices. Put them,
+or something they care about, in the path of destruction. The harder the choice,
+the tougher the spot.
+
+
 ### Tell the requirements or consequences and ask
 
 Ok, everyone flees from the hammer-camels into the water, but let me ask this
