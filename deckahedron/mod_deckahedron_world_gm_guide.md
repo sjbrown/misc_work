@@ -453,7 +453,7 @@ doesn't need to jump in.
  * Use up their resources
  * Turn their move back on them
  * Separate them
- * Give an opportunity that fits a character's move cards
+ * Give an opportunity that fits a players's cards or character's background
  * Show a downside to their appearance, reputation, or equipment
  * Put someone in a spot
  * Offer an opportunity, with or without cost
@@ -475,7 +475,10 @@ Try to keep up the excitement and pace of play with your GM moves, but also
 know that it's ok to invest a little in making them significant and to pause
 for a second to think through some repercussions.
 
-### Reveal an unwelcome truth, Show signs of an approaching threat, etc
+Note that the move you execute may overlap a couple ideas. For example,
+"deal damage" is a move, but other moves may include damage as well.
+
+### A GM move is not restricted to the player move that caused it
 
 Understand that when a player resolves a flip with ✗✗, that doesn't always
 mean that the thing they were attempting fails.
@@ -512,7 +515,7 @@ In the remaining three examples, the character got to the other side of the
 wall safely. A fictional cue triggered the move, the mechanisms of the rules
 were engaged, and then the GM chose to create new, separate, fictional
 badness. The fiction produced by the engaging the rules does not have to be
-constrained by the fiction that engaged them.
+constrained to the fiction that engaged them.
 
 The last example does something even more strange. It talks about a
 disembodied "camera" and portrays a scene to the *players*, but not to the
@@ -525,22 +528,104 @@ Always be on the lookout for signals from the players for the kind of fun
 they want to have.
 
 
+### Reveal an unwelcome truth
+
+An unwelcome truth is a fact the players wish wasn't true: that the room's
+been trapped, maybe, or that the helpful goblin is actually a spy. Reveal
+to the players just how much trouble they're in.
+
+### Show signs of an approaching threat
+
+This is one of your most versatile moves. "Threat" means anything bad
+that's on the way. With this move, you just show them that something's
+going to happen unless they do something about it.
+
 ### Deal damage
+
+When you deal damage, choose one source of damage that's fictionally
+threatening a character and apply it. In combat with a lizard man?
+It stabs you. Triggered a trap? Rocks fall on you.
+
+The amount of damage is decided by the source. In some cases, this
+move might involve trading damage both ways, with the character also
+dealing damage.
+
+Most damage is based on a die roll. When a player takes damage, tell
+them what to roll. You never need to touch the dice.
+
 `TODO`
  * Stamina/Harm/Wound damage
  * Damage their weapons and armour
+
+### Use up their resources
+
+Surviving in dangerous places often comes down to supplies. With this
+move, something happens to use up some resource: weapons, armor, magical
+item charges, ongoing magical effects. You don’t always have to use it
+up permanently.
+
+A sword might be flung to the other side of the room, crossing
+the shimmering barrier might end any ongoing magic effects, etc.
+
+`TODO`
+ * Wealth / Equip
  * Player loses confidence in the skill they just tried.  Put a white-side
    red card on it until they use it and flip a ✔ or ✔✔
+
+### Turn Their Move Back On Them
+
+Think about the benefits a move might grant a character and turn them around
+in a negative way. Alternately, grant the same advantage to someone who has
+it out for the characters.
+
+If Ivy has learned of Duke Horst's men approaching from the east, maybe a
+scout has spotted her, too.
+
+### Separate Them
+
+There are few things worse than being in the middle of a raging battle with
+blood-thirsty owlbears on all sides -- one of those things is being in the
+middle of that battle with no one at your back.
+
+Separating the characters can mean anything from being pushed apart in the
+heat of battle to being teleported to the far end of the dungeon. Whatever
+way it occurs, it's bound to cause problems.
+
+### Give an opportunity that fits a players's cards or character's background
+
+Every character has unique move cards for skills that they shine at, or has a
+fictional backstory that can overcome social obstacles or tests of knowledge.
+
+Present an opportunity that plays into one character's domain.
+
+It doesn't have to be a character that's in the current scene though.
+Sometimes a locked door stands between you and treasure and there's no
+lockpicking expert in sight. This is an invitation for invention, bargaining,
+and creativity.
+
+Traps, ambushes, and locked doors are great examples.
+Need some Derring-Do to avoid giant clock-tower gears?
+Maybe proof of religious or guild affiliation would confer a backstage pass?
 
 ### Tell the requirements or consequences and ask
 
 Ok, everyone flees from the hammer-camels into the water, but let me ask this
-first: Samwise, you're wearing plate armour. If you leave it behind on the
-bank of the river, you can swim where you like, but if you keep it on, I'm
-going to ask for a Defy Danger flip with your Strength.
+first: Samwise is wearing plate armour. If he leaves it behind on the
+bank of the river, will someone else provide a distraction so he can remove
+it? Samwise, if you keep it on, I'm going to ask for a Defy Danger flip with
+your Strength.
 
+This move is particularly good when they want something that's not covered
+by a player move, or they've failed a move. They can do it, sure, but they'll
+have to pay the price. Or, they can do it, but there will be consequences.
 
-`TODO`
+Base the requirements or consequences in the fiction and make them clear
+to the characters, not just the players.
+
+This can also be a good move to underscore particularly tricky dangers. Let
+the players know that if they attempt to dive between the giant clockwork
+gears, you're going to spend points from the *Bad Bank* to increase the
+difficulty.
 
 
 ### Sarukkan's Chamber Details - take them or leave them
@@ -1260,6 +1345,11 @@ creature without further expenditure from the Bad Bank.
 
 Consistency prevents players from feeling the game is unfair or that you are
 especially aiming negative consequences at them.
+
+### Critical Failures
+
+If a player resolves a flip with the *critical failure* card, the GM may use
+1 point from the *Bad Bank* to make an additional move.
 
 `TODO`
 
