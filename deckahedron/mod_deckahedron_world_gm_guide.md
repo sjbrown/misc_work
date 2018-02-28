@@ -347,12 +347,13 @@ If this is your first time being a GM, you might feel intimidated. That's
 ok. Remember, this is not high art, this is improv. You are *playing* to
 find out what happens.
 
-Here are 3 gems to come back to whenever you don't know what to say next.
+Here are 5 gems to come back to whenever you don't know what to say next.
 
  * Portray a fantastic world
  * Fill the characters' lives with adventure
  * Ask the players
  * Refer to your moves for ideas
+ * Drive towards your next point in the *Good Bank*
 
 Firstly, **portray a fantastic world**. Deckahedron World is about
 characters who have decided to take up an adventure in the hopes of some
@@ -473,10 +474,13 @@ and make decisions:
 
 Try to keep up the excitement and pace of play with your GM moves, but also
 know that it's ok to invest a little in making them significant and to pause
-for a second to think through some repercussions.
+for a second to think through some repercussions. Will the move you make
+drive the story toward your next point in the *Good Bank*?
 
-Note that the move you execute may overlap a couple ideas. For example,
-"deal damage" is a move, but other moves may include damage as well.
+Note that the move you execute in play may actually overlap multiple moves
+on this list. That's ok, creating honest fictional responses sometimes
+demands it. For example, "deal damage" is a move, but other moves may include
+damage as well.
 
 ### A GM move is not restricted to the player move that caused it
 
@@ -622,8 +626,8 @@ associate some cost with it too, of course.
 Remember to lead with the fiction. You don't say, "This area isn't dangerous
 so you can make camp here, if you're willing to take the time." You make it
 a solid fictional thing and say, "Helferth's blessings still hang around the
-shattered altar. It's a nice safe spot, but the chanting from the ritual
-chamber is getting louder. What do you do?"
+shattered altar. It's a safe area to rest or plan, but the chanting from the
+ritual chamber is getting louder. What do you do?"
 
 ### Put someone in a spot
 
@@ -631,14 +635,13 @@ A spot is someplace where a character needs to make tough choices. Put them,
 or something they care about, in the path of destruction. The harder the choice,
 the tougher the spot.
 
-
 ### Tell the requirements or consequences and ask
 
-Ok, everyone flees from the hammer-camels into the water, but let me ask this
-first: Samwise is wearing plate armour. If he leaves it behind on the
-bank of the river, will someone else provide a distraction so he can remove
-it? Samwise, if you keep it on, I'm going to ask for a Defy Danger flip with
-your Strength.
+"Ok, everyone flees from the hammer-camels into the water, but let me ask this
+first: Samwise is wearing plate armour. If he leaves it behind on the bank of
+the river, will someone else provide a distraction so he can remove it? Or,
+Samwise, if you keep it on and try to swim, I'm going to ask for a Defy Danger
+flip with your Strength."
 
 This move is particularly good when they want something that's not covered
 by a player move, or they've failed a move. They can do it, sure, but they'll
@@ -1352,8 +1355,6 @@ tools to reflect this in the game.
 
 There are strict rules.  Be realisitic *and* work within the boundaries.
 
-### Disadvantages
-
 Let's say the party of adventurers is in a dark cave at nighttime and
 no torches are lit.
 A multi-winged bat creature swoops down at them, claws slashing. The first
@@ -1362,30 +1363,44 @@ Because of the set-up, it makes sense that this will be more difficult than
 if the character could clearly see the creature and the cave floor they're
 diving into.
 
- - You can use 2 points from the *Bad Bank* to create one level of disadvantage
+ * You can use 2 points from the *Bad Bank* to create one level of disadvantage
 
 This level of disadvantage should now be applied *consistently* whenever any
 character attempts to avoid a swooping attack in a dark environment from a bat
 creature without further expenditure from the Bad Bank.
 
 Consistency prevents players from feeling the game is unfair or that you are
-especially aiming negative consequences at them.
+especially aiming negative consequences at one player.
 
-### Critical Failures
+## Critical Failures
 
 If a player resolves a flip with the *critical failure* card, the GM may use
 1 point from the *Bad Bank* to make an additional move.
 
+## Creating Deadly Combat Encounters
+
 `TODO`
 
- * Make a "soft" move
- * Give a foe an extra starting Stamina point
- * Reduce a friendly NPC's starting Stamina points
- * Give a foe +1 to the next time they do damage
- * Make a cost a bit more expensive
- * Make a treasure a bit less valuable
- * One of the character's resources gets cosmetically changed
+ * Give a foe an extra starting Stamina point - 1 point
+ * Increase a foe's attack power die - 2 point
+ * Give a foe a spot for a wound - 3 points
 
+## Creating Deadly Pursuits
+
+`TODO`
+
+ * Make a player's move cost 1 physical or mental Stamina to execute
+
+## It's a Decoy
+
+`TODO`
+
+If you spend 3 points from the *Bad Bank*, you can move the MacGuffin one
+level deeper into a dangerous place. Or have it swiped away at the last
+second by a dangerous foe.
+
+You can do this even if all facts led the players to think they were just
+about to acquire their prize.
 
 
 # Creating Challenges for Players
