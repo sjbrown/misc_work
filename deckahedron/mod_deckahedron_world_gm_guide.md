@@ -825,15 +825,10 @@ They may only choose 1 A card each.
 
 They may only choose 2 B cards each.
 
-#### Choose cards: Alternative rules for first-time players
+#### Choose cards: Rules for first-time players
 
 If this is your players' **first** experience with a role-playing game,
-Tell the players to choose only 2 of the A, B or C cards, and have them
-also choose a "Risk Driver" card.
-
-Place two green tokens on each player's Risk Driver card.
-When their character first *takes a big risk* by the method or
-for the reason written on their card, they receive the tokens.
+tell the players to also choose a "Risk Driver":
 
  * Expose an embarrassment
  * Locate a prize
@@ -848,6 +843,11 @@ for the reason written on their card, they receive the tokens.
  * Consort with the unsavory
  * Believe an impossible claim
  * Get called out on your boasting
+
+Write the chosen phrase on a blank card and hand it to the player. Place
+two green tokens on each player's Risk Driver card. When their character
+first *takes a big risk* by the method or for the reason written on their
+card, they player takes the tokens.
 
 
 ### Add flesh

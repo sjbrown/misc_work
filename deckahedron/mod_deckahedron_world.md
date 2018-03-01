@@ -518,7 +518,7 @@ using any relevant move cards and item cards, otherwise:
 
 ![Harm token](images/component_harm.png){ width=2.5inch }
 
-> Note, this "one-hit, two-hit, over" pattern is repeated in many
+> Note, this "one-hit, two-hit, bust" pattern is repeated in many
 > of Deckahedron World's rules
 
 ## Wounds
@@ -681,8 +681,9 @@ The GM has rules to guide you through creating your character in the
 GM Guide.
 
 Take turns picking your starting moves. During character creation, you
-can't pick a move another player has already picked, but you can study
-those moves later if you want, see the Study Under a Master description below.
+can't pick a move another player has already picked, but your character can
+become skilled in those moves later. See the Move Levels and Study Under a
+Master sections below.
 
 Moves with the *RECEIVE CARDS* tag allow you to get some item cards during
 character creation.
@@ -699,18 +700,19 @@ After you choose your starting moves, Choose 2 items
 
 ## Carrying Items Reduces Speed
 
-There are blanks on some cards, and some cards are entirely blank.
-You get to define what your items are. But you do not get to change the
-rule that each item you carry reduces your speed.
+There are blanks on some item cards, and some items are designed starting
+from entirely blank cards. You get to give your items descriptive names
+and define what they are. But you do not get to change the rule that each
+item you carry reduces your speed.
 
-A player inevitably asks why the magic amulet or ring they've created,
-a trinket that is normally a couple grams, reduces their speed.  At that point
-the GM may return the question, "Yes, why does it weigh you down? What
-about magic in this world, or what about your character makes them
-especially burdened by magical items?"
+It is common for a player to ask why the magic amulet or ring they've created,
+a trinket that is normally a couple grams, reduces their speed. The GM didn't
+give the item its descriptive name, so an explanation isn't the GM's
+resposibility. The GM may even return the question, "Yes, why does it weigh
+you down? What about magic in this world, or what about your character makes
+them especially burdened by magical items? Does your character even know?"
 
 The narrative of Deckahedron World is a collaboration.
-
 
 ### Fitting the fiction
 
@@ -978,7 +980,7 @@ _ Armour         | 3                 | 3 Harm/Wound
 #### Shields
 
 Shields are a way to avoid Harm and Wound tokens, but they test your
-Dex in order to succeed.
+Dex in order to succeed. See the Bracers card for an example.
 
 To make a Shield card, first the GM chooses the ✔✔, ✔, and ✗ effects by
 choosing 3 sequential effects from this list:
@@ -988,7 +990,7 @@ choosing 3 sequential effects from this list:
  * Avoid the *x*, lose 1 Stamina
  * Avoid the *x*, lose 1 Stamina and this item takes 1 damage
 
-The *x* can be replaced by either:
+The *x* can be either:
 
  * Harm
  * Harm or Wound
@@ -1041,7 +1043,7 @@ energy into the item. (eg, `_` of Light, Reaching `_`)
 Some magical effects persist only if you continue to flow magical energy
 into the item. These items are identified by the ONGOING tag. While you
 are flowing energy into such an item, you may not regain Stamina points
-or recover from Harm while using the Rest or Seek Help moves.
+while using the Rest or Seek Help moves.
 
 
 # More Moves - Using Magic Items
@@ -1051,13 +1053,17 @@ or recover from Harm while using the Rest or Seek Help moves.
 ## Use a Magic Item
 ## Entreat the Blood-Bound
 
-Ask that player "Who is the Blood-Bound"?
+If it has not yet been established, when a player first uses this move, the GM
+should ask them: "Who or what is the Blood-Bound?"
 
     GM Note: this is a great way to stretch your improv muscles. Say "Yes,
     and..." no matter if they identify the Blood-Bound as tiny, parasitic
     insects or as monstrous, extradimensional dark gods.
 
 ## Channel the Living Light
+
+If it has not yet been established, when a player first uses this move, the GM
+should ask them: "Who or what is the Living Light?"
 
 
 # Move Levels
@@ -1082,8 +1088,7 @@ the card and your character would be "studied" in the skill.
 The word "STUDY" is over "base level", so that's the level you would
 start at.
 
-Note: some moves, like Void Transfusion, don't start you off at the base
-level.
+Note: some moves, like Void Transfusion, don't start you off at the base level.
 
 ## Increased Move Levels
 
@@ -1167,7 +1172,7 @@ sometimes with a letter inside -- *R*, *F*, or *W*. Requirements are
 sometimes separated by a slash, **/**, which means "or".
 
 For example, using the Study Under a Master move can gain you the card
-Fundamental Magic only if you have two green rings or one *W* circle.
+Fundamental Magic only if you have two green rings or one *W* ring.
 
 What, then, are these rings?
 
@@ -1175,17 +1180,16 @@ Take a look through the move cards and see that there are partial rings
 printed on them - either in the corners or on the sides.
 
 When you can arrange your own move cards together in such a way that a
-circle is completed, you "have" a circle. If your cards can arrange to
+ring is completed, you "have" a ring. If your cards can arrange to
 show 2 rings, then you "have" 2 rings.
 
-![circle arrangements](images/circle_arrangements.png){ width=2.5inch }
+![ring arrangements](images/ring_arrangements.png){ width=2.5inch }
 
 If your card arrangement had the cards Pick Pockets and Not On My Turf
-next to each other, you could complete an *R* circle. If you had
+next to each other, you could complete an *R* ring. If you had
 the Scent of Blood card instead of the Not On My Turf card, you could
-arrange it next to Pick Pockets to complete a circle, but it would not
-be an *R* circle or an *F* circle, it would just be a regular green
-circle.
+arrange it next to Pick Pockets to complete a ring, but it would not
+be an *R* ring or an *F* ring, it would just be a regular green ring.
 
 You do not have to keep your cards in this arrangement while you play,
 
@@ -1240,17 +1244,11 @@ all other symbols except for the "goat" symbol on the wound cards.
 
 ![Sharpen and Stitch card](images/move_sharpen__stitch.png){ width=2.5inch }
 
-Damage to items is represented as black-side red cards
-
-`TODO`
-
-## Item damage
-
 Non-magical items can be damaged in Deckahedron World. Usually this happens
 narratively as the result of a GM move, but it can also be caused by player
 moves, eg. Armour Mastery.
 
-The "one-hit, two-hit, over" mechanism is used to represent damage.
+The "one-hit, two-hit, bust" mechanism is used to represent damage.
 
 The first two times an item is damaged, place a red card on the Item card,
 black-side-up.
@@ -1264,9 +1262,9 @@ cards to the supply.
 
 ![Craft a Weapon card](images/move_craft_a_weapon.png){ width=2.5inch }
 
-When crafting a weapon, ask how many red tokens it takes (ie, how much it
-reduces a character's speed). The GM should weigh that cost against the
-weapon's other features
+The GM should decide how many Speed / Wealth / Equip tokens the weapon
+requires. Is the item particularly heavy or large? The GM should weigh that
+cost against the weapon's other features.
 
 ### Weapon Mastery
 
@@ -1282,3 +1280,4 @@ weapon's other features
 
 If you add a 2nd magical effect to a weapon with Tool Twisting, it still only
 has 1 maximum charge, no matter which effect you use.
+
