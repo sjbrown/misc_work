@@ -862,9 +862,9 @@ You may gird all your armour, where applicable.
 Remove all Harm and Wound tokens from your armour cards.
 
 
-## More Moves - Run, Shop
+# More Moves - Run, Shop
 
-### Bravely Run Away
+## Bravely Run Away
 
 ![Bravely Run Away card](images/move_bravely_run_away.png){ width=2.5inch }
 
@@ -878,45 +878,111 @@ There may also be a Stamina cost (or Stamina gain) depending on how weighed
 down the characters were by their equipment.
 
 
-### Shop / Procure
+## Shop / Procure
 
 ![Shop / Procure card](images/move_shop__procure.png){ width=2.5inch }
 
-    GM Note: Don't hand a player a card they can't use because they
-    lack the requirements.
+When the Shop / Procure move is used, the scene can be described as an
+everyday shopping trip or a theiving escapade, or anything that makes sense
+in the narrative, so long as the outcome would be certain.
 
-## Mundane Items: Armor, weapons, etc
+The GM presents 4 cards to the player of any mix of items: mundane,
+magical, a special commodity established in the narrative, or even
+something purely decorative. It is ok for the GM and player to discuss
+the items beforehand to any level of detail, and it is also ok for the
+player to outright say what they want to go shopping for.
+
+The GM should be honest with the narrative, stay true to their goals and
+try to provide the kind of fun the player has signaled they want to have.
+
+The GM shall not hand a player a card with mechanical requirements the
+player's character doesn't meet.
+
+### Mundane Items: Armor, weapons, etc
 
 There are mundane items in Deckahedron World, as well as magical ones.
+Deckahedron World has rules for weapons, shields, and armour. But characters
+may have other items as well. Those other items may just be decorative
+or they may have narrative value (carrying around a small barrel of brandy
+may earn you a welcome from the thirsty dwarves you meet).
 
-Damage to items is represented as black-side red cards
+You can even create rules of your own for certain classes of item.
+See the [Extending Deckahedron World](#extending) chapter for hints on how
+to do that.
 
-Make mundane items - here's the process... `TODO`
+`TODO item damage diagram`
+
+Damage to items is represented as black-side red cards. When an item is
+damaged a third time -- when it would take a 3rd black-side red card --
+it is instead destroyed. The card is returned to the supply.
+
+#### Weapons
+
+Weapons cards describe what the character has armed themself with. These
+cards don't have to just be about one item, as the Many Knives card
+demonstrates.
+
+Weapons have a "power level": d4, d6, or d10. This determines what die to
+roll when you roll attack power.
+
+The GM should decide how many Speed / Wealth / Equip tokens the weaponry
+requires. Is the item particularly heavy or large?
+
+Here are the weapons available to characters during character creation:
+
+Name             | token requirement | notes
+-----------------|-------------------|--------------
+_ Sword          | 1                 |
+Many Knives      | 1                 | At close range, can be thrown
+_ Bow            | 1                 | Long range
+
+
+#### Armour
+
+When an armour-clad character would normally take Harm or a Wound, the
+player may put the Harm or Would token into an appropriate empty slot on
+their Armour card.
+
+The armour available to characters during character creation is simply Leather
+Armour. This style of armour has 2 slots for Harm tokens and cannot absorb
+a Wound.
+
+When a character goes shopping, goes a-thieving, discovers treasure, or loots
+a battlefield, the GM may offer new, more useful armour.
+
+The GM should draw up to 3 slots on the card. A slot shall be designated to
+receive either:
+
+ * 1 Harm token
+ * or 1 Harm *or* Wound token
+
+The GM should decide how many Speed / Wealth / Equip tokens the armour
+requires. Better armour tends to be heavier and harder to move gracefully
+in.
+
+The GM and player should agree on a descriptive name for the armour like
+"Padded" or "Chainmail" or "Full plate" and write that at the top of a card.
+The GM may use the name to create implications in the narrative -- it's hard
+to sneak or swim in full plate armour.
+
+If a GM writes narrative circumstances that cause a disadvantage on the
+armour card when it is created, no points need to be spent from *Bad Bank*
+to create the disadvantage later.
+
+Here are some example armours:
+
+Name             | token requirement | slots
+-----------------|-------------------|----------------------
+Leather Armour   | 1                 | 2 Harm
+_ Armour         | 2                 | 2 Harm, 1 Harm/Wound
+_ Armour         | 3                 | 3 Harm/Wound
+
+
+#### Shields
 
 `TODO`
 
-#### Armour Table
-
-Name             | token cost  | slots                | notes
------------------|-------------|----------------------|---------
-Leather Armour   | 1           | 2 Harm               |
-_ Armour         | 2           | 2 Harm, 1 Harm/Wound |
-Plate Armour     | 3           | 3 Harm/Wound         | requires help to don / doff
-
-`TODO`
-
-#### Weapon Table
-
-Name             | token cost  | notes
------------------|-------------|--------------
-_ Sword          | 1           |
-Many Knives      | 1           | At close range, can be thrown
-_ Bow            | 1           |
-
-`TODO`
-
-
-## Magic Items
+### Magic Items
 
 Deckahedron World supports stories involving magic. To avoid presuming too
 much about the narrative, the rules do not dicate the nature of magic or
@@ -936,7 +1002,7 @@ The rules also give names for two sources of magical power, "The Living
 Light" and "The Blood-Bound". It's up to you to give these names narrative
 meaning, if you want.
 
-### Charges and Capacity
+#### Charges and Capacity
 
 By default magic items have capacity for 3 charges. When a charge is used
 on a magic item, place a red card on it, white-side-up.
@@ -948,7 +1014,7 @@ Magic items cannot be damaged.
 
 (Weapons granted magical effects via Tool Twisting can still be damaged)
 
-### The ONGOING tag
+#### The ONGOING tag
 
 When you Use a Magic Item, you are "flowing magical energy" into it. Then
 the magical effects happen.
