@@ -980,7 +980,24 @@ _ Armour         | 3                 | 3 Harm/Wound
 
 #### Shields
 
-`TODO`
+Shields are a way to avoid Harm and Wound tokens, but they test your
+Dex in order to succeed.
+
+To make a Shield card, first the GM chooses the ✔✔, ✔, and ✗ effects by
+choosing 3 sequential effects from this list:
+
+ * Avoid the *x*
+ * Avoid the *x*, but choose to lose 1 Stamina or this item takes 1 damage
+ * Avoid the *x*, lose 1 Stamina
+ * Avoid the *x*, lose 1 Stamina and this item takes 1 damage
+
+The *x* can be replaced by either:
+
+ * Harm
+ * Harm or Wound
+
+Then the GM and player come up with a name for this kind of shield together,
+using the same rules as the Armour name-creation above.
 
 ### Magic Items
 
@@ -1030,9 +1047,12 @@ are flowing energy into such an item, you may not regain Stamina points
 or recover from Harm while using the Rest or Seek Help moves.
 
 
-# More Moves - Use a Magic Item, Entreat the Blood-Bound, Channel the Living Light
+# More Moves - Using Magic Items
 
 `TODO`
+
+## Use a Magic Item
+## Entreat the Blood-Bound
 
 Ask that player "Who is the Blood-Bound"?
 
@@ -1040,6 +1060,7 @@ Ask that player "Who is the Blood-Bound"?
     and..." no matter if they identify the Blood-Bound as tiny, parasitic
     insects or as monstrous, extradimensional dark gods.
 
+## Channel the Living Light
 
 
 # Move Levels
