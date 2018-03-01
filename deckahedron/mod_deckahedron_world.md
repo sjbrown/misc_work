@@ -1,10 +1,5 @@
 # Deckahedron World - Player's Guide
 
-This is an adaptation of
-[Dungeon World](http://www.dungeon-world.com/)
-for the
-[Deckahedron System](foundation.md)
-
 # Tagline
 
 Like board games?  Remember Dungeons & Dragons? Think you can improv?
@@ -923,7 +918,9 @@ cards don't have to just be about one item, as the Many Knives card
 demonstrates.
 
 Weapons have a "power level": d4, d6, or d10. This determines what die to
-roll when you roll attack power.
+roll when you roll attack power. Higher power weapons should not be given
+out lightly. Generally players should seek weapon power increases from the
+Craft a Weapon and _ Mastery moves.
 
 The GM should decide how many Speed / Wealth / Equip tokens the weaponry
 requires. Is the item particularly heavy or large?
