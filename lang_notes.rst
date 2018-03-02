@@ -1031,6 +1031,20 @@ We could introduce alternate operators:
  * `or` behaves the way it does in JS and Python
  * `⧽OR⧼` always returns a boolean value
 
+```
+a = ⦗⦘ ⇥  return 0 ⇤
+b = ⦗⦘ ⇥  return 5 ⇤
+c = ⦗⦘ ⇥  return True ⇤
+
+x = a() or b()  # x is 5, a and b get called
+x = b() or a()  # x is 5, b gets called, a doesn't get called
+x = a() ⧽OR⧼ b()  # x is True, a and b get called
+x = b() ⧽OR⧼ a()  # x is True, a and b get called
+
+# Ternary-style construct:
+
+x = a() ⧽IF(c())⧼ b()  # a, b and c get called
+```
 
 ----
 
