@@ -1046,6 +1046,11 @@ x = b() ⧽OR⧼ a()  # x is True, a and b get called
 x = a() ⧽IF(c())⧼ b()  # a, b and c get called
 ```
 
+That seems a lot worse than just this:
+
+if c() ⇥  x = a() ⇤ else ⇥  x = b() ⇤
+x = ⦗⦘ ⇥  if c() ⇥  return a() ⇤ else ⇥  return b() ⇤ ⇤()
+
 ----
 
 Enumerated types:
