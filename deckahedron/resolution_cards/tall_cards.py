@@ -69,7 +69,7 @@ class Hack_and_Slash(Card):
     Roll attack power and choose
     '''
   desc = u'''
-    On a ✔✔, you can choose:
+    On a ✔✔, you can choose one:
     * Avoid the foe's attack
     * Add an extra attack power roll
     |
@@ -242,10 +242,10 @@ class Rest(Card):
 
 class Seek_Help(Card):
   desc = u'''
-    When you are in a peaceful environment where external resources with
-    healing powers are available, you may Seek Help. Do the following:
+    When in a peaceful environment where external resources with healing
+    powers are available:
     |
-    * Step 1: Describe your character's healing experience
+    * Step 1: Describe your healing experience
     * Step 2: Return all Exhaustion tokens to the supply
     * Step 3: Return all Harm tokens to the supply
     * Step 4: Count the Wound tokens on your Exhaustion pile
@@ -253,10 +253,7 @@ class Seek_Help(Card):
     * Step 6: Return 1 Wound token and 1 Wound card to the supply
     |
     |
-    Magic items regain their charges (remove all white-side red cards)
-    |
-    |
-    Gird all your armour (remove Harm and Wound tokens from your armour)
+    Idle magic items regain their charges. Gird all your armour.
     |
     |
     As with Rest, time spent Seeking Help cannot also be used in
