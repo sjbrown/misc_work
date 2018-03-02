@@ -71,8 +71,14 @@ class Hack_and_Slash(Card):
   desc = u'''
     On a ✔✔, you can choose:
     * Avoid the foe's attack
-    * Expose yourself to the foe's attack in order to
-    add one attack power roll.
+    * Add an extra attack power roll
+    |
+    |
+    The foe's attack can be any GM move made directly with that NPC or monster.
+    |
+    |
+    Some attacks may have additional effects depending on the triggering action,
+    the circumstances, or the weapons involved
     '''
 
 class Volley(Card):
@@ -217,10 +223,10 @@ class Rest(Card):
     When you are out of combat, not travelling, and have several hours
     to devote to rest, do the following:
     |
-    * Step 1: Discard all Exhaustion tokens
+    * Step 1: Return all Exhaustion tokens to the supply
     * Step 2: Count the Harm and Wound tokens on your Exhaustion pile
     * Step 3: Keep that many cards in your Exhaustion pile, put the rest into your discard pile
-    * Step 4: Discard one Harm token
+    * Step 4: Return one Harm token to the supply
     |
     |
     Magic items left idle regain their charges (remove all white-side red cards)
@@ -240,11 +246,11 @@ class Seek_Help(Card):
     healing powers are available, you may Seek Help. Do the following:
     |
     * Step 1: Describe your character's healing experience
-    * Step 2: Discard all Exhaustion tokens
-    * Step 3: Discard all Harm tokens
+    * Step 2: Return all Exhaustion tokens to the supply
+    * Step 3: Return all Harm tokens to the supply
     * Step 4: Count the Wound tokens on your Exhaustion pile
     * Step 5: Keep that many cards in your Exhaustion pile, put the rest into your discard pile
-    * Step 6: Discard one Wound token
+    * Step 6: Return 1 Wound token and 1 Wound card to the supply
     |
     |
     Magic items regain their charges (remove all white-side red cards)
