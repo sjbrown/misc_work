@@ -192,6 +192,7 @@ also take your opportunities to earn *Good Bank* points when they arise.
  * Return Threshold - Grieve
    * add Grief end-of-session questions - what will they miss most?
  * Change - Master of both worlds
+   * Where does their new power lie? Mechanisms? Relationships? Knowledge? Other?
 
 ## 30-hour Campaign
 
