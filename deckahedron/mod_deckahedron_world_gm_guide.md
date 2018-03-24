@@ -93,7 +93,7 @@ It's a fantasy story, so think dangerous, and take risks.
 Be true to your character's personality. Remember it's sort of like acting.
 
 Your character will start out as a scrappy adventurer, and rise in power
-to become a hero. Or villian. Or maybe they'll just die in the attempt.
+to become a hero. Or villain. Or maybe they'll just die in the attempt.
 And maybe they'll be resurrected after that.
 
 Each session will be about 3 hours.  We might spend a long time bouncing
@@ -228,7 +228,7 @@ _ (male protagonist) you are a thief-catcher.
 You're not too bright, but your boss, Gandlin, has taken you under his
 wing and taught you street wisdom. Merchants employ him to recover stolen
 valuables or they pay for simple retribution against the pilfering
-scoundrels. You provie the muscle. Gandlin sniffs them out, you beat
+scoundrels. You provide the muscle. Gandlin sniffs them out, you beat
 them up, and each shares in the reward.
 
 That's how it had been. Gandlin has now gone missing.
@@ -288,7 +288,6 @@ a situation that demands a response. Always.
 
 As a GM, this is what you will be doing most of the time.
 
-"""
 **Describe the immediate situation around the players at all times.** This
 is how you start a session, how you get things rolling after a snack break,
 get back on track after a great joke: tell them what the situation is in
@@ -302,7 +301,6 @@ clattering armor and shuffling feet, for instance.
 The situation around the players is rarely "everything's great, nothing to
 worry about". They're adventurers going on adventures -- give them something
 to react to.
-"""
 
 
 ### 3rd PC variant - The reluctant guard
@@ -334,7 +332,7 @@ You got called into the house just now.  Apparently a guest of the ball
 had been assaulted and stripped of their clothing.  The culprit might still
 be inside, so Yogran, a fellow guard pulled you to help him investigate.
 
-One other thing, Sarukkan is rumoured to be a practicioner of dark magic
+One other thing, Sarukkan is rumoured to be a practitioner of dark magic
 and all staff are forbidden to enter his chamber. You think Yogran is going
 to use you as a guinea pig to do just that.
 ```
@@ -454,7 +452,7 @@ doesn't need to jump in.
  * Use up their resources
  * Turn their move back on them
  * Separate them
- * Give an opportunity that fits a players's cards or character's background
+ * Give an opportunity that fits a player's cards or character's background
  * Show a downside to their appearance, reputation, or equipment
  * Put someone in a spot
  * Offer an opportunity, with or without cost
@@ -595,7 +593,7 @@ Separating the characters can mean anything from being pushed apart in the
 heat of battle to being teleported to the far end of the dungeon. Whatever
 way it occurs, it's bound to cause problems.
 
-### Give an opportunity that fits a players's cards or character's background
+### Give an opportunity that fits a player's cards or character's background
 
 Every character has unique move cards for skills that they shine at, or has a
 fictional backstory that can overcome social obstacles or tests of knowledge.
@@ -1022,7 +1020,7 @@ adventurer" level of the players. This table should help.
 
 Generally, human opponents will have d2 attack power when unarmed and d4
 attack power when armed. Save greater attack powers for monsters and special
-villians.
+villains.
 
 ### Calculate party power
 
@@ -1098,7 +1096,7 @@ during combat makes it feel that way.
 
 This format is simple, and gives the players the most agency.
 
-  - Give each player a "turn" where they will probably trigger an agressive
+  - Give each player a "turn" where they will probably trigger an aggressive
     combat move like Hack & Slash or Volley
   - Pay attention to IMMEDIATE combat moves that may have triggered
   - Execute the moves, make cool stuff happen as consequences
@@ -1137,7 +1135,7 @@ This format imagines the opponents as particularly quick and aggressive.
   - Give each player a "turn" where they will trigger a move
   - Pay attention to IMMEDIATE combat moves that may have triggered
   - When describing the outcome of a player's move, also describe how the
-    opponents take agressive action.
+    opponents take aggressive action.
   - Keeping the spotlight on that player, have them respond to the actions
     of their foes, usually by needing to follow their first flip with a
     Defy Danger flip.
@@ -1208,7 +1206,7 @@ out green tokens for correct answers.
 
 Start of simple - Ask each player for either a thing they learned about the
 world or a way they expressed their character's personality. If they can give
-a resonably correct answer, give them a green token.
+a reasonably correct answer, give them a green token.
 
 ### Ask for Notes
 
@@ -1266,7 +1264,7 @@ Get consent.
 The good bank is used to create certain kinds of "Deus Ex Machina"
 situations to benefit the players' characters.
 
-### Create Advantages
+## Create Advantages
 
 One point from the *Good Bank* may be spent to let a player as though
 they had the highest amount of advantage (flip-3-take-best). You may do
@@ -1303,7 +1301,7 @@ situation or effect.
 Flipping a wound card on these flips will still override the **Complete
 flip rule**.
 
-#### An NPC to the Rescue
+## An NPC to the Rescue
 
 When the players find themselves in a situation that looks dire:
 
@@ -1330,7 +1328,7 @@ to act as often as each player does.
    foe from acting as the combat spotlight moves around
  * The NPC may convey or reveal information valuable to the players
 
-#### Resurrect a Character
+## Resurrect a Character
 
 If a player character dies, you may spend a point from the *Good Bank* to
 bring them back to life.
@@ -1353,7 +1351,7 @@ Resurrection can come at a high cost.
 In real life, some actions are more difficult than others. The GM has some
 tools to reflect this in the game.
 
-There are strict rules.  Be realisitic *and* work within the boundaries.
+There are strict rules.  Be realistic *and* work within the boundaries.
 
 Let's say the party of adventurers is in a dark cave at nighttime and
 no torches are lit.
@@ -1413,7 +1411,7 @@ Monsters are just puzzles that can be brute-forced.
 
 Monsters represent something about the theme
 
-## Villians (aka "Bosses", aka "The Big Bad")
+## Villains (aka "Bosses", aka "The Big Bad")
 
 ## 3-way NPC Conflicts
 

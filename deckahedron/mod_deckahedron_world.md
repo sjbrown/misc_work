@@ -33,7 +33,7 @@ p15     - Levelling Up - Study / Craft, Level rings
 Deckahedron World is a system for telling a story.  The authors of the story
 are you and your friends, sitting around a table.
 
-This story is improvisiational, interactive, and collaborative.
+This story is improvisational, interactive, and collaborative.
 
 The rewards for playing are laughter and excitement while you play, and
 warm conversations for years afterwards that start with "Remember that time
@@ -75,7 +75,7 @@ Game Master, or "GM".  The other people will be called simply "Players".
 
 ### The GM
 
-The GM's job is to know all the rules, and say stuff.  Occassionally
+The GM's job is to know all the rules, and say stuff.  Occasionally
 they will write notes and scribble some quick numerical facts.
 
 The GM's domain is the world.
@@ -708,7 +708,7 @@ item you carry reduces your speed.
 It is common for a player to ask why the magic amulet or ring they've created,
 a trinket that is normally a couple grams, reduces their speed. The GM didn't
 give the item its descriptive name, so an explanation isn't the GM's
-resposibility. The GM may even return the question, "Yes, why does it weigh
+responsibility. The GM may even return the question, "Yes, why does it weigh
 you down? What about magic in this world, or what about your character makes
 them especially burdened by magical items? Does your character even know?"
 
@@ -1135,7 +1135,7 @@ disadvantage.
  * ![2 red symbol](images/move_level_2_red.png){ width=0.5inch } flip with 2 levels of disadvantage
  * ![1 red symbol](images/move_level_1_red.png){ width=0.5inch } flip with 1 level of disadvantage
 
-If you perfrom a "wild" level move, and you resolve that flip with a
+If you perform a "wild" level move, and you resolve that flip with a
 *green token card*, you can use that card to graduate to "novice" level.
 
 ![Red card](images/red_card_black.png){ width=2.5inch }
