@@ -695,8 +695,8 @@ character creation.
 After you choose your starting moves, Choose 2 items
  * a weapon is a popular choice. Unarmed, your attack power will be 1d2
  * You may choose 1 magical item
- * Without studying the Use A Magic Item move, it's still possible to use
-   magic items.
+   * Note, even without studying the Use A Magic Item move, it's still possible
+     to use magic items.
 
 ## Carrying Items Reduces Speed
 
@@ -1023,12 +1023,18 @@ meaning, if you want.
 By default magic items have capacity for 3 charges. When a charge is used
 on a magic item, place a red card on it, white-side-up.
 
-Sometimes charges are lost *permanently*. When this happens, place a red
+Sometimes charges are lost *permanently*. This means it loses a charge and
+its capacity for charges decreases by 1. When this happens, place a red
 card on the item, black-side-up.
+
+The Obsessive Contemplation move can be used to gain capacity. When a magic
+item gains capacity, remove one black-side red card from it, or, if there
+aren't any black-side red cards on it, write down its new capacity on the
+card.
 
 Magic items cannot be damaged.
 
-(Weapons granted magical effects via Tool Twisting can still be damaged)
+(Weapons granted magical effects via Tool Twisting *can* be damaged)
 
 #### The ONGOING tag
 
@@ -1051,6 +1057,9 @@ while using the Rest or Seek Help moves.
 `TODO`
 
 ## Use a Magic Item
+
+`TODO: Tool Twisting adds another choice: "the weapon is damaged"`
+
 ## Entreat the Blood-Bound
 
 If it has not yet been established, when a player first uses this move, the GM
