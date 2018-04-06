@@ -41,10 +41,10 @@ GM can earn.
 ## Start in a place of normalcy / comfort
 
 The first point in your good bank is a "gimmie": If you can think of a
-way to start all of the players' characters in a place of normalcy or
+way to start all of the players' characters in their place of normalcy or
 comfort, mark a point in your *Good Bank*. You *did* remember to follow
-the rules in the Character Creation and ask the players
-where their characters feel most at home, right?
+the rules in the Character Creation and ask the players where their
+characters feel most at home, right?
 
 ## Cross a threshold with a true choice
 
@@ -181,28 +181,87 @@ also take your opportunities to earn *Good Bank* points when they arise.
 
 # 9-hour Campaign
 
-## Start in a place of normalcy / comfort
+## Start in a place of normalcy / comfort AKA "You"
 
 In the 9-hour campaign, start the game just like you would in the One-shot
 campaign.
 
+## Call to adventure AKA "Need"
 `TODO`
 
- * Home
- * Mentor
- * Threshold & Threshold Guardian
- * Fun & Games
-   * level up
-   * everyone uses a new mechanic
+ * Provide a sandbox to play in, let the players establish what their
+   characters value here in the sandbox
+   * It could be a thing, but it could also be a theme - freedom,
+     progress, peace, etc
+
+ * Show something valuable is threatened (maybe the known world)
+
+ * Herald or Message - the unknown world threatens something valuable.
+
+ * Show a threat or challenge that they cannot *yet* overcome
+   * That may mean they are defeated by it
+     * They **need** more power
+   * Maybe a spell or skill is needed
+     * They **need** more power
+   * Maybe knowledge is needed
+     * They **need** information from the unknown world
+   * Maybe their place of comfort is exposed as insufficient
+     * lacking to provide for their growing desires or curiosity
+
+ * Be honest about this threat. If they fight something they cannot defeat
+   and don't retreat, incapacitation, even death† is an option.
+
+ * Impossible threat comes alongside a suggestion of hope
+   * "Maybe the oracle will know"
+   * "Great Hero perished in the badlands, but maybe his sword survived"
+   * Herald makes a promise
+   * You can be a small part of the solution if you come with me
+
+ * This threatening force will progress no matter the characters' choices
+   and will pervade the story as a "front".
+
+ * This is important: *the characters _need_ the things they will get when
+   the players _play_ the game*
+
+
+## Threshold and Threshold Guardian AKA "Go"
+`TODO`
+
+ * The amount of contrast between the ordinary and special worlds
+
+## Road of Trials AKA Fun & Games AKA "Search"
+`TODO`
+ * circle and use half your Bad Bank Points
+ * level up
+ * everyone uses a new mechanic
+ * use one of your Good Bank points
+
+ * "the promise of the premise"
+ * Remove baggage. Only the inner soul will remain
+
+## Master the soul AKA Reveal the treasure AKA "Find"
+`TODO`
  * Take
-   * use half your Bad Bank Points before they Rest
    * opportunity to level up
+
+## AKA "Take"
+`TODO`
+
  * Pay (Return Threshold Guardian)
    * use half your Bad Bank Points before they Rest
+
+## AKA "Return"
+`TODO`
+
  * Return Threshold - Grieve
    * add Grief end-of-session questions - what will they miss most?
+
+## AKA "Change"
+`TODO`
+
  * Change - Master of both worlds
    * Where does their new power lie? Mechanisms? Relationships? Knowledge? Other?
+
 
 ## 30-hour Campaign
 
