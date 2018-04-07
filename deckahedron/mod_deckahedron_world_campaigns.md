@@ -229,23 +229,95 @@ campaign.
 
  * The amount of contrast between the ordinary and special worlds
 
-## Road of Trials AKA Fun & Games AKA "Search"
-`TODO`
- * circle and use half your Bad Bank Points
- * level up
- * everyone uses a new mechanic
- * use one of your Good Bank points
+ * Same as One-shot campaign "Go"
 
- * "the promise of the premise"
- * Remove baggage. Only the inner soul will remain
+
+## Road of Trials AKA Fun & Games AKA "Search"
+
+The characters have now entered a situation that is not ordinary, not
+comfortable. There is mystery here, unknowns, new people, new territory.
+Their old coping mechanisms and skills will not have the same effectiveness
+as before. Consequences will change and heighten. New skills will be
+learned, new friendships established. New enemies will emerge.
+
+The **Search** should deliver "the promise of the premise". Go back to
+your Touchstone List and ask yourself some questions. What is the "juice" here?
+What spectacle, what adventure might the players have been fantasizing about
+when they chose the titles you see on this list? Don't be shy about copying.
+
+### Alot Bad Bank Points
+
+To begin the **Search** part of the story, circle **half** of the points
+currently in your *Bad Bank*.
+
+This new mysterious is dangerous. Use your *Bad Bank* points to represent
+this. Show the players that they might need to be smarter now. Problems are
+not solved here as easily as in the place of comfort.
+
+### New Problems, New Solutions
+
+At least once during the **Search**, give each player a chance to use the
+Study Under a Master or Shop / Procure moves and give each player a chance to
+use the skill or item they chose.
+
+### The Power and Magic of the Unknown World
+
+Make an exhibition of how this world has power unlike their place of comfort.
+There are forces here that aren't understood. Those forces can be scary, yes,
+but they can also be miraculous.
+
+Use one of your Good Bank points.
+
+### Finishing the Search
+
+You achieve your GM goal in the **Search** phase if
+
+ * you gave each player a chance to "level up" their character and use their
+   new skills or items
+ * and you used at least one *Good Bank* point
+ * and you used all the *Bad Bank* points you circled at the beginning
+
+If you do this, give yourself a point in your *Good Bank* and aim to move the
+plot to the next phase.
 
 ## Master the soul AKA Reveal the treasure AKA "Find"
-`TODO`
- * Take
-   * opportunity to level up
 
-## AKA "Take"
+When the narrative arrives at a point of relative quiet or peace, maybe
+during a Seek Help or Rest move, have an honest conversation with your
+players.
+
+This is a time for total vulnerability, weightlessness, and revelation.
+Using dreamlike and mystical imagery in your exposition can be a great way
+to set the stage.
+
+Tell them how you interpret the plot so far. Revisit where they've been,
+reinforce where they've arrived and say what it all means to you.
+Not as the sole author of a story, but as an interpreter of your shared
+authorship. Tell them how you see their characters, what they value, what
+they might represent metaphorically.
+
+Go around to each player and ask them
+
+ * What directions does your character see as possible from here, or does
+   your character want to just stay right where they are?
+ * Will your character sacrifice their life for something valuable in the
+   plot? If so, what, and why?
+ * Have the events of this journey caused your character to abandon a
+   *fundamental* belief they held at the beginning of the game?
+
+Make a note of all the answers.
+
+If each character answered "stay", "sacrifice", or "abandon" to any of the
+questions above, give yourself a point in the *Good Bank*.
+
+
+## AKA "Take & Pay"
 `TODO`
+
+ * opportunity to level up
+
+ * Your character has learned something in this mysterious place that is
+   the key to both worlds.
 
  * Pay (Return Threshold Guardian)
    * use half your Bad Bank Points before they Rest
