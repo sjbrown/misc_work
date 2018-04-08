@@ -25,20 +25,54 @@ To help you execute a successful and popular *campaign*, Deckahedron
 World gives the GM a *Good Bank* and a *Bad Bank* and specific rules for
 using them.
 
+# It's ok to skip it
+
+You don't need to get every point in your *Good Bank*. You should especially
+not try to force it if doing so would sacrifice fun for the players. Remember,
+you're not the only author of this story, and while earning points feels nice,
+you've got other jobs too, like paying attention to the signals the players
+give you for the kind of fun they want to have.
+
+## It's ok to end it
+
+You may find that you and the players have collectively gone as far as you
+can. Maybe you've reached the deepest, darkest part of the adventure, and
+the characters make it into their new home. Maybe they find a way to destroy
+something you thought would be permanent, or make permanent something you
+thought would be temporary, and that changes the whole conflict structure of
+the story.  Maybe they found a shortcut or outsmarted the Oracle.
+
+Take a break and ponder. Sometimes you can think of a way to reinterpret
+events or move forward with themes while abandoning specifics. Sometimes
+you can take a subplot and move it to the forefront.
+
+But sometimes the choice that provides the most fun for everyone is to
+just admit that it's over. Getting *Good Bank* points is great, but the
+reason everyone is here sitting around the table is to *have fun*.
+
+# The lengths vary
+
+The final part might go very fast, or it might be a long journey home.
+The first threshold might be crossed so fast that you only notice after the
+fact.
+Taking the prize might involve a twisting road of trials, or it might be
+one explosive boss battle.
+
+Let the story be what it must be, and *play to find out what happens*, but
+also take your opportunities to earn *Good Bank* points when they arise.
+
+
 # One-Shot Campaign
 
- * Act 1
-     * Start in a place of normalcy / comfort
-     * Cross a threshold with a true choice
- * Act 2
-     * Take a thing and pay its (mortal?) price
- * Act 3
-     * Return to the surface, changed.
+ * Start in a place of normalcy / comfort
+ * Cross a threshold with a true choice
+ * Take a thing and pay its (mortal?) price
+ * Return to the surface, changed.
 
 In a One-Shot campaign, there are 4 potential *Good Bank* points the
 GM can earn.
 
-## Start in a place of normalcy / comfort
+## Chapter 1: Start in a place of normalcy / comfort
 
 The first point in your good bank is a "gimmie": If you can think of a
 way to start all of the players' characters in their place of normalcy or
@@ -46,7 +80,7 @@ comfort, mark a point in your *Good Bank*. You *did* remember to follow
 the rules in the Character Creation and ask the players where their
 characters feel most at home, right?
 
-## Cross a threshold with a true choice
+## Chapter 2: Cross a threshold with a true choice
 
 As the game progresses, the conversation at the table will start
 establishing details about the world and about relationships between
@@ -66,7 +100,7 @@ If all of them cross the threshold and step away from their ordinary world
 into a mysterious world of danger and adventure, mark yourself another point
 in the *Good Bank*.
 
-## Take a thing and pay its (mortal?) price
+## Chapter 3: Take a thing and pay its (mortal?) price
 
 Give the players an opportunity to earn something *epic* for their characters.
 It can be a great treasure, it can be fame and reknown, it can be weaponry, a
@@ -85,7 +119,7 @@ Maybe you don't have to *create* the prize at all. What have the players
 been talking about, is there already a specific goal? What themes have already
 emerged through the action, dialogue, and relationships?
 
-Take that prize and put it somewhere hard to get.
+Put that prize in a terribly difficult location.
 
 It could be at the end of a road of trials, or inside the cave where they
 must conquer their greatest fear, or in the clutches of their most powerful
@@ -94,7 +128,7 @@ adversary.
 ### Alot Bad Bank Points
 
 Whatever the fictional set-up, when you're ready, set up a challenge in
-the narrative, then draw a box around **all** of the points currently in
+the narrative, then draw a circle around **all** of the points currently in
 your *Bad Bank* and use them all before the characters get a chance to Rest.
 
 If you can do this, when they complete the challenge that used up the last of
@@ -127,7 +161,7 @@ gritty, hardcore vibe in your campaign, you don't have to let the death stand.
 Have a look at the chapter on spending *Good Bank* points to resurrect a
 character.
 
-## Return to the surface, changed.
+## Chapter 4: Return to the surface, changed.
 
 In the final stage, find a way to return the characters "home". It need not
 be their literal home, nor does it need to be where the adventure started,
@@ -158,35 +192,16 @@ This can play out in many ways:
 
 Mark your final *Good Bank* point if you can hit this note.
 
-## It's ok to skip it
-
-You don't need to get every point in your *Good Bank*. You should especially
-not try to force it if doing so would sacrifice fun for the players. Remember,
-you're not the only author of this story, and while earning points feels nice,
-you've got other jobs too, like paying attention to the signals the players
-give you for the kind of fun they want to have.
-
-## The lengths vary
-
-The final part might go very fast, or it might be a long journey home.
-The first threshold might be crossed so fast that you only notice after the
-fact.
-Taking the prize might involve a twisting road of trials, or it might be
-one explosive boss battle.
-
-Let the story be what it must be, and *play to find out what happens*, but
-also take your opportunities to earn *Good Bank* points when they arise.
-
 
 
 # 9-hour Campaign
 
-## Start in a place of normalcy / comfort AKA "You"
+## Chapter 1: Start in a place of normalcy / comfort AKA "You"
 
 In the 9-hour campaign, start the game just like you would in the One-shot
 campaign.
 
-## Call to adventure AKA "Need"
+## Chapter 2: Call to adventure AKA "Need"
 `TODO`
 
  * Provide a sandbox to play in, let the players establish what their
@@ -224,7 +239,7 @@ campaign.
    the players _play_ the game*
 
 
-## Threshold and Threshold Guardian AKA "Go"
+## Chapter 3: Threshold and Threshold Guardian AKA "Go"
 `TODO`
 
  * The amount of contrast between the ordinary and special worlds
@@ -232,7 +247,7 @@ campaign.
  * Same as One-shot campaign "Go"
 
 
-## Road of Trials AKA Fun & Games AKA "Search"
+## Chapter 4: Road of Trials AKA Fun & Games AKA "Search"
 
 The characters have now entered a situation that is not ordinary, not
 comfortable. There is mystery here, unknowns, new people, new territory.
@@ -280,7 +295,8 @@ You achieve your GM goal in the **Search** phase if
 If you do this, give yourself a point in your *Good Bank* and aim to move the
 plot to the next phase.
 
-## Master the soul AKA Reveal the treasure AKA "Find"
+
+## Chapter 5: Dark night of the soul AKA "Find"
 
 When the narrative arrives at a point of relative quiet or peace, maybe
 during a Seek Help or Rest move, have an honest conversation with your
@@ -311,24 +327,74 @@ If each character answered "stay", "sacrifice", or "abandon" to any of the
 questions above, give yourself a point in the *Good Bank*.
 
 
-## AKA "Take & Pay"
-`TODO`
+## Chapter 6: "Take & Pay"
 
- * opportunity to level up
+Just before this stage, if you can give the players an opportunity to gain new
+skills or equipment for their characters, you should. They're going to need it.
 
- * Your character has learned something in this mysterious place that is
-   the key to both worlds.
+The characters have learned something in this mysterious place that is
+the key to both worlds. Maybe they learned something about themselves, maybe
+they received a great boon or symbol. Maybe they met a goddess that whispered
+a secret of the universe. Maybe they met their father. It could be something
+very literal, like the skill they just learned or a spear enchanted to pass
+through dragon's hide.
 
- * Pay (Return Threshold Guardian)
-   * use half your Bad Bank Points before they Rest
+This is the thing that will answer the **Need**.
 
-## AKA "Return"
-`TODO`
+### Alot Bad Bank Points
 
- * Return Threshold - Grieve
-   * add Grief end-of-session questions - what will they miss most?
+When you're ready, set up a challenge in the narrative, then draw a circle
+around **all** of the points currently in your *Bad Bank*. To earn the current
+*Good Bank* point, use them all before the characters get a chance to Rest.
 
-## AKA "Change"
+### Death Is Real Here
+
+Just as in the One-Shot campaign's Chapter 3, in this Chapter, the consequence
+for full Stamina loss is death.
+
+
+## Chapter 7: AKA "Return"
+
+Start a conversation.
+
+This is a time to consider grief and acceptance.
+
+Ask the players what their characters will miss most about the world they're
+leaving behind. NPCs left behind? A fellow PC that died? It can be anything.
+
+Then ask the players how their characters will be received when they return.
+Was a **Need** established in Chapter 2, and if so, will the characters be
+able to answer it? Will the people of the ordinary world accept the characters
+back? Will they accept whatever treasure might have been found in Chapter 6?
+Will the dragon-piercing spear actually work against the dragon?
+
+What changes have happened in the familiar world, with our heroes being gone
+so long?
+
+Did a player's character die in an earlier chapter? Will their friends and
+family accept the survivors?
+
+Maybe the answers aren't clear, and you need to set up scenes and get everyone
+to flesh them out.
+
+Bring the story to a threshold. A doorway that will seal shut once crossed.
+A monster that once slain, will change everything forever. A volcano that must
+be extinguished or exploded.
+
+Build one final challenge for your players, a "Threshold Guardian".
+This can be a mob of villagers whose minds must be changed, it can be their
+cleverest adversary, or it can be that invulnerable dragon.
+
+If you can make an monster, challenge, or obstacle that embodies
+
+ * grief - anger, bargaining, depression, denial
+ * rejection of how the characters have changed
+ * rejection of emotional growth
+
+and whose defeat depends on skills or treasures the characters attained during
+their adventure, give yourself a point in the *Good Bank*.
+
+## Chapter 8: AKA "Change"
 `TODO`
 
  * Change - Master of both worlds
