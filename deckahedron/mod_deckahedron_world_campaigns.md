@@ -33,26 +33,28 @@ you're not the only author of this story, and while earning points feels nice,
 you've got other jobs too, like paying attention to the signals the players
 give you for the kind of fun they want to have.
 
-## It's ok to end it
+# It's ok to end it
 
 You may find that you and the players have collectively gone as far as you
 can. Maybe you've reached the deepest, darkest part of the adventure, and
-the characters make it into their new home. Maybe they find a way to destroy
-something you thought would be permanent, or make permanent something you
-thought would be temporary, and that changes the whole conflict structure of
-the story.  Maybe they found a shortcut or outsmarted the Oracle.
+the characters decide to stay and call it their new home. Maybe they find
+a way to destroy something you thought would be permanent, or make permanent
+something you thought would be temporary, and that changes the whole conflict
+structure of the story. Maybe they found a shortcut or outsmarted the Oracle.
 
 Take a break and ponder. Sometimes you can think of a way to reinterpret
 events or move forward with themes while abandoning specifics. Sometimes
 you can take a subplot and move it to the forefront.
 
 But sometimes the choice that provides the most fun for everyone is to
-just admit that it's over. Getting *Good Bank* points is great, but the
-reason everyone is here sitting around the table is to *have fun*.
+just admit that it's over.
+
+Getting *Good Bank* points is great, but the reason everyone is here
+sitting around the table is to *have fun*.
 
 # The lengths vary
 
-The final part might go very fast, or it might be a long journey home.
+The final chapter might go very fast, or it might be a long journey home.
 The first threshold might be crossed so fast that you only notice after the
 fact.
 Taking the prize might involve a twisting road of trials, or it might be
@@ -137,7 +139,7 @@ and give yourself a point in your *Good Bank*.
 
 ### Death Is Real Here
 
-This is the part of the game where characters are most at risk to lose all
+This is the chapter of the game where characters are most at risk to lose all
 of their Stamina points. In other stages of the story, the GM may choose to
 narrate this as unconciousness, imprisonment, or something else that
 the character will naturally recover from.
@@ -211,7 +213,7 @@ campaign.
 
  * Show something valuable is threatened (maybe the known world)
 
- * Herald or Message - the unknown world threatens something valuable.
+ * Herald or Message - the mysterious world threatens something valuable.
 
  * Show a threat or challenge that they cannot *yet* overcome
    * That may mean they are defeated by it
@@ -219,9 +221,9 @@ campaign.
    * Maybe a spell or skill is needed
      * They **need** more power
    * Maybe knowledge is needed
-     * They **need** information from the unknown world
+     * They **need** information from the mysterious world
    * Maybe their place of comfort is exposed as insufficient
-     * lacking to provide for their growing desires or curiosity
+     * They **need** a place to grow / explore / stretch their legs
 
  * Be honest about this threat. If they fight something they cannot defeat
    and don't retreat, incapacitation, even death† is an option.
@@ -262,7 +264,7 @@ when they chose the titles you see on this list? Don't be shy about copying.
 
 ### Alot Bad Bank Points
 
-To begin the **Search** part of the story, circle **half** of the points
+To begin the **Search** chapter of the story, circle **half** of the points
 currently in your *Bad Bank*.
 
 This new mysterious is dangerous. Use your *Bad Bank* points to represent
@@ -275,7 +277,7 @@ At least once during the **Search**, give each player a chance to use the
 Study Under a Master or Shop / Procure moves and give each player a chance to
 use the skill or item they chose.
 
-### The Power and Magic of the Unknown World
+### The Power and Magic of the Mysterious World
 
 Make an exhibition of how this world has power unlike their place of comfort.
 There are forces here that aren't understood. Those forces can be scary, yes,
@@ -385,20 +387,40 @@ Build one final challenge for your players, a "Threshold Guardian".
 This can be a mob of villagers whose minds must be changed, it can be their
 cleverest adversary, or it can be that invulnerable dragon.
 
-If you can make an monster, challenge, or obstacle that embodies
+If you confront the characters with a monster, challenge, or obstacle that
+embodies
 
- * grief - anger, bargaining, depression, denial
+ * grief: anger, bargaining, depression, denial
  * rejection of how the characters have changed
  * rejection of emotional growth
+ * rejection that this story must end
 
-and whose defeat depends on skills or treasures the characters attained during
-their adventure, give yourself a point in the *Good Bank*.
+give yourself a point in the *Good Bank*.
 
-## Chapter 8: AKA "Change"
-`TODO`
+## Chapter 8: Freedom from the fear of death AKA "Change"
 
- * Change - Master of both worlds
-   * Where does their new power lie? Mechanisms? Relationships? Knowledge? Other?
+When the characters return back to the ordinary world, they will have to
+defeat the Threshold Guardian, or if that chapter was skipped, they will have
+to come to terms with where they've been and who they are now.
+
+A game of Deckahedron World can resolve in many ways. Where does their new
+power lie? Game mechanisms? Relationships? Knowledge? Something else?
+
+### Chapter 8 Move
+
+The first time any player's character:
+
+ * employs skills or treasures the they attained during their adventure
+   to defeat the Threshold Guardian
+ * attempts to banish something alien that came through the threshold by
+   using a gift they attained in the mysterious world
+ * inspires an NPC from the ordinary world to be something more, to cast
+   away who they've been historically and to change.
+ * wishes for something left behind on the other side of the threshold
+ * presumes they are doomed, but chooses to struggle on
+
+Use a point from the *Good Bank* to assist them. If they succeed, give yourself
+another point in the *Good Bank*.
 
 
 ## 30-hour Campaign
