@@ -79,7 +79,8 @@ and the players set forth the narrative.
 For example, It's common for the 9-hour Campaign to blend chapters 5 and 6.
 Maybe the treasure of the dungeon is glimpsed, then the ordeal begins, then
 the ordeal gets really serious, and that's the point to really plumb down to
-the "dark night of the soul".
+the "dark night of the soul", fully reveal the treasure, and then emerging
+to complete the ordeal.
 
 Even when there is a threshold, as in chapters 3 and 7, the different players'
 characters might cross over at different times.
