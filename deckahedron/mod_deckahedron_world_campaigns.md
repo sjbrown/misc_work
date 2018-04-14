@@ -25,6 +25,22 @@ To help you execute a successful and popular *campaign*, Deckahedron
 World gives the GM a *Good Bank* and a *Bad Bank* and specific rules for
 using them.
 
+The main premise of *The Hero's Journey* is, characters start out in
+a figurative "ordinary world", they go to a "mysterious world", and finally,
+they return.
+
+As you and your players create the narrative, you will have opportunities to
+shape events. You decide how the world and the NPCs react to the actions of
+the players' characters, and you have the freedom to describe the "meanwhile"
+-- all the goings-on "offscreen". Use these powers to pull the narrative into
+a multi-chapter structure, and in each chapter, try to earn points in the
+*Good Bank*.
+
+The players may just be along for the ride, or they may also want to delve
+into *The Hero's Journey*. Be on the lookout for how they signal that they're
+into this kind of fun, and use what they express about themes, relationships,
+emotional tone, conflicts, and backstory to co-create the journey.
+
 # It's ok to skip it
 
 You don't need to get every point in your *Good Bank*. You should especially
@@ -42,6 +58,8 @@ a way to destroy something you thought would be permanent, or make permanent
 something you thought would be temporary, and that changes the whole conflict
 structure of the story. Maybe they found a shortcut or outsmarted the Oracle.
 
+Maybe they all died.
+
 Take a break and ponder. Sometimes you can think of a way to reinterpret
 events or move forward with themes while abandoning specifics. Sometimes
 you can take a subplot and move it to the forefront.
@@ -51,6 +69,20 @@ just admit that it's over.
 
 Getting *Good Bank* points is great, but the reason everyone is here
 sitting around the table is to *have fun*.
+
+# It's ok to blend it
+
+The boundaries between chapters do not need to be strict, explicitly defined
+lines. There may be a natural blending between two adjacent chapters as you
+and the players set forth the narrative.
+
+For example, It's common for the 9-hour Campaign to blend chapters 5 and 6.
+Maybe the treasure of the dungeon is glimpsed, then the ordeal begins, then
+the ordeal gets really serious, and that's the point to really plumb down to
+the "dark night of the soul".
+
+Even when there is a threshold, as in chapters 3 and 7, the different players'
+characters might cross over at different times.
 
 # The lengths vary
 
@@ -140,13 +172,13 @@ and give yourself a point in your *Good Bank*.
 ### Death Is Real Here
 
 This is the chapter of the game where characters are most at risk to lose all
-of their Stamina points. In other stages of the story, the GM may choose to
+of their Stamina points. In other chapters of the story, the GM may choose to
 narrate this as unconciousness, imprisonment, or something else that
 the character will naturally recover from.
 
-But not in this stage.
+But not in this chapter.
 
-If the character loses all their Stamina in this stage of the story, the GM
+If the character loses all their Stamina in this chapter of the story, the GM
 should represent this as "death". Sell it as a permanent removal of the
 character, and by extension, the player from being able to impact the events
 of the story.
@@ -165,7 +197,7 @@ character.
 
 ## Chapter 4: Return to the surface, changed.
 
-In the final stage, find a way to return the characters "home". It need not
+In the final chapter, find a way to return the characters "home". It need not
 be their literal home, nor does it need to be where the adventure started,
 geographically. Go back to that original statement the players made
 about their character's place of comfort, and tease apart what makes that
@@ -198,12 +230,31 @@ Mark your final *Good Bank* point if you can hit this note.
 
 # 9-hour Campaign
 
-## Chapter 1: Start in a place of normalcy / comfort AKA "You"
+The 9-hour Campaign is a bit more complicated. Committing these 8 points
+to memory will make it go a little easier:
+
+ 1. You
+ 1. Need
+ 1. Go
+ 1. Search
+ 1. Find
+ 1. Take & Pay
+ 1. Return
+ 1. Change
+
+(this compact formulation is inspired by Dan Harmon's "The Story Circle")
+
+## Chapter 1: You
+
+**AKA: Start in a place of normalcy / comfort**
 
 In the 9-hour campaign, start the game just like you would in the One-shot
 campaign.
 
-## Chapter 2: Call to adventure AKA "Need"
+## Chapter 2: Need
+
+**AKA: Call to adventure**
+
 `TODO`
 
  * Provide a sandbox to play in, let the players establish what their
@@ -241,15 +292,22 @@ campaign.
    the players _play_ the game*
 
 
-## Chapter 3: Threshold and Threshold Guardian AKA "Go"
+## Chapter 3: Go
+
+**AKA: Threshold and Threshold Guardian**
+
+ * Same as One-shot campaign "Go"
+
 `TODO`
 
  * The amount of contrast between the ordinary and special worlds
 
- * Same as One-shot campaign "Go"
 
+## Chapter 4: Search
 
-## Chapter 4: Road of Trials AKA Fun & Games AKA "Search"
+**AKA: Road of Trials**
+
+**AKA: Fun & Games**
 
 The characters have now entered a situation that is not ordinary, not
 comfortable. There is mystery here, unknowns, new people, new territory.
@@ -298,7 +356,9 @@ If you do this, give yourself a point in your *Good Bank* and aim to move the
 plot to the next phase.
 
 
-## Chapter 5: Dark night of the soul AKA "Find"
+## Chapter 5: Find
+
+**AKA: Dark night of the soul**
 
 When the narrative arrives at a point of relative quiet or peace, maybe
 during a Seek Help or Rest move, have an honest conversation with your
@@ -329,10 +389,13 @@ If each character answered "stay", "sacrifice", or "abandon" to any of the
 questions above, give yourself a point in the *Good Bank*.
 
 
-## Chapter 6: "Take & Pay"
+## Chapter 6: Take & Pay
 
-Just before this stage, if you can give the players an opportunity to gain new
-skills or equipment for their characters, you should. They're going to need it.
+**AKA: The Ordeal**
+
+Just before this chapter, if you can give the players an opportunity to gain
+new skills or equipment for their characters, you should. They're going to
+need it.
 
 The characters have learned something in this mysterious place that is
 the key to both worlds. Maybe they learned something about themselves, maybe
@@ -355,7 +418,7 @@ Just as in the One-Shot campaign's Chapter 3, in this Chapter, the consequence
 for full Stamina loss is death.
 
 
-## Chapter 7: AKA "Return"
+## Chapter 7: Return
 
 Start a conversation.
 
@@ -397,7 +460,10 @@ embodies
 
 give yourself a point in the *Good Bank*.
 
-## Chapter 8: Freedom from the fear of death AKA "Change"
+
+## Chapter 8: Change
+
+**AKA: Freedom from the fear of death**
 
 When the characters return back to the ordinary world, they will have to
 defeat the Threshold Guardian, or if that chapter was skipped, they will have
@@ -406,7 +472,7 @@ to come to terms with where they've been and who they are now.
 A game of Deckahedron World can resolve in many ways. Where does their new
 power lie? Game mechanisms? Relationships? Knowledge? Something else?
 
-### Chapter 8 Move
+### The Chapter 8 Move
 
 The first time any player's character:
 
@@ -417,15 +483,43 @@ The first time any player's character:
  * inspires an NPC from the ordinary world to be something more, to cast
    away who they've been historically and to change.
  * wishes for something left behind on the other side of the threshold
- * presumes they are doomed, but chooses to struggle on
+ * presumes they are doomed, but chooses to defy death and struggle on
 
 Use a point from the *Good Bank* to assist them. If they succeed, give yourself
 another point in the *Good Bank*.
 
 
-## 30-hour Campaign
+# 30-hour Campaign
 
 `TODO`
 
 An "arc" of 3 9-hour campaigns
+
+
+# The real juice
+
+When you gather with friends you care about, sit around a table, and tell
+stories, you are sharing in a great power.
+
+There is a second journey that happens during play, and that is the journey
+that the players are on. Not the *characters*. The *players*.
+
+Every thought, idea, action expressed in the narrative came from a player, one
+of your friends. Even the most ephemeral or small contribution is special
+because it was unique that person in that context.
+
+If you want to make a game of Deckahedron World really great, pay attention to
+*who* your friends are and guess at *why* they are expressing their character
+the way they do. Then use that in the story.
+
+It is difficult to fully express in words. This narrative you create together
+is a means to explore *the human experience*. It is a way to create a model of
+reality, distance your "real" self from it, and **play** at being different.
+It is an activity to express anger, affection, pain, the whole gamut of emotion
+in ways that we repress in our day-to-day lives.
+
+But just like the fictional characters who cross over to a mysterious world,
+face the unknown, and return to the ordinary world, we players can decide to
+**play**, explore our unconsiousness, and find ourselves changed by what we
+set free, confronted, unchained or poked down there.
 
