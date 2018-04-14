@@ -874,6 +874,13 @@ control and the GM gets to say where the players' characters end up.
 There may also be a Stamina cost (or Stamina gain) depending on how weighed
 down the characters were by their equipment.
 
+The GM can resolve this move by:
+ * putting the characters somewhere completely safe
+ * putting the characters in a place where some (new or old) danger exists,
+   but is, for the moment, not directly threatening the characters
+ * spending a point from the *Bad Bank* and putting the characters in a place
+   where they must directly confront or defy a new danger
+
 
 ## Shop / Procure
 

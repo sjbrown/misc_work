@@ -1387,6 +1387,10 @@ If a player resolves a flip with the *critical failure* card, the GM may use
 
 `TODO`
 
+ * When a player uses the Bravely Run Away move, you can spend 1 point
+   from the Bad Bank to put them in a situation where they are again in
+   immediate danger
+
  * Make a player's move cost 1 physical or mental Stamina to execute
 
 ## It's a Decoy
