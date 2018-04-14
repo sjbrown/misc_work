@@ -243,7 +243,7 @@ to memory will make it go a little easier:
  1. Return
  1. Change
 
-(this compact formulation is inspired by Dan Harmon's "The Story Circle")
+(this compact formulation is inspired by Dan Harmon's "Story Circle")
 
 ## Chapter 1: You
 
@@ -342,7 +342,7 @@ Make an exhibition of how this world has power unlike their place of comfort.
 There are forces here that aren't understood. Those forces can be scary, yes,
 but they can also be miraculous.
 
-Use one of your Good Bank points.
+Use one of your Good Bank points to make this exhibition.
 
 ### Finishing the Search
 
@@ -507,20 +507,22 @@ that the players are on. Not the *characters*. The *players*.
 
 Every thought, idea, action expressed in the narrative came from a player, one
 of your friends. Even the most ephemeral or small contribution is special
-because it was unique that person in that context.
+because it was unique to that person in that context.
 
 If you want to make a game of Deckahedron World really great, pay attention to
 *who* your friends are and guess at *why* they are expressing their character
-the way they do. Then use that in the story.
+the way they do. Then use those guesses in the story.
 
-It is difficult to fully express in words. This narrative you create together
-is a means to explore *the human experience*. It is a way to create a model of
-reality, distance your "real" self from it, and **play** at being different.
-It is an activity to express anger, affection, pain, the whole gamut of emotion
-in ways that we repress in our day-to-day lives.
+This power, this "juice", this "second journey", is difficult to fully
+express in words. The narrative you create together is a means to explore
+*the human experience*. To exist *in the moment*. Create a model of
+reality, drop an avatar for yourself into it, distance your "real" self from
+it, and **play** at being different. Be free to express anger, affection,
+pain, the whole field of emotion, even that territory that is kept
+walled-off to cope with everyday life and behave harmoniously in society.
 
-But just like the fictional characters who cross over to a mysterious world,
-face the unknown, and return to the ordinary world, we players can decide to
-**play**, explore our unconsiousness, and find ourselves changed by what we
-set free, confronted, unchained or poked down there.
+Just like the fictional characters who cross over to a mysterious world,
+face the unknown, and return to the ordinary world, we players can choose to
+cross over and **play**, explore our unconsiousness, and find ourselves
+changed by what we set free, confronted, unchained or poked down there.
 
