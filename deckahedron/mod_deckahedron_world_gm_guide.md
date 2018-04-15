@@ -20,6 +20,17 @@ The players will signal the *kinds* of fun they want to have. It is
 your responsibility to notice these signals and insert that kind of
 fun into the game.
 
+## Show, Don't Tell
+
+One piece of advice frequently given to anyone trying to convey information
+is "Show, don't tell".
+
+In that spirit, you are invited to visit
+`https://www.deckahedron.com/world/examples`. There, you will see examples
+of Deckahedron World being played. For all the author's attempt to make this
+document clear, brief, and unambiguous, those examples may do a better job
+of conveying just what Deckahedron World is and how it is played.
+
 ---
 
 To make your job of teaching the rules easier, this guide has

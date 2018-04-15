@@ -496,6 +496,14 @@ another point in the *Good Bank*.
 
 An "arc" of 3 9-hour campaigns
 
+ * First Book - just the same as the 9-Hour Campaign
+ * Second Book - Carry over all Good Bank and Bad Bank points
+   * Chapter 7 should return them to a different "world"
+ * Third Book - Start with 0 Good Bank points, carry over and add 10
+   Bad Bank points
+   * Challenge the character changes made earlier - what boons will the
+     characters give up to achieve an even greater one
+
 
 # The real juice
 
