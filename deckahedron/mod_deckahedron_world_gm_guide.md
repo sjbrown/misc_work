@@ -1391,7 +1391,7 @@ If a player resolves a flip with the *critical failure* card, the GM may use
 `TODO`
 
  * Give a foe an extra starting Stamina point - 1 point
- * Increase a foe's attack power die - 2 point
+ * Increase a foe's attack power die - 2 points
  * Give a foe a spot for a wound - 3 points
 
 ## Creating Deadly Pursuits
@@ -1399,21 +1399,8 @@ If a player resolves a flip with the *critical failure* card, the GM may use
 `TODO`
 
  * When a player uses the Bravely Run Away move, you can spend 1 point
-   from the Bad Bank to put them in a situation where they are again in
+   from the Bad Bank to land them in a situation where they are again in
    immediate danger
-
- * Make a player's move cost 1 physical or mental Stamina to execute
-
-## It's a Decoy
-
-`TODO`
-
-If you spend 3 points from the *Bad Bank*, you can move the MacGuffin one
-level deeper into a dangerous place. Or have it swiped away at the last
-second by a dangerous foe.
-
-You can do this even if all facts led the players to think they were just
-about to acquire their prize.
 
 
 # Creating Challenges for Players
@@ -1477,3 +1464,12 @@ Some of this text is from Dungeon World Copyright 2012,
 Sage Kobold Productions; Authors Sage LaTorra and Adam Koebel.
 
 See LICENSE.txt
+
+---
+
+# TODOs
+
+ * Define "scene"
+ * Make a high-level flowchart
+ * Annotate the GM Guide with images
+
