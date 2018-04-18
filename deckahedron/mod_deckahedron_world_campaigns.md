@@ -366,23 +366,25 @@ during a Seek Help or Rest move, have an honest conversation with your
 players.
 
 This is a time for total vulnerability, weightlessness, and revelation.
+It is a time for the entire identity of the protagonists to "hang in the
+balance.
 Using dreamlike and mystical imagery in your exposition can be a great way
-to set the stage.
+to dress the stage.
 
-Tell them how you interpret the plot so far. Revisit where they've been,
-reinforce where they've arrived and say what it all means to you.
+Tell your players how you interpret the plot so far. Revisit where they've
+been, reinforce where they've arrived and say what it all means to you.
 Not as the sole author of a story, but as an interpreter of your shared
 authorship. Tell them how you see their characters, what they value, what
 they might represent metaphorically.
 
 Go around to each player and ask them
 
- * What directions does your character see as possible from here, or does
-   your character want to just stay right where they are?
+ * What direction forward does your character see as possible from here, or
+   does your character want to just stay right where they are?
  * Will your character sacrifice their life for something valuable in the
    plot? If so, what, and why?
  * Have the events of this journey caused your character to abandon a
-   *fundamental* belief they held at the beginning of the game?
+   *fundamental* belief or relationship they held at the beginning of the game?
 
 Make a note of all the answers.
 
