@@ -103,11 +103,10 @@ Deckahedron World invites you to:
    * Tell what they say / hear / see / smell / taste / feel
    * Describe their thoughts & memories
    * Chime in when they interact with or support the other characters
-   * Refer to your **moves** to get ideas for your character
  * Tell parts of the story
    * Tell your character's backstory
    * Command your character's hirelings and animal companions
-   * Refer to your **moves** to see what boundaries you can push
+   * Refer to your **moves** to generate more ideas and see what boundaries you can push
 
 As the conversation unfolds, the rules will chime in as well.  When that
 happens you will be called do things beyond just "saying stuff":
