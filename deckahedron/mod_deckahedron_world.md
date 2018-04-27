@@ -334,7 +334,7 @@ Consider a situation where the GM has described your character, Kresk,
 waking up after making camp in a forest. Beside you is a squirrel nibbling
 an acorn.
 
-One response might be:
+You might respond by saying,
 
 "Kresk wants that acorn! I Hack and Slash the squirrel!"
 
@@ -343,14 +343,17 @@ up some stats for the squirrel (1 Stamina, 1 attack power), and begin a
 melee combat between Kresk and the squirrel, and ask you to flip Strength
 to resolve the Hack and Slash move.
 
-Perhaps better responses from the GM might be:
+But the GM will more likely interpret your action, as described, as having
+a certain outcome. Perhaps the GM will respond:
 
  * "As you raise your fist to smash the squirrel, it darts off into the
-   forest, never to be seen again"
+   forest, never to be seen again."
  * "How is Kresk going to overcome the squirrel's natural speed and reflexes?"
- * "You smash your fist down and flatten the rodent, strangely, it didn't
-   even flinch. This odd behaviour has you wondering about the rumors you've
-   heard about this forest being enchanted..."
+ * "You smash your fist down and flatten the rodent. Strangely, it didn't
+   even flinch. Does this odd behaviour remind Kresk of the rumors he heard
+   about this forest being enchanted?"
+
+### Pushing buttons or staying in character
 
 The GM doesn't always have to invoke a move and call for a flip.  But in
 this example, the player literally names a move ("I Hack and Slash...").
@@ -375,7 +378,7 @@ spent and collapsed in a heap.
 When a character is in a fight, they are running, dodging, striking, and
 being struck and assailed by their foe.  All of this stuff is scary and
 exhausting. So a character gets weaker the longer they're in this
-exchange, even if they're dodging every blow.
+exchange, even if they're able to dodge every blow.
 
 This weakening is represented by cards from your Deckahedron being lost
 into your *Exhaustion pile*.
@@ -418,13 +421,14 @@ a number. This number is called the *attack power*.
 
 ### Second Phase
 
-If you don't split up the *attack power*, it translates directly into Stamina
-points. So by default, your character loses that amount of Stamina points.
+If you don't split up the *attack power*, you will simply lose that many
+Stamina points.
 
 Let's say your character was attacked with a sword and the dice were rolled
-and summed up to 7.  The simplest choice is to lose 7 Stamina points.
+and summed up to 7. You can either lose 7 Stamina points, or choose to split
+it up.
 
-But maybe you already lost 3 Stamina points earlier. You only have 7 Stamina
+Let's say you already lost 3 Stamina points earlier. You only have 7 Stamina
 points left, and you don't want your character to be incapacitated. You have
 a couple options:
 
@@ -517,7 +521,7 @@ using any relevant move cards and item cards, otherwise:
 
 ![Harm token](images/component_harm.png){ width=2.5inch }
 
-> Note, this "one-hit, two-hit, bust" pattern is repeated in many
+> Note, you will see this "1-2-bust" pattern repeated in many
 > of Deckahedron World's rules
 
 ## Wounds
@@ -718,9 +722,9 @@ The narrative of Deckahedron World is a collaboration.
 One of the joys of Deckahedron World is **building** your character up from
 a scrappy adventurer to a force to be reckoned with.
 
-Characters start out as "scrappy adventurers" that are not much more
-powerful than a common villager.  They've got an edge over regular folk,
-(their special abilities) but they're not mechanically that much stronger.
+Characters start out just a little bit more powerful than a common villager.
+They've got an edge over regular folk, (their Stamina and special abilities)
+but the game mechanics put them on nearly even footing in a fight.
 You can invent any backstory you like, but you may need to answer questions
 about how the backstory fits where the characters is, mechanically.
 
@@ -729,9 +733,10 @@ history of warring and slaughtering enemies, but at the very beginning of
 the game, with a couple unlucky flips, that barbarian may suffer a sound
 drubbing at the hands of a farmer with a shovel and his overprotective goat.
 
-This doesn't mean don't create the barbarian character. It means, if you do,
-be prepared to find some narrative justification (drunkard? battle-worn?
-magically cursed?) that they're currently at a "scrappy adventurer" level.
+This doesn't mean you shouldn't create the barbarian character. You should.
+That sounds awesome! But if you do, be prepared to find some narrative
+justification (drunkard? battle-worn? magically cursed?) that they're
+currently at a "scrappy adventurer" level.
 
 
 ---
@@ -1263,7 +1268,7 @@ Non-magical items can be damaged in Deckahedron World. Usually this happens
 narratively as the result of a GM move, but it can also be caused by player
 moves, eg. Armour Mastery.
 
-The "one-hit, two-hit, bust" mechanism is used to represent damage.
+The "1-2-bust" mechanism is used to represent damage.
 
 The first two times an item is damaged, place a red card on the Item card,
 black-side-up.
