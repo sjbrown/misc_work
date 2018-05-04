@@ -765,7 +765,7 @@ magic, and no rules for machine guns or interstellar travel. So choosing
 sci-fi touchstones might help with themes and tone, but won't have much to
 offer for establishing setting.
 
-This list of circled titles becomes the "touchstone list".
+This list of circled titles becomes the "Touchstone List".
 
 ### Step 3
 
@@ -796,13 +796,19 @@ powerful exploit?
 
 It's not necessary to answer these questions, just to start thinking.
 
-The "touchstone list" may be consulted when the table needs to make a
+The "Touchstone List" may be consulted when the table needs to make a
 judgment about whether facts under proposal make sense in the shared universe
 you're creating or whether a character's action should be possible. You can
 ask the question "Would this kind of thing be possible in _ ?" (fill in the
-name of one of the titles in your touchstone list).
+name of one of the titles in your Touchstone List).
 
-The touchstone list is also an early way that the players can signal
+It's also something to consult for what's *not* special. If the titles on your
+list never talk about how their heroes acquire horses or boats, and instead
+just spontaneously present the characters on horseback or sailing at sea,
+then maybe your game should not make a big deal about questions like "How
+did you get that horse?".
+
+The Touchstone List is also an early way that the players can signal
 to the GM the kind of fun they want to have.
 
 
@@ -1228,7 +1234,7 @@ GMs should particularly try to improve their ability to listen for signals.
 Tell players about the content you added last session in response
 to a signal you got from them.
 
-Look at your touchstone list. Are you still playing the setting and the
+Look at your Touchstone List. Are you still playing the setting and the
 themes and tones you all wanted when you started?
 
 ### Give Notes

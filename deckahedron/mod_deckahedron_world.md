@@ -5,28 +5,6 @@
 Like board games?  Remember Dungeons & Dragons? Think you can improv?
 Welcome to Deckahedron World!
 
-# Outline
-
-```
-    - SESSION 0 (Sarukkan's Chamber) RULES
-p1      - RPG intro.  What to do. Say/Flip/Move/Roll. GM/Player
-p2-p3   - Deckahedron - Basic Moves - when to flip, how to flip - lots of pics
-    - SESSION 1 RULES
-p4-p6   - Combat - Stamina/Harm/Wounds - GM: moving the spotlight
-p8      - Speed/Wealth/Equip
-p8      - Moves - Good Thing I Brought
-p7      - Moves - Do a Flashback, Critical Flip
-    - SESSION 2 RULES
-p6      - Set up an advantage with Discern, Defend
-p8      - More Moves - Take a Breather, Rest, Heal
-p9      - More Moves - Run, Shop, S+S
-p10     - Mundane Items - Armor, weapons
-p11     - More Moves - Use a Magic Item, EtBB, CtLL
-p12-p14 - Starting a game, Sarukkan's Chamber, Character Creation
-    - SESSION 3 RULES
-p15     - Levelling Up - Study / Craft, Level rings
-```
-
 
 # Welcome to Role-Playing
 
@@ -302,23 +280,24 @@ Any time a flip results in a single ✗ the GM should add a point to
 the *Bad Bank*.  -- even when the move card says it has the same narrative
 effect as a single ✔.
 
-Sometimes a card does not say how a ✗ should be interpreted. In that case,
-the GM gets to make a move, just like ✗✗.
-
 When the result is ✗✗, it is the GM's turn to make a move. The GM narrates
 the consequences of the move the player just attempted and has license to
 take the narrative where they like.
 
-Rarely, a card will have instructions for how to interpret a ✗✗ result.
-These instructions should be executed, but might only be *part* of the
-GM's move.
-
-There is an exception to the GM moves on ✗ and ✗✗.  When the move card
-has the tag *IMMEDIATE*, the GM does not add points to the *Bad
-Bank* on a ✗ and they don't make a move on a ✗✗.
-
 See the GM Guide for explanations of the *Bad Bank* and for a list of moves
 the GM is allowed to make.
+
+### Exceptions on ✗ and ✗✗ flips
+
+Sometimes a card does not say how a ✗ should be interpreted. In that case,
+the GM gets to make a move, just like ✗✗.
+
+Rarely, a card will have instructions for how to interpret a ✗✗ result.
+These instructions should be executed, but might only be *part* of the
+GM's move -- the GM gets to decide if they have more to add.
+
+When the move card has the tag *IMMEDIATE*, the GM does not add points to
+the *Bad Bank* on a ✗ and they don't make a move on a ✗✗.
 
 
 ## Flips only happen when the situation is uncertain or risky
@@ -601,7 +580,7 @@ The GM may interpret a Speed of 0 as limiting a character's gait to walking.
 
 Adventurers are always finding themselves in tricky situations. Luckily,
 they come prepared with adventuring gear. They have been known to carry
-50 feet of rope, smelling salts, books of saucy poems, sometimes even a
+50 feet of rope, smelling salts, books of racy poems, sometimes even a
 3-day-old pork chop to distract hounds or hungry goblins.
 
 It's a fact. You know this and Deckahedron World knows this, so it doesn't
@@ -613,7 +592,7 @@ you're unsure, remember Deckahedron World is a conversation, so just ask
 the table.
 
 But sometimes you will be in a situation where having that 50 feet of rope
-or old pork chop would really *solve a problem* for your character.
+or an old pork chop would really *solve a problem* for your character.
 
 When your character reaches into their pack and produces the item that
 solves their current problem or helps them overcome a challenge, just say
@@ -635,7 +614,7 @@ the flip, the player can declare they're going to `do a flashback`.
 The player spends 2 green tokens. Then they describe how something
 that happened in the past particularly prepared them for this situation.
 
-Then they can ignore the original flip, and flip again, with one level of
+Then they can ignore the original flip, and flip again, adding one level of
 advantage.  (eg, if they were doing a flip-three-take-worst flip, now they
 do a flip-two-take-worst)
 
@@ -967,8 +946,8 @@ receive either:
  * or 1 Harm *or* Wound token
 
 The GM should decide how many Speed / Wealth / Equip tokens the armour
-requires. Better armour tends to be heavier and harder to move gracefully
-in.
+requires. Better armour tends to be heavier and more impeding to graceful
+movement.
 
 The GM and player should agree on a descriptive name for the armour like
 "Padded" or "Chainmail" or "Full plate" and write that at the top of a card.
@@ -981,11 +960,11 @@ to create the disadvantage later.
 
 Here are some example armours:
 
-Name             | token requirement | slots
+Suggested Name   | token requirement | slots
 -----------------|-------------------|----------------------
 Leather Armour   | 1                 | 2 Harm
-_ Armour         | 2                 | 2 Harm, 1 Harm/Wound
-_ Armour         | 3                 | 3 Harm/Wound
+Padded Armour    | 2                 | 2 Harm, 1 Harm/Wound
+Full Plate       | 3                 | 3 Harm/Wound
 
 
 #### Shields
@@ -1073,8 +1052,9 @@ while using the Rest or Seek Help moves.
 
 ## Entreat the Blood-Bound
 
-If it has not yet been established, when a player first uses this move, the GM
-should ask them: "Who or what is the Blood-Bound?"
+If it has not yet been established, when a player first uses this move, it's
+a great time for the GM to ask them a question: "Who or what is the
+Blood-Bound?"
 
     GM Note: this is a great way to stretch your improv muscles. Say "Yes,
     and..." no matter if they identify the Blood-Bound as tiny, parasitic
@@ -1082,8 +1062,8 @@ should ask them: "Who or what is the Blood-Bound?"
 
 ## Channel the Living Light
 
-If it has not yet been established, when a player first uses this move, the GM
-should ask them: "Who or what is the Living Light?"
+If it has not yet been established, when a player first uses this move, it's
+a great time for the GM to ask them: "Who or what is the Living Light?"
 
 
 # Move Levels
@@ -1294,6 +1274,28 @@ cost against the weapon's other features.
 
  * _ of Unerring Dispatch
  * _ of Vitality
+
+
+## Player vs Player combat
+
+When a player asserts their character violently against another player's
+character, the rules are special. These are different than the rules for
+fighting NPCs and monsters.
+
+Fights among player characters can be great to introduce drama and increase
+tension in your narrative. But they are designed so that one player cannot
+force another player out of the decision making process. The narrative
+you create in Deckahedron World is a *shared* one.
+
+When a player's character attacks another player's character, moves are
+triggered as they would normally be, and costs are paid (eg, if the attacker
+uses a magic item, they may lose a charge), but there are two differences:
+
+ * Green token cards do not generate a green token if they resolve a flip
+ * Attack power is not rolled
+
+Instead of rolling attack power, the *defender* gets to say what the result
+of the attack was.
 
 
 # Addenda
