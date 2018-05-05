@@ -1276,11 +1276,14 @@ cost against the weapon's other features.
  * _ of Vitality
 
 
-## Player vs Player combat
+## Player vs Player
+
+### Combat
 
 When a player asserts their character violently against another player's
-character, the rules are special. These are different than the rules for
-fighting NPCs and monsters.
+character, the rules are special. In general, negative consequences are only
+applied by consent. These are different than the rules for fighting NPCs
+and monsters.
 
 Fights among player characters can be great to introduce drama and increase
 tension in your narrative. But they are designed so that one player cannot
@@ -1294,8 +1297,29 @@ uses a magic item, they may lose a charge), but there are two differences:
  * Green token cards do not generate a green token if they resolve a flip
  * Attack power is not rolled
 
-Instead of rolling attack power, the *defender* gets to say what the result
-of the attack was.
+Instead of rolling attack power, the *defender* alone describes the negative
+consequences (if any) their character suffers. This includes loss of
+resources (like Stamina / Harm / Wounds) as well as narrative consequences.
+
+Optionally, the attacker may also describe negative consequences for their
+own character, mimicking the way the Hack and Slash move causes both the
+attacker and defender to suffer attack power.
+
+The GM can still collaborate with the players to describe narrative outcomes
+of the altercation, and may even use the situation to bring dangers to bear,
+but may not reduce player resources as a result of the specific action.
+
+### Theft, persuasion, mind-control
+
+Just as in PvP combat, when one player tries to:
+
+ * reduce another player's resources
+   - eg, by using the Pick Pockets move
+ * use a move to dictate another player's character's action
+   - eg, by using mind control magic
+
+green token cards do not generate green tokens, and the *defender* gets
+to say what the result was.
 
 
 # Addenda
