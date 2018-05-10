@@ -296,8 +296,8 @@ Rarely, a card will have instructions for how to interpret a ✗✗ result.
 These instructions should be executed, but might only be *part* of the
 GM's move -- the GM gets to decide if they have more to add.
 
-When the move card has the tag *IMMEDIATE*, the GM does not add points to
-the *Bad Bank* on a ✗ and they don't make a move on a ✗✗.
+When the move card has the tag *IMMEDIATE*, the GM does not get to make a
+move on a ✗✗. Instead, the GM should just add 2 points to the *Bad Bank*.
 
 
 ## Flips only happen when the situation is uncertain or risky
