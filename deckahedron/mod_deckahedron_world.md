@@ -1309,6 +1309,10 @@ The GM can still collaborate with the players to describe narrative outcomes
 of the altercation, and may even use the situation to bring dangers to bear,
 but may not reduce player resources as a result of the specific action.
 
+Inter-party conflict can provide some of the most interesting and dramatic
+moments of a campaign. Those moments arise from a group of friends at the
+table collaborating together.
+
 ### Theft, persuasion, mind-control
 
 Just as in PvP combat, when one player tries to:
