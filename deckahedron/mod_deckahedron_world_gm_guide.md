@@ -152,8 +152,9 @@ Give each player a Deckahedron.
 > or "flip red" or "flip green". That means you find the result
 > on the edge that has that color or symbol.
 > 
-> When you flip it over, please face that edge towards me, so it's easy for
-> me to read.
+> When you flip it over, please put it down in a way that I can clearly see
+> the result. Try to orient your cards consistently so that I don't get
+> confused about what your result is.
 > 
 > Let's try it: everybody put your Deckahedron on the table and flip yellow.
 
