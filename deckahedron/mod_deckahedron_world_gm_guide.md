@@ -309,38 +309,6 @@ worry about". They're adventurers going on adventures -- give them something
 to react to.
 
 
-### 3rd PC variant - The reluctant guard
-
-If you've got a 3rd player at the table, add a guard character.
-
-Add another 5 minutes to the timer, so now Sarukkan's Chamber will end
-after 15 minutes, not 10.
-
-Ask "What's a domestic brand of beer?". Use that to create the 3rd
-character's name. The guard can be any gender, has 3 Int, 2 Str, and 1 Dex.
-
-Let them know that they'll get introduced about 5 minutes into the story.
-
-After the first to PCs have had a chance to inspect their
-surroundings, and maybe have a dialogue with each other, introduce the
-3rd PC
-
-> [Addressing guard]
-> _ (guard), you are a guard.
-> You're the newest hire in Sarukkan's staff, but you're already thinking of
-> changing careers. There's some sketchy stuff going on here. You're not too
-> sure what exactly, since you mostly patrol the yard, but you're sure you
-> heard the sounds of women crying when you patrolled near the cellar door
-> a couple days ago.
-> 
-> You got called into the house just now.  Apparently a guest of the ball
-> had been assaulted and stripped of their clothing.  The culprit might still
-> be inside, so Yogran, a fellow guard pulled you to help him investigate.
-> 
-> One other thing, Sarukkan is rumoured to be a practitioner of dark magic
-> and all staff are forbidden to enter his chamber. You think Yogran is going
-> to use you as a guinea pig to do just that.
-
 
 ## But now what should I say?
 
@@ -731,6 +699,39 @@ the narrative. Ask the players if they get it, and explain again if there's
 still any confusion.
 
 
+### Sarrukan's Chamber 3rd PC variant - The reluctant guard
+
+If you've got a 3rd player at the table, add a guard character.
+
+Add another 5 minutes to the timer, so now Sarukkan's Chamber will end
+after 15 minutes, not 10.
+
+Ask "What's a domestic brand of beer?". Use that to create the 3rd
+character's name. The guard can be any gender, has 3 Int, 2 Str, and 1 Dex.
+
+Let them know that they'll get introduced about 5 minutes into the story.
+
+After the first to PCs have had a chance to inspect their
+surroundings, and maybe have a dialogue with each other, introduce the
+3rd PC
+
+> [Addressing guard]
+> _ (guard), you are a guard.
+> You're the newest hire in Sarukkan's staff, but you're already thinking of
+> changing careers. There's some sketchy stuff going on here. You're not too
+> sure what exactly, since you mostly patrol the yard, but you're sure you
+> heard the sounds of women crying when you patrolled near the cellar door
+> a couple days ago.
+> 
+> You got called into the house just now.  Apparently a guest of the ball
+> had been assaulted and stripped of their clothing.  The culprit might still
+> be inside, so Yogran, a fellow guard pulled you to help him investigate.
+> 
+> One other thing, Sarukkan is rumoured to be a practitioner of dark magic
+> and all staff are forbidden to enter his chamber. You think Yogran is going
+> to use you as a guinea pig to do just that.
+
+
 # Begin a Campaign
 
 ## Establish Touchstones
@@ -749,6 +750,7 @@ titles as they want.
 It's good to explicitly tell the players you're looking for *titles*.
 
 `TODO: touchstone list illustration`
+`TODO: touchstone list creation script`
 
 ### Step 2
 
@@ -834,7 +836,20 @@ They may only choose 1 A card each.
 
 They may only choose 2 B cards each.
 
+```
+TODO - direct players to just focus on the titles, and not need
+to read the entire text
+Tell the players they can optimize their ability to progress their
+character by reading the rules fully at home
+```
+
 #### Choose cards: Rules for first-time players
+
+```
+TODO
+GM takes out half of the B cards
+GM takes out half of the C cards
+```
 
 If this is your players' **first** experience with a role-playing game,
 tell the players to also choose a "Risk Driver":
@@ -906,7 +921,7 @@ If a player's character reads as too exotic, that might be the player
 signaling that the fun they want to have is playing a different game.
 
 
-### Choose a Name
+### Name your character
 
 When players have finished picking cards, ask them what their character
 is called. Have them write the name on the top of their character sheet
@@ -980,6 +995,15 @@ be able to perform any move tagged UNENCUMBERED. Also explain that with
 less than 4 Speed, there will be a Stamina penalty to Bravely Run Away.
 
 
+### How do you meet?
+
+This is a game where the players play together on the same team.
+Ask players if the characters already know each other. If so, how? If not,
+establish the broad strokes of how they will meet and what will make them
+decide to team up.  They should be committed to a shared goal within the
+first 30 minutes of play.  Will it be an uneasy alliance? What are the stakes?
+What will your character exhibit that makes the other characters trust them?
+
 
 ---
 # Session 1 Rules
@@ -996,11 +1020,6 @@ to understand how moves interact with each other.
 When a player flips and *resolves a move* with a ✗, mark a point in
 the Bad Bank.
 
-### Moves tagged IMMEDIATE
-
-The exception to this is if the move is tagged **IMMEDIATE**. Do not
-mark points in your Bad Bank when resolving a move with this tag.
-
 ### Calling for flips during a GM move
 
 Sometimes you will be making a GM move and want to use randomness to
@@ -1008,7 +1027,6 @@ decide which direction to take the fiction, and call for a player to
 flip a card from their Deckahedron.  This is not considered *resolving
 a move* and thus if they get an ✗ as a result, you should *not* mark
 a point in your Bad Bank.
-
 
 
 # Creating A Combat Encounter
