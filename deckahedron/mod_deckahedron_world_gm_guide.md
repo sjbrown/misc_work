@@ -270,9 +270,26 @@ Begin narrating the set-up.
 > From different doors, you simultaneously enter an empty bedchamber.
 
 At this point, take out a blank sheet of paper and draw this
-incomplete map of Sarrukan's Chamber.
+incomplete map of Sarrukan's Chamber. Then drop a couple tokens
+representing the players' characters on the paper. If you don't have
+tokens, you can use coins or nuts or glass beads, anything handy.
 
 ![Draw maps, leave blanks](images/chamber_map.png)
+
+This map will let everyone know roughly where their character is
+positioned. You don't always need this visual aid, but Sarukkan's
+Chamber is a tutorial, so it's good to have some practice.
+
+When you draw out a map of an environment like this, be very loose
+and fast. Leave blanks. Rely on the imagination of the players to
+fill in the details unless there's something whose position is important
+to draw.
+
+For example, a player might tell you that they look around the chamber for
+an exit, and you might say "There's a large window at the front of
+the room , but it's framed in iron. The ironwork looks old though, maybe
+it's no longer sturdy?". That would be a good point to draw a few lines
+to show where the window is in the room.
 
 > You turn from the door you carefully and silently closed to see across
 > the room, an apparent party guest in full wardrobe.
@@ -740,30 +757,67 @@ First, the table needs to get on the same page about the adventure's setting,
 themes, and tone. Give the players an overview of the steps in creating a
 Touchstone List, and tell them its purpose. Then start executing the steps.
 
-### Step 1
+Take out a new blank sheet of player.
 
-Brainstorm some cultural "touchstones". Ask everyone to call out titles of
-books, movies, games, comics, and TV shows that feel inspiring, and write
-them all down, no matter how silly.  Everyone at the table can add as many
-titles as they want.
+```
+Before we start an adventure, we need to figure out what kind of world
+your characters come from.
 
-It's good to explicitly tell the players you're looking for *titles*.
+We'll go through a 3-step process to make what's called a Touchstone List.
+
+The Touchstone List is a tool I use to create the setting for the
+game. I'll also use it for inspiration on tones and themes. And we'll look
+to it together when your characters are pushing the envelope, to answer
+questions like "is that action even possible?"
+```
+
+
+### Step 1 - Brainstorm Titles
+
+```
+The first step is for everyone to grab a pen or pencil and write a few titles
+from pop culture on this piece of paper. Think of books, movies, games,
+comics and TV shows whose settings inspire your imagination. Think ones with
+stories you'd like to imagine yourself inside.
+
+Don't censor yourself, and don't shoot down anyone else's title down. This
+is brainstorming, and we want the ideas to flow.
+
+Stop when you've got 3 or 4.
+```
+
+You may need to reiterate to the players that you're looking for *titles*.
 
 `TODO: touchstone list illustration`
-`TODO: touchstone list creation script`
 
-### Step 2
+### Step 2 - Narrow Titles
 
-Each player gets a chance to circle *one* of the titles on the list.
+Take a look through the titles for anything that may be in a setting that's
+not well-supported by the rules of Deckahedron World. If there is such a
+setting, remind the players that Deckahedron World has rules for swords and
+limited magic, and no rules for machine guns or interstellar travel. So
+choosing sci-fi touchstones might help with themes and tone, but won't have
+much to offer for establishing setting.
 
-Remind the players that Deckahedron World has rules for swords and limited
-magic, and no rules for machine guns or interstellar travel. So choosing
-sci-fi touchstones might help with themes and tone, but won't have much to
-offer for establishing setting.
+```
+For step 2, we're going to narrow it down.
 
-This list of circled titles becomes the "Touchstone List".
+Take a turn and circle one of the titles on this list. You are allowed to
+circle one of your own titles, or any of the other ones.
 
-### Step 3
+Only circle one, and don't circle something that's already been circled
+```
+
+Each player gets a chance to circle one of the titles on the list.
+The GM gets a turn too, and should take that turn after the others are
+finished.
+
+
+### Step 3 - Set Expectations
+
+```
+This is our "Touchstone List": [read the circled titles]
+```
 
 The GM, using their knowledge of the rules, should read the list and
 call out any potential conflicts between circled titles and the rules of
@@ -780,17 +834,23 @@ what's going to be possible.
 
 Everyone will have more fun if expectations are set at the beginning.
 
+```
+Imagine this mashed-up universe.
+
+What kind of world would be the one where some portion from each circled
+title is mixed together with the others?
+What does this world look like?
+What are it's dominant features?
+What secrets are hidden away in the small places?
+Who are the folk that populate it, do their children happily play in the sun?
+What monsters lurk, what weakness do the ambitious and powerful exploit?
+```
+
+It's not necessary for anyone to answer these questions, they are just to
+provoke the imagination.
 
 ### The Touchstone List
 
-Invite players to imagine what kind of world would be the one where all
-the circled titles are mashed together. What does this world look like?
-What are it's dominant features? What secrets are hidden away in the small
-places? Who are the folk that populate it, do their children happily play
-in the sun? What monsters lurk, what weakness do the ambitious and
-powerful exploit?
-
-It's not necessary to answer these questions, just to start thinking.
 
 The "Touchstone List" may be consulted when the table needs to make a
 judgment about whether facts under proposal make sense in the shared universe
@@ -1491,3 +1551,7 @@ See LICENSE.txt
  * Make a high-level flowchart
  * Annotate the GM Guide with images
 
+ * Common Questions a GM will ask players
+   * Is anyone helping?
+   * Who is taking the lead?
+   * What is your character trying to accomplish?
