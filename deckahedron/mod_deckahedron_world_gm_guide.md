@@ -269,8 +269,8 @@ Begin narrating the set-up.
 > 
 > From different doors, you simultaneously enter an empty bedchamber.
 
-[At this point, take out a blank sheet of paper and draw this
-incomplete map]
+At this point, take out a blank sheet of paper and draw this
+incomplete map of Sarrukan's Chamber.
 
 ![Draw maps, leave blanks](images/chamber_map.png)
 
