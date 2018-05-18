@@ -897,18 +897,27 @@ They may only choose 1 A card each.
 They may only choose 2 B cards each.
 
 ```
+TODO
+GM takes out half of the B cards
+GM takes out half of the C cards
+```
+
+```
 TODO - direct players to just focus on the titles, and not need
 to read the entire text
 Tell the players they can optimize their ability to progress their
 character by reading the rules fully at home
+Inform characters of how UNENCUMBERED moves will work with the
+Speed stat - especially Use A Magic Item -- let them know that Magic
+Items sacrifice ability to carry other loot & weapons & armour
 ```
 
-#### Choose cards: Rules for first-time players
+#### Choose cards: Risk Drivers - Rules for first-time players
 
 ```
-TODO
-GM takes out half of the B cards
-GM takes out half of the C cards
+TODO: explainer script here
+ * each player reduce it to a choice between 2 things for the player on
+their right
 ```
 
 If this is your players' **first** experience with a role-playing game,
@@ -932,6 +941,24 @@ Write the chosen phrase on a blank card and hand it to the player. Place
 two green tokens on each player's Risk Driver card. When their character
 first *takes a big risk* by the method or for the reason written on their
 card, they player takes the tokens.
+
+
+### Name your character
+
+When players have finished picking cards, ask them what their character
+is called. Have them write the name on the top of their character sheet
+so that the name faces you. Using a felt-tipped marker is recommended.
+
+
+### Choose Int / Str / Dex
+
+`TODO: illustration`
+
+Tell the players to choose how to distribute 6 points among the attributes.
+No attribute may have a rank of zero. They must all be at least Anchors.
+
+Looking at which attributes get applied to their chosen move cards will
+help the players decide how to distribute these 6 points.
 
 
 ### Add flesh
@@ -979,24 +1006,6 @@ can fit into the Deckahedron World rules.
 
 If a player's character reads as too exotic, that might be the player
 signaling that the fun they want to have is playing a different game.
-
-
-### Name your character
-
-When players have finished picking cards, ask them what their character
-is called. Have them write the name on the top of their character sheet
-so that the name faces you. Using a felt-tipped marker is recommended.
-
-
-### Choose Int / Str / Dex
-
-`TODO: illustration`
-
-Tell the players to choose how to distribute 6 points among the attributes.
-No attribute may have a rank of zero. They must all be at least Anchors.
-
-Looking at which attributes get applied to their chosen move cards will
-help the players decide how to distribute these 6 points.
 
 
 ### Home / Comfort
