@@ -7,10 +7,11 @@ game. Your responsibilities are:
 
  * pitch the idea of playing Deckahedron World to your friends
  * know, teach, and follow the rules
- * tell the lion's share of the story
  * give Non-Player Characters (NPCs) names, voices, motivations,
    and behaviour
+ * describe scenes
  * confront the players with challenges and dangers
+ * move the story to plot points
  * take some notes
  * and...
 
@@ -69,28 +70,36 @@ World before, read the Start Script and play Sarukkan's Chamber.
 > 
 > Imagine we're making an awesome adventure movie with swords and magic.
 > You're the actors just making stuff up as you go, and I'm a combination
-> of screenwriter and director, trying to fill the story with excitement
+> of director and cinematographer, trying to fill the story with excitement
 > and drama and also deciding how the scenes go together and where the
 > camera cuts to next.
 > 
 > But let me pause for a minute and get specific about what I mean by
 > "you decide everything your character *does*".
-> 
+>
 > You can't just say "My character Tyrion runs up to the bad guy and
 > punches him in the head and his head goes flying off".
 > You *can* say "My character runs up to the bad guy and *tries* to punch
 > his head hard enough to send it flying off". See the difference? When you
 > describe an action where there's some uncertainty like that, It's my job
-> as the GM to say you've *triggered a move*. The game rules will then take
-> us from uncertainty to certainty and tell us if the bad guy's head actually
+> as the GM to say you've *triggered a move*. The game rules will then answer
+> the question "does it happen?" and tell us if the bad guy's head actually
 > goes flying off.
-> 
+>
 > When a *move is triggered*, it's time to use the cards and dice to see
 > what happens next. Triggering moves is a lot of fun. It's fun to succeed
 > and it's fun to fail, because even in failure, new exciting stuff starts
 > happening. When you trigger moves, you impact the narrative, consequences
 > happen, and we're all going to get surprises when cards flip and dice roll.
-> 
+>
+> Besides face-punching, some other questions that might be answered by
+> triggering moves are:
+>
+>  * Will the washer-woman agree to hide me from my pursuers?
+>  * Do I see the giant spider web in my path?
+>  * Is there another way out of this burning tavern?
+>  * Will this magical scepter work just one more time?
+>
 > The game isn't all triggering moves though.
 
 Distribute a character sheet to each player.
@@ -100,11 +109,11 @@ Distribute a character sheet to each player.
 > probably have lots of questions for me, and we're going to put everything
 > together to make an epic story. It's gonna have adventure, battles, chases,
 > discoveries, and magic.
-> 
+>
 > It's a fantasy story, so think dangerous, and take risks.
-> 
+>
 > Be true to your character's personality. Remember it's sort of like acting.
-> 
+>
 > Your character will start out as a scrappy adventurer, and rise in power
 > to become a hero. Or villain. Or maybe they'll just die in the attempt.
 > And maybe they'll be resurrected after that.
@@ -119,20 +128,20 @@ Distribute a character sheet to each player.
 > 
 > This first session will need about 40 minutes of preparation, though.
 > Ten minutes has already gone by with this speech (it's almost over).
-> 
+>
 > Next, we're going to play Sarrukan's Chamber, a pre-made adventure for
-> you to get the hang of the rules. I'll set a timer for 10 minutes and
-> then end Sarukkan's Chamber when it goes off.
-> 
+> you to get the hang of the rules. It will be short. I'll set a timer
+> for 10 minutes and end Sarukkan's Chamber when it goes off.
+>
 > Then we'll take 10 minutes to create a Touchstone List for our game.
-> 
+>
 > Then we'll do 10 minutes of Character Creation.
-> 
+>
 > And then, the adventure begins.
-> 
+>
 > Let's start!
 
-## Sarukkan's Chamber
+## Your Deckahedron
 
 Give each player a Deckahedron.
 
@@ -163,6 +172,8 @@ Step the players through "flipping yellow" using the instructions in the
 
 Make sure each player understands how to execute a flip before you proceed.
 
+## Your base moves
+
 Give each player a Move Booklet
 
 > Here are the basic moves.  You don't have to read this booklet unless you
@@ -176,33 +187,39 @@ Give each player a Move Booklet
 > why it's on the first page. The moves in the back of the booklet are
 > "downtime" moves which we won't need until much later.
 
-Next, ask the players these 3 questions. This is an improvisation exercise.
+## Sarukkan's Chamber
+
+First, you will need names for the characters and setting of Sarukkan's
+Chamber. Ask the players these 3 questions. This is an improvisation exercise.
 Its purpose is to get the creative juices flowing and to signal to the
 players that they have input over the story.
 
 Ask the players for the name of a medieval fantasy city name.
-Write down the answer. That will be the name of the setting.
+Simply write down the answer. That will be the name of the setting.
 
-Ask "What's a store where women buy clothing?". Use that to create the
-female protagonist's name. (eg, "Forever 21" can turn into "Forva",
-"La Senza" can turn into "Senza")
+Ask "What's a store where women buy clothing?". This time, twist the answer
+a little to create the female protagonist's name. (eg, "Forever 21" might
+turn into "Forva", "The Gap" into "Gappalina")
 
-Ask "What's a city in Europe?". Create the male protagonist's name with
-that. (eg, "Paris" can just be "Paris", London can be "Donalo")
+Ask "What's a city in Europe?". Again, twist this answer to create the male
+protagonist's name with that. Stretch your creativity muscles.
+(eg, "Paris" might turn into "Croissant", Maybe rearrange "London"
+to "Donalo")
 
     This mini-game is a GM tool. Often, the players will look to you to
     come up with names of characters or places on the fly. Instead of
     sitting still and thinking for 30 seconds, you can can use this technique
     to keep them engaged. See [Appendix 1](#appendix_1) for more
 
-Distribute a player card to each player and ask them to write down the
-names you just came up with.
+Ask each player to write down the names you just came up with on their
+character sheet.
 
-Next, instruct the players to fill out the attribute boxes like so:
+Next, instruct the players to fill out the attribute boxes on their
+character sheet like so:
 
- * Both characters have 1 Int (Anchor)
- * The female protagonist has 3 Dex (Crescent) and 2 Str (Bulb)
- * The male protagonist has 2 Dex (Bulb) and 3 Str (Crescent)
+ * Both characters have 1 Intelligence (Anchor)
+ * The female protagonist has 3 Dexterity (Crescent) and 2 Strength (Bulb)
+ * The male protagonist has 2 Dexterity (Bulb) and 3 Strength (Crescent)
 
 ### Introduce Sarrukan's Chamber
 
@@ -274,7 +291,7 @@ incomplete map of Sarrukan's Chamber. Then drop a couple tokens
 representing the players' characters on the paper. If you don't have
 tokens, you can use coins or nuts or glass beads, anything handy.
 
-![Draw maps, leave blanks](images/chamber_map.png)
+![Draw maps, leave blanks](images/chamber_map.png){ width=7cm }
 
 This map will let everyone know roughly where their character is
 positioned. You don't always need this visual aid, but Sarukkan's
@@ -309,9 +326,23 @@ This last question "What do you do?" is very important.
 When you describe a situation, always end with this kind of prompt. Portray
 a situation that demands a response. Always.
 
-As a GM, this is what you will be doing most of the time.
 
-**Describe the immediate situation around the players at all times.** This
+## But now what should I say?
+
+> Where's the *rest* of the script?
+
+If this is your first time being a GM, you might feel intimidated. That's
+ok. Remember, this is not high art, this is improv. You are *playing* to
+find out what happens.
+
+If this is the first time you've GMed a game, the best thing you can do
+is prepare.  Read the [Guidance](#guidance) chapter. Check out some
+[examples](#show_dont_tell) of how other GMs have run their games.
+Then, with that context, read the Guidance chapter again.
+
+The primary thing to remember is that on ✗✗, you get to make a move.
+
+Always **Describe the immediate situation around the characters**. This
 is how you start a session, how you get things rolling after a snack break,
 get back on track after a great joke: tell them what the situation is in
 concrete terms.
@@ -326,14 +357,144 @@ worry about". They're adventurers going on adventures -- give them something
 to react to.
 
 
+### Sarukkan's Chamber Details - take them or leave them
 
-## But now what should I say?
+ * Luxurious canopy bed in the middle
+ * Chamber is full of esoterica - bookcases and desks overflowing with books,
+   sculptures, candlesticks, and votives
+ * Chamber is empty of any adornments, the only feature is a bed and
+   a precise circle of white powder in the center of the room
+ * A window at the front of the room - an escape route?
+ * An alarm triggers when a guard enters the room?
+ * A creepy portrait of Sarukkan, whose eyes follow you as you move
+ * A trap-door under the bed - where does it lead?
 
-    Where's the *rest* of the script?
 
-If this is your first time being a GM, you might feel intimidated. That's
-ok. Remember, this is not high art, this is improv. You are *playing* to
-find out what happens.
+### Goals for Sarrukan's Chamber
+
+Ideally, Sarukkan's Chamber should demonstrate what kind of game
+Deckahedron World is.
+
+Deckahedron World creates plot questions for players to answer:
+
+ * Will the brother & sister who haven't seen each other in a
+   decade discover each other's identities?
+ * Will the brother & sister escape Sarukkan's imprisonment?
+ * (3rd player variant) Will the reluctant guard choose to obey an
+   evil master, or rebel?
+
+Deckahedron World creates tension and action:
+
+ * Potential combat against guards or kitchen staff or Sarukkan himself
+ * Potential chases involving outsmarting or outmaneuvering pursuers
+ * Potential to hatch plans and use available resources to set traps or
+   defy traps that been set for them
+ * Potential to use stealth and social manipulation with guards and
+   party guests
+
+Your group's playing of Sarrukan's Chamber doesn't have to *all of this*,
+just give players a taste.
+
+It should also help teach the rules of Deckahedron World.
+
+ * Get each player to have an opportunity to do a Deckahedron flip
+ * If a player flips the Critical Success card, that's an opportunity
+   to explain the Critical Flip move
+ * Ideally there will be a combat scene.
+   (see the [Combat guidelines](#creating_a_combat_encounter))
+   Try to get the PCs to attempt *Hack & Slash* or *Volley*
+ * The brother & sister may trigger *Discern* and *I Know This* moves
+   when they try to reveal each others' identities
+ * The *Discern* move often comes up when having a look around Sarukkan's
+   Chamber itself.
+ * If any player-versus-player combat happens, remember to use the PvP
+   combat rules
+
+It should also be a warm-up for your GM skills.
+
+ * Remember: "Yes, and..."
+ * Move the spotlight - be fair, let all players impact the narrative
+ * Manage the pace. Let the PCs have some dialogue, but when it feels like
+   they're hesitating, push quickly to the approaching dangers.
+ * Get the guards into the room for a quick fight.
+ * As the PCs gain the upper hand, show signs of another threat (maybe
+   the wizard himself approaches - it's ok to tell the story of what's
+   happening *off-camera*)
+ * Play Sarukkan's Chamber *honestly*. Set the stakes the same as you would
+   when you play a campaign
+
+After Sarukkan's Chamber, the players should now understand how the
+Deckahedron works with character attributes to produce results that affect
+the narrative. Ask the players if they get it, and explain again if there's
+still any confusion.
+
+
+### After the timer goes off
+
+When the 10 minute timer goes off, you have a choice.
+
+Take a look at your friends, are they having fun? Are they smiling, are they
+looking at you eagerly to see what happens next, are they bantering with
+each other about what actions to take, are they having in-character dialogues?
+
+Sarukkan's Chamber is intended as a 10 minute tutorial, but if it seems like
+everyone wants more, you can keep it going.
+
+Ask the table if they want to keep going with this scenario. If not, just
+skip forward to the Touchstone List. But if they do want to continue, add in
+the next layer of rules before jumping back into the action.
+
+ * Tell the players how the Speed / Wealth / Equipment rules work.
+ * Give them each 6 tokens.
+ * The characters do not get to put any tokens in Wealth or Equipment,
+   as they were just prisoners
+ * Any character still wearing their elaborate costume should get a card
+   entitled "Costume", and one token should be put on the card
+ * If the characters have picked up anything else significant during their
+   adventure so far, make a card for that and put a token on it
+
+
+### Sarrukan's Chamber 3rd PC variant - The reluctant guard
+
+If you've got a 3rd player at the table, add a guard character.
+
+Add another 5 minutes to the timer, so now Sarukkan's Chamber will end
+after 15 minutes, not 10.
+
+Ask "What's a domestic brand of beer?". Use that to create the 3rd
+character's name. The guard can be any gender, has 3 Int, 2 Str, and 1 Dex.
+
+Let them know that they'll get introduced about 5 minutes into the story.
+
+After the first to PCs have had a chance to inspect their
+surroundings, and maybe have a dialogue with each other, introduce the
+3rd PC
+
+> [Addressing guard]
+> _ (guard), you are a guard.
+> You're the newest hire in Sarukkan's staff, but you're already thinking of
+> finding different work. There's some sketchy stuff going on here. You're
+> not too sure what exactly, since you mostly patrol the yard, but you're
+> sure you heard the sounds of women crying when you patrolled near the
+> cellar door a couple days ago.
+>
+> You got called into the house just now.  Apparently a guest of the ball
+> had been assaulted and stripped of their clothing.  The culprit might still
+> be inside, so Yogran the Rat, a high-ranking guard, pulled you from valet
+> duty to help him investigate.
+>
+> As you climb to the top of the service stairs, arriving at the 3rd floor,
+> Yogran orders you to peek your head into the chamber.
+>
+> You've heard the rumors, Sarukkan cloisters himself away in there,
+> experimenting with dark magic.  Some say, communing with the dead.
+> All staff are forbidden to enter his chamber, many agree a curse will
+> befall anyone that does.
+>
+> What do you do?
+
+
+# Guidance
 
 Here are 5 gems to come back to whenever you don't know what to say next.
 
@@ -644,111 +805,6 @@ gears, you're going to spend points from the *Bad Bank* to increase the
 difficulty.
 
 
-### Sarukkan's Chamber Details - take them or leave them
-
- * Luxurious canopy bed in the middle
- * Chamber is full of esoterica - bookcases and desks overflowing with books,
-   sculptures, candlesticks, and votives
- * Chamber is empty of any adornments, the only feature is a bed and
-   a precise circle of white powder in the center of the room
- * A window at the front of the room - an escape route?
- * An alarm triggers when a guard enters the room?
- * A creepy portrait of Sarukkan, whose eyes follow you as you move
-
-
-### Goals for Sarrukan's Chamber
-
-Ideally, Sarukkan's Chamber should demonstrate what kind of game
-Deckahedron World is.
-
-Deckahedron World creates questions for players to answer:
-
- * Will the brother & sister who haven't seen each other in a
-   decade discover each other's identities?
- * Will the brother & sister escape Sarukkan's imprisonment?
- * (3rd player variant) Will the reluctant guard choose to obey an
-   evil master, or rebel?
-
-Deckahedron World creates tension and action:
-
- * Potential combat against guards or kitchen staff or Sarukkan himself
- * Potential chases involving outsmarting or outmaneuvering pursuers
- * Potential to hatch plans and use available resources to set traps or
-   defy traps that been set for them
- * Potential to use stealth and social manipulation with guards and
-   party guests
-
-Your group's playing of Sarrukan's Chamber doesn't have to *all of this*,
-just give players a taste.
-
-It should also help teach the rules of Deckahedron World.
-
- * Get each player to have an opportunity to do a Deckahedron flip
- * If a player flips the Critical Success card, that's an opportunity
-   to explain the Critical Flip move
- * Ideally there will be a combat scene.
-   (see the [Combat guidelines](#creating_a_combat_encounter))
-   Try to get the PCs to attempt *Hack & Slash* or *Volley*
- * The brother & sister may trigger *Discern* and *I Know This* moves
-   when they try to reveal each others' identities
- * The *Discern* move often comes up when having a look around Sarukkan's
-   Chamber itself.
- * If any player-versus-player combat happens, remember to use the PvP
-   combat rules
-
-It should also be a warm-up for your GM skills.
-
- * Remember: "Yes, and..."
- * Move the spotlight - be fair, let all players impact the narrative
- * Manage the pace. Let the PCs have some dialogue, but when it feels like
-   they're hesitating, push quickly to the approaching dangers.
- * Get the guards into the room for a quick fight.
- * As the PCs gain the upper hand, show signs of another threat (maybe
-   the wizard himself approaches - it's ok to tell the story of what's
-   happening *off-camera*)
- * Play Sarukkan's Chamber *honestly*. Set the stakes the same as you would
-   when you play a campaign
- * Go back into the rules instruction after no more than 10 minutes.
-
-After Sarukkan's Chamber, the players should now understand how the
-Deckahedron works with character attributes to produce results that affect
-the narrative. Ask the players if they get it, and explain again if there's
-still any confusion.
-
-
-### Sarrukan's Chamber 3rd PC variant - The reluctant guard
-
-If you've got a 3rd player at the table, add a guard character.
-
-Add another 5 minutes to the timer, so now Sarukkan's Chamber will end
-after 15 minutes, not 10.
-
-Ask "What's a domestic brand of beer?". Use that to create the 3rd
-character's name. The guard can be any gender, has 3 Int, 2 Str, and 1 Dex.
-
-Let them know that they'll get introduced about 5 minutes into the story.
-
-After the first to PCs have had a chance to inspect their
-surroundings, and maybe have a dialogue with each other, introduce the
-3rd PC
-
-> [Addressing guard]
-> _ (guard), you are a guard.
-> You're the newest hire in Sarukkan's staff, but you're already thinking of
-> changing careers. There's some sketchy stuff going on here. You're not too
-> sure what exactly, since you mostly patrol the yard, but you're sure you
-> heard the sounds of women crying when you patrolled near the cellar door
-> a couple days ago.
-> 
-> You got called into the house just now.  Apparently a guest of the ball
-> had been assaulted and stripped of their clothing.  The culprit might still
-> be inside, so Yogran, a fellow guard pulled you to help him investigate.
-> 
-> One other thing, Sarukkan is rumoured to be a practitioner of dark magic
-> and all staff are forbidden to enter his chamber. You think Yogran is going
-> to use you as a guinea pig to do just that.
-
-
 # Begin a Campaign
 
 ## Establish Touchstones
@@ -798,6 +854,12 @@ setting, remind the players that Deckahedron World has rules for swords and
 limited magic, and no rules for machine guns or interstellar travel. So
 choosing sci-fi touchstones might help with themes and tone, but won't have
 much to offer for establishing setting.
+
+Deckahedron World works best with stories where characters start out
+"scrappy", that is to say, without extraordinary powers and priviliges,
+characters who struggle, who chafe against their current limitations in the
+world. So superhero titles or stories where protagonists are genetically
+imbued with special abilities might also need to be pared down.
 
 ```
 For step 2, we're going to narrow it down.
@@ -849,8 +911,8 @@ What monsters lurk, what weakness do the ambitious and powerful exploit?
 It's not necessary for anyone to answer these questions, they are just to
 provoke the imagination.
 
-### The Touchstone List
 
+### Using The Touchstone List
 
 The "Touchstone List" may be consulted when the table needs to make a
 judgment about whether facts under proposal make sense in the shared universe
@@ -880,48 +942,106 @@ Leave enough space to track the points under each of those headings.
 
 ### Set Expectations
 
-Deckahedron World is a game about a group of scrappy adventurers who
-grow to be powers to become reckoned with. Let your players know that.
-Establish that their characters will start the game with skills
-and gifts beyond ordinary folk, but they'll still have to work and
-struggle through adversity to become really powerful.
+> Deckahedron World is a game about a group of scrappy adventurers who
+> grow in power as we play the game.
+>
+> Your character will start the game with skills and gifts beyond ordinary
+> folk, but they'll still have to work and struggle through adversity to
+> become really powerful.
+
 
 ### Choose cards
 
-Lay out the cards with an A, B or C in the corner
+Gather the move cards, and separate them into piles:
 
-Tell the players they can choose 3 cards.
+ * Cards with "A" in the corner
+ * Cards with "B" in the corner
+ * Cards with "C" in the corner
+ * Cards without any letter in the corner
 
-They may only choose 1 A card each.
+#### If any player is new to Deckahedron World
 
-They may only choose 2 B cards each.
+Lay out the A cards in front of your players.
+Then select and lay out 4 B cards.
+Then select and lay out 4 C cards.
 
-```
-TODO
-GM takes out half of the B cards
-GM takes out half of the C cards
-```
+> These are the move cards you can start with. You are going to take turns
+> choosing, and I'm here to explain how they work and answer questions.
+>
+> The "A" cards are usually the most powerful, so, during character creation,
+> you can only choose one of those. You can choose up to 2 of the B cards,
+> and if you wanted, you can choose 3 C cards, You get to start
+> with 3 move cards in total.
+>
+> To differentiate the characters, you don't get to choose a card that
+> someone else has already picked. But later on in the game, you'll have
+> opportunities to learn new moves and even choose moves that someone
+> else has.
+>
+> There's a lot of choices here, so don't get overwhelmed. You don't have
+> to read all of the instructions on each card, just focus on the titles
+> and ask yourself if that sounds like something you want your character
+> to be doing during the game. If a title sounds interesting to you, ask
+> me about it and I'll explain how it works in the game.
+>
+> If you're the kind of person that really wants to optimize your character
+> you'll probably want to read and understand the rules in the Player's Guide,
+> plus all the text of the move cards, and now might not be the best time
+> for that. Deckahedron World is more about improvisation than perfection,
+> so try to listen to your gut and just pick cards that look like fun.
 
-```
-TODO - direct players to just focus on the titles, and not need
-to read the entire text
-Tell the players they can optimize their ability to progress their
-character by reading the rules fully at home
-Inform characters of how UNENCUMBERED moves will work with the
-Speed stat - especially Use A Magic Item -- let them know that Magic
-Items sacrifice ability to carry other loot & weapons & armour
-```
+As players choose cards, there may be opportunities to explain some of the
+deeper rules.
 
-#### Choose cards: Risk Drivers - Rules for first-time players
+When a player chooses a card with an UNENCUMBERED or RECEIVE CARDS tag,
+take that opportunity to explain how Speed / Wealth / Equipment works
+and point out how it will impact their ability to choose other equipment
+and be able to run away from threats.
 
-```
-TODO: explainer script here
- * each player reduce it to a choice between 2 things for the player on
-their right
-```
+When a player chooses a card with an IMMEDIATE tag, take that opportunity
+to explain that they can only use one IMMEDIATE move at a time, and that
+they don't risk a GM move if they flip ✗ or ✗✗.
 
-If this is your players' **first** experience with a role-playing game,
-tell the players to also choose a "Risk Driver":
+#### If every player has played Deckahedron World before
+
+For experienced players, moves are chosen by drafting cards.
+
+Shuffle the A, B, and C piles, keeping them separate.
+
+Put the B pile on top of the C pile, then put the A pile on top of that,
+creating a deck. Take that deck in your hand. Don't shuffle it.
+
+Deal out a hand of cards for each player at the table.
+
+Each player takes a hand, takes one card from it, then passes the remaining
+cards to the player on their left. They do that 3 times.
+
+After the draft is over, if someone doesn't have an A card, they may
+choose one additional C card.
+
+
+### Name your character
+
+When players have finished picking cards, ask them what their character
+is called. Have them write the name on the top of their character sheet
+so that the name faces you. Using a felt-tipped marker is recommended.
+
+
+### Choose Risk Drivers
+
+> Since Deckahedron World is a game about taking risks, I'm going
+> to give you an opportunity to get some bonuses when you get risky.
+> We're going to create what are called "Risk Driver" cards.
+>
+> On your Risk Driver will be written some goal for your character to
+> achieve in the story. Then I'm going to put 2 green tokens on the card.
+>
+> When your character *takes a big risk* to achieve this goal, you get
+> to take the 2 green tokens.
+>
+> The player on your left is going to look at this list of goals then
+> present you with 2 goals.  You must choose 1 of them. That goal gets
+> written on your Risk Driver.
 
  * Expose an embarrassment
  * Locate a prize
@@ -940,7 +1060,19 @@ tell the players to also choose a "Risk Driver":
 Write the chosen phrase on a blank card and hand it to the player. Place
 two green tokens on each player's Risk Driver card. When their character
 first *takes a big risk* by the method or for the reason written on their
-card, they player takes the tokens.
+card, the player takes the tokens.
+
+
+
+### Choose Int / Str / Dex
+
+`TODO: illustration`
+
+Tell the players to choose how to distribute 6 points among the attributes.
+No attribute may have a rank of zero. They must all be at least Anchors.
+
+Looking at which attributes get applied to their chosen move cards will
+help the players decide how to distribute these 6 points.
 
 
 ### Name your character
