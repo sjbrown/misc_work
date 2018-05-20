@@ -206,8 +206,22 @@ table {
   border-spacing: 0;
 }
 
+th {
+  padding-right: 0.5em;
+  border-bottom: solid 1px grey;
+}
+
 td {
+  padding-right: 0.8em;
   vertical-align: top;
+}
+
+tr.even {
+  background-color: #f0f0f0;
+}
+
+tr {
+  border-bottom: solid 1px #CCC;
 }
 
 @media only screen and (min-width: 480px) {
