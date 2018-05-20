@@ -21,6 +21,16 @@ The players will signal the *kinds* of fun they want to have. It is
 your responsibility to notice these signals and insert that kind of
 fun into the game.
 
+---
+
+To make your job of teaching the rules easier, this guide has
+**scripts**. The scripts are written to be read by you to the players
+at the table.
+
+Before sitting down with your group of players, you should read all
+the rules. Your players will have questions, you will need to answer them.
+
+
 ## Show, Don't Tell
 
 One piece of advice frequently given to anyone trying to convey information
@@ -31,15 +41,6 @@ In that spirit, you are invited to visit
 of Deckahedron World being played. For all the author's attempt to make this
 document clear, brief, and unambiguous, those examples may do a better job
 of conveying just what Deckahedron World is and how it is played.
-
----
-
-To make your job of teaching the rules easier, this guide has
-**scripts**. The scripts are written to be read by you to the players
-at the table.
-
-Before sitting down with your group of players, you should read all
-the rules. Your players will have questions, you will need to answer them.
 
 
 # First Session
@@ -209,7 +210,7 @@ to "Donalo")
     This mini-game is a GM tool. Often, the players will look to you to
     come up with names of characters or places on the fly. Instead of
     sitting still and thinking for 30 seconds, you can can use this technique
-    to keep them engaged. See [Appendix 1](#appendix_1) for more
+    to keep them engaged. See [Appendix 1](#appendix-1) for more
 
 Ask each player to write down the names you just came up with on their
 character sheet.
@@ -337,7 +338,7 @@ find out what happens.
 
 If this is the first time you've GMed a game, the best thing you can do
 is prepare.  Read the [Guidance](#guidance) chapter. Check out some
-[examples](#show_dont_tell) of how other GMs have run their games.
+[examples](#show-dont-tell) of how other GMs have run their games.
 Then, with that context, read the Guidance chapter again.
 
 The primary thing to remember is that on ✗✗, you get to make a move.
@@ -401,7 +402,7 @@ It should also help teach the rules of Deckahedron World.
  * If a player flips the Critical Success card, that's an opportunity
    to explain the Critical Flip move
  * Ideally there will be a combat scene.
-   (see the [Combat guidelines](#creating_a_combat_encounter))
+   (see the [Combat guidelines](#creating-a-combat-encounter))
    Try to get the PCs to attempt *Hack & Slash* or *Volley*
  * The brother & sister may trigger *Discern* and *I Know This* moves
    when they try to reveal each others' identities
@@ -539,7 +540,7 @@ and pull more buckets up from that well. If a character is religious, ask
 them what their gods would have to say. If there's a halfling in the party,
 ask how hungry the current scene makes them.
 
-Other questions to ask are [improv game questions](#appendix_1).
+Other questions to ask are [improv game questions](#appendix-1).
 These are questions that have nothing to do with the current scene, but
 prompt everyone, especially you, to *think laterally*. These can be great
 to inspire you:
@@ -815,36 +816,33 @@ Touchstone List, and tell them its purpose. Then start executing the steps.
 
 Take out a new blank sheet of player.
 
-```
-Before we start an adventure, we need to figure out what kind of world
-your characters come from.
-
-We'll go through a 3-step process to make what's called a Touchstone List.
-
-The Touchstone List is a tool I use to create the setting for the
-game. I'll also use it for inspiration on tones and themes. And we'll look
-to it together when your characters are pushing the envelope, to answer
-questions like "is that action even possible?"
-```
+> Before we start an adventure, we need to figure out what kind of world
+> your characters come from.
+> 
+> We'll go through a 3-step process to make what's called a Touchstone List.
+> 
+> The Touchstone List is a tool I use to create the setting for the
+> game. I'll also use it for inspiration on tones and themes. And we'll look
+> to it together when your characters are pushing the envelope, to answer
+> questions like "is that action even possible?"
 
 
 ### Step 1 - Brainstorm Titles
 
-```
-The first step is for everyone to grab a pen or pencil and write a few titles
-from pop culture on this piece of paper. Think of books, movies, games,
-comics and TV shows whose settings inspire your imagination. Think ones with
-stories you'd like to imagine yourself inside.
-
-Don't censor yourself, and don't shoot down anyone else's title down. This
-is brainstorming, and we want the ideas to flow.
-
-Stop when you've got 3 or 4.
-```
+> The first step is for everyone to grab a pen or pencil and write a few titles
+> from pop culture on this piece of paper. Think of books, movies, games,
+> comics and TV shows whose settings inspire your imagination. Think of ones
+> where you've imagined yourself inside those stories and thought about what
+> decisions you would have made if you were those characters.
+> 
+> Don't censor yourself, and don't shoot down anyone else's title down. This
+> is brainstorming, and we want the ideas to flow.
+> 
+> Stop when you've got 3 or 4.
 
 You may need to reiterate to the players that you're looking for *titles*.
 
-`TODO: touchstone list illustration`
+![Touchstone List](images/touchstone_list_1.png){ width=7cm }
 
 ### Step 2 - Narrow Titles
 
@@ -861,25 +859,22 @@ characters who struggle, who chafe against their current limitations in the
 world. So superhero titles or stories where protagonists are genetically
 imbued with special abilities might also need to be pared down.
 
-```
-For step 2, we're going to narrow it down.
-
-Take a turn and circle one of the titles on this list. You are allowed to
-circle one of your own titles, or any of the other ones.
-
-Only circle one, and don't circle something that's already been circled
-```
+> For step 2, we're going to narrow it down.
+> 
+> Take a turn and circle one of the titles on this list. You are allowed to
+> circle one of your own titles, or any of the other ones.
+> 
+> Only circle one, and don't circle something that's already been circled
 
 Each player gets a chance to circle one of the titles on the list.
 The GM gets a turn too, and should take that turn after the others are
 finished.
 
+![Touchstone List](images/touchstone_list_2.png){ width=7cm }
 
 ### Step 3 - Set Expectations
 
-```
-This is our "Touchstone List": [read the circled titles]
-```
+> This is our "Touchstone List": [read the circled titles]
 
 The GM, using their knowledge of the rules, should read the list and
 call out any potential conflicts between circled titles and the rules of
@@ -896,17 +891,15 @@ what's going to be possible.
 
 Everyone will have more fun if expectations are set at the beginning.
 
-```
-Imagine this mashed-up universe.
-
-What kind of world would be the one where some portion from each circled
-title is mixed together with the others?
-What does this world look like?
-What are it's dominant features?
-What secrets are hidden away in the small places?
-Who are the folk that populate it, do their children happily play in the sun?
-What monsters lurk, what weakness do the ambitious and powerful exploit?
-```
+> Imagine this mashed-up universe.
+> 
+> What kind of world would be the one where some portion from each circled
+> title is mixed together with the others?
+> What does this world look like?
+> What are it's dominant features?
+> What secrets are hidden away in the small places?
+> Who are the folk that populate it, do their children happily play in the sun?
+> What monsters lurk, what weakness do the ambitious and powerful exploit?
 
 It's not necessary for anyone to answer these questions, they are just to
 provoke the imagination.
@@ -1075,24 +1068,6 @@ Looking at which attributes get applied to their chosen move cards will
 help the players decide how to distribute these 6 points.
 
 
-### Name your character
-
-When players have finished picking cards, ask them what their character
-is called. Have them write the name on the top of their character sheet
-so that the name faces you. Using a felt-tipped marker is recommended.
-
-
-### Choose Int / Str / Dex
-
-`TODO: illustration`
-
-Tell the players to choose how to distribute 6 points among the attributes.
-No attribute may have a rank of zero. They must all be at least Anchors.
-
-Looking at which attributes get applied to their chosen move cards will
-help the players decide how to distribute these 6 points.
-
-
 ### Add flesh
 
 As they are choosing cards, ask the questions on this list,
@@ -1140,29 +1115,6 @@ If a player's character reads as too exotic, that might be the player
 signaling that the fun they want to have is playing a different game.
 
 
-### Home / Comfort
-
-Before the game begins, ask *every* player where their character feels most
-at home, or what their favourite activity is.
-
-Write down the answers.
-
-Use this information to get your first point in your *Good Bank*, by
-starting the story out in a place of normalcy, vitality, and comfort.
-Remember, it doesn't have to be a Hobbit hole.  Characters might be most at
-home in the middle of a bloody battle.
-
-
-### Risk Takers
-
-Ask this question to each player: What about your character's personality
-causes them to overreach?  What makes them take risks a normal person avoids?
-Are they brave, foolhardy, driven, greedy, curious, grieving? Caught between
-two worlds? Unsure of who they are? Do they have a deathwish?
-
-Write down the answers.
-
-
 ### Choose Items and Weapons
 
 Each player may choose 2 items in addition to any items they got by
@@ -1196,18 +1148,81 @@ be able to perform any move tagged UNENCUMBERED. Also explain that with
 less than 4 Speed, there will be a Stamina penalty to Bravely Run Away.
 
 
+### Home / Comfort
+
+Before the game begins, ask *every* player where their character feels most
+at home, or what their favourite activity is.
+
+Write down the answers.
+
+Use this information to get your first point in your *Good Bank*, by
+starting the story out in a place of normalcy, vitality, and comfort.
+Remember, it doesn't have to be a Hobbit hole.  Characters might be most at
+home in the middle of a bloody battle.
+
+
+### Risk Takers
+
+Ask this question to each player: What about your character's personality
+causes them to overreach?  What makes them take risks a normal person avoids?
+Are they brave, foolhardy, driven, greedy, curious, grieving? Caught between
+two worlds? Unsure of who they are? Do they have a deathwish?
+
+Write down the answers.
+
+
 ### How do you meet?
 
 This is a game where the players play together on the same team.
-Ask players if the characters already know each other. If so, how? If not,
-establish the broad strokes of how they will meet and what will make them
-decide to team up.  They should be committed to a shared goal within the
-first 30 minutes of play.  Will it be an uneasy alliance? What are the stakes?
-What will your character exhibit that makes the other characters trust them?
 
+Ask players if the characters already know each other. If so, how?
+If not, establish the broad strokes of how they will meet and what will
+make them decide to team up.
+
+They should be committed to a shared goal within the first 30 minutes of
+play. Some questions to consider:
+
+ * Will it be an uneasy alliance?
+ * What are the stakes?
+ * If the characters are not natural allies, how will they come to trust
+   each other enough to team up?
+
+
+### Begin
+
+After establishing all the details about the characters, it's time to begin.
+
+There are many ways to start the narration, so check out the
+[examples](#show-dont-tell) to see some.
+
+Players will probably have a couple questions on their mind when the game
+begins:
+
+ * Where am I?
+ * Where can I go?
+ * Who else is here that I can interact with?
+
+One classic way is to start like some movies start, with an establishing
+shot that gives us a sense of setting. You could narrate a typical
+day-in-the-life scene of NPCs. Or maybe start with the atypical, and narrate
+a scene of trouble brewing.
+
+Another way is to zoom in. Start narrating from a bird's eye view of the
+continent, zoom in to a specific region, then to a city or town, then to a
+neighborhood, then to a building and ending when you're in the room with
+the player's characters.
+
+Everybody at the table has seen movies before, you can use that fact to talk
+about "the camera". You can use words like "pan" and "fade in", and everyone
+will naturally get it.
+
+End your initial narration by confronting them with a problem and asking
+"What do you do?"
 
 ---
+
 # Session 1 Rules
+
 ---
 
 These rules are split up into sessions. During the first 3-hour session,
@@ -1275,7 +1290,8 @@ You can also use Party Power to give the foes:
 | A weapon that does 1d6 damage                  | 4
 | One Stamina point beyond the norm              | 1
 
-You can also augment foes by spending points from the *Bad Bank*. See below.
+You can also augment foes by
+[spending points from the *Bad Bank*](#using-the-bad-bank).
 
 Sometimes you just want to punctuate the plot with some action by throwing
 in a quick-and-easy fight. In that case, use half of the Party Power to create
@@ -1341,18 +1357,18 @@ This format is simple, and gives the players the most agency.
 
 This format makes the opponents more of a threat.
 
-  - Give each player a "turn" where they will probably trigger an aggressive
-    combat move like Hack & Slash or Volley, call that a "player round"
-  - Pay attention to IMMEDIATE combat moves that may have triggered
-  - After player turns are complete, and the players look to you to see
-    what happens next, execute an "NPC round"
-  - Identify the opponents that didn't interact during the "player round"
-  - Describe how all of those opponents team up on one of the player's
-    characters, and call for one Defy Danger flip.
-    (move the "danger" spotlight fairly, but also try to put pressure on any
-    players with more than 3 green tokens)
-  - Failing the Defy Danger flip results in the player's character suffering
-    the opponents' attack. You can calculate attack power thusly:
+ * Give each player a "turn" where they will probably trigger an aggressive
+   combat move like Hack & Slash or Volley, call that a "player round"
+ * Pay attention to IMMEDIATE combat moves that may have triggered
+ * After player turns are complete, and the players look to you to see
+   what happens next, execute an "NPC round"
+ * Identify the opponents that didn't interact during the "player round"
+ * Describe how all of those opponents team up on one of the player's
+   characters, and call for one Defy Danger flip.
+   (move the "danger" spotlight fairly, but also try to put pressure on any
+   players with more than 3 green tokens)
+ * Failing the Defy Danger flip results in the player's character suffering
+   the opponents' attack. You can calculate attack power thusly:
       * ✗✗ : one attack power die from the lead attacker,
         and add 1 attack power (not die) for each other attacker
       * ✗ : no attack power die,
@@ -1399,7 +1415,9 @@ players can justify it.
 
 
 ---
+
 # Session 2 rules
+
 ---
 
 ## Prepare
@@ -1496,29 +1514,37 @@ situations to benefit the players' characters.
 
 ## Create Advantages
 
-One point from the *Good Bank* may be spent to let a player as though
-they had the highest amount of advantage (flip-3-take-best). You may do
-this preemptively or after a flip, like a flashback.
+One point from the *Good Bank* may be spent to let a player execute a move
+as though they had the highest amount of advantage (flip-3-take-best). You
+may do this preemptively or after a flip, like a flashback.
 
 Let's say a character encounters two guards who, in an earlier scene,
-humiliated and bullied him. The player says they're going to use the
-Go Berserk! move.  Because of the narrative set-up, it makes sense that
-it should be easier for the character to enter an enraged state. It would
-make sense for them to have an advantage.
+humiliated and bullied him. The player says their rage takes over and they
+launch themselves at both guards, two swords out and slashing through the
+air.
+With the narrative set-up, the GM thinks it would make the story really
+satisfying for the character to succeed. The GM has a few options to push
+it in the direction of success.
+As a GM, you will usually only have a few points in the *Good Bank*, so
+make sure it's worth it.
 
- - You can hint to the player they already have sufficient narrative set-up
-   to Do a Flashback
- - You can storytell to resolve the situation.  Maybe the guards run away or
-   an additional event makes the conflict irrelevant.
-   Make sure your storytelling is fun for the player. They've already
-   indicated that they want to have fun by Going Berserk.
- - You can use a point from the *Good Bank* to create the advantage - this
-   gives the maximum amount of advantage, causing a flip-3-take-best
-   flip. You've only got a few points in the *Good Bank*, so make sure
-   it's worth it.
+ * The GM can storytell to resolve the situation. Maybe the guards run away.
+   Make sure your storytelling honest for the narrative and is fun for the
+   player. It seems like this player has indicated their fun is in the fight.
+ * The GM interprets this as a Hack and Slash with Goreography added on
+   as an IMMEDIATE move.
+      + The GM can hint to the player they already have sufficient narrative
+        set-up to Do a Flashback
+      + The GM can spend a point from the *Good Bank* to create the advantage
 
-Here is what you can **not** do: you cannot tell them to flip with an
-advantage just because you're the GM and you think it makes sense.
+If the last option is chosen, the maximum amount of advantage is given, causing
+a flip-3-take-best flip. In this particular situation, the GM must choose
+to give advantage to the Hack and Slash move or to the Goreography move.
+Even though Goreography has a maximum Move Level of "expert", using a point
+from the *Good Bank* always gives you a flip-3-take-best flip.
+
+Here is what the GM can **not** do: the GM cannot tell the player to flip
+with an advantage just because they're the GM and they think it makes sense.
 
 If an advantage is to be had, the price must be paid, either by the
 GM or by the player.
@@ -1647,7 +1673,9 @@ and the personality of their characters.
 [Campaigns](mod_deckahedron_world_campaigns.md)
 
 ---
+
 # Signals From Players
+
 ---
 
 `TODO`
@@ -1662,8 +1690,8 @@ and the personality of their characters.
    - bored? excited?
 
 ---
+
 # Appendix 1
----
 
  * What's a city in Europe?
  * What vegetable did you eat yesterday?
@@ -1676,8 +1704,8 @@ and the personality of their characters.
  * What do kids find when turning over stones in a garden?
  * Name something people believe in that isn't real.
 
-Attribution
----
+
+# Attribution
 
 Some of this text is from Dungeon World Copyright 2012,
 Sage Kobold Productions; Authors Sage LaTorra and Adam Koebel.
@@ -1693,6 +1721,6 @@ See LICENSE.txt
  * Annotate the GM Guide with images
 
  * Common Questions a GM will ask players
-   * Is anyone helping?
-   * Who is taking the lead?
-   * What is your character trying to accomplish?
+    * Is anyone helping?
+    * Who is taking the lead?
+    * What is your character trying to accomplish?
