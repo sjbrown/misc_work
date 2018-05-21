@@ -467,7 +467,7 @@ character's name. The guard can be any gender, has 3 Int, 2 Str, and 1 Dex.
 
 Let them know that they'll get introduced about 5 minutes into the story.
 
-After the first to PCs have had a chance to inspect their
+After the first two PCs have had a chance to inspect their
 surroundings, and maybe have a dialogue with each other, introduce the
 3rd PC
 
@@ -1059,7 +1059,7 @@ card, the player takes the tokens.
 
 ### Choose Int / Str / Dex
 
-`TODO: illustration`
+![Point distributions](images/point_distributions.png){ width=7cm }
 
 Tell the players to choose how to distribute 6 points among the attributes.
 No attribute may have a rank of zero. They must all be at least Anchors.
