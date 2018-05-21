@@ -1652,9 +1652,30 @@ If a player resolves a flip with the *critical failure* card, the GM may use
 
 ## Puzzles
 
+(with thanks to The Art of Game Design by Jesse Schell)
+
+ * Goal - make the goal easy to understand
+ * Ramp - make it easy to get started
+    * does it look like something they've seen before?
+    * does it look attractive & inviting to touch?
+ * Progress
+    * riddle vs. 20 questions
+    * how is progress visible?
+ * Parallel
+    * can you introduce sub-elements of the puzzle the players can act
+      on while their stumped on a larger element?
+ * Pyramid
+    * pyramids have a point - final challenge
+    * do the smaller units build up to a satisfying point?
+ * Stumps, Hints, Giveaways
+    * if you make a puzzle, you must be prepared for your players to
+      be stumped
+    * how will hints emerge?
+    * giving away the answer still lets players have "Aha!" moments
+
 ## Monsters
 
-Monsters are just puzzles that can be brute-forced.
+Monsters are just puzzles that can be brute-forced with violence.
 
 Monsters represent something about the theme
 
