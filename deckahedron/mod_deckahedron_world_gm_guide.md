@@ -1001,16 +1001,23 @@ For experienced players, moves are chosen by drafting cards.
 
 Shuffle the A, B, and C piles, keeping them separate.
 
-Put the B pile on top of the C pile, then put the A pile on top of that,
+Put the B pile on top of the A pile, then put the C pile on top of that,
 creating a deck. Take that deck in your hand. Don't shuffle it.
 
-Deal out a hand of cards for each player at the table.
+Deal out a hand of cards for each player at the table. Some players might
+get more cards than others, that's ok -- there doesn't need to be the same
+number of cards in each hand.
 
-Each player takes a hand, takes one card from it, then passes the remaining
-cards to the player on their left. They do that 3 times.
+Now the draft begins. Each player should look through their hand, take
+one card from it, then pass the remaining cards to the player on their left.
+They can take at most 1 A card, and at most 2 B cards.
 
+They do that 3 times.
+
+Any amount of table-talk is allowed during the draft.
 After the draft is over, if someone doesn't have an A card, they may
-choose one additional C card.
+additionally choose any C card that wasn't chosen in the draft.
+
 
 
 ### Name your character
