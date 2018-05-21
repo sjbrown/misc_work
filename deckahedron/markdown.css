@@ -16,6 +16,14 @@ body {
   background: #fefefe;
 }
 
+.caption {
+  font-family: sans-serif;
+  font-size: 75%;
+  font-weight: lighter;
+  margin-top: 0.5em;
+  padding-left: 1em;
+}
+
 a {
   color: #0645ad;
   text-decoration: none;
