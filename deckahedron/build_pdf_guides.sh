@@ -8,6 +8,7 @@ cp ./markdown.css /tmp/markdown.css
 pandoc \
  -s \
  --self-contained \
+ --toc \
  -t html \
  --css=/tmp/markdown.css \
  mod_deckahedron_world_gm_guide.md -o /tmp/guide_gm.html
