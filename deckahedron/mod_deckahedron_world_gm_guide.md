@@ -43,7 +43,7 @@ document clear, brief, and unambiguous, those examples may do a better job
 of conveying just what Deckahedron World is and how it is played.
 
 
-# First Session
+# First-time Players
 
 If there is a player at the table who has never played Deckahedron
 World before, read the Start Script and play Sarukkan's Chamber.
@@ -819,10 +819,10 @@ Take out a new blank sheet of player.
 
 > Before we start an adventure, we need to figure out what kind of world
 > your characters come from.
-> 
+>
 > We'll go through a 3-step process to make what's called a Touchstone List.
-> 
-> The Touchstone List is a tool I use to create the setting for the
+>
+> The Touchstone List is a tool we use to create the setting for the
 > game. I'll also use it for inspiration on tones and themes. And we'll look
 > to it together when your characters are pushing the envelope, to answer
 > questions like "is that action even possible?"
@@ -861,10 +861,10 @@ world. So superhero titles or stories where protagonists are genetically
 imbued with special abilities might also need to be pared down.
 
 > For step 2, we're going to narrow it down.
-> 
+>
 > Take a turn and circle one of the titles on this list. You are allowed to
 > circle one of your own titles, or any of the other ones.
-> 
+>
 > Only circle one, and don't circle something that's already been circled
 
 Each player gets a chance to circle one of the titles on the list.
@@ -893,32 +893,41 @@ what's going to be possible.
 Everyone will have more fun if expectations are set at the beginning.
 
 > Imagine this mashed-up universe.
-> 
+>
 > What kind of world would be the one where some portion from each circled
 > title is mixed together with the others?
+>
 > What does this world look like?
+>
 > What are it's dominant features?
+>
 > What secrets are hidden away in the small places?
+>
 > Who are the folk that populate it, do their children happily play in the sun?
+>
 > What monsters lurk, what weakness do the ambitious and powerful exploit?
 
-It's not necessary for anyone to answer these questions, they are just to
-provoke the imagination.
+It's not necessary for anyone to answer these questions, they are mostly to
+provoke the imagination. But if the table does start imagining out-loud, keep
+that discussion going for as long as it is productive.
 
 
 ### Using The Touchstone List
 
 The "Touchstone List" may be consulted when the table needs to make a
-judgment about whether facts under proposal make sense in the shared universe
-you're creating or whether a character's action should be possible. You can
-ask the question "Would this kind of thing be possible in _ ?" (fill in the
-name of one of the titles in your Touchstone List).
+judgment about whether facts being proposed make sense in the shared universe
+you're creating. It can also be used to simply make calls on whether a
+character's attempt at something is uncertain (remember, the GM
+only calls for flips when the outcome is uncertain).
+
+You can ask the question "Did any character accomplish a similar feat
+in _ ?" (fill in the name of one of the titles in your Touchstone List).
 
 It's also something to consult for what's *not* special. If the titles on your
 list never talk about how their heroes acquire horses or boats, and instead
 just spontaneously present the characters on horseback or sailing at sea,
-then maybe your game should not make a big deal about questions like "How
-did you get that horse?".
+then maybe your game should gloss over questions like "How did you get
+that horse?".
 
 The Touchstone List is also an early way that the players can signal
 to the GM the kind of fun they want to have.
@@ -959,13 +968,13 @@ Lay out the A cards in front of your players.
 Then select and lay out 4 B cards.
 Then select and lay out 4 C cards.
 
-> These are the move cards you can start with. You are going to take turns
-> choosing, and I'm here to explain how they work and answer questions.
+> These are called move cards. You are going to take turns choosing, and
+> I'm here to explain how they work and answer questions.
 >
 > The "A" cards are usually the most powerful, so, during character creation,
 > you can only choose one of those. You can choose up to 2 of the B cards,
-> and if you wanted, you can choose 3 C cards, You get to start
-> with 3 move cards in total.
+> and if you wanted, you can choose 3 C cards, You get to start with 3 move
+> cards in total.
 >
 > To differentiate the characters, you don't get to choose a card that
 > someone else has already picked. But later on in the game, you'll have
@@ -1020,12 +1029,68 @@ After the draft is over, if someone doesn't have an A card, they may
 additionally choose any C card that wasn't chosen in the draft.
 
 
-
 ### Name your character
 
 When players have finished picking cards, ask them what their character
 is called. Have them write the name on the top of their character sheet
-so that the name faces you. Using a felt-tipped marker is recommended.
+bold and large so that you can read it. Using a felt-tipped marker is
+recommended.
+
+
+### Choose Int / Str / Dex
+
+![Point distributions](images/point_distributions.png){ width=7cm }
+
+Tell the players to choose how to distribute 6 points among the attributes.
+No attribute may have a rank of zero. They must all be at least Anchors.
+
+Looking at which attributes get applied to their chosen move cards will
+help the players decide how to distribute these 6 points.
+
+
+### Add flesh
+
+As they are choosing cards, ask the questions on this list, one-at-a-time,
+and make notes from the players' answers. Don't ask each question to each
+player, address a question to just one player, then move on, asking the
+next question to the next player. This exercise gets the players thinking
+about their characters, and gets the table talking, so it's ok for players
+to blurt out responses out of turn.
+
+This conversation might also add details to the world, like
+what kinds of species and religions exist.
+
+ * What species is your character, human, or something else
+   from our Touchstone List?
+ * Does your character steal things, or do they respect the
+   concept of private property?
+ * Before the adventure starts, is your character engaged in
+   any kind of profession?
+ * Does your character believe in gods? Is there some kind of
+   religious practice or religious organization for them?
+ * Does your character enjoy the outdoors, or city life? Are
+   they extreme in that preference?
+ * Roughly how old is your character?  Have they ever killed
+   a person before?
+ * What's your character's social standing? When they first
+   walk into a room full of people, do they provoke any reaction?
+
+Not everyone will get asked every question, but everyone will
+*start thinking* about how *each* of these questions applies to their
+character. With some depth and dimensionality in mind, a player will
+be better able to imagine creative outcomes to the situations their
+character is confronted with.
+
+As you're asking the players these questions, listen for how the answers
+signal the kind of fun the players want to have and also measure the
+expectations they have for the game. Deckahedron World is a game where
+characters start off as scrappy adventures.  If a player is telling you
+their character is a fire demon or a ten year old shoe-shine boy or a
+computer hacker, a conversation is needed to establish how that character
+can fit into the Deckahedron World rules.
+
+If a player's character reads as too exotic, that might be the player
+signaling that the fun they want to have is playing a different game.
 
 
 ### Choose Risk Drivers
@@ -1064,64 +1129,6 @@ first *takes a big risk* by the method or for the reason written on their
 card, the player takes the tokens.
 
 
-### Choose Int / Str / Dex
-
-![Point distributions](images/point_distributions.png){ width=7cm }
-
-Tell the players to choose how to distribute 6 points among the attributes.
-No attribute may have a rank of zero. They must all be at least Anchors.
-
-Looking at which attributes get applied to their chosen move cards will
-help the players decide how to distribute these 6 points.
-
-
-### Add flesh
-
-As they are choosing cards, ask the questions on this list,
-one-at-a-time, and make notes from the players' answers.
-Don't ask each question to each player, address a question
-to just one player, then move on, asking the next question to
-the next player. This exercise gets the players
-thinking about their characters, and gets the table talking,
-so it's ok for players to blurt out responses out of turn.
-This conversation might also add details to the world, like
-what kinds of species and religions exist.
-
- * What species is your character, human, or something else
-   from our Touchstone List?
- * Does your character steal things, or do they respect the
-   concept of private property?
- * Before the adventure starts, is your character engaged in
-   any kind of profession?
- * Does your character believe in gods? Is there some kind of
-   religious practice or religious organization for them?
- * Does your character enjoy the outdoors, or city life? Are
-   they extreme in that preference?
- * Roughly how old is your character?  Have they ever killed
-   a person before?
- * What's your character's social standing? When they first
-   walk into a room full of people, do they provoke any reaction?
-
-Even if the players are done picking cards, finish asking all these questions.
-
-Not everyone will get asked every question, but everyone will
-*start thinking* about how *each* of these questions applies to their
-character. With some depth and dimensionality in mind, a player will
-be better able to imagine creative outcomes to the situations their
-character is confronted with.
-
-As you're asking the players these questions, listen for how the answers
-signal the kind of fun the players want to have and also measure the
-expectations they have for the game. Deckahedron World is a game where
-characters start off as scrappy adventures.  If a player is telling you
-their character is a fire demon or a ten year old shoe-shine boy or a
-computer hacker, a conversation is needed to establish how that character
-can fit into the Deckahedron World rules.
-
-If a player's character reads as too exotic, that might be the player
-signaling that the fun they want to have is playing a different game.
-
-
 ### Choose Speed / Wealth / Equip
 
 `TODO: illustration`
@@ -1136,6 +1143,8 @@ Give each player 6 S/W/E tokens.
 > work. To begin, stack all of these up on top of the word "Speed" on
 > your character sheet.
 >
+> [Wait for them to find it]
+>
 > Your character now "has 6 Speed", which basically means they're not
 > carrying anything that would slow them down or trip them up. If they
 > need to dive through a window, sprint away from a foe, or move lightly
@@ -1144,7 +1153,7 @@ Give each player 6 S/W/E tokens.
 >
 > But when you go below 4 Speed, you start having trouble doing those
 > things. Sometimes, like with the move "Bravely Run Away" there's an added
-> cost, and other times, like with "Pick Pockets", the move becomes
+> cost, and other times, like with "Pick Pockets", the move is just
 > impossible.
 >
 > When your character carries weapons, armour, and some other items, you're
@@ -1153,35 +1162,115 @@ Give each player 6 S/W/E tokens.
 > you might need more than one token).
 >
 > You'll probably notice the other words next to Speed on your character
-> sheet, "Wealth" and "Equip". You can put tokens from your Speed stack on
-> those words if you're planning to use the "Good Thing I Brought..." or
-> "Shop / Procure" moves. They're not necessary when starting out, but you
-> can have a look at the Player's Guide to find out more.
+> sheet, "Wealth" and "Equip". Tokens placed on these spots can be used
+> with the "Good Thing I Brought..." or "Shop / Procure" moves. They're
+> not necessary when starting out, but you can have a look at the Player's
+> Guide to find out more.
 
 
 ### Choose Items and Weapons
 
-Each player may choose 2 items in addition to any items they got by
-choosing move cards with the RECEIVE CARDS tag.
+> Now lets give your characters some equipment.
+>
+> We'll start with the mandatory stuff, does anyone have a Move Card that
+> has a "RECEIVE CARDS" tag on it?
 
-One of these 2 new items may be a magic item.
+Help them identify the tags on their move cards then give them the items
+or the choice of items specified in the rules for those cards.
 
-Other popular choices are weapons or armor.
+During this phase, as they choose each card, instruct them to move a S/W/E
+token from their Speed stack onto the card.
 
-If the player wants their character to have an unusual weapon, that's fine.
+Also, indicate that they get to fill in the blank on the card, so that you
+and they know exactly what kind of item the character posesses.
+
+> Next, you get to choose 2 item cards for your character, these can be
+> weapons, armour, or any other items that have mechanical significance.
+> Deckahedron World comes with some cards to get us started, but we can
+> also write stuff on blank cards.
+>
+> It's recommended that your character have some kind of weapon. Without
+> a weapon, their "attack power" will only be 1d2. Here are the weapon cards
+> that come with the game, but we can also use blank cards and create
+> weapons that would be reasonable for a "scrappy adventurer" to have in
+> the universe we've imagined in our Touchstone List.
+>
+> When your character strikes an enemy with a weapon, their attack power
+> is 1d4.  You can increase your attack power later in the game by using
+> the "Craft a Weapon" or "\_ Mastery" moves.
+
+Lay out the weapon cards that come with the game. If two players want
+the same kind of weapon, just use a blank card to make a second copy.
+
+If a player wants their character to have an unusual weapon, that's fine.
 Explain to them that at the beginning of the game the die they will roll
 will be a d4, even if they describe something epic.
 
-If there is not a card in the deck with the name of the item already, just
-write the item's name on the blank side of another card.
+> The next recommendation is armour or a shield. Armour works by
+> absorbing the attack power of your enemies. Shields work by nullifying
+> your enemies' attack power, but only if you can get your guard
+> up fast enough, and that will challenge your Dexterity.
+
+Lay out the armour and shield cards that come with the game. If two
+players want the same kind of weapon, just use a blank card to make a
+second copy.
+
+Players don't have to choose only from weapons, armour and shields.
+After the cards due players with RECEIVE CARDS tagged cards are chosen,
+each player can choose at most 1 magic item card during character creation
+as one of their 2 item cards. They can take one even if they didn't choose
+the "Use A Magic Item" move card. Make sure the player understands the
+difficulty and cost of using "Use A Magic Item" at the "wild" level.
 
 `TODO: link to weapon and armor lists`
+
+> Finally, you may now choose to put any number of tokens you want
+> from your Speed stack onto your Equip stack. This Equip stack represents
+> the adventuring gear you brought with you. We don't have to actually
+> detail the specific contents of your backpack though. Instead, when you
+> need some equipment to solve a problem, you will use the "Good Thing I
+> Brought..." move, and say what kind of equipment you had with you.
+>
+> If that equipment is something you return to your backpack after use,
+> write it down on a card and move the tokens from your Equip stack onto
+> the card. If the equipment gets consumed immediately when you use it,
+> the tokens just move back on top of your Speed stack.
+>
+> Similarly, if you lose an item during your adventuring, you lose the card,
+> but the token goes back onto your Speed stack. Tokens move on and off
+> your Speed stack as you acquire and drop items.
+
+#### Aside: A feather can make you slower
+
+Often during this phase, a player might bring up the issue of why an item
+they've called a ring or a pair of boots reduces the tokens in their Speed
+stack. How can sliding on a ring make it harder to run away? How can wearing
+boots make it impossible to pick a pocket?
+
+The answer is: that's for them to decide.
+
+In Deckahedron World, there are two arenas: the fiction and the rules.
+Playing means flowing between the two arenas. All the players create
+fiction, which triggers rules, then the rules produce mechanical results
+which the players are challenged to interpret into fiction. Sometimes that
+means the GM interprets an attack power roll, and sometimes it means that
+a player explains that though their ring looks small, it weighs more than
+anyone expects, or that the magical attunement of the boots sends a
+tingling sensation up the nerves of the wearer's legs.
+
+The player that writes on the card should already know that it will take
+a S/W/E token, so it will be up to them to justify what they wrote.
+
+This doesn't mean that every item reduces your speed. After the adventure
+begins, the fiction may produce a letter from the king, or the eggs of a
+cursed salamander -- things that can be tracked by writing them on a card,
+but that don't require a S/W/E token.
 
 
 ### Home / Comfort
 
 Before the game begins, ask *every* player where their character feels most
-at home, or what their favourite activity is.
+at home, or what their favourite activity is -- what they're already good at.
 
 Write down the answers.
 
@@ -1231,6 +1320,7 @@ begins:
  * Where am I?
  * Where can I go?
  * Who else is here that I can interact with?
+ * How do I start using my special move cards?
 
 One classic way is to start like some movies start, with an establishing
 shot that gives us a sense of setting. You could narrate a typical
