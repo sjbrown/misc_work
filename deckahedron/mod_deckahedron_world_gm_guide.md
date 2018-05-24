@@ -446,13 +446,14 @@ skip forward to the Touchstone List. But if they do want to continue, add in
 the next layer of rules before jumping back into the action.
 
  * Tell the players how the Speed / Wealth / Equipment rules work.
- * Give them each 6 tokens.
+ * Give them each 6 S/W/E tokens.
  * The characters do not get to put any tokens in Wealth or Equipment,
    as they were just prisoners
  * Any character still wearing their elaborate costume should get a card
    entitled "Costume", and one token should be put on the card
- * If the characters have picked up anything else significant during their
-   adventure so far, make a card for that and put a token on it
+ * If the characters have any significant items during their
+   adventure so far, make a card for that and if the item is heavy or
+   unweildy, put a token on it
 
 
 ### Sarrukan's Chamber 3rd PC variant - The reluctant guard
@@ -1063,7 +1064,6 @@ first *takes a big risk* by the method or for the reason written on their
 card, the player takes the tokens.
 
 
-
 ### Choose Int / Str / Dex
 
 ![Point distributions](images/point_distributions.png){ width=7cm }
@@ -1122,6 +1122,43 @@ If a player's character reads as too exotic, that might be the player
 signaling that the fun they want to have is playing a different game.
 
 
+### Choose Speed / Wealth / Equip
+
+`TODO: illustration`
+
+The rules for Speed / Wealth / Equip will require some stackable tokens,
+which can be coins or poker chips if you have some. These will be called
+S/W/E tokens throughout this guide.
+
+Give each player 6 S/W/E tokens.
+
+> Here are your Speed / Wealth / Equipment tokens. I'll explain how they
+> work. To begin, stack all of these up on top of the word "Speed" on
+> your character sheet.
+>
+> Your character now "has 6 Speed", which basically means they're not
+> carrying anything that would slow them down or trip them up. If they
+> need to dive through a window, sprint away from a foe, or move lightly
+> through a crowded room, they'll have no problem. As long as your Speed
+> is 4 or more, any such maneuvers will be easy.
+>
+> But when you go below 4 Speed, you start having trouble doing those
+> things. Sometimes, like with the move "Bravely Run Away" there's an added
+> cost, and other times, like with "Pick Pockets", the move becomes
+> impossible.
+>
+> When your character carries weapons, armour, and some other items, you're
+> going to take a card with the name of that item on it, take a S/W/E token
+> off your Speed stack, and put the token on the card (in the case of armour,
+> you might need more than one token).
+>
+> You'll probably notice the other words next to Speed on your character
+> sheet, "Wealth" and "Equip". You can put tokens from your Speed stack on
+> those words if you're planning to use the "Good Thing I Brought..." or
+> "Shop / Procure" moves. They're not necessary when starting out, but you
+> can have a look at the Player's Guide to find out more.
+
+
 ### Choose Items and Weapons
 
 Each player may choose 2 items in addition to any items they got by
@@ -1139,20 +1176,6 @@ If there is not a card in the deck with the name of the item already, just
 write the item's name on the blank side of another card.
 
 `TODO: link to weapon and armor lists`
-
-
-### Choose Speed / Wealth / Equip
-
-`TODO: illustration`
-
-Give each player 6 Speed / Wealth / Equip tokens. For each item card they
-have, tell them to place one token on it. (Except any weapon that is a
-Signature Weapon)
-
-The players can choose to put any remaining tokens in either Speed, Wealth,
-or Equip. Explain to them that if they don't have 4 Speed, they will not
-be able to perform any move tagged UNENCUMBERED. Also explain that with
-less than 4 Speed, there will be a Stamina penalty to Bravely Run Away.
 
 
 ### Home / Comfort
