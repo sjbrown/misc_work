@@ -453,7 +453,7 @@ the next layer of rules before jumping back into the action.
    entitled "Costume", and one token should be put on the card
  * If the characters have any significant items during their
    adventure so far, make a card for that and if the item is heavy or
-   unweildy, put a token on it
+   unwieldy, put a token on it
 
 
 ### Sarrukan's Chamber 3rd PC variant - The reluctant guard
@@ -855,7 +855,7 @@ choosing sci-fi touchstones might help with themes and tone, but won't have
 much to offer for establishing setting.
 
 Deckahedron World works best with stories where characters start out
-"scrappy", that is to say, without extraordinary powers and priviliges,
+"scrappy", that is to say, without extraordinary powers and privileges,
 characters who struggle, who chafe against their current limitations in the
 world. So superhero titles or stories where protagonists are genetically
 imbued with special abilities might also need to be pared down.
@@ -1184,8 +1184,8 @@ token from their Speed stack onto the card.
 Also, indicate that they get to fill in the blank on the card, so that you
 and they know exactly what kind of item the character posesses.
 
-> Next, you get to choose 2 item cards for your character, these can be
-> weapons, armour, or any other items that have mechanical significance.
+> Next, everyone gets to choose 2 item cards for your character, these can
+> be weapons, armour, or any other items that have mechanical significance.
 > Deckahedron World comes with some cards to get us started, but we can
 > also write stuff on blank cards.
 >
