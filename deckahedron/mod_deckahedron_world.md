@@ -230,13 +230,15 @@ flip with two disadvantage cards.
 
 ![A green token card](images/component_card_green_token.png){ width=2.5inch }
 
+Resolving flips is the main way that players acquire green tokens in
+Deckahedron World. Green tokens are sometimes called "risk rewards" and
+they are a player's most important mechanical currency in the game.
+
 Some Deckahedron cards have a green token symbol in the middle.
-After a flip is resolved by a card showing a green token symbol,
-you have a choice:
+After a flip is resolved by a card showing a green token symbol:
 
  * Take a green token from the supply
- (these may be spent later to perform certain moves)
- * Go up one level in the move just performed
+ * Optionally, spend 1 green token to go up 1 level in the move just performed
  (see [Move Levels](#move_levels))
 
 You may only do this when the card *resolves* a flip. (ie, when flipping
