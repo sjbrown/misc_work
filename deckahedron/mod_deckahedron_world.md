@@ -611,16 +611,20 @@ provides a way to develop your character's backstory and personality.
 After a player makes a flip, and before the GM describes the consequence of
 the flip, the player can declare they're going to `do a flashback`.
 
-The player spends 2 green tokens. Then they describe how something
-that happened in the past particularly prepared them for this situation.
+The player spends 1 green token. Then they describe how something
+that happened in the past particularly prepared their character for
+this situation.
 
-Then they can ignore the original flip, and flip again, adding one level of
-advantage.  (eg, if they were doing a flip-three-take-worst flip, now they
-do a flip-two-take-worst)
+Then the original flip is ignored, and a new flip is executed, using the same
+advantage or disadvantage as the original flip.
 
-After they tell their flashback, the GM may allow them to spend additional
-green tokens for more advantage levels.  This is a subjective judgement left
-up to the GM.
+The player may then spend additional green tokens to "bump up" the result.
+Each green token spent increases the result, from ✗✗ to ✗ to ✔ to ✔✔.
+
+Technically, this flip is *resolved* only after the green tokens are spent,
+so if the card was a *green token card*, the player should receive the green
+token it grants only after they finished spending their green tokens to
+"bump up" the results.
 
 ### Mercy Flashbacks
 
@@ -636,11 +640,10 @@ spend those resources and effect that action now, as a "Mercy Flashback".
 The player must spend a green token, in addition to whatever cost the action
 incurs.
 
-Forgetting happens to the best of us, and there are lots of variables to keep
-track of, so the cost is kept "cheap" at only one green token.  But there
-must be a cost. It is necessary to keep the flow of the game going.  This is
-a game of improv storytelling, and improv means rolling with the punches
-sometimes.
+Even the most conscientious of us sometimes loses track of small details,
+so the cost is kept "cheap" at only one green token. But there must be a cost.
+It is necessary to keep the flow of the game going. This is a game of improv
+storytelling, and improv means rolling with the punches sometimes.
 
 
 ## Critical Flip

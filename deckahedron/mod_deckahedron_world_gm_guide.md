@@ -788,11 +788,11 @@ the tougher the spot.
 
 ### Tell the requirements or consequences and ask
 
-"Ok, everyone flees from the hammer-camels into the water, but let me ask this
-first: Samwise is wearing plate armour. If he leaves it behind on the bank of
-the river, will someone else provide a distraction so he can remove it? Or,
-Samwise, if you keep it on and try to swim, I'm going to ask for a Defy Danger
-flip with your Strength."
+"Ok, everyone flees from the hammer-camels, heading towards the water, but
+let me ask this first: Samwise is wearing plate armour. If he leaves it
+behind on the bank of the river, will someone else provide a distraction so
+he can remove it? Or Samwise can keep it on and clumsily swim, but he will
+lose 1 Stamina."
 
 This move is particularly good when they want something that's not covered
 by a player move, or they've failed a move. They can do it, sure, but they'll
@@ -1604,10 +1604,9 @@ standard flips (flips without advantage), they are likely to feel the game
 is unfair.
 
 Explain to your players that getting good at playing Deckahedron World
-means *creating advantages*. There are built-in moves like
-Discern, Defend, Do a Flashback, and Good Thing I Brought that
-can be used to create advantages. In this session, explain each one of
-these moves.  Discern should be particularly encouraged if
+means *creating advantages*. There are built-in moves like Discern and
+Defend that can be used to create advantages. In this session, explain
+each one of these moves.  Discern should be particularly encouraged if
 you'd like more opportunities to describe the world, environment, and
 NPCs that you're creating.
 
