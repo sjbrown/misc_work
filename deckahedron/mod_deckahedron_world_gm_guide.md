@@ -445,9 +445,9 @@ Ask the table if they want to keep going with this scenario. If not, just
 skip forward to the Touchstone List. But if they do want to continue, add in
 the next layer of rules before jumping back into the action.
 
- * Tell the players how the Speed / Wealth / Equipment rules work.
+ * Tell the players how the Speed / Wealth / Pack rules work.
  * Give them each 6 S/W/E tokens.
- * The characters do not get to put any tokens in Wealth or Equipment,
+ * The characters do not get to put any tokens in Wealth or Pack,
    as they were just prisoners
  * Any character still wearing their elaborate costume should get a card
    entitled "Costume", and one token should be put on the card
@@ -723,7 +723,7 @@ A sword might be flung to the other side of the room, crossing
 the shimmering barrier might end any ongoing magic effects, etc.
 
 `TODO`
- * Wealth / Equip
+ * Wealth / Pack
  * Player loses confidence in the skill they just tried.  Put a white-side
    red card on it until they use it and flip a ✔ or ✔✔
 
@@ -997,7 +997,7 @@ As players choose cards, there may be opportunities to explain some of the
 deeper rules.
 
 When a player chooses a card with an UNENCUMBERED or RECEIVE CARDS tag,
-take that opportunity to explain how Speed / Wealth / Equipment works
+take that opportunity to explain how Speed / Wealth / Pack works
 and point out how it will impact their ability to choose other equipment
 and be able to run away from threats.
 
@@ -1129,17 +1129,17 @@ first *takes a big risk* by the method or for the reason written on their
 card, the player takes the tokens.
 
 
-### Choose Speed / Wealth / Equip
+### Choose Speed / Wealth / Pack
 
 `TODO: illustration`
 
-The rules for Speed / Wealth / Equip will require some stackable tokens,
+The rules for Speed / Wealth / Pack will require some stackable tokens,
 which can be coins or poker chips if you have some. These will be called
 S/W/E tokens throughout this guide.
 
 Give each player 6 S/W/E tokens.
 
-> Here are your Speed / Wealth / Equipment tokens. I'll explain how they
+> Here are your Speed / Wealth / Pack tokens. I'll explain how they
 > work. To begin, stack all of these up on top of the word "Speed" on
 > your character sheet.
 >
@@ -1162,7 +1162,7 @@ Give each player 6 S/W/E tokens.
 > you might need more than one token).
 >
 > You'll probably notice the other words next to Speed on your character
-> sheet, "Wealth" and "Equip". Tokens placed on these spots can be used
+> sheet, "Wealth" and "Pack". Tokens placed on these spots can be used
 > with the "Good Thing I Brought..." or "Shop / Procure" moves. They're
 > not necessary when starting out, but you can have a look at the Player's
 > Guide to find out more.
@@ -1225,14 +1225,14 @@ difficulty and cost of using "Use A Magic Item" at the "wild" level.
 `TODO: link to weapon and armor lists`
 
 > Finally, you may now choose to put any number of tokens you want
-> from your Speed stack onto your Equip stack. This Equip stack represents
+> from your Speed stack onto your Pack stack. This Pack stack represents
 > the adventuring gear you brought with you. We don't have to actually
 > detail the specific contents of your backpack though. Instead, when you
 > need some equipment to solve a problem, you will use the "Good Thing I
 > Brought..." move, and say what kind of equipment you had with you.
 >
 > If that equipment is something you return to your backpack after use,
-> write it down on a card and move the tokens from your Equip stack onto
+> write it down on a card and move the tokens from your Pack stack onto
 > the card. If the equipment gets consumed immediately when you use it,
 > the tokens just move back on top of your Speed stack.
 >
@@ -1529,7 +1529,7 @@ and you don't immediately have a great idea about what kind of beneficial
 gear could be found on nearly naked bodies, you can write "What we found
 on the werewolves" on a blank card, and give it to one of the players.
 Tell them to place a token from their SPEED pile on the card.
-Later in the game, when the rules demand either a WEALTH or EQUIP to be
+Later in the game, when the rules demand either a WEALTH or PACK to be
 spent, the "What we found on the werewolves" card may be spent, if the
 players can justify it.
 

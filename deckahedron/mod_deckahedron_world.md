@@ -542,13 +542,13 @@ Note: some moves instruct you to match Chinese Zodiac symbols on the corners
 of cards. Wound cards' corners have the "goat" symbol which does not match
 any symbol.
 
-# Speed/Wealth/Equip
+# Speed/Wealth/Pack
 
 Your character has a movement speed,
 a certain lightness-of-foot,
 they carry a certain amount of equipment and items,
 and they carry a certain amount of wealth.
-These attributes are tracked with the Speed/Wealth/Equip system.
+These attributes are tracked with the Speed/Wealth/Pack system.
 The more equipment and wealth carried, the lower their speed.
 
 Daily-use amounts of money and food are not tracked. It is assumed
@@ -560,7 +560,7 @@ matters. Particularly moves with the tag "UNENCUMBERED".
 When your speed goes below 4, you may not perform any "UNENCUMBERED" moves.
 
 You have 6 tokens that can be allocated between 3 slots on your
-character sheet (Speed, Equip, Wealth) and Item cards.
+character sheet (Speed, Pack, Wealth) and Item cards.
 
 If you don't want to carry any items, equipment or wealth, you can
 put all 6 tokens on Speed.
@@ -914,7 +914,7 @@ roll when you roll attack power. Higher power weapons should not be given
 out lightly. Generally players should seek weapon power increases from the
 Craft a Weapon and _ Mastery moves.
 
-The GM should decide how many Speed / Wealth / Equip tokens the weaponry
+The GM should decide how many Speed / Wealth / Pack tokens the weaponry
 requires. Is the item particularly heavy or large?
 
 Here are the weapons available to characters during character creation:
@@ -945,7 +945,7 @@ receive either:
  * 1 Harm token
  * or 1 Harm *or* Wound token
 
-The GM should decide how many Speed / Wealth / Equip tokens the armour
+The GM should decide how many Speed / Wealth / Pack tokens the armour
 requires. Better armour tends to be heavier and more impeding to graceful
 movement.
 
@@ -1262,7 +1262,7 @@ cards to the supply.
 
 ![Craft a Weapon card](images/move_craft_a_weapon.png){ width=2.5inch }
 
-The GM should decide how many Speed / Wealth / Equip tokens the weapon
+The GM should decide how many Speed / Wealth / Pack tokens the weapon
 requires. Is the item particularly heavy or large? The GM should weigh that
 cost against the weapon's other features.
 
