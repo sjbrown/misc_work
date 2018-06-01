@@ -1,5 +1,11 @@
 #! /bin/bash
 
+# https://stackoverflow.com/questions/2013547/assigning-default-values-to-shell
+: "${DECKAHEDRON_SITE_LOC=~/work/deckahedron_site/}"
+
+echo "DSITE"
+echo $DECKAHEDRON_SITE_LOC
+
 cp ./markdown.css /tmp/markdown.css
 
  #-s                puts the utf-8 header in
