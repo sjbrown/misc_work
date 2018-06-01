@@ -255,6 +255,31 @@ control of the narrative.
 Sometimes you flip over a wound card and must lose a Stamina point. See the
 [Combat chapter](#combat).
 
+## Other flip complications: Teamwork Flip
+
+Before a flip is executed, if other players have characters in the same
+scene as the spotlighted character, and there is nothing in the fiction
+preventing it, those other players may choose to have their characters
+*aid* the spotlighted character. They just chime in before the flip and
+say how their character helps out.
+
+Another time the Teamwork Flip is triggered is when the characters are
+all bound together in success or failure. (ie Defying Danger in a canoe
+travelling over whitewater) In that case, the GM asks the players "who
+is taking the lead?". That player is the spotlighted player, and the other
+players are supporting.
+
+The spotlighted player flips as they normally would, the supporting players
+flip one Anchor.
+
+The best result resolves the flip.
+
+Only the spotlighted player can possibly receive green tokens from this
+flip, and only with their own card. If the card that resolves the flip
+wasn't the spotlighted player's, nobody receives a green token.
+
+If there are any negative consequences (damage, danger, etc) from the
+result, all the participating characters must suffer them.
 
 ## Reshuffling
 
