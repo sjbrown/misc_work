@@ -1864,3 +1864,34 @@ See LICENSE.txt
     * Is anyone helping?
     * Who is taking the lead?
     * What is your character trying to accomplish?
+
+---
+
+# FAQ
+
+> A player narrated a really cool use of their Air Sculpting Staff to
+> dyamically dance up magical stair steps and pounce down on an orc with their
+> dagger. Will that just trigger a regular Hack & Slash? If so, doesn't that
+> mean that their use of the Air Sculpting Staff is just wasted? I want to
+> connect their cool set-up with a rewarding outcome.
+
+This might cause some pause or confusion, because Deckahedron World tells
+GMs they can't just hand out advantages based on fiat or "the rule of cool".
+But there are a few options here for a GM.
+
+The simplest one is to use a point from the Good Bank to create an
+advantage. But a GM might want to keep those Good Bank points for something
+more epic, so there are other creative options too.
+
+Be on the lookout for how a player might be triggering moves that aren't
+in their hand. In this case it definitely sounds like some Derring-Do is
+afoot. Perhaps also a Backstab (this orc could arguably be very surprised by
+this magical maneuver). Ask the player if either or both of these sound
+in line with their intended outcome.
+
+Asking the player about their intended outcome is always a good way to
+start.
+
+The character will have to flip for these at the "wild" level, but that
+follows from their simultaneous wielding of a staff and a dagger and their
+attempt at performing acrobatics on invisible footholds. Not an easy stunt.
