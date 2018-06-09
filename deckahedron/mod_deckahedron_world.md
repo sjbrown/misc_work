@@ -374,6 +374,18 @@ character does in a natural way.
 
 "Kresk wants that acorn! I slam my fist down on the squirrel!"
 
+### Fictional position *matters*
+
+Because uncertainty is a key requirement before a flip is called for,
+fiction that you establish in Deckahedron World *matters*.
+
+If a character threatens to punch a towering Mountain Giant in the shin, the
+GM will not call for a Parley flip. A wound to the arm or hand might be
+described in such a way that would clearly make using a bow for Volley or
+Called Shot impossible. Or successful application of an Amulet of Amiability
+might mean that Pick Pockets can be skipped - the affected NPC might just offer
+to share their precious items.
+
 
 # Combat - Stamina/Harm/Wounds
 

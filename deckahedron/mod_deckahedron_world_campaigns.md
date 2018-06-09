@@ -219,6 +219,20 @@ gritty, hardcore vibe in your campaign, you don't have to let the death stand.
 Have a look at the chapter on spending *Good Bank* points to resurrect a
 character.
 
+### The Prize
+
+The "prize" can be something completely related to the narrative, or it can
+invoke the mechanisms of the game, or both. If the characters receive
+something related to game mechanisms, you may remove one cost or condition
+for any move.
+
+So, for example, you may declare that the characters do not have to be
+"in a steading" to execute the Study Under a Master move.
+
+This relaxation of the rules only applies to Chapter 3, and should be
+narratively justified.
+
+
 ## Chapter 4: Return to the surface, changed.
 
 In the final chapter, find a way to return the characters "home". It need not
