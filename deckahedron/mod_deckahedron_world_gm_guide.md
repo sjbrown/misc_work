@@ -1832,6 +1832,7 @@ of those concepts invokes fear.
  * related to excrement or egg-laying
  * evoking mucus or slime
  * ancient
+ * brainless
  * beyond comprehension, mind-bending
  * taboo or forbidden
  * wet and against your skin
@@ -1849,6 +1850,18 @@ Any animal, but especially ones humans are instinctively afraid of
  * cephalopods, jellyfish
  * sharks, killer whales
  * lizards, dinosaurs
+
+For a "classical" effect, mix up two or three of the animals - eg, a snake
+with the head of a bird, an octopus with scorpion tails for tentacles.
+
+Some monsters add on an aspect of goodness, nobility, or innocence. This can
+emphasize corruption, be used as a trap or a trick, or just create contrast.
+
+ * babies, children
+ * gold, wealth
+ * sexual attractiveness
+ * mimics a character they love / admire
+
 
 Also: bestiaries! See:
 
