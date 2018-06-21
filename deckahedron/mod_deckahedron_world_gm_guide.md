@@ -1799,8 +1799,18 @@ Monsters are just puzzles that can be brute-forced with violence.
 Monsters represent something about the theme, usually the fear that must be
 overcome, or the anti-premise.
 
-Monsters have a weakness or a preferred strategy. If that strategy
-demonstrates the change integrated by the heroes, that is best.
+If a monster is used as the threshold guardian during the [Return](#link)
+chapter, it should be a realization of the Big Fear of the story, or the
+anti-premise. If the players cross the first threshold on the premise of
+"We will save the village", the monster should be the thing that will
+destroy the village and many villages after it. If the premise is "We will
+return richer than the king", the monster is the thing that destroys the
+concept of wealth, maybe by turning the surface of the world into a
+hellscape where the only currency is suffering.
+
+Monsters have a weakness or a preferred strategy. For a threshold guardian
+monster, the weakness or strategy should demonstrate the *change* integrated
+by the heroes.
 
 Monsters have 1-20 stamina points and 1-5 wound squares
 
@@ -1825,11 +1835,14 @@ of those concepts invokes fear.
  * constricting
  * drowning
  * surrounding
- * on fire
+ * fire
+ * blood
+ * amputation / missing parts
  * sharp or thorny
  * fat
  * related to corpses or rot
  * related to excrement or egg-laying
+ * signs of disease or infestation
  * evoking mucus or slime
  * ancient
  * brainless
@@ -1861,6 +1874,7 @@ emphasize corruption, be used as a trap or a trick, or just create contrast.
  * gold, wealth
  * sexual attractiveness
  * mimics a character they love / admire
+ * religious symbols
 
 
 Also: bestiaries! See:
