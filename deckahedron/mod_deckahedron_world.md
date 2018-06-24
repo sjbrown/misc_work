@@ -264,7 +264,7 @@ preventing it, those other players may choose to have their characters
 say how their character helps out.
 
 Another time the Teamwork Flip is triggered is when the characters are
-all bound together in success or failure. (ie Defying Danger in a canoe
+all bound together in success or failure. (ie, Defying Danger in a canoe
 travelling over whitewater) In that case, the GM asks the players "who
 is taking the lead?". That player is the spotlighted player, and the other
 players are supporting.
