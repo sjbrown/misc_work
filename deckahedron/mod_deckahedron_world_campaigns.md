@@ -398,6 +398,8 @@ plot to the next phase.
 
 **AKA: Dark night of the soul**
 
+**AKA: Find the Hero within**
+
 When the narrative arrives at a point of relative quiet or peace, maybe
 during a Seek Help or Rest move, have an honest conversation with your
 players.
@@ -420,13 +422,18 @@ Go around to each player and ask them
    does your character want to just stay right where they are?
  * Will your character sacrifice their life for something valuable in the
    plot? If so, what, and why?
- * Have the events of this journey caused your character to abandon a
+ * Have the events of this journey caused your character to give up a
    *fundamental* belief or relationship they held at the beginning of the game?
 
 Make a note of all the answers.
 
+Next, ask any players still using the "Lucky" Stamina system if they're ready
+to switch over to the "Heroic" Stamina system. If they say yes, make a note
+of it.
+
 If each character answered "stay", "sacrifice", or "abandon" to any of the
-questions above, give yourself a point in the *Good Bank*.
+questions above, or if any player switched from "Lucky" to "Heroic", give
+yourself a point in the *Good Bank*.
 
 
 ## Chapter 6: Take & Pay
@@ -538,8 +545,10 @@ An "arc" of 3 9-hour campaigns
  * First Book - just the same as the 9-Hour Campaign
  * Second Book - Carry over all Good Bank and Bad Bank points
    * Chapter 7 should return them to a different "world"
- * Third Book - Start with 0 Good Bank points, carry over and add 10
-   Bad Bank points
+ * Third Book - Start with 0 Good Bank points, carry over the Bad Bank points
+   * Bad Bank points grow at double the rate.
+     - ✗ adds 2 points to the Bad Bank
+     - on IMMEDIATE moves, ✗✗ adds 4 points to the Bad Bank
    * Challenge the character changes made earlier - what boons will the
      characters give up to achieve an even greater one
 
