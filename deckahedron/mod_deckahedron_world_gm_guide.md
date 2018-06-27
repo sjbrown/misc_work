@@ -1576,12 +1576,14 @@ a cabinet of narrative spices. Wait until you play to find out what happens.
 
 ## Special Move: The Session Opener
 
-At the beginning of all sessions but the first, ask this question and give
-out green tokens for correct answers.
+From the second session onward, there is a special move that happens once
+everyone has sat down to play.
 
-Start of simple - Ask each player for either a thing they learned about the
-world or a way they expressed their character's personality. If they can give
-a reasonably correct answer, give them a green token.
+### Recap Questions
+
+Ask each player for either a thing they learned about the world or a way
+they expressed their character's personality. If they can give a reasonably
+correct answer, give them a green token.
 
 ### Ask for Notes
 
@@ -1590,19 +1592,25 @@ ask if there's any way they could improve their style of play.
 
 GMs should particularly try to improve their ability to listen for signals.
 Tell players about the content you added last session in response
-to a signal you got from them.
-
-Look at your Touchstone List. Are you still playing the setting and the
-themes and tones you all wanted when you started?
+to a signal you got from them. Ask what signals you missed.
 
 ### Give Notes
 
-Beyond what you may have in mind, here is a note to give to new players
-at the beginning of their second session.
+Look at your Touchstone List. Is the group playing the setting and the
+themes and tones you all wanted when you started? Use this either to
+re-focus player decision-making, or to discard / add titles on your
+Touchstone List.
 
-After session 1, your players will be realizing that they fail often,
-maybe more than they'd like. This is a good time to talk about the odds
-with your players and particularly to discuss generating advantages.
+If the players are consistently mis-interpreting a rule or forgetting to
+use rules when they have an opportunity, now is the time to call those out
+and answer their questions.
+
+New players may especially benefit by being reminded about *creating
+advantages* at the beginning of their second session.
+
+After session 1, the players may be realizing that they fail often --
+more than they'd like. Take the opportunity to talk about the odds, and
+what a player can do to improve them.
 
 Some psychological studies have shown that odds feel "fair" only
 when players get wins 60% of the time. Now look at the Deckahedron
@@ -1612,7 +1620,7 @@ is unfair.
 
 Explain to your players that getting good at playing Deckahedron World
 means *creating advantages*. There are built-in moves like Discern and
-Defend that can be used to create advantages. In this session, explain
+Defend that can be used to create advantages. Explain
 each one of these moves.  Discern should be particularly encouraged if
 you'd like more opportunities to describe the world, environment, and
 NPCs that you're creating.
