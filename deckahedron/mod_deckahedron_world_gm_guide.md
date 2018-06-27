@@ -541,6 +541,13 @@ and pull more buckets up from that well. If a character is religious, ask
 them what their gods would have to say. If there's a halfling in the party,
 ask how hungry the current scene makes them.
 
+The GM may ask the players to describe outcomes. For example, if a player's
+character is in a fight with a goblin and the player rolls *attack power*
+of 10, the GM might ask the player to "Describe how your character kills
+the goblin". This gives the player license to get flowery and really see
+their character live up to the promise of being powerful in this fantasy
+world.
+
 Other questions to ask are [improv game questions](#appendix-1).
 These are questions that have nothing to do with the current scene, but
 prompt everyone, especially you, to *think laterally*. These can be great
