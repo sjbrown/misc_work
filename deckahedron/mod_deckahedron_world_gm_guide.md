@@ -1605,8 +1605,10 @@ If the players are consistently mis-interpreting a rule or forgetting to
 use rules when they have an opportunity, now is the time to call those out
 and answer their questions.
 
+#### Frequently Given Note: Create Advantages
+
 New players may especially benefit by being reminded about *creating
-advantages* at the beginning of their second session.
+advantages* at the beginning of their 2nd session.
 
 After session 1, the players may be realizing that they fail often --
 more than they'd like. Take the opportunity to talk about the odds, and
@@ -1625,6 +1627,19 @@ each one of these moves.  Discern should be particularly encouraged if
 you'd like more opportunities to describe the world, environment, and
 NPCs that you're creating.
 
+#### Frequently Given Note: Try Wild Moves
+
+When you begin your 3rd session with new players it might be a good time
+to remind them that they can literally try any of the moves whose success
+is governed by Str/Dex/Int.
+
+Even if they don't have the card, they can trigger a move by describing
+their character taking that kind of action.
+
+They might even discover their character is good at it (via a Critical Flip).
+
+Another good hint for your players is that a good time to try moves wild is
+when they've built up a +2 advantage.
 
 ### Apologia
 
