@@ -112,7 +112,7 @@ Dart      | ![dart symbol](images/dart.png){ width=0.5inch }         | indicates
 Shuffle your Deckahedron and place it face-down in front of you.
 
 Whenever your character attempts something risky, where the outcome is
-not certain, the GM calls on you to use your Deckahedron and "flip".
+not certain, the GM calls for you to use your Deckahedron and "flip".
 
 First, the GM names the move you're attempting and which of your
 character's attributes -- Strength, Dexterity, or Intelligence -- you
@@ -128,10 +128,10 @@ use to resolve the flip.
 Look at the attribute on your character sheet -- what symbol is it, Anchor,
 Bulb, Crescent, or Dart?
 Take the top card and flip it face up.
-Put it down so that the symbol faces the GM.
+Put it down so that the GM can read the result.
 (Saying "Bam!" or making some other sound effect is optional.)
 
-![Illustration of flipping a card forward](images/component_flip.png){ width=2.5inch }
+![Illustration of flipping a card](images/component_flip.png){ width=2.5inch }
 
 The top of the flipped card shows ✗s or ✔s.
 These tell you the result of the move.
@@ -144,8 +144,8 @@ Finally, find the move card named by the GM and read its instructions.
 It tells you how the GM should interpret the ✗s and ✔s.
 
 Afterward, any card used during a flip goes face-up in a *discard pile*.
-Later, you will start another pile of face-up cards called an
-*Exhaustion pile*.  Keep them separate.
+Later, you will start another pile of cards called an *Exhaustion pile*.
+Keep them separate.
 
 Note: some move cards give you or the GM a choice between several options.
 If one of the options is impossible (fictionally or mechanically), it may
@@ -235,11 +235,8 @@ Deckahedron World. Green tokens are sometimes called "risk rewards" and
 they are a player's most important mechanical currency in the game.
 
 Some Deckahedron cards have a green token symbol in the middle.
-After a flip is resolved by a card showing a green token symbol:
-
- * Take a green token from the supply
- * Optionally, spend 1 green token to go up 1 level in the move just performed
- (see [Move Levels](#move_levels))
+After a flip is resolved by a card showing a green token symbol,
+take a green token from the supply.
 
 You may only do this when the card *resolves* a flip. (ie, when flipping
 multiple cards, only if the *green token card* was the one from which
@@ -280,6 +277,9 @@ wasn't the spotlighted player's, nobody receives a green token.
 
 If there are any negative consequences (damage, danger, etc) from the
 result, all the participating characters must suffer them.
+
+Supporting players may not Do a Flashback on Teamwork Flips.
+
 
 ## Reshuffling
 
@@ -479,43 +479,34 @@ if facing an attack power of 2.
 
 ## Stamina / Exhaustion
 
-Characters have 10 Stamina points.  These points are represented by
-cards in your Deckahedron with a Stamina symbol
-
-![Cards with and without Stamina symbol](images/with_without_stamina.png){ width=2.5inch }
+Characters have 10 Stamina points.
 
 To win at combat, a character's foes must be subdued or pacified before the
-player's Deckahedron has been emptied of Stamina points.
+player loses 10 cards from their Deckahedron.
 
 When you are instructed to lose a Stamina point, you may absorb it
 using any relevant move cards and item cards, otherwise:
 
- 1. reveal cards in your Deckahedron until you find a card with a Stamina symbol
- 2. put that card aside, face-up in your *Exhaustion pile*
- 3. the other revealed cards go into your *discard pile*
+ 1. Take a card off the top of your Deckahedron, do not look at the face side.
+ 2. Put that card face-down on your *Exhaustion pile*
+ 3. Place an Exhaustion token on your *Exhaustion pile*
 
 ![Component layout](images/component_layout.png){ width=2.5inch }
-
-You should put an Exhaustion token on top of the *Exhaustion pile* to
-distinguish it from your *discard pile*. But, unlike Harm and Wound tokens,
-you don't have to put an Exhaustion token on the pile for each Stamina point
-lost, that's what the cards are for.
 
 ![Exhaustion token](images/component_exhaustion.png){ width=2.5inch }
 
 (So, if you were instructed to lose 3 Stamina points, you add 3 cards
-with Stamina symbols onto your Exhaustion pile)
+from the top of your Deckahedron onto your Exhaustion pile, then you
+put 3 Exhaustion tokens on top of it as well.)
 
-If searching through their Deckahedron does not yield a card with a Stamina
-symbol, the player **must** reshuffle their *discard pile* into the
-Deckahedron and continue searching.
+If their Deckahedron does not contain enough cards, the player **must**
+reshuffle their *discard pile* into the Deckahedron and continue.
 
 Note: Players *may* choose to reshuffle their *discard pile* back into the
-Deckahedron *before* searching for Stamina points.
+Deckahedron *before* moving cards onto their *Exhaustion pile*.
 
-If there are no Stamina points in the Deckahedron *or* the *discard pile*,
-then all 10 must be in the *Exhaustion pile*. In this case, the character
-is *incapacitated* and can take no further actions.
+Once the *Exhaustion pile* grows to 10 cards, the character is
+*incapacitated* and can take no further actions.
 It is up to the GM to decide what this incapacitation means - whether
 the character is dead, unconscious, or just unable to stand or move. The
 GM has rules for this, see the GM Guide.
@@ -528,13 +519,16 @@ and dodging, then Harm represents landing a blow.
 These rules are also for representing mental strain that is so significant
 that the negative effects last for a while.
 
+### Harm Rules for a One-Shot Campaign
+
 When you are instructed to take a Harm token, you may absorb it
 using any relevant move cards and item cards, otherwise:
 
  * **If you already have 2 Harm tokens on your Exhaustion pile**:
-   - Take a *Wound* instead
+   - the character is incapacitated
  * **Otherwise**:
-   1. Lose a Stamina point
+   1. Lose a Deckahedron card to your *Exhaustion pile* as you would when
+      you lose a Stamina point.
    2. Place a *Harm token* on your *Exhaustion pile*
 
 ![Harm token](images/component_harm.png){ width=2.5inch }
@@ -542,10 +536,26 @@ using any relevant move cards and item cards, otherwise:
 > Note, you will see this "1-2-bust" pattern repeated in many
 > of Deckahedron World's rules
 
+### Harm Rules for Other Campaigns
+
+When you are instructed to take a Harm token, you may absorb it
+using any relevant move cards and item cards, otherwise:
+
+ * **If you already have 2 Harm tokens on your Exhaustion pile**:
+   - Take a *Wound* instead
+ * **Otherwise**:
+   1. Lose a Deckahedron card to your *Exhaustion pile* as you would when
+      you lose a Stamina point.
+   2. Place a *Harm token* on your *Exhaustion pile*
+
+
 ## Wounds
 
 Getting wounded sucks, and when wounded, all intelligent creatures seek
 to cure their condition as a very high priority.
+
+If you are playing the One-Shot Campaign, you can skip the sections on
+Wounds.
 
 When you are instructed to take a Wound token, you may absorb it
 using any relevant move cards and item cards, otherwise:
@@ -553,12 +563,13 @@ using any relevant move cards and item cards, otherwise:
  * **If you already have 2 wounds**:
    - the character is incapacitated
  * **Otherwise**:
-   - the GM describes how the character was wounded
-   - Lose a Stamina point
-   - Place a *Wound token* on your *Exhaustion pile*
-   - Randomly draw a *wound card* from the supply and place it in your
-     *discard pile*. It will now start cycling between your Deckahedron
-     and your *discard pile*.
+   1. the GM describes how the character was wounded
+   2. Lose a Deckahedron card to your *Exhaustion pile* as you would when
+      you lose a Stamina point.
+   3. Place a *Wound token* on your *Exhaustion pile*
+   4. Randomly draw a *wound card* from the supply and place it in your
+      *discard pile*. It will now start cycling between your Deckahedron
+      and your *discard pile*.
 
 ![Wound token](images/component_wound.png){ width=2.5inch }
 
@@ -580,6 +591,51 @@ Whenever you **flip** and reveal a wound card, follow these rules:
 Note: some moves instruct you to match Chinese Zodiac symbols on the corners
 of cards. Wound cards' corners have the "goat" symbol which does not match
 any symbol.
+
+
+## Stamina - Heroic Mode
+
+The Stamina rules described above are known as "Lucky Mode". Those rules
+allow the players to lean on luck at the beginning of the game, because
+the "worse cards" of the Deckahedron can end up in the *Exhaustion pile*,
+shifting the odds to increase a player's chances to succeed at moves.
+
+During longer campaigns, players will have the choice to switch to "Heroic
+Mode", sacrificing their potential to get lucky for more knowledge and
+control over their outcomes.
+
+Characters have 10 Stamina points.  These points are represented by
+cards in your Deckahedron with a Stamina symbol
+
+![Cards with and without Stamina symbol](images/with_without_stamina.png){ width=2.5inch }
+
+To win at combat, a character's foes must be subdued or pacified before the
+player's Deckahedron has been emptied of Stamina points.
+
+When you are instructed to lose a Stamina point, you may absorb it
+using any relevant move cards and item cards, otherwise:
+
+ 1. Reveal cards in your Deckahedron until you find a card with a Stamina symbol
+ 2. Put that card aside, face-up in your *Exhaustion pile*
+ 3. Place an Exhaustion token on your *Exhaustion pile*
+ 4. The other revealed cards go into your *discard pile*
+
+![Exhaustion token](images/component_exhaustion.png){ width=2.5inch }
+
+(So, if you were instructed to lose 3 Stamina points, you add 3 cards
+with Stamina symbols onto your Exhaustion pile)
+
+If searching through their Deckahedron does not yield a card with a Stamina
+symbol, the player **must** reshuffle their *discard pile* into the
+Deckahedron and continue searching.
+
+Note: Players *may* choose to reshuffle their *discard pile* back into the
+Deckahedron *before* searching for Stamina points.
+
+If there are no Stamina points in the Deckahedron *or* the *discard pile*,
+then all 10 must be in the *Exhaustion pile*. In this case, the character
+is *incapacitated* and can take no further actions.
+
 
 # Speed/Wealth/Pack
 
@@ -611,7 +667,7 @@ Some Item cards require more than 1 token.
 The GM may interpret a Speed of 0 as limiting a character's gait to walking.
 
 
-# Moves - Good Thing I Brought, Do a Flashback, Critical Flip
+# Moves - Good Thing I Brought, Do a Flashback, Critical Success
 
 ## Good Thing I Brought...
 
@@ -685,15 +741,19 @@ It is necessary to keep the flow of the game going. This is a game of improv
 storytelling, and improv means rolling with the punches sometimes.
 
 
-## Critical Flip
+## Critical Success
 
 ![Critical Flip card](images/critical_flip_card.png){ width=2.5inch }
 
 One of the 20 cards in your Deckahedron is the "Critical Success card". It
 has a ✔✔ symbol on every edge and a green circle in the middle.
 
-If you *resolve a flip* with the Critical Success card, you can use the
-Critical Flip move to get an advantage card on your next move.
+If you *resolve a flip* with the Critical Success card, you can do two things:
+
+ * Spend green tokens 1-for-1 to go up levels in the move that was just
+   resolved
+ * Use the Critical Flip move to make another move, right now, and get an
+   advantage card on that move
 
 If you choose to Critical Flip, the spotlight stays on you for a little bit
 longer while you make your bonus move.
@@ -1136,8 +1196,8 @@ Note: some moves, like Void Transfusion, don't start you off at the base level.
 
 Later, you can go up a level in Pick Pockets. Either by using the Study
 Under a Master move, or when you resolve a Pick Pockets flip and happen
-to get a *green token card*.
-See [Green token cards](#other-flip-complications-green-token-cards)
+to get a *Critical Success card*
+See [Critical Success](#critical-success)
 
 ![Green card](images/green_card_black.png){ width=2.5inch }
 
@@ -1178,7 +1238,7 @@ disadvantage.
  * ![1 red symbol](images/move_level_1_red.png){ width=0.5inch } flip with 1 level of disadvantage
 
 If you perform a "wild" level move, and you resolve that flip with a
-*green token card*, you can use that card to graduate to "novice" level.
+*Critical Success card*, you can spend 1 green token to graduate to "novice" level.
 
 ![Red card](images/red_card_black.png){ width=2.5inch }
 
@@ -1247,7 +1307,7 @@ Use a Magic Item                          | Any magic item card
 
 You use the RECEIVE CARDS tag only during character creation and when you
 gain a move card via Study Under a Master. You do not use it when you gain
-competence with the skill by flipping green token cards.
+competence with the skill by flipping Critical Success cards.
 
 
 ---
@@ -1337,6 +1397,7 @@ triggered as they would normally be, and costs are paid (eg, if the attacker
 uses a magic item, they may lose a charge), but there are two differences:
 
  * Green token cards do not generate a green token if they resolve a flip
+ * Critical Success cards cannot be used to go up levels in moves
  * Attack power is not rolled
 
 Instead of rolling attack power, the *defender* alone describes the negative
@@ -1364,8 +1425,8 @@ Just as in PvP combat, when one player tries to:
  * use a move to dictate another player's character's action
    - eg, by using mind control magic
 
-green token cards do not generate green tokens, and the *defender* gets
-to say what the result was.
+Green token cards do not generate green tokens, Critical Success cards cannot
+be used to go up levels, and the *defender* gets to say what the result was.
 
 
 # Addenda
