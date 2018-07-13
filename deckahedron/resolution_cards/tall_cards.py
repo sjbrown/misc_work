@@ -27,10 +27,10 @@ def make_card(C):
                  # If no 'title', use the class name
                  C.__name__.replace('_', ' '))
     attr = getattr(C, 'attr', '')
-    one_x = parse(getattr(C, 'one_x', ''))
-    x_check = parse(getattr(C, 'x_check', ''))
     one_check = parse(getattr(C, 'one_check', ''))
+    onetwo_check = parse(getattr(C, 'onetwo_check', ''))
     two_check = parse(getattr(C, 'two_check', ''))
+    three_check = parse(getattr(C, 'three_check', ''))
     desc_detail = parse(C.desc)
     if getattr(C, 'levels', []):
         levels = C.levels
@@ -44,10 +44,10 @@ def make_card(C):
         'title': title,
         'attr_shield': bool(attr),
         'attr': attr,
-        'one_x': one_x,
-        'x_check': x_check,
         'one_check': one_check,
+        'onetwo_check': onetwo_check,
         'two_check': two_check,
+        'three_check': three_check,
         'desc_detail': desc_detail,
         'circles': getattr(C, 'circles', []),
         'spots': getattr(C, 'spots', {}),
@@ -59,17 +59,17 @@ def make_card(C):
 
 class Hack_and_Slash(Card):
   attr = 'Str'
-  one_x = '''
+  one_check = '''
     Deal 1 attack power and the foe attacks you
   '''
-  one_check = '''
+  two_check = '''
     Roll attack power and the foe attacks you
     '''
-  two_check = '''
+  three_check = '''
     Roll attack power and choose
     '''
   desc = u'''
-    On a ✔✔, you can choose one:
+    On a ✔✔✔, you can choose one:
     * Avoid the foe's attack
     * Add an extra attack power roll
     |
@@ -83,15 +83,15 @@ class Hack_and_Slash(Card):
 
 class Volley(Card):
   attr = 'Dex'
-  one_x = '''
+  one_check = '''
     Roll attack power.
     GM chooses an option.
   '''
-  one_check = '''
+  two_check = '''
     Roll attack power.
     Choose an option
   '''
-  two_check = '''
+  three_check = '''
     Roll attack power.
   '''
   desc = u'''
@@ -107,10 +107,10 @@ class Volley(Card):
 
 class Parley(Card):
   attr = 'Int'
-  x_check = '''
+  onetwo_check = '''
     They demand concrete assurance or exchange, right now.
   '''
-  two_check = '''
+  three_check = '''
     They make a deal. Make a promise and get what you want.
   '''
   desc = u'''
@@ -124,13 +124,13 @@ class Parley(Card):
 
 class Defy_Danger(Card):
   attr = 'Str/Dex/Int'
-  one_check = '''
+  two_check = '''
     You do it, but there's a new complication
     '''
-  one_x = '''
+  one_check = '''
     Make progress, but stumble, hesitate, or flinch.
     '''
-  two_check = '''
+  three_check = '''
     Success
     '''
   desc = u'''
@@ -147,13 +147,13 @@ class Defy_Danger(Card):
 
 class Defend(Card):
   attr = 'Str'
-  one_x = '''
+  one_check = '''
     Place 1 token on this card
   '''
-  one_check = '''
+  two_check = '''
     Place 2 tokens on this card
   '''
-  two_check = '''
+  three_check = '''
     Place 3 tokens on this card
   '''
   desc = '''
@@ -168,17 +168,17 @@ class Defend(Card):
 
 class Discern(Card):
   attr = 'Int'
-  one_x = '''
+  one_check = '''
     Ask the GM 1
     question from
     the list
     '''
-  one_check = '''
+  two_check = '''
     Ask the GM 2
     questions from
     the list
     '''
-  two_check = '''
+  three_check = '''
     Ask the GM 3
     questions from
     the list
@@ -196,11 +196,11 @@ class Discern(Card):
 
 class I_Know_This(Card):
   attr = 'Int'
-  x_check = '''
+  onetwo_check = '''
     The GM tells you something interesting
     - it's on you to make it useful.
     '''
-  two_check = '''
+  three_check = '''
     The GM tells you something interesting
     and useful about the subject relevant to your situation
     '''
@@ -215,7 +215,7 @@ class I_Know_This(Card):
     significant benefit to the players, the I Know This move is triggered)
     |
     |
-    On a ✗, the GM may ask you "How do you know this?".
+    On a ✅, the GM may ask you "How do you know this?".
     '''
 
 class Rest(Card):

@@ -13,22 +13,22 @@ from svg_dom import DOM, export_square_png
 '''
  title_to_element
 
-{'anchor_one_check': <Element {http://www.w3.org/2000/svg}g at 0x7f63b24a1cb0>,
- 'anchor_one_x': <Element {http://www.w3.org/2000/svg}g at 0x7f63b24a1d40>,
- 'anchor_two_check': <Element {http://www.w3.org/2000/svg}g at 0x7f63b24a1cf8>,
- 'anchor_two_x': <Element {http://www.w3.org/2000/svg}g at 0x7f63b24a1d88>,
- 'bulb_one_check': <Element {http://www.w3.org/2000/svg}g at 0x7f63b24a1a70>,
- 'bulb_one_x': <Element {http://www.w3.org/2000/svg}g at 0x7f63b24a1b00>,
- 'bulb_two_check': <Element {http://www.w3.org/2000/svg}g at 0x7f63b24a1ab8>,
- 'bulb_two_x': <Element {http://www.w3.org/2000/svg}g at 0x7f63b24a1b48>,
- 'crescent_one_check': <Element {http://www.w3.org/2000/svg}g at 0x7f63b24a1b90>,
- 'crescent_one_x': <Element {http://www.w3.org/2000/svg}g at 0x7f63b24a1c20>,
- 'crescent_two_check': <Element {http://www.w3.org/2000/svg}g at 0x7f63b24a1bd8>,
- 'crescent_two_x': <Element {http://www.w3.org/2000/svg}g at 0x7f63b24a1c68>,
- 'dart_one_check': <Element {http://www.w3.org/2000/svg}g at 0x7f63b24a18c0>,
- 'dart_one_x': <Element {http://www.w3.org/2000/svg}g at 0x7f63b24a19e0>,
- 'dart_two_check': <Element {http://www.w3.org/2000/svg}g at 0x7f63b24a1998>,
- 'dart_two_x': <Element {http://www.w3.org/2000/svg}g at 0x7f63b24a1a28>,
+{'anchor_two_check': <Element {http://www.w3.org/2000/svg}g at 0x7f63b24a1cb0>,
+ 'anchor_one_check': <Element {http://www.w3.org/2000/svg}g at 0x7f63b24a1d40>,
+ 'anchor_three_check': <Element {http://www.w3.org/2000/svg}g at 0x7f63b24a1cf8>,
+ 'anchor_one_x': <Element {http://www.w3.org/2000/svg}g at 0x7f63b24a1d88>,
+ 'bulb_two_check': <Element {http://www.w3.org/2000/svg}g at 0x7f63b24a1a70>,
+ 'bulb_one_check': <Element {http://www.w3.org/2000/svg}g at 0x7f63b24a1b00>,
+ 'bulb_three_check': <Element {http://www.w3.org/2000/svg}g at 0x7f63b24a1ab8>,
+ 'bulb_one_x': <Element {http://www.w3.org/2000/svg}g at 0x7f63b24a1b48>,
+ 'crescent_two_check': <Element {http://www.w3.org/2000/svg}g at 0x7f63b24a1b90>,
+ 'crescent_one_check': <Element {http://www.w3.org/2000/svg}g at 0x7f63b24a1c20>,
+ 'crescent_three_check': <Element {http://www.w3.org/2000/svg}g at 0x7f63b24a1bd8>,
+ 'crescent_one_x': <Element {http://www.w3.org/2000/svg}g at 0x7f63b24a1c68>,
+ 'dart_two_check': <Element {http://www.w3.org/2000/svg}g at 0x7f63b24a18c0>,
+ 'dart_one_check': <Element {http://www.w3.org/2000/svg}g at 0x7f63b24a19e0>,
+ 'dart_three_check': <Element {http://www.w3.org/2000/svg}g at 0x7f63b24a1998>,
+ 'dart_one_x': <Element {http://www.w3.org/2000/svg}g at 0x7f63b24a1a28>,
  'deck_1': <Element {http://www.w3.org/2000/svg}rect at 0x7f63b24a1878>,
  'deck_2': <Element {http://www.w3.org/2000/svg}rect at 0x7f63b24a1830>,
  'deck_3': <Element {http://www.w3.org/2000/svg}rect at 0x7f63b24a1710>,
@@ -124,10 +124,10 @@ def filter_dom_elements(dom, card, deck_title, dice_rule):
           'd': 'dart',
         }
         score_to_suffix = {
-          1: '_two_x',
-          2: '_one_x',
-          3: '_one_check',
-          4: '_two_check',
+          1: '_one_x',
+          2: '_one_check',
+          3: '_two_check',
+          4: '_three_check',
         }
         suffixes = score_to_suffix.values()
         for letter, prefix in letter_to_prefix.items():

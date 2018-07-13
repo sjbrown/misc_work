@@ -46,8 +46,8 @@ def filter_dom_elements(dom, card):
     card_spots = card.get('spots') or {}
     has_card_spots = any(card_spots[x] for x in card_spots)
     checks = [
-        x for x in [card.get('x_check'), card.get('one_x'),
-                    card.get('one_check'), card.get('two_check')]
+        x for x in [card.get('onetwo_check'), card.get('one_x'),
+                    card.get('two_check'), card.get('three_check')]
         if x not in (None, '')
     ]
     if has_card_spots:
@@ -63,21 +63,21 @@ def filter_dom_elements(dom, card):
 
         if len(checks) == 0:
             dom.layer_hide('spot_3lines')
-            dom.layer_hide('spot_x_check')
-            dom.layer_hide('spot_one_check')
+            dom.layer_hide('spot_onetwo_check')
             dom.layer_hide('spot_two_check')
+            dom.layer_hide('spot_three_check')
         elif len(checks) == 2:
             dom.layer_hide('spot_3lines')
-            if not card.get('x_check'):
-                dom.layer_hide('spot_x_check')
-            if not card.get('one_check'):
-                dom.layer_hide('spot_one_check')
+            if not card.get('onetwo_check'):
+                dom.layer_hide('spot_onetwo_check')
             if not card.get('two_check'):
                 dom.layer_hide('spot_two_check')
+            if not card.get('three_check'):
+                dom.layer_hide('spot_three_check')
         elif len(checks) == 3:
-            dom.layer_hide('spot_x_check')
-            dom.layer_hide('spot_one_check')
+            dom.layer_hide('spot_onetwo_check')
             dom.layer_hide('spot_two_check')
+            dom.layer_hide('spot_three_check')
         else:
             raise ValueError('Spots! %s' % pformat(card))
 
@@ -97,11 +97,11 @@ def filter_dom_elements(dom, card):
                 dom.layer_hide(key)
             elif 'std_' in key:
                 dom.layer_show(key)
-            if not card.get('x_check') and 'x_check' in key:
-                dom.layer_hide(key)
-            if not card.get('one_check') and 'one_check' in key:
+            if not card.get('onetwo_check') and 'onetwo_check' in key:
                 dom.layer_hide(key)
             if not card.get('two_check') and 'two_check' in key:
+                dom.layer_hide(key)
+            if not card.get('three_check') and 'three_check' in key:
                 dom.layer_hide(key)
 
     for key in dom.layers:
@@ -189,17 +189,17 @@ def one_blank_3lines_front():
 
     filter_dom_elements(dom, {})
     dom.replace_text('words_one_x', '')
-    dom.replace_text('words_one_check', '')
     dom.replace_text('words_two_check', '')
+    dom.replace_text('words_three_check', '')
     dom.replace_text('desc_detail', '')
     dom.replace_h1('')
     for key in dom.layers:
         if (
-          'x_check' in key
-          or
-          'one_check' in key
+          'onetwo_check' in key
           or
           'two_check' in key
+          or
+          'three_check' in key
           or
           '2lines' in key
           or
@@ -239,22 +239,22 @@ def make_card_dom(card):
 
     if card.get('one_x'):
         dom.replace_text('words_one_x', card['one_x'], ideal_num_chars=40)
-    if card.get('x_check'):
-        dom.replace_text('words_left', card['x_check'], ideal_num_chars=30)
-        dom.replace_text('spot_words_left', card['x_check'], ideal_num_chars=30)
-    elif card.get('one_check'):
-        dom.replace_text('words_left', card['one_check'], ideal_num_chars=30)
-        dom.replace_text('spot_words_left', card['one_check'], ideal_num_chars=30)
-        dom.replace_text('words_one_check', card['one_check'], ideal_num_chars=40)
+    if card.get('onetwo_check'):
+        dom.replace_text('words_left', card['onetwo_check'], ideal_num_chars=30)
+        dom.replace_text('spot_words_left', card['onetwo_check'], ideal_num_chars=30)
+    elif card.get('two_check'):
+        dom.replace_text('words_left', card['two_check'], ideal_num_chars=30)
+        dom.replace_text('spot_words_left', card['two_check'], ideal_num_chars=30)
+        dom.replace_text('words_two_check', card['two_check'], ideal_num_chars=40)
     else:
         # Card has nothing to do with flips
         dom.replace_text('spot_words_left', '')
         dom.replace_text('words_left', '')
-    dom.replace_text('words_right', card['two_check'], ideal_num_chars=20)
-    dom.replace_text('spot_words_right', card['two_check'], ideal_num_chars=20)
-    dom.replace_text('words_two_check', card['two_check'], ideal_num_chars=40)
+    dom.replace_text('words_right', card['three_check'], ideal_num_chars=20)
+    dom.replace_text('spot_words_right', card['three_check'], ideal_num_chars=20)
+    dom.replace_text('words_three_check', card['three_check'], ideal_num_chars=40)
 
-    if card.get('one_x') or card.get('x_check') or card.get('one_check'):
+    if card.get('one_x') or card.get('onetwo_check') or card.get('two_check'):
         dom.replace_text('desc_detail', card['desc_detail'],
                          ideal_num_chars=200)
     else:

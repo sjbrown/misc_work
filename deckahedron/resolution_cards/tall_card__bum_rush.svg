@@ -896,7 +896,7 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9px;line-height:125%;font-family:FreeSerif;-inkscape-font-specification:FreeSerif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        id="flowRoot6381"
        transform="translate(0,4)"><title
-         id="title6405">words_one_x</title><flowRegion
+         id="title6405">words_one_check</title><flowRegion
          id="flowRegion6383"><use
            x="0"
            y="0"
@@ -910,7 +910,7 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11px;line-height:125%;font-family:FreeSerif;-inkscape-font-specification:FreeSerif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        id="flowRoot6389"
        transform="translate(0,4)"><title
-         id="title6407">words_one_check</title><flowRegion
+         id="title6407">words_two_check</title><flowRegion
          id="flowRegion6391"><use
            x="0"
            y="0"
@@ -924,7 +924,7 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11px;line-height:125%;font-family:FreeSerif;-inkscape-font-specification:FreeSerif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        id="flowRoot6397"
        transform="translate(0,4)"><title
-         id="title6409">words_two_check</title><flowRegion
+         id="title6409">words_three_check</title><flowRegion
          id="flowRegion6399"><use
            x="0"
            y="0"
@@ -1486,7 +1486,7 @@
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9px;line-height:125%;font-family:FreeSerif;-inkscape-font-specification:FreeSerif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        id="flowRoot6446"><title
-         id="title6474">words_one_x</title><flowRegion
+         id="title6474">words_one_check</title><flowRegion
          id="flowRegion6448"><use
            x="0"
            y="0"
@@ -1499,7 +1499,7 @@
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11px;line-height:125%;font-family:FreeSerif;-inkscape-font-specification:FreeSerif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        id="flowRoot6454"><title
-         id="title6472">words_one_check</title><flowRegion
+         id="title6472">words_two_check</title><flowRegion
          id="flowRegion6456"><use
            x="0"
            y="0"
@@ -1512,7 +1512,7 @@
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11px;line-height:125%;font-family:FreeSerif;-inkscape-font-specification:FreeSerif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        id="flowRoot6462"><title
-         id="title6470">words_two_check</title><flowRegion
+         id="title6470">words_three_check</title><flowRegion
          id="flowRegion6464"><use
            x="0"
            y="0"
@@ -1681,7 +1681,7 @@
      style="display:none" /><g
      inkscape:groupmode="layer"
      id="layer11"
-     inkscape:label="std_one_check_2lines"
+     inkscape:label="std_two_check_2lines"
      style="display:none"
      transform="translate(0,66)"><text
        xml:space="preserve"
@@ -1697,7 +1697,7 @@
 </g><g
      inkscape:groupmode="layer"
      id="layer27"
-     inkscape:label="std_x_check_2lines"
+     inkscape:label="std_onetwo_check_2lines"
      style="display:none"><g
        id="g4835"
        transform="translate(-29.740028,-51.005568)"><text
@@ -1731,7 +1731,7 @@
          style="font-style:normal;font-weight:normal;font-size:medium;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" /></g></g><g
      inkscape:groupmode="layer"
      id="layer26"
-     inkscape:label="std_two_check_2lines"
+     inkscape:label="std_three_check_2lines"
      style="display:none"><g
        style="display:inline"
        id="g4708"
@@ -1760,7 +1760,7 @@
 </g></g><g
      inkscape:groupmode="layer"
      id="layer28"
-     inkscape:label="spot_x_check"
+     inkscape:label="spot_onetwo_check"
      style="display:none"><g
        style="display:inline"
        transform="translate(7.0212639,84.697508)"
@@ -1795,7 +1795,7 @@
          inkscape:connector-curvature="0" /></g></g><g
      inkscape:groupmode="layer"
      id="layer29"
-     inkscape:label="spot_two_check"
+     inkscape:label="spot_three_check"
      style="display:none"><g
        transform="matrix(1.245,0,0,1.245,31.822304,95.33466)"
        id="g4859"
@@ -1824,7 +1824,7 @@
 </g></g><g
      inkscape:groupmode="layer"
      id="layer30"
-     inkscape:label="spot_one_check"
+     inkscape:label="spot_two_check"
      style="display:none"><text
        sodipodi:linespacing="125%"
        id="text4843"

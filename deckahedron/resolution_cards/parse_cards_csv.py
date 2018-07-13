@@ -123,17 +123,17 @@ def parse_text(text):
     return text
 
 def parse_checks(d2):
-    two_x = parse_text(d2.get('r-2') or d2.get('✗✗'))
+    one_x = parse_text(d2.get('r-2') or d2.get('✗✗'))
     one_x = parse_text(d2.get('r-1') or d2.get('✗'))
-    one_check = parse_text(d2.get('r1') or d2.get('✔'))
-    two_check = parse_text(d2.get('r2') or d2.get('✔✔'))
-    if one_check == one_x:
-        d2['x_check'] = one_check
+    two_check = parse_text(d2.get('r1') or d2.get('✔'))
+    three_check = parse_text(d2.get('r2') or d2.get('✔✔'))
+    if two_check == one_x:
+        d2['onetwo_check'] = two_check
     else:
-        d2['one_check'] = one_check
+        d2['two_check'] = two_check
         d2['one_x'] = one_x
-    d2['two_x'] = two_x
-    d2['two_check'] = two_check
+    d2['one_x'] = one_x
+    d2['three_check'] = three_check
 
 def parse_attr(d2):
     d2['attr'] = d2['mod'].strip()
