@@ -185,7 +185,8 @@ class Discern(Card):
     '''
   desc = '''
     Closely study a situation or person, ask the GM your question(s), and
-    gain a +1 advantage when acting on the answers.
+    gain a +1 advantage when acting on the answers. (Place tokens to remember
+    where the advantages are, as appropriate)
     * What happened here recently?
     * What is about to happen?
     * What should I be on the lookout for?
