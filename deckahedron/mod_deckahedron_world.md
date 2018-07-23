@@ -2,13 +2,13 @@
 
 # Tagline
 
-Like board games?  Remember Dungeons & Dragons? Think you can improv?
+Like board games? Remember Dungeons & Dragons? Want to try improv?
 Welcome to Deckahedron World!
 
 
 # Welcome to Role-Playing
 
-Deckahedron World is a system for telling a story.  The authors of the story
+Deckahedron World is a system for telling a story. The authors of the story
 are you and your friends, sitting around a table.
 
 This story is improvisational, interactive, and collaborative.
@@ -83,6 +83,7 @@ Deckahedron World invites you to:
    * Chime in when they interact with or support the other characters
  * Tell parts of the story
    * Tell your character's backstory
+   * Contribute ideas and assert facts when the GM asks questions
    * Command your character's hirelings and animal companions
    * Refer to your **moves** to generate more ideas and see what boundaries you can push
 
@@ -102,12 +103,12 @@ Every player except the GM gets a Deckahedron. Inspect your Deckahedron.
 You should have 20 cards.  There are 4 symbols, or "suits", on the fronts and
 backs of the cards:
 
-Name      | symbol                                  | odds                              | color  | rank
+Name      | suit                                    | odds                              | color  | rank
 ----------|-----------------------------------------|-----------------------------------|--------|-------
-Anchor    | ![anchor symbol](images/anchor.png){ width=0.5inch }     | indicates the weakest odds        | red    | rank 1
-Bulb      | ![bulb symbol](images/bulb.png){ width=0.5inch }         | indicates below average odds      | yellow | rank 2
-Crescent  | ![crescent symbol](images/crescent.png){ width=0.5inch } | indicates above average odds      | green  | rank 3
-Dart      | ![dart symbol](images/dart.png){ width=0.5inch }         | indicates the best odds           | blue   | rank 4
+Anchor    | ![anchor suit](images/anchor.png){ width=0.5inch }     | indicates the weakest odds        | red    | rank 1
+Bulb      | ![bulb suit](images/bulb.png){ width=0.5inch }         | indicates below average odds      | yellow | rank 2
+Crescent  | ![crescent suit](images/crescent.png){ width=0.5inch } | indicates above average odds      | green  | rank 3
+Dart      | ![dart suit](images/dart.png){ width=0.5inch }         | indicates the best odds           | blue   | rank 4
 
 Shuffle your Deckahedron and place it face-down in front of you.
 
@@ -125,7 +126,7 @@ use to resolve the flip.
 
 ![Illustration of your Deckahedron](images/component_layout.png){ width=2.5inch }
 
-Look at the attribute on your character sheet -- what symbol is it, Anchor,
+Look at the attribute on your character sheet -- what suit is it, Anchor,
 Bulb, Crescent, or Dart?
 Take the top card and flip it face up.
 Put it down so that the GM can read the result.
@@ -135,8 +136,8 @@ Put it down so that the GM can read the result.
 
 The top of the flipped card shows ✗s or ✔s.
 These tell you the result of the move.
-Consistently facing the result towards the GM helps simplify the GM's
-bookkeeping and helps the game stay fast-paced.
+When you flip, be consistent with how you orient the card so the GM can easily
+read it. This helps simplify the GM's bookkeeping and keeps the game fast-paced.
 
 ![Illustration of reading a card](images/component_read.png){ width=2.5inch }
 
@@ -166,9 +167,9 @@ The GM might say to you:
 
 Look over at the character sheet and see that Kresk has rank 3
 (Crescent) Strength. Flip over the top card of your Deckahedron and
-look for that Crescent symbol.
+look for that Crescent suit.
 
-Maybe you get a single ✔. The GM uses the instructions on the
+Let's say you get ✔✔. The GM uses the instructions on the
 Defy Danger card ("You do it, but there's a new complication") to
 improvise what happens next:
 
@@ -190,7 +191,7 @@ instruction, "add a disadvantage card" or "flip with disadvantage".
 
 With an advantage, flip over your top card as usual, and then
 flip over the next card as well.
-Compare the results (the number of ✗s or ✔s next to the relevant symbol)
+Compare the results (the number of ✗s or ✔s next to the relevant suit)
 and *resolve the flip* with the card that has the **best** result.
 
 If it's a tie, you may choose whichever card to be the card that *resolves
@@ -202,7 +203,6 @@ All cards that got flipped go face-up in your *discard pile*.
 
 You must flip over all the cards you were instructed to, even if the first
 card shows ✔✔.
-
 
 ### Disadvantage
 
@@ -252,6 +252,10 @@ control of the narrative.
 Sometimes you flip over a wound card and must lose a Stamina point. See the
 [Combat chapter](#combat).
 
+Wound cards are not used in the One-Shot Campaign, so you can skip these
+instructions when you start playing a longer campaign.
+
+
 ## Other flip complications: Teamwork Flip
 
 Before a flip is executed, if other players have characters in the same
@@ -267,13 +271,18 @@ is taking the lead?". That player is the spotlighted player, and the other
 players are supporting.
 
 The spotlighted player flips as they normally would, the supporting players
-flip one Anchor.
+say how they are helping and flip one Anchor.
 
-The best result resolves the flip.
+The players choose the best result to resolve the flip.
 
+<!--
 Only the spotlighted player can possibly receive green tokens from this
 flip, and only with their own card. If the card that resolves the flip
 wasn't the spotlighted player's, nobody receives a green token.
+-->
+
+Only the card that resolved the flip can generate a green token, and only
+for the player who played it.
 
 If there are any negative consequences (damage, danger, etc) from the
 result, all the participating characters must suffer them.
@@ -292,39 +301,40 @@ your *discard pile* and shuffle it back into your Deckahedron.
 
 ## Interpreting the result of a flip
 
-When a player performs a move, the player executes a flip, and the GM
-interprets the narrative result, based on the text of the move card.
+When a player's character performs a move, the player executes a flip,
+and the GM interprets the narrative result, based on the text of the
+move card.
 
 ![flip results](images/flip_results.png){ width=2.5inch }
 
-Usually ✔✔ means an unfettered success, and single ✔ means success,
+Usually ✔✔✔ means an unfettered success, and ✔✔ means success,
 but with complication.
 
-When the result is a single ✗, it sometimes means the same as a single ✔,
+When the result is a single ✔, it sometimes means the same as a ✔✔,
 but often it is slightly worse.
 
-Any time a flip results in a single ✗ the GM should add a point to
-the *Bad Bank*.  -- even when the move card says it has the same narrative
-effect as a single ✔.
+Any time a flip results in a single ✔ the GM should add a point to
+the *Bad Bank*  -- even when the move card says it has the same narrative
+effect as a ✔✔.
 
-When the result is ✗✗, it is the GM's turn to make a move. The GM narrates
+When the result is ✗, it is the GM's turn to make a move. The GM narrates
 the consequences of the move the player just attempted and has license to
 take the narrative where they like.
 
 See the GM Guide for explanations of the *Bad Bank* and for a list of moves
 the GM is allowed to make.
 
-### Exceptions on ✗ and ✗✗ flips
+### Exceptions on ✔ and ✗ flips
 
-Sometimes a card does not say how a ✗ should be interpreted. In that case,
-the GM gets to make a move, just like ✗✗.
+Sometimes a card does not say how a ✔ should be interpreted. In that case,
+the GM gets to make a move, just like ✗.
 
-Rarely, a card will have instructions for how to interpret a ✗✗ result.
+Rarely, a card will have instructions for how to interpret a ✗ result.
 These instructions should be executed, but might only be *part* of the
 GM's move -- the GM gets to decide if they have more to add.
 
 When the move card has the tag *IMMEDIATE*, the GM does not get to make a
-move on a ✗✗. Instead, the GM should just add 2 points to the *Bad Bank*.
+move on a ✗. Instead, the GM should just add 2 points to the *Bad Bank*.
 
 
 ## Flips only happen when the situation is uncertain or risky
@@ -333,12 +343,13 @@ A GM only calls for a flip when the situation is uncertain or risky for
 the character. If the outcome is certain, the GM may just narrate what
 happens. Or they may ask you some clarifying questions.
 
-Deckahedron World is a conversation. Different GMs will draw the line
-of certainty at different places.
+Deckahedron World is a conversation between people, so there is variability
+in how it plays out. Different GMs will draw their line of certainty at
+different places.
 
 Consider a situation where the GM has described your character, Kresk,
-waking up after making camp in a forest. Beside you is a squirrel nibbling
-an acorn.
+waking up after making camp in a forest. Beside Kresk is a squirrel,
+nibbling an acorn.
 
 You might respond by saying,
 
@@ -350,7 +361,7 @@ melee combat between Kresk and the squirrel, and ask you to flip Strength
 to resolve the Hack and Slash move.
 
 But the GM will more likely interpret your action, as described, as having
-a certain outcome. Perhaps the GM will respond:
+a *certain* outcome. Perhaps the GM will respond:
 
  * "As you raise your fist to smash the squirrel, it darts off into the
    forest, never to be seen again."
@@ -377,7 +388,8 @@ character does in a natural way.
 ### Fictional position *matters*
 
 Because uncertainty is a key requirement before a flip is called for,
-fiction that you establish in Deckahedron World *matters*.
+the fiction that you and your friends establish in Deckahedron World
+*matters*.
 
 If a character threatens to punch a towering Mountain Giant in the shin, the
 GM will not call for a Parley flip. A wound to the arm or hand might be
@@ -401,14 +413,14 @@ exchange, even if they're able to dodge every blow.
 This weakening is represented by cards from your Deckahedron being lost
 into your *Exhaustion pile*.
 
-Think of a boxing match or a mixed martial arts match. During the later
-rounds, the athletes are worn down, don't jump around the ring with as
-much vigor, and drop their guard more frequently. The contest is not
-always decided with a knockout punch, it often comes down to who can
+Have you ever watched a boxing match or a mixed martial arts match? During
+the later rounds, the athletes are worn down, they don't dance around the
+ring with as much vigor, and drop their guard more frequently. The contest
+is not always decided with a knockout punch, it often comes down to who can
 better endure the exertion.
 
-By default, your character has 10 Stamina points. When your character
-loses all 10, they are incapacitated.
+Your character has 10 Stamina points. When your character loses all 10,
+they are incapacitated. After that, their fate is up to the GM.
 
 ## Phases
 
@@ -427,20 +439,24 @@ categories, Stamina, Harm, or Wounds.
 The **third phase** is optional: absorbing some points using any relevant
 move cards and item cards.
 
-Finally, the **fourth phase**: you interpret those results into the
+The **fourth phase** is losing Stamina points and receiving Exhaustion,
+Harm, and Wound tokens.
+
+Finally, the **fifth phase**: you interpret those results into the
 narrative.  Did your character dive into the dirt?  Did they take a punch
 to the jaw and respond with a bloodied grin?  Did the spear bounce right
 off their steel breastplate?
 
-### First Phase
+## First Phase
 
-When your character suffers the consequences of violence, you roll dice to get
-a number. This number is called the *attack power*.
+When your character suffers the consequences of violence, you roll dice or
+read instructions from a move card to get a number. This number is called
+the *attack power*.
 
-### Second Phase
+## Second Phase
 
-If you don't split up the *attack power*, you will simply lose that many
-Stamina points.
+If you choose not to split up the *attack power*, you will simply lose that
+many Stamina points.
 
 Let's say your character was attacked with a sword and the dice were rolled
 and summed up to 7. You can either lose 7 Stamina points, or choose to split
@@ -448,10 +464,7 @@ it up.
 
 Let's say you already lost 3 Stamina points earlier. You only have 7 Stamina
 points left, and you don't want your character to be incapacitated. You have
-a couple options:
-
- * Turn *attack power* into Harm tokens at a rate of 3-for-1
- * Turn *attack power* into Wound tokens at a rate of 6-for-1
+the option to turn *attack power* into Harm tokens at a rate of 3-for-1.
 
 For example, you may split the attack power of 7 into:
 
@@ -463,29 +476,24 @@ You may even do that twice, splitting the attack power of 7 into:
  * 1 Stamina point
  * 2 Harm tokens
 
-Another option is to take a Wound, using a rate of 6-for-1.
-In our example, you may split the attack power of 7 into:
+*Attack power* turns into Harm tokens at *exactly* a rate of 3-to-1. You
+cannot choose a Harm token when facing an attack power of 2.
 
- * 1 Stamina point
- * 1 Wound token
+## Third Phase
 
-Note: as described later, taking Wound and Harm tokens can sometimes also
-cause loss of Stamina points.
-
-*Attack power* turns into Harm tokens at *exactly* a rate of 3-to-1, and
-Wound tokens at *exactly* a rate of 6-to-1. You cannot choose a Harm token
-if facing an attack power of 2.
+In the third phase, you can absorb Stamina and Harm with your armour,
+shield, or with moves like Good Cardio, Mystic Breathwork, Like A Second
+Skin, and Sangfroid.
 
 
-## Stamina / Exhaustion
+## Fourth Phase: Stamina / Exhaustion
 
 Characters have 10 Stamina points.
 
 To win at combat, a character's foes must be subdued or pacified before the
 player loses 10 cards from their Deckahedron.
 
-When you are instructed to lose a Stamina point, you may absorb it
-using any relevant move cards and item cards, otherwise:
+When you are instructed to lose a Stamina point:
 
  1. Take a card off the top of your Deckahedron, do not look at the face side.
  2. Put that card face-down on your *Exhaustion pile*
@@ -499,7 +507,7 @@ using any relevant move cards and item cards, otherwise:
 from the top of your Deckahedron onto your Exhaustion pile, then you
 put 3 Exhaustion tokens on top of it as well.)
 
-If their Deckahedron does not contain enough cards, the player **must**
+If your Deckahedron does not contain enough cards, the player **must**
 reshuffle their *discard pile* into the Deckahedron and continue.
 
 Note: Players *may* choose to reshuffle their *discard pile* back into the
@@ -512,17 +520,16 @@ the character is dead, unconscious, or just unable to stand or move. The
 GM has rules for this, see the GM Guide.
 
 
-## Harm
+## Fourth Phase: Harm
 
 Think of that boxing match again.  If Stamina represents dancing, ducking,
 and dodging, then Harm represents landing a blow.
 These rules are also for representing mental strain that is so significant
 that the negative effects last for a while.
 
-### Harm Rules for a One-Shot Campaign
+### Receiving Harm in a One-Shot Campaign
 
-When you are instructed to take a Harm token, you may absorb it
-using any relevant move cards and item cards, otherwise:
+When you are instructed to take a Harm token:
 
  * **If you already have 2 Harm tokens on your Exhaustion pile**:
    - the character is incapacitated
@@ -536,10 +543,9 @@ using any relevant move cards and item cards, otherwise:
 > Note, you will see this "1-2-bust" pattern repeated in many
 > of Deckahedron World's rules
 
-### Harm Rules for Other Campaigns
+### Receiving Harm in Longer Campaigns
 
-When you are instructed to take a Harm token, you may absorb it
-using any relevant move cards and item cards, otherwise:
+When you are instructed to take a Harm token:
 
  * **If you already have 2 Harm tokens on your Exhaustion pile**:
    - Take a *Wound* instead
@@ -554,11 +560,27 @@ using any relevant move cards and item cards, otherwise:
 Getting wounded sucks, and when wounded, all intelligent creatures seek
 to cure their condition as a very high priority.
 
-If you are playing the One-Shot Campaign, you can skip the sections on
-Wounds.
+If you are playing the One-Shot Campaign, you can skip this section. The
+Wound rules are for the longer campaign formats.
 
-When you are instructed to take a Wound token, you may absorb it
-using any relevant move cards and item cards, otherwise:
+### Second Phase: Trading Attack Power for Wounds
+
+During the second phase of *attack power* resolution, you may choose to turn
+*attack power* into Wound tokens.
+
+You can choose to turn *attack power* into Wound tokens at a rate of 6-for-1
+
+For example, you may split the *attack power* of 7 into:
+
+ * 1 Stamina point
+ * 1 Wound token
+
+*Attack power* turns into Wound tokens at *exactly* a rate of 6-to-1. You
+cannot choose to take a Wound token when facing an *attack power* of 5.
+
+### Fourth Phase: Receiving Wounds
+
+When you are instructed to take a Wound token:
 
  * **If you already have 2 wounds**:
    - the character is incapacitated
@@ -588,6 +610,10 @@ Whenever you **flip** and reveal a wound card, follow these rules:
    This overrides the **Complete Flip Rule**)
  * Lose a Stamina point
 
+Wound cards can be used to represent different fictional aspects. They
+usually represent literal wounds, but may also be used for the effects of
+disease, poison, or other effects inflicted by monsters or the environment.
+
 Note: some moves instruct you to match Chinese Zodiac symbols on the corners
 of cards. Wound cards' corners have the "goat" symbol which does not match
 any symbol.
@@ -597,15 +623,15 @@ any symbol.
 
 The Stamina rules described above are known as "Lucky Mode". Those rules
 allow the players to lean on luck at the beginning of the game, because
-the "worse cards" of the Deckahedron can end up in the *Exhaustion pile*,
+the "worse cards" of the Deckahedron might end up in the *Exhaustion pile*,
 shifting the odds to increase a player's chances to succeed at moves.
 
 During longer campaigns, players will have the choice to switch to "Heroic
 Mode", sacrificing their potential to get lucky for more knowledge and
 control over their outcomes.
 
-Characters have 10 Stamina points.  These points are represented by
-cards in your Deckahedron with a Stamina symbol
+In "Heroic Mode" characters have 10 Stamina points. These points are
+represented by cards in your Deckahedron with a Stamina symbol
 
 ![Cards with and without Stamina symbol](images/with_without_stamina.png){ width=2.5inch }
 
@@ -664,10 +690,12 @@ Tokens represent weight or difficulty to carry, when they're not on speed.
 
 Some Item cards require more than 1 token.
 
-The GM may interpret a Speed of 0 as limiting a character's gait to walking.
+Beyond the effects Speed has on certain moves, the number of tokens you
+have on Speed can have fictional effects. The GM may interpret a Speed of
+0 as limiting a character's gait.
 
 
-# Moves - Good Thing I Brought, Do a Flashback, Critical Success
+# Moves - Good Thing I Brought, Do a Flashback, Critical Success, Take a Breather
 
 ## Good Thing I Brought...
 
@@ -714,7 +742,7 @@ Then the original flip is ignored, and a new flip is executed, using the same
 advantage or disadvantage as the original flip.
 
 The player may then spend additional green tokens to "bump up" the result.
-Each green token spent increases the result, from ✗✗ to ✗ to ✔ to ✔✔.
+Each green token spent increases the result, from ✗ to ✅ to ✔✔ to ✔✔✔.
 
 Technically, this flip is *resolved* only after the green tokens are spent,
 so if the card was a *green token card*, the player should receive the green
@@ -746,7 +774,7 @@ storytelling, and improv means rolling with the punches sometimes.
 ![Critical Flip card](images/critical_flip_card.png){ width=2.5inch }
 
 One of the 20 cards in your Deckahedron is the "Critical Success card". It
-has a ✔✔ symbol on every edge and a green circle in the middle.
+has a ✔✔✔ symbol on every edge and a circular green symbol in the middle.
 
 If you *resolve a flip* with the Critical Success card, you can do two things:
 
@@ -757,6 +785,38 @@ If you *resolve a flip* with the Critical Success card, you can do two things:
 
 If you choose to Critical Flip, the spotlight stays on you for a little bit
 longer while you make your bonus move.
+
+
+## Taking a Breather
+
+![Take a Breather card](images/move_take_a_breather.png){ width=2.5inch }
+
+**Taking a Breather** is a move that a character can take during combat.
+This action allows a character to regain up to 4 Stamina points.
+
+The player may use either Intelligence or Dexterity to perform the **Take a
+Breather** action.
+
+If they use Intelligence, they say how they execute a tactic or
+recognize a favourable position that lets them gather their breath
+and their wits.
+
+If they use Dexterity, they say how they maneuver into a safe position
+that offers some temporary safety.
+
+Regaining Stamina may be done either by taking cards from the
+*Exhaustion pile* and putting them into the *discard pile*,
+or by returning Exhaustion tokens to the supply.
+
+When recovering cards from the *Exhaustion pile*, the player may choose any
+cards they want.
+
+When combat or a pursuit ends, and it is appropriate for the narrative
+(e.g. when there's a scene transition and the characters reasonably have
+a few minutes to catch their breath), the players may **Take a Breather**
+using Str as an IMMEDIATE move (ie, no negative consequences to ✗ or ✅).
+
+
 
 
 # Making your own character
@@ -851,37 +911,7 @@ excuse-creation, litanizing of sins, the move has not been executed
 correctly. Just take a deep breath and move on.
 
 
-# More Moves - Take a Breather, Rest, Seek Help
-
-## Taking a Breather
-
-![Take a Breather card](images/move_take_a_breather.png){ width=2.5inch }
-
-**Taking a Breather** is a move that a character can take during combat.
-This action allows a character to regain up to 4 Stamina points.
-
-The player may use either Intelligence or Dexterity to perform the **Take a
-Breather** action.
-
-If they use Intelligence, they say how they execute a tactic or
-recognize a favourable position that lets them gather their breath
-and their wits.
-
-If they use Dexterity, they say how they maneuver into a safe position
-that offers some temporary safety.
-
-Regaining Stamina may be done either by taking cards from the
-*Exhaustion pile* and putting them into the *discard pile*,
-or by returning Exhaustion tokens to the supply.
-
-When recovering cards from the *Exhaustion pile*, the player may choose any
-cards they want.
-
-When combat or a pursuit ends, and it is appropriate for the narrative
-(e.g. when there's a scene transition and the characters reasonably have
-a few minutes to catch their breath), the players may **Take a Breather**
-using Str as an IMMEDIATE move (ie, no negative consequences to ✗ or ✗✗).
-
+# More Moves - Rest, Seek Help
 
 ## Resting
 
@@ -909,8 +939,7 @@ studying with a teacher, or any other action that takes mental or physical
 effort.
 
 The Harm token returned to the supply in Step 4 may come from your
-*Exhaustion pile* or from a slot on a move card that represents bodily
-toughness (eg, Bloody But Unbowed).
+*Exhaustion pile* or from a slot on a move card (eg, Bloody But Unbowed).
 
 ## Seek Help
 
@@ -944,38 +973,18 @@ You may gird all your armour, where applicable.
 Remove all Harm and Wound tokens from your armour cards.
 
 
-# More Moves - Run, Shop
+# Shopping, Equipment, and Items
 
-## Bravely Run Away
-
-![Bravely Run Away card](images/move_bravely_run_away.png){ width=2.5inch }
-
-When players find themselves on the losing side of a battle, or want to
-avoid a daunting threat, they may choose to run away. If their characters
-are positioned in a way that their escape is possible, the GM will allow
-them to escape, but there is a cost. The players temporarily lose narrative
-control and the GM gets to say where the players' characters end up.
-
-There may also be a Stamina cost (or Stamina gain) depending on how weighed
-down the characters were by their equipment.
-
-The GM can resolve this move by:
- * putting the characters somewhere completely safe
- * putting the characters in a place where some (new or old) danger exists,
-   but is, for the moment, not directly threatening the characters
- * spending a point from the *Bad Bank* and putting the characters in a place
-   where they must directly confront or defy a new danger
-
-
-## Shop / Procure
+## The Shop / Procure Move
 
 ![Shop / Procure card](images/move_shop__procure.png){ width=2.5inch }
 
 When the Shop / Procure move is used, the scene can be described as an
-everyday shopping trip or a theiving escapade, or anything that makes sense
-in the narrative, so long as the outcome would be certain.
+everyday shopping trip or a theiving and bribery escapade, or anything
+else that makes sense in the narrative, so long as the mechanical
+outcome would be certain.
 
-The GM presents 4 cards to the player of any mix of items: mundane,
+The GM presents to the player 4 cards of any mix of items: mundane,
 magical, a special commodity established in the narrative, or even
 something purely decorative. It is ok for the GM and player to discuss
 the items beforehand to any level of detail, and it is also ok for the
@@ -999,6 +1008,8 @@ You can even create rules of your own for certain classes of item.
 See the [Extending Deckahedron World](#extending) chapter for hints on how
 to do that.
 
+#### Item Damage
+
 `TODO item damage diagram`
 
 Damage to items is represented as black-side red cards. When an item is
@@ -1008,8 +1019,8 @@ it is instead destroyed. The card is returned to the supply.
 #### Weapons
 
 Weapons cards describe what the character has armed themself with. These
-cards don't have to just be about one item, as the Many Knives card
-demonstrates.
+cards might describe "weaponry" rather than a singualr item, as the Many
+Knives card demonstrates.
 
 Weapons have a "power level": d4, d6, or d10. This determines what die to
 roll when you roll attack power. Higher power weapons should not be given
@@ -1021,11 +1032,11 @@ requires. Is the item particularly heavy or large?
 
 Here are the weapons available to characters during character creation:
 
-Name             | token requirement | notes
------------------|-------------------|--------------
-_ Sword          | 1                 |
-Many Knives      | 1                 | At close range, can be thrown
-_ Bow            | 1                 | Long range
+Name             | S/W/P token requirement | notes
+-----------------|-------------------------|--------------
+_ Sword          | 1                       |
+Many Knives      | 1                       | At close range, can be thrown
+_ Bow            | 1                       | Long range
 
 
 #### Armour
@@ -1040,6 +1051,8 @@ a Wound.
 
 When a character goes shopping, goes a-thieving, discovers treasure, or loots
 a battlefield, the GM may offer new, more useful armour.
+
+`TODO illustration of Harm / Wound slots`
 
 The GM should draw up to 3 slots on the card. A slot shall be designated to
 receive either:
@@ -1074,7 +1087,7 @@ Full Plate       | 3                 | 3 Harm/Wound
 Shields are a way to avoid Harm and Wound tokens, but they test your
 Dex in order to succeed. See the Bracers card for an example.
 
-To make a Shield card, first the GM chooses the ✔✔, ✔, and ✗ effects by
+To make a Shield card, first the GM chooses the ✔✔✔, ✔✔, and ✅ effects by
 choosing 3 sequential effects from this list:
 
  * Avoid the *x*
@@ -1113,7 +1126,7 @@ meaning, if you want.
 #### Charges and Capacity
 
 By default magic items have capacity for 3 charges. When a charge is used
-on a magic item, place a red card on it, white-side-up.
+from a magic item, place a red card on it, white-side-up.
 
 Sometimes charges are lost *permanently*. This means it loses a charge and
 its capacity for charges decreases by 1. When this happens, place a red
@@ -1146,13 +1159,65 @@ while using the Rest or Seek Help moves.
 
 # More Moves - Using Magic Items
 
-`TODO`
+Magic is an element that pervades stories of fantasy. It can be obscure
+and stemming from nature like in Lord of the Rings, it can be elemental and
+allegorical like in The Wheel of Time, and it can be linguistic and
+self-aware like in The Invisibles.
+
+To allow you and your table of friends to invent and explore the magical
+concepts that excite you most, Deckahedron World takes a light touch,
+provides a mechanical foundation and some optional narrative paths.
+Deckahedron World invites you to play with and expand into a well-tested
+framework.
+
+One thing to keep in mind is that characters may attempt any move that
+resolves with Str / Dex / Int.
+(See [Move Levels](#move_levels)
+So even if moves like Use a Magic Item or Fundamental Magic were not chosen
+at character creation or gained via Study Under a Master, any character may
+attempt them.
+
+That said, using magic invokes some of the more complicated rules of
+Deckahedron World. Players are challenged with managing and balancing
+charges, capacity, stamina, requirements and narrative effect. This kind
+of play is ideal for players excited by complexity and the potential
+of explorable branches.
+
 
 ## Use a Magic Item
 
-`TODO: Tool Twisting adds another choice: "the weapon is damaged"`
+![Use a Magic Item](images/move_use_a_magic_item.png){ width=2.5inch }
+
+When a character holds a magic item and flows energy into it, the player
+flips Int, and on any result other than ✗, the item activates and the
+effects described on the magic item card happen.
+
+Using a magic item causes it to lose a charge. This loss can be avoided
+with moves like Entreat the Blood-Bound and Channel the Living Light.
+
+Following that, results of ✅ and ✔✔ cause a further cost to be incurred,
+as chosen from the list by the GM or the player, respectively.
+
+**Note:** if the magic item being used is a magical weapon created via
+Tool Twisting, another choice is available: "the weapon is damaged"
+
+An item has 3 charges by default, and is considered "depleted" when they
+are all used. The term used for this maximum number of charges is
+"capacity" or "charge capacity".
+
+When a magic item loses a charge, take a red card and place it white-side-up
+on top of the magic item card.
+
+When a magic item **permanently loses** a charge, take a red card and
+place it **black-side-up** on top of the magic item card.
+
+If the magic item has the *ONGOING* tag, magical energy continues
+to flow into the item. This has mechanical interactions with the Rest
+and Sever-Pulse Shield moves and might also have narrative consequences.
 
 ## Entreat the Blood-Bound
+
+![Entreat the Blood-Bound](images/move_entreat_the_blood_bound.png){ width=2.5inch }
 
 If it has not yet been established, when a player first uses this move, it's
 a great time for the GM to ask them a question: "Who or what is the
@@ -1162,7 +1227,13 @@ Blood-Bound?"
     and..." no matter if they identify the Blood-Bound as tiny, parasitic
     insects or as monstrous, extradimensional dark gods.
 
+**Note:** Entreat the Blood-Bound is not available during a One-Shot Campaign, because
+it requires the use of Wounds.
+
+
 ## Channel the Living Light
+
+![Channel the Living Light](images/move_channel_the_living_light.png){ width=2.5inch }
 
 If it has not yet been established, when a player first uses this move, it's
 a great time for the GM to ask them: "Who or what is the Living Light?"
@@ -1297,7 +1368,7 @@ You do not have to keep your cards in this arrangement while you play,
 
 #### The RECEIVE CARDS tag
 
-Sometimes when you Study Under a Master, you end up with study aids.
+Sometimes when you Study Under a Master, you are given study aids.
 
 When you Study Under a Master to gain...  | You also take...
 ------------------------------------------|------------------------------
@@ -1308,6 +1379,28 @@ Use a Magic Item                          | Any magic item card
 You use the RECEIVE CARDS tag only during character creation and when you
 gain a move card via Study Under a Master. You do not use it when you gain
 competence with the skill by flipping Critical Success cards.
+
+
+# More Moves - Bravely Run Away
+
+![Bravely Run Away card](images/move_bravely_run_away.png){ width=2.5inch }
+
+When players find themselves on the losing side of a battle, or want to
+avoid a daunting threat, they may choose to run away. If their characters
+are positioned in a way that their escape is possible, according to the
+established fiction, the GM will allow them to escape, but there is a cost.
+The players temporarily lose narrative control and the GM gets to say
+where the players' characters end up.
+
+There may also be a Stamina cost (or Stamina gain) depending on how weighed
+down the characters were by their equipment.
+
+The GM can resolve this move by:
+ * putting the characters somewhere completely safe
+ * putting the characters in a place where some (new or old) danger exists,
+   but is, for the moment, not directly threatening the characters
+ * spending a point from the *Bad Bank* and putting the characters in a place
+   where they must directly confront or defy a new danger
 
 
 ---
