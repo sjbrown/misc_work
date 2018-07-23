@@ -1050,6 +1050,7 @@ That seems a lot worse than just this:
 
 if c() ⇥  x = a() ⇤ else ⇥  x = b() ⇤
 x = ⦗⦘ ⇥  if c() ⇥  return a() ⇤ else ⇥  return b() ⇤ ⇤()
+# But the latter is an *anonymous* function, which should be illegal
 
 ----
 
