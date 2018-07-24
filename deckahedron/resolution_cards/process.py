@@ -8,6 +8,7 @@ from cards import cards, blessing_cards, wound_cards, dice_print_rules
 from cards import spot_it_map, spot_it_rules, calc_zodiac
 
 from svg_dom import DOM, export_square_png
+from version import VERSION
 
 
 '''
@@ -104,7 +105,7 @@ def filter_dom_elements(dom, card, deck_title, dice_rule):
 
         if not card.get('Stamina'):
             dom.layer_hide('exhaustion')
-            dom.layer_hide('exhaustion2')
+            dom.layer_hide('exhaustion_center')
 
         # Choose the dice pips to print out
         for titletuple in product(
@@ -138,10 +139,16 @@ def filter_dom_elements(dom, card, deck_title, dice_rule):
 
 
 def make_deck(deck_number):
-    export_square_png('back_ready_to_print.svg', '/tmp/cards/back.png')
+    raw_svg = file('back_ready_to_print.svg').read()
+    raw_svg = raw_svg.replace('VERSION', VERSION)
+    back_svg_filename = '/tmp/cards/back.svg'
+    fp = file(back_svg_filename, 'w')
+    fp.write(raw_svg)
+    fp.close()
+    export_square_png(back_svg_filename, '/tmp/cards/back.png')
 
     for i, card in enumerate(cards):
-        dom = DOM('face_ready_to_split.svg')
+        dom = DOM('face_books.svg')
 
         deck_title = 'deck_%s' % deck_number
         dice_rule = dice_print_rules[i][1]
@@ -164,7 +171,7 @@ def make_blessing_deck():
     export_square_png('back_blessing_gold_ready_to_print.svg', '/tmp/cards/blessing/back.png')
 
     for i, card in enumerate(blessing_cards):
-        dom = DOM('face_ready_to_split.svg')
+        dom = DOM('face_books.svg')
 
         filter_dom_elements(dom, card, '', [])
         set_zodiac(dom, 'dragon', 'dragon', 'dragon', 'dragon')
@@ -179,7 +186,7 @@ def make_blessing_deck():
 
 def make_wound_deck():
     for i, card in enumerate(wound_cards):
-        dom = DOM('face_ready_to_split.svg')
+        dom = DOM('face_books.svg')
 
         filter_dom_elements(dom, card, '', [])
         set_zodiac(dom, 'goat', 'goat', 'goat', 'goat')

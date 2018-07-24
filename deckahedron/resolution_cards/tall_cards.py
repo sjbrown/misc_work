@@ -28,7 +28,7 @@ def make_card(C):
                  C.__name__.replace('_', ' '))
     attr = getattr(C, 'attr', '')
     one_check = parse(getattr(C, 'one_check', ''))
-    onetwo_check = parse(getattr(C, 'onetwo_check', ''))
+    slash_check = parse(getattr(C, 'slash_check', ''))
     two_check = parse(getattr(C, 'two_check', ''))
     three_check = parse(getattr(C, 'three_check', ''))
     desc_detail = parse(C.desc)
@@ -45,7 +45,7 @@ def make_card(C):
         'attr_shield': bool(attr),
         'attr': attr,
         'one_check': one_check,
-        'onetwo_check': onetwo_check,
+        'slash_check': slash_check,
         'two_check': two_check,
         'three_check': three_check,
         'desc_detail': desc_detail,
@@ -100,14 +100,14 @@ class Volley(Card):
     Choices:
     * You have to move to get the shot, placing you in danger of the GM's choice
     * You have to take what you can get - halve your attack power
-    * You have to take several shots - lose 1 EQUIP
+    * You have to take several shots - lose 1 PACK
   '''
   level_start = '0'
   levels = ['0', 'g1']
 
 class Parley(Card):
   attr = 'Int'
-  onetwo_check = '''
+  slash_check = '''
     They demand concrete assurance or exchange, right now.
   '''
   three_check = '''
@@ -128,7 +128,9 @@ class Defy_Danger(Card):
     You do it, but there's a new complication
     '''
   one_check = '''
-    Make progress, but stumble, hesitate, or flinch.
+    Make progress, but stumble, hesitate, flinch
+    |
+    or pay a small cost.
     '''
   three_check = '''
     Success
@@ -139,10 +141,10 @@ class Defy_Danger(Card):
     If you do it...
     * by powering through or enduring, flip Str
     * by getting out of the way or acting fast, flip Dex
-    * with quick wits or through mental fortitude, flip Int
+    * with quick wits or via mental fortitude, flip Int
     |
     |
-    On a ✗ / ✔, the GM may ask you a question, offer you a worse outcome, hard bargain, or ugly choice
+    On a ✅ / ✔✔, the GM may ask you a question, offer you a worse outcome, hard bargain, or ugly choice
   '''
 
 class Defend(Card):
@@ -197,7 +199,7 @@ class Discern(Card):
 
 class I_Know_This(Card):
   attr = 'Int'
-  onetwo_check = '''
+  slash_check = '''
     The GM tells you something interesting
     - it's on you to make it useful.
     '''

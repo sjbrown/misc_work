@@ -9,22 +9,27 @@ from collections import defaultdict
 
 sys.path.append('/usr/share/inkscape/extensions/')
 from simplestyle import parseStyle, parseColor
+from version import VERSION
 
 DEBUG = 0
 
-def export_png(svg, png, width, height):
-    cmd_fmt = 'inkscape --export-png=%s --export-width=%s --export-height=%s %s'
-    cmd = cmd_fmt % (png, width, height, svg)
+def run(cmd):
     if DEBUG:
         print cmd
     os.system(cmd)
+
+def export_png(svg, png, width, height):
+    cmd = 'sed -e "s/VERSION/%s/" %s > /tmp/content.svg' % (VERSION, svg)
+    run(cmd)
+
+    cmd_fmt = 'inkscape --export-png=%s --export-width=%s --export-height=%s %s'
+    cmd = cmd_fmt % (png, width, height, '/tmp/content.svg')
+    run(cmd)
 
 def export_pdf(svg, pdf):
     cmd_fmt = 'inkscape --export-pdf=%s %s'
     cmd = cmd_fmt % (pdf, svg)
-    if DEBUG:
-        print cmd
-    os.system(cmd)
+    run(cmd)
 
 def export_square_png(svg, png):
     return export_png(svg, png, 825, 825)
@@ -72,6 +77,7 @@ class DOM(object):
     def __init__(self, svg_file):
         fp = file(svg_file)
         c = fp.read()
+        c = c.replace('VERSION', VERSION)
         fp.close()
         self.dom = etree.fromstring(c)
         self.titles = [x for x in self.dom.getiterator()

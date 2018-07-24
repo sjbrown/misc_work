@@ -46,10 +46,12 @@ def filter_dom_elements(dom, card):
     card_spots = card.get('spots') or {}
     has_card_spots = any(card_spots[x] for x in card_spots)
     checks = [
-        x for x in [card.get('onetwo_check'), card.get('one_x'),
+        x for x in [card.get('slash_check'), card.get('one_check'),
                     card.get('two_check'), card.get('three_check')]
         if x not in (None, '')
     ]
+    print 'Checks: ', checks
+    print 'Has card spots: ', has_card_spots
     if has_card_spots:
         for key in dom.layers:
             if 'spot_' in key:
@@ -63,19 +65,19 @@ def filter_dom_elements(dom, card):
 
         if len(checks) == 0:
             dom.layer_hide('spot_3lines')
-            dom.layer_hide('spot_onetwo_check')
+            dom.layer_hide('spot_slash_check')
             dom.layer_hide('spot_two_check')
             dom.layer_hide('spot_three_check')
         elif len(checks) == 2:
             dom.layer_hide('spot_3lines')
-            if not card.get('onetwo_check'):
-                dom.layer_hide('spot_onetwo_check')
+            if not card.get('slash_check'):
+                dom.layer_hide('spot_slash_check')
             if not card.get('two_check'):
                 dom.layer_hide('spot_two_check')
             if not card.get('three_check'):
                 dom.layer_hide('spot_three_check')
         elif len(checks) == 3:
-            dom.layer_hide('spot_onetwo_check')
+            dom.layer_hide('spot_slash_check')
             dom.layer_hide('spot_two_check')
             dom.layer_hide('spot_three_check')
         else:
@@ -91,13 +93,15 @@ def filter_dom_elements(dom, card):
             if 'BR' in card.get('spots')[i]:
                 dom.layer_hide('spot_ex')
 
-    else:
+    else: # Not a 'spots' style card
         for key in dom.layers:
             if 'spot_' in key:
                 dom.layer_hide(key)
             elif 'std_' in key:
+                print 'Showing', key
                 dom.layer_show(key)
-            if not card.get('onetwo_check') and 'onetwo_check' in key:
+            if not card.get('slash_check') and 'slash_check' in key:
+                print 'hiding ot: ', key
                 dom.layer_hide(key)
             if not card.get('two_check') and 'two_check' in key:
                 dom.layer_hide(key)
@@ -188,14 +192,15 @@ def one_blank_3lines_front():
     dom = DOM('tall_card_front.svg')
 
     filter_dom_elements(dom, {})
-    dom.replace_text('words_one_x', '')
+    dom.replace_text('VERSION', VERSION)
+    dom.replace_text('words_one_check', '')
     dom.replace_text('words_two_check', '')
     dom.replace_text('words_three_check', '')
     dom.replace_text('desc_detail', '')
     dom.replace_h1('')
     for key in dom.layers:
         if (
-          'onetwo_check' in key
+          'slash_check' in key
           or
           'two_check' in key
           or
@@ -237,11 +242,11 @@ def make_card_dom(card):
         tag_text = ','.join(card['tags'])
         dom.replace_text('card_tags_text', tag_text)
 
-    if card.get('one_x'):
-        dom.replace_text('words_one_x', card['one_x'], ideal_num_chars=40)
-    if card.get('onetwo_check'):
-        dom.replace_text('words_left', card['onetwo_check'], ideal_num_chars=30)
-        dom.replace_text('spot_words_left', card['onetwo_check'], ideal_num_chars=30)
+    if card.get('one_check'):
+        dom.replace_text('words_one_check', card['one_check'], ideal_num_chars=40)
+    if card.get('slash_check'):
+        dom.replace_text('words_left', card['slash_check'], ideal_num_chars=30)
+        dom.replace_text('spot_words_left', card['slash_check'], ideal_num_chars=30)
     elif card.get('two_check'):
         dom.replace_text('words_left', card['two_check'], ideal_num_chars=30)
         dom.replace_text('spot_words_left', card['two_check'], ideal_num_chars=30)
@@ -254,7 +259,7 @@ def make_card_dom(card):
     dom.replace_text('spot_words_right', card['three_check'], ideal_num_chars=20)
     dom.replace_text('words_three_check', card['three_check'], ideal_num_chars=40)
 
-    if card.get('one_x') or card.get('onetwo_check') or card.get('two_check'):
+    if card.get('one_check') or card.get('slash_check') or card.get('two_check'):
         dom.replace_text('desc_detail', card['desc_detail'],
                          ideal_num_chars=200)
     else:

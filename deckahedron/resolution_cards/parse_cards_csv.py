@@ -128,7 +128,7 @@ def parse_checks(d2):
     two_check = parse_text(d2.get('r1') or d2.get('✔'))
     three_check = parse_text(d2.get('r2') or d2.get('✔✔'))
     if two_check == one_x:
-        d2['onetwo_check'] = two_check
+        d2['slash_check'] = two_check
     else:
         d2['two_check'] = two_check
         d2['one_x'] = one_x

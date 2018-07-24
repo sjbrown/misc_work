@@ -751,7 +751,7 @@
          sodipodi:role="line"
          id="tspan5766"
          x="216.41949"
-         y="256.04059">v0.85</tspan></text>
+         y="256.04059">VERSION</tspan></text>
 </g><g
      inkscape:groupmode="layer"
      id="layer45"
@@ -2364,7 +2364,7 @@
 </g><g
      inkscape:groupmode="layer"
      id="layer27"
-     inkscape:label="std_onetwo_check_2lines"
+     inkscape:label="std_slash_check_2lines"
      style="display:none"><g
        id="g4835"
        transform="translate(-29.740028,-51.005568)"><text
@@ -2427,7 +2427,7 @@
 </g></g><g
      inkscape:groupmode="layer"
      id="layer28"
-     inkscape:label="spot_onetwo_check"
+     inkscape:label="spot_slash_check"
      style="display:none"><g
        style="display:inline"
        transform="translate(7.0212639,84.697508)"

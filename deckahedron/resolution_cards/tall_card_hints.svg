@@ -421,7 +421,7 @@
          sodipodi:role="line"
          id="tspan5766"
          x="216.41949"
-         y="256.04059">v0.85</tspan></text>
+         y="256.04059">VERSION</tspan></text>
 </g><g
      inkscape:groupmode="layer"
      id="layer3"
@@ -531,7 +531,7 @@
          sodipodi:role="line"
          x="18.760872"
          y="188.38797"
-         id="tspan4186">        SPEED / EQUIP / WEALTH</tspan><tspan
+         id="tspan4186">        SPEED / WEALTH / PACK</tspan><tspan
          sodipodi:role="line"
          x="18.760872"
          y="196.62093"
