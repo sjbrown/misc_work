@@ -576,6 +576,8 @@ RPGs, contemporary board games, and mad libs.
    * Resource management / worker placement
      * (the S/W/P mechanism)
      * eg, Agricola, Carcassonne
+   * Physical components that feel toy-like
+     * cards and tokens
  * Mad Libs
    * blanks as prompts
 
