@@ -235,15 +235,24 @@ Begin narrating the set-up.
 > 
 > But your excitement soon turned to horror and despair. On the road, your
 > troupe was overrun by masked horsemen. They attacked fiercely and without
-> mercy. All the women of the caravan were captured, and by the cries and
-> what you glimpsed through your stained blindfold, all the men were slain.
-> 
-> You remember one phrase uttered by the marauders,
+> mercy. Your caravan guards fought bravely, but were outnumbered. You and
+> your companion, Gwendolyn, were captured.
+>
+> [Ask the player]
+> What was Gwendolyn's role in the troupe?
+>
+> In the chaos, you remember one phrase uttered by the marauders,
 > "Deliver them to Sarrukan."
 > 
 > After days of travel shackled in a box, you found yourself imprisoned in
 > a small, dark, musty cellar room. Windowless, the only illumination is
 > whatever lamplight filters through the cracks of the door.
+>
+> You could hear sounds from the hallway though, and on the second day, you
+> heard Gwendolyn being taken away.
+>
+> [Describe some overheard dialogue during the removal of Gwendolyn,
+> referencing her role in the troupe if possible]
 > 
 > [Dramatic pause]
 > 
@@ -252,8 +261,8 @@ Begin narrating the set-up.
 > You're not too bright, but your boss, Gandlin, has taken you under his
 > wing and taught you street wisdom. Merchants employ him to recover stolen
 > valuables or they pay for simple retribution against the pilfering
-> scoundrels. You provide the muscle. Gandlin sniffs them out, you beat
-> them up, and each shares in the reward.
+> scoundrels. You provide the muscle. Gandlin provides the brains.
+> He sniffs them out, you beat 'em up, and each of you shares in the reward.
 > 
 > That's how it had been. Gandlin has now gone missing.
 > 
@@ -261,9 +270,16 @@ Begin narrating the set-up.
 > private homes. There was some pattern to it -- artifacts or books taken,
 > but no smashed windows or doors. The mystery of it had Gandlin
 > obsessed, working sometimes until dawn.
+>
+> [Ask the player]
+> What was Gandlin's favourite breakfast food?
+>
+> One dawn it was Gandlin that was taken.
 > 
-> Then one dawn it was he that was taken, with a trail of blood to
-> tell of it. Following the path, you came to the locked gate to the yard
+> [Describe the scene of Gandlin's disappearance, using the favourite
+> breakfast food to paint the picture]
+> 
+> Following the trail of clues, you came to the locked gate to the yard
 > behind Sarrukan's estate. Sarrukan was a powerful player in _ 's (city name)
 > noble circles, but not much was known of him.
 > 
@@ -381,6 +397,7 @@ Deckahedron World creates plot questions for players to answer:
  * Will the brother & sister who haven't seen each other in a
    decade discover each other's identities?
  * Will the brother & sister escape Sarukkan's imprisonment?
+ * Will the brother & sister rescue Gandlin or Gwendolyn?
  * (3rd player variant) Will the reluctant guard choose to obey an
    evil master, or rebel?
 
