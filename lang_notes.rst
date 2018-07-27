@@ -821,6 +821,32 @@ Could we get js-style filtering?
 
 ```
 
+Could we get js-style mapping?
+
+```
+
+    foo = [1,2,3,4,5]
+
+    decades = foo.[⦗x⦘ ⇥  return x*10 ⇤]
+
+    decades = foo.[⦗x⦘
+        return x*10
+    ]
+
+    decades = foo.[
+        ⦗x⦘
+            return x*10
+    ]
+
+    # We need to really be smart about returning None
+
+    # Which is better?
+    decades = [x*10 for x in foo]
+    decades = foo.[⦗x⦘ ⇥  return x*10 ⇤]
+    # Explicitness, compactness, one is an actual function declaration & call
+
+```
+
 If <name>.<name> is a convenient foot-gun, is there a way to *explicitly*
 say "give me the instance attribute named bar"?
 what about "give me the class attribute named bar"?
