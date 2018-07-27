@@ -551,3 +551,31 @@ going to your body.  A couple examples:
 
  * The RPG that's ready when you are
  * The RPG that's ready right now
+
+----
+
+Deckahedron World mixes elements from 3 different families of games,
+RPGs, contemporary board games, and mad libs.
+
+ * RPGs
+   * Asymmetrical jobs - GM / Players
+   * Improvisational
+     * storytelling / worldbuilding / dialogue / characterization
+   * Freedom of choice inside an imagined fictional world
+   * Contributing narration or characterization ("playing a role") activates game mechanisms or is mechanically rewarded
+ * Contemporary board games
+   * Deckbuilding (aka deck management)
+     * (the deckahedron)
+     * eg, Dominion, A Few Acres of Snow, Legendary
+   * Cards that modify and interact with the base rules
+     * (the move cards)
+     * eg, Dominion, Magic: the Gathering, Yomi
+   * Currency engine management
+     * (the green token economy)
+     * eg, any economic Euro game
+   * Resource management / worker placement
+     * (the S/W/P mechanism)
+     * eg, Agricola, Carcassonne
+ * Mad Libs
+   * blanks as prompts
+
