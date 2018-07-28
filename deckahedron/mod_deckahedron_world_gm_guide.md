@@ -243,19 +243,23 @@ Begin narrating the set-up.
 >
 > In the chaos, you remember one phrase uttered by the marauders,
 > "Deliver them to Sarrukan."
-> 
-> After days of travel shackled in a box, you found yourself imprisoned in
-> a small, dark, musty cellar room. Windowless, the only illumination is
-> whatever lamplight filters through the cracks of the door.
 >
-> You could hear sounds from the hallway though, and on the second day, you
-> heard Gwendolyn being taken away.
+> You endured days of travel shackled in a box, Gwendolyn tried to
+> comfort you both by singing a song from her past,
 >
-> [Describe some overheard dialogue during the removal of Gwendolyn,
-> referencing her role in the troupe if possible]
-> 
+> [Name the song, or do an impression of Gwendolyn singing a few bars.
+>  try to make the song have something to do with Gwendolyn's role in
+>  the troupe]
+>
+> Finally, you found yourself imprisoned in a small, dark, musty cellar
+> room. Windowless, the only illumination is whatever lamplight filters
+> through the cracks of the door.
+>
+> You could hear sounds from the hallway though, and on the second day,
+> you heard Gwendolyn being removed from her cell.
+>
 > [Dramatic pause]
-> 
+>
 > [Addressing him]
 > _ (male protagonist) you are a thief-catcher.
 > You're not too bright, but your boss, Gandlin, has taken you under his
