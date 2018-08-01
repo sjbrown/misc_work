@@ -646,7 +646,7 @@ using any relevant move cards and item cards, otherwise:
  3. Place an Exhaustion token on your *Exhaustion pile*
  4. The other revealed cards go into your *discard pile*
 
-![Exhaustion token](images/component_exhaustion.png){ width=2.5inch }
+![Exhaustion token](images/component_exhaustion_heroic.png){ width=2.5inch }
 
 (So, if you were instructed to lose 3 Stamina points, you add 3 cards
 with Stamina symbols onto your Exhaustion pile)
@@ -778,10 +778,11 @@ has a ✔✔✔ symbol on every edge and a circular green symbol in the middle.
 
 If you *resolve a flip* with the Critical Success card, you can do two things:
 
- * Spend green tokens 1-for-1 to go up levels in the move that was just
-   resolved
- * Use the Critical Flip move to make another move, right now, and get an
-   advantage card on that move
+ * Say how your character's practice has finally paid off, or how they had
+   an insight or epiphany about the move they just accomplished. Spend green
+   tokens 1-for-1 to go up levels in the move that was just resolved.
+ * Spend 1 green token to make another move, right now, and get an
+   advantage card on that move.
 
 If you choose to Critical Flip, the spotlight stays on you for a little bit
 longer while you make your bonus move.
