@@ -199,22 +199,23 @@ def make_wound_deck():
 
         export_square_png(svg_filename, png_filename)
 
-def make_redgreen_deck():
+def make_green_deck():
     # Create the svg file and export a PNG
     svg_filename = 'greencard_back.svg'
-    png_filename = '/tmp/cards/redgreen/greencard_back.png'
+    png_filename = '/tmp/cards/green/back.png'
     export_square_png(svg_filename, png_filename)
 
     svg_filename = 'greencard_front.svg'
-    png_filename = '/tmp/cards/redgreen/greencard_front.png'
+    png_filename = '/tmp/cards/green/greencard_front.png'
     export_square_png(svg_filename, png_filename)
 
+def make_red_deck():
     svg_filename = 'redcard_front.svg'
-    png_filename = '/tmp/cards/redgreen/redcard_front.png'
+    png_filename = '/tmp/cards/red/redcard_front.png'
     export_square_png(svg_filename, png_filename)
 
     svg_filename = 'redcard_back.svg'
-    png_filename = '/tmp/cards/redgreen/redcard_back.png'
+    png_filename = '/tmp/cards/red/back.png'
     export_square_png(svg_filename, png_filename)
 
 
@@ -223,9 +224,12 @@ if __name__ == '__main__':
         os.makedirs('/tmp/cards')
     if not os.path.exists('/tmp/cards/blessing'):
         os.makedirs('/tmp/cards/blessing')
-    if not os.path.exists('/tmp/cards/redgreen'):
-        os.makedirs('/tmp/cards/redgreen')
-    make_redgreen_deck()
+    if not os.path.exists('/tmp/cards/red'):
+        os.makedirs('/tmp/cards/red')
+    if not os.path.exists('/tmp/cards/green'):
+        os.makedirs('/tmp/cards/green')
+    make_green_deck()
+    make_red_deck()
     make_wound_deck()
     make_deck(1)
     make_deck(2)

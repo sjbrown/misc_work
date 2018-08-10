@@ -3,8 +3,6 @@
 import os
 import requests
 
-#private_key = os.environ.get('THEGAMECRAFTER_PRIVATE_KEY')
-
 base_url="https://www.thegamecrafter.com/api"
 
 session = None
@@ -12,34 +10,24 @@ user = None
 game = None
 
 class User(dict):
-    pass
+    def __init__(self, udict):
+        super(User, self).__init__(udict)
+        self.id = udict['id']
+        self.designer_id = user_designers(self.id)[0]['id']
+        self.games = user_games(self.id)
 
 class Game(dict):
-    pass
+    def __init__(self, gdict, name):
+        super(Game, self).__init__(gdict)
+        self.id = gdict['id']
+        self.folder = new_folder(name)
 
-def login():
-    global session, user
-    params = {
-        'api_key_id': os.environ.get('THEGAMECRAFTER_PUBLIC_KEY'),
-        'username' : os.environ.get('THEGAMECRAFTER_USER'),
-        'password': os.environ.get('THEGAMECRAFTER_PASSWORD'),
-    }
-    response = requests.post(base_url + "/session", params=params)
-    print 'LOGIN RESPONSE', response.json()
-    if response.status_code == 200:
-        session = response.json()['result']
-    else:
-        raise Exception('Could not log in. Check your environment variables')
+    def make_square_deck(self, filepath):
+        asset = self['name'] + 'sqdk'
 
-    response = get('/user/' + session['user_id'])
-    print 'USER RESPONSE', response.json()
-    if response.status_code == 200:
-        user = User(response.json()['result'])
-        user.id = user['id']
-        user_designers()
-        user_games()
-    else:
-        raise Exception('Could not get user info.')
+        self.sqdk_folder = new_folder(asset, self.folder['id'])
+        file_result = new_file(filepath, self.sqdk_folder['id'])
+        new_square_deck(asset, self.id, back_id=file_result['id'])
 
 def post(endpoint, files=None, **kwargs):
     if session is None:
@@ -73,27 +61,45 @@ def get(endpoint, **kwargs):
     params = kwargs
     params['session_id'] = session['id']
     print 'GET', url, params.keys()
-    return requests.get(url, params=params)
+    response = requests.get(url, params=params)
+    if not str(response.status_code).startswith('2'):
+        print 'FAIL', response
+        raise Exception('Request failed')
+    return response.json()['result']
 
-def user_games():
-    result = get('user/%s/games' % user['id']).json()['result']
+
+def login():
+    global session, user
+    params = {
+        'api_key_id': os.environ.get('THEGAMECRAFTER_PUBLIC_KEY'),
+        'username' : os.environ.get('THEGAMECRAFTER_USER'),
+        'password': os.environ.get('THEGAMECRAFTER_PASSWORD'),
+    }
+    response = requests.post(base_url + "/session", params=params)
+    print 'LOGIN RESPONSE', response.json()
+    if response.status_code == 200:
+        session = response.json()['result']
+    else:
+        raise Exception('Could not log in. Check your environment variables')
+
+    result = get('/user/' + session['user_id'])
+    print 'USER result', result
+    user = User(result)
+
+def user_games(user_id):
+    result = get('user/%s/games' % user_id)
     if result['paging']['total_pages'] > 1:
         raise NotImplemented('Cannot handle pages yet')
-    user.games = result['items']
     return result['items']
 
-def user_designers():
-    result = get('user/%s/designers' % user['id']).json()['result']
+def user_designers(user_id):
+    result = get('user/%s/designers' % user_id)
 
     if result['paging']['total_pages'] > 1:
         raise NotImplemented('Cannot handle pages yet')
-
-    user.designers = result['items']
-
-    if len(user.designers) != 1:
+    if len(result['items']) != 1:
         raise NotImplemented('Cannot handle 0 or >1 designers yet')
 
-    user.designer_id = result['items'][0]['id']
     return result['items']
 
 def new_game(name):
@@ -103,14 +109,13 @@ def new_game(name):
         designer_id=user.designer_id,
         description='Automatically created (%s)' % name,
     )
-    game = Game(res)
-    game.id = game['id']
-    game.folder = new_folder(name)
+    game = Game(res, name)
 
-def new_square_deck(name):
+def new_square_deck(name, game_id, back_id=None):
     res = post('smallsquaredeck',
         name=name,
-        game_id=game.id
+        game_id=game_id,
+        back_id=back_id,
     )
     return res
 
@@ -125,6 +130,8 @@ def new_folder(asset_name, parent_id=None):
     return res
 
 def new_file(filepath, folder_id):
+    if not os.path.isfile(filepath):
+        raise Exception('Not a file: %s' % filepath)
     fp = file(filepath)
     filename = os.path.basename(filepath)
     res = post('file', files={'file':fp}, name=filename, folder_id=folder_id)
