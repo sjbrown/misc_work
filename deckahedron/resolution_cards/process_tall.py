@@ -98,10 +98,10 @@ def filter_dom_elements(dom, card):
             if 'spot_' in key:
                 dom.layer_hide(key)
             elif 'std_' in key:
-                print 'Showing', key
+                #print 'Showing', key
                 dom.layer_show(key)
             if not card.get('slash_check') and 'slash_check' in key:
-                print 'hiding ot: ', key
+                #print 'hiding ot: ', key
                 dom.layer_hide(key)
             if not card.get('two_check') and 'two_check' in key:
                 dom.layer_hide(key)

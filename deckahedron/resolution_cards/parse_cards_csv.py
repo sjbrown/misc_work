@@ -116,22 +116,22 @@ def parse_desc(d2):
 
 def parse_text(text):
     if not text:
-        return text
+        return ''
     text = text.strip()
     parts = text.split('|')
     text = '\n'.join([x.strip() for x in parts])
     return text
 
 def parse_checks(d2):
-    one_x = parse_text(d2.get('r-2') or d2.get('✗✗'))
-    one_x = parse_text(d2.get('r-1') or d2.get('✗'))
-    two_check = parse_text(d2.get('r1') or d2.get('✔'))
-    three_check = parse_text(d2.get('r2') or d2.get('✔✔'))
-    if two_check == one_x:
+    one_x = parse_text(d2.get('r-2') or d2.get('✗'))
+    one_check = parse_text(d2.get('r-1') or d2.get('✅'))
+    two_check = parse_text(d2.get('r1') or d2.get('✔✔'))
+    three_check = parse_text(d2.get('r2') or d2.get('✔✔✔'))
+    if two_check == one_check:
         d2['slash_check'] = two_check
     else:
         d2['two_check'] = two_check
-        d2['one_x'] = one_x
+        d2['one_check'] = one_check
     d2['one_x'] = one_x
     d2['three_check'] = three_check
 

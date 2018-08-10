@@ -230,17 +230,21 @@ class Rest(Card):
     * Step 2: Count the Harm and Wound tokens on your Exhaustion pile
     * Step 3: Keep that many cards in your Exhaustion pile, put the rest into your discard pile
     * Step 4: Return one Harm token to the supply
+    * Step 5: Say who you blame for your injuries
     |
     |
-    Magic items left idle regain their charges (remove all white-side red cards)
+    Magic items left idle regain their charges
+    |
+    (remove all white-side red cards)
     |
     |
-    Gird all your armour (remove Harm and Wound tokens from your armour)
+    Gird all your armour
+    |
+    (remove Harm and Wound tokens from it)
     |
     |
-    Time devoted to Resting cannot also be devoted to learning skills,
-    studying with a teacher, or any other action that takes mental or physical
-    effort.
+    Learning skills, studying, or any action that takes
+    mental or physical effort is not available when Resting.
     '''
 
 class Seek_Help(Card):
@@ -254,6 +258,7 @@ class Seek_Help(Card):
     * Step 4: Count the Wound tokens on your Exhaustion pile
     * Step 5: Keep that many cards in your Exhaustion pile, put the rest into your discard pile
     * Step 6: Return 1 Wound token and 1 Wound card to the supply
+    * Step 7: Say who you are closer to forgiving
     |
     |
     Idle magic items regain their charges. Gird all your armour.
