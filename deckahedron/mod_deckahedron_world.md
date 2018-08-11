@@ -1104,6 +1104,11 @@ The *x* can be either:
 Then the GM and player come up with a name for this kind of shield together,
 using the same rules as the Armour name-creation above.
 
+The fictional description of the "shield" has mechanical consequences. For
+example, the edge of steel shield could reasonably be used to attack a foe,
+so Mix It Up would do 1d4 attack power. But a character with only leather
+bracers their wrists would be "unarmed", doing just 1d2 attack power.
+
 ### Magic Items
 
 Deckahedron World supports stories involving magic. To avoid presuming too
