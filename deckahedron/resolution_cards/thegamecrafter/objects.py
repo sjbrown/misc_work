@@ -21,6 +21,7 @@ class Game(dict):
         super(Game, self).__init__(gdict)
         self.id = gdict['id']
         self.folder = core.new_folder(user, name)
+        self.parts = []
 
     def make_square_deck(self, dirpath):
         asset = self['name'] + 'sqdk'
@@ -29,13 +30,15 @@ class Game(dict):
 
         self.sqdk_folder = core.new_folder(self.user, asset, self.folder['id'])
         file_result = core.new_file(back_filepath, self.sqdk_folder['id'])
-        sqdk = new_square_deck(asset, self.id, back_file_id=file_result['id'])
+        sqdk = new_deck(
+            'smallsquaredeck', asset, self.id, back_file_id=file_result['id']
+        )
 
         print 'Small Square Deck'
         print sqdk
 
-        file_list = os.listdir(dirpath)
-        file_list = [dirpath + '/' + x for x in file_list
+        file_list = [dirpath + '/' + x
+                     for x in os.listdir(dirpath)
                      if (x.startswith('deck') and x.endswith('.png'))]
         for filepath in file_list:
             file_result = core.new_file(filepath, self.sqdk_folder['id'])
@@ -44,6 +47,66 @@ class Game(dict):
                 os.path.basename(filepath),
                 deck_id=sqdk['id'],
                 file_id=file_result['id']
+            )
+
+    def make_poker_deck(self, dirpath):
+        asset = '%s-pdeck-%s' % (self['name'], len(self.parts))
+
+        def face_card_test(filename):
+            return filename.startswith('face') and filename.endswith('.png')
+
+        return self.make_deck(
+            'pokerdeck', 'pokercard', asset, dirpath, face_card_test
+        )
+
+    def make_deck(self, deck_kind, card_kind, asset, dirpath, face_card_test):
+        folder = core.new_folder(self.user, asset, self.folder['id'])
+
+        back_filepath = dirpath + '/back.png'
+        file_result = core.new_file(back_filepath, folder['id'])
+
+        deck = new_deck(
+            deck_kind, asset, self.id, back_file_id=file_result['id']
+        )
+
+        print 'Deck'
+        print deck
+
+        self.parts.append(deck)
+
+        file_list = [dirpath + '/' + x
+                     for x in os.listdir(dirpath)
+                     if face_card_test(x)]
+        for filepath in file_list:
+            file_result = core.new_file(filepath, folder['id'])
+            card = new_card(
+                card_kind,
+                os.path.basename(filepath),
+                deck_id=deck['id'],
+                file_id=file_result['id']
+            )
+
+    def make_booklet(self, dirpath):
+        asset = '%s-booklet-%s' % (self['name'], len(self.parts))
+        folder = core.new_folder(self.user, asset, self.folder['id'])
+
+        booklet = new_booklet('smallbooklet', asset, self.id)
+
+        print 'Booklet'
+        print booklet
+
+        self.parts.append(booklet)
+
+        file_list = [dirpath + '/' + x
+                     for x in os.listdir(dirpath)
+                     if x.endswith('.png')]
+        for filepath in file_list:
+            file_result = core.new_file(filepath, folder['id'])
+            card = new_booklet_page(
+                'smallbookletpage',
+                os.path.basename(filepath),
+                booklet_id=booklet['id'],
+                image_id=file_result['id']
             )
 
 
@@ -63,13 +126,15 @@ def user_designers(user_id):
 
     return result['items']
 
-def new_square_deck(name, game_id, back_file_id=None):
-    res = core.post('smallsquaredeck',
+def new_deck(kind, name, game_id, back_file_id=None):
+    res = core.post(
+        kind,
         name=name,
         game_id=game_id,
         back_id=back_file_id,
     )
     return res
+
 
 def new_card(kind, name, deck_id, file_id=None):
     res = core.post(
@@ -77,7 +142,24 @@ def new_card(kind, name, deck_id, file_id=None):
         name=name,
         deck_id=deck_id,
         face_id=file_id,
-        has_proofed_face=True,
+        has_proofed_face=1,
     )
     return res
 
+def new_booklet(kind, name, game_id):
+    res = core.post(
+        kind,
+        name=name,
+        game_id=game_id,
+    )
+    return res
+
+def new_booklet_page(kind, name, booklet_id, image_id):
+    res = core.post(
+        kind,
+        name=name,
+        booklet_id=booklet_id,
+        image_id=image_id,
+        has_proofed_image=1,
+    )
+    return res

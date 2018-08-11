@@ -23,6 +23,7 @@ def post(endpoint, files=None, **kwargs):
 
     if not str(response.status_code).startswith('2'):
         print 'FAIL', response
+        print 'FAIL', response.json()
         raise Exception('Request failed')
 
     return response.json()['result']
@@ -42,6 +43,7 @@ def get(endpoint, **kwargs):
     response = requests.get(url, params=params)
     if not str(response.status_code).startswith('2'):
         print 'FAIL', response
+        print 'FAIL', response.json()
         raise Exception('Request failed')
     return response.json()['result']
 
