@@ -62,14 +62,14 @@ def login():
 
     return get('/user/' + session['user_id'])
 
-def new_game(name):
+def new_game(user, name):
     return post('game',
         name=name,
         designer_id=user.designer_id,
         description='Automatically created (%s)' % name,
     )
 
-def new_folder(asset_name, parent_id=None):
+def new_folder(user, asset_name, parent_id=None):
     if parent_id is None:
         parent_id = user['root_folder_id']
     return post('folder',
