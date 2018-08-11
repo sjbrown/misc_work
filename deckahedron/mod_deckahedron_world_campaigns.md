@@ -428,8 +428,9 @@ Go around to each player and ask them
 Make a note of all the answers.
 
 Next, ask any players still using the "Lucky" Stamina system if they're ready
-to switch over to the "Heroic" Stamina system. If they say yes, make a note
-of it.
+to switch over to the "Heroic" Stamina system. This is an opportunity for a
+player to gain more control in exchange for higher difficulty. If they say yes,
+make a note of it.
 
 If each character answered "stay", "sacrifice", or "abandon" to any of the
 questions above, or if any player switched from "Lucky" to "Heroic", give

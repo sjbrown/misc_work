@@ -353,12 +353,12 @@ nibbling an acorn.
 
 You might respond by saying,
 
-"Kresk wants that acorn! I Hack and Slash the squirrel!"
+"Kresk wants that acorn! I Mix It Up with the squirrel!"
 
 It would be bizarre, but completely within the rules for the GM to write
 up some stats for the squirrel (1 Stamina, 1 attack power), and begin a
 melee combat between Kresk and the squirrel, and ask you to flip Strength
-to resolve the Hack and Slash move.
+to resolve the Mix It Up move.
 
 But the GM will more likely interpret your action, as described, as having
 a *certain* outcome. Perhaps the GM will respond:
@@ -373,7 +373,7 @@ a *certain* outcome. Perhaps the GM will respond:
 ### Pushing buttons or staying in character
 
 The GM doesn't always have to invoke a move and call for a flip.  But in
-this example, the player literally names a move ("I Hack and Slash...").
+this example, the player literally names a move ("I Mix It Up...").
 That's a strong signal to the GM, and the GM is likely to follow strong
 signals.
 
@@ -1499,7 +1499,7 @@ consequences (if any) their character suffers. This includes loss of
 resources (like Stamina / Harm / Wounds) as well as narrative consequences.
 
 Optionally, the attacker may also describe negative consequences for their
-own character, mimicking the way the Hack and Slash move causes both the
+own character, mimicking the way the Mix It Up move causes both the
 attacker and defender to suffer attack power.
 
 The GM can still collaborate with the players to describe narrative outcomes

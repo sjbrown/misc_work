@@ -57,7 +57,7 @@ def make_card(C):
     return card
 
 
-class Hack_and_Slash(Card):
+class Mix_It_Up(Card):
   attr = 'Str'
   one_check = '''
     Deal 1 attack power and the foe attacks you

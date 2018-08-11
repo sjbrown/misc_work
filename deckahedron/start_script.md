@@ -41,7 +41,7 @@
  * Let the PCs have some dialogue, but push quickly to the approaching
    danger of the guards.
  * Get the guards into the room for a quick fight.
- * Try to get the PCs to attempt *Hack & Slash* or *Volley*
+ * Try to get the PCs to attempt *Mix It Up* or *Volley*
  * As the PCs gain the upper hand, show signs of another threat (maybe
    the wizard himself approaches - it's ok to tell the story of what's
    happening *off-camera*), and then cut it off with a cliffhanger.

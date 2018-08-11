@@ -187,8 +187,22 @@ Give each player a Move Booklet
 > The move you'll be triggering the most will probably be Defy Danger, that's
 > why it's on the first page. The moves in the back of the booklet are
 > "downtime" moves which we won't need until much later.
+>
+> Let's go through an example of flipping Defy Danger. The move reads from
+> top to bottom. First we would establish in the fiction how your character
+> is defying danger, are they using their Str, Dex, or Int? Once that's
+> decided, we would look at your character sheet to see what value that
+> attribute is.  Let's say they were diving to the ground to avod a spear
+> that was thrown at them. That's Dex. Let's say their Dex was rank 3, or
+> "Crescent". So that's the side of the card we're going to look at.
+> Flip your top card.  What result do you see on the "Crescent" side?
 
 ## Sarukkan's Chamber
+
+You are going to be running a short tutorial game for 2-3 players. One will
+control a female protagonist character, and one will control a male
+protagonist.  If there is a third player, they will control a prisoner that
+the other two characters discover early in the action.
 
 First, you will need names for the characters and setting of Sarukkan's
 Chamber. Ask the players these 3 questions. This is an improvisation exercise.
@@ -424,7 +438,7 @@ It should also help teach the rules of Deckahedron World.
    to explain the Critical Flip move
  * Ideally there will be a combat scene.
    (see the [Combat guidelines](#creating-a-combat-encounter))
-   Try to get the PCs to attempt *Hack & Slash* or *Volley*
+   Try to get the PCs to attempt *Mix It Up* or *Volley*
  * The brother & sister may trigger *Discern* and *I Know This* moves
    when they try to reveal each others' identities
  * The *Discern* move often comes up when having a look around Sarukkan's
@@ -523,9 +537,13 @@ Here are 5 gems to come back to whenever you don't know what to say next.
 
  * Portray a fantastic world
  * Fill the characters' lives with adventure
+ * Move the spotlight
  * Ask the players
- * Refer to your moves for ideas
+ * Make GM Moves (or refer to them for ideas)
  * Drive towards your next point in the *Good Bank*
+
+
+## Portray a Fantastic World
 
 Firstly, **portray a fantastic world**. Deckahedron World is about
 characters who have decided to take up an adventure in the hopes of some
@@ -536,6 +554,8 @@ Maybe even the whole world would fall into chaos or destruction -- it might
 still even with them.  It's up to you to portray the fantastic elements of
 that world. Show the players the wonders of the world they're in and
 encourage them to react to it.
+
+## Fill the Characters' Lives With Adventure
 
 **Filling the characters' lives with adventure** means working with the
 players to create a world that's engaging and dynamic. Adventurers are
@@ -548,45 +568,7 @@ creatures big and small pursuing their own goals. As the players come into
 conflict with that setting and its denizens, action is inevitable. You’ll
 honestly portray the repercussions of that action.
 
-Deckahedron World is a conversation. The GM is the main storyteller, but not
-the only storyteller. **Ask the players questions** and use the answers.
-Embrace your curiosity.
-
-The easiest question to use is "What do you do?". Whenever you make a GM move,
-end with "What do you do?". You don't even have to ask the person you made
-the move against. Take that chance to shift focus elsewhere.
-
-The questions that gave the characters flesh during character creation are
-examples of asking questions and using the answers. You can always revisit
-and pull more buckets up from that well. If a character is religious, ask
-them what their gods would have to say. If there's a halfling in the party,
-ask how hungry the current scene makes them.
-
-The GM may ask the players to describe outcomes. For example, if a player's
-character is in a fight with a goblin and the player rolls *attack power*
-of 10, the GM might ask the player to "Describe how your character kills
-the goblin". This gives the player license to get flowery and really see
-their character live up to the promise of being powerful in this fantasy
-world.
-
-Other questions to ask are [improv game questions](#appendix-1).
-These are questions that have nothing to do with the current scene, but
-prompt everyone, especially you, to *think laterally*. These can be great
-to inspire you:
-
- * If you just need a name for an NPC or location
- * If you want to insert a danger into a scene
- * If you want an NPC to respond, but don't have dialogue, voice, or
-   personality ready
- * If you need an idea for a puzzle or a monster
-
-`TODO example with improv question and Sarukkan's chamber`
-
-`TODO`
-
-### Move the spotlight
-
-`TODO`
+## Move the spotlight
 
 The general attention of people sitting at the table is called "the
 spotlight". People tend to talk one-at-a-time, while all others wait in
@@ -611,7 +593,7 @@ Allow the players to naturally move the spotlight among themselves.
 
 As the GM, you may take a turn in the spotlight:
 
- * when someone flips ✗✗ (or sometimes just ✗)
+ * when someone flips ✗ (or sometimes just ✅)
  * as specifically instructed by a move a player is executing
  * when everyone looks to you to see what happens
  * when the players give you a golden opportunity
@@ -619,12 +601,92 @@ As the GM, you may take a turn in the spotlight:
 Usually your turn in the spotlight will be spent making a **GM move**.
 But it may also just be general narration.
 
+## Ask the Players Questions
+
+Deckahedron World is a conversation. The GM is the main storyteller, but not
+the only storyteller. **Ask the players questions** and use the answers.
+Embrace your curiosity.
+
+The easiest question to use is "What do you do?". Whenever you make a GM move,
+end with "What do you do?". You don't even have to ask the person you made
+the move against. Take that chance to shift focus elsewhere.
+
+The questions that gave the characters flesh during character creation are
+examples of asking questions and using the answers. You can always revisit
+and pull more buckets up from that well. If a character is religious, ask
+them what their gods would have to say. If there's a halfling in the party,
+ask how hungry the current scene makes them.
+
+The GM may ask the players to describe outcomes. For example, if a player's
+character is in a fight with a goblin and the player rolls *attack power*
+of 10, the GM might ask the player to "Describe how your character kills
+the goblin". This gives the player license to get flowery and really see
+their character live up to the promise of being powerful in this fantasy
+world.
+
+When you're stumped for what happens next, consider where you are in the
+[Campaign](mod_deckahedron_world_campaigns.md), and ask a leading question.
+Use their answer to introduce the next challenge.
+
+|-----------------|-----------------------------
+| Home / You      | What's the one rule you're not supposed to break?
+| Need            | What do you wish people here could see the beauty of?
+| Go              | Who do you hope won't try to get in your way?
+| Search          | What strange custom do they practice here?
+| Find            | *this stage has it's own set of questions*
+| Take / Pay      | A great trembling is felt. What's that sound? / A figure approaches. You thought they were dead, who is it? (engage their fear / grief)
+| Return          | *this stage has it's own set of questions*
+| Change          | Which old friend or adversary is the first to greet you?
+
+Other questions to ask are [improv game questions](#appendix-1).
+These are questions that have nothing to do with the current scene, but
+prompt everyone, especially you, to *think laterally*. These can be great
+to inspire you:
+
+ * If you just need a name for an NPC or location
+ * If you want to insert a danger into a scene
+ * If you want an NPC to respond, but don't have dialogue, voice, or
+   personality ready
+ * If you need an idea for a puzzle or a monster
+
+### Helping Unsure Players
+
+Sometimes when you ask a player a question, they will simply respond
+"I don't know". This can be a signal that the player isn't having fun, and
+might need some direction.  It can be difficult to just make stuff up about
+a character that doesn't really exist moving around in a purely
+imagined world.
+
+Think about how this player has signalled what they've found fun. Do they
+seem to enjoy the fictional parts of the game, or the mechanical parts?
+
+If they're enjoying the fiction, ask them what would happen to this character
+if this was a movie, or use the titles from the Touchstone List. Ask them if
+they're ok with their character being put in jeopardy, or if that makes them
+uncomfortable. Ask them what is the most immediate fictional goal their
+character would have.
+
+If they're enjoying the mechanical game, ask them what resource they're
+after: green tokens? wealth? item cards? move cards? Then ask what they think
+the shortest path is to get the thing they're after. Help them see the
+necessary steps to get what they want.
+
+In either case, you're nudging them towards making a decision to accomplish
+a goal. They might need to accept that getting what they want means taking
+a risk.
+
+Use this as an opportunity to take feedback as well. Have you made the
+situation *clear*? It's ok to have a conversation about the conversation.
+
+
 ## Make GM Moves
 
 Often the players will move the story forward by having their characters
 talk and do actions that are certain (you don't call for flips unless actions
 or consequences are uncertain), so there may be long stretches where a GM
 doesn't need to jump in.
+
+But when your turn comes, here are the options available to shake things up:
 
  * Use a monster, danger, or location move
  * Reveal an unwelcome truth
@@ -638,9 +700,6 @@ doesn't need to jump in.
  * Put someone in a spot
  * Offer an opportunity, with or without cost
  * Tell them the requirements or consequences and ask
-
-If a player resolves a flip with the *critical failure* card, the GM may use
-1 point from the *Bad Bank* to make an additional move.
 
 During the execution of a GM move, tools may be employed to generate ideas
 and make decisions:
@@ -663,7 +722,7 @@ damage as well.
 
 ### A GM move is not restricted to the player move that caused it
 
-Understand that when a player resolves a flip with ✗✗, that doesn't always
+Understand that when a player resolves a flip with ✗, that doesn't always
 mean that the thing they were attempting fails.
 
 The GM is free to let the character accomplish the thing, but may use the
@@ -672,7 +731,7 @@ flip result to bring new action and intrigue into the story.
 Let's say a player's character is a thief infiltrating a stronghold, hired
 to steal a fabled yellow amulet. Maybe the character attempts to climb over
 a wall to avoid being seen by guards. Consider the following consequences
-of an ✗✗:
+of an ✗:
 
  * You fail to get over in time and the guards start yelling and pulling at
    your boots
@@ -750,10 +809,18 @@ up permanently.
 A sword might be flung to the other side of the room, crossing
 the shimmering barrier might end any ongoing magic effects, etc.
 
-`TODO`
- * Wealth / Pack
- * Player loses confidence in the skill they just tried.  Put a white-side
-   red card on it until they use it and flip a ✔ or ✔✔
+An easy way to decide on what resource to use up is to look to the cards:
+
+ * End ONGOING effects of magic items
+ * Place white-side red cards on magic items for temporary charge loss
+ * Place black-side red cards on magic items for permanent charge loss
+ * Place black-side red cards on mundane items for damage
+ * Take away Wealth or Pack cards
+ * Tell them to turn a card sideways because they dropped it
+ * Take away item cards (careful with this one - use only when appropriate)
+
+Note, a GM cannot take green tokens from a player. Use of green tokens
+should always be a player choice.
 
 ### Turn Their Move Back On Them
 
@@ -767,7 +834,7 @@ scout has spotted her, too.
 ### Separate Them
 
 There are few things worse than being in the middle of a raging battle with
-blood-thirsty owlbears on all sides -- one of those things is being in the
+blood-thirsty hawkhounds on all sides -- one of those things is being in the
 middle of that battle with no one at your back.
 
 Separating the characters can mean anything from being pushed apart in the
@@ -833,6 +900,19 @@ This can also be a good move to underscore particularly tricky dangers. Let
 the players know that if they attempt to dive between the giant clockwork
 gears, you're going to spend points from the *Bad Bank* to increase the
 difficulty.
+
+## Drive Towards Your Next Point In The *Good Bank*
+
+When a GM has time in the spotlight, and the set-up has been established,
+they have an opportunity to earn themselves a point in the *Good Bank* by
+taking the plot to another milestone in the Hero's Journey.
+
+Look to the [Campaigns Guide](mod_deckahedron_world_campaigns.md) and
+decide which milestone the current fictional situation has a good set-up
+for.
+
+Remember that the players don't have to bite on every hook. Don't fight it
+when things to go sideways. You can always skip it or try again.
 
 
 # Begin a Campaign
@@ -990,6 +1070,8 @@ Gather the move cards, and separate them into piles:
  * Cards with "C" in the corner
  * Cards without any letter in the corner
 
+If you are playing a One-Shot campaign, remove "Entreat the Blood-Bound"
+
 #### If any player is new to Deckahedron World
 
 Lay out the A cards in front of your players.
@@ -1031,7 +1113,7 @@ and be able to run away from threats.
 
 When a player chooses a card with an IMMEDIATE tag, take that opportunity
 to explain that they can only use one IMMEDIATE move at a time, and that
-they don't risk a GM move if they flip ✗ or ✗✗.
+they don't risk a GM move if they flip ✅ or ✗.
 
 #### If every player has played Deckahedron World before
 
@@ -1155,6 +1237,11 @@ Write the chosen phrase on a blank card and hand it to the player. Place
 two green tokens on each player's Risk Driver card. When their character
 first *takes a big risk* by the method or for the reason written on their
 card, the player takes the tokens.
+
+Risk Drivers help players with less experience in role-playing games
+decide what to do. If they are very useful at your table, you can do the
+risk driver procedure for a player after their character executes the Rest
+move. (If they still had a risk driver, the new risk driver replaces the old)
 
 
 ### Choose Speed / Wealth / Pack
@@ -1381,7 +1468,7 @@ to understand how moves interact with each other.
 
 ## Filling The *Bad Bank*
 
-When a player flips and *resolves a move* with a ✗, mark a point in
+When a player flips and *resolves a move* with a ✅, mark a point in
 the Bad Bank.
 
 ### Calling for flips during a GM move
@@ -1389,7 +1476,7 @@ the Bad Bank.
 Sometimes you will be making a GM move and want to use randomness to
 decide which direction to take the fiction, and call for a player to
 flip a card from their Deckahedron.  This is not considered *resolving
-a move* and thus if they get an ✗ as a result, you should *not* mark
+a move* and thus if they get an ✅ as a result, you should *not* mark
 a point in your Bad Bank.
 
 
@@ -1426,7 +1513,7 @@ Party Power is an easy number to calculate, based on each Player Character
 
 Create set of enemies that challenge them to the desired degree.
 
-A challenging fight for new players is made by creating foes with Stamina
+A **challenging fight** for new players is made by creating foes with Stamina
 points equal to the Party Power.
 
 You can also use Party Power to give the foes:
@@ -1491,12 +1578,12 @@ during combat makes it feel that way.
 This format is simple, and gives the players the most agency.
 
   - Give each player a "turn" where they will probably trigger an aggressive
-    combat move like Hack & Slash or Volley
+    combat move like Mix It Up or Volley
   - Pay attention to IMMEDIATE combat moves that may have triggered
   - Execute the moves, make cool stuff happen as consequences
   - Go around the table until all the opponents flee or are incapacitated
   - Any ✗✗ results may usually be interpreted as "your enemies attack". Choose
-    some opponents that weren't *just* in a Hack & Slash, and declare they
+    some opponents that weren't *just* in a Mix It Up, and declare they
     attack one of the player's characters. Apply attack power against that
     character. Use an attack power die from one attacker, and add 1 attack
     power for each other attacker
@@ -1506,7 +1593,7 @@ This format is simple, and gives the players the most agency.
 This format makes the opponents more of a threat.
 
  * Give each player a "turn" where they will probably trigger an aggressive
-   combat move like Hack & Slash or Volley, call that a "player round"
+   combat move like Mix It Up or Volley, call that a "player round"
  * Pay attention to IMMEDIATE combat moves that may have triggered
  * After player turns are complete, and the players look to you to see
    what happens next, execute an "NPC round"
@@ -1701,7 +1788,7 @@ make sure it's worth it.
  * The GM can storytell to resolve the situation. Maybe the guards run away.
    Make sure your storytelling honest for the narrative and is fun for the
    player. It seems like this player has indicated their fun is in the fight.
- * The GM interprets this as a Hack and Slash with Goreography added on
+ * The GM interprets this as a Mix It Up with Goreography added on
    as an IMMEDIATE move.
       + The GM can hint to the player they already have sufficient narrative
         set-up to Do a Flashback
@@ -1709,7 +1796,7 @@ make sure it's worth it.
 
 If the last option is chosen, the maximum amount of advantage is given, causing
 a flip-3-take-best flip. In this particular situation, the GM must choose
-to give advantage to the Hack and Slash move or to the Goreography move.
+to give advantage to the Mix It Up move or to the Goreography move.
 Even though Goreography has a maximum Move Level of "expert", using a point
 from the *Good Bank* always gives you a flip-3-take-best flip.
 
@@ -1791,15 +1878,10 @@ diving into.
 
 This level of disadvantage should now be applied *consistently* whenever any
 character attempts to avoid a swooping attack in a dark environment from a bat
-creature without further expenditure from the Bad Bank.
+creature. No further expenditure from the Bad Bank is needed.
 
 Consistency prevents players from feeling the game is unfair or that you are
 especially aiming negative consequences at one player.
-
-## Critical Failures
-
-If a player resolves a flip with the *critical failure* card, the GM may use
-1 point from the *Bad Bank* to make an additional move.
 
 ## Creating Deadly Combat Encounters
 
@@ -1809,13 +1891,16 @@ If a player resolves a flip with the *critical failure* card, the GM may use
  * Increase a foe's attack power die - 2 points
  * Give a foe a spot for a wound - 3 points
 
-## Creating Deadly Pursuits
+## Creating Traps and Deadly Pursuits
 
 `TODO`
 
  * When a player uses the Bravely Run Away move, you can spend 1 point
    from the Bad Bank to land them in a situation where they are again in
    immediate danger
+ * When the characters are investigating a set piece or entering a new
+   area, spend 1 point from the *Bad Bank* to make it trapped in such a
+   way that it causes instant danger or damage
 
 
 # Creating Challenges for Players
@@ -1828,6 +1913,7 @@ analyzing the facts of the situation out-of-character, or the cleverness
 can come from the characters, by their fictional actions and by using
 moves like *Discern* and *I Know This*.
 
+Here are some things to think about when presenting a puzzle in your game.
 (with thanks to The Art of Game Design by Jesse Schell)
 
  * Goal - make the goal easy to understand
@@ -1837,7 +1923,7 @@ moves like *Discern* and *I Know This*.
  * Progress
     * riddle vs. 20 questions
     * how is progress visible?
- * Parallel
+ * Parallel progress
     * can you introduce sub-elements of the puzzle the players can act
       on while their stumped on a larger element?
  * Pyramid
@@ -1851,7 +1937,12 @@ moves like *Discern* and *I Know This*.
 
 ## Monsters
 
+For every monster the characters interact with, spend 1 point from
+the *Bad Bank*.
+
 Monsters are puzzles that can be brute-forced with violence.
+
+Monsters have one or two *special moves*.
 
 ### Monsters are part of the fiction
 
@@ -1879,9 +1970,9 @@ by the heroes.
 
 Monsters have 1-20 stamina points and 1-5 wound squares
 
- * 1 Bad Bank point if 11-15 stamina
- * 2 Bad Bank points if 16-20 stamina
- * 1 Bad Bank point for every wound square
+ * Spend 1 Bad Bank point if 11-15 stamina
+ * Spend 2 Bad Bank points if 16-20 stamina
+ * Spend 1 Bad Bank point for every wound square
 
 Monsters have special attacks
 
@@ -1971,6 +2062,10 @@ A good villain often represents a mirror image or "shadow-self" of the
 story's heroes, with the thematic difference being that the villain stays
 constant, rejecting the change that a hero must accept to truly be a hero.
 
+## Downtime Moves
+
+`TODO - restrict rest to 1 day`
+
 
 ## 3-way NPC Conflicts
 
@@ -2043,7 +2138,7 @@ See LICENSE.txt
 
 > A player narrated a really cool use of their Air Sculpting Staff to
 > dyamically dance up magical stair steps and pounce down on an orc with their
-> dagger. Will that just trigger a regular Hack & Slash? If so, doesn't that
+> dagger. Will that just trigger a regular Mix It Up? If so, doesn't that
 > mean that their use of the Air Sculpting Staff is just wasted? I want to
 > connect their cool set-up with a rewarding outcome.
 
