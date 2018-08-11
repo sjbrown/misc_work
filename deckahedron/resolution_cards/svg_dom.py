@@ -18,7 +18,13 @@ def run(cmd):
         print cmd
     os.system(cmd)
 
+def ensure_dirs(filepath):
+    if not os.path.isdir(os.path.dirname(filepath)):
+        os.makedirs(os.path.dirname(filepath))
+
 def export_png(svg, png, width, height):
+    ensure_dirs(png)
+
     cmd = 'sed -e "s/VERSION/%s/" %s > /tmp/content.svg' % (VERSION, svg)
     run(cmd)
 
@@ -27,6 +33,8 @@ def export_png(svg, png, width, height):
     run(cmd)
 
 def export_pdf(svg, pdf):
+    ensure_dirs(pdf)
+
     cmd_fmt = 'inkscape --export-pdf=%s %s'
     cmd = cmd_fmt % (pdf, svg)
     run(cmd)

@@ -5,7 +5,7 @@ import random
 from collections import defaultdict, OrderedDict
 
 class Card:
-    pass
+    component = 'booklet'
 
 def parse(s):
     retval = ''
@@ -26,6 +26,7 @@ def make_card(C):
     title = getattr(C, 'title',
                  # If no 'title', use the class name
                  C.__name__.replace('_', ' '))
+    component = getattr(C, 'component', 'tall_card')
     attr = getattr(C, 'attr', '')
     one_check = parse(getattr(C, 'one_check', ''))
     slash_check = parse(getattr(C, 'slash_check', ''))
@@ -42,6 +43,7 @@ def make_card(C):
 
     card = {
         'title': title,
+        'component': component,
         'attr_shield': bool(attr),
         'attr': attr,
         'one_check': one_check,

@@ -84,6 +84,11 @@ def parse_tags(d2):
 def parse_reqs(d2):
     d2['reqs'] = d2.get('reqs')
 
+def parse_component(d2):
+    d2['component'] = d2.get('component')
+    if d2.get('magic') == 'yes':
+        d2['component'] = 'magic_deck'
+
 def parse_flags(d2):
     possible_flags = [
       'IMMEDIATE',
@@ -169,6 +174,7 @@ def get_dicts_from_spreadsheet(fname, extra_fields=None, grep_filter=''):
         parse_tags(d2)
         parse_flags(d2)
         parse_reqs(d2)
+        parse_component(d2)
 
         l.append(d2)
 

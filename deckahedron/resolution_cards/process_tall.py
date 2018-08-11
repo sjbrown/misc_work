@@ -278,19 +278,21 @@ def custom_card_dom(card):
     return None
 
 def make_deck(cards):
-    export_tall_png('tall_card_back2.svg', DIR + '/back.png')
-    export_tall_png('equipment_back1.svg', DIR + '/back_equip1.png')
-    export_tall_png('equipment_back2.svg', DIR + '/back_equip2.png')
-    export_tall_png('tall_card_stats.svg', DIR + '/page_stats.png')
-    export_tall_png('tall_card_hints.svg', DIR + '/page_hints.png')
+    export_tall_png('tall_card_back2.svg', DIR + '/move_deck/back.png')
+    export_tall_png('equipment_back1.svg', DIR + '/magic_deck/back.png')
+    export_tall_png('equipment_back2.svg', DIR + '/mundane_deck/back.png')
 
-    export_tall_png('level_card_background_anchor.svg', DIR + '/level_background_anchor.png')
-    export_tall_png('level_card_eager_learner.svg', DIR + '/level_eager_learner.png')
-    export_tall_png('level_card_getting_the_hang.svg', DIR + '/level_getting_the_hang.png')
-    export_tall_png('level_card_its_in_here.svg', DIR + '/level_its_in_here.png')
-    export_tall_png('level_card_rallying_cry2.svg', DIR + '/level_rallying_cry2.png')
-    export_tall_png('level_card_rallying_cry.svg', DIR + '/level_rallying_cry.png')
-    export_tall_png('level_card_back.svg', DIR + '/back_level.png')
+    export_tall_png('tall_card_stats.svg', DIR + '/booklet/page_stats.png')
+    export_tall_png('tall_card_hints.svg', DIR + '/booklet/page_hints.png')
+
+    level_dir = DIR + '/level_deck/'
+    export_tall_png('level_card_background_anchor.svg', level_dir + 'face_background_anchor.png')
+    export_tall_png('level_card_eager_learner.svg', level_dir + 'face_eager_learner.png')
+    export_tall_png('level_card_getting_the_hang.svg', level_dir + 'face_getting_the_hang.png')
+    export_tall_png('level_card_its_in_here.svg', level_dir + 'face_its_in_here.png')
+    export_tall_png('level_card_rallying_cry2.svg', level_dir + 'face_rallying_cry2.png')
+    export_tall_png('level_card_rallying_cry.svg', level_dir + 'face_rallying_cry.png')
+    export_tall_png('level_card_back.svg', level_dir + 'back.png')
 
     one_blank_3lines_front()
 
@@ -305,12 +307,19 @@ def make_deck(cards):
             pprint(card)
             raise
 
+        if card.get('component'):
+            dirpath = '%s/%s/' % (DIR, card.get('component'))
+        elif card.get('equipment'):
+            dirpath = '%s/%s/' % (DIR, 'mundane_deck')
+        else:
+            dirpath = '%s/%s/' % (DIR, 'move_deck')
+
         # Create the svg file and export a PNG
-        svg_filename = DIR + '/face%02d_%s.svg' % (
+        svg_filename = dirpath + 'face%02d_%s.svg' % (
             (i+1),
             filenamify(card['title'])
         )
-        png_filename = DIR + '/face%02d_%s.png' % (
+        png_filename = dirpath + 'face%02d_%s.png' % (
             (i+1),
             filenamify(card['title'])
         )
