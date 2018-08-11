@@ -1,7 +1,7 @@
-Name,Mod,Effect,m-2,m-1,m0,m1,m2,✔✔,✔,✗,✗✗,Reqs,Notes
+Name,Mod,Effect,m-2,m-1,m0,m1,m2,✔✔✔,✔✔,✅,✗,Reqs,Notes
 ,,,,,,,,,,,,,
 _ of Light,,"Touch another object that fits in your hand. It glows with arcane light, about as bright as a torch. It gives off no heat or sound and requires no fuel, but it is otherwise like a mundane torch. You have complete control of the color of the flame. || The effect lasts as long as it is in your presence.",,,,,,,,,,,
-Boundary _,,"Take an item and set it beside you.  It magically floats in an orbit around your body.  So, carrying this item does not use an PACK. || If anything hits the item or comes between you and the item, the effect is immediately dispelled",,,,,,,,,,,ONGOING
+Boundary _,,"Take an item and set it beside you.  It magically floats in an orbit around your body.  So, carrying this item does not use a S/W/P token. || If anything hits the item or comes between you and the item, the effect is immediately dispelled",,,,,,,,,,,ONGOING
 _ of Illusion,,"Touch something and make some superficial change to it: clean it, soil it, cool it, warm it, flavor it, or change its color. || If you use this effect without touching a thing you can instead create minor illusions no bigger than yourself. Projected illusions cast no light, are crude and clearly illusions—they won't fool anyone, but they might entertain them.",,,,,,,,,,,ONGOING
 Whispering _,,"Name the spirit you wish to contact (or leave it to the GM). You pull that creature through the planes, just close enough to speak to you. It is bound to answer any one question you ask to the best of its ability.",,,,,,,,,,,
 _ of Sensation,,"One of your senses is briefly attuned to magic. The GM will tell you how this sense reacts to magic, and how long the effect persists.",,,,,,,,,,,
