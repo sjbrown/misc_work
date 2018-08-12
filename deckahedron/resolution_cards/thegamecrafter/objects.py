@@ -3,8 +3,6 @@
 import os
 import core
 
-user = None
-game = None
 
 class User(dict):
     def __init__(self):
@@ -24,30 +22,14 @@ class Game(dict):
         self.parts = []
 
     def make_square_deck(self, dirpath):
-        asset = self['name'] + 'sqdk'
+        asset = '%s-sqdeck-%s' % (self['name'], len(self.parts))
 
-        back_filepath = dirpath + '/back.png'
+        def face_card_test(filename):
+            return filename.startswith('deck') and filename.endswith('.png')
 
-        self.sqdk_folder = core.new_folder(self.user, asset, self.folder['id'])
-        file_result = core.new_file(back_filepath, self.sqdk_folder['id'])
-        sqdk = new_deck(
-            'smallsquaredeck', asset, self.id, back_file_id=file_result['id']
+        return self.make_deck(
+            'smallsquaredeck', 'smallsquarecard', asset, dirpath, face_card_test
         )
-
-        print 'Small Square Deck'
-        print sqdk
-
-        file_list = [dirpath + '/' + x
-                     for x in os.listdir(dirpath)
-                     if (x.startswith('deck') and x.endswith('.png'))]
-        for filepath in file_list:
-            file_result = core.new_file(filepath, self.sqdk_folder['id'])
-            card = new_card(
-                'smallsquarecard',
-                os.path.basename(filepath),
-                deck_id=sqdk['id'],
-                file_id=file_result['id']
-            )
 
     def make_poker_deck(self, dirpath):
         asset = '%s-pdeck-%s' % (self['name'], len(self.parts))
@@ -134,7 +116,6 @@ def new_deck(kind, name, game_id, back_file_id=None):
         back_id=back_file_id,
     )
     return res
-
 
 def new_card(kind, name, deck_id, file_id=None):
     res = core.post(
