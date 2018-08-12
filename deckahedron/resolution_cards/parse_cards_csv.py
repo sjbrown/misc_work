@@ -146,6 +146,32 @@ def parse_attr(d2):
 def parse_title(d2, title):
     d2['title'] = title.decode('utf-8').strip().replace('_', '____')
 
+def parse_custom_number(d2):
+    # Booklet pages come in a certain order
+    custom_order = [x.strip() for x in '''
+      defy danger
+      take a breather
+      bravely run away
+      discern
+      i know this
+      defend
+      parley
+      do a flashback
+      good thing i brought...
+      mix it up
+      volley
+      rest
+      seek help
+      shop / procure
+      sharpen & stitch
+      study under a master
+      craft a weapon
+    '''.strip().split('\n')]
+    if d2['title'].lower() in custom_order:
+        d2['custom_number'] = 1 + custom_order.index(d2['title'].lower())
+    if d2['title'].lower() == 'critical flip':
+        d2['custom_number'] = 20
+
 def get_dicts_from_spreadsheet(fname, extra_fields=None, grep_filter=''):
     if extra_fields is None:
         extra_fields = {}
@@ -175,6 +201,7 @@ def get_dicts_from_spreadsheet(fname, extra_fields=None, grep_filter=''):
         parse_flags(d2)
         parse_reqs(d2)
         parse_component(d2)
+        parse_custom_number(d2)
 
         l.append(d2)
 

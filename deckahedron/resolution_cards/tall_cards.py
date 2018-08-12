@@ -43,6 +43,7 @@ def make_card(C):
 
     card = {
         'title': title,
+        'custom_number': getattr(C, 'custom_number', None),
         'component': component,
         'attr_shield': bool(attr),
         'attr': attr,
@@ -61,6 +62,7 @@ def make_card(C):
 
 class Mix_It_Up(Card):
   attr = 'Str'
+  custom_number = 10
   one_check = '''
     Deal 1 attack power and the foe attacks you
   '''
@@ -84,6 +86,7 @@ class Mix_It_Up(Card):
     '''
 
 class Volley(Card):
+  custom_number = 11
   attr = 'Dex'
   one_check = '''
     Roll attack power.
@@ -108,6 +111,7 @@ class Volley(Card):
   levels = ['0', 'g1']
 
 class Parley(Card):
+  custom_number = 7
   attr = 'Int'
   slash_check = '''
     They demand concrete assurance or exchange, right now.
@@ -125,6 +129,7 @@ class Parley(Card):
   levels = ['0', 'g1']
 
 class Defy_Danger(Card):
+  custom_number = 1
   attr = 'Str/Dex/Int'
   two_check = '''
     You do it, but there's a new complication
@@ -150,6 +155,7 @@ class Defy_Danger(Card):
   '''
 
 class Defend(Card):
+  custom_number = 6
   attr = 'Str'
   one_check = '''
     Place 1 token on this card
@@ -171,6 +177,7 @@ class Defend(Card):
   '''
 
 class Discern(Card):
+  custom_number = 4
   attr = 'Int'
   one_check = '''
     Ask the GM 1
@@ -200,6 +207,7 @@ class Discern(Card):
     '''
 
 class I_Know_This(Card):
+  custom_number = 5
   attr = 'Int'
   slash_check = '''
     The GM tells you something interesting
@@ -224,6 +232,7 @@ class I_Know_This(Card):
     '''
 
 class Rest(Card):
+  custom_number = 12
   desc = u'''
     When you are out of combat, not travelling, and have several hours
     to devote to rest, do the following:
@@ -250,6 +259,7 @@ class Rest(Card):
     '''
 
 class Seek_Help(Card):
+  custom_number = 13
   desc = u'''
     When in a peaceful environment where external resources with healing
     powers are available:

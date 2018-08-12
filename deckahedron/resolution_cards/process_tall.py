@@ -282,8 +282,8 @@ def make_deck(cards):
     export_tall_png('equipment_back1.svg', DIR + '/magic_deck/back.png')
     export_tall_png('equipment_back2.svg', DIR + '/mundane_deck/back.png')
 
-    export_tall_png('tall_card_stats.svg', DIR + '/booklet/page_stats.png')
-    export_tall_png('tall_card_hints.svg', DIR + '/booklet/page_hints.png')
+    export_tall_png('tall_card_stats.svg', DIR + '/booklet/face18_stats.png')
+    export_tall_png('tall_card_hints.svg', DIR + '/booklet/face19_hints.png')
 
     level_dir = DIR + '/level_deck/'
     export_tall_png('level_card_background_anchor.svg', level_dir + 'face_background_anchor.png')
@@ -315,18 +315,20 @@ def make_deck(cards):
             dirpath = '%s/%s/' % (DIR, 'move_deck')
 
         # Create the svg file and export a PNG
+        number = card.get('custom_number', (i+1))
         svg_filename = dirpath + 'face%02d_%s.svg' % (
-            (i+1),
+            number,
             filenamify(card['title'])
         )
         png_filename = dirpath + 'face%02d_%s.png' % (
-            (i+1),
+            number,
             filenamify(card['title'])
         )
 
         dom.write_file(svg_filename)
 
         export_tall_png(svg_filename, png_filename)
+
 
 def make_documentation_images(cards):
     tmp_template_filename = DIR + '/move_card_template.svg'
