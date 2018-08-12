@@ -60,6 +60,12 @@ def login():
     if response.status_code == 200:
         session = response.json()['result']
     else:
+        if not os.environ.get('THEGAMECRAFTER_PUBLIC_KEY'):
+            print 'You need to set the env variable THEGAMECRAFTER_PUBLIC_KEY'
+        if not os.environ.get('THEGAMECRAFTER_USER'):
+            print 'You need to set the env variable THEGAMECRAFTER_USER'
+        if not os.environ.get('THEGAMECRAFTER_PASSWORD'):
+            print 'You need to set the env variable THEGAMECRAFTER_PASSWORD'
         raise Exception('Could not log in. Check your environment variables')
 
     return get('/user/' + session['user_id'])
