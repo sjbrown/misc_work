@@ -138,7 +138,7 @@ def filter_dom_elements(dom, card, deck_title, dice_rule):
                     dom.cut_element(title)
 
 
-def make_deck(deck_number):
+def make_back_card():
     raw_svg = file('back_ready_to_print.svg').read()
     raw_svg = raw_svg.replace('VERSION', VERSION)
     back_svg_filename = '/tmp/cards/back.svg'
@@ -146,6 +146,8 @@ def make_deck(deck_number):
     fp.write(raw_svg)
     fp.close()
     export_square_png(back_svg_filename, '/tmp/cards/back.png')
+
+def make_deck(deck_number):
 
     for i, card in enumerate(cards):
         dom = DOM('face_books.svg')
@@ -184,7 +186,10 @@ def make_blessing_deck():
 
         export_square_png(svg_filename, png_filename)
 
+
 def make_wound_deck():
+    export_square_png('/tmp/cards/back.svg', '/tmp/cards/wounds/back.png')
+
     for i, card in enumerate(wound_cards):
         dom = DOM('face_books.svg')
 
@@ -192,8 +197,8 @@ def make_wound_deck():
         set_zodiac(dom, 'goat', 'goat', 'goat', 'goat')
 
         # Create the svg file and export a PNG
-        svg_filename = '/tmp/cards/blessing/deck_wound_card_face%s.svg' % ((i+1))
-        png_filename = '/tmp/cards/blessing/deck_wound_card_face%s.png' % ((i+1))
+        svg_filename = '/tmp/cards/wounds/deck_wound_card_face%s.svg' % ((i+1))
+        png_filename = '/tmp/cards/wounds/deck_wound_card_face%s.png' % ((i+1))
 
         dom.write_file(svg_filename)
 
@@ -228,11 +233,12 @@ if __name__ == '__main__':
         os.makedirs('/tmp/cards/red')
     if not os.path.exists('/tmp/cards/green'):
         os.makedirs('/tmp/cards/green')
+    make_back_card()
     make_green_deck()
     make_red_deck()
-    make_wound_deck()
     make_deck(1)
     make_deck(2)
     make_deck(3)
     make_deck(4)
+    make_wound_deck()
     make_blessing_deck()

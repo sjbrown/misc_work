@@ -21,6 +21,9 @@ def main():
     game.make_poker_deck('/tmp/cards_v0.88/magic_deck')
     game.make_booklet('/tmp/cards_v0.88/booklet')
     game.make_square_deck('/tmp/cards')
+    game.make_square_deck('/tmp/cards/red')
+    game.make_square_deck('/tmp/cards/green')
+    game.make_square_deck('/tmp/cards/wounds')
 
 if __name__ == '__main__':
 
