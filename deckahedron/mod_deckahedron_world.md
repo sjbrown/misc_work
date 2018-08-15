@@ -932,6 +932,10 @@ At the center of the Hero's Journey is a moment of pain that the hero
 must fully endure before finding relief - either through their own action or
 with the help of their friends.
 
+One should note that, in a steading, players usually get to choose between
+Seek Help and Rest, and this choice may have more to do with their
+character's blame / forgiveness arc than how hurt their body is.
+
 ## Resting
 
 ![Rest card](images/move_rest.png){ width=2.5inch }
