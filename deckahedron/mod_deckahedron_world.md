@@ -911,8 +911,26 @@ This move's purpose is to practice an open dialogue and help everyone
 excuse-creation, litanizing of sins, the move has not been executed
 correctly. Just take a deep breath and move on.
 
+## Reward Yourselves
+
+If every player is satisfied with their opportunity to receive feedback,
+each player gets a green token.
+
+If your gaming session includes food or drink, the Session Opener can be
+ceremonialized by refraining from the first bite or the first sip until
+the Session Opener has been completed.
+
 
 # More Moves - Rest, Seek Help
+
+Throughout Deckahedron World, players are asked to decide how their
+characters get hurt, how they respond to being hurt, and how they recover
+from their injuries.
+
+This is a small-scale echo of the whole story - the Hero's Journey itself.
+At the center of the Hero's Journey is a moment of pain that the hero
+must fully endure before finding relief - either through their own action or
+with the help of their friends.
 
 ## Resting
 
@@ -926,6 +944,7 @@ not travelling, and have several hours to devote to rest (sleeping qualifies).
  * Step 3: Keep that many cards (player choses which ones) in your
    *Exhaustion pile*, put the rest into your *discard pile*
  * Step 4: Return one *Harm* token to the supply
+ * Step 5: Say who you blame for your injuries
 
 When resting, magic items that are not being used regain all charges, up
 to their maximum capacity. Remove all white-side red cards on your magic
@@ -942,6 +961,9 @@ effort.
 The Harm token returned to the supply in Step 4 may come from your
 *Exhaustion pile* or from a slot on a move card (eg, Bloody But Unbowed).
 
+It is possible that the object of blame named in step 5 is the character
+themself.
+
 ## Seek Help
 
 ![Seek Help card](images/move_seek_help.png){ width=2.5inch }
@@ -954,6 +976,10 @@ Eg, if they are in a primitive camp posessing medicine men or a
 contemporary city with doctors and hospitals or a tranquil oasis infused
 with healing magic.
 
+That the healing powers are *external* is important. Seek Help is a move
+where players explore how their characters have limits and cannot do
+everything on their own.
+
 When you spend a day healing:
 
  * Step 1: Describe your character's healing experience
@@ -963,6 +989,7 @@ When you spend a day healing:
  * Step 5: Keep that many cards (player choses which ones) in your
    *Exhaustion pile*, put the rest into your *discard pile*
  * Step 6: Return one *Wound* token and one *wound card* to the supply
+ * Step 7: Say who you are closer to forgiving
 
 As with *Resting*, time spent *Seeking Help* cannot also be used in
 activities that take effort.

@@ -1689,9 +1689,10 @@ everyone has sat down to play.
 
 ### Recap Questions
 
-Ask each player for either a thing they learned about the world or a way
-they expressed their character's personality. If they can give a reasonably
-correct answer, give them a green token.
+First make sure everyone is on the same page. Remind the table of the
+details of the setting and the characters. Ask each player for either a
+thing they learned about the world or a way they expressed their
+character's personality from the last session.
 
 ### Ask for Notes
 
@@ -1756,12 +1757,13 @@ realize you're painted into a corner. When the characters are in a
 situation where you can't imagine a way to keep the game exciting,
 you need to have a conversation with your players.
 
-Retroactively edit.
+This is a shared narrative, so it's allowed to retroactively edit.
+Collaborate. Get consent.
 
-Collaborate.
+### Reward Yourselves
 
-Get consent.
-
+If every player has had a chance to get satisfactory feedback it's time
+to dole out green tokens. Give a new one to each player.
 
 
 # Using the Good Bank
