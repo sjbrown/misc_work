@@ -559,6 +559,9 @@ Each transition gives the GM a lot of opportunity to shape the narrative,
 so transitions should be considered as a way to move towards earning a point
 in the *Good Bank*.
 
+The game loop is not something a GM needs to enforce, it should happen
+naturally.
+
 ## Downtime
 
 `TODO - restrict rest to 1 day`
