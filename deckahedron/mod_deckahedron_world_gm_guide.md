@@ -671,7 +671,8 @@ When you're stumped for what happens next, consider where you are in the
 [Campaign](mod_deckahedron_world_campaigns.md), and ask a leading question.
 Use their answer to introduce the next challenge.
 
-|-----------------|-----------------------------
+| Chapter         | Question
+|-----------------|------------------------------------------------------
 | Home / You      | What's the one rule you're not supposed to break?
 | Need            | What do you wish people here could see the beauty of?
 | Go              | Who do you hope won't try to get in your way?
