@@ -491,7 +491,7 @@ the next layer of rules before jumping back into the action.
    unwieldy, put a token on it
 
 
-### Sarrukan's Chamber 3rd PC variant - The reluctant guard
+### Sarrukan's Chamber 3rd PC variant - The sacrificial guard
 
 If you've got a 3rd player at the table, add a guard character.
 
@@ -503,32 +503,72 @@ character's name. The guard can be any gender, has 3 Int, 2 Str, and 1 Dex.
 
 Let them know that they'll get introduced about 5 minutes into the story.
 
-After the first two PCs have had a chance to inspect their
+After the first two PCs have had a chance to orient themselves to their
 surroundings, and maybe have a dialogue with each other, introduce the
 3rd PC
 
 > [Addressing guard]
-> _ (guard), you are a guard.
-> You're the newest hire in Sarukkan's staff, but you're already thinking of
-> finding different work. There's some sketchy stuff going on here. You're
-> not too sure what exactly, since you mostly patrol the yard, but you're
-> sure you heard the sounds of women crying when you patrolled near the
-> cellar door a couple days ago.
+> _ (guard), you are a guard, but also a prisoner awaiting your doom.
 >
-> You got called into the house just now.  Apparently a guest of the ball
-> had been assaulted and stripped of their clothing.  The culprit might still
-> be inside, so Yogran the Rat, a high-ranking guard, pulled you from valet
-> duty to help him investigate.
+> You were the newest hire in Sarukkan's staff, but you don't think you'll
+> even get that first payday. On day one, you had already noticed some sketchy
+> stuff going on here.
 >
-> As you climb to the top of the service stairs, arriving at the 3rd floor,
-> Yogran orders you to peek your head into the chamber.
+> Your supervisor, Yogran the Rat had assigned you the simple duty of yard
+> patrol, and when you passed by the cellar you could swear you heard the
+> sounds of women crying. Yogran sternly rebuffed the complaint you made,
+> and then he set you up.
 >
-> You've heard the rumors, Sarukkan cloisters himself away in there,
-> experimenting with dark magic.  Some say, communing with the dead.
-> All staff are forbidden to enter his chamber, many agree a curse will
-> befall anyone that does.
+> [Ask the player]
+> What's the offense that Sarukkan has zero tolerance for his employees?
+>
+> [Describe the way Yogran the Rat set up the player's character using that
+> offense]
+>
+> The last thing you remember is being told that your soul will be used
+> as fuel in a dark ritual on the night of the ball.
+>
+> You awaken now in Sarukkan's chamber, roused from your sleep by the sound
+> of two voices.  You can speak, but your arms and legs are bound.
+>
+> [Ask the player]
+> Where in the room are they storing you?
 >
 > What do you do?
+
+
+
+# The Game Loop
+
+Deckahedron World has 2 main types of activities, "downtime" activities,
+and "adventure" activities. Downtime activities are about decisions where the
+costs and benefits are known upfront, like shopping, healing, and studying.
+Adventure activities involve risk, exploration, and confrontation.
+
+Playing Deckahedron World will have the whole table transitioning between
+downtime activities and adventure activities in a "loop". Adventuring will
+incur costs on the characters in the form of injury, damage to items, and
+lost charges to magic items, but it will also let the players build up
+resources like green tokens and wealth. When injuries and treasures have
+built up, the players will seek a steading to salve their hurts and
+exchange their loot for new, exciting gear, and learn new skills.
+With that done, the players should be excited to try out their new skills
+and gear, and thus head out again for adventure.
+
+Each transition gives the GM a lot of opportunity to shape the narrative,
+so transitions should be considered as a way to move towards earning a point
+in the *Good Bank*.
+
+## Downtime
+
+`TODO - restrict rest to 1 day`
+
+`TODO - new Risk Driver cards`
+
+
+## Adventure
+
+`where the motivations are resolved`
 
 
 # Guidance
@@ -1484,12 +1524,16 @@ a point in your Bad Bank.
 
 ## Balance
 
-Grab a piece of paper and write down the names of each opponent.  Beside
-their name, draw ticks for their Stamina points.  Beside that, write their
-attack power die (d2, d4, d6, d10).
+Grab a piece of paper and write down the names of each opponent.
+Beside their name, write their attack power die (d2, d4, d6, d10).
+Beside that, draw ticks for their Stamina points.
+Finally, draw boxes with "H" or "H/W" next to them to represent how
+if they can absorb Harm or Wounds.
 
-Opponents' Stamina points should be realistically scaled to the "scrappy
-adventurer" level of the players. This table should help.
+`TODO: insert image of GM Worksheet`
+
+Opponents' Stamina and attack power should be realistically scaled
+to the "scrappy adventurer" level of the players. This table should help.
 
 |                   | Stamina points | Attack power
 |-------------------|----------------|-------------
@@ -1513,30 +1557,31 @@ Party Power is an easy number to calculate, based on each Player Character
 
 Create set of enemies that challenge them to the desired degree.
 
-A **challenging fight** for new players is made by creating foes with Stamina
-points equal to the Party Power.
+A **challenging fight** for new players is made by creating foes
+balanced against the Party Power.
 
-You can also use Party Power to give the foes:
+Use Party Power to give the foes:
 
 |                                                | Party Power cost
 |------------------------------------------------|------------------
+| One stamina point                              | 1
+| A weapon that does 1d6 damage                  | 4
 | One armor slot that can absorb Harm            | 3
 | One armor slot that can absorb Harm or Wound   | 6
-| A weapon that does 1d6 damage                  | 4
-| One Stamina point beyond the norm              | 1
 
 You can also augment foes by
 [spending points from the *Bad Bank*](#using-the-bad-bank).
 
 Sometimes you just want to punctuate the plot with some action by throwing
-in a quick-and-easy fight. In that case, use half of the Party Power to create
-foes, but put something else in jeopardy (information, resources, social
-standing, risk of alarm)
+in a low-stakes, quick-and-easy fight. In that case, use half of the
+Party Power to create foes, but put something else in jeopardy (information,
+resources, social standing, risk of alarm)
 
 ### Give hints
 
-Don't surprise the players *too* much. Always describe the encounter in a
-way that hints at the difficulty.
+Players will perceive the game as either "fair" or "unfair" partly based
+on how the foes are described by the GM before the combat begins. Always
+describe the confrontation in a way that hints at the difficulty.
 
  * The two guards *exchange an unsure look and step forward*
  * The salty pirate flashes his blade, but *simultaneously takes a step
@@ -1582,7 +1627,7 @@ This format is simple, and gives the players the most agency.
   - Pay attention to IMMEDIATE combat moves that may have triggered
   - Execute the moves, make cool stuff happen as consequences
   - Go around the table until all the opponents flee or are incapacitated
-  - Any ✗✗ results may usually be interpreted as "your enemies attack". Choose
+  - Any ✗ results may usually be interpreted as "your enemies attack". Choose
     some opponents that weren't *just* in a Mix It Up, and declare they
     attack one of the player's characters. Apply attack power against that
     character. Use an attack power die from one attacker, and add 1 attack
@@ -1604,9 +1649,9 @@ This format makes the opponents more of a threat.
    players with more than 3 green tokens)
  * Failing the Defy Danger flip results in the player's character suffering
    the opponents' attack. You can calculate attack power thusly:
-      * ✗✗ : one attack power die from the lead attacker,
+      * ✗ : one attack power die from the lead attacker,
         and add 1 attack power (not die) for each other attacker
-      * ✗ : no attack power die,
+      * ✅ : no attack power die is rolled,
         but 1 attack power per attacker (so 3 foes = 3 attack power)
 
 #### Format 3
@@ -1644,6 +1689,7 @@ and you don't immediately have a great idea about what kind of beneficial
 gear could be found on nearly naked bodies, you can write "What we found
 on the werewolves" on a blank card, and give it to one of the players.
 Tell them to place a token from their SPEED pile on the card.
+
 Later in the game, when the rules demand either a WEALTH or PACK to be
 spent, the "What we found on the werewolves" card may be spent, if the
 players can justify it.
@@ -2064,22 +2110,7 @@ A good villain often represents a mirror image or "shadow-self" of the
 story's heroes, with the thematic difference being that the villain stays
 constant, rejecting the change that a hero must accept to truly be a hero.
 
-## Downtime Moves
 
-`TODO - restrict rest to 1 day`
-
-
-## 3-way NPC Conflicts
-
-Rock-Paper-Scissors, or 3-virtues-pick-2.
-
-Puzzles that have an unavoidable cost - there's no perfect solution.
-Sometimes it's about choosing an imperfect side.
-
-Powerful ways for players to say something about the themes of the story
-and the personality of their characters.
-
-[Campaigns](mod_deckahedron_world_campaigns.md)
 
 ---
 
