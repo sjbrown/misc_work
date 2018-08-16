@@ -538,7 +538,7 @@ surroundings, and maybe have a dialogue with each other, introduce the
 
 
 
-# The Game Loop
+# The Core Game Loop
 
 Deckahedron World has 2 main types of activities, "downtime" activities,
 and "adventure" activities. Downtime activities are about decisions where the
@@ -559,7 +559,7 @@ Each transition gives the GM a lot of opportunity to shape the narrative,
 so transitions should be considered as a way to move towards earning a point
 in the *Good Bank*.
 
-The game loop is not something a GM needs to enforce, it should happen
+The core loop is not something a GM needs to enforce, it should happen
 naturally.
 
 ## Downtime
