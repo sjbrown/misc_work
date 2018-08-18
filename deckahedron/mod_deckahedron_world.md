@@ -1502,6 +1502,24 @@ cost against the weapon's other features.
 
 ![Weapon Mastery card](images/move__mastery.png){ width=2.5inch }
 
+The weapon mastery card allows a player to, during downtime, create a reward
+that they themself will receive during a future combat encounter.
+
+For the sake of balance, the GM may choose to write a downside or limitation
+on the weapon mastery card. A specific category like "rapiers" might not incur
+any balancing, "swords" might incur a light amount of balancing, and something
+very vague like "blades" might incur a high amount of balancing.
+
+This process should be discussed by the table to arrive at a fair balance.
+
+Here are some examples:
+
+ * "Sword" Mastery: the sword must have been forged by a competent smith
+ * "Blades" Mastery: only applies to one-on-one combat
+ * "Staff" Mastery: the GM can say staff breaks if max attack power is rolled
+ * "Blunt weapon" Mastery: only effective in open spaces
+ * "Fist" Mastery: "close range" position must first be fictionally established
+
 ### Magic Items
 
  * _ of Unerring Dispatch
