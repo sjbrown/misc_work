@@ -537,43 +537,6 @@ surroundings, and maybe have a dialogue with each other, introduce the
 > What do you do?
 
 
-
-# The Core Game Loop
-
-Deckahedron World has 2 main types of activities, "downtime" activities,
-and "adventure" activities. Downtime activities are about decisions where the
-costs and benefits are known upfront, like shopping, healing, and studying.
-Adventure activities involve risk, exploration, and confrontation.
-
-Playing Deckahedron World will have the whole table transitioning between
-downtime activities and adventure activities in a "loop". Adventuring will
-incur costs on the characters in the form of injury, damage to items, and
-lost charges to magic items, but it will also let the players build up
-resources like green tokens and wealth. When injuries and treasures have
-built up, the players will seek a steading to salve their hurts and
-exchange their loot for new, exciting gear, and learn new skills.
-With that done, the players should be excited to try out their new skills
-and gear, and thus head out again for adventure.
-
-Each transition gives the GM a lot of opportunity to shape the narrative,
-so transitions should be considered as a way to move towards earning a point
-in the *Good Bank*.
-
-The core loop is not something a GM needs to enforce, it should happen
-naturally.
-
-## Downtime
-
-`TODO - restrict rest to 1 day`
-
-`TODO - new Risk Driver cards`
-
-
-## Adventure
-
-`where the motivations are resolved`
-
-
 # Guidance
 
 Here are 5 gems to come back to whenever you don't know what to say next.
@@ -957,6 +920,7 @@ for.
 
 Remember that the players don't have to bite on every hook. Don't fight it
 when things to go sideways. You can always skip it or try again.
+
 
 
 # Begin a Campaign
@@ -1510,6 +1474,87 @@ game. In session 2, they will probably experience downtime, and be ready
 to understand how moves interact with each other.
 
 
+
+## The Core Game Loop
+
+Deckahedron World has 2 main types of activities, "downtime" activities,
+and "adventure" activities. The game transitions from downtime to
+adventure and back again to downtime, repeating in a "loop".
+
+Adventure activities involve risk, exploration, and confrontation.
+Adventuring will incur costs on the characters in the form of injury,
+damage to items, and lost charges to magic items, but it will also
+let the players build up resources like green tokens and wealth.
+
+Downtime activities are about decisions where the costs and benefits
+are known upfront, like shopping, healing, and studying.
+When injuries and treasures have built up, the players will seek a
+steading to salve their hurts and exchange their loot for new, exciting
+gear, and learn new skills.
+With that done, the players should be excited to try out their new skills
+and gear, and thus head out again for adventure.
+
+Each transition gives the GM a lot of opportunity to shape the narrative,
+so transitions should be considered as a way to move towards earning a point
+in the *Good Bank*.
+
+The core loop is not a rule, nor something a GM needs to enforce, it should
+happen naturally.
+
+### Downtime
+
+If the characters are not in a steading, the available downtime moves are:
+
+ * Rest
+ * Sharpen and Stitch
+ * Seek Help (only if it makes narrative sense)
+ * _ Mastery
+ * Craft a Weapon
+
+In a steading, the above moves are available as well as:
+
+ * Study Under a Master
+ * Shop / Procure
+ * Obsessive Contemplation
+
+There is an important choice that a player must make during downtime, and
+that is, what to spend their time doing. Their character can't do everything
+in one day. In particular, in one day these moves are mutually exclusive:
+
+ * Rest
+ * Study Under a Master
+ * Shop / Procure
+ * Obsessive Contemplation
+
+Additionally, Sharpen and Stitch can only be done while resting, so it is
+effectively mutually exclusive with the latter 3 moves.
+
+If the GM wants to give the players' characters a second day in town before
+any action takes place, a point from the *Good Bank* must be spent.
+
+Otherwise, on the second day, the GM should present some situation that
+demands immediate attention. Put something at risk if necessary. Remember,
+in this dangerous world, nothing is safe or sacred.
+
+The players may still ignore the situation and keep performing downtime moves
+on the second day -- in that case, narrative consequences should be honestly
+described. What opportunity has been forever lost? What did the adversaries
+in the world accomplish because the heroes ignored them?
+
+### Adventure
+
+The adventure activities are where the players' characters take risks and get
+into conflicts. To get out of their literal comfort zone, they must have
+motivations.
+
+If the players at the table are not yet inventing their own motivations for
+their characters, Risk Driver cards can be created again.
+
+when the transition from downtime to adventure happens, choose risk drivers
+using the procedure [described above](#choosing_risk_drivers).
+
+
+
 ## Filling The *Bad Bank*
 
 When a player flips and *resolves a move* with a ✅, mark a point in
@@ -1892,6 +1937,12 @@ to act as often as each player does.
  * The NPC may get into a scuffle with one foe, effectively preventing that
    foe from acting as the combat spotlight moves around
  * The NPC may convey or reveal information valuable to the players
+
+## A Second Day of Peace
+
+In order to give the players' characters a second day of peace and quiet
+in a steading, so that multiple time-consuming downtime actions can be
+made in a row, a point from the *Good Bank* must be spent.
 
 ## Resurrect a Character
 
