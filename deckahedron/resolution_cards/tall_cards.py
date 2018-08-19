@@ -234,7 +234,7 @@ class I_Know_This(Card):
 class Rest(Card):
   custom_number = 12
   desc = u'''
-    When you are out of combat, not travelling, and have several hours
+    When you are out of combat, not travelling, and have a day
     to devote to rest, do the following:
     |
     * Step 1: Return all Exhaustion tokens to the supply
