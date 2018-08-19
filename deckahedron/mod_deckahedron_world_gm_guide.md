@@ -125,7 +125,7 @@ Distribute a character sheet to each player.
 > rolling and card flipping.
 > 
 > There's no predetermined story, we're all in this together, and we're
-> going to play to find out what happens.
+> going to play to find out the details of what happens.
 > 
 > This first session will need about 40 minutes of preparation, though.
 > Ten minutes has already gone by with this speech (it's almost over).
@@ -202,7 +202,7 @@ Give each player a Move Booklet
 You are going to be running a short tutorial game for 2-3 players. One will
 control a female protagonist character, and one will control a male
 protagonist.  If there is a third player, they will control a prisoner that
-the other two characters discover early in the action.
+the other two characters discover in the first scene.
 
 First, you will need names for the characters and setting of Sarukkan's
 Chamber. Ask the players these 3 questions. This is an improvisation exercise.
@@ -270,7 +270,7 @@ Begin narrating the set-up.
 > through the cracks of the door.
 >
 > You could hear sounds from the hallway though, and on the second day,
-> you heard Gwendolyn being removed from her cell.
+> you heard Gwendolyn being removed from her cell. After that, only silence.
 >
 > [Dramatic pause]
 >
@@ -281,9 +281,9 @@ Begin narrating the set-up.
 > valuables or they pay for simple retribution against the pilfering
 > scoundrels. You provide the muscle. Gandlin provides the brains.
 > He sniffs them out, you beat 'em up, and each of you shares in the reward.
-> 
+>
 > That's how it had been. Gandlin has now gone missing.
-> 
+>
 > He was investigating a series of thefts from
 > private homes. There was some pattern to it -- artifacts or books taken,
 > but no smashed windows or doors. The mystery of it had Gandlin
@@ -375,7 +375,7 @@ is prepare.  Read the [Guidance](#guidance) chapter. Check out some
 [examples](#show-dont-tell) of how other GMs have run their games.
 Then, with that context, read the Guidance chapter again.
 
-The primary thing to remember is that on ✗✗, you get to make a move.
+The primary thing to remember is that on ✗, you get to make a move.
 
 Always **Describe the immediate situation around the characters**. This
 is how you start a session, how you get things rolling after a snack break,
@@ -434,6 +434,8 @@ just give players a taste.
 It should also help teach the rules of Deckahedron World.
 
  * Get each player to have an opportunity to do a Deckahedron flip
+ * If a player flips green token card, that's an opportunity
+   to explain how they earn green tokens
  * If a player flips the Critical Success card, that's an opportunity
    to explain the Critical Flip move
  * Ideally there will be a combat scene.
@@ -473,7 +475,7 @@ Take a look at your friends, are they having fun? Are they smiling, are they
 looking at you eagerly to see what happens next, are they bantering with
 each other about what actions to take, are they having in-character dialogues?
 
-Sarukkan's Chamber is intended as a 10 minute tutorial, but if it seems like
+Sarukkan's Chamber is intended as a 10-15 minute tutorial, but if it seems like
 everyone wants more, you can keep it going.
 
 Ask the table if they want to keep going with this scenario. If not, just
@@ -481,7 +483,7 @@ skip forward to the Touchstone List. But if they do want to continue, add in
 the next layer of rules before jumping back into the action.
 
  * Tell the players how the Speed / Wealth / Pack rules work.
- * Give them each 6 S/W/E tokens.
+ * Give them each 6 S/W/P tokens.
  * The characters do not get to put any tokens in Wealth or Pack,
    as they were just prisoners
  * Any character still wearing their elaborate costume should get a card
@@ -491,7 +493,7 @@ the next layer of rules before jumping back into the action.
    unwieldy, put a token on it
 
 
-### Sarrukan's Chamber 3rd PC variant - The sacrificial guard
+### Sarrukan's Chamber 3rd PC variant - The imprisoned guard
 
 If you've got a 3rd player at the table, add a guard character.
 
@@ -510,9 +512,9 @@ surroundings, and maybe have a dialogue with each other, introduce the
 > [Addressing guard]
 > _ (guard), you are a guard, but also a prisoner awaiting your doom.
 >
-> You were the newest hire in Sarukkan's staff, but you don't think you'll
-> even get that first payday. On day one, you had already noticed some sketchy
-> stuff going on here.
+> You were the newest hire in Sarukkan's staff, but you didn't even get to
+> collect a week's wage before thing went sideways. Even on day one, you
+> noticed some sketchy stuff going on around here.
 >
 > Your supervisor, Yogran the Rat had assigned you the simple duty of yard
 > patrol, and when you passed by the cellar you could swear you heard the
@@ -520,7 +522,7 @@ surroundings, and maybe have a dialogue with each other, introduce the
 > and then he set you up.
 >
 > [Ask the player]
-> What's the offense that Sarukkan has zero tolerance for his employees?
+> What employee offense does Sarukkan have zero tolerance for?
 >
 > [Describe the way Yogran the Rat set up the player's character using that
 > offense]
@@ -539,7 +541,7 @@ surroundings, and maybe have a dialogue with each other, introduce the
 
 # Guidance
 
-Here are 5 gems to come back to whenever you don't know what to say next.
+Here are 6 gems to come back to whenever you don't know what to say next.
 
  * Portray a fantastic world
  * Fill the characters' lives with adventure
@@ -553,13 +555,20 @@ Here are 5 gems to come back to whenever you don't know what to say next.
 
 Firstly, **portray a fantastic world**. Deckahedron World is about
 characters who have decided to take up an adventure in the hopes of some
-glorious reward. It's your job to participate in that by showing the
+fulfilling a strong need. It's your job to participate in that by showing the
 players a world in which their characters can find that adventure. Without
 the player characters in the world, calamity would ruin something precious.
 Maybe even the whole world would fall into chaos or destruction -- it might
-still even with them.  It's up to you to portray the fantastic elements of
+still, even with them.  It's up to you to portray the fantastic elements of
 that world. Show the players the wonders of the world they're in and
 encourage them to react to it.
+
+Always know that the Touchstone List is there to support you in portraying
+this world. Look at the titles you've written there. Remember those books,
+movies and TV shows, and lift something directly from those stories. Lift
+characters, environments, situations, lift whole cities if you want to.
+Remember Picasso's words: "Good artists copy, great artists steal".
+
 
 ## Fill the Characters' Lives With Adventure
 
@@ -802,9 +811,6 @@ dealing damage.
 Most damage is based on a die roll. When a player takes damage, tell
 them what to roll. You never need to touch the dice.
 
-`TODO`
- * Stamina/Harm/Wound damage
- * Damage their weapons and armour
 
 ### Use up their resources
 
@@ -816,17 +822,19 @@ up permanently.
 A sword might be flung to the other side of the room, crossing
 the shimmering barrier might end any ongoing magic effects, etc.
 
-An easy way to decide on what resource to use up is to look to the cards:
+An easy way to decide on what resource to use up is to look to the cards
+in front of a player:
 
  * End ONGOING effects of magic items
  * Place white-side red cards on magic items for temporary charge loss
  * Place black-side red cards on magic items for permanent charge loss
  * Place black-side red cards on mundane items for damage
- * Take away Wealth or Pack cards
+ * Take away Wealth or Pack tokens/cards
  * Tell them to turn a card sideways because they dropped it
  * Take away item cards (careful with this one - use only when appropriate)
+ * Take away marker tokens (ie, those created by Defend, Where It Hurts, etc.)
 
-Note, a GM cannot take green tokens from a player. Use of green tokens
+Note, **a GM cannot take green tokens from a player**. Use of green tokens
 should always be a player choice.
 
 ### Turn Their Move Back On Them
@@ -1151,8 +1159,8 @@ additionally choose any C card that wasn't chosen in the draft.
 
 When players have finished picking cards, ask them what their character
 is called. Have them write the name on the top of their character sheet
-bold and large so that you can read it. Using a felt-tipped marker is
-recommended.
+bold and large so that you can read it. Using large print with a felt-tipped
+marker is recommended.
 
 
 ### Choose Int / Str / Dex
@@ -1207,7 +1215,7 @@ their character is a fire demon or a ten year old shoe-shine boy or a
 computer hacker, a conversation is needed to establish how that character
 can fit into the Deckahedron World rules.
 
-If a player's character reads as too exotic, that might be the player
+If a player's character reads as way too exotic, that might be the player
 signaling that the fun they want to have is playing a different game.
 
 
@@ -1248,8 +1256,8 @@ card, the player takes the tokens.
 
 Risk Drivers help players with less experience in role-playing games
 decide what to do. If they are very useful at your table, you can do the
-risk driver procedure for a player after their character executes the Rest
-move. (If they still had a risk driver, the new risk driver replaces the old)
+risk driver procedure for a players after they finish a period of downtime
+and head out again for adventure.
 
 
 ### Choose Speed / Wealth / Pack
@@ -1258,9 +1266,9 @@ move. (If they still had a risk driver, the new risk driver replaces the old)
 
 The rules for Speed / Wealth / Pack will require some stackable tokens,
 which can be coins or poker chips if you have some. These will be called
-S/W/E tokens throughout this guide.
+S/W/P tokens throughout this guide.
 
-Give each player 6 S/W/E tokens.
+Give each player 6 S/W/P tokens.
 
 > Here are your Speed / Wealth / Pack tokens. I'll explain how they
 > work. To begin, stack all of these up on top of the word "Speed" on
@@ -1280,7 +1288,7 @@ Give each player 6 S/W/E tokens.
 > impossible.
 >
 > When your character carries weapons, armour, and some other items, you're
-> going to take a card with the name of that item on it, take a S/W/E token
+> going to take a card with the name of that item on it, take a S/W/P token
 > off your Speed stack, and put the token on the card (in the case of armour,
 > you might need more than one token).
 >
@@ -1301,7 +1309,7 @@ Give each player 6 S/W/E tokens.
 Help them identify the tags on their move cards then give them the items
 or the choice of items specified in the rules for those cards.
 
-During this phase, as they choose each card, instruct them to move a S/W/E
+During this phase, as they choose each card, instruct them to move a S/W/P
 token from their Speed stack onto the card.
 
 Also, indicate that they get to fill in the blank on the card, so that you
@@ -1355,13 +1363,13 @@ difficulty and cost of using "Use A Magic Item" at the "wild" level.
 > Brought..." move, and say what kind of equipment you had with you.
 >
 > If that equipment is something you return to your backpack after use,
-> write it down on a card and move the tokens from your Pack stack onto
+> write it down on a card and move a token from your Pack stack onto
 > the card. If the equipment gets consumed immediately when you use it,
 > the tokens just move back on top of your Speed stack.
 >
 > Similarly, if you lose an item during your adventuring, you lose the card,
 > but the token goes back onto your Speed stack. Tokens move on and off
-> your Speed stack as you acquire and drop items.
+> your Speed stack as you gain and lose items.
 
 #### Aside: A feather can make you slower
 
@@ -1382,12 +1390,12 @@ anyone expects, or that the magical attunement of the boots sends a
 tingling sensation up the nerves of the wearer's legs.
 
 The player that writes on the card should already know that it will take
-a S/W/E token, so it will be up to them to justify what they wrote.
+a S/W/P token, so it will be up to them to justify what they wrote.
 
 This doesn't mean that every item reduces your speed. After the adventure
 begins, the fiction may produce a letter from the king, or the eggs of a
 cursed salamander -- things that can be tracked by writing them on a card,
-but that don't require a S/W/E token.
+but that don't require a S/W/P token.
 
 
 ### Home / Comfort
@@ -1417,9 +1425,10 @@ Write down the answers.
 
 This is a game where the players play together on the same team.
 
-Ask players if the characters already know each other. If so, how?
-If not, establish the broad strokes of how they will meet and what will
-make them decide to team up.
+Ask the players if their characters already know each other. If so, how?
+If not, **as players** (ie, before they start roleplaying their characters),
+establish the broad strokes of how they will meet and what will make them
+decide to team up. Don't leave anyone out. Get consensus on this set-up.
 
 They should be committed to a shared goal within the first 30 minutes of
 play. Some questions to consider:
@@ -1473,85 +1482,6 @@ the players will probably just be getting the hang of the the flow of the
 game. In session 2, they will probably experience downtime, and be ready
 to understand how moves interact with each other.
 
-
-
-## The Core Game Loop
-
-Deckahedron World has 2 main types of activities, "downtime" activities,
-and "adventure" activities. The game transitions from downtime to
-adventure and back again to downtime, repeating in a "loop".
-
-Adventure activities involve risk, exploration, and confrontation.
-Adventuring will incur costs on the characters in the form of injury,
-damage to items, and lost charges to magic items, but it will also
-let the players build up resources like green tokens and wealth.
-
-Downtime activities are about decisions where the costs and benefits
-are known upfront, like shopping, healing, and studying.
-When injuries and treasures have built up, the players will seek a
-steading to salve their hurts and exchange their loot for new, exciting
-gear, and learn new skills.
-With that done, the players should be excited to try out their new skills
-and gear, and thus head out again for adventure.
-
-Each transition gives the GM a lot of opportunity to shape the narrative,
-so transitions should be considered as a way to move towards earning a point
-in the *Good Bank*.
-
-The core loop is not a rule, nor something a GM needs to enforce, it should
-happen naturally.
-
-### Downtime
-
-If the characters are not in a steading, the available downtime moves are:
-
- * Rest
- * Sharpen and Stitch
- * Seek Help (only if it makes narrative sense)
- * _ Mastery
- * Craft a Weapon
-
-In a steading, the above moves are available as well as:
-
- * Study Under a Master
- * Shop / Procure
- * Obsessive Contemplation
-
-There is an important choice that a player must make during downtime, and
-that is, what to spend their time doing. Their character can't do everything
-in one day. In particular, in one day these moves are mutually exclusive:
-
- * Rest
- * Study Under a Master
- * Shop / Procure
- * Obsessive Contemplation
-
-Additionally, Sharpen and Stitch can only be done while resting, so it is
-effectively mutually exclusive with the latter 3 moves.
-
-If the GM wants to give the players' characters a second day in town before
-any action takes place, a point from the *Good Bank* must be spent.
-
-Otherwise, on the second day, the GM should present some situation that
-demands immediate attention. Put something at risk if necessary. Remember,
-in this dangerous world, nothing is safe or sacred.
-
-The players may still ignore the situation and keep performing downtime moves
-on the second day -- in that case, narrative consequences should be honestly
-described. What opportunity has been forever lost? What did the adversaries
-in the world accomplish because the heroes ignored them?
-
-### Adventure
-
-The adventure activities are where the players' characters take risks and get
-into conflicts. To get out of their literal comfort zone, they must have
-motivations.
-
-If the players at the table are not yet inventing their own motivations for
-their characters, Risk Driver cards can be created again.
-
-when the transition from downtime to adventure happens, choose risk drivers
-using the procedure [described above](#choosing_risk_drivers).
 
 
 
@@ -1772,7 +1702,8 @@ making a choice you didn't expect.
 
 Being prepared is different than having a plan. No game ever goes according
 to a plan. The purpose of preparation is to use your imagination to assemble
-a cabinet of narrative spices. Wait until you play to find out what happens.
+a cabinet of narrative spices. Wait until you play to find out the details
+of what happens.
 
 
 # Start of Session
@@ -1861,6 +1792,86 @@ If every player has had a chance to get satisfactory feedback it's time
 to dole out green tokens. Give a new one to each player.
 
 
+## The Core Game Loop
+
+Deckahedron World has 2 main types of activities, "downtime" activities,
+and "adventure" activities. The game transitions from downtime to
+adventure and back again to downtime, repeating in a "loop".
+
+Adventure activities involve risk, exploration, and confrontation.
+Adventuring will incur costs on the characters in the form of injury,
+damage to items, and lost charges to magic items, but it will also
+let the players build up resources like green tokens and wealth.
+
+Downtime activities are about decisions where the costs and benefits
+are known upfront, like shopping, healing, and studying.
+When injuries and treasures have built up, the players will seek a
+steading to salve their hurts and exchange their loot for new, exciting
+gear, and learn new skills.
+With that done, the players should be excited to try out their new skills
+and gear, and thus head out again for adventure.
+
+Each transition gives the GM a lot of opportunity to shape the narrative,
+so transitions should be considered as a way to move towards earning a point
+in the *Good Bank*.
+
+The core loop is not a rule, nor something a GM needs to enforce, it should
+happen naturally.
+
+### Downtime
+
+If the characters are not in a steading, the available downtime moves are:
+
+ * Rest
+ * Sharpen and Stitch
+ * Seek Help (only if it makes narrative sense)
+ * _ Mastery
+ * Craft a Weapon
+
+In a steading, the above moves are available as well as:
+
+ * Study Under a Master
+ * Shop / Procure
+ * Obsessive Contemplation
+
+There is an important choice that a player must make during downtime, and
+that is, what to spend their time doing. Their character can't do everything
+in one day. In particular, in one day these moves are mutually exclusive:
+
+ * Rest
+ * Study Under a Master
+ * Shop / Procure
+ * Obsessive Contemplation
+
+Additionally, Sharpen and Stitch can only be done while resting, so it is
+effectively mutually exclusive with the latter 3 moves.
+
+If the GM wants to give the players' characters a second day in town before
+any action takes place, a point from the *Good Bank* must be spent.
+
+Otherwise, on the second day, the GM should present some situation that
+demands immediate attention. Put something at risk if necessary. Remember,
+in this dangerous world, nothing is safe or sacred.
+
+The players may still ignore the situation and keep performing downtime moves
+on the second day -- in that case, narrative consequences should be honestly
+described. What opportunity has been forever lost? What did the adversaries
+in the world accomplish because the heroes ignored them?
+
+### Adventure
+
+The adventure activities are where the players' characters take risks and get
+into conflicts. To get out of their literal comfort zone, they must have
+motivations.
+
+If the players at the table are not yet inventing their own motivations for
+their characters, Risk Driver cards can be created again.
+
+When the transition from downtime to adventure happens, choose risk drivers
+using the procedure [described above](#choosing_risk_drivers).
+(If they still had a risk driver, the new risk driver replaces the old)
+
+
 # Using the Good Bank
 
 The good bank is used to create certain kinds of "Deus Ex Machina"
@@ -1895,7 +1906,7 @@ If the last option is chosen, the maximum amount of advantage is given, causing
 a flip-3-take-best flip. In this particular situation, the GM must choose
 to give advantage to the Mix It Up move or to the Goreography move.
 Even though Goreography has a maximum Move Level of "expert", using a point
-from the *Good Bank* always gives you a flip-3-take-best flip.
+from the *Good Bank* **always** gives you a flip-3-take-best flip.
 
 Here is what the GM can **not** do: the GM cannot tell the player to flip
 with an advantage just because they're the GM and they think it makes sense.
@@ -1942,7 +1953,8 @@ to act as often as each player does.
 
 In order to give the players' characters a second day of peace and quiet
 in a steading, so that multiple time-consuming downtime actions can be
-made in a row, a point from the *Good Bank* must be spent.
+made in a row without any bad consequences happening in the narrative,
+a point from the *Good Bank* must be spent.
 
 ## Resurrect a Character
 
@@ -2087,7 +2099,7 @@ Monsters have special attacks
 Monsters can be generated by mixing two or more concepts, as long as one
 of those concepts invokes fear.
 
- * big
+ * giant
  * tiny
  * multiple
  * airborne
@@ -2147,12 +2159,34 @@ Also: bestiaries! See:
 
 ## Villains (aka "Bosses", aka "The Big Bad")
 
-Villains have desires. Usually a desire is fundamentally simple (freedom,
-revenge, control, love, satiation) but a story is interesting (and provides
-more interaction options for the players) if the means to acheive the
-desire is complicated.
+A villian or arch-enemy is not necessary, but can be a very useful tool.
+Having one "mastermind" behind all the badness in an adventure creates a
+very focused point of attention when the characters make decisions about
+what to do next.
 
-To get ideas for motivations, you can check out the **Hooks** section in the
+Villains have desires. Usually a desire is fundamentally simple, but a story
+is interesting (and provides more interaction options for the players) if the
+*means to acheive* the desire is *complicated*.
+
+Voldemort wants *control*, but doesn't run for office, instead he hides 7
+horcruxes behind monsters and puzzles, then buries himself as a parasite
+underneath his sycophant's turban.
+
+Darth Vader wants *order*, so must build a moon-sized laser beam, blow up
+all the rebellious planets, promote and demote military subordinates, and
+convince his estranged son on the value of theocratic rule.
+
+Some fundamentally simple desires:
+
+ * freedom
+ * revenge
+ * orderliness
+ * control
+ * love / infatuation
+ * satiation
+
+To get more ideas for desires, you can use the same **Hooks** section that
+is used to motivate player characters in the
 [Campaigns Guide](mod_deckahedron_world_campaigns.md).
 
 Think about your villain as a full person. You will have to improvise their
