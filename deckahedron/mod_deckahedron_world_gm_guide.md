@@ -1510,7 +1510,7 @@ Beside that, draw ticks for their Stamina points.
 Finally, draw boxes with "H" or "H/W" next to them to represent how
 if they can absorb Harm or Wounds.
 
-![GM Worksheet](images/gm_worksheet.png){ width=7cm }
+![GM Worksheet](images/gm_worksheet_filled.png){ width=7cm }
 
 Opponents' Stamina and attack power should be realistically scaled
 to the "scrappy adventurer" level of the players. This table should help.
