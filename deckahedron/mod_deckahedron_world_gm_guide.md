@@ -1066,6 +1066,7 @@ The GM needs a sheet of paper to make notes and track information.
 At the top of the sheet write the headings "Good Bank" and "Bad Bank".
 Leave enough space to track the points under each of those headings.
 
+![GM Worksheet](images/gm_worksheet.png){ width=7cm }
 
 ### Set Expectations
 
@@ -1509,7 +1510,7 @@ Beside that, draw ticks for their Stamina points.
 Finally, draw boxes with "H" or "H/W" next to them to represent how
 if they can absorb Harm or Wounds.
 
-`TODO: insert image of GM Worksheet`
+![GM Worksheet](images/gm_worksheet.png){ width=7cm }
 
 Opponents' Stamina and attack power should be realistically scaled
 to the "scrappy adventurer" level of the players. This table should help.
