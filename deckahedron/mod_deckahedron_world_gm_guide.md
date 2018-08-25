@@ -1598,7 +1598,7 @@ to get you through a fight scene.
 Deckahedron World doesn't have turns, but it's ok if moving the spotlight
 during combat makes it feel that way.
 
-#### Format 1
+### Format 1
 
 This format is simple, and gives the players the most agency.
 
@@ -1613,7 +1613,7 @@ This format is simple, and gives the players the most agency.
     character. Use an attack power die from one attacker, and add 1 attack
     power for each other attacker
 
-#### Format 2
+### Format 2
 
 This format makes the opponents more of a threat.
 
@@ -1634,7 +1634,7 @@ This format makes the opponents more of a threat.
       * ✅ : no attack power die is rolled,
         but 1 attack power per attacker (so 3 foes = 3 attack power)
 
-#### Format 3
+### Format 3
 
 This format imagines the opponents as particularly quick and aggressive.
 
@@ -1650,10 +1650,19 @@ This format imagines the opponents as particularly quick and aggressive.
     (See Backstab, Bum Rush, Volley)
 
 
-`TODO`
-This is just guidelines
-You have power - it's mostly in the narrative
-What kind of GM move do you do in response to failed flips?
+### Your Format
+
+These combat format suggestions are just that - suggestions. Players often
+think up creative solutions or approaches that you won't have predicted
+beforehand, and that might break one of the above formats.
+The key is to be true to the established fiction. Also realize that you have
+power to introduce facts into the fiction. For instance, what kind of GM move
+you choose in response to player's failed flips.
+
+A GM's role is not to be the opponent of the players. You're not trying to
+make their characters *die*. On the contrary, you should be a big fan of the
+characters in the story being created. The best story is one where they
+struggle, but succeed.
 
 
 ## Loot
@@ -1690,7 +1699,8 @@ a player particularly keen to create backstory, to get into combat, to ask
 a lot of questions about how the world works? Can you think of things to go
 into the next session to provide that kind of fun?
 
-Think about the plot and how to get your next couple points in the Good Bank.
+Think about the plot and how you might get your next couple points in the
+*Good Bank*.
 Do you think the characters will make certain decisions? You might imagine 2
 or 3 key decisions the party will be confronted with. For every fork in the
 road, try to imagine how the world and NPCs will respond when the characters
@@ -1702,9 +1712,15 @@ There is no *correct* answer for the characters. Never punish a player for
 making a choice you didn't expect.
 
 Being prepared is different than having a plan. No game ever goes according
-to a plan. The purpose of preparation is to use your imagination to assemble
-a cabinet of narrative spices. Wait until you play to find out the details
-of what happens.
+to a plan.
+
+The purpose of preparation is to use your imagination to assemble a cabinet
+of narrative spices. At the beginning, you won't know if you're baking a pie
+or a casserole. You don't even get to see the recipe upfront, it
+is slowly revealed to you as each ingredient is added to the bowl.
+Have some cinnamon and sugar ready, but also have some salt and chili powder.
+
+Wait until you play to find out the details of what happens.
 
 
 # Start of Session
@@ -1875,7 +1891,7 @@ using the procedure [described above](#choosing_risk_drivers).
 
 # Using the Good Bank
 
-The good bank is used to create certain kinds of "Deus Ex Machina"
+The *Good Bank* is used to create certain kinds of "Deus Ex Machina"
 situations to benefit the players' characters.
 
 ## Create Advantages

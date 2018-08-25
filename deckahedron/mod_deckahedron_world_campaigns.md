@@ -115,6 +115,34 @@ comfort, mark a point in your *Good Bank*. You *did* remember to follow
 the rules in the Character Creation and ask the players where their
 characters feel most at home, right?
 
+Give the players a chance to establish what normal is for their characters.
+This is an environment that they can manage. They know what to expect here,
+and to survive here requires no fundamental change on their part.
+
+Here, the players can get a feel for taking actions and having some dialogue
+in-character.
+Perhaps they have some interactions with NPCs familiar to them.
+Perhaps they describe their character moving through the environment and
+pointing out specific details.
+Perhaps the charcters get into conflict: social, or physical.
+
+As you are playing this out, you should be looking out for two things:
+
+ 1. Opportunities to establish a need that will move the story to Chapter 2
+   * signs of an approaching threat
+   * what about their home annoys, frustrates, or threatens them?
+ 2. A premise. Listen for a statement or action that asserts a fundamental truth
+   * "Nobody bakes a pie like Herbert"
+   * "Shelbyville thinks they're so great, but really, they stink"
+   * "I'm just a Hobbit, I can't steal from a dragon"
+   * "Things will go on like this forever"
+   * "As long as there's a tree to climb, I don't have to worry about wolves"
+   * "If only you could see things from my perspective"
+
+You should make a note of any premise, so you can use it later when creating
+puzzles, monsters and villains.
+
+
 ## Chapter 2: Cross a threshold with a true choice
 
 As the game progresses, the conversation at the table will start
@@ -548,8 +576,8 @@ An "arc" of 3 9-hour campaigns
    * Chapter 7 should return them to a different "world"
  * Third Book - Start with 0 Good Bank points, carry over the Bad Bank points
    * Bad Bank points grow at double the rate.
-     - ✗ adds 2 points to the Bad Bank
-     - on IMMEDIATE moves, ✗✗ adds 4 points to the Bad Bank
+     - ✅ adds 2 points to the Bad Bank
+     - on IMMEDIATE moves, ✗ adds 4 points to the Bad Bank
    * Challenge the character changes made earlier - what boons will the
      characters give up to achieve an even greater one
 

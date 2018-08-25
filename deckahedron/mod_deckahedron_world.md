@@ -134,7 +134,7 @@ Put it down so that the GM can read the result.
 
 ![Illustration of flipping a card](images/component_flip.png){ width=2.5inch }
 
-The top of the flipped card shows ✗s or ✔s.
+The top of the flipped card shows ✗ or ✔s.
 These tell you the result of the move.
 When you flip, be consistent with how you orient the card so the GM can easily
 read it. This helps simplify the GM's bookkeeping and keeps the game fast-paced.
@@ -202,7 +202,7 @@ All cards that got flipped go face-up in your *discard pile*.
 #### Complete Flip Rule
 
 You must flip over all the cards you were instructed to, even if the first
-card shows ✔✔.
+card shows ✔✔✔.
 
 ### Disadvantage
 
@@ -211,8 +211,9 @@ With a disadvantage, do the same thing, but use the **worst** result.
 ### Multiple Advantages / Disadvantages
 
 For a given flip, you may be instructed to add two advantage cards or two
-disadvantage cards.  This means you flip **3 cards in total** and take
-the **best** or **worst**, respectively.
+disadvantage cards.
+This means you flip **3 cards in total** and take the **best**
+or **worst**, respectively.
 
 No flip may use more than 3 cards in total, so adding advantage cards
 beyond 2 is just ignored.
@@ -310,7 +311,7 @@ move card.
 Usually ✔✔✔ means an unfettered success, and ✔✔ means success,
 but with complication.
 
-When the result is a single ✔, it sometimes means the same as a ✔✔,
+When the result is a single ✅, it sometimes means the same as a ✔✔,
 but often it is slightly worse.
 
 Any time a flip results in a single ✔ the GM should add a point to
@@ -324,9 +325,9 @@ take the narrative where they like.
 See the GM Guide for explanations of the *Bad Bank* and for a list of moves
 the GM is allowed to make.
 
-### Exceptions on ✔ and ✗ flips
+### Exceptions on ✅ and ✗ flips
 
-Sometimes a card does not say how a ✔ should be interpreted. In that case,
+Sometimes a card does not say how a ✅ should be interpreted. In that case,
 the GM gets to make a move, just like ✗.
 
 Rarely, a card will have instructions for how to interpret a ✗ result.
@@ -815,7 +816,8 @@ cards they want.
 When combat or a pursuit ends, and it is appropriate for the narrative
 (e.g. when there's a scene transition and the characters reasonably have
 a few minutes to catch their breath), the players may **Take a Breather**
-using Str as an IMMEDIATE move (ie, no negative consequences to ✗ or ✅).
+using Str as an IMMEDIATE move (ie, no negative narrative consequences
+if the result is ✗ or ✅).
 
 
 
@@ -919,6 +921,9 @@ each player gets a green token.
 If your gaming session includes food or drink, the Session Opener can be
 ceremonialized by refraining from the first bite or the first sip until
 the Session Opener has been completed.
+
+Another idea to add some ritual is to start some exciting,
+adventure-appropriate music when the Session Opener concludes.
 
 
 # More Moves - Rest, Seek Help
