@@ -448,6 +448,14 @@ narrative.  Did your character dive into the dirt?  Did they take a punch
 to the jaw and respond with a bloodied grin?  Did the spear bounce right
 off their steel breastplate?
 
+    GM Note: The act of taking a risk, deciding how to get hurt, and then
+    later, deciding when and how to heal, with each stage having its
+    sacrifices and benefits, is intended to echo the overall structure of
+    the Hero's Journey campaign. Starting in comfort, choosing to cross a
+    threshold, deciding which fork to take in a road of trials,
+    then returning.
+
+
 ## First Phase
 
 When your character suffers the consequences of violence, you roll dice or
