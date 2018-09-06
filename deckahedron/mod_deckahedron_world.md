@@ -943,11 +943,10 @@ from their injuries.
 This is a small-scale echo of the whole story - the Hero's Journey itself.
 At the center of the Hero's Journey is a moment of pain that the hero
 must fully endure before finding relief - either through their own action or
-with the help of their friends.
+with the help of their friends. The Hero's Journey is a myth that teaches
+us how to take care of ourselves, so this game holds a puzzle where the
+players to learn how to take care of their characters.
 
-One should note that, in a steading, players usually get to choose between
-Seek Help and Rest, and this choice may have more to do with their
-character's blame / forgiveness arc than how hurt their body is.
 
 ## Resting
 
