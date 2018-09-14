@@ -551,23 +551,33 @@ Here are 6 gems to come back to whenever you don't know what to say next.
  * Drive towards your next point in the *Good Bank*
 
 
-## Portray a Fantastic World
+## Portray the World of the Touchstone List
 
-Firstly, **portray a fantastic world**. Deckahedron World is about
-characters who have decided to take up an adventure in the hopes of some
-fulfilling a strong need. It's your job to participate in that by showing the
-players a world in which their characters can find that adventure. Without
-the player characters in the world, calamity would ruin something precious.
+Firstly, **portray the world of the Touchstone List**.
+Deckahedron World is about characters who have decided to take up an
+adventure in the hopes of some fulfilling a strong need. It's your job
+to participate in that by showing the players a world in which their
+characters can find that adventure.
+Without the player characters in the world, calamity would ruin something
+precious.
 Maybe even the whole world would fall into chaos or destruction -- it might
-still, even with them.  It's up to you to portray the fantastic elements of
-that world. Show the players the wonders of the world they're in and
-encourage them to react to it.
+still, even with them.
+It's up to you to portray the fantastic and bizzare elements of that world.
+Show the players the wonders of the world they're in and encourage them to
+react to it.
 
 Always know that the Touchstone List is there to support you in portraying
-this world. Look at the titles you've written there. Remember those books,
+this world. Look at the titles written there. Remember those books,
 movies and TV shows, and lift something directly from those stories. Lift
-characters, environments, situations, lift whole cities if you want to.
+animals, characters, environments, situations, lift whole cities if you
+want to.
 Remember Picasso's words: "Good artists copy, great artists steal".
+
+The main point is to describe and emphasize the fictional situation to the
+players at the table. Give the players details so that they can grasp the
+stakes of their decisions.
+Give the players inspiring material to help them come up with answers when
+you ask them questions.
 
 
 ## Fill the Characters' Lives With Adventure
@@ -586,7 +596,7 @@ honestly portray the repercussions of that action.
 ## Move the spotlight
 
 The general attention of people sitting at the table is called "the
-spotlight". People tend to talk one-at-a-time, while all others wait in
+spotlight". Participants tend to talk one-at-a-time, while all others wait in
 excited anticipation.
 
 The GM is tasked with managing the "when" of the spotlight. When does one
@@ -923,7 +933,7 @@ they have an opportunity to earn themselves a point in the *Good Bank* by
 taking the plot to another milestone in the Hero's Journey.
 
 Look to the [Campaigns Guide](mod_deckahedron_world_campaigns.md) and
-decide which milestone the current fictional situation has a good set-up
+decide which milestone the current fictional situation is well set-up
 for.
 
 Remember that the players don't have to bite on every hook. Don't fight it
