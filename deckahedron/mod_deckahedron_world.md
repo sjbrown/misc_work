@@ -672,6 +672,21 @@ then all 10 must be in the *Exhaustion pile*. In this case, the character
 is *incapacitated* and can take no further actions.
 
 
+# Pursuits
+
+ * Int
+   * Hiding
+   * Using words to influence a crowd
+ * Str
+   * Climbing a wall
+   * Making a great leap
+ * Dex
+   * Sliding / tumbling down an embankment
+   * Dancing across a precarious rooftop
+   * Jumping from the second floor onto a waiting horse
+
+##
+
 # Speed/Wealth/Pack
 
 Your character has a movement speed,
@@ -728,7 +743,21 @@ or an old pork chop would really *solve a problem* for your character.
 
 When your character reaches into their pack and produces the item that
 solves their current problem or helps them overcome a challenge, just say
-what it is and spend the tokens.
+what it is and execute the "Good Thing I Brought..." move.
+
+The Pack cards represent the adventuring gear a character has brought along.
+If that equipment is something that can be returned to the backpack after
+use, write its name down on a card and place that card onto the Pack slot
+of the Slot Card, taking the place of the 1 or 2 red cards that were the
+cost of "Good Thing I Brought...".
+
+If the equipment is something that gets consumed immediately when used,
+the 1 or 2 red cards just get discarded.
+
+If 2 red cards are spent, and the character ends up with one card returning
+to their backpack, use the fiction to justify that.  Maybe they didn't have
+*exactly* what they needed, so one piece of equipment had to be consumed
+to create the necessary tool, in a MacGuyver-esque fashion.
 
 ## Do a Flashback
 

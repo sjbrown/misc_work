@@ -482,15 +482,14 @@ Ask the table if they want to keep going with this scenario. If not, just
 skip forward to the Touchstone List. But if they do want to continue, add in
 the next layer of rules before jumping back into the action.
 
- * Tell the players how the Speed / Wealth / Pack rules work.
- * Give them each 6 S/W/P tokens.
- * The characters do not get to put any tokens in Wealth or Pack,
-   as they were just prisoners
+ * Give them each their 2 Slot Cards.
+ * Tell the players how the Slot Card rules work.
+ * The characters do not get any Pack cards, as they were just prisoners
  * Any character still wearing their elaborate costume should get a card
-   entitled "Costume", and one token should be put on the card
- * If the characters have any significant items during their
+   entitled "Costume". This is an item, so it should be put on a item slot.
+ * If the characters have aquired any significant items during their
    adventure so far, make a card for that and if the item is heavy or
-   unwieldy, put a token on it
+   unwieldy, put it on an item slot.
 
 
 ### Sarrukan's Chamber 3rd PC variant - The imprisoned guard
@@ -1271,43 +1270,52 @@ risk driver procedure for a players after they finish a period of downtime
 and head out again for adventure.
 
 
-### Choose Speed / Wealth / Pack
+### Distribute Slot Cards
 
-`TODO: illustration`
+`TODO: illustration of Slot Cards`
 
-The rules for Speed / Wealth / Pack will require some stackable tokens,
-which can be coins or poker chips if you have some. These will be called
-S/W/P tokens throughout this guide.
+Give each player their 2 Slot Cards.
 
-Give each player 6 S/W/P tokens.
-
-> Here are your Speed / Wealth / Pack tokens. I'll explain how they
-> work. To begin, stack all of these up on top of the word "Speed" on
-> your character sheet.
+> Here are your Slot Cards. I'll explain how they work. Notice that they
+> have a face that says "ENCUMBERED" and one that doesn't. Place them in
+> front of you with the "unencumbered" face up.
 >
-> [Wait for them to find it]
->
-> Your character now "has 6 Speed", which basically means they're not
-> carrying anything that would slow them down or trip them up. If they
+> Right now all your slots are empty, which basically means your character
+> is not carrying anything that would slow them down or trip them up. If they
 > need to dive through a window, sprint away from a foe, or move lightly
-> through a crowded room, they'll have no problem. As long as your Speed
-> is 4 or more, any such maneuvers will be easy.
+> through a crowded room, they'll have no problem. As long as you don't flip
+> a Slot Card over to the "ENCUMBERED" face, any such maneuvers will be easy.
 >
-> But when you go below 4 Speed, you start having trouble doing those
-> things. Sometimes, like with the move "Bravely Run Away" there's an added
-> cost, and other times, like with "Pick Pockets", the move is just
-> impossible.
+> But when you flip a Slot Card over, your character starts having trouble
+> doing those things. Any time the word "ENCUMBERED" is visible, your
+> character is considered encumbered, and this affects their ability to
+> perform certain moves. Sometimes, like with the move "Bravely Run Away",
+> there's an added cost, and other times, like with "Pick Pockets", the move
+> is just impossible.
+>
+> One Slot Card is for your items, it has the word "Item" printed in each
+> slot ("slots" are just areas with a dashed outline).
+> The other Slot Card is for your Wealth and Pack.
 >
 > When your character carries weapons, armour, and some other items, you're
-> going to take a card with the name of that item on it, take a S/W/P token
-> off your Speed stack, and put the token on the card (in the case of armour,
-> you might need more than one token).
+> going to take an item card, and place it so that it fits on an item slot.
+> If there are no open slots on the
+> "unencumbered" face of the Slot Card, you will need to either flip over
+> the Slot Card to the "ENCUMBERED" face, or decide which other item
+> your character is going to drop or store away.
 >
-> You'll probably notice the other words next to Speed on your character
-> sheet, "Wealth" and "Pack". Tokens placed on these spots can be used
-> with the "Good Thing I Brought..." or "Shop / Procure" moves. They're
-> not necessary when starting out, but you can have a look at the Player's
-> Guide to find out more.
+> (in the case of armour, the item card might occupy more than one open slot)
+>
+> One Slot Card is for items, and the other is for "Wealth" and "Pack".
+> Cards placed on the Wealth and Pack slots can be used
+> with moves like "Good Thing I Brought..." and "Shop / Procure". These moves
+> aren't relevant until later on in the game, so have a look at the Player's
+> Guide if you're curious, but for now just take two Pack cards and we'll
+> move on to items.
+
+Give each player 2 Pack cards. Pack cards are just white-side red cards,
+but when they're slotted into the Slot Card, they're understood to be Pack
+cards.
 
 
 ### Choose Items and Weapons
@@ -1317,14 +1325,19 @@ Give each player 6 S/W/P tokens.
 > We'll start with the mandatory stuff, does anyone have a Move Card that
 > has a "RECEIVE CARDS" tag on it?
 
+#### RECEIVE CARDS phase
+
 Help them identify the tags on their move cards then give them the items
 or the choice of items specified in the rules for those cards.
 
-During this phase, as they choose each card, instruct them to move a S/W/P
-token from their Speed stack onto the card.
+During this phase, as they choose each card, instruct them to place it on
+a slot on their Slot Card (unless the rules on the specific card
+instruct otherwise).
 
 Also, indicate that they get to fill in the blank on the card, so that you
 and they know exactly what kind of item the character posesses.
+
+#### 2 Item Cards phase
 
 > Next, everyone gets to choose 2 item cards for your character, these can
 > be weapons, armour, or any other items that have mechanical significance.
@@ -1359,28 +1372,15 @@ second copy.
 
 Players don't have to choose only from weapons, armour and shields.
 After the cards due players with RECEIVE CARDS tagged cards are chosen,
-each player can choose at most 1 magic item card during character creation
-as one of their 2 item cards. They can take one even if they didn't choose
-the "Use A Magic Item" move card. Make sure the player understands the
-difficulty and cost of using "Use A Magic Item" at the "wild" level.
+each player can choose at most 1 magic item card as one of their 2
+starting item cards. They can take one even if they didn't choose
+the "Use A Magic Item" move card, but if they so choose, make sure they
+understand the difficulty and cost of attempting "Use A Magic Item"
+at the "wild" level.
 
 `TODO: link to weapon and armor lists`
 
-> Finally, you may now choose to put any number of tokens you want
-> from your Speed stack onto your Pack stack. This Pack stack represents
-> the adventuring gear you brought with you. We don't have to actually
-> detail the specific contents of your backpack though. Instead, when you
-> need some equipment to solve a problem, you will use the "Good Thing I
-> Brought..." move, and say what kind of equipment you had with you.
->
-> If that equipment is something you return to your backpack after use,
-> write it down on a card and move a token from your Pack stack onto
-> the card. If the equipment gets consumed immediately when you use it,
-> the tokens just move back on top of your Speed stack.
->
-> Similarly, if you lose an item during your adventuring, you lose the card,
-> but the token goes back onto your Speed stack. Tokens move on and off
-> your Speed stack as you gain and lose items.
+
 
 #### Aside: A feather can make you slower
 

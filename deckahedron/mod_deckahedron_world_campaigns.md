@@ -438,6 +438,9 @@ balance.
 Using dreamlike and mystical imagery in your exposition can be a great way
 to dress the stage.
 
+Taking a moment to put on a fitting music track can be especially effective
+in Chapter 5.
+
 Tell your players how you interpret the plot so far. Revisit where they've
 been, reinforce where they've arrived and say what it all means to you.
 Not as the sole author of a story, but as an interpreter of your shared
@@ -451,7 +454,8 @@ Go around to each player and ask them
  * Will your character sacrifice their life for something valuable in the
    plot? If so, what, and why?
  * Have the events of this journey caused your character to give up a
-   *fundamental* belief or relationship they held at the beginning of the game?
+   "premise" -- a *fundamental* belief or relationship they held at the
+   beginning of the game?
 
 Make a note of all the answers.
 
