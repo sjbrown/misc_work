@@ -6,9 +6,9 @@ Like board games? Remember Dungeons & Dragons? Want to try improv?
 Welcome to Deckahedron World!
 
 
-# Welcome to Role-Playing
+# Welcome to Roleplaying
 
-Deckahedron World is a system for telling a story. The authors of the story
+Deckahedron World is a framework for telling a story. The authors of the story
 are you and your friends, sitting around a table.
 
 This story is improvisational, interactive, and collaborative.
