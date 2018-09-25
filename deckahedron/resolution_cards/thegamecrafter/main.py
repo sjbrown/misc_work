@@ -7,6 +7,7 @@ from datetime import datetime
 import core
 import objects
 
+VERSION = '0.89'
 user = None
 game = None
 
@@ -15,11 +16,11 @@ def main():
     user = objects.User()
     game = objects.Game(user, 'Game-%s' % now_str)
 
-    game.make_poker_deck('/tmp/cards_v0.88/move_deck')
-    game.make_poker_deck('/tmp/cards_v0.88/level_deck')
-    game.make_poker_deck('/tmp/cards_v0.88/mundane_deck')
-    game.make_poker_deck('/tmp/cards_v0.88/magic_deck')
-    game.make_booklet('/tmp/cards_v0.88/booklet')
+    game.make_poker_deck('/tmp/cards_v%s/move_deck' % VERSION)
+    game.make_poker_deck('/tmp/cards_v%s/level_deck' % VERSION)
+    game.make_poker_deck('/tmp/cards_v%s/mundane_deck' % VERSION)
+    game.make_poker_deck('/tmp/cards_v%s/magic_deck' % VERSION)
+    game.make_booklet('/tmp/cards_v%s/booklet' % VERSION)
     game.make_square_deck('/tmp/cards')
     game.make_square_deck('/tmp/cards/red')
     game.make_square_deck('/tmp/cards/green')
