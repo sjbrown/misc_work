@@ -39,6 +39,10 @@ friends together at a table with the following components.
  * 3 Pencils
  * 3 different colored felt-tip pens (optional)
 
+When you draw permanent marks that are role-related, it can be useful to
+use a colored felt-tip pen, with each role assigned a specific color.
+
+
 ### Creating your band
 
 You are going to be playing as three members of a band, and each of you will
@@ -47,7 +51,7 @@ role, responsible for percussion and rhythm. One will play the **Melody**
 role, responsible for the melody. One will play the **Front** role, and often
 stands in the spotlight and interacts with the live audience.
 
-Decide who wants to play each role, then take a character sheet and fill in
+Decide who will play each role, then take a character sheet and fill in
 some of the blanks:
 
  * write down your role on the character sheet
@@ -60,12 +64,17 @@ some of the blanks:
    * Melody:
      * Whenever you Live the Life, take 10 of the band's COIN
    * Front:
-     * Whenever the band gets ✰, gain (✰×2×CLOUT) COMMITMENT
+     * Whenever the band gets ✰, gain (✰×(2+CLOUT)) COMMITMENT
+ * Live the Life for a cost of 0 COMMITMENT and fill in one bubble in either
+   your Intensity or your Craft track.
 
-When you draw permanent marks that are role-related, it can be useful to
-use a colored felt-tip pen, with each role assigned a specific color.
+Take the Band sheet and give yourselves a band name.
 
-Take the Band sheet
+Your band starts its career with one original song. Name the song and write
+it down on the song sheet.
+
+Your band's career is made up of a series of "gigs". In this game, you play
+a gig, do a downtime activity, go to the studio, then draw new gig cards, and
 
 ## Playing a Gig
 
