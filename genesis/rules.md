@@ -107,8 +107,8 @@ to play a cover (ie, just roll a single 6-sided die).
 
 Just like when gigging, play the one song you have chosen. But only use
 your character.
-For the two missing roles, you will use "studio musicians" - stand-ins who
-have no Craft nor Intensity powers.
+For the missing roles of your former bandmates, you will use "studio
+musicians" - stand-ins who have no Craft nor Intensity powers.
 Each player may do this in parallel.
 
 #### Step 3 - Build your fanbase
@@ -128,8 +128,90 @@ The player with the most CROWD goes solo and wins the game.
 At the beginning of the game, split the gig cards into "locked" and
 "unlocked" decks.
 
+Tastes and trends change in music, and the gigs that were available last
+week might not be available this week.
+
+ * Shuffle the "unlocked" deck.
+ * Burn one of the "unlocked" gig cards - remove it from the game.
+   * **Special rule**: only at the beginning of the game, you **do not**
+     burn one of the Gig cards.
+ * Lay out four gig cards face-up
+ * The band will now choose one of the face-up Gig cards by consensus
+   * If the gig card has requirements the band must meet them
+ * If consensus cannot be reached, the band breaks up
+
+### Meeting Gig Requirements
+
+If a gig requires a minimum number of CROWD, that is the minimum amount
+of crowd **the band** must have.  If the band doesn't quite have enough
+CROWD for a gig, band members can bring their friends to the show.
+
+But there is a cost to bring friends out to a gig. You might need to
+provide transportation or promise your friends some freebies to get them
+to come out. But it won't cost as much if the band has started making a
+name for itself.
+
+For every amount of COIN you spend shown on the ⛟ symbol of the gig card,
+CLOUT of your friends will come see the show, up to the maximum of your
+personal CROWD.
+
+For example, let's take a gig that requires 20 CROWD, and the band only
+has 15 CROWD.  The band, which has 2 CLOUT, wants to play this gig, which
+has a ⛟ symbol showing 3. Player 1 has 5 CROWD and Player 2 has 3 CROWD.
+
+So the players need to cover the 5 CROWD difference between 20 and 15.
+
+Player 1 spends 3 COIN, the amount shown on the ⛟ symbol. Since the band
+has 2 CLOUT, this brings 2 of Player 1's friends to the show.
+
+Now there is a 3 CROWD difference between 20 and 15.
+
+Player 2 spends 6 COIN, 2× amount shown on the ⛟ symbol. Since the band
+has 2 CLOUT, this could bring 4 of Player 2's friends to the show, but
+since they only have 3 CROWD, it only brings the maximum, 3 friends.
+
+Now there 20 people coming to the show, so the band qualifies to play
+the gig.
+
+**Note**, when you bring friends to a show, **do not modify** your CROWD
+or the band's CROWD.
+
 
 ## Playing a Gig
+
+Every gig card has a chart that tells you what gig score you need to get
+to get ✰ (or whether you bomb).
+
+Build up your gig score by playing "covers", "originals", and "recorded
+originals".
+
+### Playing "covers"
+
+Most gigs allow you to play covers.  To play a cover, just roll a
+six-sided die, and add that number to your gig score.
+
+### Playing recorded originals
+
+Just add the recorded score to your gig score.
+
+You cannot play an original more than once per gig, whether it is recorded
+or not.
+
+### Playing originals
+
+You cannot play an original more than once per gig.
+
+Set the song sheet in the middle of the table. On the song sheet are columns
+of squares. Each column is called a "song part".
+
+
+
+
+
+### Taking your points
+
+(If you gain CLOUT, you might unlock new Gig cards - add them to the
+"unlocked" Gig deck)
 
 
 ## Downtime Phase
