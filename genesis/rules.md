@@ -204,14 +204,56 @@ You cannot play an original more than once per gig.
 Set the song sheet in the middle of the table. On the song sheet are columns
 of squares. Each column is called a "song part".
 
+The bottom row is for the **Beats** player, the middle, for the **Melody**
+player, and the top for the **Front** player.
+The song parts get played in order, left-to-right.
 
+The **Beats** player usually starts each song part, but, for bridges
+and solos, the song part is started by the player with the lowest open square
+in that column.
 
+This player gathers six-sided dice, equal to the number of squares in the
+column. If this is the first song part of a song, they add one more die.
+Then they roll them all. These are called the "available pool" of dice.
 
+That same player then gets to choose one die out of the available pool and
+place it into their square in the column. From bottom to top, the other
+players take a turn choosing one die out of the available pool and putting
+it into their square until all squares in the column are full.
 
-### Taking your points
+Usually, there will be one unchosen die. That die stays in the available pool.
+
+For every song part in the song, this process is repeated: the starting
+player takes 1-3 dice, rolls them into the available pool, then each player
+with a square in the column chooses and places a die.
+
+### Counting points from an original song
+
+The circles on the song sheet are what score points for players.
+
+The band starts with one original song with the following circles:
+
+ * Equals - This scores points for the **Beats** player. If the two dice
+   adjacent to the circle are equal, add the points from each die. The
+   **Beats** player scores that amount.
+ * Up arrow - This scores points for the **Melody** player. Subtract the
+   *right* die from the *left* die. The **Melody** player scores that amount.
+ * Down arrow - This scores points for the **Melody** player. Subtract the
+   *left* die from the *right* die. The **Melody** player scores that amount.
+ * Crown - This scores points for the **Front** player. Subtract the Front
+   die from the lowest of the other dice in the column. The **Front** player
+   scores that amount.
+
+Write down each players individual score. Then add each player's score
+to the gig score.
+
+### Distributing your gig score points
 
 (If you gain CLOUT, you might unlock new Gig cards - add them to the
 "unlocked" Gig deck)
+
+
+### Distributing your individual score points
 
 
 ## Downtime Phase
