@@ -249,18 +249,35 @@ to the gig score.
 
 ### Distributing your gig score points
 
-(If you gain CLOUT, you might unlock new Gig cards - add them to the
-"unlocked" Gig deck)
+Every gig card has a chart that tells you what gig score you need to get
+to get ✰ (or whether you bomb).
 
+When the chart shows CROWD, COIN, or CLOUT points, add those to the respective
+boxes on your band sheet.
+
+If you gain CLOUT, you might unlock new Gig cards - add them to the
+"unlocked" Gig deck.
 
 ### Distributing your individual score points
+
+At the end of a gig, if the members got individual scores, they can split those
+points into their CROWD, COMMITMENT, and COIN boxes on their character sheets.
+
+However, each player may only distribute points into boxes that have a (GIG)
+marker 
 
 
 ## Downtime Phase
 
+ * The band's COIN can be spent on any expense, but all band members must
+   vote affirmatively to do so.
+
 
 ## Studio Phase
 
+### Write a song
+
+### Record a song
 
 
 # Role-playing Variant
@@ -271,10 +288,16 @@ declares what goals must be met to get stars or bomb the gig.
 
 # Party Game Variant
 
-This variant plays the same as the regular game, except there are extra
-conditions that must be met to get ✰✰✰ or ✰✰✰✰:
+In the party game variant, you do not use the Gig deck. The win condition
+is instead playing 5 songs in a row where **all** the circles score.
 
-Once a song has started (the first dice are rolled), only 
+Remove the circle cards from the Write and Riff deck. Then shuffle it, and
+put it on the table face-down.  You do not use the Write and Riff market in
+this game variant.
+
+Every round, the band plays all of their original songs.
+
+Once a song has started (the first dice are rolled):
 
  * The **Beats** player must not talk or make any vocal sounds,
    they can only air-drum and tap the table or game components
@@ -283,4 +306,17 @@ Once a song has started (the first dice are rolled), only
  * The **Front** player has no communication restrictions, but they must
    be kept from seeing the available dice until it's their turn to place
    one (this can be done with hands or a screen)
+
+After a song is played, add up your individual scores as usual, but you do
+not need to add up a band score.  The CLOUT, COMMITMENT, COIN, and CROWD
+stats are not used in the Party Game variant. Instead, every 5 points the
+players earn let them either: take cards from the top of the Write and Riff
+deck or Live the Life and go up a level.
+
+Players can keep the cards hidden from their bandmates if they so choose.
+
+After that, they can **Write a song** for free, as long as they have the
+cards.
+
+Then the next round begins.
 

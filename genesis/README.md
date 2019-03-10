@@ -10,3 +10,7 @@ Kelcey McGurty, Brian Johnson, Ryan Ward, Alexander Statan, Nicholas Statan
 
 Special thanks to Thom Rawson and Tom Snowden of Head2Table
 https://headtotable.com/index.php/2018/11/19/episode-14-bandcampaign/
+
+----
+
+[Game Rules](rules.md)
