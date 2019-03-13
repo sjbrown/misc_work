@@ -79,7 +79,7 @@ gig cards, play a gig, do a downtime activity, go to the studio, then start
 over again, until the game ends.
 
 
-## Ending the game
+## Winning the game
 
 There are 2 ways the game can end, either by staying together and becoming
 musical legends, or by breaking up the band.
@@ -88,39 +88,9 @@ If you ever get ✰✰✰✰ from playing one gig, the band has become legendary
 and you all have won the game together.  Congratulations!
 
 Any time the band is *not* actively playing a gig, any member of the band can
-declare that they are **breaking up the band**. Breaking up the band will
-mean that only one player will be the winner.
-
-### Breaking up the band
-
-A major label is interested in taking each one of you solo. But first you
-have to prove to them that you can play well and attract an audience.
-
-#### Step 1 - Choose songs
-
-Your level of commitment will determine who has rights to the original
-songs the band has written.
-
-In order of most COMMITMENT, choose one of the band's original songs, and
-take it for yourself. If there are no original songs left, you will have
-to play a cover (ie, just roll a single 6-sided die).
-
-#### Step 2 - Play your song
-
-Just like when gigging, play the one song you have chosen. But only use
-your character.
-For the missing roles of your former bandmates, you will use "studio
-musicians" - stand-ins who have no Craft nor Intensity powers.
-Each player may do this in parallel.
-
-#### Step 3 - Build your fanbase
-
-Add up your points from *all* the circles on the song you just played.
-(Or, if you played a cover, just take the result of your roll)
-Don't take any personal points.  Instead just take the total score for the
-song and add it to your personal CROWD.
-
-The player with the most CROWD goes solo and wins the game.
+declare that they are
+[breaking up the band](#breaking-up-the-band).
+Breaking up the band will mean that only one player will be the winner.
 
 
 ## Drawing Gig Cards
@@ -134,13 +104,13 @@ Tastes and trends change in music, and the gigs that were available last
 week might not be available this week.
 
  * Shuffle the "unlocked" deck.
- * Burn one of the "unlocked" gig cards - remove it from the game.
-   * **Special rule**: only at the beginning of the game, you **do not**
-     burn one of the Gig cards.
+ * **Except during the very first round**, burn one of the "unlocked" gig
+   cards - remove it from the game.
  * Lay out four gig cards face-up
- * The band will now choose one of the face-up Gig cards by consensus
+ * The band will now choose one of the face-up gig cards by consensus
    * If the gig card has requirements the band must meet them
- * If consensus cannot be reached, the band breaks up
+ * If consensus cannot be reached, or the band cannot qualify for any gig,
+   the band [breaks up](#breaking-up-the-band)
 
 ### Meeting Gig Requirements
 
@@ -153,26 +123,26 @@ provide transportation or promise your friends some freebies to get them
 to come out. But it won't cost as much if the band has started making a
 name for itself.
 
-For every amount of COIN you spend shown on the ⛟ symbol of the gig card,
-CLOUT of your friends will come see the show, up to the maximum of your
-personal CROWD.
+You can bring a maximum number of friends equal to your personal CROWD.
+For every friend you bring, you must spend COIN equal to the number shown
+on the ⛟ symbol of the gig card.
 
-For example, let's take a gig that requires 20 CROWD, and the band only
-has 15 CROWD.  The band, which has 2 CLOUT, wants to play this gig, which
-has a ⛟ symbol showing 3. Player 1 has 5 CROWD and Player 2 has 3 CROWD.
+**For example**, let's look at a gig that requires 20 CROWD and has a 3 next
+to the ⛟ symbol.
+In this example, the band only has 15 CROWD, Player 1 has 3 CROWD and 20 COIN,
+and Player 2 has 5 CROWD and 10 COIN.
 
 So the players need to cover the 5 CROWD difference between 20 and 15.
 
-Player 1 spends 3 COIN, the amount shown on the ⛟ symbol. Since the band
-has 2 CLOUT, this brings 2 of Player 1's friends to the show.
+Player 1 spends 9 COIN (3× the amount shown on the ⛟ symbol). This brings 3
+friends to the show (Player 1's maximum amount).
 
-Now there is a 3 CROWD difference between 20 and 15.
+Now there is a 2 CROWD defecit between 20 and 18.
 
-Player 2 spends 6 COIN, 2× amount shown on the ⛟ symbol. Since the band
-has 2 CLOUT, this could bring 4 of Player 2's friends to the show, but
-since they only have 3 CROWD, it only brings the maximum, 3 friends.
+Player 2 spends 6 COIN (2× the amount shown on the ⛟ symbol).
+This brings 2 of Player 2's friends to the show.
 
-Now there 20 people coming to the show, so the band qualifies to play
+Now there are 20 people coming to the show, so the band qualifies to play
 the gig.
 
 **Note**, when you bring friends to a show, **do not modify** your CROWD
@@ -415,6 +385,38 @@ Round the score up to the nearest multiple of 10.
 
 That sum is the "recorded score". Write that on the record symbol of the
 song sheet.
+
+
+## Breaking up the band
+
+A major label is interested in taking each one of you solo. But first you
+have to prove to them that you can play well and attract an audience.
+
+### Step 1 - Choose songs
+
+Your level of commitment will determine who has rights to the original
+songs the band has written.
+
+In order of most COMMITMENT, choose one of the band's original songs, and
+take it for yourself. If there are no original songs left, you will have
+to play a cover (ie, just roll a single 6-sided die).
+
+### Step 2 - Play your song
+
+Just like when gigging, play the one song you have chosen. But only use
+your character.
+For the missing roles of your former bandmates, you will use "studio
+musicians" - stand-ins who have no Craft nor Intensity powers.
+Each player may do this in parallel.
+
+### Step 3 - Build your fanbase
+
+Add up your points from *all* the circles on the song you just played.
+(Or, if you played a cover, just take the result of your roll)
+Don't take any personal points.  Instead just take the total score for the
+song and add it to your personal CROWD.
+
+The player with the most CROWD goes solo and wins the game.
 
 
 # Role-playing Variant
