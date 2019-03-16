@@ -25,7 +25,7 @@ friends together at a table with the following components.
 
 ### Components
 
- * 16 6-sided dice (it's possible to play the game with 4 if you don't have 16)
+ * 15 6-sided dice (it's possible to play the game with 4 if you don't have 15)
  * 7 special dice (if you don't have these, you can still play. Just remove the dice cards from the Write and Riff deck)
    * 3 Beats (4-sided) dice
    * 2 Melody (6-sided) dice
