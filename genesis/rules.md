@@ -59,12 +59,12 @@ some of the blanks:
  * decide what specific musical instrument your character plays and write it down
  * write down your character's special bonus:
    * Beats:
-     * Whenever the band gets 💣, immediately Live the Life at no cost
-     * Whenever the band gets ✰✰ or higher at a gig, gain ____
+     * Whenever the band bombs (:bomb:), immediately Live the Life at no cost
+     * Whenever the band gets ✰✰ or higher at a gig, gain 3 CROWD per ✰
    * Melody:
      * Whenever you Live the Life, take 10 of the band's COIN
    * Front:
-     * Whenever the band gets ✰, gain (✰×(2+CLOUT)) COMMITMENT
+     * Whenever the band gets ✰, gain (2+CLOUT) COMMITMENT per ✰
  * Live the Life for a cost of 0 COMMITMENT and fill in one bubble in either
    your Intensity or your Craft track. Put a marker for your character on
    the first box of the Live the Life track.
@@ -123,24 +123,24 @@ provide transportation or promise your friends some freebies to get them
 to come out. But it won't cost as much if the band has started making a
 name for itself.
 
-If the gig card shows the :truck: :minibus: symbol, you can bring friends to the show.
+If the gig card shows the :minibus: symbol, you can bring friends to the show.
 You can bring a maximum number of friends equal to your personal CROWD.
 For every friend you bring, you must spend COIN equal to the number shown
-on the ⛟ symbol of the gig card.
+on the :minibus: symbol of the gig card.
 
 **For example**, let's look at a gig that requires 20 CROWD and has a 3 next
-to the ⛟ symbol.
+to the :minibus: symbol.
 In this example, the band only has 15 CROWD, Player 1 has 3 CROWD and 20 COIN,
 and Player 2 has 5 CROWD and 10 COIN.
 
 So the players need to cover the 5 CROWD difference between 20 and 15.
 
-Player 1 spends 9 COIN (3× the amount shown on the ⛟ symbol). This brings 3
+Player 1 spends 9 COIN (3× the amount shown on the :minibus: symbol). This brings 3
 friends to the show (Player 1's maximum amount).
 
 Now there is a 2 CROWD defecit between 20 and 18.
 
-Player 2 spends 6 COIN (2× the amount shown on the ⛟ symbol).
+Player 2 spends 6 COIN (2× the amount shown on the :minibus: symbol).
 This brings 2 of Player 2's friends to the show.
 
 Now there are 20 people coming to the show, so the band qualifies to play

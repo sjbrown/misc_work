@@ -89,7 +89,7 @@ class DOM(object):
 if __name__ == '__main__':
     d = DOM(sys.argv[1])
     i = 0
-    for layer in d.layers:
+    for layer in sorted(d.layers.keys()):
         i += 1
         d.layer_show(layer)
         others = [l for l in d.layers if l != layer]
