@@ -14,7 +14,7 @@ for i in /tmp/genesis*; do
 done
 
 # To handle emoji --latex-engine=xelatex is necessary
-pandoc --latex-engine=xelatex rules.md -o /tmp/genesis_rules.pdf
+pandoc --latex-engine=xelatex -V 'mainfont:DejaVu Sans' rules.md -o /tmp/genesis_rules.pdf
 
 # since pdftk is installed via snap, it can't access /tmp.
 rm $HOME/tmp/genesis*.pdf

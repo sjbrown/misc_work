@@ -123,6 +123,7 @@ provide transportation or promise your friends some freebies to get them
 to come out. But it won't cost as much if the band has started making a
 name for itself.
 
+If the gig card shows the :truck: :minibus: symbol, you can bring friends to the show.
 You can bring a maximum number of friends equal to your personal CROWD.
 For every friend you bring, you must spend COIN equal to the number shown
 on the ⛟ symbol of the gig card.
