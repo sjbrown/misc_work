@@ -1,5 +1,10 @@
 # Genesis of Destiny Supreme!
 
+Credits:
+https://github.com/sjbrown/misc_work/tree/master/genesis#credits
+
+Playtest version VERSION
+
 ## How to playtest
 
 First of all, thank you for contributing to the development of this game!
@@ -27,9 +32,9 @@ friends together at a table with the following components.
 
  * 15 6-sided dice (it's possible to play the game with 4 if you don't have 15)
  * 7 special dice (if you don't have these, you can still play. Just remove the dice cards from the Write and Riff deck)
-   * 3 Beats (4-sided) dice
-   * 2 Melody (6-sided) dice
-   * 2 Front (8-sided) dice
+     - 3 Beats (4-sided) dice
+     - 2 Melody (6-sided) dice
+     - 2 Front (8-sided) dice
  * Band sheet
  * Song sheets
  * Character sheets
@@ -58,13 +63,13 @@ some of the blanks:
  * write down the name of your character
  * decide what specific musical instrument your character plays and write it down
  * write down your character's special bonus:
-   * Beats:
-     * Whenever the band bombs (:bomb:), immediately Live the Life at no cost
-     * Whenever the band gets ✰✰ or higher at a gig, gain 3 CROWD per ✰
-   * Melody:
-     * Whenever you Live the Life, take 10 of the band's COIN
-   * Front:
-     * Whenever the band gets ✰, gain (2+CLOUT) COMMITMENT per ✰
+     - Beats:
+         * Whenever the band bombs (:bomb:), immediately Live the Life at no cost
+         * Whenever the band gets ✰✰ or higher at a gig, gain 3 CROWD per ✰
+     - Melody:
+         * Whenever you Live the Life, take 10 of the band's COIN
+     - Front:
+         * Whenever the band gets ✰, gain (2+CLOUT) COMMITMENT per ✰
  * Live the Life for a cost of 0 COMMITMENT and fill in one bubble in either
    your Intensity or your Craft track. Put a marker for your character on
    the first box of the Live the Life track.
@@ -139,7 +144,7 @@ So the players need to cover the 5 CROWD difference between 20 and 15.
 Player 1 spends 9 COIN (3× the amount shown on the :minibus: symbol). This brings 3
 friends to the show (Player 1's maximum amount).
 
-Now there is a 2 CROWD defecit between 20 and 18.
+Now there is a 2 CROWD deficit between 20 and 18.
 
 Player 2 spends 6 COIN (2× the amount shown on the :minibus: symbol).
 This brings 2 of Player 2's friends to the show.
@@ -201,13 +206,20 @@ For every song part in the song, this process is repeated: the starting
 player takes 1-3 dice, rolls them into the available pool, then each player
 with a square in the column chooses and places a die.
 
+#### Technical difficulties
+
+**If there are no dice left in the available pool** and a player needs to
+place a die in their square, and they do not have any special dice to add
+to the available pool, then the song immediately ends, and no gig points or
+individual points are scored.
+
 ### Using Craft or Intensity powers
 
 TODO 
 
 #### Intensity
 
- 1. Reroll - use this power on your turn. You must reroll all the dice in the
+ 1. Re-roll - use this power on your turn. You must re-roll all the dice in the
     available pool
  2. Double-up - when you are picking your die from the available pool, take
     two dice instead of one and put them both in your square.
@@ -372,7 +384,7 @@ The first thing added to a song sheet must be a song part.
 After that, all squares and circles must be drawn onto the song sheet so that
 they are "connected" to the existing song.
 
-If a player leaves the studio, they cannot participate in the songwriting unti
+If a player leaves the studio, they cannot participate in the songwriting until
 the beginning of the next Studio phase.
 
 ### Record a song
