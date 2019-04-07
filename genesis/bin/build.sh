@@ -17,7 +17,7 @@ done
 pandoc --latex-engine=xelatex -V 'mainfont:DejaVu Sans' rules.md -o /tmp/genesis_rules.pdf
 
 # since pdftk is installed via snap, it can't access /tmp.
-rm $HOME/tmp/genesis*.pdf
+rm -f $HOME/tmp/genesis*.pdf
 mv /tmp/genesis*.pdf $HOME/tmp/
 
 pdftk $HOME/tmp/genesis*.pdf cat output $HOME/tmp/genesis_print_and_play.pdf

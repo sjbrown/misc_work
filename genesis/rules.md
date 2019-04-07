@@ -107,9 +107,10 @@ week might not be available this week.
  * **Except during the very first round**, burn one of the "unlocked" gig
    cards - remove it from the game.
  * Lay out four gig cards face-up
- * The band will now choose one of the face-up gig cards by consensus
-   * If the gig card has requirements the band must meet them
- * If consensus cannot be reached, or the band cannot qualify for any gig,
+ * The player with the most CROWD will now choose one of the
+   face-up gig cards
+    * If the gig card has requirements the band must meet them
+ * If the band cannot qualify for any of the four gigs,
    the band [breaks up](#breaking-up-the-band)
 
 ### Meeting Gig Requirements
@@ -349,7 +350,9 @@ previously-written songs.
    vote affirmatively to do so.
  * Any member can add their own COIN to buying an activity in Studio phase
 
-To go into the studio, the band must spend COIN equal to 10×CLOUT.
+To go into the studio, the band must spend COIN equal to 10×CLOUT. They must
+reach this decision by consensus.
+If consensus cannot be reached the band [breaks up](#breaking-up-the-band).
 
 A single studio phase can be used to write one song or record one song. It
 cannot be used for multiple.
