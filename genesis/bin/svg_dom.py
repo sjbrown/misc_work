@@ -8,7 +8,6 @@ from lxml import etree
 from collections import defaultdict
 
 sys.path.append('/usr/share/inkscape/extensions/')
-from simplestyle import parseStyle, parseColor
 from version import VERSION
 
 DEBUG = 1
