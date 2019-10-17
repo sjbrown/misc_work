@@ -293,8 +293,7 @@ cannot do both in one round. (They may also choose to skip)
 
  * Players take turns in order of highest CROWD
 
- * The band's COIN can be spent on any expense, but all band members must
-   vote affirmatively to do so.
+ * The band's COIN can be spent on any expense, by any band member, at any time
 
 ### Live the Life
 
@@ -351,6 +350,21 @@ and put the card into the discard pile. Otherwise the player takes the card
 into their "hand". A player can choose whether to let the other players see
 their hand.
 
+## Band Meeting Phase
+
+As band members finish Living the Life or Writing and Riffing, they draw a
+card from the top of the Events deck. When the Band Meeting phase begins,
+players should have 2 event cards, their "Chill" card and the card they just
+drew.
+
+Players may discuss a plan before looking at their drawn Event card, but
+once they have looked at their Event card, they may not speak until after the
+Event or Chill cards are revealed.
+
+Players look at their Event cards, they choose either their Event or Chill
+card to play, they place that chosen card face-down on the table in front of
+them.  When all players have chosen, the cards are revealed simultaneously.
+Then the effects of any Event cards are executed.
 
 ## Studio Phase
 
@@ -475,3 +489,6 @@ cards.
 
 Then the next round begins.
 
+# Silent Song Variant
+
+ * Players cannot talk after the first dice roll in each song
