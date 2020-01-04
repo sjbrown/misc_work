@@ -191,8 +191,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.1803761"
-     inkscape:cx="191.99238"
-     inkscape:cy="397.68115"
+     inkscape:cx="446.99585"
+     inkscape:cy="465.45616"
      inkscape:document-units="px"
      inkscape:current-layer="layer11"
      showgrid="false"
@@ -9700,7 +9700,7 @@
      inkscape:groupmode="layer"
      id="layer13"
      inkscape:label="practice cards"
-     style="display:inline">
+     style="display:none">
     <path
        inkscape:connector-curvature="0"
        id="path9177"
@@ -26549,7 +26549,7 @@
      inkscape:groupmode="layer"
      id="layer12"
      inkscape:label="event deck 2"
-     style="display:none">
+     style="display:inline">
     <path
        inkscape:connector-curvature="0"
        id="path5209"
