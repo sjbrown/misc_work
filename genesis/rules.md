@@ -31,17 +31,18 @@ friends together at a table with the following components.
 ### Components
 
  * 15 6-sided dice (it's possible to play the game with 4 if you don't have 15)
+ * 15 Meeples (these can be any marker, like coins or glass beads)
  * 7 special dice (if you don't have these, you can still play. Just remove the dice cards from the Write and Riff deck)
-     - 3 Beats (4-sided) dice
-     - 2 Melody (6-sided) dice
-     - 2 Front (8-sided) dice
+     - 3 Beats dice (faces: 2,2,4,4,4,4)
+     - 2 Melody dice (faces: 1,2,3,4,5,6)
+     - 2 Front dice (faces: 4,5,5,6,7,7)
  * Band sheet
  * Song sheets
  * Character sheets
  * Live the Life / Write and Riff sheet
  * Deck of Gig cards
  * Deck of Write and Riff cards
- * Write and Riff / Live the Life tracking sheet
+ * Deck of Event cards
  * 3 Pencils
  * 3 different colored felt-tip pens (optional)
 
@@ -59,152 +60,142 @@ role, braving the spotlight and interacting with the live audience.
 Decide who will play each role, then take a character sheet and fill in
 some of the blanks:
 
- * write down your role on the character sheet
  * write down the name of your character
  * decide what specific musical instrument your character plays and write it down
- * write down your character's special bonus:
-     - Beats:
-         * Whenever the band bombs (:bomb:), immediately Live the Life at no cost
-         * Whenever the band gets ✰✰ or higher at a gig, gain 3 CROWD per ✰
-     - Melody:
-         * Whenever you Live the Life, take 10 of the band's COIN
-     - Front:
-         * Whenever the band gets ✰, gain (2+CLOUT) COMMITMENT per ✰
+ * circle your role
+ * (optional) draw a portrait of your character
  * Live the Life for a cost of 0 COMMITMENT and fill in one bubble in either
-   your Intensity or your Craft track. Put a marker for your character on
-   the first box of the Live the Life track.
+   your Intensity or your Craft track.
 
 Take the Band sheet and give yourselves a band name.
 
 Your band starts its career with one original song. Name the song and write
 it down on the song sheet.
 
-Your band's career is made up of a series of "gigs". In this game, you draw
-gig cards, play a gig, do a downtime activity, go to the studio, then start
+Your band's career is made up of a series of "Gigs". In this game, you draw
+Gig cards, play a Gig, do a downtime activity, go to the studio, then start
 over again, until the game ends.
 
 
 ## Winning the game
 
-There are 2 ways the game can end, either by staying together and becoming
-musical legends, or by breaking up the band.
+There are 2 ways to win the game, either by staying together and becoming
+musical legends, or by unleashing your star power, and going solo to win all
+the glory for yourself.
 
-If you ever get ✰✰✰✰ from playing one gig, the band has become legendary
-and you all have won the game together.  Congratulations!
+If your band plays a Gig and achieves "✰✰✰✰" as the outcome, the band has
+become legendary and you all have won the game together.  Congratulations!
 
-Any time the band is *not* actively playing a gig, any member of the band can
-declare that they are
-[breaking up the band](#breaking-up-the-band).
-Breaking up the band will mean that only one player will be the winner.
+If instead, during the event card phase, any player plays the "Go Solo!"
+card, then the band is broken up and only **one** player will win, as decided
+by the [breaking up the band](#breaking-up-the-band) mini-game.
 
-
-## Drawing Gig Cards
-
-### First draw
-
-At the beginning of the game, split the gig cards into "locked" and
-"unlocked" decks.
-
-Tastes and trends change in music, and the gigs that were available last
-week might not be available this week.
-
- * Shuffle the "unlocked" deck.
- * **Except during the very first round**, burn one of the "unlocked" gig
-   cards - remove it from the game.
- * Lay out four gig cards face-up
- * The player with the most CROWD will now choose one of the
-   face-up gig cards
-    * If the gig card has requirements the band must meet them
- * If the band cannot qualify for any of the four gigs,
-   the band [breaks up](#breaking-up-the-band)
-
-### Meeting Gig Requirements
-
-If a gig requires a minimum number of CROWD, that is the minimum amount
-of crowd **the band** must have.  If the band doesn't quite have enough
-CROWD for a gig, band members can bring their friends to the show.
-
-But there is a cost to bring friends out to a gig. You might need to
-provide transportation or promise your friends some freebies to get them
-to come out. But it won't cost as much if the band has started making a
-name for itself.
-
-If the gig card shows the :minibus: symbol, you can bring friends to the show.
-You can bring a maximum number of friends equal to your personal CROWD.
-For every friend you bring, you must spend COIN equal to the number shown
-on the :minibus: symbol of the gig card.
-
-**For example**, let's look at a gig that requires 20 CROWD and has a 3 next
-to the :minibus: symbol.
-In this example, the band only has 15 CROWD, Player 1 has 3 CROWD and 20 COIN,
-and Player 2 has 5 CROWD and 10 COIN.
-
-So the players need to cover the 5 CROWD difference between 20 and 15.
-
-Player 1 spends 9 COIN (3× the amount shown on the :minibus: symbol). This brings 3
-friends to the show (Player 1's maximum amount).
-
-Now there is a 2 CROWD deficit between 20 and 18.
-
-Player 2 spends 6 COIN (2× the amount shown on the :minibus: symbol).
-This brings 2 of Player 2's friends to the show.
-
-Now there are 20 people coming to the show, so the band qualifies to play
-the gig.
-
-**Note**, when you bring friends to a show, **do not modify** your CROWD
-or the band's CROWD.
-
+If it comes time to play a Gig, but there are no Gig cards to choose from,
+then the game is over and your band dwindles into obscurity, their songs
+becoming curiosities for a few well-researched DJs.
 
 ## Playing a Gig
 
-Every gig card has a chart that tells you what gig score you need to get
-to get ✰ (or whether you bomb).
+When the game begins, you will play your first Gig, "Open Mic Night at Vishnu's".
 
-Build up your gig score by playing "covers", "originals", and "recorded
-originals".
+Subsequent Gigs will be chosen from the unlocked Gig cards.
 
-### Playing "covers"
+In the upper right corner, there are requirements for playing that Gig. These
+requirements are a number of "Crowd" the band must have, or a "Coin" cost to
+get access to the Gig. The Gig "Open Mic Night at Vishnu's" has a blank
+upper right corner, meaning there are no requirements.
 
-Most gigs allow you to play covers.  To play a cover, just roll a
-six-sided die, and add that number to your gig score.
+Every Gig card has a number underneath its title that says how many meeples are
+in the music venue.  Take that many meeples and place them at the "Bar" area on
+the game board.
 
-### Playing recorded originals
+Underneath the meeples, the number of songs you must play is written.
 
-Just add the recorded score to your gig score.
+Your goal will be to move meeples from the Bar area up to the Stage area,
+moving and grooving to the music.  And you definitely don't want them outside
+on the Patio area, bored and thinking about their life choices.
+
+The instruction "**move a meeple up**" means move a meeple from the
+Bar area to the Stage area, or move a meeple from the Patio area to
+the Bar area. If all meeples are in the Stage area, do nothing.
+
+The instruction "**move a meeple down**" means move a meeple from the
+Stage area to the Bar area, or move a meeple from the Bar area to
+the Patio area. If all meeples are in the Patio area, do nothing.
+
+Playing "covers", "originals", and "recorded originals" will give you chances
+to move meeples up closer to the stage, but mistakes and bad luck could cause
+them to move further away.
+
+Also, these meeples get thirsty.  Some Gig cards indicates how many meeples will
+move from the Stage area to the Bar area between songs. These meeples move down
+after every song, whether the song is a cover or an original.  The only way to
+stop meeples from moving down during a lull is to have a player be in the
+Spotlight (see Playing Originals below).
+
+### Playing Covers
+
+Playing Covers must be done **before** playing any Originals.
+To play a cover, just roll a six-sided die, then look at the Covers section of
+the Gig card.
+If the result is **equal to or above** the top number, then a meeple moves **up**.
+If the result is **equal to or below** the bottom number, then a meeple moves **down**.
+
+### Playing Recorded Originals
+
+Recording your own songs (see Studio phase below) means you've had a lot
+of practice and the audience is familiar with them, so you can get
+consistent results.
+
+If you choose to play a Recorded Original, look to your song sheet where you
+wrote down the Studio results. Just move the number of meeples indicated up,
+then in order from top-to-bottom, move each player's marker around the stage
+the amount indicated, collecting "10 chips" just as you would when playing an
+Original.
 
 You cannot play an original more than once per gig, whether it is recorded
 or not.
 
-### Playing originals
+### Playing Originals
 
-You cannot play an original more than once per gig.
-
-Set the song sheet in the middle of the table. On the song sheet are columns
-of squares. Each column is called a "song part".
+To play an Original, set the song sheet in the middle of the table.
+On the song sheet are columns of squares. Each column is called a "song part".
 
 The bottom row is for the **Beats** player, the middle, for the **Melody**
 player, and the top for the **Front** player.
-The song parts get played in order, left-to-right.
+Like bars of music, you will play song parts in order, from left-to-right.
 
-The **Beats** player usually starts each song part, but, for bridges
-and solos, the song part is started by the player with the lowest open square
-in that column.
+The player whose square is at the bottom of the song part starts it.
+This is usually the **Beats** player.
 
 This player gathers six-sided dice, equal to the number of squares in the
-column. If this is the first song part of a song, they add one more die.
-Then they roll them all. These are called the "available pool" of dice.
+column. *If this is the first song part of a song, they add one more die*.
+Then they roll them all and place them into the "Dice Pool" area.
 
-That same player then gets to choose one die out of the available pool and
-place it into their square in the column. From bottom to top, the other
-players take a turn choosing one die out of the available pool and putting
+That same player then gets to choose one die from the Dice Pool and
+place it into their square in the song part. From bottom to top, the other
+players take a turn choosing one die from the Dice Pool and putting
 it into their square until all squares in the column are full.
 
-Usually, there will be one unchosen die. That die stays in the available pool.
+Players aged 12 years and younger may remove a die and rethink their move
+after the die has touched their square. Otherwise, dice cannot be removed
+from a square until the song is finished.
+
+Once a die is placed in a square, that die scores.
+
+#### Scoring a die
+
+To score a die, look at each circle that touches the square.
+
+After a song part is complete, there will usually be one unchosen die.
+That die stays in the Dice Pool.
 
 For every song part in the song, this process is repeated: the starting
-player takes 1-3 dice, rolls them into the available pool, then each player
+player takes 1-3 dice, rolls them, adds them to the Dice Pool, then each player
 with a square in the column chooses and places a die.
+
+You cannot play an original more than once per gig.
+
 
 #### Technical difficulties
 
@@ -415,6 +406,62 @@ Round the score up to the nearest multiple of 10.
 
 That sum is the "recorded score". Write that on the record symbol of the
 song sheet.
+
+## Drawing Gig Cards
+
+### Drawing Gig Cards
+
+At the beginning of the game, split the gig cards into "locked" and
+"unlocked" decks.
+
+Tastes and trends change in music, and the gigs that were available last
+week might not be available this week.
+
+ * Shuffle the "unlocked" deck.
+ * Lay out four gig cards face-up
+ * The player with the most CROWD will now choose one of the
+   face-up gig cards
+    * If the gig card has requirements the band must meet them
+ * If the band cannot qualify for any of the four gigs,
+   the band [breaks up](#breaking-up-the-band)
+
+### Meeting Gig Requirements
+
+If a gig requires a minimum number of CROWD, that is the minimum amount
+of crowd **the band** must have.  If the band doesn't quite have enough
+CROWD for a gig, band members can bring their friends to the show.
+
+But there is a cost to bring friends out to a gig. You might need to
+provide transportation or promise your friends some freebies to get them
+to come out. But it won't cost as much if the band has started making a
+name for itself.
+
+If the gig card shows the :minibus: symbol, you can bring friends to the show.
+You can bring a maximum number of friends equal to your personal CROWD.
+For every friend you bring, you must spend COIN equal to the number shown
+on the :minibus: symbol of the gig card.
+
+**For example**, let's look at a gig that requires 20 CROWD and has a 3 next
+to the :minibus: symbol.
+In this example, the band only has 15 CROWD, Player 1 has 3 CROWD and 20 COIN,
+and Player 2 has 5 CROWD and 10 COIN.
+
+So the players need to cover the 5 CROWD difference between 20 and 15.
+
+Player 1 spends 9 COIN (3× the amount shown on the :minibus: symbol). This brings 3
+friends to the show (Player 1's maximum amount).
+
+Now there is a 2 CROWD deficit between 20 and 18.
+
+Player 2 spends 6 COIN (2× the amount shown on the :minibus: symbol).
+This brings 2 of Player 2's friends to the show.
+
+Now there are 20 people coming to the show, so the band qualifies to play
+the gig.
+
+**Note**, when you bring friends to a show, **do not modify** your CROWD
+or the band's CROWD.
+
 
 
 ## Breaking up the band
