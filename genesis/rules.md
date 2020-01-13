@@ -165,11 +165,12 @@ The bottom row is for the **Beats** player, the middle, for the **Melody**
 player, and the top for the **Front** player.
 Like bars of music, you will play song parts in order, from left-to-right.
 
-The player whose square is at the bottom of the song part starts it.
-This is usually the **Beats** player.
+The player whose square is at the bottom of the song part starts it by
+rolling dice. Usually, this will be the **Beats** player.
 
-This player gathers six-sided dice, equal to the number of squares in the
+This player gathers dice, as many as the number of squares in the
 column. *If this is the first song part of a song, they add one more die*.
+(If the first song part has 3 squares, they will take 4 dice)
 Then they roll them all and place them into the "Dice Pool" area.
 
 That same player then gets to choose one die from the Dice Pool and
@@ -185,71 +186,120 @@ Once a die is placed in a square, that die scores.
 
 #### Scoring a die
 
-To score a die, look at each circle that touches the square.
+To score a die, look at each Goal Circle that touches the square.
+
+If placing a die in the square *triggers* a Goal Circle, and that Goal
+Circle "succeeds", then that Goal Circle scores and is marked successful.
+
+The starting four Goal Circles:
+
+ * Equals
+    - Trigger: there are dice on both sides
+    - Success: the die on the left *equals* the die on the right
+    - Score: the value of one of the adjacent dice
+ * Up arrow
+    - Trigger: there are dice on both sides
+    - Success: the die on the left is *less than* the die on the right
+    - Score: the value of the *right* die minus the *left* die
+ * Down arrow
+    - Trigger: there are dice on both sides
+    - Success: the die on the left is *greater than* the die on the right
+    - Score: the value of the *left* die minus the *right* die
+ * Pose
+    - Trigger: there is a die on the square
+    - Success: the die is *greater than* **one** of the other dice in
+      the column (or, this die is the **only** die in the column)
+    - Score: the value of this die minus the *lowest in the column*
+      (or the value of this die, if it is the **only** die in the column)
+
+To keep score, you move your Player Marker around the Stage. Step your marker
+around the numbered circles taking one step for every point scored. Once your
+marker "sets foot" in the spotlight, take a "10 Chip" and continue forward.
+
+Two musicians can't be in the same spot on the stage, so two Player Markers
+can't be in the same spot either, so if there's a player marker occupying the
+next spot, just skip over them.
+
+So if your Player Marker was in the "Start" spot, and another player's was in
+the "3" spot, and you scored 3 points, your marker would end up on the "4"
+spot.
+
+If your Player Marker is in the spotlight at the end of your turn, you are
+"hogging the spotlight".  This has two effects.  Firstly, when other player
+markers are stepping around the stage, they will have to skip the spotlight,
+and that player won't collect a "10 chip".  Secondly, because your character
+is demanding all that attention, meeples will not move down when the rules
+say they normally would.
+
+#### Marking a circle - Campaign Mode
+
+Take a Goal Circle Marker and place it on the circle. If the goal was
+successful, place it positive-side-up and move a meeple up.
+
+If a Goal Circle was unsuccessful, place the marker negative-side-up and
+move a meeple down.
+
+Note, the **Overdub** power makes it possible to place two dice on one square.
+Wait until both dice have scored, then place the marker.
+The circle should be marked unsuccessful if *either* die fails the
+success criteria.
+
+#### Finishing the song
 
 After a song part is complete, there will usually be one unchosen die.
 That die stays in the Dice Pool.
 
 For every song part in the song, this process is repeated: the starting
-player takes 1-3 dice, rolls them, adds them to the Dice Pool, then each player
-with a square in the column chooses and places a die.
+player takes 1-3 dice, rolls them, places them in the Dice Pool, then each
+player with a square in the column chooses and places a die.
 
 You cannot play an original more than once per gig.
 
-
 #### Technical difficulties
 
-**If there are no dice left in the available pool** and a player needs to
-place a die in their square, and they do not have any special dice to add
-to the available pool, then the song immediately ends, and no gig points or
-individual points are scored.
+**If there are no dice left in the Dice Pool** for a player to place in
+their square, and they do not have any special dice to add to the Dice
+Pool, then the song immediately ends, and any unmarked Goal Circles
+remaining are marked failed.
 
 ### Using Craft or Intensity powers
 
-TODO 
+As you play an original song, you can use special powers to make things
+easier or give yourself a boost.
+
+Unless otherwise specified, Craft or Intensity powers must be used:
+
+ * On your turn
+ * Before you place a die into a square
+
+Each one of these powers can be used **once per gig**. After using a power,
+place a marker over that power on your character sheet.
 
 #### Intensity
 
- 1. Re-roll - use this power on your turn. You must re-roll all the dice in the
-    available pool
- 2. Double-up - when you are picking your die from the available pool, take
-    two dice instead of one and put them both in your square.
+ 1. Re-roll - Re-roll **all** the dice in the Dice Pool
+ 2. Over-dub - take two dice instead of one from the Dice Pool and put
+    them both in your square.
  3. Sustain - at the moment your turn would normally be skipped because the
     song part doesn't have an open square for you, place your sustain marker
     where your square would normally be, and take a turn
+ 4. Rock out - Re-roll only **some** of the dice in the Dice Pool. Roll all
+    Dice whose values equal those shown by the secondary bubble.
 
 #### Craft
 
- 1. Bump - Use this power on your turn. Change the value of one die in the
-    available pool up or down by 1. Eg, change a 4 to a 5 or 3. (You
-    cannot change a 1 to a 6 or vice versa)
- 2. Clone - Use this power on your turn. Change the value of one die in the
-    available pool to be the value of a die that was just placed in a square
-    by the previous player
- 3. Extra cards - if you buy a Write and Riff card during the Downtime phase,
-    also take 2 cards from the top of the deck when the Downtime phase ends
+ 1. Bump - Change the value of one die in the Dice Pool up or down
+    by 1. Eg, change a 4 to a 5 or 3. (You cannot change a 1 to a 6 or vice versa)
+ 2. Echo - Change the value of one die in the Dice Pool to be the
+    value of a die that was just placed in a square by the previous player
+ 3. Inspiration - whenever you buy a Write and Riff card,
+    also take 1 card from the top of the Write and Riff deck. If it's a card
+    you can't use, put it on the bottom of the deck.
+ 4. Diva die - Take a die from the Dice Pool whose value equals one shown in
+    the secondary bubble and put it beside your character sheet. Place it back
+    into the Dice Pool any time during the Gig
 
-### Counting points from an original song
-
-The circles on the song sheet are what score points for players.
-
-The band starts with one original song with the following circles:
-
- * Equals - This scores points for the **Beats** player. If the two dice
-   adjacent to the circle are equal, add the points from each die. The
-   **Beats** player scores that amount.
- * Up arrow - This scores points for the **Melody** player. Subtract the
-   *right* die from the *left* die. The **Melody** player scores that amount.
- * Down arrow - This scores points for the **Melody** player. Subtract the
-   *left* die from the *right* die. The **Melody** player scores that amount.
- * Crown - This scores points for the **Front** player. Subtract the Front
-   die from the lowest of the other dice in the column. The **Front** player
-   scores that amount.
-
-Write down each players individual score. Then add each player's score
-to the gig score.
-
-### Distributing your gig score points
+### Succeeding or Failing Gigs
 
 Every gig card has a chart that tells you what gig score you need to get
 to get ✰ (or whether you bomb).
@@ -275,6 +325,9 @@ declares that they've finished.
 Points in COIN and COMMITMENT can be spent during the Downtime and Studio
 phases. CROWD points can be used to qualify for new gigs.
 
+### Distributing your spotlight score points
+
+----
 
 ## Downtime Phase
 
@@ -282,7 +335,7 @@ Every band member chooses how they want to devote their down-time between
 gigs. They must choose to either Live the Life, or Write and Riff. They
 cannot do both in one round. (They may also choose to skip)
 
- * Players take turns in order of highest CROWD
+ * Players take turns in order of highest COMMITMENT
 
  * The band's COIN can be spent on any expense, by any band member, at any time
 
