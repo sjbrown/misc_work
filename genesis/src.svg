@@ -190,11 +190,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.83465195"
-     inkscape:cx="20.129154"
-     inkscape:cy="478.23129"
+     inkscape:zoom="1.6693039"
+     inkscape:cx="413.98837"
+     inkscape:cy="807.73014"
      inkscape:document-units="px"
-     inkscape:current-layer="layer11"
+     inkscape:current-layer="layer3"
      showgrid="false"
      inkscape:window-width="1920"
      inkscape:window-height="1025"
@@ -14331,7 +14331,7 @@
      inkscape:groupmode="layer"
      id="layer3"
      inkscape:label="cards2"
-     style="display:none">
+     style="display:inline">
     <path
        inkscape:connector-curvature="0"
        id="path8274"
@@ -14515,7 +14515,7 @@
          id="tspan9367"
          x="146.71951"
          y="936.31122"
-         style="font-size:12.5px;line-height:1.25">Draw an &quot;S&quot; over the &quot;=&quot; circles</tspan><tspan
+         style="font-size:12.5px;line-height:1.25">Draw &quot;S&quot; over the &quot;=&quot; circles</tspan><tspan
          sodipodi:role="line"
          x="146.71951"
          y="951.93622"
@@ -14530,12 +14530,12 @@
          x="146.71951"
          y="983.18622"
          style="font-size:12.5px;line-height:1.25"
-         id="tspan8084">if adjacent dice are multiples,</tspan><tspan
+         id="tspan8084">now, when adjacent dice are</tspan><tspan
          sodipodi:role="line"
          x="146.71951"
          y="998.81122"
          id="tspan9369"
-         style="font-size:12.5px;line-height:1.25">they count as equal</tspan></text>
+         style="font-size:12.5px;line-height:1.25">multiples, they count as equal</tspan></text>
     <rect
        style="display:inline;opacity:1;fill:#ffffff;fill-opacity:1;stroke:#808080;stroke-width:0.99999994;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:0.99999999, 0.99999999;stroke-dashoffset:0;stroke-opacity:1"
        id="rect8430-4"
@@ -14713,14 +14713,14 @@
          x="598.2384"
          y="362.93805"
          style="font-size:12.5px;line-height:1.25"
-         id="tspan22057"><tspan
+         id="tspan22059"><tspan
    style="font-weight:bold"
-   id="tspan22066">Score</tspan>: right die minus smallest</tspan><tspan
+   id="tspan22066">Score</tspan>: right die minus each</tspan><tspan
          sodipodi:role="line"
          x="598.2384"
          y="378.56305"
          style="font-size:12.5px;line-height:1.25"
-         id="tspan22059">die in the rowt</tspan></text>
+         id="tspan32816">smaller dice in the row</tspan></text>
     <path
        style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        d="m 570.37635,246.6516 c -0.11987,-0.11895 -0.286,-0.19327 -0.4696,-0.19331 l -8.169,9.9e-4 c -0.14316,6e-5 -0.26755,0.0538 -0.37565,0.12985 l 2.89886,2.89886 -8.57092,8.57091 c -0.25961,0.25967 -0.26057,0.67576 -0.003,0.93359 l 2.3478,2.34782 c 0.25785,0.25786 0.67396,0.25689 0.93359,-0.003 l 8.57093,-8.57091 2.90024,2.90024 c 0.0758,-0.10717 0.1301,-0.2313 0.12983,-0.37288 v -8.17591 c 0,-0.18235 -0.0735,-0.34781 -0.19331,-0.46682 z"
@@ -15109,7 +15109,7 @@
    id="tspan22136"
    style="font-weight:bold">Success</tspan>: The die in this square scores<tspan
    id="tspan22142"
-   style="font-weight:bold"></tspan></tspan><tspan
+   style="font-weight:bold" /></tspan><tspan
          style="font-size:10px;line-height:1.25"
          y="976.65631"
          x="372.79883"
@@ -15732,6 +15732,17 @@
            id="tspan11375-7-3-3"
            sodipodi:role="line">Melody</tspan></text>
     </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:37.5px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.9375"
+       x="-25.272511"
+       y="928.24609"
+       id="text32820"><tspan
+         sodipodi:role="line"
+         id="tspan32818"
+         x="-25.272511"
+         y="961.4248"
+         style="stroke-width:0.9375" /></text>
   </g>
   <g
      inkscape:groupmode="layer"
@@ -25867,7 +25878,7 @@
      inkscape:groupmode="layer"
      id="layer11"
      inkscape:label="event deck"
-     style="display:inline">
+     style="display:none">
     <path
        d="m 495.7352,397.42527 c -5.5425,0 -9.9999,4.45752 -10,9.99999 v 294.99999 c 0,5.54124 4.4576,9.99999 10,9.99999 l 205.0001,-3e-5 c 5.5412,6e-5 9.9999,-4.45872 9.9999,-9.99996 V 407.42526 c 0,-5.54251 -4.4587,-9.99999 -10,-10.00002 z m 9.745,13.99376 H 690.989 c 5.5412,0 10,4.46248 9.9999,9.99996 v 267.01126 c 1e-4,5.53751 -4.4587,9.99999 -9.9999,9.99999 H 505.4802 c -5.5412,0 -10,-4.46251 -10,-9.99996 V 421.41903 c 0,-5.53752 4.4587,-10.00003 10,-10 z"
        style="display:inline;fill:#e6e6e6;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1"
