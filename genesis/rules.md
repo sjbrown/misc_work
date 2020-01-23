@@ -163,47 +163,41 @@ then in order from top-to-bottom, move each player's marker around the stage
 the amount indicated, collecting "10 chips" just as you would when playing an
 Original.
 
-You cannot play an original more than once per gig, whether it is recorded
+You cannot play an original more than once per Gig, whether it is recorded
 or not.
 
 ### Playing Originals
 
 To play an Original, set the song sheet within reach of all the players.
-On the song sheet are columns of squares. Each column is called a "song part".
+On the song sheet are columns of squares. Each column is called a *Song Part*.
 
 The bottom row is for the **Beats** player, the middle, for the **Melody**
 player, and the top for the **Front** player.
-Like bars of music, song parts are played in order, from left-to-right.
+Like bars of music, *Song Parts* are played in order, from left-to-right.
 
-The player whose square is at the bottom of the song part starts it by
+The player whose square is at the bottom of the *Song Part* starts it by
 rolling dice. Usually, this will be the **Beats** player.
 
 This player gathers dice, as many as the number of squares in the
-column. *If this is the first song part of a song, they add one more die*.
-(If the first song part has 3 squares, they will take 4 dice)
+column. *If this is the first Song Part of a song, they add one more die*.
+(If the first *Song Part* has 3 squares, they will take 4 dice)
 Then they roll them all and place them into the "Dice Pool" area.
 
 That same player then gets to choose one die from the Dice Pool and
-place it into their square in the song part. From bottom to top, the other
+place it into their square in the *Song Part*. From bottom to top, the other
 players take a turn choosing one die from the Dice Pool and putting
 it into their square (scoring Goal Circles as they go) until all squares
 in the column are full.
 
-Players aged 12 years and younger may remove a die and rethink their move
-after the die has touched their square. Otherwise, dice cannot be removed
-from a square until the song is finished.
+After a die is placed in a square, check if any Goal Circles that touch
+that square *trigger* (see next section).
 
-After a die is placed in a square, check if any adjacent Goal Circles trigger.
+> Players aged 12 years and younger may remove a die and rethink their move
+> after the die has touched their square. Otherwise, dice cannot be removed
+> from a square until the song is finished.
+
 
 #### Scoring Goal Circles
-
-To score, look at each Goal Circle that touches the square.
-
-If placing a die in the square *triggers* a Goal Circle, and that Goal
-Circle "succeeds", then that Goal Circle scores and is marked successful.
-
-If a Goal Circle gets triggered, but it does not succeed, a meeple moves
-down.
 
 The starting four Goal Circles:
 
@@ -226,8 +220,15 @@ The starting four Goal Circles:
     - Score: the value of this die minus the *lowest in the column*
       (or the value of this die, if it is the **only** die in the column)
 
-To keep score, you move your Player Marker around the Stage. Step your marker
-around the numbered circles taking one step for every point scored. Once your
+If placing a die in the square *triggers* a Goal Circle, and that Goal
+Circle "succeeds", then that Goal Circle scores! It is marked successful,
+and a meeple moves up.
+
+If a Goal Circle gets triggered, but it does not succeed, a meeple moves
+down.
+
+When you score, move your Player Marker around the Stage. Step your marker
+into the numbered circles, taking one step for every point scored. Once your
 marker "sets foot" in the spotlight, take a "10 Chip" and continue forward.
 
 Two musicians can't be in the same spot on the stage, so Player Markers
@@ -261,15 +262,15 @@ success criteria.
 
 #### Finishing the song
 
-For every song part in the song, this process is repeated: the starting
+For every *Song Part* in the song, this process is repeated: the starting
 player takes 1-3 dice, rolls them, places them in the Dice Pool, then each
 player with a square in the column chooses and places a die.
 
-After a *song part* is complete, there will usually be one unchosen die.
+After a *Song Part* is complete, there will usually be one unchosen die.
 That die stays in the Dice Pool. When the *song* is over, the Dice Pool
 is cleared.
 
-You cannot play an original more than once per gig.
+You cannot play an original more than once per Gig.
 
 #### Technical difficulties
 
@@ -280,15 +281,15 @@ remaining are marked failed.
 
 ### Using Craft or Intensity powers
 
-As you play an original song, you can use special powers to make things
-easier or give yourself a boost.
+As you play an original song, you can use the special powers on your
+character sheet to make things easier or give yourself a boost.
 
 Unless otherwise specified, Craft or Intensity powers must be used:
 
  * On your turn
  * Before you place a die into a square
 
-Each one of these powers can be used **once per gig**. After using a power,
+Each one of these powers can be used **once per Gig**. After using a power,
 place a marker over that power on your character sheet.
 
 #### Intensity
@@ -296,9 +297,9 @@ place a marker over that power on your character sheet.
  1. Re-roll - Re-roll **all** the dice in the Dice Pool
  2. Over-dub - take two dice instead of one from the Dice Pool and put
     them both in your square.
- 3. Sustain - at the moment your turn would normally be skipped because the
-    song part doesn't have an open square for you, place your sustain marker
-    where your square would normally be, and take a turn
+ 3. Sustain - at the moment your turn would normally be skipped because
+    the *Song Part* doesn't have an open square for you, place your sustain
+    marker where your square would normally be, and take a turn
  4. Rock out - Re-roll only **some** of the dice in the Dice Pool. Roll all
     Dice whose values equal those shown by the secondary bubble.
 
@@ -317,7 +318,7 @@ place a marker over that power on your character sheet.
 
 ### Succeeding or Failing Gigs
 
-Every gig card has a chart that tells you 3 possible outcomes
+Every Gig card has a chart that tells you 3 possible outcomes
 
  1. All the meeples are next to the stage
  2. More meeples are next to the stage than the Bar and Patio
@@ -331,10 +332,10 @@ Tally the points on your Band Sheet.
 
 There are 3 kinds of points an individual can gain.
 Points in COIN and COMMITMENT can be spent during the Downtime and Studio
-phases. CROWD points can be used to qualify for new gigs and are critical
+phases. CROWD points can be used to qualify for new Gigs and are critical
 for anyone planning to Go Solo.
 
-At the end of a gig, players add all of their 10 Chips to the number
+At the end of a Gig, players add all of their 10 Chips to the number
 of the spot on the stage their Player Marker is currently on.
 They can distribute those points into their CROWD, COMMITMENT, and COIN,
 depending on their Role.
@@ -360,7 +361,7 @@ what Role the player plays.
 ## Downtime Phase
 
 Every band member chooses how they want to devote their down-time between
-gigs. They must choose **either** Live the Life, or Write and Riff. They
+Gigs. They must choose **either** Live the Life, or Write and Riff. They
 cannot do both in one round. (They may also choose to skip)
 
  * Players take turns in order of highest COMMITMENT
@@ -438,7 +439,7 @@ They place that chosen card face-down on the table in front of them.
 When all players have chosen, the cards are revealed simultaneously.
 Then the effects (if any) are executed.
 
-Players may discuss a plan before looking at their drawn Event card, but
+Players may discuss a plan before choosing an Event card, but
 can not disclose the title or effects of any gained Event cards.
 
 If a "Chill" card is played, it has no effect to execute, unless all three
@@ -451,6 +452,7 @@ ends, discard the "Producer" card.
 
 If a "Go Solo" card is played, the band breaks up. Execute any other played
 Event cards first, then transition to the Breaking Up The Band mini-game.
+(see below)
 
 Other Event cards are discarded after they are executed. If there is a
 conflict, cards are executed in order of COMMITMENT.
@@ -458,7 +460,7 @@ conflict, cards are executed in order of COMMITMENT.
 
 ## Studio Phase
 
-In the studio, bands can gather all the song parts that they've individually
+In the studio, bands can gather all the *Song Parts* that they've individually
 created and patch them together into a full song.  They can also record
 previously-written songs.
 
@@ -478,22 +480,22 @@ The Studio Phase may be skipped.
 ### Write a song
 
 The players will fill out a new song sheet taken from the supply.
-A song sheet must have at least 3 song parts and no more than 5 song parts.
+A song sheet must have at least 3 *Song Parts* and no more than 5 *Song Parts*.
 
 The players take turns, in order of highest COMMITMENT.
 
-On a turn, a player plays either a Song Part card or a Circle card.
+On a turn, a player plays either a *Song Part* card or a Circle card.
 That player copies the squares and circles shown on the card into
 the song sheet, then discards the card.
 
-The first thing added to a song sheet must be a song part.
+The first thing added to a song sheet must be a *Song Part*.
 
-When playing a Song Part Card, the squares and circles must be drawn into
-an empty column on the song sheet, adjacent to an already-drawn song part.
-(If this is the first song part on the sheet, it may be drawn in any column)
+When playing a *Song Part Card*, the squares and circles must be drawn into
+an empty column on the song sheet, adjacent to an already-drawn *Song Part*.
+(If this is the first *Song Part* on the sheet, it may be drawn in any column)
 
 When the 4th or 5th columns get drawn into, an extra circle must also be
-drawn onto the song.  The Song Part Card will indicate what kind of circle.
+drawn onto the song.  The *Song Part* Card will indicate what kind of circle.
 
 When playing a Circle Card, the drawing must be made into an unoccupied
 circle at a position indicated on the card.
@@ -507,25 +509,25 @@ copy the meeple movement and player scores above the recording symbol.
 
 ### Drawing Gig Cards
 
-At the beginning of the game, split the gig cards into "locked" and
+At the beginning of the game, split the Gig cards into "locked" and
 "unlocked" decks.
 
-Tastes and trends change in music, and the gigs that were available last
+Tastes and trends change in music, and the Gigs that were available last
 week might not be available this week.
 
  * Shuffle the "unlocked" deck.
- * Lay out four gig cards face-up
+ * Lay out four Gig cards face-up
  * The player with the most CROWD will now choose one of the
-   face-up gig cards
-    * If the gig card has requirements the band must meet them
- * If the band cannot qualify for any of the four gigs,
+   face-up Gig cards
+    * If the Gig card has requirements the band must meet them
+ * If the band cannot qualify for any of the four Gigs,
    the band [breaks up](#breaking-up-the-band)
 
 ### Meeting Gig Requirements
 
-If a gig requires a minimum number of CROWD, that is the minimum amount
+If a Gig requires a minimum number of CROWD, that is the minimum amount
 of crowd **the band** must have.  If the band doesn't quite have enough
-CROWD for a gig, band members can bring their friends to the show.
+CROWD for a Gig, band members can bring their friends to the show.
 
 Band members can voluntarily decrease their CROWD score and increase
 the band's CROWD score that same amount.
@@ -533,7 +535,7 @@ the band's CROWD score that same amount.
 Alternatively, that band member can "provide transportation" to get their
 friends to come out.
 
-If the gig card shows the :minibus: symbol, a player can spend the indicated
+If the Gig card shows the :minibus: symbol, a player can spend the indicated
 amount of COIN to count *all* of their personal CROWD points against the Gig
 requirements and retain them without transferring them to the band.
 
