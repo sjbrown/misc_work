@@ -297,8 +297,8 @@ place a marker over that power on your character sheet.
  1. Re-roll - Re-roll **all** the dice in the Dice Pool
  2. Over-dub - take two dice instead of one from the Dice Pool and put
     them both in your square.
- 3. Barge forward - Move your Player Marker forward on the track to the
-    spotlight, bumping any other player markers along the way directly
+ 3. Bum Rush - Barge forward into the spotlight with your Player Marker,'
+    bumping any other player markers along the way directly
     to the Start position on the stage.
  4. Rock out - Re-roll only **some** of the dice in the Dice Pool. Roll all
     Dice whose values equal those shown by the secondary bubble.
@@ -572,6 +572,11 @@ Add up your individual points from your Player and the studio musicians.
 Add these points to your CROWD score.
 
 The player with the most CROWD successfully goes solo and wins the game.
+That player may use their character sheet, with all their accumulated
+Craft and Intensity powers when they start their next game of Genesis of
+Destiny Supreme!
+
+If there is a tie for CROWD, all tied players may enjoy those rewards.
 
 
 <!--
