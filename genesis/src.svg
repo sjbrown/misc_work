@@ -190,11 +190,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.6693039"
-     inkscape:cx="413.98837"
-     inkscape:cy="807.73014"
+     inkscape:zoom="0.75187991"
+     inkscape:cx="396.85039"
+     inkscape:cy="561.25984"
      inkscape:document-units="px"
-     inkscape:current-layer="layer3"
+     inkscape:current-layer="layer12"
      showgrid="false"
      inkscape:window-width="1920"
      inkscape:window-height="1025"
@@ -14331,7 +14331,7 @@
      inkscape:groupmode="layer"
      id="layer3"
      inkscape:label="cards2"
-     style="display:inline">
+     style="display:none">
     <path
        inkscape:connector-curvature="0"
        id="path8274"
@@ -25878,7 +25878,7 @@
      inkscape:groupmode="layer"
      id="layer11"
      inkscape:label="event deck"
-     style="display:none">
+     style="display:inline">
     <path
        d="m 495.7352,397.42527 c -5.5425,0 -9.9999,4.45752 -10,9.99999 v 294.99999 c 0,5.54124 4.4576,9.99999 10,9.99999 l 205.0001,-3e-5 c 5.5412,6e-5 9.9999,-4.45872 9.9999,-9.99996 V 407.42526 c 0,-5.54251 -4.4587,-9.99999 -10,-10.00002 z m 9.745,13.99376 H 690.989 c 5.5412,0 10,4.46248 9.9999,9.99996 v 267.01126 c 1e-4,5.53751 -4.4587,9.99999 -9.9999,9.99999 H 505.4802 c -5.5412,0 -10,-4.46251 -10,-9.99996 V 421.41903 c 0,-5.53752 4.4587,-10.00003 10,-10 z"
        style="display:inline;fill:#e6e6e6;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1"

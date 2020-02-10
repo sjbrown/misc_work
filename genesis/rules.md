@@ -297,9 +297,9 @@ place a marker over that power on your character sheet.
  1. Re-roll - Re-roll **all** the dice in the Dice Pool
  2. Over-dub - take two dice instead of one from the Dice Pool and put
     them both in your square.
- 3. Sustain - at the moment your turn would normally be skipped because
-    the *Song Part* doesn't have an open square for you, place your sustain
-    marker where your square would normally be, and take a turn
+ 3. Barge forward - Move your Player Marker forward on the track to the
+    spotlight, bumping any other player markers along the way directly
+    to the Start position on the stage.
  4. Rock out - Re-roll only **some** of the dice in the Dice Pool. Roll all
     Dice whose values equal those shown by the secondary bubble.
 
@@ -335,8 +335,11 @@ Points in COIN and COMMITMENT can be spent during the Downtime and Studio
 phases. CROWD points can be used to qualify for new Gigs and are critical
 for anyone planning to Go Solo.
 
-At the end of a Gig, players add all of their 10 Chips to the number
-of the spot on the stage their Player Marker is currently on.
+At the end of a Gig, players add together:
+
+ * their 10 Chips
+ * the number of the spot on the stage their Player Marker is currently on
+
 They can distribute those points into their CROWD, COMMITMENT, and COIN,
 depending on their Role.
 Each Role may only distribute individual points into **two**
