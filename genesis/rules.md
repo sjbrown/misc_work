@@ -30,27 +30,49 @@ friends together at a table with the following components.
 
 ### Components
 
- * 15 6-sided dice (it's possible to play the game with 4 if you don't have 15)
- * 15 Meeples (these can be any marker, like coins or glass beads)
- * 15 Goal Circle Markers - small glass beads or coins
- * 7 special dice (if you don't have these, you can still play. Just remove the dice cards from the Write and Riff deck)
-     - 3 Beats dice (faces: 2,2,4,4,4,4)
-     - 2 Melody dice (faces: 1,2,3,4,5,6)
-     - 2 Front dice (faces: 4,5,5,6,7,7)
- * Player Markers
+`TODO: diagram`
+
+ * 15 6-sided dice
+ * 3 special dice (if you don't have these, you can still play. Just remove the dice cards from the Write and Riff deck)
+     - Boom die (faces: 2,2,4,4,4,4)
+     - Stereo die (faces: 1,2,3,4,5,6)
+     - Charm die (faces: 4,5,5,6,7,7)
+ * 15 Meeples (meeples and markers can be coins or glass beads)
+ * 15 Goal Circle Markers
+ * 18 Player Markers (6 each for Beats, Melody and Front)
+ * Deck of Gig cards
+ * Deck of Write and Riff cards
+ * Deck of Event cards
  * Game Board sheet
  * Band sheet
  * Song sheets
  * Character sheets
+ * Score tracking sheet
  * Live the Life / Write and Riff sheet
- * Deck of Gig cards
- * Deck of Write and Riff cards
- * Deck of Event cards
  * 3 Pencils
  * 3 different colored felt-tip pens (optional)
 
 When you draw permanent marks that are role-related, it can be useful to
 use a colored felt-tip pen, with each role assigned a specific color.
+
+**Each player gets:** A character sheet, a pencil, and two Event cards,
+"Chill" and "Go Solo".
+
+Place three Player Markers, Beats, Melody, and Front, at the top of the 
+Game Board sheet in the spot marked Start.
+
+Place three Player Markers, Beats, Melody, and Front, on the 0 spots of
+the Score tracks.
+
+Arrange the Gig cards in a face-up deck, with the unlocked Gigs at the top.
+
+Shuffle the Event deck and place it face-down near the Live the Life track.
+
+Shuffle the Write and Riff deck and place it face-down near the Write and Riff
+market.  Deal out the first 4 Write and Riff cards face-up onto the market
+spaces.
+
+
 
 ### Forming your band
 
@@ -63,39 +85,59 @@ role, braving the top of the stage and interacting with the live audience.
 Decide who will play each role, then take a character sheet and fill in
 some of the blanks:
 
+ * circle your role
  * write down the name of your character
  * decide what specific musical instrument your character plays and write it down
- * circle your role
  * (optional) draw a portrait of your character
- * Live the Life for a cost of 0 COMMITMENT and fill in one bubble in either
-   your Intensity or your Craft track.
 
 Take the Band sheet and give yourselves a band name.
 
 Your band starts its career with one original song. Name the song and write
 it down on the song sheet.
 
+Finally, place a player marker for everyone on the first spot on the Live the
+Life track, and everyone will fill in one bubble on either the Craft or
+Intensity track on their character sheet. The choices are
+"Re-roll" or "Bump It":
+
+ * Re-roll is the first bubble in the Intensity track
+ * Bump It is the first bubble in the Craft track
+
+## The Goal
+
 Your band's career is made up of a series of "Gigs". In this game, you draw
-Gig cards, play a Gig, do a downtime activity, go to the studio, then start
-over again, until the game ends.
+Gig cards, play a Gig, improve your skills, go to the studio, then start
+over again, until, hopefully, you achieve legendary status by going on a
+**World Tour** or headlining at the **Bonchellsquatch Music Festival**!
 
+Every round you will:
 
-## Winning the game
+ * Play a Gig
+ * Get better at music (Write & Riff or Live the Life)
+ * Hold a Band Meeting
+ * Sometimes hire a Producer and enter the Studio
+ * Use your band's Clout to unlock new Gig opportunities
 
 **There are 2 ways to win the game**! You can win as a team, by sticking
 together and *becoming musical legends*, or you can win by unleashing your
 star power, and *going solo* to win all the glory for yourself.
 
-If your band plays a Gig and achieves "✰✰✰✰" as the outcome, the band has
-become musical legends and you all have won the game together.
+If your band reaches the **World Tour** or **Bonchellsquatch Music Festival**
+Gigs and achieves "✰✰✰✰" as the outcome, the band ascended to the halls
+of musical superstardom and you all have won the game together.
 Congratulations!
 
 If instead, during the Band Meeting, any player plays the "Go Solo!"
-card, then the band is broken up they will try to win it for themselves
-by playing the [breaking up the band](#breaking-up-the-band) mini-game.
+card, then the band breaks up and players must try to win the game for
+themselves by playing the [Breaking Up the Band](#breaking-up-the-band)
+mini-game.
 
-If it comes time to play a Gig, but there are no Gig cards to choose from,
-then the game is over and your whole band dwindles into obscurity, their
+Any players that win the Breaking Up the Band mini-game get to use their
+character sheets, with all the Intensity and Craft skills they've acquired,
+in their next game of Genesis of Destiny Supreme!
+
+If it comes time to play a Gig, but your band doesn't qualify for any
+Gigs, then the game is over and your whole band dwindles into obscurity, their
 songs becoming curiosities for a few well-researched DJs.
 
 ## Playing a Gig
@@ -111,14 +153,19 @@ sometimes a cost to get access to the Gig.
 The Gig "Open Mic Night at Vishnu's" has a blank upper right corner,
 meaning there are no requirements.
 
-Every Gig card has a number underneath its title that says how many meeples are
-in the music venue.  Take that many meeples and place them at the "Bar" area on
-the game board.
+Every Gig card has a symbol underneath its title that shows how many meeples
+are in the music venue. Take the number on the center meeple icon and place
+that many meeples next to the Stage.  Take the number on the left meeple icon,
+holding a drink, and place that many meeples in the Bar area. Take the number
+on the right meeple icon, holding a phone, and place that many meeples in
+the Patio area.
+
+For "Open Mic Night at Vishnu's", you will place 3 meeples in the Patio area.
 
 Underneath the number of meeples, the number of songs you must play is written.
 
-Your goal will be to move meeples from the Bar area up to the Stage area,
-moving and grooving to the music.  And you definitely don't want them outside
+Your goal will be to move meeples from the lower areas up to the Stage area,
+moving and grooving to the music. You definitely don't want them outside
 on the Patio area, bored and thinking about their life choices.
 
 The instruction "**move a meeple up**" means move a meeple from the
@@ -133,38 +180,35 @@ Playing "covers", "originals", and "recorded originals" will give you chances
 to move meeples up closer to the stage, but mistakes and bad luck could cause
 them to move further away.
 
-Also, these meeples get thirsty.  Some Gig cards indicates how many meeples will
-move away from the Stage area between songs. These meeples move down
-after every song, whether the song is a cover or an original.  The only way to
-stop meeples from moving down during a lull is to have a player "hog the
-spotlight" (see Playing Originals below).
+### Expert mode: The Lull
+
+These meeples get thirsty. Some Gig cards indicate "The Lull": how many meeples
+will move away from the Stage area between songs. These meeples move down
+after every original song.  The only way to stop meeples from moving down
+during a lull is to have a player "hog the spotlight"
+(see Playing Originals below).
 
 ### Playing Covers
 
+To get the crowd warmed up, you can play some cover songs.
+
 Playing Covers must be done **before** playing any Originals.
 
-To play a cover, one player takes a die, declares the title of the cover
-the band will play, then just rolls the die and reads the result.
+Subtract the number of Original songs you have from the number of songs you
+must play in this Gig, and gather that many dice.
 
-Looking to the Covers section of the Gig card, meeples may move up or down.
+Each die represents a cover song your band will play.  One player rolls
+all these dice and checks to see if any of these succeeded by looking at the
+number under "Covers" on the Gig card. For every die that "succeeds",
+**move a meeple up**.
 
-If the result is **equal to or above** the top number, then a meeple moves **up**.
-If the result is **equal to or below** the bottom number, then a meeple moves **down**.
+For fun, you can declare what cover song each die represents.
 
-### Playing Recorded Originals
+When you're done playing covers, you move on to playing Orignal songs.
 
-Recording your own songs (see Studio phase below) means you've had a lot
-of practice and the hook is familiar to the audience, so you can get
-consistent results.
+You can play your original songs in any order, but if there's disagreement,
+the player with the highest COMMITMENT gets to choose.
 
-If you choose to play a Recorded Original, look to your song sheet where you
-wrote down the Studio results. Just move the number of meeples indicated up,
-then in order from top-to-bottom, move each player's marker around the stage
-the amount indicated, collecting "10 chips" just as you would when playing an
-Original.
-
-You cannot play an original more than once per Gig, whether it is recorded
-or not.
 
 ### Playing Originals
 
@@ -196,20 +240,19 @@ that square *trigger* (see next section).
 > after the die has touched their square. Otherwise, dice cannot be removed
 > from a square until the song is finished.
 
-
-#### Scoring Goal Circles
+#### Goal Circles
 
 The starting four Goal Circles:
 
- * Equals
+ * Equals ⊜
     - Trigger: there are dice on both sides
     - Success: the die on the left *equals* the die on the right
     - Score: the value of one of the adjacent dice
- * Up arrow
+ * Up arrow ↗
     - Trigger: there are dice on both sides
     - Success: the die on the left is *less than* the die on the right
     - Score: the value of the *right* die minus the *left* die
- * Down arrow
+ * Down arrow ↘
     - Trigger: there are dice on both sides
     - Success: the die on the left is *greater than* the die on the right
     - Score: the value of the *left* die minus the *right* die
@@ -222,22 +265,22 @@ The starting four Goal Circles:
 
 If placing a die in the square *triggers* a Goal Circle, and that Goal
 Circle "succeeds", then that Goal Circle scores! It is marked successful,
-and a meeple moves up.
+and **a meeple moves up**.
 
-If a Goal Circle gets triggered, but it does not succeed, a meeple moves
-down.
+If a Goal Circle gets triggered, but it does not succeed, **a meeple moves
+down**.
 
 When you score, move your Player Marker around the Stage. Step your marker
 into the numbered circles, taking one step for every point scored. Once your
-marker "sets foot" in the spotlight, take a "10 Chip" and continue forward.
+marker "*sets foot*" in the spotlight, take a "10 Chip" and continue forward.
 
-Two musicians can't be in the same spot on the stage, so Player Markers
-can't be in the same spot either, so, if there's a Player Marker occupying the
-next spot, just skip over them.
+Just as two musicians can't be in the same spot on the stage, Player Markers
+can't ever be in the same spot either, so, if there's a Player Marker occupying
+the next spot, just skip over them.
 
-For example, if your Player Marker was in the "Start" spot, and another
-player's was in the "3" spot, and you scored 3 points, your marker would
-end up on the "4" spot.
+> For example, if your Player Marker was in the "Start" spot, and another
+> player's was in the "3" spot, and you scored 3 points, your marker would
+> end up on the "4" spot.
 
 If your Player Marker is in the spotlight at the end of your turn, you are
 **hogging the spotlight**.  This has two effects.  Firstly, when other player
@@ -250,10 +293,10 @@ normally would (this includes failed Goal Circles and "The Lull").
 
 After a Goal Circle is triggered and scored, take a Goal Circle Marker
 and place it on the circle. If the goal was successful, place it
-positive-side-up and move a meeple up.
+positive-side-up and remember to **move a meeple up**.
 
 If a Goal Circle was unsuccessful, place the marker negative-side-up and
-move a meeple down.
+remember to **move a meeple down**.
 
 Note, the **Overdub** power makes it possible to place two dice on one square.
 Wait until both dice have scored, then place the marker.
@@ -263,7 +306,7 @@ success criteria.
 #### Finishing the song
 
 For every *Song Part* in the song, this process is repeated: the starting
-player takes 1-3 dice, rolls them, places them in the Dice Pool, then each
+player gathers dice, rolls them, adds them to the Dice Pool, then each
 player with a square in the column chooses and places a die.
 
 After a *Song Part* is complete, there will usually be one unchosen die.
@@ -297,8 +340,8 @@ place a marker over that power on your character sheet.
  1. Re-roll - Re-roll **all** the dice in the Dice Pool
  2. Over-dub - take two dice instead of one from the Dice Pool and put
     them both in your square.
- 3. Bum Rush - Barge forward into the spotlight with your Player Marker,'
-    bumping any other player markers along the way directly
+ 3. Rush the Mic - Move your Player Marker forward on the track to the
+    spotlight, bumping any other player markers along the way directly
     to the Start position on the stage.
  4. Rock out - Re-roll only **some** of the dice in the Dice Pool. Roll all
     Dice whose values equal those shown by the secondary bubble.
@@ -316,16 +359,35 @@ place a marker over that power on your character sheet.
     the secondary bubble and put it beside your character sheet. Place it back
     into the Dice Pool any time during the Gig
 
+
+### Playing Recorded Originals
+
+After a few Gigs and visits to the Studio, you may have had a chance to
+record a song or two. (see Studio phase below)
+
+Since the band has had a lot of practice playing those recorded songs,
+and the hook is familiar to the audience, you can get consistent results.
+
+If you choose to play a Recorded Original, look to your song sheet where you
+wrote down the Studio results. Just move the number of meeples indicated up,
+then in order from top-to-bottom, move each player's marker around the stage
+the amount indicated, collecting "10 chips" just as you would when playing an
+Original.
+
+You cannot play an original more than once per Gig, whether it is recorded
+or not.
+
+
 ### Succeeding or Failing Gigs
 
 Every Gig card has a chart that tells you 3 possible outcomes
 
  1. All the meeples are next to the stage
  2. More meeples are next to the stage than the Bar and Patio
- 3. Fewer meeples are next to the stage than the Bar and Patio
+ 3. Equal or fewer meeples are next to the stage than the Bar and Patio
 
 Next to each symbol are how many points *the Band* will gain or lose.
-Tally the points on your Band Sheet.
+Tally the indicated points on your Band Sheet.
 
 
 ### Distributing your individual score points
@@ -335,21 +397,18 @@ Points in COIN and COMMITMENT can be spent during the Downtime and Studio
 phases. CROWD points can be used to qualify for new Gigs and are critical
 for anyone planning to Go Solo.
 
-At the end of a Gig, players add together:
-
- * their 10 Chips
- * the number of the spot on the stage their Player Marker is currently on
+At the end of a Gig, players add up all their 10 Chips, then add one
+point for each of their successful goal circle markers.
 
 They can distribute those points into their CROWD, COMMITMENT, and COIN,
-depending on their Role.
+depending on their Role. (See the character sheet)
 Each Role may only distribute individual points into **two**
 categories, as shown on the character sheet. For example, the Front player
 may only put their individual score points into COIN or CROWD.
 
-To keep score, collect tokens or move your Player Score Marker along the
-relevant track.
+To keep score, move your Player Score Marker along the relevant track.
 
-Players don't have to show how you are splitting up your points until
+Players don't have to show how you are splitting up points until
 everyone declares that they've finished.
 
 ### Distributing your spotlight score points
@@ -380,8 +439,7 @@ Craft. When you go up a level, fill in an Intensity or Craft bubble on your
 character sheet. A bubble is only allowed to be filled in if all the
 bubbles to its left are filled in.
 
-The first level (which costs 0) should have been taken when the game
-began.
+The first level (which costs 0) should have been taken when the game began.
 
 A player can move up the track multiple spaces if they have enough
 COMMITMENT to spend.
@@ -394,7 +452,7 @@ After you spend COMMITMENT and fill in bubbles, take one Event card.
 Event cards are used during the Band Meeting phase.
 
 Event cards must be kept secret from the other players. Neither the title,
-nor effects may ever be disclosed.
+nor effects may be disclosed.
 
 When the Event deck is empty, the discards are shuffled into a new Event deck
 
@@ -403,11 +461,6 @@ When the Event deck is empty, the discards are shuffled into a new Event deck
 When a musician devotes their downtime to coming up with new song ideas
 and trying out new techniques in the practice room, they emerge ready to
 collaborate on writing new songs.
-
-At the beginning of the game, shuffle the Write and Riff deck, then place
-it face-down to the right of the Write and Riff sheet. Take four cards
-from the top of the deck and place them face-up in the $5, $15, $25, and $35
-slots.
 
 When a player chooses Write and Riff for their downtime phase, they can take
 these actions as many times as they want:
@@ -445,8 +498,8 @@ Then the effects (if any) are executed.
 Players may discuss a plan before choosing an Event card, but
 can not disclose the title or effects of any gained Event cards.
 
-If a "Chill" card is played, it has no effect to execute, unless all three
-players played a "Chill" card, in which case an unlocked Gig card is randomly
+If a "Chill" card is played, it has no effect, *unless all three
+players played a "Chill" card*, in which case an unlocked Gig card is randomly
 chosen and "burnt" (that is, placed back into the box).
 
 If a "Producer" card is played, place it next to the Studio. Now there are
@@ -505,87 +558,86 @@ circle at a position indicated on the card.
 
 ### Record a song
 
-To record a song, pay the recording fee, then, on an existing song sheet,
-copy the meeple movement and player scores above the recording symbol.
+To record a song, pay the recording fee, then, take the meeple movement and
+Player Marker movement numbers shown on the Producer card and copy them to
+the Song Sheet, writing them into the area above the "Vinyl Disc" recording
+symbol.
 
 ## Gig Cards
 
 ### Drawing Gig Cards
 
-At the beginning of the game, split the Gig cards into "locked" and
-"unlocked" decks.
-
 Tastes and trends change in music, and the Gigs that were available last
 week might not be available this week.
 
- * Shuffle the "unlocked" deck.
- * Lay out four Gig cards face-up
- * The player with the most CROWD will now choose one of the
-   face-up Gig cards
+ * The player with the most CROWD chooses one of the unlocked Gig cards
     * If the Gig card has requirements the band must meet them
- * If the band cannot qualify for any of the four Gigs,
-   the band [breaks up](#breaking-up-the-band)
+ * If the band cannot qualify for any of the four Gigs, the band loses the game
 
 ### Meeting Gig Requirements
 
 If a Gig requires a minimum number of CROWD, that is the minimum amount
-of crowd **the band** must have.  If the band doesn't quite have enough
-CROWD for a Gig, band members can bring their friends to the show.
+of crowd **the band** must have.
 
-Band members can voluntarily decrease their CROWD score and increase
-the band's CROWD score that same amount.
+If the band doesn't quite have enough CROWD for a Gig, band members can bring
+their friends to the show.  Band members can voluntarily decrease their
+CROWD score and increase the band's CROWD score that same amount.
 
-Alternatively, that band member can "provide transportation" to get their
-friends to come out.
-
-If the Gig card shows the :minibus: symbol, a player can spend the indicated
-amount of COIN to count *all* of their personal CROWD points against the Gig
-requirements and retain them without transferring them to the band.
-
-**For example**, ....
 
 ## Breaking up the band
 
-A major label is interested in taking each one of you solo. But first you
+A major label is interested in taking each you solo. But first you
 have to prove to them that you can play well and attract an audience.
+
+If only one player flipped a Go Solo card, split into **2 teams**, with
+the other two players playing on the same team. If two players are playing
+as a team, they first combine their current CROWD scores into one *combined*
+CROWD score.
+
+If two or three players flipped a Go Solo card, then it's **everyone for
+themselves**.
 
 ### Step 1 - Choose songs
 
 Your level of commitment will determine who has rights to the original
 songs the band has written.
 
-In order of most COMMITMENT, choose one of the band's original songs, and
+**In order of most COMMITMENT**, choose one of the band's original songs, and
 take it for yourself. If there are no original songs left, you will have
-to play a cover (ie, just roll a single 6-sided die).
+to play a cover (ie, just roll a single 6-sided die, with 5 or 6 counting
+as a success, and anything else counting as a failure).
 
 ### Step 2 - Play your song
 
-Just like when gigging, play the one song you have chosen. But only use
-your character.
-For the missing roles of your former bandmates, you will use "studio
-musicians" - stand-ins who have no Craft nor Intensity powers.
+Just like when gigging, play the one song you have chosen. But for the
+missing roles of your former bandmates, you will use "**studio
+musicians**" - stand-ins under your direction who have no Craft nor Intensity
+powers.
 
 ### Step 3 - Build your fanbase
 
-Add up your individual points from your Player and the studio musicians.
-(Or, if you played a cover, just take the result of your roll)
-Add these points to your CROWD score.
+When your song is over, every successful circle and every "10 chip" counts
+as a point.  Add the points to your CROWD score.
 
-The player with the most CROWD successfully goes solo and wins the game.
-That player may use their character sheet, with all their accumulated
-Craft and Intensity powers when they start their next game of Genesis of
-Destiny Supreme!
+**Every mistake subtracts 5 from your CROWD score.**
 
-If there is a tie for CROWD, all tied players may enjoy those rewards.
+The player(s) with the most CROWD successfully goes solo and wins the game.
+Only they may take their character sheet and use that character in the
+next game of Genesis of Destiny Supreme!
 
 
-<!--
+## Ties
+
+If there is ever a tie, it is broken in this order: Beats, Melody, then Front.
+
+
 # Role-playing Variant
 
-In this variant, there is a 4th player, the GM.  Gig cards are removed from
-the game and instead, the GM presents the band with each gig scenario, and
-declares what goals must be met to get stars or bomb the gig.
+In this variant, there is an additional player, the GM.  Gig cards are removed
+from the game and instead, the GM presents the band with each gig scenario,
+and declares what goals must be met to pass or fail the gig.
 
+<!--
 # Party Game Variant
 
 In the party game variant, you do not use the Gig deck. The win condition
