@@ -160,7 +160,8 @@ holding a drink, and place that many meeples in the Bar area. Take the number
 on the right meeple icon, holding a phone, and place that many meeples in
 the Patio area.
 
-For "Open Mic Night at Vishnu's", you will place 3 meeples in the Patio area.
+For "Open Mic Night at Vishnu's", you will place 2 meeples in the Patio area
+and 3 meeples in the Bar area.
 
 Underneath the number of meeples, the number of songs you must play is written.
 
@@ -569,6 +570,10 @@ symbol.
 
 Tastes and trends change in music, and the Gigs that were available last
 week might not be available this week.
+
+Before choosing a Gig, look at the band's CLOUT score, and add any newly
+unlocked cards to the available selection.  (See the 🔓 symbol on the
+Gig cards)
 
  * The player with the most CROWD chooses one of the unlocked Gig cards
     * If the Gig card has requirements the band must meet them
