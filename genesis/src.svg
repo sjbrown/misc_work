@@ -16,7 +16,10 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.92.3 (2405546, 2018-03-11)"
-   sodipodi:docname="src.svg">
+   sodipodi:docname="src.svg"
+   inkscape:export-filename="/home/sjbrown/misc_work/genesis/dist/the_band.png"
+   inkscape:export-xdpi="145.14"
+   inkscape:export-ydpi="145.14">
   <defs
      id="defs4">
     <linearGradient
@@ -190,11 +193,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.83465193"
-     inkscape:cx="475.20918"
-     inkscape:cy="530.88396"
+     inkscape:zoom="0.59018804"
+     inkscape:cx="-29.041136"
+     inkscape:cy="427.42871"
      inkscape:document-units="px"
-     inkscape:current-layer="layer12"
+     inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:window-width="1920"
      inkscape:window-height="1025"
@@ -237,6 +240,19 @@
       </cc:Work>
     </rdf:RDF>
   </metadata>
+  <g
+     inkscape:groupmode="layer"
+     id="layer16"
+     inkscape:label="white page"
+     sodipodi:insensitive="true">
+    <rect
+       style="fill:#ffffff;fill-opacity:0.90196078;stroke:none;stroke-width:14.39703751;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect11909"
+       width="744.09448"
+       height="1052.3622"
+       x="8.8817842e-16"
+       y="-6.1466281e-08" />
+  </g>
   <g
      inkscape:label="the band"
      inkscape:groupmode="layer"
@@ -18529,7 +18545,7 @@
      inkscape:groupmode="layer"
      id="layer8"
      inkscape:label="Downtime market"
-     style="display:none">
+     style="display:inline">
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;line-height:0%;font-family:Nougat;-inkscape-font-specification:'Nougat Heavy';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -29657,7 +29673,7 @@
      inkscape:groupmode="layer"
      id="layer12"
      inkscape:label="event deck 2"
-     style="display:inline">
+     style="display:none">
     <path
        inkscape:connector-curvature="0"
        id="path5209"
@@ -30181,5 +30197,21 @@
          sodipodi:role="line"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20px;line-height:1.25;font-family:Nougat;-inkscape-font-specification:Nougat;text-align:center;text-anchor:middle;stroke-width:1.99999988px"
          id="tspan12940">scheduling error</tspan></text>
+    <path
+       inkscape:connector-curvature="0"
+       id="path5937"
+       style="display:inline;fill:#e6e6e6;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1"
+       d="m 270.7352,80.55027 c -5.5425,0 -9.9999,4.45752 -10,9.99999 v 294.99999 c 0,5.54124 4.4576,9.99999 10,9.99999 l 205.0001,-3e-5 c 5.5412,6e-5 9.9999,-4.45872 9.9999,-9.99996 V 90.55026 c 0,-5.54251 -4.4587,-9.99999 -10,-10.00002 z m 9.745,13.99376 H 465.989 c 5.5412,0 10,4.46248 9.9999,9.99996 v 267.01126 c 10e-5,5.53751 -4.4587,9.99999 -9.9999,9.99999 H 280.4802 c -5.5412,0 -10,-4.46251 -10,-9.99996 V 104.54403 c 0,-5.53752 4.4587,-10.00003 10,-10 z" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-size:12px;line-height:0%;font-family:Nougat;-inkscape-font-specification:'Nougat Heavy';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="260.3252"
+       y="90.71524"
+       id="text5941"><tspan
+         sodipodi:role="line"
+         id="tspan5939"
+         x="260.3252"
+         y="90.71524"
+         style="font-size:15px;line-height:1.25;stroke-width:1px">Event</tspan></text>
   </g>
 </svg>
