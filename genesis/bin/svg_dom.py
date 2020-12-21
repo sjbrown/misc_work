@@ -1,4 +1,4 @@
-#! /usr/bin/env python
+#! /usr/bin/env python2
 # -*- coding: utf-8 -*-
 
 import os
@@ -14,7 +14,7 @@ DEBUG = 1
 
 def run(cmd):
     if DEBUG:
-        print cmd
+        print(cmd)
     os.system(cmd)
 
 def ensure_dirs(filepath):
@@ -60,7 +60,7 @@ class DOM(object):
 
     def layer_hide(self, layer_label):
         if DEBUG:
-            print 'HIDING LAYER', layer_label
+            print('HIDING LAYER', layer_label)
         self.layers[layer_label].attrib['style'] = 'display:none'
 
     def layer_show(self, layer_label):
@@ -77,8 +77,8 @@ class DOM(object):
 
     def write_file(self, svg_filename):
         if DEBUG:
-            print 'writing file...'
-            print svg_filename
+            print('writing file...')
+            print(svg_filename)
         fp = file(svg_filename, 'w')
         fp.write(etree.tostring(self.dom))
         fp.close()

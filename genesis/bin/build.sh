@@ -7,7 +7,8 @@ if [ `basename $(pwd)` != "genesis" ]; then
   exit 1
 fi
 
-python bin/svg_dom.py src.svg
+python2 bin/svg_dom.py src.svg
+python2 bin/build_cards.py cards.svg
 
 for i in /tmp/genesis*; do
   echo $i
