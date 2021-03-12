@@ -9,6 +9,7 @@ fi
 
 python2 bin/svg_dom.py src.svg
 python2 bin/build_cards.py cards.svg
+python2 bin/build_bandpractice_songs.py new_song.svg
 
 for i in /tmp/genesis*; do
   echo $i
