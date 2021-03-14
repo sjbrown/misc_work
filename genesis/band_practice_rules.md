@@ -48,9 +48,6 @@ so gather two other friends together at a table with the following components.
 Place three Player Markers, Beats, Melody, and Front, at the top of the 
 Game Board sheet in the spot marked Start.
 
-Place three Player Markers, Beats, Melody, and Front, on the 0 spots of
-the Score tracks.
-
 Shuffle the Band Practice deck and place it face-down near the Game Board.
 Flip 2 cards over.
 

@@ -1,0 +1,24 @@
+
+double die 
+ * points should be on the die placed
+ * what do you do on the square afterward?
+    * equals must match both?
+    * equals scores if it matches *a previous die*
+    * equals mistakes if it doesn't match one of the previous dice
+
+Cresendo
+ * upload again
+
+- use "cards" as the new_song
+  - lets you shuffle
+
+Frontman
+ - wait for my turn then take the highest number
+  - pretty boring & easy
+ - opportunity for more cohesive experience
+ - can he have more effect on the Beats player
+ - thematically can decide / drive the tempo
+
+Beats player gets forced into the quarterback role
+
+Can there be a "push your luck" element to making mistakes?
