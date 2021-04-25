@@ -42,6 +42,7 @@ def export_pdf(svg, pdf):
 
 class DOM(object):
     def __init__(self, svg_file):
+        self.filename = svg_file
         fp = file(svg_file)
         c = fp.read()
         fp.close()

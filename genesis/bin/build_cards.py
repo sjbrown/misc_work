@@ -61,11 +61,16 @@ def make_card_back(dom, layer):
     others = [l for l in d.layers if l != layer]
     for o in others:
         d.layer_hide(o)
-    d.layer_show('back_bg')
+    try:
+        d.layer_show('back_bg')
+    except KeyError as e:
+        print(e)
+        print('----')
+        print(dom.filename, 'must have layer back_bg')
     svg_fpath = '{0}/card_{1}.svg'.format(outdir, layer)
     d.write_file(svg_fpath)
     png_fpath = '{0}/card_rect_{1}.png'.format(outdir, layer)
-    svg_dom.export_png(svg_fpath, png_fpath, 825, 1125)
+    svg_dom.export_png(svg_fpath, png_fpath, PIXEL_WIDTH, PIXEL_HEIGHT)
     make_rounded_version(png_fpath, layer)
 
 def make_card_front(dom, layer):
@@ -91,18 +96,31 @@ def make_card_front(dom, layer):
     svg_fpath = '{0}/card_{1}.svg'.format(outdir, layer)
     d.write_file(svg_fpath)
     png_fpath = '{0}/card_rect_{1}.png'.format(outdir, layer)
-    svg_dom.export_png(svg_fpath, png_fpath, 825, 1125)
+    svg_dom.export_png(svg_fpath, png_fpath, PIXEL_WIDTH, PIXEL_HEIGHT)
     make_rounded_version(png_fpath, layer)
 
-if __name__ == '__main__':
+def make_mask_for_rounding():
+    bottomx = int(0.037 * PIXEL_WIDTH)
+    bottomy = bottomx
+    topx = PIXEL_WIDTH - bottomx
+    topy = PIXEL_HEIGHT - bottomy
+    rounding = 50
     svg_dom.ensure_dirs(mask_fpath)
+    print(locals())
     make_mask_cmd = (
-      'convert -size "825"x"1125"'
+      'convert -size "%s"x"%s"' % (PIXEL_WIDTH, PIXEL_HEIGHT)
       + ' xc:none'
-      + ' -draw "roundrectangle 30,30,795,1095,50,50"'
-      + ' {0}'
-    ).format(mask_fpath)
+      + ' -draw "roundrectangle'
+      + ' {bottomx},{bottomy},{topx},{topy},{rounding},{rounding}"'
+      + ' {mask_fpath}'
+    ).format(mask_fpath=mask_fpath, **locals())
     svg_dom.run(make_mask_cmd)
+
+if __name__ == '__main__':
+    PIXEL_WIDTH = int(sys.argv[2]) if len(sys.argv) > 2 else 825
+    PIXEL_HEIGHT = int(sys.argv[3]) if len(sys.argv) > 3 else 1125
+
+    make_mask_for_rounding()
 
     d = svg_dom.DOM(sys.argv[1])
     for layer in sorted(d.layers.keys()):

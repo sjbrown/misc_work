@@ -10,9 +10,18 @@ fi
 python2 bin/svg_dom.py src.svg
 python2 bin/build_cards.py cards.svg
 python2 bin/build_cards.py cards_gods.svg
+python2 bin/build_cards.py song_part_chits.svg 250 250
+python2 bin/build_cards.py song_part_ovals_h.svg 250 250
+python2 bin/build_cards.py song_part_ovals_v.svg 250 250
 python2 bin/build_bandpractice_songs.py new_song.svg
 python2 bin/build_deck.py god
 python2 bin/build_deck.py practice
+python2 bin/build_deck.py gig
+python2 bin/build_deck.py spite
+python2 bin/build_deck.py write
+python2 bin/build_deck.py write_beats
+python2 bin/build_deck.py write_melody
+python2 bin/build_deck.py write_front
 
 for i in /tmp/genesis*; do
   echo $i
