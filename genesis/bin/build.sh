@@ -17,8 +17,8 @@ python2 bin/build_bandpractice_songs.py new_song.svg
 python2 bin/build_deck.py god
 python2 bin/build_deck.py practice
 python2 bin/build_deck.py gig
-python2 bin/build_deck.py spite
-python2 bin/build_deck.py write
+python2 bin/build_deck.py stress
+python2 bin/build_deck.py write_all
 python2 bin/build_deck.py write_beats
 python2 bin/build_deck.py write_melody
 python2 bin/build_deck.py write_front
