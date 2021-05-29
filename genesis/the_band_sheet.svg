@@ -29,14 +29,14 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.7"
-     inkscape:cx="-64.066486"
+     inkscape:cx="252.36209"
      inkscape:cy="466.86168"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
-     inkscape:window-width="1848"
+     inkscape:window-width="1920"
      inkscape:window-height="1016"
-     inkscape:window-x="72"
+     inkscape:window-x="0"
      inkscape:window-y="27"
      inkscape:window-maximized="1" />
   <metadata
@@ -78,7 +78,7 @@
        id="rect4296-6"
        width="40"
        height="29.999998"
-       x="148.77617"
+       x="222.85957"
        y="231.87773"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300" />
@@ -116,7 +116,7 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.77333307px;line-height:0%;font-family:'Komika Display Tight';-inkscape-font-specification:'Komika Display Tight';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.56444442px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="158.86417"
+       x="232.94757"
        y="272.41345"
        id="text4308-2"
        inkscape:export-xdpi="300"
@@ -124,7 +124,7 @@
          style="font-size:8.46666622px;line-height:1.25;stroke-width:0.56444442px"
          sodipodi:role="line"
          id="tspan4310-0"
-         x="158.86417"
+         x="232.94757"
          y="272.41345">CLOUT</tspan></text>
     <g
        id="g6167"
@@ -161,7 +161,7 @@
     </g>
     <rect
        y="232.87767"
-       x="149.77618"
+       x="223.85959"
        height="28"
        width="38"
        id="rect4373-8"
