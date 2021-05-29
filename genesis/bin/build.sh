@@ -8,5 +8,8 @@ if [ `basename $(pwd)` != "genesis" ]; then
 fi
 
 bin/build_components.sh
+
+scp build/*png sjbrowngeeky@ezide.com:/home/sjbrowngeeky/ezide.com/GoDS/
+
 bin/build_pdfs.sh
 

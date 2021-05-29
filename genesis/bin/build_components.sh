@@ -7,11 +7,14 @@ if [ `basename $(pwd)` != "genesis" ]; then
   exit 1
 fi
 
+mkdir -p build
+
 python2 bin/svg_dom.py src.svg
 python2 bin/build_cards.py cards.svg
 python2 bin/build_cards.py cards_gods.svg
 python2 bin/build_cards.py song_part_chits.svg 250 250
 python2 bin/build_cards.py meep_tokens.svg 250 250
+cp /tmp/genesis$VERSION
 python2 bin/build_cards.py song_part_ovals_h.svg 250 250
 python2 bin/build_cards.py song_part_ovals_v.svg 250 250
 python2 bin/build_bandpractice_songs.py new_song.svg
@@ -29,6 +32,3 @@ for i in /tmp/genesis*; do
 done
 
 source bin/version.py
-
-mkdir build
-mv /tmp/genesis$VERSION/build_deck_* build/
