@@ -11,6 +11,7 @@ python2 bin/svg_dom.py src.svg
 python2 bin/build_cards.py cards.svg
 python2 bin/build_cards.py cards_gods.svg
 python2 bin/build_cards.py song_part_chits.svg 250 250
+python2 bin/build_cards.py meep_tokens.svg 250 250
 python2 bin/build_cards.py song_part_ovals_h.svg 250 250
 python2 bin/build_cards.py song_part_ovals_v.svg 250 250
 python2 bin/build_bandpractice_songs.py new_song.svg
@@ -31,8 +32,8 @@ source bin/version.py
 
 sed -e "s/VERSION/$VERSION/" rules.md > /tmp/rules.md
 
-# To handle emoji --latex-engine=xelatex is necessary
-pandoc --latex-engine=xelatex -V 'mainfont:DejaVu Sans' /tmp/rules.md -o /tmp/genesis_rules.pdf
+# To handle emoji --pdf-engine=xelatex is necessary
+pandoc --pdf-engine=xelatex -V 'mainfont:DejaVu Sans' /tmp/rules.md -o /tmp/genesis_rules.pdf
 
 # since pdftk is installed via snap, it can't access /tmp.
 rm -f $HOME/tmp/genesis*.pdf
