@@ -10,7 +10,7 @@ from collections import defaultdict
 sys.path.append('/usr/share/inkscape/extensions/')
 from version import VERSION
 
-DEBUG = 1
+DEBUG = os.environ.get('DEBUG',None)
 
 def run(cmd):
     if DEBUG:
@@ -87,15 +87,10 @@ class DOM(object):
 
 
 if __name__ == '__main__':
-    d = DOM(sys.argv[1])
-    i = 0
+    fpath = os.path.abspath(sys.argv[1])
+    fbasename = os.path.basename(sys.argv[1])
+    d = DOM(fpath)
     for layer in sorted(d.layers.keys()):
-        i += 1
         d.layer_show(layer)
-        others = [l for l in d.layers if l != layer]
-        for o in others:
-            d.layer_hide(o)
-        svg_fpath = '/tmp/genesis%s.svg' % i
-        pdf_fpath = '/tmp/genesis%s.pdf' % i
-        d.write_file(svg_fpath)
-        export_pdf(svg_fpath, pdf_fpath)
+    pdf_fpath = './build/%s' % (fbasename.replace('.svg', '.pdf'))
+    export_pdf(fpath, pdf_fpath)

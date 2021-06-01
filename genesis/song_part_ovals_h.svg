@@ -26,14 +26,14 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="2.699938"
-     inkscape:cx="-26.726164"
+     inkscape:cx="-71.542008"
      inkscape:cy="76.844584"
      inkscape:document-units="mm"
-     inkscape:current-layer="layer17"
+     inkscape:current-layer="layer14"
      showgrid="false"
-     inkscape:window-width="1848"
+     inkscape:window-width="1920"
      inkscape:window-height="1016"
-     inkscape:window-x="72"
+     inkscape:window-x="0"
      inkscape:window-y="27"
      inkscape:window-maximized="1"
      inkscape:snap-bbox="true"
@@ -180,7 +180,7 @@
   <g
      inkscape:groupmode="layer"
      id="layer6"
-     inkscape:label="freddie1"
+     inkscape:label="oval_freddie1"
      style="display:none"
      sodipodi:insensitive="true">
     <g
@@ -205,7 +205,7 @@
   <g
      inkscape:groupmode="layer"
      id="layer7"
-     inkscape:label="back_freddie1"
+     inkscape:label="back_oval_freddie1"
      style="display:none">
     <g
        id="g35652"
@@ -228,7 +228,7 @@
   <g
      inkscape:groupmode="layer"
      id="layer16"
-     inkscape:label="flourish1"
+     inkscape:label="oval_flourish1"
      style="display:none">
     <g
        style="display:inline"
@@ -256,7 +256,7 @@
   <g
      inkscape:groupmode="layer"
      id="layer17"
-     inkscape:label="back_flourish">
+     inkscape:label="back_oval_flourish">
     <g
        style="display:inline"
        id="g13169-2"
@@ -283,7 +283,7 @@
   <g
      inkscape:groupmode="layer"
      id="layer15"
-     inkscape:label="thank1"
+     inkscape:label="oval_thank1"
      style="display:none">
     <g
        style="display:inline"
@@ -330,7 +330,7 @@
   <g
      inkscape:groupmode="layer"
      id="layer14"
-     inkscape:label="back_thank"
+     inkscape:label="back_oval_thank"
      style="display:none">
     <g
        style="display:inline"

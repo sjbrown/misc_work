@@ -26,14 +26,14 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="4"
-     inkscape:cx="36.882468"
-     inkscape:cy="50.428011"
+     inkscape:cx="7.132468"
+     inkscape:cy="49.428011"
      inkscape:document-units="mm"
-     inkscape:current-layer="layer13"
+     inkscape:current-layer="layer9"
      showgrid="false"
-     inkscape:window-width="1848"
+     inkscape:window-width="1920"
      inkscape:window-height="1016"
-     inkscape:window-x="72"
+     inkscape:window-x="0"
      inkscape:window-y="27"
      inkscape:window-maximized="1"
      inkscape:snap-bbox="true"
@@ -207,19 +207,19 @@
   <g
      inkscape:groupmode="layer"
      id="layer3"
-     inkscape:label="blank1"
+     inkscape:label="chitblank1"
      style="display:none"
      transform="translate(0,-16)" />
   <g
      inkscape:groupmode="layer"
      id="layer12"
-     inkscape:label="back_blank"
+     inkscape:label="back_chitblank"
      sodipodi:insensitive="true"
      style="display:none" />
   <g
      inkscape:groupmode="layer"
      id="layer4"
-     inkscape:label="beats1"
+     inkscape:label="chitbeats1"
      transform="translate(0,-16)"
      style="display:none">
     <g
@@ -256,7 +256,7 @@
   <g
      inkscape:groupmode="layer"
      id="layer5"
-     inkscape:label="back_beats"
+     inkscape:label="back_chitbeats"
      style="display:none">
     <g
        id="g23519"
@@ -306,7 +306,7 @@
   <g
      inkscape:groupmode="layer"
      id="layer6"
-     inkscape:label="melody1"
+     inkscape:label="chitmelody1"
      style="display:none">
     <g
        transform="matrix(0.21370746,0,0,0.21370746,-83.592052,-69.666091)"
@@ -328,7 +328,7 @@
   <g
      inkscape:groupmode="layer"
      id="layer10"
-     inkscape:label="melody2"
+     inkscape:label="chitmelody2"
      style="display:none">
     <g
        transform="matrix(0.21370746,0,0,0.21370746,-129.86765,-78.853993)"
@@ -350,7 +350,7 @@
   <g
      inkscape:groupmode="layer"
      id="layer7"
-     inkscape:label="back_melody1"
+     inkscape:label="back_chitmelody1"
      style="display:none">
     <g
        id="g33234"
@@ -399,7 +399,7 @@
   <g
      inkscape:groupmode="layer"
      id="layer11"
-     inkscape:label="back_melody2"
+     inkscape:label="back_chitmelody2"
      style="display:none">
     <g
        id="g33189"
@@ -448,7 +448,7 @@
   <g
      inkscape:groupmode="layer"
      id="layer8"
-     inkscape:label="front1"
+     inkscape:label="chitfront1"
      style="display:none">
     <g
        transform="matrix(0.21370746,0,0,0.21370746,-180.7798,-35.450175)"
@@ -476,7 +476,7 @@
   <g
      inkscape:groupmode="layer"
      id="layer9"
-     inkscape:label="back_front"
+     inkscape:label="back_chitfront"
      style="display:none">
     <g
        id="g33144"

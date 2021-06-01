@@ -10,8 +10,8 @@
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="210mm"
-   height="297mm"
-   viewBox="0 0 210 297"
+   height="90mm"
+   viewBox="0 0 210 90"
    version="1.1"
    id="svg16197"
    inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
@@ -29,8 +29,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.98994949"
-     inkscape:cx="393.8681"
-     inkscape:cy="574.56689"
+     inkscape:cx="507.38498"
+     inkscape:cy="97.50438"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -56,18 +56,19 @@
   <g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
-     id="layer1">
+     id="layer1"
+     transform="translate(0,-207)">
     <rect
        style="opacity:1;fill:#f9f9f9;fill-opacity:1;stroke:none;stroke-width:1.42494273;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect17439"
        width="200.53455"
        height="80.391045"
-       x="4.5428386"
-       y="83.18438" />
+       x="0"
+       y="216.32674" />
     <g
        style="display:inline"
        id="g17713"
-       transform="matrix(0.28222223,0,0,0.28222223,3.0773776,57.516725)">
+       transform="matrix(0.28222223,0,0,0.28222223,-1.465461,190.65908)">
       <g
          style="display:inline"
          id="g17274"
@@ -1408,8 +1409,8 @@
       </g>
     </g>
     <rect
-       y="87.904915"
-       x="38.203091"
+       y="221.04727"
+       x="33.660252"
        height="15"
        width="15"
        id="rect10690"
@@ -1419,10 +1420,10 @@
        id="rect10748"
        width="14"
        height="14"
-       x="38.703087"
-       y="88.404915" />
+       x="34.160248"
+       y="221.54727" />
     <g
-       transform="matrix(0.28222223,0,0,0.28222223,2.1561502,-125.46073)"
+       transform="matrix(0.28222223,0,0,0.28222223,-2.3866884,7.6816208)"
        style="display:inline"
        id="g7503-2">
       <path
