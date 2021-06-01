@@ -18,12 +18,17 @@ python2 bin/build_new_song.py new_song.svg
 python2 bin/build_garage_and_studio.py
 python2 bin/build_png.py character_sheet.svg 2479 1063
 python2 bin/build_png.py first_song_sheet.svg 2331 1906
+python2 bin/build_png.py crowd_track.svg 3508 2480
+python2 bin/build_png.py band_meeting.svg 3508 2480
 
 python2 bin/build_cards.py cards.svg
 python2 bin/build_cards.py cards_gods.svg
 
 python2 bin/build_cards.py song_part_chits.svg 250 250
 cp /tmp/genesis$VERSION/card_rect_chit*png ./build/
+
+python2 bin/build_cards.py van_token.svg 250 250
+cp /tmp/genesis$VERSION/card_rect_van*png ./build/
 
 python2 bin/build_cards.py meep_tokens.svg 250 250
 cp /tmp/genesis$VERSION/card_rect_meep*png ./build/
