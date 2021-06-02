@@ -31,7 +31,7 @@ def make_front(dom, layer):
     svg_dom.export_png(svg_fpath, png_fpath, 2406, 1156)
 
 if __name__ == '__main__':
-    d = svg_dom.DOM(sys.argv[1])
+    d = svg_dom.DOM('songs.svg')
     for layer in sorted(d.layers.keys()):
         print('-'*40)
         print('     ' + layer)
