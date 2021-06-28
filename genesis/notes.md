@@ -1,3 +1,11 @@
+# Pitch:
+
+Genesis of Destiny Supreme is the game about being in a rock band that
+might break up! You and your bandmates play gigs via a dice-drafting
+mechanism and improve your characters, aiming to headline the
+Bonchellsquatch Music Festival and win the game. Looming over every round
+though is the possibility that one of your fellow bandmates might break up
+the band and try to win by "Going Solo"
 
 # 4th-level powers
 
