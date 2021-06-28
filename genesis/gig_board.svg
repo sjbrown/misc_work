@@ -28,8 +28,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.60281706"
-     inkscape:cx="758.27772"
-     inkscape:cy="376.04627"
+     inkscape:cx="523.57555"
+     inkscape:cy="314.73558"
      inkscape:document-units="mm"
      inkscape:current-layer="layer2"
      showgrid="false"
@@ -1365,7 +1365,7 @@
        sodipodi:nodetypes="cc" />
     <path
        style="display:inline;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Mend-7-2)"
-       d="M 38.182367,128.30424 C 38.607372,90.053743 28.559293,30.710216 164.84201,32.66136"
+       d="M 38.182367,128.30424 C 38.607372,90.053743 54.674527,30.051849 116.12283,31.344626"
        id="path20795-6-5"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc" />
@@ -1617,6 +1617,31 @@
            inkscape:connector-curvature="0" />
       </g>
     </g>
+    <rect
+       ry="2"
+       rx="2"
+       y="19.775284"
+       x="118.50614"
+       height="20.326935"
+       width="46.582546"
+       id="rect7186"
+       style="display:inline;fill:#ffffff;fill-opacity:1;stroke:#cccccc;stroke-width:0.66145831;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    <text
+       id="text7192"
+       y="28.234133"
+       x="141.65727"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444447px;line-height:0%;font-family:'Komika Display Tight';-inkscape-font-specification:'Komika Display Tight';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.56444442px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         id="tspan7190"
+         y="28.234133"
+         x="141.65727"
+         sodipodi:role="line"
+         style="font-size:5.64444447px;line-height:1.25;text-align:center;text-anchor:middle;stroke-width:0.56444442px">Decide Gig and</tspan><tspan
+         y="35.289688"
+         x="141.65727"
+         sodipodi:role="line"
+         style="font-size:5.64444447px;line-height:1.25;text-align:center;text-anchor:middle;stroke-width:0.56444442px"
+         id="tspan7202">songs</tspan></text>
   </g>
   <g
      inkscape:groupmode="layer"
