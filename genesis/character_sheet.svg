@@ -28,9 +28,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.4"
-     inkscape:cx="273.7335"
-     inkscape:cy="99.848639"
+     inkscape:zoom="0.98994949"
+     inkscape:cx="157.53064"
+     inkscape:cy="232.1501"
      inkscape:document-units="mm"
      inkscape:current-layer="layer2"
      showgrid="false"
@@ -948,11 +948,11 @@
     <text
        id="text17372"
        y="254.21619"
-       x="92.497772"
+       x="97.789436"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.38666677px;line-height:0%;font-family:'Komika Display Tight';-inkscape-font-specification:'Komika Display Tight';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.28222224px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        xml:space="preserve"><tspan
          y="254.21619"
-         x="92.497772"
+         x="97.789436"
          id="tspan17370"
          sodipodi:role="line"
          style="font-size:4.23333359px;line-height:1.25;stroke-width:0.28222224px">Craft</tspan></text>
@@ -1134,7 +1134,7 @@
     </g>
     <g
        id="g6488"
-       transform="translate(26.40426,-9.8377941)">
+       transform="translate(31.695927,-9.8377941)">
       <rect
          ry="1.128889"
          rx="1.128889"
@@ -1257,7 +1257,7 @@
     </g>
     <g
        id="g6502"
-       transform="translate(11.735613,2.3317007)">
+       transform="translate(17.02728,2.3317007)">
       <rect
          ry="1.128889"
          rx="1.128889"
@@ -1334,7 +1334,7 @@
     </g>
     <g
        id="g6467"
-       transform="translate(41.072905,-22.00729)">
+       transform="translate(46.364572,-22.00729)">
       <rect
          ry="1.128889"
          rx="1.128889"
@@ -1498,17 +1498,17 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.38666677px;line-height:0%;font-family:'Komika Display Tight';-inkscape-font-specification:'Komika Display Tight';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.28222224px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="112.35573"
+       x="122.93906"
        y="254.21619"
        id="text45522"><tspan
          style="font-size:4.23333359px;line-height:1.25;stroke-width:0.28222224px"
          sodipodi:role="line"
          id="tspan45520"
-         x="112.35573"
-         y="254.21619">Special Die</tspan></text>
+         x="122.93906"
+         y="254.21619">Special Dice</tspan></text>
     <g
        id="g6514"
-       transform="translate(-21.838962,-15.367394)">
+       transform="translate(-11.255628,-15.367394)">
       <rect
          ry="1.128889"
          rx="1.128889"
@@ -1613,5 +1613,75 @@
          x="155.92899"
          y="246.27559"
          id="tspan6538">3</tspan></text>
+    <rect
+       ry="1.128889"
+       rx="1.128889"
+       y="275.69687"
+       x="127.1133"
+       height="10"
+       width="10"
+       id="rect4676"
+       style="display:inline;opacity:1;fill:#808080;fill-opacity:1;stroke:none;stroke-width:0.28222224;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    <rect
+       style="display:inline;opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.28222224;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect4678"
+       width="9"
+       height="9"
+       x="127.6133"
+       y="276.19687"
+       rx="1.1290001"
+       ry="1.128889" />
+    <g
+       transform="rotate(-15,189.39543,-8.9083302)"
+       id="g4692">
+      <path
+         inkscape:connector-curvature="0"
+         id="path4686"
+         d="m 59.872262,253.02174 2.259661,2.73955 -2.719572,1.73743 -2.461638,-2.98442 z"
+         style="fill:#ffffff;fill-rule:evenodd;stroke:#000000;stroke-width:0.28222224px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path4688"
+         d="m 59.412351,257.49872 -0.310438,1.948 2.095264,-1.44816 0.934746,-2.23727 z"
+         style="fill:#666666;fill-rule:evenodd;stroke:#000000;stroke-width:0.28222224px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path4690"
+         d="m 56.950713,254.5143 0.311187,2.70164 1.840013,2.23078 0.310438,-1.948 z"
+         style="fill:#cccccc;fill-rule:evenodd;stroke:#000000;stroke-width:0.28222224px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" />
+    </g>
+    <text
+       id="text4700"
+       y="270.62033"
+       x="126.11407"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.38666677px;line-height:0%;font-family:'Komika Display Tight';-inkscape-font-specification:'Komika Display Tight';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.28222224px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         y="270.62033"
+         x="126.11407"
+         id="tspan4698"
+         sodipodi:role="line"
+         style="font-size:4.23333359px;line-height:1.25;stroke-width:0.28222224px">Role die</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.38666677px;line-height:0%;font-family:'Komika Display Tight';-inkscape-font-specification:'Komika Display Tight';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.28222224px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="126.11407"
+       y="288.612"
+       id="text4704"><tspan
+         style="font-size:4.23333359px;line-height:1.25;stroke-width:0.28222224px"
+         sodipodi:role="line"
+         id="tspan4702"
+         x="126.11407"
+         y="288.612">Song die</tspan></text>
+    <g
+       aria-label="s"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93888855px;line-height:1.25;font-family:Nougat;-inkscape-font-specification:Nougat;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       id="text4718"
+       transform="translate(10.370722,0.61421131)">
+      <path
+         d="m 122.94465,279.58705 q 0,-0.28151 -0.23707,-0.46919 -0.15804,-0.11854 -0.43956,-0.22719 -0.23706,-0.0889 -0.23706,-0.14323 0,-0.10372 0.12841,-0.10372 0.16792,0 0.4445,0.2025 l 0.23212,-0.72602 q -0.44943,-0.26176 -0.91369,-0.26176 -0.19756,0 -0.36548,0.0593 -0.16298,0.0543 -0.28151,0.16298 -0.11854,0.10866 -0.18274,0.2667 -0.0642,0.15311 -0.0642,0.34572 0,0.2914 0.23213,0.47908 0.14817,0.11853 0.43462,0.21731 0.23213,0.084 0.23213,0.12347 0,0.12347 -0.15311,0.12347 -0.17286,0 -0.54821,-0.22719 l -0.2025,0.79516 q 0.5581,0.19756 0.96309,0.19756 0.41486,0 0.67168,-0.19756 0.28646,-0.21237 0.28646,-0.61736 z"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Nougat;-inkscape-font-specification:Nougat;stroke-width:0.26458332"
+         id="path4720"
+         inkscape:connector-curvature="0" />
+    </g>
   </g>
 </svg>
