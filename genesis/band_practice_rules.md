@@ -1,4 +1,4 @@
-# Genesis of Destiny Supreme! Band Practice
+# Rockumentary! Band Practice
 
 Credits:
 https://github.com/sjbrown/misc_work/tree/master/genesis#credits
@@ -25,7 +25,7 @@ Thanks again!
 
 ## Set up
 
-Genesis of Destiny Supreme! : Band Practice is a game for 3 players,
+Rockumentary! : Band Practice is a game for 3 players,
 so gather two other friends together at a table with the following components.
 
 ### Components

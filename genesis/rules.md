@@ -1,4 +1,4 @@
-# Genesis of Destiny Supreme!
+# Rockumentary!
 
 Credits:
 https://github.com/sjbrown/misc_work/tree/master/genesis#credits
@@ -25,7 +25,7 @@ Thanks again!
 
 ## Set up
 
-Genesis of Destiny Supreme! is a game for 3 players, so gather two other
+Rockumentary! is a game for 3 players, so gather two other
 friends together at a table with the following components.
 
 ### Components
@@ -134,7 +134,7 @@ mini-game.
 
 Any players that win the Breaking Up the Band mini-game get to use their
 character sheets, with all the Intensity and Craft skills they've acquired,
-in their next game of Genesis of Destiny Supreme!
+in their next game of Rockumentary!
 
 If it comes time to play a Gig, but your band doesn't qualify for any
 Gigs, then the game is over and your whole band dwindles into obscurity, their
@@ -628,7 +628,7 @@ as a point.  Add the points to your CROWD score.
 
 The player(s) with the most CROWD successfully goes solo and wins the game.
 Only they may take their character sheet and use that character in the
-next game of Genesis of Destiny Supreme!
+next game of Rockumentary!
 
 
 ## Ties
